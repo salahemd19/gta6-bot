@@ -1,0 +1,8 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><title>Authorisation code</title>
+<style>body{font:16px system-ui;background:#0e0b1a;color:#f4efff;padding:40px}code{background:#241d3d;padding:6px 10px;border-radius:6px;word-break:break-all}</style></head>
+<body><h1>Authorisation received</h1>
+<p>Copy this code back into the terminal:</p>
+<p><code id="c">(no code in the URL)</code></p>
+<script>const p=new URLSearchParams(location.search);document.getElementById('c').textContent=p.get('code')||'(no code in the URL)';</script>
+</body></html>
