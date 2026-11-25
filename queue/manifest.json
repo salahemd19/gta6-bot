@@ -46,17 +46,5 @@
         "slot":  "2026-11-26T17:30:00+00:00",
         "youtube":  "hold: waiting for YouTube API audit (API uploads stay private until then)",
         "tiktok":  "hold: waiting for TikTok app approval"
-    },
-    {
-        "id":  "leonida_sans_limites",
-        "video_url":  "https://github.com/salahemd19/gta6-bot/releases/download/videos/chaos.mp4",
-        "title":  "LEONIDA 🌊 sans limites : GTA 6 en 24 secondes (images officielles)",
-        "youtube_description":  "Jet-ski, plage et chaos à Leonida. Images officielles Rockstar Games, montage fan non officiel.\n\n#GTA6 #GTAVI #Leonida #Shorts",
-        "tiktok_caption":  "LEONIDA 🌊 sans limites : GTA 6 en 24 secondes (images officielles) #GTA6 #GTA6FR #GTAVI #Leonida #ViceCity #pourtoi #fyp",
-        "youtube_privacy":  "public",
-        "score":  8,
-        "slot":  "2026-11-26T19:30:00+00:00",
-        "youtube":  "hold: waiting for YouTube API audit (API uploads stay private until then)",
-        "tiktok":  "hold: waiting for TikTok app approval"
     }
 ]

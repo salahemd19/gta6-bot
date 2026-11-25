@@ -37,3 +37,6 @@ Facts on screen come only from official sources and are written in the database 
 ## 6. Learn
 - Views, likes and watch time per video are logged twice a day; the best templates, shots, hooks and music
   get more weight, the worst are retired.
+
+## Hard rule: unique scenes
+Every video uses its own GTA 6 shots. A shot (or scene) used in one video is never used in another. `trailer_montage.py --id <video>` checks `shots_used.json` and refuses any overlap. If the clean-shot pool runs out, source more official footage instead of reusing. No filler videos.
