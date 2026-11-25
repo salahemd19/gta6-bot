@@ -3,3 +3,5 @@ __pycache__/
 .env
 *.json.bak
 yt_token.json
+
+tiktok_sandbox.env
