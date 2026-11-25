@@ -8,8 +8,8 @@
         "youtube_privacy":  "public",
         "score":  9,
         "slot":  "2026-11-26T06:30:00+00:00",
-        "youtube":  "hold: waiting for YouTube API audit (API uploads stay private until then)",
-        "tiktok":  "hold: waiting for TikTok app approval"
+        "youtube":  "retired: trailer footage, replaced by Kick gameplay clips",
+        "tiktok":  "retired: trailer footage, replaced by Kick gameplay clips"
     },
     {
         "id":  "leonida_nuit_golden",
@@ -20,7 +20,7 @@
         "youtube_privacy":  "public",
         "score":  8,
         "slot":  "2026-11-25T20:30:00+00:00",
-        "youtube":  "hold: waiting for YouTube API audit (API uploads stay private until then)",
+        "youtube":  "retired: trailer footage, replaced by Kick gameplay clips",
         "tiktok":  "posted 2026-11-24T22:20+00:00"
     },
     {
@@ -32,8 +32,8 @@
         "youtube_privacy":  "public",
         "score":  9,
         "slot":  "2026-11-26T11:15:00+00:00",
-        "youtube":  "hold: waiting for YouTube API audit (API uploads stay private until then)",
-        "tiktok":  "hold: waiting for TikTok app approval"
+        "youtube":  "retired: trailer footage, replaced by Kick gameplay clips",
+        "tiktok":  "retired: trailer footage, replaced by Kick gameplay clips"
     },
     {
         "id":  "leonida_visages",
@@ -44,7 +44,7 @@
         "youtube_privacy":  "public",
         "score":  8,
         "slot":  "2026-11-26T17:30:00+00:00",
-        "youtube":  "hold: waiting for YouTube API audit (API uploads stay private until then)",
-        "tiktok":  "hold: waiting for TikTok app approval"
+        "youtube":  "retired: trailer footage, replaced by Kick gameplay clips",
+        "tiktok":  "retired: trailer footage, replaced by Kick gameplay clips"
     }
 ]
