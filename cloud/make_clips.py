@@ -85,7 +85,12 @@ def main():
         if r.returncode or not meta.exists():
             print(slug, "clipping failed")
             continue
-        for c in json.loads(meta.read_text(encoding="utf-8")):
+        used = []  # unique scenes: never two clips sharing any footage
+        for c in sorted(json.loads(meta.read_text(encoding="utf-8")), key=lambda x: -x["score"]):
+            if any(c["start"] < e and c["end"] > s0 for s0, e in used):
+                print(slug, c["file"], "rejected (overlaps another clip)")
+                continue
+            used.append((c["start"], c["end"]))
             f = d / "clips" / c["file"]
             m = motion(f)
             if m < 6.0 or BAD.search(c["transcript"]):
