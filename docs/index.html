@@ -24,6 +24,18 @@
       <li>L'accès au compte est donné une seule fois par le propriétaire (OAuth) et peut être retiré à tout moment.</li>
     </ul>
   </div>
+  <div class="card">
+    <strong>Connexion du propriétaire / Owner sign-in</strong>
+    <p>Le propriétaire autorise l'application une seule fois sur son propre compte TikTok (Login Kit). Les scopes demandés : <code>user.info.basic</code>, <code>video.upload</code>, <code>video.publish</code>.</p>
+    <p><a id="connect" href="#" style="display:inline-block;background:#fe2c55;color:#fff;padding:10px 18px;border-radius:8px;text-decoration:none;font-weight:600">Se connecter avec TikTok</a></p>
+  </div>
+  <script>
+    (function(){
+      var ck=new URLSearchParams(location.search).get('ck')||'sbaw8hofs2cwjnzko2';
+      var ru=location.origin+location.pathname.replace(/[^\/]*$/,'')+'callback.html';
+      document.getElementById('connect').href='https://www.tiktok.com/v2/auth/authorize/?client_key='+encodeURIComponent(ck)+'&scope='+encodeURIComponent('user.info.basic,video.upload,video.publish')+'&response_type=code&redirect_uri='+encodeURIComponent(ru)+'&state=owner';
+    })();
+  </script>
   <p>Chaîne fan non officielle, non affiliée à Rockstar Games ni à Take-Two Interactive. Les images de GTA VI appartiennent à Rockstar Games.</p>
   <p><a href="terms.html">Conditions d'utilisation</a> · <a href="privacy.html">Politique de confidentialité</a></p>
   <hr style="border-color:#2b2446">
