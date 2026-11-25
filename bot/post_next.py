@@ -17,7 +17,7 @@ import tiktok
 import yt
 
 MANIFEST = Path("queue/manifest.json")
-CAPS = {"youtube": 4, "tiktok": 8}
+CAPS = {"youtube": 8, "tiktok": 8}
 
 
 def now():
