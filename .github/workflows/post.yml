@@ -2,7 +2,7 @@ name: post-next
 
 on:
   schedule:
-    - cron: "17 */2 * * *"   # every 2 hours, day and night (UTC)
+    - cron: "7,37 * * * *"   # every 30 minutes (UTC) so posts land close to their hot slot
   workflow_dispatch: {}
 
 permissions:
