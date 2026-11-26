@@ -8,8 +8,8 @@
   },
   "produce": {
    "failures": 0,
-   "last_ok": "2026-11-26T23:11:11+00:00",
-   "result": "waiting: 3 approved clips ready, 3 needed",
+   "last_ok": "2026-11-26T23:33:02+00:00",
+   "result": "waiting: no licensed music file on this machine (music/files), so nothing is produced without music",
    "error": null
   },
   "calendar": {
