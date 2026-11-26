@@ -1,6 +1,6 @@
 """Post the next due video(s) from queue/manifest.json to YouTube and TikTok (runs in GitHub Actions every 2 hours).
 
-Rules: at most 1 post per platform per run; rolling 24 h caps (YouTube 4, TikTok 8); a platform that errors is
+Rules: at most 1 post per platform per run; rolling 24 h caps (YouTube 8, TikTok 12); rights gate (owned/licensed/permission_granted only); a platform that errors is
 marked 'failed: ...' and retried on the next run (max 3 attempts); nothing is deleted.
 """
 import datetime as dt
@@ -18,19 +18,29 @@ import tiktok
 import yt
 
 MANIFEST = Path("queue/manifest.json")
-CAPS = {"youtube": 8, "tiktok": 8}
+CAPS = {"youtube": 8, "tiktok": 12}  # daily targets (rolling 24 h); quality and rights come first
+# Rights gate: only these statuses may ever be published. Anything else (unverified, unresolved, refused) stays queued.
+PUBLISHABLE_RIGHTS = {"owned", "licensed", "permission_granted"}
 # Platforms the cloud may post to (repo variable CLOUD_PLATFORMS, e.g. "youtube,tiktok"), switched on once the
 # YouTube audit / TikTok app review pass. Until then the laptop task posts the approved clips.
 ENABLED = {p.strip() for p in os.environ.get("CLOUD_PLATFORMS", "").split(",") if p.strip()}
 # Hot windows, Paris time: posts only go out when the French audience is online.
-HOT = [((7, 30), (8, 30)), ((12, 15), (13, 45)), ((17, 30), (23, 0))]
+# Testing hypotheses (26 Nov 2026), to be re-ranked from our own analytics. zoneinfo handles CET/CEST.
+HOT = {
+    "youtube": [((11, 30), (13, 30)), ((14, 30), (15, 45)), ((18, 0), (22, 30))],
+    "tiktok": [((11, 30), (13, 30)), ((14, 30), (15, 45)), ((16, 0), (18, 0)), ((18, 0), (22, 30))],
+}
 
 
-def hot_now():
+def hot_now(platform="tiktok"):
     from zoneinfo import ZoneInfo
     t = dt.datetime.now(ZoneInfo("Europe/Paris"))
     m = t.hour * 60 + t.minute
-    return any(a[0] * 60 + a[1] <= m < b[0] * 60 + b[1] for a, b in HOT)
+    return any(a[0] * 60 + a[1] <= m < b[0] * 60 + b[1] for a, b in HOT[platform])
+
+
+def rights_ok(it):
+    return it.get("rights", "unverified") in PUBLISHABLE_RIGHTS
 
 
 def sync_approvals(items):
@@ -90,15 +100,19 @@ def main():
     items = json.loads(MANIFEST.read_text(encoding="utf-8"))
     ts = now().isoformat(timespec="minutes")
     changed = sync_approvals(items)
-    if not hot_now():
-        print("outside the hot windows; nothing posted")
     for platform in ("youtube", "tiktok"):
-        if platform not in ENABLED or not hot_now():
+        if platform not in ENABLED:
+            continue
+        if not hot_now(platform):
+            print(platform, "outside the hot windows; nothing posted")
             continue
         if posted_last_24h(items, platform) >= CAPS[platform]:
             print(platform, "cap reached; skipping")
             continue
-        cands = sorted((i for i in items if due(i, platform)), key=lambda i: -i.get("score", 0))
+        blocked = [i["id"] for i in items if due(i, platform) and not rights_ok(i)]
+        if blocked:
+            print(platform, "held by the rights gate:", blocked[:5])
+        cands = sorted((i for i in items if due(i, platform) and rights_ok(i)), key=lambda i: -i.get("score", 0))
         if not cands:
             print(platform, "nothing due")
             continue
