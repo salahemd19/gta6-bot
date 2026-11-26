@@ -8,7 +8,7 @@
 |---|---|---|---|
 | Kick viewer clips | Working, tested | New and most-viewed GTA 6 clips, creator, URL, views, growth between scans | Public web endpoint, not part of the documented API. Kick can block it |
 | Kick live streams (official API) | Working, tested | Top live GTA 6 streams, language, viewers | 25 streams per scan |
-| Kick chat spikes | **Blocked at the last local test** (HTTP 429, security policy). It worked on some streams in the first run | Live moments where chat spiked | One probe per stream; the radar stops when refused and does not work around it |
+| Kick chat spikes | Working, tested in the cloud (3 of 3 chats). Refused (HTTP 429, security policy) from the laptop after repeated tests | Live moments where chat spiked | One probe per stream; the radar stops when refused and does not work around it |
 | Google News RSS (FR, EN) | Working, tested | Articles, secrets news | Headlines and links only; Google intends the feeds for personal, non-commercial reading |
 | jeuxvideo.com RSS | Working, tested | French GTA articles | Headlines and links only |
 | Google Trends RSS (France) | Working, tested | GTA terms when they trend (often none) | Daily trending searches only |
