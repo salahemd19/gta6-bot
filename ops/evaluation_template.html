@@ -1,0 +1,40 @@
+<title>VICECITY Scoring</title>
+<style>
+:root{--bg:#121218;--card:#1b1b24;--line:#2c2c3a;--tx:#eef0f6;--mut:#9aa0b4;--cy:#00e5ff;--mg:#ff2bd6;--warn:#f5b942;color-scheme:dark}
+body{margin:0;background:var(--bg);color:var(--tx);font:14px/1.45 system-ui,sans-serif;padding:16px}
+h1{font-size:20px;margin:0}h1 b{color:var(--mg)}.mut{color:var(--mut)}a{color:var(--cy)}
+.note{background:var(--card);border:1px solid var(--line);border-radius:8px;padding:10px 12px;margin:12px 0;max-width:80ch}
+.bar{display:flex;flex-wrap:wrap;gap:8px;margin:10px 0}input,select{background:var(--card);color:var(--tx);border:1px solid var(--line);border-radius:6px;padding:7px 9px;font:inherit}
+details{background:var(--card);border:1px solid var(--line);border-radius:8px;margin:6px 0}
+summary{cursor:pointer;display:grid;grid-template-columns:3.2em 1fr auto;gap:10px;padding:9px 12px;align-items:baseline}
+summary b{color:var(--cy);font-size:16px;font-variant-numeric:tabular-nums}summary span{min-width:0;overflow-wrap:anywhere}
+.in{padding:0 12px 12px;display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:16px}.in>div{min-width:0;overflow-wrap:anywhere}
+.m{display:grid;grid-template-columns:10em 1fr 5.5em;gap:8px;align-items:center;font-size:12px}
+.t{height:6px;background:var(--line);border-radius:3px;overflow:hidden}.t i{display:block;height:100%;background:var(--cy)}
+.flag{color:var(--warn);font-size:12px}h3{font-size:12px;color:var(--mg);text-transform:uppercase;letter-spacing:.08em;margin:6px 0}
+ul{margin:4px 0;padding-left:18px}
+</style>
+<h1>VICECITY <b>SCORING</b></h1><div class="mut" id="gen"></div><div class="note" id="ev"></div>
+<div class="bar"><input id="q" placeholder="Search creator or title"><select id="s"></select><select id="r"><option value="">All</option><option value="b">With French brief</option><option value="v">Watched and reviewed</option></select></div>
+<div class="mut" id="n"></div><div id="l"></div>
+<script type="application/json" id="d">__DATA__</script>
+<script>
+const D=JSON.parse(document.getElementById('d').textContent),$=i=>document.getElementById(i);
+const el=(t,x,c)=>{const e=document.createElement(t);if(x!=null)e.textContent=x;if(c)e.className=c;return e};
+$('gen').textContent='Updated '+new Date(D.generated).toLocaleString('fr-FR',{timeZone:'Europe/Paris'})+' (Paris)';
+const E=D.evaluation;$('ev').textContent=E?`How reliable is the automatic score? Tested blind on ${E.accepted} clips we accepted and ${E.rejected} we rejected: it ranks an accepted clip above a rejected one ${Math.round(E.auc_total*100)}% of the time (50% is a coin toss). Mean score ${E.mean_accepted} accepted, ${E.mean_rejected} rejected. Watch a clip before using it.`:'The score has not been tested yet.';
+$('s').append(new Option('All stages',''));[...new Set(D.rows.map(r=>r.stage))].sort().forEach(v=>$('s').append(new Option(v,v)));
+function list(title,items){const d=el('div');d.append(el('h3',title));const u=el('ul');items.filter(Boolean).forEach(i=>u.append(el('li',i)));d.append(u);return d}
+function card(r){const d=el('details'),s=el('summary');s.append(el('b',r.scores.total),el('span',r.creator+' · '+(r.brief?r.brief.best_hook:r.title||'(untitled)')),el('span',(r.scores.reviewed?'reviewed':'')+(r.flags.length?' ⚠ '+r.flags.length:''),'flag'));d.append(s);
+ const i=el('div',null,'in'),a=el('div');a.append(el('h3','Score breakdown'));
+ for(const k in D.weights){const v=r.scores[k],row=el('div',null,'m'),t=el('div',null,'t'),f=el('i');f.style.width=(v==null?0:v*10)+'%';t.append(f);row.append(el('span',k.replace(/_/g,' ')),t,el('span',v==null?'not assessed':v+' '+(r.scores.method[k]||'')[0].toUpperCase()));a.append(row)}
+ a.append(el('div','M measured · H heuristic · R reviewed','mut'));i.append(a);
+ const c=list('Analysis',[`Cut ${r.cut[0]}s to ${r.cut[1]}s`,'Peaks at '+r.peaks.join(', ')+' s',r.flags.join(', ')||'No warnings',r.speech&&'Speech: '+r.speech,r.stage+' · '+r.state]);
+ if(/^https:\/\//.test(r.url||'')){const l=el('a','Open the source clip');l.href=r.url;l.target='_blank';l.rel='noopener';c.append(l)}i.append(c);
+ const b=r.brief;if(b){i.append(list('French brief',[b.series+' · '+b.treatment,...b.hooks.map((h,n)=>(n?'Alt: ':'Best: ')+h),'Title: '+b.title,'Description: '+b.description,'Caption: '+b.caption,b.narration&&'Narration: '+b.narration,'CTA: '+b.cta,b.needs_review&&'⚠ '+b.needs_review]));
+ i.append(list('Editing and music',[...b.editing,'Mood: '+b.music_mood,...Object.entries(b.music||{}).map(([p,t])=>p+': '+t.join(' / '))]))}
+ d.append(i);return d}
+function draw(){const q=$('q').value.toLowerCase(),s=$('s').value,f=$('r').value;const L=D.rows.filter(r=>(!s||r.stage===s)&&(!q||(r.creator+' '+r.title).toLowerCase().includes(q))&&(f!=='b'||r.brief)&&(f!=='v'||r.scores.reviewed));
+ $('n').textContent=L.length+' candidates, best first';$('l').replaceChildren(...L.map(card))}
+['q','s','r'].forEach(i=>$(i).addEventListener('input',draw));draw();
+</script>

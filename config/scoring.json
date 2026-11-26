@@ -1,0 +1,17 @@
+{
+ "version": "v2.0",
+ "weights": {
+  "first_second": 0.12, "hook_potential": 0.10, "entertainment": 0.15, "originality": 0.08, "emotion": 0.10,
+  "storytelling": 0.06, "replayability": 0.06, "share_potential": 0.08, "clarity": 0.09, "french_relevance": 0.06,
+  "category": 0.04, "source_quality": 0.06
+ },
+ "category_value": {
+  "VIRAL MOMENTS & CHAOS": 8, "RACING & VEHICLES": 7, "CHALLENGES & EXPERIMENTS": 7, "MAP & SECRET DISCOVERIES": 9,
+  "CHEATS, TIPS & MONEY": 8, "LEONIDA LIFE & DETAILS": 6
+ },
+ "strong_candidate": 5.8,
+ "series": {
+  "VIRAL MOMENTS & CHAOS": "ALERTE LEONIDA", "RACING & VEHICLES": "LE BANC D'ESSAI", "CHALLENGES & EXPERIMENTS": "MYTHE OU RÉALITÉ ?",
+  "MAP & SECRET DISCOVERIES": "DOSSIER LEONIDA", "CHEATS, TIPS & MONEY": "LE CODE", "LEONIDA LIFE & DETAILS": "LEONIDA VIVANTE"
+ }
+}

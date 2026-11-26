@@ -207,6 +207,11 @@ def analyse(db, limit):
             else:
                 rec["scores"] = score(rec)
                 rec["status"] = "analysed"
+                try:  # Phase 4: footage analysis, transparent score and French brief (replaces the basic score)
+                    import intelligence
+                    intelligence.process(rec, f, intelligence.reviews().get(rec.get("content_id")), reuse=False)
+                except Exception as e:  # noqa: BLE001 - the basic score stays if this fails
+                    log("intelligence", f"{rec['id'][-6:]}: {e}")
             if h:
                 hashes[rec["id"]] = h
             rec["analysed_at"] = now().isoformat(timespec="seconds")

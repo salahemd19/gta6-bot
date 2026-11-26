@@ -1,0 +1,98 @@
+{
+ "VCI-53c43c0bfb": {
+  "verdict": "reject",
+  "reason": "strip-club scene, adult content, no action",
+  "by": "Claude frame-sheet review 2026-11-26"
+ },
+ "VCI-57a117c0ab": {
+  "verdict": "reject",
+  "reason": "walking and training in a gym, no event",
+  "by": "Claude frame-sheet review 2026-11-26"
+ },
+ "VCI-d133803f5a": {
+  "verdict": "reject",
+  "reason": "punching bag only, no event",
+  "by": "Claude frame-sheet review 2026-11-26"
+ },
+ "VCI-3f4f6cefbc": {
+  "verdict": "reject",
+  "reason": "strip-club scene, adult content",
+  "by": "Claude frame-sheet review 2026-11-26"
+ },
+ "VCI-287dab1307": {
+  "verdict": "reject",
+  "reason": "locker room and shower, adult content",
+  "by": "Claude frame-sheet review 2026-11-26"
+ },
+ "VCI-eceee0e35f": {
+  "verdict": "reject",
+  "reason": "HUD and desert map are not GTA 6",
+  "by": "Claude frame-sheet review 2026-11-26",
+  "authenticity": "not_gta6"
+ },
+ "VCI-6ed0729574": {
+  "verdict": "reject",
+  "reason": "nude character walking on the beach",
+  "by": "Claude frame-sheet review 2026-11-26"
+ },
+ "VCI-cd48875510": {
+  "verdict": "reject",
+  "reason": "adult film-set scene",
+  "by": "Claude frame-sheet review 2026-11-26"
+ },
+ "VCI-6d68a3a247": {
+  "verdict": "reject",
+  "reason": "walking in a kitchen, no event",
+  "by": "Claude frame-sheet review 2026-11-26"
+ },
+ "VCI-b88ee3d0dc": {
+  "verdict": "reject",
+  "reason": "calm driving, no event",
+  "by": "Claude frame-sheet review 2026-11-26"
+ },
+ "VCI-33d9e9fb86": {
+  "verdict": "keep",
+  "action_fr": "Une fusillade entre les maisons : le personnage se met à couvert, riposte et encaisse des tirs.",
+  "hooks_fr": [
+   "CERNÉ DANS LE JARDIN",
+   "UNE BALLE DE TROP ET C'EST FINI",
+   "COMMENT SORTIR DE LÀ ?"
+  ],
+  "entertainment": 7,
+  "emotion": 7,
+  "hook_potential": 7,
+  "originality": 5,
+  "storytelling": 6,
+  "by": "Claude frame-sheet review 2026-11-26"
+ },
+ "VCI-40efc0a432": {
+  "verdict": "keep",
+  "action_fr": "Fusillade sous la pluie : à couvert derrière un SUV pendant que la police se rapproche.",
+  "hooks_fr": [
+   "LA POLICE EST PARTOUT",
+   "UN COFFRE COMME SEULE PROTECTION",
+   "TU TIENDRAIS COMBIEN DE TEMPS ?"
+  ],
+  "entertainment": 7,
+  "emotion": 7,
+  "hook_potential": 7,
+  "originality": 5,
+  "storytelling": 5,
+  "by": "Claude frame-sheet review 2026-11-26"
+ },
+ "VCI-0ccb31717a": {
+  "verdict": "keep",
+  "action_fr": "Un camion équipé d'un bras de grue file sur l'autoroute sous la pluie, la police aux trousses.",
+  "hooks_fr": [
+   "IL FUIT LA POLICE AVEC UNE GRUE",
+   "LE PIRE VÉHICULE POUR S'ENFUIR",
+   "ÇA PASSE SOUS LES PANNEAUX ?"
+  ],
+  "entertainment": 6,
+  "emotion": 5,
+  "hook_potential": 7,
+  "originality": 8,
+  "storytelling": 5,
+  "by": "Claude frame-sheet review 2026-11-26"
+ }
+}

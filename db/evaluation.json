@@ -1,0 +1,22 @@
+{
+ "model": "v2.0",
+ "accepted": 30,
+ "rejected": 23,
+ "auc_total": 0.287,
+ "auc_by_criterion": {
+  "first_second": 0.438,
+  "hook_potential": 0.367,
+  "entertainment": 0.425,
+  "emotion": 0.293,
+  "replayability": 0.319,
+  "share_potential": 0.299,
+  "clarity": 0.53,
+  "french_relevance": 0.533,
+  "category": 0.483,
+  "source_quality": 0.496
+ },
+ "mean_accepted": 6.94,
+ "mean_rejected": 7.31,
+ "at": "2026-11-26T22:08:31+00:00",
+ "meaning": "AUC 0.5 = coin toss, 1.0 = perfect separation of accepted and rejected clips"
+}
