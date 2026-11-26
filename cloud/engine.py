@@ -234,6 +234,12 @@ def produce(db, items, vid_id):
         return None
     used_titles = [i.get("title", "") for i in items[-6:]]
     title = next((t for t in TITLES["top3"] if not any(t in u for u in used_titles)), TITLES["top3"][0])
+    for r in chosen:  # the runner cache is empty on a fresh job: re-fetch any source we no longer have locally
+        f = WORK / "src" / f"{r['id']}.mp4"
+        if not f.exists():
+            f.parent.mkdir(parents=True, exist_ok=True)
+            subprocess.run(["ffmpeg", "-v", "error", "-y", "-i", r["media_url"], "-t", "65", "-c", "copy", str(f)],
+                           timeout=240)
     moments = [{"slug": r["creator"], "video": str((WORK / "src" / f"{r['id']}.mp4").resolve()),
                 "start": max(0.0, min(r["metrics"]["peak_start"], r["duration"] - SEG)), "len": SEG,
                 "score": 10 - i} for i, r in enumerate(chosen)]
