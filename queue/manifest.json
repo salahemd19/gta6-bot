@@ -92,5 +92,20 @@
   "slot": "2026-11-25T22:53:09+00:00",
   "youtube": "retired: overlaps another clip",
   "tiktok": "retired: overlaps another clip"
+ },
+ {
+  "id": "20261126-0025-gabepeixe-clip01",
+  "streamer": "gabepeixe",
+  "created": "2026-11-26T00:25:12+00:00",
+  "video_url": "https://github.com/salahemd19/gta6-bot/releases/download/clips/20261126-0025-gabepeixe-clip01.mp4",
+  "title": "ATTENDS LA FIN 😱 gabepeixe sur GTA 6",
+  "youtube_description": "Clip du live de gabepeixe sur Kick.\n\n#GTA6 #GTAVI #Shorts",
+  "tiktok_caption": "ATTENDS LA FIN 😱 gabepeixe sur GTA 6 #GTA6 #GTAVI #gabepeixe #Kick #pourtoi #fyp",
+  "youtube_privacy": "public",
+  "score": 2.021,
+  "motion": 12.5,
+  "slot": "2026-11-26T00:25:12+00:00",
+  "youtube": "hold: waiting for YouTube API audit",
+  "tiktok": "hold: waiting for TikTok app approval"
  }
 ]
