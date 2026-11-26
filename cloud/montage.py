@@ -85,7 +85,7 @@ def _ass(path, title, rank, slug):
                     f"Dialogue: 1,0:00:00.00,{end},Credit,@{slug} · Kick\n", encoding="utf-8")
 
 
-def render(moments, title, out, work, fonts):
+def render(moments, title, out, work, fonts, music=None):
     """Countdown order: #5 is the 2nd strongest (strong hook), #1 the strongest (payoff)."""
     by = sorted(moments, key=lambda m: -m["score"])
     order = [by[1]] + by[2:][::-1] + [by[0]] if len(by) > 2 else by[::-1]
@@ -109,9 +109,44 @@ def render(moments, title, out, work, fonts):
             continue
         parts.append(seg)
     (work / "list.txt").write_text("".join(f"file '{p.name}'\n" for p in parts), encoding="utf-8")
-    subprocess.run(["ffmpeg", "-y", "-f", "concat", "-safe", "0", "-i", "list.txt", "-c", "copy", str(out)],
+    raw = work / "raw.mp4"
+    subprocess.run(["ffmpeg", "-y", "-f", "concat", "-safe", "0", "-i", "list.txt", "-c", "copy", str(raw)],
                    cwd=work, capture_output=True, text=True)
+    brand(raw, out, [float(m.get("len", SEG)) for m in order], music)
     return [dict(o, rank=len(order) - i) for i, o in enumerate(order)] if out.exists() else []
+
+
+SFX = Path(__file__).resolve().parent.parent / "music" / "sfx"
+
+
+def brand(raw, out, lens, music=None):
+    """VICECITY INTEL sound identity on top of the game audio: intro on the hook, whoosh on every cut, reveal on #1,
+    outro at the end; optional licensed music bed (path, start_s, volume_db) from music/recommend.py."""
+    cuts = [sum(lens[:i]) for i in range(1, len(lens))]
+    total = sum(lens)
+    cues = [("intro", 0.0, -8)] + [("transition", max(0.0, c - 0.18), -12) for c in cuts[:-1]]
+    if cuts:
+        cues.append(("reveal", max(0.0, cuts[-1] - 0.1), -8))
+    cues.append(("outro", max(0.0, total - 1.0), -10))
+    ins, parts = ["-i", str(raw)], []
+    for k, (name, t, db) in enumerate(cues, 1):
+        ins += ["-i", str(SFX / f"vci_{name}.wav")]
+        ms = int(t * 1000)
+        parts.append(f"[{k}:a]volume={db}dB,adelay={ms}|{ms}[s{k}]")
+    n = len(cues) + 1
+    mix = "[0:a]" + "".join(f"[s{k}]" for k in range(1, n))
+    if music:
+        path, start, db = music
+        ins += ["-ss", str(start), "-i", str(path)]
+        parts.append(f"[{n}:a]atrim=0:{total:.2f},asetpts=PTS-STARTPTS,volume={db}dB,afade=out:st={max(0, total - 1.5):.2f}:d=1.5[mb]")
+        mix += "[mb]"
+        n += 1
+    fc = ";".join(parts + [f"{mix}amix=inputs={n}:duration=first:normalize=0,alimiter=limit=0.95[a]"])
+    r = subprocess.run(["ffmpeg", "-y", *ins, "-filter_complex", fc, "-map", "0:v", "-map", "[a]", "-c:v", "copy",
+                        "-c:a", "aac", "-b:a", "160k", "-movflags", "+faststart", str(out)], capture_output=True, text=True)
+    if r.returncode:  # never lose the video over the sound layer
+        print("brand sound failed:", r.stderr[-300:])
+        subprocess.run(["ffmpeg", "-y", "-i", str(raw), "-c", "copy", str(out)], capture_output=True)
 
 
 def build(streams, out, work, fonts, title):
