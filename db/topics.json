@@ -3,7 +3,7 @@
   "pillar": "MAP & SECRET DISCOVERIES",
   "last_24h": 2,
   "previous_24h": 0,
-  "news_24h": 30,
+  "news_24h": 33,
   "examples": [
    {
     "title": "BUSCANDO EASTER EGGS , MISIONES S | Clip",
@@ -28,7 +28,7 @@
   "pillar": "RACING & VEHICLES",
   "last_24h": 0,
   "previous_24h": 0,
-  "news_24h": 9,
+  "news_24h": 10,
   "examples": [],
   "trend": 1.0
  },
@@ -47,7 +47,7 @@
  },
  "funny": {
   "pillar": "VIRAL MOMENTS & CHAOS",
-  "last_24h": 13,
+  "last_24h": 16,
   "previous_24h": 5,
   "news_24h": 1,
   "examples": [
@@ -72,34 +72,43 @@
     "url": "https://kick.com/envywill/clips/clip_01M8CVZHD9AYS358PKYW60YJ6H"
    }
   ],
-  "trend": 2.33
+  "trend": 2.83
  },
  "reactions": {
   "pillar": "VIRAL MOMENTS & CHAOS",
-  "last_24h": 0,
+  "last_24h": 1,
   "previous_24h": 0,
-  "news_24h": 2,
-  "examples": [],
-  "trend": 1.0
+  "news_24h": 3,
+  "examples": [
+   {
+    "title": "RockStar… 13 AÑOS ROCKSTAR…🤯",
+    "url": "https://kick.com/daguu97/clips/clip_01M8CZN7AFTBVX8D3C4NXQZ4BT"
+   }
+  ],
+  "trend": 2.0
  },
  "unusual": {
   "pillar": "LEONIDA LIFE & DETAILS",
-  "last_24h": 1,
+  "last_24h": 2,
   "previous_24h": 0,
   "news_24h": 3,
   "examples": [
    {
     "title": "los NPC de GTA 6 te tienden trampas. ",
     "url": "https://kick.com/rdjohanx/clips/clip_01M8C2APVZW9E7ABRK4PD819X3"
+   },
+   {
+    "title": "Köprüden uçan NPC",
+    "url": "https://kick.com/oconnellwicky/clips/clip_01M8CZPGBC7NH4J0J8C46GV48Z"
    }
   ],
-  "trend": 2.0
+  "trend": 3.0
  },
  "money_tips": {
   "pillar": "CHEATS, TIPS & MONEY",
-  "last_24h": 2,
+  "last_24h": 3,
   "previous_24h": 0,
-  "news_24h": 6,
+  "news_24h": 8,
   "examples": [
    {
     "title": "chegando no heist",
@@ -108,8 +117,12 @@
    {
     "title": "Heist escape police chase",
     "url": "https://kick.com/ybnnahmir/clips/clip_01M8CVZHCK9TK6TGZ7PQF6J0XH"
+   },
+   {
+    "title": "perfect heist",
+    "url": "https://kick.com/rossihd/clips/clip_01M8CZMPYZWA20J741KQA4A008"
    }
   ],
-  "trend": 3.0
+  "trend": 4.0
  }
 }
