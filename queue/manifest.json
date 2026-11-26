@@ -449,5 +449,55 @@
   "tiktok": "scheduled 2026-11-26T21:45+00:00",
   "rights": "credited_third_party",
   "rights_note": "owner policy: publish with creator credit, remove on request"
+ },
+ {
+  "id": "engine-20261126-1925-1",
+  "type": "top3",
+  "created": "2026-11-26T19:26:24+00:00",
+  "video_url": "https://github.com/salahemd19/gta6-bot/releases/download/clips/engine-20261126-1925-1.mp4",
+  "sheet_url": "https://github.com/salahemd19/gta6-bot/releases/download/clips/engine-20261126-1925-1_sheet.jpg",
+  "title": "TOP 3 MOMENTS LES PLUS FOUS SUR GTA 6 🤯 le numéro 1 est irréel",
+  "youtube_description": "Les moments les plus fous vus en live sur GTA 6 🤯 Ton préféré ? Dis-le en commentaire 👇\n🎥 Créateurs (Kick) : iceposeidon, davooxeneize, gabepeixe\nAbonne-toi pour un top GTA 6 chaque jour 🔔\n\n#GTA6 #GTAVI #GTA6FR #ViceCity #gta #Shorts",
+  "tiktok_caption": "TOP 3 MOMENTS LES PLUS FOUS SUR GTA 6 🤯 le numéro 1 est irréel 😱 Ton préféré ? Dis-le en commentaire 👇 🎥 iceposeidon, davooxeneize, gabepeixe (Kick) #GTA6 #GTA6FR #GTAVI #gta #pourtoi #fyp",
+  "tags": "GTA 6, GTA VI, GTA 6 FR, top 3 GTA 6, GTA 6 moments fous, GTA 6 gameplay, Vice City",
+  "music": {
+   "youtube": [
+    "Monster Freak Party - Bare Bones Mtl",
+    "Mirror Mirror - Anno Domini Beats",
+    "Survival Mode - Blue Deer Studio"
+   ],
+   "tiktok": [
+    "Tokyo Drift - PHONKAZO",
+    "METAMORPHOSIS - INTERWORLD"
+   ]
+  },
+  "sources": [
+   {
+    "creator": "gabepeixe",
+    "url": "https://kick.com/gabepeixe/clips/clip_01M89BQGA2AFP1M0N4XCT722B4",
+    "start": 24.0,
+    "score": 7.08
+   },
+   {
+    "creator": "iceposeidon",
+    "url": "https://kick.com/iceposeidon/clips/clip_01M8867ASWCS3W9QTQQ6VWW8G7",
+    "start": 11.25,
+    "score": 6.69
+   },
+   {
+    "creator": "davooxeneize",
+    "url": "https://kick.com/davooxeneize/clips/clip_01M88NY6GMKZR3H26WA9DZBXZ5",
+    "start": 15.5,
+    "score": 6.68
+   }
+  ],
+  "streamer": "gabepeixe,iceposeidon,davooxeneize",
+  "score": 6.82,
+  "rights": "credited_third_party",
+  "authenticity": "needs_review",
+  "slot": "2026-11-26T19:26:24+00:00",
+  "youtube": "awaiting approval",
+  "tiktok": "awaiting approval",
+  "issue": 7
  }
 ]
