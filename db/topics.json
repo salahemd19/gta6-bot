@@ -1,16 +1,20 @@
 {
  "map_secrets": {
   "pillar": "MAP & SECRET DISCOVERIES",
-  "last_24h": 1,
+  "last_24h": 2,
   "previous_24h": 0,
   "news_24h": 30,
   "examples": [
    {
     "title": "BUSCANDO EASTER EGGS , MISIONES S | Clip",
     "url": "https://kick.com/zerek/clips/clip_01M8CR0GNN4Z3WNDHDHPZZ5AN6"
+   },
+   {
+    "title": "GTA 6 Easter Egg hunting Come say | Clip",
+    "url": "https://kick.com/f8taljay/clips/clip_01M8C286HFJG889Z9208RYTVDF"
    }
   ],
-  "trend": 2.0
+  "trend": 3.0
  },
  "races": {
   "pillar": "RACING & VEHICLES",
@@ -30,16 +34,21 @@
  },
  "challenges": {
   "pillar": "CHALLENGES & EXPERIMENTS",
-  "last_24h": 0,
+  "last_24h": 1,
   "previous_24h": 0,
   "news_24h": 3,
-  "examples": [],
-  "trend": 1.0
+  "examples": [
+   {
+    "title": "Ghost or Tommy cause it definitely Power 🤷🏽‍♂️ ",
+    "url": "https://kick.com/jackyburner/clips/clip_01M8C2KXQREE5ADG2SGXXKYZK1"
+   }
+  ],
+  "trend": 2.0
  },
  "funny": {
   "pillar": "VIRAL MOMENTS & CHAOS",
-  "last_24h": 3,
-  "previous_24h": 4,
+  "last_24h": 9,
+  "previous_24h": 5,
   "news_24h": 1,
   "examples": [
    {
@@ -53,9 +62,17 @@
    {
     "title": "kkkkkkkk",
     "url": "https://kick.com/renatogarcia/clips/clip_01M8CR0NY6NZ2CF75DK1QYG620"
+   },
+   {
+    "title": "These crash cams are funny",
+    "url": "https://kick.com/levelup-ruben/clips/clip_01M8C2Q4CWYQPMQJ4ZW2ZHPP2R"
+   },
+   {
+    "title": "😂",
+    "url": "https://kick.com/envywill/clips/clip_01M8CVZHD9AYS358PKYW60YJ6H"
    }
   ],
-  "trend": 0.8
+  "trend": 1.67
  },
  "reactions": {
   "pillar": "VIRAL MOMENTS & CHAOS",
@@ -67,18 +84,28 @@
  },
  "unusual": {
   "pillar": "LEONIDA LIFE & DETAILS",
-  "last_24h": 0,
+  "last_24h": 1,
   "previous_24h": 0,
   "news_24h": 3,
-  "examples": [],
-  "trend": 1.0
+  "examples": [
+   {
+    "title": "los NPC de GTA 6 te tienden trampas. ",
+    "url": "https://kick.com/rdjohanx/clips/clip_01M8C2APVZW9E7ABRK4PD819X3"
+   }
+  ],
+  "trend": 2.0
  },
  "money_tips": {
   "pillar": "CHEATS, TIPS & MONEY",
-  "last_24h": 0,
+  "last_24h": 1,
   "previous_24h": 0,
-  "news_24h": 5,
-  "examples": [],
-  "trend": 1.0
+  "news_24h": 6,
+  "examples": [
+   {
+    "title": "chegando no heist",
+    "url": "https://kick.com/beico-1/clips/clip_01M8CVZEEYX6NQWA1N7GZ89482"
+   }
+  ],
+  "trend": 2.0
  }
 }
