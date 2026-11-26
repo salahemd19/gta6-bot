@@ -1,0 +1,60 @@
+{
+ "jobs": {
+  "approvals": {
+   "failures": 0,
+   "last_ok": "2026-11-26T23:24:40+00:00",
+   "result": "skipped: no GitHub token here",
+   "error": null
+  },
+  "produce": {
+   "failures": 0,
+   "last_ok": "2026-11-26T23:11:11+00:00",
+   "result": "waiting: 3 approved clips ready, 3 needed",
+   "error": null
+  },
+  "calendar": {
+   "failures": 0,
+   "last_ok": "2026-11-26T23:24:40+00:00",
+   "result": "youtube 0/6 today | tiktok 0/8 today",
+   "error": null
+  },
+  "analytics_collect": {
+   "failures": 0,
+   "last_ok": "2026-11-26T23:11:11+00:00",
+   "result": "skipped: YouTube credentials only exist in the cloud",
+   "error": null
+  },
+  "analytics_report": {
+   "failures": 0,
+   "last_ok": "2026-11-26T23:11:12+00:00",
+   "result": "youtube: 49 videos, 0 with 24 h; tiktok: 5 videos, 0 with 24 h",
+   "error": null
+  }
+ },
+ "workflows": {
+  "radar.yml": {
+   "name": "Discovery radar",
+   "health": "ok",
+   "age_h": 0.8,
+   "url": "https://github.com/salahemd19/gta6-bot/actions/runs/45905576536"
+  },
+  "engine.yml": {
+   "name": "Ingest and analysis",
+   "health": "ok",
+   "age_h": 1.2,
+   "url": "https://github.com/salahemd19/gta6-bot/actions/runs/45903105364"
+  },
+  "backup.yml": {
+   "name": "Database backup",
+   "health": "ok",
+   "age_h": 2.0,
+   "url": "https://github.com/salahemd19/gta6-bot/actions/runs/45898021116"
+  },
+  "post.yml": {
+   "name": "Publisher",
+   "health": "ok",
+   "age_h": 0.5,
+   "url": "https://github.com/salahemd19/gta6-bot/actions/runs/45907956536"
+  }
+ }
+}

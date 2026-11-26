@@ -1,0 +1,316 @@
+{
+ "generated": "2026-11-26T23:11+00:00",
+ "platforms": {
+  "youtube": {
+   "videos": 49,
+   "measured_24h": 0,
+   "median_24h": null,
+   "median_latest_views": 388.0,
+   "median_like_rate_pct": 1.79,
+   "views_per_follower_median": null,
+   "top_share_of_views": 0.07,
+   "not_collected": [
+    "shares",
+    "impressions",
+    "avg_watch_s",
+    "retention",
+    "completion",
+    "rewatches",
+    "followers_gained",
+    "followers"
+   ],
+   "dimensions": {
+    "category": [],
+    "series": [],
+    "hook": [],
+    "format": [],
+    "length": [],
+    "source_type": [],
+    "weekday": [],
+    "window": []
+   }
+  },
+  "tiktok": {
+   "videos": 5,
+   "measured_24h": 0,
+   "median_24h": null,
+   "median_latest_views": 215.0,
+   "median_like_rate_pct": 1.4,
+   "views_per_follower_median": null,
+   "top_share_of_views": 0.26,
+   "not_collected": [
+    "shares",
+    "impressions",
+    "avg_watch_s",
+    "retention",
+    "completion",
+    "rewatches",
+    "followers_gained",
+    "followers"
+   ],
+   "dimensions": {
+    "category": [],
+    "series": [],
+    "hook": [],
+    "format": [],
+    "length": [],
+    "source_type": [],
+    "weekday": [],
+    "window": []
+   }
+  }
+ },
+ "advice": [
+  {
+   "platform": "youtube",
+   "level": "wait",
+   "text": "0 videos have a 24 h reading; 20 are needed before recommending changes."
+  },
+  {
+   "platform": "tiktok",
+   "level": "wait",
+   "text": "0 videos have a 24 h reading; 20 are needed before recommending changes."
+  }
+ ],
+ "experiments": [
+  {
+   "id": "tiktok-window",
+   "platform": "tiktok",
+   "dimension": "window",
+   "question": "Which TikTok window gets the highest median 24 h views?",
+   "started": "2026-11-26",
+   "arms": [],
+   "status": "collecting"
+  },
+  {
+   "id": "youtube-window",
+   "platform": "youtube",
+   "dimension": "window",
+   "question": "Which YouTube window gets the highest median 24 h views?",
+   "started": "2026-11-26",
+   "arms": [],
+   "status": "collecting"
+  },
+  {
+   "id": "youtube-format",
+   "platform": "youtube",
+   "dimension": "format",
+   "question": "Countdown compilation or single moment?",
+   "started": "2026-11-27",
+   "arms": [],
+   "status": "collecting"
+  },
+  {
+   "id": "youtube-length",
+   "platform": "youtube",
+   "dimension": "length",
+   "question": "Which length band performs best?",
+   "started": "2026-11-27",
+   "arms": [],
+   "status": "collecting"
+  }
+ ],
+ "scoring": "Score weights are not changed automatically: needs at least 30 published factory videos with 24 h views.",
+ "recent": [
+  {
+   "platform": "youtube",
+   "title": "LE TOP 5 GTA 6 DE LA SEMAINE 🔥 le numéro 1 est complètement fou",
+   "published_at": "2026-11-26T14:13:00+00:00",
+   "views": 124.0,
+   "views_24h": null,
+   "item": "top5-semaine-20261126"
+  },
+  {
+   "platform": "youtube",
+   "title": "Quand le live GTA 6 devient n'importe quoi 😂",
+   "published_at": null,
+   "views": 115.0,
+   "views_24h": null,
+   "item": null
+  },
+  {
+   "platform": "youtube",
+   "title": "Ce live GTA 6 est complètement fou 🔥",
+   "published_at": null,
+   "views": 84.0,
+   "views_24h": null,
+   "item": null
+  },
+  {
+   "platform": "youtube",
+   "title": "Il fait le tour de la map GTA 6 et ça part en live 😂",
+   "published_at": null,
+   "views": 126.0,
+   "views_24h": null,
+   "item": null
+  },
+  {
+   "platform": "youtube",
+   "title": "GTA 6 Leonida : les six lieux à voir selon Rockstar",
+   "published_at": null,
+   "views": 387.0,
+   "views_24h": null,
+   "item": null
+  },
+  {
+   "platform": "youtube",
+   "title": "GTA 6 Leonida: all six destinations Rockstar listed",
+   "published_at": null,
+   "views": 7.0,
+   "views_24h": null,
+   "item": null
+  },
+  {
+   "platform": "youtube",
+   "title": "GTA 6 Lucia Caminos: her Liberty City roots explained",
+   "published_at": null,
+   "views": 643.0,
+   "views_24h": null,
+   "item": null
+  },
+  {
+   "platform": "youtube",
+   "title": "GTA 6 Ultimate Edition vehicles quiz: can you name all five?",
+   "published_at": null,
+   "views": 220.0,
+   "views_24h": null,
+   "item": null
+  },
+  {
+   "platform": "youtube",
+   "title": "GTA 6 Lucia Caminos : ses racines à Liberty City expliquées",
+   "published_at": null,
+   "views": 587.0,
+   "views_24h": null,
+   "item": null
+  },
+  {
+   "platform": "youtube",
+   "title": "Quiz GTA 6 : les cinq véhicules de l'Ultimate Edition",
+   "published_at": null,
+   "views": 274.0,
+   "views_24h": null,
+   "item": null
+  },
+  {
+   "platform": "youtube",
+   "title": "GTA ranked: Liberty City to Leonida, my bold number one",
+   "published_at": null,
+   "views": 23.0,
+   "views_24h": null,
+   "item": null
+  },
+  {
+   "platform": "youtube",
+   "title": "GTA classés: de Liberty City à Leonida, mon numéro un osé",
+   "published_at": null,
+   "views": 139.0,
+   "views_24h": null,
+   "item": null
+  },
+  {
+   "platform": "youtube",
+   "title": "GTA 6 Ultimate Edition vehicles: all five Rockstar shows",
+   "published_at": null,
+   "views": 1023.0,
+   "views_24h": null,
+   "item": null
+  },
+  {
+   "platform": "youtube",
+   "title": "GTA 6 Ultimate Edition : les cinq véhicules dévoilés",
+   "published_at": null,
+   "views": 141.0,
+   "views_24h": null,
+   "item": null
+  },
+  {
+   "platform": "youtube",
+   "title": "GTA 6 Jason and Lucia: Rockstar's sunny vs dark side",
+   "published_at": null,
+   "views": 265.0,
+   "views_24h": null,
+   "item": null
+  },
+  {
+   "platform": "youtube",
+   "title": "GTA 6 Jason et Lucia : côté soleil ou côté sombre ?",
+   "published_at": null,
+   "views": 878.0,
+   "views_24h": null,
+   "item": null
+  },
+  {
+   "platform": "youtube",
+   "title": "GTA 6 story theory: was Jason and Lucia's score a setup?",
+   "published_at": null,
+   "views": 604.0,
+   "views_24h": null,
+   "item": null
+  },
+  {
+   "platform": "youtube",
+   "title": "GTA 6 Vice City : l'origine de 1997 que tu oublies",
+   "published_at": null,
+   "views": 388.0,
+   "views_24h": null,
+   "item": null
+  },
+  {
+   "platform": "youtube",
+   "title": "GTA 6 Jason and Lucia theory: who survives Leonida?",
+   "published_at": null,
+   "views": 946.0,
+   "views_24h": null,
+   "item": null
+  },
+  {
+   "platform": "youtube",
+   "title": "GTA 6 Vice City: the 1997 origin most fans forget",
+   "published_at": null,
+   "views": 797.0,
+   "views_24h": null,
+   "item": null
+  },
+  {
+   "platform": "youtube",
+   "title": "GTA 6 Vice City : 24 ans après 2002, hier et aujourd'hui",
+   "published_at": null,
+   "views": 242.0,
+   "views_24h": null,
+   "item": null
+  },
+  {
+   "platform": "youtube",
+   "title": "GTA 6 Jason et Lucia : ma théorie sur leur survie",
+   "published_at": null,
+   "views": 914.0,
+   "views_24h": null,
+   "item": null
+  },
+  {
+   "platform": "youtube",
+   "title": "GTA 6 Vice City: 24 years after 2002, then versus now",
+   "published_at": null,
+   "views": 981.0,
+   "views_24h": null,
+   "item": null
+  },
+  {
+   "platform": "youtube",
+   "title": "GTA 6 : Vice City revient après 24 ans, les faits",
+   "published_at": null,
+   "views": 904.0,
+   "views_24h": null,
+   "item": null
+  },
+  {
+   "platform": "youtube",
+   "title": "GTA 6 story explained: the dark side of Leonida",
+   "published_at": null,
+   "views": 1701.0,
+   "views_24h": null,
+   "item": null
+  }
+ ]
+}

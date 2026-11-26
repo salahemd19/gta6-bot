@@ -1,0 +1,42 @@
+name: factory-test
+# Test render of the production factory with French narration. Publishes nothing; files are workflow artifacts.
+on:
+  workflow_dispatch:
+    inputs:
+      ids:
+        description: "content ids, space separated (last one is #1)"
+        required: true
+      template:
+        description: "template name"
+        default: "chaos"
+permissions:
+  contents: read
+jobs:
+  render:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install requests numpy tzdata faster-whisper piper-tts
+      - run: sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg
+      - run: mkdir -p cloud/fonts && curl -sL -o cloud/fonts/Anton-Regular.ttf https://github.com/google/fonts/raw/main/ofl/anton/Anton-Regular.ttf
+      - name: French voice (and its licence)
+        run: |
+          python -m piper.download_voices fr_FR-siwis-medium --data-dir "$RUNNER_TEMP/voices"
+          curl -sL https://huggingface.co/rhasspy/piper-voices/resolve/main/fr/fr_FR/siwis/medium/MODEL_CARD
+      - name: Render
+        env:
+          PIPER_VOICE: fr_FR-siwis-medium
+          PIPER_DIR: ${{ runner.temp }}/voices
+          PIPER_CREDIT: "Piper, voix fr_FR-siwis (corpus SIWIS)"
+          IDS: ${{ github.event.inputs.ids }}
+          TPL: ${{ github.event.inputs.template }}
+        run: python cloud/factory.py produce $IDS --template "$TPL" --id example --test
+      - uses: actions/upload-artifact@v4
+        with:
+          name: factory-example
+          path: work/factory/example
+          retention-days: 14

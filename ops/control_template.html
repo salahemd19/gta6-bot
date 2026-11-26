@@ -1,0 +1,59 @@
+<title>VICECITY Control</title>
+<style>
+:root{--bg:#101017;--card:#1a1a24;--line:#2c2c3b;--tx:#eef0f6;--mut:#9aa0b4;--cy:#00e5ff;--mg:#ff2bd6;--warn:#f5b942;--bad:#ff5d6c;--ok:#3ddc97;color-scheme:dark}
+body{margin:0;background:var(--bg);color:var(--tx);font:14px/1.45 system-ui,sans-serif;padding:16px}
+h1{font-size:20px;margin:0}h1 b{color:var(--mg)}h2{font-size:12px;letter-spacing:.08em;text-transform:uppercase;color:var(--cy);margin:0 0 8px}
+.mut{color:var(--mut)}a{color:var(--cy)}
+nav{display:flex;flex-wrap:wrap;gap:6px;margin:12px 0}
+button{background:var(--card);color:var(--tx);border:1px solid var(--line);border-radius:6px;padding:7px 12px;cursor:pointer;font:inherit}
+button[aria-selected=true]{border-color:var(--mg);color:var(--mg)}button:focus-visible{outline:2px solid var(--cy)}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,380px),1fr));gap:12px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:8px;padding:12px;min-width:0}
+.wide{overflow-x:auto}table{border-collapse:collapse;width:100%;font-size:13px}td,th{text-align:left;padding:4px 8px 4px 0;border-bottom:1px solid var(--line);vertical-align:top}
+th{color:var(--mut);font-weight:500}.ok{color:var(--ok)}.warn{color:var(--warn)}.bad{color:var(--bad)}
+.big{font-size:28px;font-variant-numeric:tabular-nums}.bar{height:6px;background:var(--line);border-radius:3px}.bar i{display:block;height:6px;background:var(--cy);border-radius:3px}
+</style>
+<h1>VICECITY <b>INTEL</b> control centre</h1>
+<div class="mut" id="when"></div>
+<nav id="tabs" role="tablist"></nav>
+<div class="grid" id="view"></div>
+<script>
+const D=/*DATA*/null;
+const E=s=>String(s??"").replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+const link=(u,t)=>/^https:\/\//.test(u||"")?`<a href="${E(u)}" target="_blank" rel="noopener">${E(t)}</a>`:E(t);
+const paris=t=>t?new Date(t).toLocaleString("fr-FR",{timeZone:"Europe/Paris",dateStyle:"short",timeStyle:"short"}):"";
+const table=(head,rows,empty)=>rows.length?`<div class="wide"><table><tr>${head.map(h=>`<th>${h}</th>`).join("")}</tr>${rows.map(r=>`<tr>${r.map(c=>`<td>${c}</td>`).join("")}</tr>`).join("")}</table></div>`:`<p class="mut">${empty}</p>`;
+const card=(t,b)=>`<section class="card"><h2>${t}</h2>${b}</section>`;
+const issue=n=>n?link(`https://github.com/${D.repo}/issues/${n}`,"issue "+n):"";
+const cls=h=>h==="ok"?"ok":h==="failed"?"bad":"warn";
+const views={
+ Overview:()=>card("Alerts",D.override.paused?`<p class="bad">All automation is paused. ${E(D.override.note)}</p>`:D.alerts.length?`<ul>${D.alerts.map(a=>`<li class="bad">${E(a)}</li>`).join("")}</ul>`:'<p class="ok">No alert.</p>')
+  +card("Daily production targets",D.targets.map(t=>`<p>${E(t.platform)}<br><span class="big">${t.done}</span> <span class="mut">of ${t.cap} today (target ${t.target})</span></p><div class="bar"><i style="width:${Math.min(100,100*t.done/t.cap)}%"></i></div>`).join(""))
+  +card("Workflows",table(["Workflow","Health","Last run"],Object.values(D.workflows).map(w=>[link(w.url,w.name),`<span class="${cls(w.health)}">${E(w.health)}</span>`,w.age_h==null?"":w.age_h+" h ago"]),"Not checked yet."))
+  +card("Jobs",table(["Job","Last result"],Object.entries(D.jobs).map(([n,j])=>[E(n),`<span class="${j.failures?"bad":""}">${E(j.error||j.result)}</span>`]),"No job has run.")),
+ Content:()=>card(`New discoveries: ${D.discoveries.count_24h} in 24 h (${D.discoveries.total} total)`,table(["Creator","Clip","Views"],D.discoveries.top.map(r=>[E(r.creator),link(r.url,r.title||"clip"),E(r.views)]),"Nothing new."))
+  +card("Approved candidates (production queue)",table(["Creator","What happens","State"],D.candidates.map(c=>[E(c.creator),E(c.what),c.blockers.length?`<span class="warn">${E(c.blockers.join("; "))}</span>`:'<span class="ok">ready</span>']),"No reviewed clip."))
+  +card("Best unreviewed (score is not reliable: watch first)",table(["Creator","Score","Clip"],D.unreviewed.map(r=>[E(r.creator),E(r.score),link(r.url,r.id)]),"None."))
+  +card("Rights status",table(["Rights","Clips"],D.rights.map(r=>[E(r[0]),r[1]]),"Empty."))
+  +card("Authenticity",table(["Authenticity","Clips"],D.authenticity.map(r=>[E(r[0]),r[1]]),"Empty.")),
+ Publishing:()=>card("Awaiting your approval",table(["Video","Platform","Decide"],D.review.map(r=>[E(r.title),E(r.platform),issue(r.issue)]),"Nothing is waiting."))
+  +card("Ready to publish",table(["Video","Platform","Slot (Paris)"],D.ready.map(r=>[E(r.title),E(r.platform),E(paris(r.slot))]),"Nothing approved and unpublished."))
+  +Object.entries(D.calendar).map(([p,days])=>card("Calendar: "+E(p),days.map(d=>`<p class="mut">${E(d.date)} (up to ${d.cap})</p>`+table(["Time","Window","Video"],d.slots.map(s=>[E(s.local),E(s.window),s.id?E(s.title||s.id)+` <span class="mut">${E(s.status)}</span>`:'<span class="mut">empty</span>']),"No slot left.")).join(""))).join("")
+  +card("Scheduled posts",table(["Video","Platform","Status"],D.planned.map(r=>[E(r.title),E(r.platform),E(r.status)]),"None."))
+  +card("Published posts",table(["Video","Platform","Status"],D.published.map(r=>[E(r.title),E(r.platform),E(r.status)]),"None."))
+  +card("Held back",table(["Video","Platform","Why"],D.blocked.map(r=>[E(r.id),E(r.platform),E(r.why)]),"Nothing held back.")),
+ Analytics:()=>{const A=D.analytics;if(!A.platforms)return card("Analytics",'<p class="mut">No report yet.</p>');
+  return Object.entries(A.platforms).map(([p,c])=>card(E(p),`<p><span class="big">${E(c.median_latest_views??"-")}</span> <span class="mut">median views per video, ${c.videos} videos, ${c.measured_24h} with a 24 h reading</span></p><p class="mut">Median like rate ${E(c.median_like_rate_pct??"-")}%. Top video holds ${c.top_share_of_views==null?"-":Math.round(100*c.top_share_of_views)+"%"} of views. Not collected: ${E(c.not_collected.join(", ")||"nothing")}</p>`
+    +Object.entries(c.dimensions).filter(([,g])=>g.length).map(([d,g])=>table([E(d),"n","Median 24 h"],g.map(x=>[E(x.group)+(x.enough?"":' <span class="mut">(too few)</span>'),x.n,x.median_24h]),"")).join(""))).join("")
+  +card("Recommendations",`<ul>${A.advice.map(a=>`<li>${E(a.platform)}: ${E(a.text)}</li>`).join("")}</ul><p class="mut">${E(A.scoring)}</p>`)
+  +card("Experiments",table(["Question","State"],A.experiments.map(e=>[E(e.question),E(e.status)]),"None."))
+  +card("Recent videos",table(["Video","Platform","Views"],A.recent.map(r=>[E(r.title),E(r.platform),E(r.views)]),"None."))},
+ Logs:()=>card("Failed jobs and publishing errors",table(["When","What","Detail"],D.failures.slice().reverse().map(f=>[E(paris(f.at)),E(f.job||f.type),E(f.detail||f.error||f.id)]),"No failure recorded."))
+  +card("Latest activity",table(["When","Job","Result"],D.log.slice().reverse().map(l=>[E(paris(l.at)),E(l.job),E(l.result+" "+l.detail)]),"Empty."))
+};
+const tabs=document.getElementById("tabs");
+function show(n){if(!views[n])n="Overview";document.getElementById("view").innerHTML=views[n]();[...tabs.children].forEach(b=>b.setAttribute("aria-selected",b.textContent===n))}
+Object.keys(views).forEach(n=>{const b=document.createElement("button");b.textContent=n;b.setAttribute("role","tab");b.onclick=()=>{show(n);history.replaceState(null,"","#"+n)};tabs.appendChild(b)});
+document.getElementById("when").textContent="Snapshot of "+paris(D.generated)+" (Paris)";
+show(location.hash.slice(1));
+</script>

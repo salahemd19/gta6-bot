@@ -20343,7 +20343,7 @@
   "is_mature": true,
   "discovered_at": "2026-11-26T20:15:58+00:00",
   "status": "produced",
-  "authenticity": "category_only",
+  "authenticity": "verified_by_review",
   "rights": "credited_third_party",
   "used_in": [
    "engine-20261126-2224-1"
@@ -20366,7 +20366,8 @@
   "account_url": "https://kick.com/sercanzurna",
   "clip_url": "https://clips.kick.com/clips/d6/clip_01M8CQHESB5V6XRDMK7V12E7P7/playlist.m3u8",
   "authenticity_evidence": [
-   "Listed in Kick's Grand Theft Auto VI category (not proof by itself)"
+   "Listed in Kick's Grand Theft Auto VI category (not proof by itself)",
+   "Frame sheet reviewed by eye, 2026-11-27"
   ],
   "category": "VIRAL MOMENTS & CHAOS",
   "subcategory": "",
@@ -20387,7 +20388,7 @@
   "analytics": {},
   "stage": "PRODUCED",
   "state": "active",
-  "updated_at": "2026-11-26T22:25:32+00:00",
+  "updated_at": "2026-11-26T23:04:33+00:00",
   "views_per_hour_recent": 0.0,
   "metrics": {
    "motion": 17.4,
@@ -36210,7 +36211,7 @@
   "is_mature": true,
   "discovered_at": "2026-11-26T21:25:50+00:00",
   "status": "produced",
-  "authenticity": "category_only",
+  "authenticity": "verified_by_review",
   "rights": "credited_third_party",
   "used_in": [
    "engine-20261126-2224-1"
@@ -36233,7 +36234,8 @@
   "account_url": "https://kick.com/pluzin",
   "clip_url": "https://clips.kick.com/clips/02/clip_01M8CVTDCD9GZ3KHMFMW5GA3ZG/playlist.m3u8",
   "authenticity_evidence": [
-   "Listed in Kick's Grand Theft Auto VI category (not proof by itself)"
+   "Listed in Kick's Grand Theft Auto VI category (not proof by itself)",
+   "Frame sheet reviewed by eye, 2026-11-27"
   ],
   "category": "VIRAL MOMENTS & CHAOS",
   "subcategory": "",
@@ -36254,7 +36256,7 @@
   "analytics": {},
   "stage": "PRODUCED",
   "state": "active",
-  "updated_at": "2026-11-26T22:25:32+00:00",
+  "updated_at": "2026-11-26T23:04:33+00:00",
   "metrics": {
    "motion": 33.2,
    "still": 0.03,
@@ -43722,7 +43724,7 @@
   "is_mature": true,
   "discovered_at": "2026-11-26T21:30:38+00:00",
   "status": "produced",
-  "authenticity": "category_only",
+  "authenticity": "verified_by_review",
   "rights": "credited_third_party",
   "used_in": [
    "engine-20261126-2225-2"
@@ -43745,7 +43747,8 @@
   "account_url": "https://kick.com/sizophren",
   "clip_url": "https://clips.kick.com/clips/d4/clip_01M8CW0T7Z8NX3YRKPW09JNTTA/playlist.m3u8",
   "authenticity_evidence": [
-   "Listed in Kick's Grand Theft Auto VI category (not proof by itself)"
+   "Listed in Kick's Grand Theft Auto VI category (not proof by itself)",
+   "Frame sheet reviewed by eye, 2026-11-27"
   ],
   "category": "VIRAL MOMENTS & CHAOS",
   "subcategory": "",
@@ -43766,7 +43769,7 @@
   "analytics": {},
   "stage": "PRODUCED",
   "state": "active",
-  "updated_at": "2026-11-26T22:26:20+00:00",
+  "updated_at": "2026-11-26T23:04:33+00:00",
   "metrics": {
    "motion": 28.0,
    "still": 0.0,

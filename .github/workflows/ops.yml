@@ -1,0 +1,48 @@
+name: operations
+# Central control: approvals, production, calendar, analytics, health checks, alerts, control centre.
+on:
+  schedule:
+    - cron: "20 * * * *"
+  issues:
+    types: [labeled, closed]
+  workflow_dispatch:
+    inputs:
+      job:
+        description: "run only this job (empty = all due jobs)"
+        default: ""
+permissions:
+  contents: write
+  issues: write
+  actions: write
+concurrency:
+  group: content-engine
+jobs:
+  ops:
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install requests numpy tzdata
+      - name: Orchestrate
+        env:
+          GH_TOKEN: ${{ github.token }}
+          YT_CLIENT_ID: ${{ secrets.YT_CLIENT_ID }}
+          YT_CLIENT_SECRET: ${{ secrets.YT_CLIENT_SECRET }}
+          YT_REFRESH_TOKEN: ${{ secrets.YT_REFRESH_TOKEN }}
+          JOB: ${{ github.event.inputs.job }}
+        run: python cloud/ops.py run ${JOB:+--job "$JOB"}
+      - name: Save state
+        if: always()
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add db queue ops/control_center.html
+          [ -d ops/reports ] && git add ops/reports
+          git diff --cached --quiet && exit 0
+          git commit -m "ops: state, calendar and control centre"
+          git pull --rebase && git push

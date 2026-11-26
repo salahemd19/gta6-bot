@@ -16,7 +16,7 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
-      - run: python -m unittest -q tests/test_contentdb.py
+      - run: pip install tzdata numpy requests && python -m unittest -q tests/test_contentdb.py
       - run: python cloud/contentdb.py validate
       - name: Back up, verify, upload, prune
         env:

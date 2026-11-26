@@ -7,7 +7,7 @@ on:
     inputs:
       videos:
         description: "videos to produce this run"
-        default: "2"
+        default: "0"
 permissions:
   contents: write
   issues: write
@@ -26,7 +26,7 @@ jobs:
       - run: sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg
       - run: mkdir -p cloud/fonts && curl -sL -o cloud/fonts/Anton-Regular.ttf https://github.com/google/fonts/raw/main/ofl/anton/Anton-Regular.ttf
       - name: Run the engine
-        run: python cloud/engine.py --max-analyse 40 --videos ${{ github.event.inputs.videos || '2' }}
+        run: python cloud/engine.py --max-analyse 40 --videos ${{ github.event.inputs.videos || '0' }}
         env:
           GH_TOKEN: ${{ github.token }}
       - run: python cloud/intelligence.py dashboard

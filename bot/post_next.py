@@ -1,6 +1,6 @@
 """Post the next due video(s) from queue/manifest.json to YouTube and TikTok (runs in GitHub Actions every 2 hours).
 
-Rules: at most 1 post per platform per run; rolling 24 h caps (YouTube 8, TikTok 12); rights gate (owned/licensed/permission_granted only); a platform that errors is
+Rules: at most 1 post per platform per run; rolling 24 h caps (YouTube 8, TikTok 12); rights gate (publishable rights only); a platform that errors is
 marked 'failed: ...' and retried on the next run (max 3 attempts); nothing is deleted.
 """
 import datetime as dt
@@ -13,12 +13,15 @@ from pathlib import Path
 import requests
 
 sys.path.insert(0, str(Path(__file__).parent))
+sys.path.insert(0, str(Path(__file__).resolve().parent.parent / "cloud"))
 import approvals
+import publisher
 import tiktok
 import yt
 
 MANIFEST = Path("queue/manifest.json")
-CAPS = {"youtube": 8, "tiktok": 12}  # daily targets (rolling 24 h); quality and rights come first
+CONF = json.loads(Path(__file__).resolve().parent.parent.joinpath("config/publishing.json").read_text(encoding="utf-8"))
+CAPS = {p: v[CONF["level"]] for p, v in CONF["levels"].items()}  # rolling 24 h; quality and rights come first
 # Rights gate: only these statuses may ever be published. Anything else (unverified, unresolved, refused) stays queued.
 # Owner decision (26 Nov 2026): third-party clips are published without asking permission, always with on-screen
 # creator credit, and removed within 24 h if the creator asks ("credited_third_party"). "refused" is never published.
@@ -26,23 +29,17 @@ PUBLISHABLE_RIGHTS = {"owned", "licensed", "permission_granted", "credited_third
 # Platforms the cloud may post to (repo variable CLOUD_PLATFORMS, e.g. "youtube,tiktok"), switched on once the
 # YouTube audit / TikTok app review pass. Until then the laptop task posts the approved clips.
 ENABLED = {p.strip() for p in os.environ.get("CLOUD_PLATFORMS", "").split(",") if p.strip()}
-# Hot windows, Paris time: posts only go out when the French audience is online.
-# Testing hypotheses (26 Nov 2026), to be re-ranked from our own analytics. zoneinfo handles CET/CEST.
-HOT = {
-    "youtube": [((11, 30), (13, 30)), ((14, 30), (15, 45)), ((18, 0), (22, 30))],
-    "tiktok": [((11, 30), (13, 30)), ((14, 30), (15, 45)), ((16, 0), (18, 0)), ((18, 0), (22, 30))],
-}
+# Hot windows (testing hypotheses, Paris time) live in config/publishing.json, one set per platform.
 
 
 def hot_now(platform="tiktok"):
     from zoneinfo import ZoneInfo
-    t = dt.datetime.now(ZoneInfo("Europe/Paris"))
-    m = t.hour * 60 + t.minute
-    return any(a[0] * 60 + a[1] <= m < b[0] * 60 + b[1] for a, b in HOT[platform])
+    t = dt.datetime.now(ZoneInfo(CONF["timezone"])).strftime("%H:%M")
+    return any(w["from"] <= t < w["to"] for w in CONF["windows"][platform])
 
 
 def rights_ok(it):
-    return it.get("rights", "unverified") in PUBLISHABLE_RIGHTS
+    return it.get("rights", "unverified") in PUBLISHABLE_RIGHTS and not publisher.gate(it)
 
 
 def sync_approvals(items):
@@ -85,12 +82,13 @@ def due(it, platform):
     s = str(it.get(platform, "pending"))
     if not (s.startswith("pending") or s.startswith("failed (retry")):
         return False
-    return dt.datetime.fromisoformat(it["slot"]) <= now()  # slots are UTC ISO strings
+    slot = it.get(f"slot_{platform}") or it.get("slot")  # UTC ISO strings; the calendar sets slot_<platform>
+    return bool(slot) and dt.datetime.fromisoformat(slot) <= now()
 
 
-def fetch(it, tmp):
+def fetch(it, tmp, platform="youtube"):
     p = Path(tmp) / (it["id"] + ".mp4")
-    with requests.get(it["video_url"], stream=True, timeout=300) as r:
+    with requests.get(it.get(f"video_url_{platform}") or it["video_url"], stream=True, timeout=300) as r:
         r.raise_for_status()
         with open(p, "wb") as f:
             for chunk in r.iter_content(1 << 20):
@@ -99,6 +97,9 @@ def fetch(it, tmp):
 
 
 def main():
+    if publisher.load(MANIFEST.parent.parent / "config" / "overrides.json", {}).get("paused"):
+        print("paused by override; nothing posted")
+        return
     items = json.loads(MANIFEST.read_text(encoding="utf-8"))
     ts = now().isoformat(timespec="minutes")
     changed = sync_approvals(items)
@@ -121,7 +122,7 @@ def main():
         it = cands[0]
         with tempfile.TemporaryDirectory() as tmp:
             try:
-                path = fetch(it, tmp)
+                path = fetch(it, tmp, platform)
                 if platform == "youtube":
                     vid = yt.upload(path, it["title"], it["youtube_description"], it.get("youtube_privacy", "public"))
                     it["youtube"] = f"posted {ts}"
@@ -142,6 +143,7 @@ def main():
         changed = True
     if changed:
         MANIFEST.write_text(json.dumps(items, indent=2, ensure_ascii=False), encoding="utf-8")
+        publisher.record(items)
 
 
 if __name__ == "__main__":

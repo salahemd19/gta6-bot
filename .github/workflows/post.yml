@@ -39,5 +39,5 @@ jobs:
         run: |
           git config user.name "gta6-bot"
           git config user.email "gta6-bot@users.noreply.github.com"
-          git add queue/manifest.json
-          git diff --cached --quiet || (git commit -m "queue: update post status" && git push)
+          git add queue/manifest.json db/publish_history.jsonl db/publish_errors.jsonl 2>/dev/null || git add queue/manifest.json
+          git diff --cached --quiet || (git commit -m "queue: update post status" && git pull --rebase && git push)

@@ -1,0 +1,7 @@
+{"at": "2026-11-26T23:11:11+00:00", "job": "approvals", "result": "ok", "detail": "skipped: no GitHub token here"}
+{"at": "2026-11-26T23:11:11+00:00", "job": "produce", "result": "ok", "detail": "waiting: 3 approved clips ready, 3 needed"}
+{"at": "2026-11-26T23:11:11+00:00", "job": "calendar", "result": "ok", "detail": "youtube 0/6 today | tiktok 0/8 today"}
+{"at": "2026-11-26T23:11:11+00:00", "job": "analytics_collect", "result": "ok", "detail": "skipped: YouTube credentials only exist in the cloud"}
+{"at": "2026-11-26T23:11:12+00:00", "job": "analytics_report", "result": "ok", "detail": "youtube: 49 videos, 0 with 24 h; tiktok: 5 videos, 0 with 24 h"}
+{"at": "2026-11-26T23:24:40+00:00", "job": "approvals", "result": "ok", "detail": "skipped: no GitHub token here"}
+{"at": "2026-11-26T23:24:40+00:00", "job": "calendar", "result": "ok", "detail": "youtube 0/6 today | tiktok 0/8 today"}

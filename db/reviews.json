@@ -93,6 +93,40 @@
   "hook_potential": 7,
   "originality": 8,
   "storytelling": 5,
-  "by": "Claude frame-sheet review 2026-11-26"
+  "by": "Claude frame-sheet review 2026-11-26",
+  "window": [
+   20.0,
+   32.0
+  ]
+ },
+ "VCI-086cbdb1d1": {
+  "verdict": "keep",
+  "action_fr": "Dans la rue, une voiture jaune fonce sur le personnage et le percute.",
+  "hooks_fr": [
+   "LA VOITURE N'A PAS FREINÉ",
+   "REGARDE BIEN LA ROUTE",
+   "IL AURAIT DÛ SE RETOURNER"
+  ],
+  "by": "Claude frame-sheet review 2026-11-27"
+ },
+ "VCI-ac4e2112b2": {
+  "verdict": "keep",
+  "action_fr": "Près d'une station-service, une bagarre éclate au milieu des quads.",
+  "hooks_fr": [
+   "ÇA DÉGÉNÈRE À LA STATION",
+   "LA BAGARRE POUR UN QUAD",
+   "QUI A COMMENCÉ ?"
+  ],
+  "by": "Claude frame-sheet review 2026-11-27"
+ },
+ "VCI-bc16b971b0": {
+  "verdict": "keep",
+  "action_fr": "En moto à pleine vitesse sur l'autoroute, le personnage chute puis se retrouve au sol sur un toit.",
+  "hooks_fr": [
+   "LA CHUTE À PLEINE VITESSE",
+   "IL NE L'A PAS VUE VENIR",
+   "TU SURVIVRAIS À ÇA ?"
+  ],
+  "by": "Claude frame-sheet review 2026-11-27"
  }
 }

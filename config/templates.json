@@ -1,0 +1,20 @@
+{
+ "brand": {"cyan": "#00E5FF", "magenta": "#FF2BD6", "ink": "#0B0B12", "font": "Anton"},
+ "pillars": {
+  "MAP & SECRET DISCOVERIES": "map-secrets", "RACING & VEHICLES": "racing", "VIRAL MOMENTS & CHAOS": "chaos",
+  "CHEATS, TIPS & MONEY": "tips", "CHALLENGES & EXPERIMENTS": "challenges", "LEONIDA LIFE & DETAILS": "leonida"
+ },
+ "templates": {
+  "map-secrets": {"badge": "DOSSIER LEONIDA", "accent": "cyan", "music": "secrets", "flash": false, "zoom": 0.06, "grade": "eq=contrast=1.1:saturation=1.1", "cta": "Tu connaissais ce lieu ?"},
+  "racing": {"badge": "LE BANC D'ESSAI", "accent": "magenta", "music": "racing", "flash": true, "zoom": 0.1, "grade": "eq=contrast=1.1:saturation=1.3", "cta": "Tu le conduirais ?"},
+  "chaos": {"badge": "ALERTE LEONIDA", "accent": "magenta", "music": "chaos", "flash": true, "zoom": 0.1, "grade": "eq=contrast=1.08:saturation=1.25", "cta": "Ton préféré ? Dis-le en commentaire"},
+  "tips": {"badge": "LE CODE", "accent": "cyan", "music": "tips", "flash": false, "zoom": 0.06, "grade": "eq=contrast=1.05:saturation=1.15", "cta": "Enregistre pour plus tard"},
+  "challenges": {"badge": "LE DÉFI", "accent": "magenta", "music": "challenges", "flash": true, "zoom": 0.08, "grade": "eq=contrast=1.12:saturation=1.15", "cta": "Quel défi ensuite ?"},
+  "leonida": {"badge": "LEONIDA VIVANTE", "accent": "cyan", "music": "leonida", "flash": false, "zoom": 0.04, "grade": "eq=contrast=1.03:saturation=1.2", "cta": "Tu avais remarqué ce détail ?"},
+  "map-intel": {"base": "map-secrets", "badge": "MAP INTEL"},
+  "rare-car-alert": {"base": "racing", "badge": "RARE CAR ALERT", "cta": "Tu l'as déjà trouvée ?"},
+  "mythbusters": {"base": "challenges", "badge": "GTA 6 MYTHBUSTERS", "cta": "Quel mythe on teste ensuite ?"},
+  "leonida-life": {"base": "leonida", "badge": "LEONIDA LIFE"},
+  "police-intel": {"base": "chaos", "badge": "POLICE INTEL", "accent": "cyan", "cta": "Tu t'en sortirais ?"}
+ }
+}

@@ -1,0 +1,22 @@
+{
+ "timezone": "Europe/Paris",
+ "targets": {"youtube": 8, "tiktok": 12},
+ "levels": {"youtube": [6, 7, 8], "tiktok": [8, 10, 12]},
+ "level": 0,
+ "min_gap_minutes": {"youtube": 40, "tiktok": 25},
+ "windows": {
+  "youtube": [
+   {"name": "lunch", "from": "11:30", "to": "13:30", "weight": 1},
+   {"name": "afternoon", "from": "14:30", "to": "15:45", "weight": 0.7},
+   {"name": "evening", "from": "18:00", "to": "22:30", "weight": 2.5}
+  ],
+  "tiktok": [
+   {"name": "lunch", "from": "11:30", "to": "13:30", "weight": 1},
+   {"name": "afternoon", "from": "14:30", "to": "15:45", "weight": 0.7},
+   {"name": "tiktok_priority", "from": "16:00", "to": "18:00", "weight": 1.6},
+   {"name": "evening", "from": "18:00", "to": "22:30", "weight": 2.2}
+  ]
+ },
+ "missed_after_minutes": 90,
+ "production": {"enabled": true, "min_clips": 3, "max_videos_per_run": 2}
+}

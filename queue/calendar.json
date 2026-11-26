@@ -1,0 +1,459 @@
+{
+ "generated": "2026-11-26T23:24+00:00",
+ "level": 0,
+ "timezone": "Europe/Paris",
+ "platforms": {
+  "youtube": {
+   "days": [
+    {
+     "date": "2026-11-27",
+     "cap": 6,
+     "slots": [
+      {
+       "local": "12:30",
+       "utc": "2026-11-27T11:30+00:00",
+       "window": "lunch",
+       "id": null,
+       "status": "empty",
+       "title": null
+      },
+      {
+       "local": "15:05",
+       "utc": "2026-11-27T14:05+00:00",
+       "window": "afternoon",
+       "id": null,
+       "status": "empty",
+       "title": null
+      },
+      {
+       "local": "18:30",
+       "utc": "2026-11-27T17:30+00:00",
+       "window": "evening",
+       "id": null,
+       "status": "empty",
+       "title": null
+      },
+      {
+       "local": "19:40",
+       "utc": "2026-11-27T18:40+00:00",
+       "window": "evening",
+       "id": null,
+       "status": "empty",
+       "title": null
+      },
+      {
+       "local": "20:45",
+       "utc": "2026-11-27T19:45+00:00",
+       "window": "evening",
+       "id": null,
+       "status": "empty",
+       "title": null
+      },
+      {
+       "local": "21:55",
+       "utc": "2026-11-27T20:55+00:00",
+       "window": "evening",
+       "id": null,
+       "status": "empty",
+       "title": null
+      }
+     ]
+    },
+    {
+     "date": "2026-11-28",
+     "cap": 6,
+     "slots": [
+      {
+       "local": "12:30",
+       "utc": "2026-11-28T11:30+00:00",
+       "window": "lunch",
+       "id": null,
+       "status": "empty",
+       "title": null
+      },
+      {
+       "local": "15:05",
+       "utc": "2026-11-28T14:05+00:00",
+       "window": "afternoon",
+       "id": null,
+       "status": "empty",
+       "title": null
+      },
+      {
+       "local": "18:30",
+       "utc": "2026-11-28T17:30+00:00",
+       "window": "evening",
+       "id": null,
+       "status": "empty",
+       "title": null
+      },
+      {
+       "local": "19:40",
+       "utc": "2026-11-28T18:40+00:00",
+       "window": "evening",
+       "id": null,
+       "status": "empty",
+       "title": null
+      },
+      {
+       "local": "20:45",
+       "utc": "2026-11-28T19:45+00:00",
+       "window": "evening",
+       "id": null,
+       "status": "empty",
+       "title": null
+      },
+      {
+       "local": "21:55",
+       "utc": "2026-11-28T20:55+00:00",
+       "window": "evening",
+       "id": null,
+       "status": "empty",
+       "title": null
+      }
+     ]
+    },
+    {
+     "date": "2026-11-29",
+     "cap": 6,
+     "slots": [
+      {
+       "local": "12:30",
+       "utc": "2026-11-29T11:30+00:00",
+       "window": "lunch",
+       "id": null,
+       "status": "empty",
+       "title": null
+      },
+      {
+       "local": "15:05",
+       "utc": "2026-11-29T14:05+00:00",
+       "window": "afternoon",
+       "id": null,
+       "status": "empty",
+       "title": null
+      },
+      {
+       "local": "18:30",
+       "utc": "2026-11-29T17:30+00:00",
+       "window": "evening",
+       "id": null,
+       "status": "empty",
+       "title": null
+      },
+      {
+       "local": "19:40",
+       "utc": "2026-11-29T18:40+00:00",
+       "window": "evening",
+       "id": null,
+       "status": "empty",
+       "title": null
+      },
+      {
+       "local": "20:45",
+       "utc": "2026-11-29T19:45+00:00",
+       "window": "evening",
+       "id": null,
+       "status": "empty",
+       "title": null
+      },
+      {
+       "local": "21:55",
+       "utc": "2026-11-29T20:55+00:00",
+       "window": "evening",
+       "id": null,
+       "status": "empty",
+       "title": null
+      }
+     ]
+    }
+   ],
+   "target": 8,
+   "cap": 6,
+   "filled_today": 0,
+   "empty_next_days": 18
+  },
+  "tiktok": {
+   "days": [
+    {
+     "date": "2026-11-27",
+     "cap": 8,
+     "slots": [
+      {
+       "local": "12:00",
+       "utc": "2026-11-27T11:00+00:00",
+       "window": "lunch",
+       "id": null,
+       "status": "empty",
+       "title": null
+      },
+      {
+       "local": "13:00",
+       "utc": "2026-11-27T12:00+00:00",
+       "window": "lunch",
+       "id": null,
+       "status": "empty",
+       "title": null
+      },
+      {
+       "local": "15:05",
+       "utc": "2026-11-27T14:05+00:00",
+       "window": "afternoon",
+       "id": null,
+       "status": "empty",
+       "title": null
+      },
+      {
+       "local": "16:30",
+       "utc": "2026-11-27T15:30+00:00",
+       "window": "tiktok_priority",
+       "id": null,
+       "status": "empty",
+       "title": null
+      },
+      {
+       "local": "17:30",
+       "utc": "2026-11-27T16:30+00:00",
+       "window": "tiktok_priority",
+       "id": null,
+       "status": "empty",
+       "title": null
+      },
+      {
+       "local": "18:45",
+       "utc": "2026-11-27T17:45+00:00",
+       "window": "evening",
+       "id": null,
+       "status": "empty",
+       "title": null
+      },
+      {
+       "local": "20:15",
+       "utc": "2026-11-27T19:15+00:00",
+       "window": "evening",
+       "id": null,
+       "status": "empty",
+       "title": null
+      },
+      {
+       "local": "21:45",
+       "utc": "2026-11-27T20:45+00:00",
+       "window": "evening",
+       "id": null,
+       "status": "empty",
+       "title": null
+      }
+     ]
+    },
+    {
+     "date": "2026-11-28",
+     "cap": 8,
+     "slots": [
+      {
+       "local": "12:00",
+       "utc": "2026-11-28T11:00+00:00",
+       "window": "lunch",
+       "id": null,
+       "status": "empty",
+       "title": null
+      },
+      {
+       "local": "13:00",
+       "utc": "2026-11-28T12:00+00:00",
+       "window": "lunch",
+       "id": null,
+       "status": "empty",
+       "title": null
+      },
+      {
+       "local": "15:05",
+       "utc": "2026-11-28T14:05+00:00",
+       "window": "afternoon",
+       "id": null,
+       "status": "empty",
+       "title": null
+      },
+      {
+       "local": "16:30",
+       "utc": "2026-11-28T15:30+00:00",
+       "window": "tiktok_priority",
+       "id": null,
+       "status": "empty",
+       "title": null
+      },
+      {
+       "local": "17:30",
+       "utc": "2026-11-28T16:30+00:00",
+       "window": "tiktok_priority",
+       "id": null,
+       "status": "empty",
+       "title": null
+      },
+      {
+       "local": "18:45",
+       "utc": "2026-11-28T17:45+00:00",
+       "window": "evening",
+       "id": null,
+       "status": "empty",
+       "title": null
+      },
+      {
+       "local": "20:15",
+       "utc": "2026-11-28T19:15+00:00",
+       "window": "evening",
+       "id": null,
+       "status": "empty",
+       "title": null
+      },
+      {
+       "local": "21:45",
+       "utc": "2026-11-28T20:45+00:00",
+       "window": "evening",
+       "id": null,
+       "status": "empty",
+       "title": null
+      }
+     ]
+    },
+    {
+     "date": "2026-11-29",
+     "cap": 8,
+     "slots": [
+      {
+       "local": "12:00",
+       "utc": "2026-11-29T11:00+00:00",
+       "window": "lunch",
+       "id": null,
+       "status": "empty",
+       "title": null
+      },
+      {
+       "local": "13:00",
+       "utc": "2026-11-29T12:00+00:00",
+       "window": "lunch",
+       "id": null,
+       "status": "empty",
+       "title": null
+      },
+      {
+       "local": "15:05",
+       "utc": "2026-11-29T14:05+00:00",
+       "window": "afternoon",
+       "id": null,
+       "status": "empty",
+       "title": null
+      },
+      {
+       "local": "16:30",
+       "utc": "2026-11-29T15:30+00:00",
+       "window": "tiktok_priority",
+       "id": null,
+       "status": "empty",
+       "title": null
+      },
+      {
+       "local": "17:30",
+       "utc": "2026-11-29T16:30+00:00",
+       "window": "tiktok_priority",
+       "id": null,
+       "status": "empty",
+       "title": null
+      },
+      {
+       "local": "18:45",
+       "utc": "2026-11-29T17:45+00:00",
+       "window": "evening",
+       "id": null,
+       "status": "empty",
+       "title": null
+      },
+      {
+       "local": "20:15",
+       "utc": "2026-11-29T19:15+00:00",
+       "window": "evening",
+       "id": null,
+       "status": "empty",
+       "title": null
+      },
+      {
+       "local": "21:45",
+       "utc": "2026-11-29T20:45+00:00",
+       "window": "evening",
+       "id": null,
+       "status": "empty",
+       "title": null
+      }
+     ]
+    }
+   ],
+   "target": 12,
+   "cap": 8,
+   "filled_today": 0,
+   "empty_next_days": 24
+  }
+ },
+ "blocked": [],
+ "waiting_approval": [
+  {
+   "id": "20261126-1033-ac7ionman-clip01",
+   "platform": "youtube",
+   "issue": 3,
+   "title": "ATTENDS LA FIN 😱 ac7ionman sur GTA 6"
+  },
+  {
+   "id": "engine-20261126-2205-1",
+   "platform": "youtube",
+   "issue": 8,
+   "title": "3 MOMENTS IRRÉELS VUS EN LIVE SUR GTA 6 🤯 le numéro 1 est irréel"
+  },
+  {
+   "id": "engine-20261126-2206-2",
+   "platform": "youtube",
+   "issue": 9,
+   "title": "LE TOP 3 GTA 6 DU JOUR 🤯 le numéro 1 est irréel"
+  },
+  {
+   "id": "engine-20261126-2224-1",
+   "platform": "youtube",
+   "issue": 10,
+   "title": "ILS ONT FAIT ÇA SUR GTA 6 (TOP 3) 🤯 le numéro 1 est irréel"
+  },
+  {
+   "id": "engine-20261126-2225-2",
+   "platform": "youtube",
+   "issue": 11,
+   "title": "TOP 3 MOMENTS LES PLUS FOUS SUR GTA 6 🤯 le numéro 1 est irréel"
+  },
+  {
+   "id": "20261126-1033-ac7ionman-clip01",
+   "platform": "tiktok",
+   "issue": 3,
+   "title": "ATTENDS LA FIN 😱 ac7ionman sur GTA 6"
+  },
+  {
+   "id": "engine-20261126-2205-1",
+   "platform": "tiktok",
+   "issue": 8,
+   "title": "3 MOMENTS IRRÉELS VUS EN LIVE SUR GTA 6 🤯 le numéro 1 est irréel"
+  },
+  {
+   "id": "engine-20261126-2206-2",
+   "platform": "tiktok",
+   "issue": 9,
+   "title": "LE TOP 3 GTA 6 DU JOUR 🤯 le numéro 1 est irréel"
+  },
+  {
+   "id": "engine-20261126-2224-1",
+   "platform": "tiktok",
+   "issue": 10,
+   "title": "ILS ONT FAIT ÇA SUR GTA 6 (TOP 3) 🤯 le numéro 1 est irréel"
+  },
+  {
+   "id": "engine-20261126-2225-2",
+   "platform": "tiktok",
+   "issue": 11,
+   "title": "TOP 3 MOMENTS LES PLUS FOUS SUR GTA 6 🤯 le numéro 1 est irréel"
+  }
+ ],
+ "missed": []
+}
