@@ -19,14 +19,14 @@
    "error": null
   },
   "analytics_collect": {
-   "failures": 1,
-   "last_ok": "2026-11-26T23:11:11+00:00",
-   "result": "failed",
-   "error": "401 Client Error: Unauthorized for url: https://oauth2.googleapis.com/token"
+   "failures": 0,
+   "last_ok": "2026-11-26T23:33:29+00:00",
+   "result": "0 readings imported from the laptop log",
+   "error": null
   },
   "analytics_report": {
    "failures": 0,
-   "last_ok": "2026-11-26T23:11:12+00:00",
+   "last_ok": "2026-11-26T23:33:35+00:00",
    "result": "youtube: 49 videos, 0 with 24 h; tiktok: 5 videos, 0 with 24 h",
    "error": null
   }
@@ -35,8 +35,8 @@
   "radar.yml": {
    "name": "Discovery radar",
    "health": "ok",
-   "age_h": 1.0,
-   "url": "https://github.com/salahemd19/gta6-bot/actions/runs/45905576536"
+   "age_h": 0.0,
+   "url": "https://github.com/salahemd19/gta6-bot/actions/runs/45911598544"
   },
   "engine.yml": {
    "name": "Ingest and analysis",

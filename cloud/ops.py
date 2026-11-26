@@ -115,6 +115,9 @@ def job_calendar():
 
 def job_analytics_collect():
     if not os.environ.get("YT_REFRESH_TOKEN"):
+        old = ROOT.parent / "stats.csv"  # on the laptop: readings logged by the older collector
+        if old.exists():
+            return f"{analytics.import_csv(old)} readings imported from the laptop log"
         return "skipped: YouTube credentials only exist in the cloud"
     return f"{analytics.collect_youtube()} YouTube readings (TikTok needs a CSV import)"
 

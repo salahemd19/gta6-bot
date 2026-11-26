@@ -31,7 +31,7 @@ jobs:
         env:
           PIPER_VOICE: fr_FR-siwis-medium
           PIPER_DIR: ${{ runner.temp }}/voices
-          PIPER_CREDIT: "Piper, voix fr_FR-siwis (corpus SIWIS)"
+          PIPER_CREDIT: "Piper, voix fr_FR-siwis (corpus SIWIS, CC BY 4.0)"
           IDS: ${{ github.event.inputs.ids }}
           TPL: ${{ github.event.inputs.template }}
         run: python cloud/factory.py produce $IDS --template "$TPL" --id example --test

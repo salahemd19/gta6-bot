@@ -43,7 +43,15 @@ python cloud/ops.py run --job calendar
 - Damaged database: `python cloud/contentdb.py restore <backup.zip> --into <folder>`; backups are in the release `backups`.
 - Bad state file: delete `db/ops_state.json`; it is rebuilt.
 
+## Tested on 27 Nov
+- Factory: local top 3 with music, and a cloud top 3 with French narration (test renders, not published). Both pass with warnings (music or attribution).
+- Calendar, gates, retries, CET/CEST, analytics checkpoints, factory gate: unit tests.
+- Cloud runs: `operations`, `factory-test`, `backup` succeeded.
+- **Not working: YouTube analytics and API posting in the cloud.** The stored refresh token is refused (401).
+- Not yet exercised for real: factory submission to an approval issue, a calendar-assigned post, automatic recovery, the alert issue.
+
 ## Remaining manual work
+0. **Renew the YouTube authorisation** and update the secret `YT_REFRESH_TOKEN` (until then, readings come from the laptop log).
 1. **Watching footage** and writing the keep/reject review. The automatic score cannot do it.
 2. **Approving** each video (label `approved`).
 3. **Posting**: the laptop task posts through the browser until the YouTube API audit and TikTok app review pass; then set the repository variable `CLOUD_PLATFORMS`.
