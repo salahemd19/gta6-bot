@@ -98,7 +98,7 @@ def render(moments, title, out, work, fonts, music=None):
         vf = ("[0:v]fps=30,split[a][b];"
               "[a]scale=1080:1920:force_original_aspect_ratio=increase,crop=1080:1920,boxblur=30:5,eq=brightness=-0.12[bg];"
               "[b]crop=ih*3/4:ih,scale=1080:1440:flags=lanczos,unsharp=5:5:0.8,eq=saturation=1.25:contrast=1.08[fg];"
-              f"[bg][fg]overlay=0:240,fade=in:st=0:d=0.15:color=white,subtitles={ass.name}:fontsdir={fonts}[v];"
+              f"[bg][fg]overlay=0:240,{'fade=in:st=0:d=0.15:color=white,' if i else ''}subtitles={ass.name}:fontsdir={fonts}[v];"
               "[0:a]aresample=48000,loudnorm=I=-14:TP=-1.5:LRA=11,afade=in:d=0.05[a]")
         r = subprocess.run(["ffmpeg", "-y", "-ss", f"{m['start']:.2f}", "-t", str(m.get("len", SEG)), "-i", m["video"],
                             "-filter_complex", vf, "-map", "[v]", "-map", "[a]", "-c:v", "libx264", "-preset", "veryfast",
