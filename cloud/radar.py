@@ -81,7 +81,7 @@ def run_source(name, fn, *args):
         if name not in STATUS:
             STATUS[name] = {"state": "ok", "detail": "", "new": n or 0}
     except (Exception, SystemExit) as e:  # noqa: BLE001 - one broken source never stops the radar
-        STATUS[name] = {"state": "error", "detail": str(e)[:160], "new": 0}
+        STATUS[name] = {"state": "error", "detail": re.sub(r"key=[\w-]+", "key=***", str(e))[:160], "new": 0}
     print(name, STATUS[name], flush=True)
 
 
@@ -264,7 +264,8 @@ def youtube_search(items):
     v = need("youtube_search", "YT_API_KEY")
     if not v:
         return 0
-    if NOW.hour % 6:  # search costs 100 quota units per call: four times a day only
+    # search costs 100 quota units per call: four times a day only (a manual run always searches)
+    if NOW.hour % 6 and os.environ.get("GITHUB_EVENT_NAME") != "workflow_dispatch":
         STATUS["youtube_search"] = {"state": "ok", "detail": "skipped this hour to save quota", "new": 0}
         return 0
     n = 0
@@ -272,7 +273,10 @@ def youtube_search(items):
     for q, ev in (("GTA 6", None), ("GTA 6 secret", None), ("GTA 6", "live")):
         p = {"part": "snippet", "q": q, "type": "video", "maxResults": 50, "key": v[0], "order": "viewCount"}
         p.update({"eventType": ev} if ev else {"publishedAfter": since})
-        for it in requests.get("https://www.googleapis.com/youtube/v3/search", params=p, timeout=20).json().get("items", []):
+        data = requests.get("https://www.googleapis.com/youtube/v3/search", params=p, timeout=20).json()
+        if "error" in data:  # show the API's reason; never print the request URL, it carries the key
+            raise RuntimeError(f"YouTube API {data['error'].get('code')}: {data['error'].get('message', '')[:100]}")
+        for it in data.get("items", []):
             s, vid = it["snippet"], it["id"]["videoId"]
             n += add_item(items, "yt:" + vid, {
                 "source": "youtube", "type": "live_stream" if ev else "video", "creator": s["channelTitle"],
