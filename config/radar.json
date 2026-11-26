@@ -1,0 +1,25 @@
+{
+ "topics": {
+  "map_secrets": {"pillar": "MAP & SECRET DISCOVERIES", "regex": "secret|easter ?egg|hidden|cach[ée]|myst[eè]re|d[ée]couvert|glitch ?spot|oculto|escondido|segredo"},
+  "races": {"pillar": "RACING & VEHICLES", "regex": "\\brace\\b|racing|\\bcourses?\\b|drift|corrida|carrera"},
+  "vehicles": {"pillar": "RACING & VEHICLES", "regex": "rare (car|vehicle)|supercar|v[ée]hicule|voiture|\\bmoto\\b|\\bbike\\b|avion|plane|boat|bateau|helico|h[ée]licopt[eè]re|coche"},
+  "challenges": {"pillar": "CHALLENGES & EXPERIMENTS", "regex": "challenge|d[ée]fi|experiment|exp[ée]rience|can (i|you)|1v1|desafio|reto"},
+  "funny": {"pillar": "VIRAL MOMENTS & CHAOS", "regex": "\\bwtf\\b|\\blol\\b|funny|dr[oô]le|mdr|ptdr|kkk|jaja|haha|😂|💀|fail"},
+  "reactions": {"pillar": "VIRAL MOMENTS & CHAOS", "regex": "react|r[ée]action|rage|crazy|insane|incroyable|dingue|omg|🤯|😱"},
+  "unusual": {"pillar": "LEONIDA LIFE & DETAILS", "regex": "detail|d[ée]tail|npc|pnj|animal|alligator|weird|bizarre|realism|r[ée]alisme"},
+  "money_tips": {"pillar": "CHEATS, TIPS & MONEY", "regex": "cheat|triche|\\bcode\\b|money|argent|astuce|\\btips?\\b|braquage|heist|robbery|dinheiro|dinero"}
+ },
+ "news_feeds": [
+  {"name": "Google News FR", "url": "https://news.google.com/rss/search?q=%22GTA+6%22+when:2d&hl=fr&gl=FR&ceid=FR:fr", "lang": "fr"},
+  {"name": "Google News secrets EN", "url": "https://news.google.com/rss/search?q=%22GTA+6%22+(secret+OR+%22easter+egg%22+OR+hidden)+when:2d&hl=en-US&gl=US&ceid=US:en", "lang": "en"},
+  {"name": "jeuxvideo.com", "url": "https://www.jeuxvideo.com/rss/rss.xml", "lang": "fr", "must_match": "gta"},
+  {"name": "Google Trends FR", "url": "https://trends.google.com/trending/rss?geo=FR", "lang": "fr", "must_match": "gta|rockstar|leonida|vice city"}
+ ],
+ "youtube_channels": [
+  {"id": "UC6VcWc1rAoWdBCM0JxrRQ3A", "name": "Rockstar Games", "original": true}
+ ],
+ "reddit_subs": ["GTA6", "GTAVI", "GTA"],
+ "twitch_game": "Grand Theft Auto VI",
+ "repost_name_regex": "clips?$|^clips?|compil|highlights?|best ?of|moments|shorts|daily|repost|fanpage",
+ "kick": {"clip_pages": 3, "clip_sorts": [["view", "day"], ["date", "day"], ["view", "week"]], "live_limit": 25, "chat_streams": 3, "chat_seconds": 90}
+}

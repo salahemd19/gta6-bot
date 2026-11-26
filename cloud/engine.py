@@ -69,6 +69,27 @@ def log(stage, msg):
 
 
 # ---------------------------------------------------------------- discover
+def record_kick_clip(db, c):
+    """Insert a Kick clip once (dedupe by id), keep its metrics fresh. Returns 1 when it is new."""
+    cid = c["id"]
+    slug = (c.get("channel") or {}).get("slug") or str(c.get("channel_id"))
+    if cid in db:
+        db[cid]["views"] = c.get("views", db[cid].get("views"))
+        return 0
+    db[cid] = {
+        "id": cid, "source": "kick", "creator": slug, "channel_id": c.get("channel_id"),
+        "livestream_id": c.get("livestream_id"), "title": c.get("title", ""),
+        "url": f"https://kick.com/{slug}/clips/{cid}", "media_url": c.get("clip_url"),
+        "thumbnail": c.get("thumbnail_url"), "views": c.get("views", 0),
+        "duration": c.get("duration", 0), "created_at": c.get("created_at"),
+        "vod_starts_at": c.get("vod_starts_at"), "is_mature": c.get("is_mature"),
+        "discovered_at": now().isoformat(timespec="seconds"),
+        "status": "discovered", "authenticity": "unchecked", "rights": "credited_third_party",
+        "used_in": [], "duplicate_of": None,
+    }
+    return 1
+
+
 def discover(db, pages=4):
     """Kick viewer clips for the GTA 6 category (most viewed today and this week). Records new ones; dedupes by id."""
     new = 0
@@ -90,23 +111,7 @@ def discover(db, pages=4):
             else:
                 break
             for c in data.get("clips", []):
-                cid = c["id"]
-                slug = (c.get("channel") or {}).get("slug") or str(c.get("channel_id"))
-                if cid in db:
-                    db[cid]["views"] = c.get("views", db[cid].get("views"))  # keep metrics fresh
-                    continue
-                db[cid] = {
-                    "id": cid, "source": "kick", "creator": slug, "channel_id": c.get("channel_id"),
-                    "livestream_id": c.get("livestream_id"), "title": c.get("title", ""),
-                    "url": f"https://kick.com/{slug}/clips/{cid}", "media_url": c.get("clip_url"),
-                    "thumbnail": c.get("thumbnail_url"), "views": c.get("views", 0),
-                    "duration": c.get("duration", 0), "created_at": c.get("created_at"),
-                    "vod_starts_at": c.get("vod_starts_at"), "is_mature": c.get("is_mature"),
-                    "discovered_at": now().isoformat(timespec="seconds"),
-                    "status": "discovered", "authenticity": "unchecked", "rights": "credited_third_party",
-                    "used_in": [], "duplicate_of": None,
-                }
-                new += 1
+                new += record_kick_clip(db, c)
             cur = data.get("nextCursor")
             if not cur:
                 break
@@ -174,7 +179,8 @@ def score(rec):
 
 
 def analyse(db, limit):
-    todo = [r for r in db.values() if r["status"] == "discovered" and r["duration"] <= 65][:limit]
+    todo = sorted((r for r in db.values() if r["status"] == "discovered" and r["duration"] <= 65),
+                  key=lambda r: -(r.get("radar") or {}).get("priority", 0))[:limit]  # radar's best leads first
     hashes = {r["id"]: r["dhash"] for r in db.values() if r.get("dhash")}
     (WORK / "src").mkdir(parents=True, exist_ok=True)
     for rec in todo:
@@ -188,7 +194,8 @@ def analyse(db, limit):
             h = dhash(f, min(rec["duration"] / 2, 30))
             rec["metrics"] = {**v, "peak_start": round(peak, 2), "audio_crest": round(crest, 2), "loudness": round(loud, 4)}
             rec["dhash"] = h
-            rec["pillar"], rec["pillar_method"] = pillar_of(rec["title"])
+            if rec.get("pillar_method") != "keyword":
+                rec["pillar"], rec["pillar_method"] = pillar_of(rec["title"])
             dup = next((k for k, hh in hashes.items() if h and hh and k != rec["id"]
                         and sum(a != b for a, b in zip(h, hh)) <= 6), None)
             if dup:

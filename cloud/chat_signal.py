@@ -29,8 +29,8 @@ def _window(args):
         return []
 
 
-def fetch(slug, start_epoch, seconds):
-    ch = channel_id(slug)
+def fetch(slug, start_epoch, seconds, ch=None):
+    ch = ch or channel_id(slug)
     steps = [(ch, start_epoch + i) for i in range(0, int(seconds) + 5, 5)]
     seen, offsets, hype = set(), [], []
     with ThreadPoolExecutor(max_workers=8) as ex:

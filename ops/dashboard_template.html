@@ -1,0 +1,48 @@
+<title>VICECITY Radar</title>
+<style>
+:root{--bg:#121218;--card:#1b1b24;--line:#2c2c3a;--tx:#eef0f6;--mut:#9aa0b4;--cy:#00e5ff;--mg:#ff2bd6;color-scheme:dark}
+body{margin:0;background:var(--bg);color:var(--tx);font:14px/1.45 system-ui,sans-serif;padding:16px}
+h1{font-size:20px;margin:0}h1 b{color:var(--cy)}h2{font-size:12px;color:var(--mg);text-transform:uppercase;letter-spacing:.08em;margin:22px 0 8px}
+.mut{color:var(--mut)}a{color:var(--cy);text-decoration:none}
+.chips{display:flex;flex-wrap:wrap;gap:6px}.chip{background:var(--card);border:1px solid var(--line);border-radius:6px;padding:5px 9px}
+.ok{border-color:#2ecc71}.error,.blocked{border-color:#ff5252}.not_connected{border-color:#f5b942}.unavailable{opacity:.6}
+.bar{display:flex;flex-wrap:wrap;gap:8px;margin:8px 0}
+input,select,button{background:var(--card);color:var(--tx);border:1px solid var(--line);border-radius:6px;padding:7px 9px;font:inherit}
+button.on{border-color:var(--cy);color:var(--cy)}
+.wrap{overflow-x:auto}table{border-collapse:collapse;width:100%;min-width:640px}
+th,td{border-bottom:1px solid var(--line);padding:6px 8px;text-align:left;vertical-align:top}th{color:var(--mut);font-weight:600;font-size:12px}
+td.n{font-variant-numeric:tabular-nums;text-align:right;white-space:nowrap}
+</style>
+<h1>VICECITY <b>RADAR</b></h1><div class="mut" id="gen"></div>
+<h2>Sources</h2><div class="chips" id="src"></div>
+<h2>Topics, last 24 h: creator content (and news)</h2><div class="chips" id="top"></div>
+<h2>Discoveries</h2>
+<div class="bar"><button id="tabD" class="on">Content</button><button id="tabC">Creators</button>
+<input id="q" placeholder="Search title or creator"><select id="type"></select><select id="source"></select><select id="topic"></select></div>
+<div class="mut" id="count"></div><div class="wrap"><table id="t"></table></div>
+<script type="application/json" id="d">__DATA__</script>
+<script>
+const D=JSON.parse(document.getElementById('d').textContent),$=i=>document.getElementById(i);
+const el=(t,x,c)=>{const e=document.createElement(t);if(x!=null)e.textContent=x;if(c)e.className=c;return e};
+$('gen').textContent='Updated '+new Date(D.generated).toLocaleString('fr-FR',{timeZone:'Europe/Paris'})+' (Paris)';
+for(const[k,v]of Object.entries(D.status)){const c=el('div',k+' · '+v.state.replace('_',' ')+(v.new?' · +'+v.new:''),'chip '+v.state);c.title=v.detail;$('src').append(c)}
+for(const[k,v]of Object.entries(D.topics).sort((a,b)=>b[1].last_24h-a[1].last_24h)){const c=el('button',k.replace('_',' ')+' '+v.last_24h+' (+'+v.news_24h+' news)'+(v.trend>1.3?' ↑':''),'chip');c.onclick=()=>{$('topic').value=k;tab='D';draw()};$('top').append(c)}
+function opts(id,label,vals){const s=$(id);s.append(new Option(label,''));[...new Set(vals)].filter(Boolean).sort().forEach(v=>s.append(new Option(v,v)))}
+opts('type','All types',D.rows.map(r=>r[0]));opts('source','All sources',D.rows.map(r=>r[1]));opts('topic','All topics',Object.keys(D.topics));
+const RX={map_secrets:'MAP',races:'RACING',vehicles:'RACING',challenges:'CHALLENGES',funny:'VIRAL',reactions:'VIRAL',unusual:'LEONIDA',money_tips:'CHEATS'};
+let tab='D';
+function row(cells,h){const tr=el('tr');cells.forEach(c=>{const td=el(h?'th':'td');if(c instanceof Node)td.append(c);else{td.textContent=c;if(typeof c==='number')td.className='n'}tr.append(td)});return tr}
+function link(u,t){if(!/^https:\/\//.test(u||''))return el('span',t);const a=el('a',t);a.href=u;a.target='_blank';a.rel='noopener';return a}
+function draw(){const q=$('q').value.toLowerCase(),t=$('t');t.textContent='';
+ $('tabD').className=tab==='D'?'on':'';$('tabC').className=tab==='C'?'on':'';
+ for(const i of['type','source','topic'])$(i).hidden=tab==='C';
+ if(tab==='C'){const L=D.creators.filter(c=>(c.name||'').toLowerCase().includes(q));t.append(row(['Creator','Platform','Origin','Lang','Clips','Clip views','Peak viewers','Best score','Used'],1));
+  L.slice(0,300).forEach(c=>t.append(row([c.name||'',c.platform||'',c.origin||'',c.language||'',c.clips||0,c.clip_views||0,c.peak_viewers||0,c.best_score||0,c.used||0])));$('count').textContent=L.length+' creators';return}
+ const ty=$('type').value,so=$('source').value,tp=$('topic').value;
+ const L=D.rows.filter(r=>(!ty||r[0]===ty)&&(!so||r[1]===so)&&(!tp||String(r[7]).includes(tp)||String(r[7]).startsWith(RX[tp]))&&(!q||(r[2]+' '+r[3]).toLowerCase().includes(q)));
+ t.append(row(['Priority','Type','Source','Creator','Title','Views','Pillar / topics','Status'],1));
+ L.slice(0,250).forEach(r=>t.append(row([r[5],r[0],r[1],r[2],link(r[4],r[3]||'(untitled)'),r[6],r[7],r[8]])));
+ $('count').textContent=L.length+' results'+(L.length>250?' (first 250 shown)':'')}
+['q','type','source','topic'].forEach(i=>$(i).addEventListener('input',draw));
+$('tabD').onclick=()=>{tab='D';draw()};$('tabC').onclick=()=>{tab='C';draw()};draw();
+</script>

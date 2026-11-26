@@ -1,0 +1,38 @@
+name: radar
+# Discovery radar (Phase 2): finds and organises candidates every hour. No video download, no publishing.
+on:
+  schedule:
+    - cron: "40 * * * *"   # hourly (UTC)
+  workflow_dispatch: {}
+permissions:
+  contents: write
+concurrency:
+  group: content-engine   # never writes the database at the same time as the engine
+jobs:
+  scan:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install requests numpy tzdata
+      - name: Scan the sources
+        run: python cloud/radar.py
+        env:
+          KICK_CLIENT_ID: ${{ secrets.KICK_CLIENT_ID }}
+          KICK_CLIENT_SECRET: ${{ secrets.KICK_CLIENT_SECRET }}
+          TWITCH_CLIENT_ID: ${{ secrets.TWITCH_CLIENT_ID }}
+          TWITCH_CLIENT_SECRET: ${{ secrets.TWITCH_CLIENT_SECRET }}
+          YT_API_KEY: ${{ secrets.YT_API_KEY }}
+          REDDIT_CLIENT_ID: ${{ secrets.REDDIT_CLIENT_ID }}
+          REDDIT_CLIENT_SECRET: ${{ secrets.REDDIT_CLIENT_SECRET }}
+      - name: Save the database
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add db ops/radar_dashboard.html
+          git diff --cached --quiet && exit 0
+          git commit -m "radar: discovery update"
+          for i in 1 2 3; do git pull --rebase -X theirs && git push && break; sleep 5; done

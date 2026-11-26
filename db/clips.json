@@ -9,7 +9,7 @@
   "url": "https://kick.com/robertovstheworld/clips/clip_01M88NCD91TN0YCN9XWGXAP920",
   "media_url": "https://clips.kick.com/clips/3f/clip_01M88NCD91TN0YCN9XWGXAP920/master.m3u8",
   "thumbnail": "https://clips.kick.com/clips/3f/clip_01M88NCD91TN0YCN9XWGXAP920/thumbnail.webp",
-  "views": 4213,
+  "views": 4401,
   "duration": 180,
   "created_at": "2026-11-25T06:14:56.700341Z",
   "vod_starts_at": 0,
@@ -19,7 +19,19 @@
   "authenticity": "unchecked",
   "rights": "credited_third_party",
   "used_in": [],
-  "duplicate_of": null
+  "duplicate_of": null,
+  "seen_at": "2026-11-26T20:17:11+00:00",
+  "radar": {
+   "momentum": 8.3,
+   "topic_match": 0,
+   "originality": 8,
+   "french": 3,
+   "freshness": 4.6,
+   "short_enough": 2,
+   "priority": 5.48,
+   "topics": []
+  },
+  "origin": "original"
  },
  "clip_01M89JSCHXPXSGNP3NGVYKY1YT": {
   "id": "clip_01M89JSCHXPXSGNP3NGVYKY1YT",
@@ -31,7 +43,7 @@
   "url": "https://kick.com/xmerghani/clips/clip_01M89JSCHXPXSGNP3NGVYKY1YT",
   "media_url": "https://clips.kick.com/clips/89/clip_01M89JSCHXPXSGNP3NGVYKY1YT/playlist.m3u8",
   "thumbnail": "https://clips.kick.com/clips/89/clip_01M89JSCHXPXSGNP3NGVYKY1YT/thumbnail.webp",
-  "views": 3727,
+  "views": 3976,
   "duration": 11,
   "created_at": "2026-11-25T14:47:58.954929Z",
   "vod_starts_at": 0,
@@ -54,7 +66,19 @@
   "pillar": "RACING & VEHICLES",
   "pillar_method": "keyword",
   "reject_reason": "motion 4.4, still 0.0, letterbox 0.0",
-  "analysed_at": "2026-11-26T19:01:37+00:00"
+  "analysed_at": "2026-11-26T19:01:37+00:00",
+  "seen_at": "2026-11-26T20:17:11+00:00",
+  "radar": {
+   "momentum": 8.5,
+   "topic_match": 0,
+   "originality": 8,
+   "french": 3,
+   "freshness": 5.8,
+   "short_enough": 10,
+   "priority": 6.48,
+   "topics": []
+  },
+  "origin": "original"
  },
  "clip_01M8AJRM2XDAMY4Z8WG535CBKY": {
   "id": "clip_01M8AJRM2XDAMY4Z8WG535CBKY",
@@ -66,7 +90,7 @@
   "url": "https://kick.com/asmongold/clips/clip_01M8AJRM2XDAMY4Z8WG535CBKY",
   "media_url": "https://clips.kick.com/clips/9a/clip_01M8AJRM2XDAMY4Z8WG535CBKY/master.m3u8",
   "thumbnail": "https://clips.kick.com/clips/9a/clip_01M8AJRM2XDAMY4Z8WG535CBKY/thumbnail.webp",
-  "views": 2339,
+  "views": 2442,
   "duration": 60,
   "created_at": "2026-11-26T00:06:29.702639Z",
   "vod_starts_at": 0,
@@ -89,7 +113,19 @@
   "pillar": "VIRAL MOMENTS & CHAOS",
   "pillar_method": "default",
   "reject_reason": "motion 9.5, still 0.65, letterbox 0.0",
-  "analysed_at": "2026-11-26T19:02:17+00:00"
+  "analysed_at": "2026-11-26T19:02:17+00:00",
+  "seen_at": "2026-11-26T20:17:11+00:00",
+  "radar": {
+   "momentum": 8.3,
+   "topic_match": 0,
+   "originality": 8,
+   "french": 3,
+   "freshness": 7.1,
+   "short_enough": 10,
+   "priority": 6.53,
+   "topics": []
+  },
+  "origin": "original"
  },
  "clip_01M89JQASBAKKV41JNXZQP5MC4": {
   "id": "clip_01M89JQASBAKKV41JNXZQP5MC4",
@@ -101,7 +137,7 @@
   "url": "https://kick.com/xmerghani/clips/clip_01M89JQASBAKKV41JNXZQP5MC4",
   "media_url": "https://clips.kick.com/clips/87/clip_01M89JQASBAKKV41JNXZQP5MC4/playlist.m3u8",
   "thumbnail": "https://clips.kick.com/clips/87/clip_01M89JQASBAKKV41JNXZQP5MC4/thumbnail.webp",
-  "views": 1589,
+  "views": 1669,
   "duration": 20,
   "created_at": "2026-11-25T14:46:13.666157Z",
   "vod_starts_at": 0,
@@ -124,7 +160,19 @@
   "pillar": "VIRAL MOMENTS & CHAOS",
   "pillar_method": "default",
   "reject_reason": "motion 7.0, still 0.0, letterbox 0.0",
-  "analysed_at": "2026-11-26T19:02:28+00:00"
+  "analysed_at": "2026-11-26T19:02:28+00:00",
+  "seen_at": "2026-11-26T20:17:11+00:00",
+  "radar": {
+   "momentum": 7.0,
+   "topic_match": 0,
+   "originality": 8,
+   "french": 3,
+   "freshness": 5.8,
+   "short_enough": 10,
+   "priority": 5.88,
+   "topics": []
+  },
+  "origin": "original"
  },
  "clip_01M88P37Z2HZ47RKQT5B1MNXA5": {
   "id": "clip_01M88P37Z2HZ47RKQT5B1MNXA5",
@@ -136,7 +184,7 @@
   "url": "https://kick.com/robertovstheworld/clips/clip_01M88P37Z2HZ47RKQT5B1MNXA5",
   "media_url": "https://clips.kick.com/clips/f6/clip_01M88P37Z2HZ47RKQT5B1MNXA5/master.m3u8",
   "thumbnail": "https://clips.kick.com/clips/f6/clip_01M88P37Z2HZ47RKQT5B1MNXA5/thumbnail.webp",
-  "views": 1377,
+  "views": 1419,
   "duration": 142,
   "created_at": "2026-11-25T06:27:30.867217Z",
   "vod_starts_at": 0,
@@ -146,7 +194,19 @@
   "authenticity": "unchecked",
   "rights": "credited_third_party",
   "used_in": [],
-  "duplicate_of": null
+  "duplicate_of": null,
+  "seen_at": "2026-11-26T20:17:11+00:00",
+  "radar": {
+   "momentum": 6.3,
+   "topic_match": 0,
+   "originality": 8,
+   "french": 3,
+   "freshness": 4.6,
+   "short_enough": 2,
+   "priority": 4.68,
+   "topics": []
+  },
+  "origin": "original"
  },
  "clip_01M8CAW74V5AEZFYG3P2WFWNXJ": {
   "id": "clip_01M8CAW74V5AEZFYG3P2WFWNXJ",
@@ -158,7 +218,7 @@
   "url": "https://kick.com/achtenwlodar/clips/clip_01M8CAW74V5AEZFYG3P2WFWNXJ",
   "media_url": "https://clips.kick.com/clips/4a/clip_01M8CAW74V5AEZFYG3P2WFWNXJ/playlist.m3u8",
   "thumbnail": "https://clips.kick.com/clips/4a/clip_01M8CAW74V5AEZFYG3P2WFWNXJ/thumbnail.webp",
-  "views": 1330,
+  "views": 1414,
   "duration": 30,
   "created_at": "2026-11-26T16:26:44.911285Z",
   "vod_starts_at": 0,
@@ -181,7 +241,19 @@
   "pillar": "VIRAL MOMENTS & CHAOS",
   "pillar_method": "default",
   "reject_reason": "motion 10.3, still 0.34, letterbox 0.0",
-  "analysed_at": "2026-11-26T19:02:48+00:00"
+  "analysed_at": "2026-11-26T19:02:48+00:00",
+  "seen_at": "2026-11-26T20:17:11+00:00",
+  "radar": {
+   "momentum": 10,
+   "topic_match": 0,
+   "originality": 8,
+   "french": 3,
+   "freshness": 9.5,
+   "short_enough": 10,
+   "priority": 7.45,
+   "topics": []
+  },
+  "origin": "original"
  },
  "clip_01M88NJFNR09HJ0YDCB86CPRN5": {
   "id": "clip_01M88NJFNR09HJ0YDCB86CPRN5",
@@ -193,7 +265,7 @@
   "url": "https://kick.com/robertovstheworld/clips/clip_01M88NJFNR09HJ0YDCB86CPRN5",
   "media_url": "https://clips.kick.com/clips/ef/clip_01M88NJFNR09HJ0YDCB86CPRN5/master.m3u8",
   "thumbnail": "https://clips.kick.com/clips/ef/clip_01M88NJFNR09HJ0YDCB86CPRN5/thumbnail.webp",
-  "views": 943,
+  "views": 974,
   "duration": 22,
   "created_at": "2026-11-25T06:18:42.08919Z",
   "vod_starts_at": 0,
@@ -226,7 +298,19 @@
    "originality": null,
    "total": 4.66
   },
-  "analysed_at": "2026-11-26T19:02:58+00:00"
+  "analysed_at": "2026-11-26T19:02:58+00:00",
+  "seen_at": "2026-11-26T20:17:11+00:00",
+  "radar": {
+   "momentum": 5.7,
+   "topic_match": 0,
+   "originality": 8,
+   "french": 3,
+   "freshness": 4.6,
+   "short_enough": 10,
+   "priority": 5.24,
+   "topics": []
+  },
+  "origin": "original"
  },
  "clip_01M880CSY8GVW4M46NQPXXGH9E": {
   "id": "clip_01M880CSY8GVW4M46NQPXXGH9E",
@@ -238,7 +322,7 @@
   "url": "https://kick.com/sashawest/clips/clip_01M880CSY8GVW4M46NQPXXGH9E",
   "media_url": "https://clips.kick.com/clips/25/clip_01M880CSY8GVW4M46NQPXXGH9E/playlist.m3u8",
   "thumbnail": "https://clips.kick.com/clips/25/clip_01M880CSY8GVW4M46NQPXXGH9E/thumbnail.webp",
-  "views": 790,
+  "views": 803,
   "duration": 49,
   "created_at": "2026-11-25T00:07:00.301292Z",
   "vod_starts_at": 0,
@@ -261,7 +345,19 @@
   "pillar": "VIRAL MOMENTS & CHAOS",
   "pillar_method": "default",
   "reject_reason": "motion 10.4, still 0.02, letterbox 0.0",
-  "analysed_at": "2026-11-26T19:03:22+00:00"
+  "analysed_at": "2026-11-26T19:03:22+00:00",
+  "seen_at": "2026-11-26T20:17:11+00:00",
+  "radar": {
+   "momentum": 5.1,
+   "topic_match": 0,
+   "originality": 8,
+   "french": 3,
+   "freshness": 3.7,
+   "short_enough": 10,
+   "priority": 4.91,
+   "topics": []
+  },
+  "origin": "original"
  },
  "clip_01M89ZGNMT2AWS05JC9QHWR26C": {
   "id": "clip_01M89ZGNMT2AWS05JC9QHWR26C",
@@ -273,7 +369,7 @@
   "url": "https://kick.com/xmerghani/clips/clip_01M89ZGNMT2AWS05JC9QHWR26C",
   "media_url": "https://clips.kick.com/clips/c3/clip_01M89ZGNMT2AWS05JC9QHWR26C/playlist.m3u8",
   "thumbnail": "https://clips.kick.com/clips/c3/clip_01M89ZGNMT2AWS05JC9QHWR26C/thumbnail.webp",
-  "views": 776,
+  "views": 853,
   "duration": 157,
   "created_at": "2026-11-25T18:30:02.987888Z",
   "vod_starts_at": 0,
@@ -283,7 +379,19 @@
   "authenticity": "unchecked",
   "rights": "credited_third_party",
   "used_in": [],
-  "duplicate_of": null
+  "duplicate_of": null,
+  "seen_at": "2026-11-26T20:17:11+00:00",
+  "radar": {
+   "momentum": 6.1,
+   "topic_match": 0,
+   "originality": 8,
+   "french": 3,
+   "freshness": 6.3,
+   "short_enough": 2,
+   "priority": 4.77,
+   "topics": []
+  },
+  "origin": "original"
  },
  "clip_01M883G4EZGXCCSEX02P1QMJJM": {
   "id": "clip_01M883G4EZGXCCSEX02P1QMJJM",
@@ -295,7 +403,7 @@
   "url": "https://kick.com/askewgod/clips/clip_01M883G4EZGXCCSEX02P1QMJJM",
   "media_url": "https://clips.kick.com/clips/87/clip_01M883G4EZGXCCSEX02P1QMJJM/playlist.m3u8",
   "thumbnail": "https://clips.kick.com/clips/87/clip_01M883G4EZGXCCSEX02P1QMJJM/thumbnail.webp",
-  "views": 735,
+  "views": 761,
   "duration": 77,
   "created_at": "2026-11-25T01:01:13.71947Z",
   "vod_starts_at": 0,
@@ -305,7 +413,19 @@
   "authenticity": "unchecked",
   "rights": "credited_third_party",
   "used_in": [],
-  "duplicate_of": null
+  "duplicate_of": null,
+  "seen_at": "2026-11-26T20:17:11+00:00",
+  "radar": {
+   "momentum": 5.1,
+   "topic_match": 0,
+   "originality": 8,
+   "french": 3,
+   "freshness": 3.8,
+   "short_enough": 2,
+   "priority": 4.12,
+   "topics": []
+  },
+  "origin": "original"
  },
  "clip_01M8ASQ4TPK9QZCPM0PMA4G8J1": {
   "id": "clip_01M8ASQ4TPK9QZCPM0PMA4G8J1",
@@ -317,7 +437,7 @@
   "url": "https://kick.com/theozip/clips/clip_01M8ASQ4TPK9QZCPM0PMA4G8J1",
   "media_url": "https://clips.kick.com/clips/51/clip_01M8ASQ4TPK9QZCPM0PMA4G8J1/playlist.m3u8",
   "thumbnail": "https://clips.kick.com/clips/51/clip_01M8ASQ4TPK9QZCPM0PMA4G8J1/thumbnail.webp",
-  "views": 707,
+  "views": 742,
   "duration": 124,
   "created_at": "2026-11-26T02:07:41.243672Z",
   "vod_starts_at": 0,
@@ -327,7 +447,19 @@
   "authenticity": "unchecked",
   "rights": "credited_third_party",
   "used_in": [],
-  "duplicate_of": null
+  "duplicate_of": null,
+  "seen_at": "2026-11-26T20:17:11+00:00",
+  "radar": {
+   "momentum": 6.5,
+   "topic_match": 0,
+   "originality": 8,
+   "french": 3,
+   "freshness": 7.4,
+   "short_enough": 2,
+   "priority": 5.04,
+   "topics": []
+  },
+  "origin": "original"
  },
  "clip_01M889QWG63V84904SZNHX73JS": {
   "id": "clip_01M889QWG63V84904SZNHX73JS",
@@ -339,7 +471,7 @@
   "url": "https://kick.com/blowketing/clips/clip_01M889QWG63V84904SZNHX73JS",
   "media_url": "https://clips.kick.com/clips/84/clip_01M889QWG63V84904SZNHX73JS/playlist.m3u8",
   "thumbnail": "https://clips.kick.com/clips/84/clip_01M889QWG63V84904SZNHX73JS/thumbnail.webp",
-  "views": 564,
+  "views": 598,
   "duration": 180,
   "created_at": "2026-11-25T02:56:35.799166Z",
   "vod_starts_at": 0,
@@ -349,7 +481,19 @@
   "authenticity": "unchecked",
   "rights": "credited_third_party",
   "used_in": [],
-  "duplicate_of": null
+  "duplicate_of": null,
+  "seen_at": "2026-11-26T20:17:11+00:00",
+  "radar": {
+   "momentum": 4.8,
+   "topic_match": 0,
+   "originality": 8,
+   "french": 3,
+   "freshness": 4.1,
+   "short_enough": 2,
+   "priority": 4.03,
+   "topics": []
+  },
+  "origin": "original"
  },
  "clip_01M89GKB9RKC10HZHPVBDD39JD": {
   "id": "clip_01M89GKB9RKC10HZHPVBDD39JD",
@@ -361,7 +505,7 @@
   "url": "https://kick.com/neexcsgo/clips/clip_01M89GKB9RKC10HZHPVBDD39JD",
   "media_url": "https://clips.kick.com/clips/b5/clip_01M89GKB9RKC10HZHPVBDD39JD/playlist.m3u8",
   "thumbnail": "https://clips.kick.com/clips/b5/clip_01M89GKB9RKC10HZHPVBDD39JD/thumbnail.webp",
-  "views": 547,
+  "views": 565,
   "duration": 180,
   "created_at": "2026-11-25T14:09:44.850093Z",
   "vod_starts_at": 0,
@@ -371,7 +515,19 @@
   "authenticity": "unchecked",
   "rights": "credited_third_party",
   "used_in": [],
-  "duplicate_of": null
+  "duplicate_of": null,
+  "seen_at": "2026-11-26T20:17:11+00:00",
+  "radar": {
+   "momentum": 5.2,
+   "topic_match": 0,
+   "originality": 8,
+   "french": 3,
+   "freshness": 5.7,
+   "short_enough": 2,
+   "priority": 4.35,
+   "topics": []
+  },
+  "origin": "original"
  },
  "clip_01M89XJX2RYZS3XSD6QCA2HHQW": {
   "id": "clip_01M89XJX2RYZS3XSD6QCA2HHQW",
@@ -383,7 +539,7 @@
   "url": "https://kick.com/paulinholokobr/clips/clip_01M89XJX2RYZS3XSD6QCA2HHQW",
   "media_url": "https://clips.kick.com/clips/cc/clip_01M89XJX2RYZS3XSD6QCA2HHQW/master.m3u8",
   "thumbnail": "https://clips.kick.com/clips/cc/clip_01M89XJX2RYZS3XSD6QCA2HHQW/thumbnail.webp",
-  "views": 544,
+  "views": 582,
   "duration": 176,
   "created_at": "2026-11-25T17:56:46.263989Z",
   "vod_starts_at": 0,
@@ -393,7 +549,19 @@
   "authenticity": "unchecked",
   "rights": "credited_third_party",
   "used_in": [],
-  "duplicate_of": null
+  "duplicate_of": null,
+  "seen_at": "2026-11-26T20:17:11+00:00",
+  "radar": {
+   "momentum": 5.5,
+   "topic_match": 0,
+   "originality": 8,
+   "french": 3,
+   "freshness": 6.2,
+   "short_enough": 2,
+   "priority": 4.52,
+   "topics": []
+  },
+  "origin": "original"
  },
  "clip_01M88FVSTNJDGZKKKEBJJGSRY2": {
   "id": "clip_01M88FVSTNJDGZKKKEBJJGSRY2",
@@ -405,7 +573,7 @@
   "url": "https://kick.com/iceposeidon/clips/clip_01M88FVSTNJDGZKKKEBJJGSRY2",
   "media_url": "https://clips.kick.com/clips/28/clip_01M88FVSTNJDGZKKKEBJJGSRY2/master.m3u8",
   "thumbnail": "https://clips.kick.com/clips/28/clip_01M88FVSTNJDGZKKKEBJJGSRY2/thumbnail.webp",
-  "views": 523,
+  "views": 553,
   "duration": 16,
   "created_at": "2026-11-25T04:37:33.68906Z",
   "vod_starts_at": 0,
@@ -438,7 +606,19 @@
    "originality": null,
    "total": 6.58
   },
-  "analysed_at": "2026-11-26T19:03:36+00:00"
+  "analysed_at": "2026-11-26T19:03:36+00:00",
+  "seen_at": "2026-11-26T20:17:11+00:00",
+  "radar": {
+   "momentum": 4.7,
+   "topic_match": 0,
+   "originality": 8,
+   "french": 3,
+   "freshness": 4.3,
+   "short_enough": 10,
+   "priority": 4.81,
+   "topics": []
+  },
+  "origin": "original"
  },
  "clip_01M89TJJ0CBADEZ1Y4KTVCC981": {
   "id": "clip_01M89TJJ0CBADEZ1Y4KTVCC981",
@@ -450,7 +630,7 @@
   "url": "https://kick.com/neexcsgo/clips/clip_01M89TJJ0CBADEZ1Y4KTVCC981",
   "media_url": "https://clips.kick.com/clips/68/clip_01M89TJJ0CBADEZ1Y4KTVCC981/playlist.m3u8",
   "thumbnail": "https://clips.kick.com/clips/68/clip_01M89TJJ0CBADEZ1Y4KTVCC981/thumbnail.webp",
-  "views": 454,
+  "views": 496,
   "duration": 180,
   "created_at": "2026-11-25T17:03:44.637651Z",
   "vod_starts_at": 0,
@@ -460,7 +640,19 @@
   "authenticity": "unchecked",
   "rights": "credited_third_party",
   "used_in": [],
-  "duplicate_of": null
+  "duplicate_of": null,
+  "seen_at": "2026-11-26T20:17:11+00:00",
+  "radar": {
+   "momentum": 5.1,
+   "topic_match": 0,
+   "originality": 8,
+   "french": 3,
+   "freshness": 6.1,
+   "short_enough": 2,
+   "priority": 4.35,
+   "topics": []
+  },
+  "origin": "original"
  },
  "clip_01M887MSY2TAXRDH1Z3D5PGRM7": {
   "id": "clip_01M887MSY2TAXRDH1Z3D5PGRM7",
@@ -472,7 +664,7 @@
   "url": "https://kick.com/paulinholokobr/clips/clip_01M887MSY2TAXRDH1Z3D5PGRM7",
   "media_url": "https://clips.kick.com/clips/bb/clip_01M887MSY2TAXRDH1Z3D5PGRM7/master.m3u8",
   "thumbnail": "https://clips.kick.com/clips/bb/clip_01M887MSY2TAXRDH1Z3D5PGRM7/thumbnail.webp",
-  "views": 445,
+  "views": 496,
   "duration": 30,
   "created_at": "2026-11-25T02:14:15.160587Z",
   "vod_starts_at": 0,
@@ -506,7 +698,19 @@
    "total": 7.38
   },
   "analysed_at": "2026-11-26T19:03:52+00:00",
-  "review_reason": "story cutscene"
+  "review_reason": "story cutscene",
+  "seen_at": "2026-11-26T20:17:11+00:00",
+  "radar": {
+   "momentum": 4.4,
+   "topic_match": 0,
+   "originality": 8,
+   "french": 3,
+   "freshness": 4.0,
+   "short_enough": 10,
+   "priority": 4.66,
+   "topics": []
+  },
+  "origin": "original"
  },
  "clip_01M89HW8TCPZX96XYP9G3P262W": {
   "id": "clip_01M89HW8TCPZX96XYP9G3P262W",
@@ -518,7 +722,7 @@
   "url": "https://kick.com/bistecone/clips/clip_01M89HW8TCPZX96XYP9G3P262W",
   "media_url": "https://clips.kick.com/clips/9c/clip_01M89HW8TCPZX96XYP9G3P262W/master.m3u8",
   "thumbnail": "https://clips.kick.com/clips/9c/clip_01M89HW8TCPZX96XYP9G3P262W/thumbnail.webp",
-  "views": 399,
+  "views": 421,
   "duration": 180,
   "created_at": "2026-11-25T14:31:28.020945Z",
   "vod_starts_at": 0,
@@ -528,7 +732,23 @@
   "authenticity": "unchecked",
   "rights": "credited_third_party",
   "used_in": [],
-  "duplicate_of": null
+  "duplicate_of": null,
+  "seen_at": "2026-11-26T20:17:11+00:00",
+  "radar": {
+   "momentum": 4.7,
+   "topic_match": 5,
+   "originality": 8,
+   "french": 3,
+   "freshness": 5.7,
+   "short_enough": 2,
+   "priority": 4.9,
+   "topics": [
+    "funny"
+   ]
+  },
+  "origin": "original",
+  "pillar": "VIRAL MOMENTS & CHAOS",
+  "pillar_method": "keyword"
  },
  "clip_01M88RB9R14ER4ZQHMT62GZ5GP": {
   "id": "clip_01M88RB9R14ER4ZQHMT62GZ5GP",
@@ -540,7 +760,7 @@
   "url": "https://kick.com/mrchoco/clips/clip_01M88RB9R14ER4ZQHMT62GZ5GP",
   "media_url": "https://clips.kick.com/clips/e5/clip_01M88RB9R14ER4ZQHMT62GZ5GP/master.m3u8",
   "thumbnail": "https://clips.kick.com/clips/e5/clip_01M88RB9R14ER4ZQHMT62GZ5GP/thumbnail.webp",
-  "views": 381,
+  "views": 413,
   "duration": 57,
   "created_at": "2026-11-25T07:05:54.924988Z",
   "vod_starts_at": 0,
@@ -563,7 +783,19 @@
   "pillar": "VIRAL MOMENTS & CHAOS",
   "pillar_method": "default",
   "reject_reason": "motion 6.0, still 0.11, letterbox 0.0",
-  "analysed_at": "2026-11-26T19:04:23+00:00"
+  "analysed_at": "2026-11-26T19:04:23+00:00",
+  "seen_at": "2026-11-26T20:17:11+00:00",
+  "radar": {
+   "momentum": 4.3,
+   "topic_match": 0,
+   "originality": 8,
+   "french": 3,
+   "freshness": 4.7,
+   "short_enough": 10,
+   "priority": 4.69,
+   "topics": []
+  },
+  "origin": "original"
  },
  "clip_01M89GPN0BJ1PT3YCSTE51AS34": {
   "id": "clip_01M89GPN0BJ1PT3YCSTE51AS34",
@@ -585,7 +817,19 @@
   "authenticity": "unchecked",
   "rights": "credited_third_party",
   "used_in": [],
-  "duplicate_of": null
+  "duplicate_of": null,
+  "seen_at": "2026-11-26T20:17:11+00:00",
+  "radar": {
+   "momentum": 4.5,
+   "topic_match": 0,
+   "originality": 8,
+   "french": 3,
+   "freshness": 5.7,
+   "short_enough": 2,
+   "priority": 4.07,
+   "topics": []
+  },
+  "origin": "original"
  },
  "clip_01M8813BJ0C59S498Y8XJYRPB8": {
   "id": "clip_01M8813BJ0C59S498Y8XJYRPB8",
@@ -597,7 +841,7 @@
   "url": "https://kick.com/paymoneywubby/clips/clip_01M8813BJ0C59S498Y8XJYRPB8",
   "media_url": "https://clips.kick.com/clips/12/clip_01M8813BJ0C59S498Y8XJYRPB8/master.m3u8",
   "thumbnail": "https://clips.kick.com/clips/12/clip_01M8813BJ0C59S498Y8XJYRPB8/thumbnail.webp",
-  "views": 336,
+  "views": 337,
   "duration": 14,
   "created_at": "2026-11-25T00:22:33.197007Z",
   "vod_starts_at": 0,
@@ -620,7 +864,19 @@
   "pillar": "VIRAL MOMENTS & CHAOS",
   "pillar_method": "default",
   "reject_reason": "motion 11.3, still 0.0, letterbox 0.0",
-  "analysed_at": "2026-11-26T19:04:37+00:00"
+  "analysed_at": "2026-11-26T19:04:37+00:00",
+  "seen_at": "2026-11-26T20:17:11+00:00",
+  "radar": {
+   "momentum": 3.8,
+   "topic_match": 0,
+   "originality": 8,
+   "french": 3,
+   "freshness": 3.7,
+   "short_enough": 10,
+   "priority": 4.39,
+   "topics": []
+  },
+  "origin": "original"
  },
  "clip_01M88NY6GMKZR3H26WA9DZBXZ5": {
   "id": "clip_01M88NY6GMKZR3H26WA9DZBXZ5",
@@ -632,7 +888,7 @@
   "url": "https://kick.com/davooxeneize/clips/clip_01M88NY6GMKZR3H26WA9DZBXZ5",
   "media_url": "https://clips.kick.com/clips/b6/clip_01M88NY6GMKZR3H26WA9DZBXZ5/master.m3u8",
   "thumbnail": "https://clips.kick.com/clips/b6/clip_01M88NY6GMKZR3H26WA9DZBXZ5/thumbnail.webp",
-  "views": 321,
+  "views": 334,
   "duration": 22,
   "created_at": "2026-11-25T06:24:16.215426Z",
   "vod_starts_at": 0,
@@ -668,7 +924,19 @@
    "total": 6.68
   },
   "analysed_at": "2026-11-26T19:04:52+00:00",
-  "review_reason": "owner rejected engine-20261126-1925-1"
+  "review_reason": "owner rejected engine-20261126-1925-1",
+  "seen_at": "2026-11-26T20:17:11+00:00",
+  "radar": {
+   "momentum": 4.0,
+   "topic_match": 0,
+   "originality": 8,
+   "french": 10,
+   "freshness": 4.6,
+   "short_enough": 10,
+   "priority": 5.26,
+   "topics": []
+  },
+  "origin": "original"
  },
  "clip_01M88B22F9J1ZX62FHA8YVY9SV": {
   "id": "clip_01M88B22F9J1ZX62FHA8YVY9SV",
@@ -680,7 +948,7 @@
   "url": "https://kick.com/madybloox/clips/clip_01M88B22F9J1ZX62FHA8YVY9SV",
   "media_url": "https://clips.kick.com/clips/e8/clip_01M88B22F9J1ZX62FHA8YVY9SV/playlist.m3u8",
   "thumbnail": "https://clips.kick.com/clips/e8/clip_01M88B22F9J1ZX62FHA8YVY9SV/thumbnail.webp",
-  "views": 290,
+  "views": 304,
   "duration": 48,
   "created_at": "2026-11-25T03:13:27.257499Z",
   "vod_starts_at": 0,
@@ -703,7 +971,19 @@
   "pillar": "RACING & VEHICLES",
   "pillar_method": "keyword",
   "reject_reason": "motion 4.6, still 0.06, letterbox 0.0",
-  "analysed_at": "2026-11-26T19:05:04+00:00"
+  "analysed_at": "2026-11-26T19:05:04+00:00",
+  "seen_at": "2026-11-26T20:17:11+00:00",
+  "radar": {
+   "momentum": 3.7,
+   "topic_match": 0,
+   "originality": 8,
+   "french": 3,
+   "freshness": 4.1,
+   "short_enough": 10,
+   "priority": 4.39,
+   "topics": []
+  },
+  "origin": "original"
  },
  "clip_01M882TNG1DYJE970Q31HN85XR": {
   "id": "clip_01M882TNG1DYJE970Q31HN85XR",
@@ -715,7 +995,7 @@
   "url": "https://kick.com/rraenee/clips/clip_01M882TNG1DYJE970Q31HN85XR",
   "media_url": "https://clips.kick.com/clips/e7/clip_01M882TNG1DYJE970Q31HN85XR/playlist.m3u8",
   "thumbnail": "https://clips.kick.com/clips/e7/clip_01M882TNG1DYJE970Q31HN85XR/thumbnail.webp",
-  "views": 217,
+  "views": 222,
   "duration": 79,
   "created_at": "2026-11-25T00:49:16.90522Z",
   "vod_starts_at": 0,
@@ -725,7 +1005,19 @@
   "authenticity": "unchecked",
   "rights": "credited_third_party",
   "used_in": [],
-  "duplicate_of": null
+  "duplicate_of": null,
+  "seen_at": "2026-11-26T20:17:11+00:00",
+  "radar": {
+   "momentum": 3.1,
+   "topic_match": 0,
+   "originality": 8,
+   "french": 3,
+   "freshness": 3.8,
+   "short_enough": 2,
+   "priority": 3.32,
+   "topics": []
+  },
+  "origin": "original"
  },
  "clip_01M89BQGA2AFP1M0N4XCT722B4": {
   "id": "clip_01M89BQGA2AFP1M0N4XCT722B4",
@@ -773,7 +1065,21 @@
    "total": 7.08
   },
   "analysed_at": "2026-11-26T19:05:27+00:00",
-  "review_reason": "owner rejected engine-20261126-1925-1"
+  "review_reason": "owner rejected engine-20261126-1925-1",
+  "seen_at": "2026-11-26T20:17:11+00:00",
+  "radar": {
+   "momentum": 3.5,
+   "topic_match": 5,
+   "originality": 8,
+   "french": 3,
+   "freshness": 5.5,
+   "short_enough": 10,
+   "priority": 5.2,
+   "topics": [
+    "funny"
+   ]
+  },
+  "origin": "original"
  },
  "clip_01M882V4HXK16ZF31FP6Z0MHHJ": {
   "id": "clip_01M882V4HXK16ZF31FP6Z0MHHJ",
@@ -808,7 +1114,19 @@
   "pillar": "VIRAL MOMENTS & CHAOS",
   "pillar_method": "default",
   "reject_reason": "motion 7.6, still 0.57, letterbox 0.0",
-  "analysed_at": "2026-11-26T19:05:54+00:00"
+  "analysed_at": "2026-11-26T19:05:54+00:00",
+  "seen_at": "2026-11-26T20:17:11+00:00",
+  "radar": {
+   "momentum": 2.9,
+   "topic_match": 0,
+   "originality": 8,
+   "french": 3,
+   "freshness": 3.8,
+   "short_enough": 10,
+   "priority": 4.04,
+   "topics": []
+  },
+  "origin": "original"
  },
  "clip_01M8877BR9KJJY1G03SNMS2ZBC": {
   "id": "clip_01M8877BR9KJJY1G03SNMS2ZBC",
@@ -820,7 +1138,7 @@
   "url": "https://kick.com/bistecone/clips/clip_01M8877BR9KJJY1G03SNMS2ZBC",
   "media_url": "https://clips.kick.com/clips/fd/clip_01M8877BR9KJJY1G03SNMS2ZBC/master.m3u8",
   "thumbnail": "https://clips.kick.com/clips/fd/clip_01M8877BR9KJJY1G03SNMS2ZBC/thumbnail.webp",
-  "views": 169,
+  "views": 173,
   "duration": 80,
   "created_at": "2026-11-25T02:07:24.277134Z",
   "vod_starts_at": 0,
@@ -830,7 +1148,23 @@
   "authenticity": "unchecked",
   "rights": "credited_third_party",
   "used_in": [],
-  "duplicate_of": null
+  "duplicate_of": null,
+  "seen_at": "2026-11-26T20:17:11+00:00",
+  "radar": {
+   "momentum": 2.8,
+   "topic_match": 5,
+   "originality": 8,
+   "french": 3,
+   "freshness": 4.0,
+   "short_enough": 2,
+   "priority": 3.97,
+   "topics": [
+    "funny"
+   ]
+  },
+  "origin": "original",
+  "pillar": "VIRAL MOMENTS & CHAOS",
+  "pillar_method": "keyword"
  },
  "clip_01M88EMKTBTCC7RMMDR1WNQEB2": {
   "id": "clip_01M88EMKTBTCC7RMMDR1WNQEB2",
@@ -842,7 +1176,7 @@
   "url": "https://kick.com/dasgasd3m/clips/clip_01M88EMKTBTCC7RMMDR1WNQEB2",
   "media_url": "https://clips.kick.com/clips/24/clip_01M88EMKTBTCC7RMMDR1WNQEB2/master.m3u8",
   "thumbnail": "https://clips.kick.com/clips/24/clip_01M88EMKTBTCC7RMMDR1WNQEB2/thumbnail.webp",
-  "views": 167,
+  "views": 184,
   "duration": 49,
   "created_at": "2026-11-25T04:18:02.412188Z",
   "vod_starts_at": 0,
@@ -876,7 +1210,19 @@
    "total": 3.92
   },
   "analysed_at": "2026-11-26T19:06:43+00:00",
-  "review_reason": "no action"
+  "review_reason": "no action",
+  "seen_at": "2026-11-26T20:17:11+00:00",
+  "radar": {
+   "momentum": 3.0,
+   "topic_match": 0,
+   "originality": 8,
+   "french": 3,
+   "freshness": 4.3,
+   "short_enough": 10,
+   "priority": 4.13,
+   "topics": []
+  },
+  "origin": "original"
  },
  "clip_01M887FANE101R3M9EVM06W4GQ": {
   "id": "clip_01M887FANE101R3M9EVM06W4GQ",
@@ -888,7 +1234,7 @@
   "url": "https://kick.com/litkillah/clips/clip_01M887FANE101R3M9EVM06W4GQ",
   "media_url": "https://clips.kick.com/clips/fe/clip_01M887FANE101R3M9EVM06W4GQ/master.m3u8",
   "thumbnail": "https://clips.kick.com/clips/fe/clip_01M887FANE101R3M9EVM06W4GQ/thumbnail.webp",
-  "views": 161,
+  "views": 172,
   "duration": 13,
   "created_at": "2026-11-25T02:10:54.37394Z",
   "vod_starts_at": 0,
@@ -922,7 +1268,19 @@
    "total": 4.67
   },
   "analysed_at": "2026-11-26T19:06:57+00:00",
-  "review_reason": "adult content"
+  "review_reason": "adult content",
+  "seen_at": "2026-11-26T20:17:11+00:00",
+  "radar": {
+   "momentum": 2.8,
+   "topic_match": 0,
+   "originality": 8,
+   "french": 3,
+   "freshness": 4.0,
+   "short_enough": 10,
+   "priority": 4.02,
+   "topics": []
+  },
+  "origin": "original"
  },
  "clip_01M88HTYZ33QKH370WV4XE06W5": {
   "id": "clip_01M88HTYZ33QKH370WV4XE06W5",
@@ -934,7 +1292,7 @@
   "url": "https://kick.com/rraenee/clips/clip_01M88HTYZ33QKH370WV4XE06W5",
   "media_url": "https://clips.kick.com/clips/43/clip_01M88HTYZ33QKH370WV4XE06W5/playlist.m3u8",
   "thumbnail": "https://clips.kick.com/clips/43/clip_01M88HTYZ33QKH370WV4XE06W5/thumbnail.webp",
-  "views": 158,
+  "views": 160,
   "duration": 114,
   "created_at": "2026-11-25T05:13:41.630043Z",
   "vod_starts_at": 0,
@@ -944,7 +1302,19 @@
   "authenticity": "unchecked",
   "rights": "credited_third_party",
   "used_in": [],
-  "duplicate_of": null
+  "duplicate_of": null,
+  "seen_at": "2026-11-26T20:17:11+00:00",
+  "radar": {
+   "momentum": 2.8,
+   "topic_match": 0,
+   "originality": 8,
+   "french": 3,
+   "freshness": 4.4,
+   "short_enough": 2,
+   "priority": 3.26,
+   "topics": []
+  },
+  "origin": "original"
  },
  "clip_01M882TP90WCB0NSKN29VW0K5B": {
   "id": "clip_01M882TP90WCB0NSKN29VW0K5B",
@@ -956,7 +1326,7 @@
   "url": "https://kick.com/rraenee/clips/clip_01M882TP90WCB0NSKN29VW0K5B",
   "media_url": "https://clips.kick.com/clips/a7/clip_01M882TP90WCB0NSKN29VW0K5B/playlist.m3u8",
   "thumbnail": "https://clips.kick.com/clips/a7/clip_01M882TP90WCB0NSKN29VW0K5B/thumbnail.webp",
-  "views": 151,
+  "views": 152,
   "duration": 72,
   "created_at": "2026-11-25T00:49:01.135016Z",
   "vod_starts_at": 0,
@@ -966,7 +1336,19 @@
   "authenticity": "unchecked",
   "rights": "credited_third_party",
   "used_in": [],
-  "duplicate_of": null
+  "duplicate_of": null,
+  "seen_at": "2026-11-26T20:17:11+00:00",
+  "radar": {
+   "momentum": 2.6,
+   "topic_match": 0,
+   "originality": 8,
+   "french": 3,
+   "freshness": 3.8,
+   "short_enough": 2,
+   "priority": 3.12,
+   "topics": []
+  },
+  "origin": "original"
  },
  "clip_01M88589BN6EKERXV8BPTVJ4T3": {
   "id": "clip_01M88589BN6EKERXV8BPTVJ4T3",
@@ -978,7 +1360,7 @@
   "url": "https://kick.com/paymoneywubby/clips/clip_01M88589BN6EKERXV8BPTVJ4T3",
   "media_url": "https://clips.kick.com/clips/2e/clip_01M88589BN6EKERXV8BPTVJ4T3/master.m3u8",
   "thumbnail": "https://clips.kick.com/clips/2e/clip_01M88589BN6EKERXV8BPTVJ4T3/thumbnail.webp",
-  "views": 154,
+  "views": 163,
   "duration": 169,
   "created_at": "2026-11-25T01:31:34.343765Z",
   "vod_starts_at": 0,
@@ -988,7 +1370,19 @@
   "authenticity": "unchecked",
   "rights": "credited_third_party",
   "used_in": [],
-  "duplicate_of": null
+  "duplicate_of": null,
+  "seen_at": "2026-11-26T20:17:11+00:00",
+  "radar": {
+   "momentum": 2.7,
+   "topic_match": 0,
+   "originality": 8,
+   "french": 3,
+   "freshness": 3.9,
+   "short_enough": 2,
+   "priority": 3.17,
+   "topics": []
+  },
+  "origin": "original"
  },
  "clip_01M887QEBGVTTYFZER68HS2QGP": {
   "id": "clip_01M887QEBGVTTYFZER68HS2QGP",
@@ -1000,7 +1394,7 @@
   "url": "https://kick.com/paulinholokobr/clips/clip_01M887QEBGVTTYFZER68HS2QGP",
   "media_url": "https://clips.kick.com/clips/70/clip_01M887QEBGVTTYFZER68HS2QGP/master.m3u8",
   "thumbnail": "https://clips.kick.com/clips/70/clip_01M887QEBGVTTYFZER68HS2QGP/thumbnail.webp",
-  "views": 138,
+  "views": 142,
   "duration": 99,
   "created_at": "2026-11-25T02:14:45.256426Z",
   "vod_starts_at": 0,
@@ -1010,7 +1404,23 @@
   "authenticity": "unchecked",
   "rights": "credited_third_party",
   "used_in": [],
-  "duplicate_of": null
+  "duplicate_of": null,
+  "seen_at": "2026-11-26T20:17:11+00:00",
+  "radar": {
+   "momentum": 2.6,
+   "topic_match": 5,
+   "originality": 8,
+   "french": 3,
+   "freshness": 4.0,
+   "short_enough": 2,
+   "priority": 3.89,
+   "topics": [
+    "funny"
+   ]
+  },
+  "origin": "original",
+  "pillar": "VIRAL MOMENTS & CHAOS",
+  "pillar_method": "keyword"
  },
  "clip_01M8858HYPX289SGQK6T3C6MJB": {
   "id": "clip_01M8858HYPX289SGQK6T3C6MJB",
@@ -1032,7 +1442,19 @@
   "authenticity": "unchecked",
   "rights": "credited_third_party",
   "used_in": [],
-  "duplicate_of": null
+  "duplicate_of": null,
+  "seen_at": "2026-11-26T20:17:11+00:00",
+  "radar": {
+   "momentum": 2.4,
+   "topic_match": 0,
+   "originality": 8,
+   "french": 3,
+   "freshness": 3.9,
+   "short_enough": 2,
+   "priority": 3.05,
+   "topics": []
+  },
+  "origin": "original"
  },
  "clip_01M88A5T6BA0FPBAAHEJRRT0TX": {
   "id": "clip_01M88A5T6BA0FPBAAHEJRRT0TX",
@@ -1067,7 +1489,19 @@
   "pillar": "VIRAL MOMENTS & CHAOS",
   "pillar_method": "default",
   "reject_reason": "motion 4.4, still 0.36, letterbox 0.0",
-  "analysed_at": "2026-11-26T19:07:12+00:00"
+  "analysed_at": "2026-11-26T19:07:12+00:00",
+  "seen_at": "2026-11-26T20:17:11+00:00",
+  "radar": {
+   "momentum": 2.3,
+   "topic_match": 0,
+   "originality": 8,
+   "french": 3,
+   "freshness": 4.1,
+   "short_enough": 10,
+   "priority": 3.83,
+   "topics": []
+  },
+  "origin": "original"
  },
  "clip_01M881SE2Z4T3QZTDGQ4EHJ96T": {
   "id": "clip_01M881SE2Z4T3QZTDGQ4EHJ96T",
@@ -1079,7 +1513,7 @@
   "url": "https://kick.com/robertovstheworld/clips/clip_01M881SE2Z4T3QZTDGQ4EHJ96T",
   "media_url": "https://clips.kick.com/clips/83/clip_01M881SE2Z4T3QZTDGQ4EHJ96T/master.m3u8",
   "thumbnail": "https://clips.kick.com/clips/83/clip_01M881SE2Z4T3QZTDGQ4EHJ96T/thumbnail.webp",
-  "views": 97,
+  "views": 98,
   "duration": 120,
   "created_at": "2026-11-25T00:30:48.945735Z",
   "vod_starts_at": 0,
@@ -1089,7 +1523,19 @@
   "authenticity": "unchecked",
   "rights": "credited_third_party",
   "used_in": [],
-  "duplicate_of": null
+  "duplicate_of": null,
+  "seen_at": "2026-11-26T20:17:11+00:00",
+  "radar": {
+   "momentum": 2.0,
+   "topic_match": 0,
+   "originality": 8,
+   "french": 3,
+   "freshness": 3.7,
+   "short_enough": 2,
+   "priority": 2.87,
+   "topics": []
+  },
+  "origin": "original"
  },
  "clip_01M8838HK6SNPQ7ZYJ9335TK77": {
   "id": "clip_01M8838HK6SNPQ7ZYJ9335TK77",
@@ -1135,7 +1581,19 @@
    "total": 5.84
   },
   "analysed_at": "2026-11-26T19:07:28+00:00",
-  "review_reason": "adult content"
+  "review_reason": "adult content",
+  "seen_at": "2026-11-26T20:17:11+00:00",
+  "radar": {
+   "momentum": 2.0,
+   "topic_match": 0,
+   "originality": 8,
+   "french": 3,
+   "freshness": 3.8,
+   "short_enough": 10,
+   "priority": 3.68,
+   "topics": []
+  },
+  "origin": "original"
  },
  "clip_01M884C4VR9N1JEW4RESD0E0GV": {
   "id": "clip_01M884C4VR9N1JEW4RESD0E0GV",
@@ -1147,7 +1605,7 @@
   "url": "https://kick.com/dasgasd3m/clips/clip_01M884C4VR9N1JEW4RESD0E0GV",
   "media_url": "https://clips.kick.com/clips/72/clip_01M884C4VR9N1JEW4RESD0E0GV/master.m3u8",
   "thumbnail": "https://clips.kick.com/clips/72/clip_01M884C4VR9N1JEW4RESD0E0GV/thumbnail.webp",
-  "views": 87,
+  "views": 88,
   "duration": 84,
   "created_at": "2026-11-25T01:16:56.607151Z",
   "vod_starts_at": 0,
@@ -1157,7 +1615,19 @@
   "authenticity": "unchecked",
   "rights": "credited_third_party",
   "used_in": [],
-  "duplicate_of": null
+  "duplicate_of": null,
+  "seen_at": "2026-11-26T20:17:11+00:00",
+  "radar": {
+   "momentum": 1.9,
+   "topic_match": 0,
+   "originality": 8,
+   "french": 3,
+   "freshness": 3.9,
+   "short_enough": 2,
+   "priority": 2.85,
+   "topics": []
+  },
+  "origin": "original"
  },
  "clip_01M883Q071WVA0AMDAYTVPYQP8": {
   "id": "clip_01M883Q071WVA0AMDAYTVPYQP8",
@@ -1192,7 +1662,19 @@
   "pillar": "VIRAL MOMENTS & CHAOS",
   "pillar_method": "default",
   "reject_reason": "motion 9.1, still 0.16, letterbox 0.0",
-  "analysed_at": "2026-11-26T19:07:49+00:00"
+  "analysed_at": "2026-11-26T19:07:49+00:00",
+  "seen_at": "2026-11-26T20:17:11+00:00",
+  "radar": {
+   "momentum": 1.5,
+   "topic_match": 0,
+   "originality": 8,
+   "french": 3,
+   "freshness": 3.8,
+   "short_enough": 10,
+   "priority": 3.48,
+   "topics": []
+  },
+  "origin": "original"
  },
  "clip_01M883GTPETT8ESCDR0D6XXY9K": {
   "id": "clip_01M883GTPETT8ESCDR0D6XXY9K",
@@ -1216,7 +1698,19 @@
   "used_in": [
    "posted-20261126"
   ],
-  "duplicate_of": null
+  "duplicate_of": null,
+  "seen_at": "2026-11-26T20:17:11+00:00",
+  "radar": {
+   "momentum": 1.4,
+   "topic_match": 0,
+   "originality": 8,
+   "french": 3,
+   "freshness": 3.8,
+   "short_enough": 10,
+   "priority": 3.44,
+   "topics": []
+  },
+  "origin": "original"
  },
  "clip_01M880K09K7DYE9AVJHVGSCA2B": {
   "id": "clip_01M880K09K7DYE9AVJHVGSCA2B",
@@ -1240,7 +1734,19 @@
   "used_in": [
    "posted-20261126"
   ],
-  "duplicate_of": null
+  "duplicate_of": null,
+  "seen_at": "2026-11-26T20:17:11+00:00",
+  "radar": {
+   "momentum": 1.4,
+   "topic_match": 0,
+   "originality": 8,
+   "french": 3,
+   "freshness": 3.7,
+   "short_enough": 10,
+   "priority": 3.43,
+   "topics": []
+  },
+  "origin": "original"
  },
  "clip_01M882YGZVT5KMB38NJ2S9EYCZ": {
   "id": "clip_01M882YGZVT5KMB38NJ2S9EYCZ",
@@ -1286,7 +1792,19 @@
    "total": 6.55
   },
   "analysed_at": "2026-11-26T19:08:07+00:00",
-  "review_reason": "story cutscene"
+  "review_reason": "story cutscene",
+  "seen_at": "2026-11-26T20:17:11+00:00",
+  "radar": {
+   "momentum": 1.3,
+   "topic_match": 0,
+   "originality": 8,
+   "french": 3,
+   "freshness": 3.8,
+   "short_enough": 10,
+   "priority": 3.4,
+   "topics": []
+  },
+  "origin": "original"
  },
  "clip_01M882HWYZ5KGX68TK0MWB81KJ": {
   "id": "clip_01M882HWYZ5KGX68TK0MWB81KJ",
@@ -1308,7 +1826,19 @@
   "authenticity": "unchecked",
   "rights": "credited_third_party",
   "used_in": [],
-  "duplicate_of": null
+  "duplicate_of": null,
+  "seen_at": "2026-11-26T20:17:11+00:00",
+  "radar": {
+   "momentum": 1.3,
+   "topic_match": 0,
+   "originality": 8,
+   "french": 3,
+   "freshness": 3.8,
+   "short_enough": 2,
+   "priority": 2.6,
+   "topics": []
+  },
+  "origin": "original"
  },
  "clip_01M881SDZ7BXXDGV869JXSJYZD": {
   "id": "clip_01M881SDZ7BXXDGV869JXSJYZD",
@@ -1332,7 +1862,19 @@
   "used_in": [
    "posted-20261126"
   ],
-  "duplicate_of": null
+  "duplicate_of": null,
+  "seen_at": "2026-11-26T20:17:11+00:00",
+  "radar": {
+   "momentum": 1.2,
+   "topic_match": 0,
+   "originality": 8,
+   "french": 3,
+   "freshness": 3.7,
+   "short_enough": 10,
+   "priority": 3.35,
+   "topics": []
+  },
+  "origin": "original"
  },
  "clip_01M883QQ6SS8FZ67A7RMA4EG62": {
   "id": "clip_01M883QQ6SS8FZ67A7RMA4EG62",
@@ -1354,7 +1896,19 @@
   "authenticity": "unchecked",
   "rights": "credited_third_party",
   "used_in": [],
-  "duplicate_of": null
+  "duplicate_of": null,
+  "seen_at": "2026-11-26T20:17:11+00:00",
+  "radar": {
+   "momentum": 1.2,
+   "topic_match": 0,
+   "originality": 8,
+   "french": 3,
+   "freshness": 3.8,
+   "short_enough": 2,
+   "priority": 2.56,
+   "topics": []
+  },
+  "origin": "original"
  },
  "clip_01M881H77DZJ535N9RT3APMRP3": {
   "id": "clip_01M881H77DZJ535N9RT3APMRP3",
@@ -1389,7 +1943,19 @@
   "pillar": "LEONIDA LIFE & DETAILS",
   "pillar_method": "keyword",
   "reject_reason": "motion 14.6, still 0.17, letterbox 0.0",
-  "analysed_at": "2026-11-26T19:08:24+00:00"
+  "analysed_at": "2026-11-26T19:08:24+00:00",
+  "seen_at": "2026-11-26T20:17:11+00:00",
+  "radar": {
+   "momentum": 1.2,
+   "topic_match": 0,
+   "originality": 8,
+   "french": 3,
+   "freshness": 3.7,
+   "short_enough": 10,
+   "priority": 3.35,
+   "topics": []
+  },
+  "origin": "original"
  },
  "clip_01M883N8W0E9MVE5ZR0NN4W0NQ": {
   "id": "clip_01M883N8W0E9MVE5ZR0NN4W0NQ",
@@ -1435,7 +2001,19 @@
    "total": 6.88
   },
   "analysed_at": "2026-11-26T19:08:36+00:00",
-  "review_reason": "IRL facecam"
+  "review_reason": "IRL facecam",
+  "seen_at": "2026-11-26T20:17:11+00:00",
+  "radar": {
+   "momentum": 1.2,
+   "topic_match": 0,
+   "originality": 8,
+   "french": 3,
+   "freshness": 3.8,
+   "short_enough": 10,
+   "priority": 3.36,
+   "topics": []
+  },
+  "origin": "original"
  },
  "clip_01M883PF1VA2J5S681WEXSPC30": {
   "id": "clip_01M883PF1VA2J5S681WEXSPC30",
@@ -1470,7 +2048,19 @@
   "pillar": "VIRAL MOMENTS & CHAOS",
   "pillar_method": "default",
   "reject_reason": "motion 9.1, still 0.19, letterbox 0.0",
-  "analysed_at": "2026-11-26T19:09:24+00:00"
+  "analysed_at": "2026-11-26T19:09:24+00:00",
+  "seen_at": "2026-11-26T20:17:11+00:00",
+  "radar": {
+   "momentum": 1.2,
+   "topic_match": 0,
+   "originality": 8,
+   "french": 3,
+   "freshness": 3.8,
+   "short_enough": 10,
+   "priority": 3.36,
+   "topics": []
+  },
+  "origin": "original"
  },
  "clip_01M881V3MENHNWACZTGTDW7J58": {
   "id": "clip_01M881V3MENHNWACZTGTDW7J58",
@@ -1516,7 +2106,19 @@
    "total": 5.27
   },
   "analysed_at": "2026-11-26T19:09:47+00:00",
-  "review_reason": "calm driving"
+  "review_reason": "calm driving",
+  "seen_at": "2026-11-26T20:17:11+00:00",
+  "radar": {
+   "momentum": 1.1,
+   "topic_match": 0,
+   "originality": 8,
+   "french": 3,
+   "freshness": 3.7,
+   "short_enough": 10,
+   "priority": 3.31,
+   "topics": []
+  },
+  "origin": "original"
  },
  "clip_01M883VKZSHAA4RBPQX4CK6JSF": {
   "id": "clip_01M883VKZSHAA4RBPQX4CK6JSF",
@@ -1538,7 +2140,19 @@
   "authenticity": "unchecked",
   "rights": "credited_third_party",
   "used_in": [],
-  "duplicate_of": null
+  "duplicate_of": null,
+  "seen_at": "2026-11-26T20:17:11+00:00",
+  "radar": {
+   "momentum": 1.1,
+   "topic_match": 0,
+   "originality": 8,
+   "french": 3,
+   "freshness": 3.8,
+   "short_enough": 2,
+   "priority": 2.52,
+   "topics": []
+  },
+  "origin": "original"
  },
  "clip_01M7RP0WZYS0W8VVWWZ4CR5M7B": {
   "id": "clip_01M7RP0WZYS0W8VVWWZ4CR5M7B",
@@ -1550,7 +2164,7 @@
   "url": "https://kick.com/adinross/clips/clip_01M7RP0WZYS0W8VVWWZ4CR5M7B",
   "media_url": "https://clips.kick.com/clips/93/clip_01M7RP0WZYS0W8VVWWZ4CR5M7B/playlist.m3u8",
   "thumbnail": "https://clips.kick.com/clips/93/clip_01M7RP0WZYS0W8VVWWZ4CR5M7B/thumbnail.webp",
-  "views": 48208,
+  "views": 48244,
   "duration": 29,
   "created_at": "2026-11-19T01:17:24.454515Z",
   "vod_starts_at": 0,
@@ -1584,7 +2198,19 @@
    "total": 6.21
   },
   "analysed_at": "2026-11-26T19:10:08+00:00",
-  "review_reason": "walking only"
+  "review_reason": "walking only",
+  "seen_at": "2026-11-26T20:17:11+00:00",
+  "radar": {
+   "momentum": 9.7,
+   "topic_match": 0,
+   "originality": 8,
+   "french": 3,
+   "freshness": 0,
+   "short_enough": 10,
+   "priority": 6.38,
+   "topics": []
+  },
+  "origin": "original"
  },
  "clip_01M7X0MWQ306FPKYJVF9C1KTZD": {
   "id": "clip_01M7X0MWQ306FPKYJVF9C1KTZD",
@@ -1596,7 +2222,7 @@
   "url": "https://kick.com/asmongold/clips/clip_01M7X0MWQ306FPKYJVF9C1KTZD",
   "media_url": "https://clips.kick.com/clips/f0/clip_01M7X0MWQ306FPKYJVF9C1KTZD/playlist.m3u8",
   "thumbnail": "https://clips.kick.com/clips/f0/clip_01M7X0MWQ306FPKYJVF9C1KTZD/thumbnail.webp",
-  "views": 22001,
+  "views": 22028,
   "duration": 63,
   "created_at": "2026-11-20T17:39:54.367922Z",
   "vod_starts_at": 0,
@@ -1619,7 +2245,19 @@
   "pillar": "VIRAL MOMENTS & CHAOS",
   "pillar_method": "default",
   "reject_reason": "motion 3.2, still 0.92, letterbox 0.0",
-  "analysed_at": "2026-11-26T19:10:40+00:00"
+  "analysed_at": "2026-11-26T19:10:40+00:00",
+  "seen_at": "2026-11-26T20:17:11+00:00",
+  "radar": {
+   "momentum": 8.7,
+   "topic_match": 0,
+   "originality": 8,
+   "french": 3,
+   "freshness": 0,
+   "short_enough": 10,
+   "priority": 5.98,
+   "topics": []
+  },
+  "origin": "original"
  },
  "clip_01M85DCD0FCM1EJBKYJYZG88C3": {
   "id": "clip_01M85DCD0FCM1EJBKYJYZG88C3",
@@ -1631,7 +2269,7 @@
   "url": "https://kick.com/asmongold/clips/clip_01M85DCD0FCM1EJBKYJYZG88C3",
   "media_url": "https://clips.kick.com/clips/14/clip_01M85DCD0FCM1EJBKYJYZG88C3/playlist.m3u8",
   "thumbnail": "https://clips.kick.com/clips/14/clip_01M85DCD0FCM1EJBKYJYZG88C3/thumbnail.webp",
-  "views": 18288,
+  "views": 18377,
   "duration": 180,
   "created_at": "2026-11-23T23:56:24.245396Z",
   "vod_starts_at": 0,
@@ -1641,7 +2279,19 @@
   "authenticity": "unchecked",
   "rights": "credited_third_party",
   "used_in": [],
-  "duplicate_of": null
+  "duplicate_of": null,
+  "seen_at": "2026-11-26T20:17:11+00:00",
+  "radar": {
+   "momentum": 9.7,
+   "topic_match": 0,
+   "originality": 8,
+   "french": 3,
+   "freshness": 0.2,
+   "short_enough": 2,
+   "priority": 5.6,
+   "topics": []
+  },
+  "origin": "original"
  },
  "clip_01M7RKEJNNSGQTGHWAAYFW8NZ1": {
   "id": "clip_01M7RKEJNNSGQTGHWAAYFW8NZ1",
@@ -1653,7 +2303,7 @@
   "url": "https://kick.com/xqc/clips/clip_01M7RKEJNNSGQTGHWAAYFW8NZ1",
   "media_url": "https://clips.kick.com/clips/8d/clip_01M7RKEJNNSGQTGHWAAYFW8NZ1/playlist.m3u8",
   "thumbnail": "https://clips.kick.com/clips/8d/clip_01M7RKEJNNSGQTGHWAAYFW8NZ1/thumbnail.webp",
-  "views": 13129,
+  "views": 13196,
   "duration": 22,
   "created_at": "2026-11-19T00:31:49.452949Z",
   "vod_starts_at": 0,
@@ -1687,7 +2337,19 @@
    "total": 6.81
   },
   "analysed_at": "2026-11-26T19:11:01+00:00",
-  "review_reason": "strip club, no action"
+  "review_reason": "strip club, no action",
+  "seen_at": "2026-11-26T20:17:11+00:00",
+  "radar": {
+   "momentum": 7.4,
+   "topic_match": 0,
+   "originality": 8,
+   "french": 3,
+   "freshness": 0,
+   "short_enough": 10,
+   "priority": 5.46,
+   "topics": []
+  },
+  "origin": "original"
  },
  "clip_01M7W4014QWBA3VBN6SMVPBZM3": {
   "id": "clip_01M7W4014QWBA3VBN6SMVPBZM3",
@@ -1699,7 +2361,7 @@
   "url": "https://kick.com/xqc/clips/clip_01M7W4014QWBA3VBN6SMVPBZM3",
   "media_url": "https://clips.kick.com/clips/b4/clip_01M7W4014QWBA3VBN6SMVPBZM3/playlist.m3u8",
   "thumbnail": "https://clips.kick.com/clips/b4/clip_01M7W4014QWBA3VBN6SMVPBZM3/thumbnail.webp",
-  "views": 11509,
+  "views": 11569,
   "duration": 180,
   "created_at": "2026-11-20T09:18:58.261745Z",
   "vod_starts_at": 0,
@@ -1709,7 +2371,23 @@
   "authenticity": "unchecked",
   "rights": "credited_third_party",
   "used_in": [],
-  "duplicate_of": null
+  "duplicate_of": null,
+  "seen_at": "2026-11-26T20:17:11+00:00",
+  "radar": {
+   "momentum": 7.5,
+   "topic_match": 5,
+   "originality": 8,
+   "french": 3,
+   "freshness": 0,
+   "short_enough": 2,
+   "priority": 5.45,
+   "topics": [
+    "funny"
+   ]
+  },
+  "origin": "original",
+  "pillar": "VIRAL MOMENTS & CHAOS",
+  "pillar_method": "keyword"
  },
  "clip_01M7RYDBQ0FP5M84G7418QTA38": {
   "id": "clip_01M7RYDBQ0FP5M84G7418QTA38",
@@ -1721,7 +2399,7 @@
   "url": "https://kick.com/kaneljoseph/clips/clip_01M7RYDBQ0FP5M84G7418QTA38",
   "media_url": "https://clips.kick.com/clips/06/clip_01M7RYDBQ0FP5M84G7418QTA38/playlist.m3u8",
   "thumbnail": "https://clips.kick.com/clips/06/clip_01M7RYDBQ0FP5M84G7418QTA38/thumbnail.webp",
-  "views": 10844,
+  "views": 10909,
   "duration": 30,
   "created_at": "2026-11-19T03:43:27.97576Z",
   "vod_starts_at": 0,
@@ -1755,7 +2433,19 @@
    "total": 7.65
   },
   "analysed_at": "2026-11-26T19:11:27+00:00",
-  "review_reason": "IRL stream, not GTA 6"
+  "review_reason": "IRL stream, not GTA 6",
+  "seen_at": "2026-11-26T20:17:11+00:00",
+  "radar": {
+   "momentum": 7.1,
+   "topic_match": 0,
+   "originality": 8,
+   "french": 3,
+   "freshness": 0,
+   "short_enough": 10,
+   "priority": 5.34,
+   "topics": []
+  },
+  "origin": "original"
  },
  "clip_01M7WZ18VJJHYGG9M9ZES4XG4H": {
   "id": "clip_01M7WZ18VJJHYGG9M9ZES4XG4H",
@@ -1767,7 +2457,7 @@
   "url": "https://kick.com/gustavocsgo/clips/clip_01M7WZ18VJJHYGG9M9ZES4XG4H",
   "media_url": "https://clips.kick.com/clips/11/clip_01M7WZ18VJJHYGG9M9ZES4XG4H/playlist.m3u8",
   "thumbnail": "https://clips.kick.com/clips/11/clip_01M7WZ18VJJHYGG9M9ZES4XG4H/thumbnail.webp",
-  "views": 10744,
+  "views": 10758,
   "duration": 18,
   "created_at": "2026-11-20T17:11:46.515272Z",
   "vod_starts_at": 0,
@@ -1779,7 +2469,19 @@
   "used_in": [
    "posted-20261126"
   ],
-  "duplicate_of": null
+  "duplicate_of": null,
+  "seen_at": "2026-11-26T20:17:11+00:00",
+  "radar": {
+   "momentum": 7.5,
+   "topic_match": 0,
+   "originality": 8,
+   "french": 3,
+   "freshness": 0,
+   "short_enough": 10,
+   "priority": 5.5,
+   "topics": []
+  },
+  "origin": "original"
  },
  "clip_01M7RJDNDXAXH2QFNZ7DWGKZJ3": {
   "id": "clip_01M7RJDNDXAXH2QFNZ7DWGKZJ3",
@@ -1791,7 +2493,7 @@
   "url": "https://kick.com/rincon061tv/clips/clip_01M7RJDNDXAXH2QFNZ7DWGKZJ3",
   "media_url": "https://clips.kick.com/clips/d5/clip_01M7RJDNDXAXH2QFNZ7DWGKZJ3/playlist.m3u8",
   "thumbnail": "https://clips.kick.com/clips/d5/clip_01M7RJDNDXAXH2QFNZ7DWGKZJ3/thumbnail.webp",
-  "views": 9612,
+  "views": 9648,
   "duration": 30,
   "created_at": "2026-11-19T00:13:47.655288Z",
   "vod_starts_at": 0,
@@ -1825,7 +2527,19 @@
    "total": 7.44
   },
   "analysed_at": "2026-11-26T19:11:37+00:00",
-  "review_reason": "no action (bedroom)"
+  "review_reason": "no action (bedroom)",
+  "seen_at": "2026-11-26T20:17:11+00:00",
+  "radar": {
+   "momentum": 6.9,
+   "topic_match": 0,
+   "originality": 8,
+   "french": 3,
+   "freshness": 0,
+   "short_enough": 10,
+   "priority": 5.26,
+   "topics": []
+  },
+  "origin": "original"
  },
  "clip_01M7WYYTNRS4Z48JXTFXT6STA7": {
   "id": "clip_01M7WYYTNRS4Z48JXTFXT6STA7",
@@ -1837,7 +2551,7 @@
   "url": "https://kick.com/paulinholokobr/clips/clip_01M7WYYTNRS4Z48JXTFXT6STA7",
   "media_url": "https://clips.kick.com/clips/ee/clip_01M7WYYTNRS4Z48JXTFXT6STA7/playlist.m3u8",
   "thumbnail": "https://clips.kick.com/clips/ee/clip_01M7WYYTNRS4Z48JXTFXT6STA7/thumbnail.webp",
-  "views": 8932,
+  "views": 8936,
   "duration": 30,
   "created_at": "2026-11-20T17:09:57.678053Z",
   "vod_starts_at": 0,
@@ -1849,7 +2563,19 @@
   "used_in": [
    "posted-20261126"
   ],
-  "duplicate_of": null
+  "duplicate_of": null,
+  "seen_at": "2026-11-26T20:17:11+00:00",
+  "radar": {
+   "momentum": 7.2,
+   "topic_match": 0,
+   "originality": 8,
+   "french": 3,
+   "freshness": 0,
+   "short_enough": 10,
+   "priority": 5.38,
+   "topics": []
+  },
+  "origin": "original"
  },
  "clip_01M7VRW5RA71X4HP9C6P4KQ7KT": {
   "id": "clip_01M7VRW5RA71X4HP9C6P4KQ7KT",
@@ -1861,7 +2587,7 @@
   "url": "https://kick.com/paymoneywubby/clips/clip_01M7VRW5RA71X4HP9C6P4KQ7KT",
   "media_url": "https://clips.kick.com/clips/7b/clip_01M7VRW5RA71X4HP9C6P4KQ7KT/playlist.m3u8",
   "thumbnail": "https://clips.kick.com/clips/7b/clip_01M7VRW5RA71X4HP9C6P4KQ7KT/thumbnail.webp",
-  "views": 8821,
+  "views": 8823,
   "duration": 30,
   "created_at": "2026-11-20T06:04:17.574974Z",
   "vod_starts_at": 0,
@@ -1884,7 +2610,19 @@
   "pillar": "VIRAL MOMENTS & CHAOS",
   "pillar_method": "default",
   "reject_reason": "motion 13.2, still 0.2, letterbox 0.0",
-  "analysed_at": "2026-11-26T19:11:53+00:00"
+  "analysed_at": "2026-11-26T19:11:53+00:00",
+  "seen_at": "2026-11-26T20:17:11+00:00",
+  "radar": {
+   "momentum": 7.0,
+   "topic_match": 0,
+   "originality": 8,
+   "french": 3,
+   "freshness": 0,
+   "short_enough": 10,
+   "priority": 5.3,
+   "topics": []
+  },
+  "origin": "original"
  },
  "clip_01M81TBH7TZRWAKNS5EHXR6M43": {
   "id": "clip_01M81TBH7TZRWAKNS5EHXR6M43",
@@ -1896,7 +2634,7 @@
   "url": "https://kick.com/gabepeixe/clips/clip_01M81TBH7TZRWAKNS5EHXR6M43",
   "media_url": "https://clips.kick.com/clips/a8/clip_01M81TBH7TZRWAKNS5EHXR6M43/playlist.m3u8",
   "thumbnail": "https://clips.kick.com/clips/a8/clip_01M81TBH7TZRWAKNS5EHXR6M43/thumbnail.webp",
-  "views": 8471,
+  "views": 8527,
   "duration": 180,
   "created_at": "2026-11-22T14:25:48.292834Z",
   "vod_starts_at": 0,
@@ -1906,7 +2644,23 @@
   "authenticity": "unchecked",
   "rights": "credited_third_party",
   "used_in": [],
-  "duplicate_of": null
+  "duplicate_of": null,
+  "seen_at": "2026-11-26T20:17:11+00:00",
+  "radar": {
+   "momentum": 7.7,
+   "topic_match": 5,
+   "originality": 8,
+   "french": 3,
+   "freshness": 0,
+   "short_enough": 2,
+   "priority": 5.53,
+   "topics": [
+    "funny"
+   ]
+  },
+  "origin": "original",
+  "pillar": "VIRAL MOMENTS & CHAOS",
+  "pillar_method": "keyword"
  },
  "clip_01M80K4HXZDR6858GHQ0HCT6KN": {
   "id": "clip_01M80K4HXZDR6858GHQ0HCT6KN",
@@ -1918,7 +2672,7 @@
   "url": "https://kick.com/rraenee/clips/clip_01M80K4HXZDR6858GHQ0HCT6KN",
   "media_url": "https://clips.kick.com/clips/d5/clip_01M80K4HXZDR6858GHQ0HCT6KN/playlist.m3u8",
   "thumbnail": "https://clips.kick.com/clips/d5/clip_01M80K4HXZDR6858GHQ0HCT6KN/thumbnail.webp",
-  "views": 8341,
+  "views": 8382,
   "duration": 30,
   "created_at": "2026-11-22T03:00:25.258048Z",
   "vod_starts_at": 0,
@@ -1941,7 +2695,19 @@
   "pillar": "VIRAL MOMENTS & CHAOS",
   "pillar_method": "default",
   "reject_reason": "motion 2.0, still 0.6, letterbox 0.0",
-  "analysed_at": "2026-11-26T19:13:59+00:00"
+  "analysed_at": "2026-11-26T19:13:59+00:00",
+  "seen_at": "2026-11-26T20:17:11+00:00",
+  "radar": {
+   "momentum": 7.5,
+   "topic_match": 0,
+   "originality": 8,
+   "french": 3,
+   "freshness": 0,
+   "short_enough": 10,
+   "priority": 5.5,
+   "topics": []
+  },
+  "origin": "original"
  },
  "clip_01M7WYV1MX5XH878THXAZKPDTX": {
   "id": "clip_01M7WYV1MX5XH878THXAZKPDTX",
@@ -1953,7 +2719,7 @@
   "url": "https://kick.com/maacir/clips/clip_01M7WYV1MX5XH878THXAZKPDTX",
   "media_url": "https://clips.kick.com/clips/45/clip_01M7WYV1MX5XH878THXAZKPDTX/playlist.m3u8",
   "thumbnail": "https://clips.kick.com/clips/45/clip_01M7WYV1MX5XH878THXAZKPDTX/thumbnail.webp",
-  "views": 8080,
+  "views": 8086,
   "duration": 30,
   "created_at": "2026-11-20T17:07:51.753626Z",
   "vod_starts_at": 0,
@@ -1976,7 +2742,19 @@
   "pillar": "VIRAL MOMENTS & CHAOS",
   "pillar_method": "default",
   "reject_reason": "motion 7.2, still 0.04, letterbox 0.0",
-  "analysed_at": "2026-11-26T19:14:05+00:00"
+  "analysed_at": "2026-11-26T19:14:05+00:00",
+  "seen_at": "2026-11-26T20:17:11+00:00",
+  "radar": {
+   "momentum": 7.0,
+   "topic_match": 0,
+   "originality": 8,
+   "french": 3,
+   "freshness": 0,
+   "short_enough": 10,
+   "priority": 5.3,
+   "topics": []
+  },
+  "origin": "original"
  },
  "clip_01M7V9KMXTQN4FZHZZ32EYM10A": {
   "id": "clip_01M7V9KMXTQN4FZHZZ32EYM10A",
@@ -1988,7 +2766,7 @@
   "url": "https://kick.com/knut/clips/clip_01M7V9KMXTQN4FZHZZ32EYM10A",
   "media_url": "https://clips.kick.com/clips/16/clip_01M7V9KMXTQN4FZHZZ32EYM10A/master.m3u8",
   "thumbnail": "https://clips.kick.com/clips/16/clip_01M7V9KMXTQN4FZHZZ32EYM10A/thumbnail.webp",
-  "views": 7771,
+  "views": 7778,
   "duration": 44,
   "created_at": "2026-11-20T01:49:41.247599Z",
   "vod_starts_at": 0,
@@ -2011,7 +2789,19 @@
   "pillar": "VIRAL MOMENTS & CHAOS",
   "pillar_method": "default",
   "reject_reason": "motion 1.2, still 0.83, letterbox 0.0",
-  "analysed_at": "2026-11-26T19:14:29+00:00"
+  "analysed_at": "2026-11-26T19:14:29+00:00",
+  "seen_at": "2026-11-26T20:17:11+00:00",
+  "radar": {
+   "momentum": 6.8,
+   "topic_match": 0,
+   "originality": 8,
+   "french": 3,
+   "freshness": 0,
+   "short_enough": 10,
+   "priority": 5.22,
+   "topics": []
+  },
+  "origin": "original"
  },
  "clip_01M7RSYVYV0NK06Z1QAAYZ3TDX": {
   "id": "clip_01M7RSYVYV0NK06Z1QAAYZ3TDX",
@@ -2023,7 +2813,7 @@
   "url": "https://kick.com/rammus53/clips/clip_01M7RSYVYV0NK06Z1QAAYZ3TDX",
   "media_url": "https://clips.kick.com/clips/b4/clip_01M7RSYVYV0NK06Z1QAAYZ3TDX/playlist.m3u8",
   "thumbnail": "https://clips.kick.com/clips/b4/clip_01M7RSYVYV0NK06Z1QAAYZ3TDX/thumbnail.webp",
-  "views": 7733,
+  "views": 7752,
   "duration": 170,
   "created_at": "2026-11-19T02:26:35.065315Z",
   "vod_starts_at": 0,
@@ -2033,7 +2823,19 @@
   "authenticity": "unchecked",
   "rights": "credited_third_party",
   "used_in": [],
-  "duplicate_of": null
+  "duplicate_of": null,
+  "seen_at": "2026-11-26T20:17:11+00:00",
+  "radar": {
+   "momentum": 6.5,
+   "topic_match": 0,
+   "originality": 8,
+   "french": 3,
+   "freshness": 0,
+   "short_enough": 2,
+   "priority": 4.3,
+   "topics": []
+  },
+  "origin": "original"
  },
  "clip_01M7RJ0WVRK4TNBXQ99GZWYRFT": {
   "id": "clip_01M7RJ0WVRK4TNBXQ99GZWYRFT",
@@ -2045,7 +2847,7 @@
   "url": "https://kick.com/monnirs/clips/clip_01M7RJ0WVRK4TNBXQ99GZWYRFT",
   "media_url": "https://clips.kick.com/clips/8e/clip_01M7RJ0WVRK4TNBXQ99GZWYRFT/playlist.m3u8",
   "thumbnail": "https://clips.kick.com/clips/8e/clip_01M7RJ0WVRK4TNBXQ99GZWYRFT/thumbnail.webp",
-  "views": 7673,
+  "views": 7697,
   "duration": 180,
   "created_at": "2026-11-19T00:07:26.865924Z",
   "vod_starts_at": 0,
@@ -2055,7 +2857,19 @@
   "authenticity": "unchecked",
   "rights": "credited_third_party",
   "used_in": [],
-  "duplicate_of": null
+  "duplicate_of": null,
+  "seen_at": "2026-11-26T20:17:11+00:00",
+  "radar": {
+   "momentum": 6.5,
+   "topic_match": 0,
+   "originality": 8,
+   "french": 3,
+   "freshness": 0,
+   "short_enough": 2,
+   "priority": 4.3,
+   "topics": []
+  },
+  "origin": "original"
  },
  "clip_01M7TJ8HK3SVBVMHGF54908AV1": {
   "id": "clip_01M7TJ8HK3SVBVMHGF54908AV1",
@@ -2067,7 +2881,7 @@
   "url": "https://kick.com/eray/clips/clip_01M7TJ8HK3SVBVMHGF54908AV1",
   "media_url": "https://clips.kick.com/clips/de/clip_01M7TJ8HK3SVBVMHGF54908AV1/playlist.m3u8",
   "thumbnail": "https://clips.kick.com/clips/de/clip_01M7TJ8HK3SVBVMHGF54908AV1/thumbnail.webp",
-  "views": 7280,
+  "views": 7298,
   "duration": 33,
   "created_at": "2026-11-19T18:49:31.334643Z",
   "vod_starts_at": 0,
@@ -2100,7 +2914,19 @@
    "originality": null,
    "total": 6.38
   },
-  "analysed_at": "2026-11-26T19:14:45+00:00"
+  "analysed_at": "2026-11-26T19:14:45+00:00",
+  "seen_at": "2026-11-26T20:17:11+00:00",
+  "radar": {
+   "momentum": 6.6,
+   "topic_match": 0,
+   "originality": 8,
+   "french": 3,
+   "freshness": 0,
+   "short_enough": 10,
+   "priority": 5.14,
+   "topics": []
+  },
+  "origin": "original"
  },
  "clip_01M82Q0FQ9VT1ZMJWDZ4ZMQCRQ": {
   "id": "clip_01M82Q0FQ9VT1ZMJWDZ4ZMQCRQ",
@@ -2112,7 +2938,7 @@
   "url": "https://kick.com/neexcsgo/clips/clip_01M82Q0FQ9VT1ZMJWDZ4ZMQCRQ",
   "media_url": "https://clips.kick.com/clips/d4/clip_01M82Q0FQ9VT1ZMJWDZ4ZMQCRQ/playlist.m3u8",
   "thumbnail": "https://clips.kick.com/clips/d4/clip_01M82Q0FQ9VT1ZMJWDZ4ZMQCRQ/thumbnail.webp",
-  "views": 7289,
+  "views": 7348,
   "duration": 180,
   "created_at": "2026-11-22T22:46:41.85548Z",
   "vod_starts_at": 0,
@@ -2122,7 +2948,19 @@
   "authenticity": "unchecked",
   "rights": "credited_third_party",
   "used_in": [],
-  "duplicate_of": null
+  "duplicate_of": null,
+  "seen_at": "2026-11-26T20:17:11+00:00",
+  "radar": {
+   "momentum": 7.6,
+   "topic_match": 0,
+   "originality": 8,
+   "french": 3,
+   "freshness": 0,
+   "short_enough": 2,
+   "priority": 4.74,
+   "topics": []
+  },
+  "origin": "original"
  },
  "clip_01M85Z3CAACFS13G2P2ETBY19Q": {
   "id": "clip_01M85Z3CAACFS13G2P2ETBY19Q",
@@ -2134,7 +2972,7 @@
   "url": "https://kick.com/paymoneywubby/clips/clip_01M85Z3CAACFS13G2P2ETBY19Q",
   "media_url": "https://clips.kick.com/clips/cb/clip_01M85Z3CAACFS13G2P2ETBY19Q/playlist.m3u8",
   "thumbnail": "https://clips.kick.com/clips/cb/clip_01M85Z3CAACFS13G2P2ETBY19Q/thumbnail.webp",
-  "views": 6887,
+  "views": 6928,
   "duration": 180,
   "created_at": "2026-11-24T05:05:43.350674Z",
   "vod_starts_at": 0,
@@ -2144,7 +2982,19 @@
   "authenticity": "unchecked",
   "rights": "credited_third_party",
   "used_in": [],
-  "duplicate_of": null
+  "duplicate_of": null,
+  "seen_at": "2026-11-26T20:17:11+00:00",
+  "radar": {
+   "momentum": 8.2,
+   "topic_match": 0,
+   "originality": 8,
+   "french": 3,
+   "freshness": 1.0,
+   "short_enough": 2,
+   "priority": 5.08,
+   "topics": []
+  },
+  "origin": "original"
  },
  "clip_01M7TJSWJB1100VXAFYY87DKEG": {
   "id": "clip_01M7TJSWJB1100VXAFYY87DKEG",
@@ -2156,7 +3006,7 @@
   "url": "https://kick.com/xmerghani/clips/clip_01M7TJSWJB1100VXAFYY87DKEG",
   "media_url": "https://clips.kick.com/clips/91/clip_01M7TJSWJB1100VXAFYY87DKEG/playlist.m3u8",
   "thumbnail": "https://clips.kick.com/clips/91/clip_01M7TJSWJB1100VXAFYY87DKEG/thumbnail.webp",
-  "views": 6175,
+  "views": 6209,
   "duration": 180,
   "created_at": "2026-11-19T18:58:54.53803Z",
   "vod_starts_at": 0,
@@ -2166,7 +3016,19 @@
   "authenticity": "unchecked",
   "rights": "credited_third_party",
   "used_in": [],
-  "duplicate_of": null
+  "duplicate_of": null,
+  "seen_at": "2026-11-26T20:17:11+00:00",
+  "radar": {
+   "momentum": 6.3,
+   "topic_match": 0,
+   "originality": 8,
+   "french": 3,
+   "freshness": 0,
+   "short_enough": 2,
+   "priority": 4.22,
+   "topics": []
+  },
+  "origin": "original"
  },
  "clip_01M7SNVFD8NQGRGY98AKM6W4SG": {
   "id": "clip_01M7SNVFD8NQGRGY98AKM6W4SG",
@@ -2178,7 +3040,7 @@
   "url": "https://kick.com/coringa/clips/clip_01M7SNVFD8NQGRGY98AKM6W4SG",
   "media_url": "https://clips.kick.com/clips/b2/clip_01M7SNVFD8NQGRGY98AKM6W4SG/playlist.m3u8",
   "thumbnail": "https://clips.kick.com/clips/b2/clip_01M7SNVFD8NQGRGY98AKM6W4SG/thumbnail.webp",
-  "views": 5726,
+  "views": 5735,
   "duration": 30,
   "created_at": "2026-11-19T10:33:01.730265Z",
   "vod_starts_at": 0,
@@ -2211,7 +3073,21 @@
    "originality": null,
    "total": 5.18
   },
-  "analysed_at": "2026-11-26T19:15:01+00:00"
+  "analysed_at": "2026-11-26T19:15:01+00:00",
+  "seen_at": "2026-11-26T20:17:11+00:00",
+  "radar": {
+   "momentum": 6.1,
+   "topic_match": 5,
+   "originality": 8,
+   "french": 3,
+   "freshness": 0,
+   "short_enough": 10,
+   "priority": 5.69,
+   "topics": [
+    "funny"
+   ]
+  },
+  "origin": "original"
  },
  "clip_01M7T1RS2GAJRMVS44RHJ1JW3F": {
   "id": "clip_01M7T1RS2GAJRMVS44RHJ1JW3F",
@@ -2223,7 +3099,7 @@
   "url": "https://kick.com/eray/clips/clip_01M7T1RS2GAJRMVS44RHJ1JW3F",
   "media_url": "https://clips.kick.com/clips/ee/clip_01M7T1RS2GAJRMVS44RHJ1JW3F/playlist.m3u8",
   "thumbnail": "https://clips.kick.com/clips/ee/clip_01M7T1RS2GAJRMVS44RHJ1JW3F/thumbnail.webp",
-  "views": 5504,
+  "views": 5514,
   "duration": 103,
   "created_at": "2026-11-19T14:01:19.658578Z",
   "vod_starts_at": 0,
@@ -2233,7 +3109,19 @@
   "authenticity": "unchecked",
   "rights": "credited_third_party",
   "used_in": [],
-  "duplicate_of": null
+  "duplicate_of": null,
+  "seen_at": "2026-11-26T20:17:11+00:00",
+  "radar": {
+   "momentum": 6.1,
+   "topic_match": 0,
+   "originality": 8,
+   "french": 3,
+   "freshness": 0,
+   "short_enough": 2,
+   "priority": 4.14,
+   "topics": []
+  },
+  "origin": "original"
  },
  "clip_01M7RTEBXCHB1BVFJXB74VTTBM": {
   "id": "clip_01M7RTEBXCHB1BVFJXB74VTTBM",
@@ -2245,7 +3133,7 @@
   "url": "https://kick.com/fontinnelerj/clips/clip_01M7RTEBXCHB1BVFJXB74VTTBM",
   "media_url": "https://clips.kick.com/clips/27/clip_01M7RTEBXCHB1BVFJXB74VTTBM/playlist.m3u8",
   "thumbnail": "https://clips.kick.com/clips/27/clip_01M7RTEBXCHB1BVFJXB74VTTBM/thumbnail.webp",
-  "views": 4224,
+  "views": 4234,
   "duration": 80,
   "created_at": "2026-11-19T02:34:13.498901Z",
   "vod_starts_at": 0,
@@ -2255,7 +3143,19 @@
   "authenticity": "unchecked",
   "rights": "credited_third_party",
   "used_in": [],
-  "duplicate_of": null
+  "duplicate_of": null,
+  "seen_at": "2026-11-26T20:17:11+00:00",
+  "radar": {
+   "momentum": 5.5,
+   "topic_match": 0,
+   "originality": 8,
+   "french": 3,
+   "freshness": 0,
+   "short_enough": 2,
+   "priority": 3.9,
+   "topics": []
+  },
+  "origin": "original"
  },
  "clip_01M7RPW2XX2T1Y8H7B6701KCE5": {
   "id": "clip_01M7RPW2XX2T1Y8H7B6701KCE5",
@@ -2267,7 +3167,7 @@
   "url": "https://kick.com/haiset/clips/clip_01M7RPW2XX2T1Y8H7B6701KCE5",
   "media_url": "https://clips.kick.com/clips/d5/clip_01M7RPW2XX2T1Y8H7B6701KCE5/playlist.m3u8",
   "thumbnail": "https://clips.kick.com/clips/d5/clip_01M7RPW2XX2T1Y8H7B6701KCE5/thumbnail.webp",
-  "views": 4103,
+  "views": 4107,
   "duration": 30,
   "created_at": "2026-11-19T01:31:25.126406Z",
   "vod_starts_at": 0,
@@ -2290,7 +3190,19 @@
   "pillar": "VIRAL MOMENTS & CHAOS",
   "pillar_method": "default",
   "reject_reason": "motion 3.7, still 0.09, letterbox 0.0",
-  "analysed_at": "2026-11-26T19:15:16+00:00"
+  "analysed_at": "2026-11-26T19:15:16+00:00",
+  "seen_at": "2026-11-26T20:17:11+00:00",
+  "radar": {
+   "momentum": 5.4,
+   "topic_match": 0,
+   "originality": 8,
+   "french": 3,
+   "freshness": 0,
+   "short_enough": 10,
+   "priority": 4.66,
+   "topics": []
+  },
+  "origin": "original"
  },
  "clip_01M7T8NW38SM5KNMGZVSG8ZKJE": {
   "id": "clip_01M7T8NW38SM5KNMGZVSG8ZKJE",
@@ -2302,7 +3214,7 @@
   "url": "https://kick.com/dasgasd3m/clips/clip_01M7T8NW38SM5KNMGZVSG8ZKJE",
   "media_url": "https://clips.kick.com/clips/9c/clip_01M7T8NW38SM5KNMGZVSG8ZKJE/playlist.m3u8",
   "thumbnail": "https://clips.kick.com/clips/9c/clip_01M7T8NW38SM5KNMGZVSG8ZKJE/thumbnail.webp",
-  "views": 4075,
+  "views": 4082,
   "duration": 52,
   "created_at": "2026-11-19T16:03:22.002317Z",
   "vod_starts_at": 0,
@@ -2314,7 +3226,19 @@
   "used_in": [
    "posted-20261126"
   ],
-  "duplicate_of": null
+  "duplicate_of": null,
+  "seen_at": "2026-11-26T20:17:11+00:00",
+  "radar": {
+   "momentum": 5.6,
+   "topic_match": 0,
+   "originality": 8,
+   "french": 3,
+   "freshness": 0,
+   "short_enough": 10,
+   "priority": 4.74,
+   "topics": []
+  },
+  "origin": "original"
  },
  "clip_01M7RM9S0D18SHHGS61TPQHT24": {
   "id": "clip_01M7RM9S0D18SHHGS61TPQHT24",
@@ -2326,7 +3250,7 @@
   "url": "https://kick.com/sh4ne_r/clips/clip_01M7RM9S0D18SHHGS61TPQHT24",
   "media_url": "https://clips.kick.com/clips/cf/clip_01M7RM9S0D18SHHGS61TPQHT24/playlist.m3u8",
   "thumbnail": "https://clips.kick.com/clips/cf/clip_01M7RM9S0D18SHHGS61TPQHT24/thumbnail.webp",
-  "views": 3977,
+  "views": 3978,
   "duration": 180,
   "created_at": "2026-11-19T00:47:17.133114Z",
   "vod_starts_at": 0,
@@ -2336,7 +3260,19 @@
   "authenticity": "unchecked",
   "rights": "credited_third_party",
   "used_in": [],
-  "duplicate_of": null
+  "duplicate_of": null,
+  "seen_at": "2026-11-26T20:17:11+00:00",
+  "radar": {
+   "momentum": 5.4,
+   "topic_match": 0,
+   "originality": 8,
+   "french": 3,
+   "freshness": 0,
+   "short_enough": 2,
+   "priority": 3.86,
+   "topics": []
+  },
+  "origin": "original"
  },
  "clip_01M7TDMD8N4VWCN8M7H53TSH77": {
   "id": "clip_01M7TDMD8N4VWCN8M7H53TSH77",
@@ -2348,7 +3284,7 @@
   "url": "https://kick.com/neexcsgo/clips/clip_01M7TDMD8N4VWCN8M7H53TSH77",
   "media_url": "https://clips.kick.com/clips/55/clip_01M7TDMD8N4VWCN8M7H53TSH77/playlist.m3u8",
   "thumbnail": "https://clips.kick.com/clips/55/clip_01M7TDMD8N4VWCN8M7H53TSH77/thumbnail.webp",
-  "views": 3645,
+  "views": 3657,
   "duration": 46,
   "created_at": "2026-11-19T17:29:16.745072Z",
   "vod_starts_at": 0,
@@ -2371,7 +3307,19 @@
   "pillar": "VIRAL MOMENTS & CHAOS",
   "pillar_method": "default",
   "reject_reason": "motion 11.3, still 0.0, letterbox 0.0",
-  "analysed_at": "2026-11-26T19:15:39+00:00"
+  "analysed_at": "2026-11-26T19:15:39+00:00",
+  "seen_at": "2026-11-26T20:17:11+00:00",
+  "radar": {
+   "momentum": 5.4,
+   "topic_match": 0,
+   "originality": 8,
+   "french": 3,
+   "freshness": 0,
+   "short_enough": 10,
+   "priority": 4.66,
+   "topics": []
+  },
+  "origin": "original"
  },
  "clip_01M7SW9JD97XYD4NFCB3F43XVN": {
   "id": "clip_01M7SW9JD97XYD4NFCB3F43XVN",
@@ -2383,7 +3331,7 @@
   "url": "https://kick.com/elanur/clips/clip_01M7SW9JD97XYD4NFCB3F43XVN",
   "media_url": "https://clips.kick.com/clips/e4/clip_01M7SW9JD97XYD4NFCB3F43XVN/playlist.m3u8",
   "thumbnail": "https://clips.kick.com/clips/e4/clip_01M7SW9JD97XYD4NFCB3F43XVN/thumbnail.webp",
-  "views": 3230,
+  "views": 3245,
   "duration": 60,
   "created_at": "2026-11-19T12:25:23.937543Z",
   "vod_starts_at": 0,
@@ -2416,7 +3364,19 @@
    "originality": null,
    "total": 5.35
   },
-  "analysed_at": "2026-11-26T19:16:08+00:00"
+  "analysed_at": "2026-11-26T19:16:08+00:00",
+  "seen_at": "2026-11-26T20:17:11+00:00",
+  "radar": {
+   "momentum": 5.2,
+   "topic_match": 0,
+   "originality": 8,
+   "french": 3,
+   "freshness": 0,
+   "short_enough": 10,
+   "priority": 4.58,
+   "topics": []
+  },
+  "origin": "original"
  },
  "clip_01M7S0YZMZCX2QECZBRH0BMJCZ": {
   "id": "clip_01M7S0YZMZCX2QECZBRH0BMJCZ",
@@ -2428,7 +3388,7 @@
   "url": "https://kick.com/samiverseog/clips/clip_01M7S0YZMZCX2QECZBRH0BMJCZ",
   "media_url": "https://clips.kick.com/clips/81/clip_01M7S0YZMZCX2QECZBRH0BMJCZ/playlist.m3u8",
   "thumbnail": "https://clips.kick.com/clips/81/clip_01M7S0YZMZCX2QECZBRH0BMJCZ/thumbnail.webp",
-  "views": 2772,
+  "views": 2775,
   "duration": 180,
   "created_at": "2026-11-19T04:28:07.30299Z",
   "vod_starts_at": 0,
@@ -2438,7 +3398,19 @@
   "authenticity": "unchecked",
   "rights": "credited_third_party",
   "used_in": [],
-  "duplicate_of": null
+  "duplicate_of": null,
+  "seen_at": "2026-11-26T20:17:11+00:00",
+  "radar": {
+   "momentum": 4.8,
+   "topic_match": 0,
+   "originality": 8,
+   "french": 3,
+   "freshness": 0,
+   "short_enough": 2,
+   "priority": 3.62,
+   "topics": []
+  },
+  "origin": "original"
  },
  "clip_01M7T6TF8R6CQNPAPPQFRP5WST": {
   "id": "clip_01M7T6TF8R6CQNPAPPQFRP5WST",
@@ -2450,7 +3422,7 @@
   "url": "https://kick.com/xmerghani/clips/clip_01M7T6TF8R6CQNPAPPQFRP5WST",
   "media_url": "https://clips.kick.com/clips/46/clip_01M7T6TF8R6CQNPAPPQFRP5WST/playlist.m3u8",
   "thumbnail": "https://clips.kick.com/clips/46/clip_01M7T6TF8R6CQNPAPPQFRP5WST/thumbnail.webp",
-  "views": 2560,
+  "views": 2567,
   "duration": 180,
   "created_at": "2026-11-19T15:29:43.744755Z",
   "vod_starts_at": 0,
@@ -2460,7 +3432,19 @@
   "authenticity": "unchecked",
   "rights": "credited_third_party",
   "used_in": [],
-  "duplicate_of": null
+  "duplicate_of": null,
+  "seen_at": "2026-11-26T20:17:11+00:00",
+  "radar": {
+   "momentum": 4.8,
+   "topic_match": 0,
+   "originality": 8,
+   "french": 3,
+   "freshness": 0,
+   "short_enough": 2,
+   "priority": 3.62,
+   "topics": []
+  },
+  "origin": "original"
  },
  "clip_01M7RY9637GFHTX1SEQE9EWJ88": {
   "id": "clip_01M7RY9637GFHTX1SEQE9EWJ88",
@@ -2495,7 +3479,19 @@
   "pillar": "VIRAL MOMENTS & CHAOS",
   "pillar_method": "default",
   "reject_reason": "motion 1.8, still 0.75, letterbox 0.0",
-  "analysed_at": "2026-11-26T19:16:18+00:00"
+  "analysed_at": "2026-11-26T19:16:18+00:00",
+  "seen_at": "2026-11-26T20:17:11+00:00",
+  "radar": {
+   "momentum": 4.6,
+   "topic_match": 0,
+   "originality": 8,
+   "french": 3,
+   "freshness": 0,
+   "short_enough": 10,
+   "priority": 4.34,
+   "topics": []
+  },
+  "origin": "original"
  },
  "clip_01M7TJ7XYA21A3T3WEMM3MQV5G": {
   "id": "clip_01M7TJ7XYA21A3T3WEMM3MQV5G",
@@ -2507,7 +3503,7 @@
   "url": "https://kick.com/carryminati/clips/clip_01M7TJ7XYA21A3T3WEMM3MQV5G",
   "media_url": "https://clips.kick.com/clips/cf/clip_01M7TJ7XYA21A3T3WEMM3MQV5G/playlist.m3u8",
   "thumbnail": "https://clips.kick.com/clips/cf/clip_01M7TJ7XYA21A3T3WEMM3MQV5G/thumbnail.webp",
-  "views": 2145,
+  "views": 2158,
   "duration": 180,
   "created_at": "2026-11-19T18:49:32.869269Z",
   "vod_starts_at": 0,
@@ -2517,7 +3513,19 @@
   "authenticity": "unchecked",
   "rights": "credited_third_party",
   "used_in": [],
-  "duplicate_of": null
+  "duplicate_of": null,
+  "seen_at": "2026-11-26T20:17:11+00:00",
+  "radar": {
+   "momentum": 4.6,
+   "topic_match": 0,
+   "originality": 8,
+   "french": 3,
+   "freshness": 0,
+   "short_enough": 2,
+   "priority": 3.54,
+   "topics": []
+  },
+  "origin": "original"
  },
  "clip_01M7S2CXT62RE3238DGZQKMKRF": {
   "id": "clip_01M7S2CXT62RE3238DGZQKMKRF",
@@ -2529,7 +3537,7 @@
   "url": "https://kick.com/kaneljoseph/clips/clip_01M7S2CXT62RE3238DGZQKMKRF",
   "media_url": "https://clips.kick.com/clips/5d/clip_01M7S2CXT62RE3238DGZQKMKRF/playlist.m3u8",
   "thumbnail": "https://clips.kick.com/clips/5d/clip_01M7S2CXT62RE3238DGZQKMKRF/thumbnail.webp",
-  "views": 2096,
+  "views": 2100,
   "duration": 146,
   "created_at": "2026-11-19T04:53:16.535364Z",
   "vod_starts_at": 0,
@@ -2539,7 +3547,19 @@
   "authenticity": "unchecked",
   "rights": "credited_third_party",
   "used_in": [],
-  "duplicate_of": null
+  "duplicate_of": null,
+  "seen_at": "2026-11-26T20:17:11+00:00",
+  "radar": {
+   "momentum": 4.4,
+   "topic_match": 0,
+   "originality": 8,
+   "french": 3,
+   "freshness": 0,
+   "short_enough": 2,
+   "priority": 3.46,
+   "topics": []
+  },
+  "origin": "original"
  },
  "clip_01M7RVJ8HAEBTG4HY0T1XEJ3PK": {
   "id": "clip_01M7RVJ8HAEBTG4HY0T1XEJ3PK",
@@ -2551,7 +3571,7 @@
   "url": "https://kick.com/ddg/clips/clip_01M7RVJ8HAEBTG4HY0T1XEJ3PK",
   "media_url": "https://clips.kick.com/clips/bb/clip_01M7RVJ8HAEBTG4HY0T1XEJ3PK/playlist.m3u8",
   "thumbnail": "https://clips.kick.com/clips/bb/clip_01M7RVJ8HAEBTG4HY0T1XEJ3PK/thumbnail.webp",
-  "views": 2094,
+  "views": 2097,
   "duration": 30,
   "created_at": "2026-11-19T02:53:55.518773Z",
   "vod_starts_at": 0,
@@ -2574,7 +3594,19 @@
   "pillar": "VIRAL MOMENTS & CHAOS",
   "pillar_method": "default",
   "reject_reason": "motion 4.7, still 0.39, letterbox 0.0",
-  "analysed_at": "2026-11-26T19:16:32+00:00"
+  "analysed_at": "2026-11-26T19:16:32+00:00",
+  "seen_at": "2026-11-26T20:17:11+00:00",
+  "radar": {
+   "momentum": 4.4,
+   "topic_match": 0,
+   "originality": 8,
+   "french": 3,
+   "freshness": 0,
+   "short_enough": 10,
+   "priority": 4.26,
+   "topics": []
+  },
+  "origin": "original"
  },
  "clip_01M7RNQTQ7YQHGAD7WWGHS4AWA": {
   "id": "clip_01M7RNQTQ7YQHGAD7WWGHS4AWA",
@@ -2609,7 +3641,19 @@
   "pillar": "VIRAL MOMENTS & CHAOS",
   "pillar_method": "default",
   "reject_reason": "motion 4.7, still 0.07, letterbox 0.0",
-  "analysed_at": "2026-11-26T19:16:56+00:00"
+  "analysed_at": "2026-11-26T19:16:56+00:00",
+  "seen_at": "2026-11-26T20:17:11+00:00",
+  "radar": {
+   "momentum": 4.3,
+   "topic_match": 0,
+   "originality": 8,
+   "french": 3,
+   "freshness": 0,
+   "short_enough": 10,
+   "priority": 4.22,
+   "topics": []
+  },
+  "origin": "original"
  },
  "clip_01M7RRE834H75BH5DWBY637KGR": {
   "id": "clip_01M7RRE834H75BH5DWBY637KGR",
@@ -2621,7 +3665,7 @@
   "url": "https://kick.com/rdjavi/clips/clip_01M7RRE834H75BH5DWBY637KGR",
   "media_url": "https://clips.kick.com/clips/29/clip_01M7RRE834H75BH5DWBY637KGR/playlist.m3u8",
   "thumbnail": "https://clips.kick.com/clips/29/clip_01M7RRE834H75BH5DWBY637KGR/thumbnail.webp",
-  "views": 1922,
+  "views": 1925,
   "duration": 180,
   "created_at": "2026-11-19T01:58:57.369151Z",
   "vod_starts_at": 0,
@@ -2631,7 +3675,23 @@
   "authenticity": "unchecked",
   "rights": "credited_third_party",
   "used_in": [],
-  "duplicate_of": null
+  "duplicate_of": null,
+  "seen_at": "2026-11-26T20:17:11+00:00",
+  "radar": {
+   "momentum": 4.2,
+   "topic_match": 5,
+   "originality": 8,
+   "french": 3,
+   "freshness": 0,
+   "short_enough": 2,
+   "priority": 4.13,
+   "topics": [
+    "funny"
+   ]
+  },
+  "origin": "original",
+  "pillar": "VIRAL MOMENTS & CHAOS",
+  "pillar_method": "keyword"
  },
  "clip_01M7RZJPQTCJSRCSMSKN08C34G": {
   "id": "clip_01M7RZJPQTCJSRCSMSKN08C34G",
@@ -2643,7 +3703,7 @@
   "url": "https://kick.com/carryminati/clips/clip_01M7RZJPQTCJSRCSMSKN08C34G",
   "media_url": "https://clips.kick.com/clips/7d/clip_01M7RZJPQTCJSRCSMSKN08C34G/playlist.m3u8",
   "thumbnail": "https://clips.kick.com/clips/7d/clip_01M7RZJPQTCJSRCSMSKN08C34G/thumbnail.webp",
-  "views": 1847,
+  "views": 1848,
   "duration": 50,
   "created_at": "2026-11-19T04:04:06.510427Z",
   "vod_starts_at": 0,
@@ -2666,7 +3726,19 @@
   "pillar": "VIRAL MOMENTS & CHAOS",
   "pillar_method": "default",
   "reject_reason": "motion 7.0, still 0.1, letterbox 0.0",
-  "analysed_at": "2026-11-26T19:17:23+00:00"
+  "analysed_at": "2026-11-26T19:17:23+00:00",
+  "seen_at": "2026-11-26T20:17:11+00:00",
+  "radar": {
+   "momentum": 4.2,
+   "topic_match": 0,
+   "originality": 8,
+   "french": 3,
+   "freshness": 0,
+   "short_enough": 10,
+   "priority": 4.18,
+   "topics": []
+  },
+  "origin": "original"
  },
  "clip_01M7RKW14PSX0J0JAFP6KXX4XK": {
   "id": "clip_01M7RKW14PSX0J0JAFP6KXX4XK",
@@ -2678,7 +3750,7 @@
   "url": "https://kick.com/fontinnelerj/clips/clip_01M7RKW14PSX0J0JAFP6KXX4XK",
   "media_url": "https://clips.kick.com/clips/73/clip_01M7RKW14PSX0J0JAFP6KXX4XK/playlist.m3u8",
   "thumbnail": "https://clips.kick.com/clips/73/clip_01M7RKW14PSX0J0JAFP6KXX4XK/thumbnail.webp",
-  "views": 1813,
+  "views": 1817,
   "duration": 27,
   "created_at": "2026-11-19T00:41:03.711797Z",
   "vod_starts_at": 0,
@@ -2701,7 +3773,21 @@
   "pillar": "VIRAL MOMENTS & CHAOS",
   "pillar_method": "keyword",
   "reject_reason": "motion 1.5, still 0.87, letterbox 0.0",
-  "analysed_at": "2026-11-26T19:17:37+00:00"
+  "analysed_at": "2026-11-26T19:17:37+00:00",
+  "seen_at": "2026-11-26T20:17:11+00:00",
+  "radar": {
+   "momentum": 4.1,
+   "topic_match": 5,
+   "originality": 8,
+   "french": 3,
+   "freshness": 0,
+   "short_enough": 10,
+   "priority": 4.89,
+   "topics": [
+    "funny"
+   ]
+  },
+  "origin": "original"
  },
  "clip_01M7RNX2FTBDZCHACPDZ9WHCD9": {
   "id": "clip_01M7RNX2FTBDZCHACPDZ9WHCD9",
@@ -2713,7 +3799,7 @@
   "url": "https://kick.com/xmerghani/clips/clip_01M7RNX2FTBDZCHACPDZ9WHCD9",
   "media_url": "https://clips.kick.com/clips/e9/clip_01M7RNX2FTBDZCHACPDZ9WHCD9/playlist.m3u8",
   "thumbnail": "https://clips.kick.com/clips/e9/clip_01M7RNX2FTBDZCHACPDZ9WHCD9/thumbnail.webp",
-  "views": 1681,
+  "views": 1694,
   "duration": 30,
   "created_at": "2026-11-19T01:14:37.543402Z",
   "vod_starts_at": 0,
@@ -2736,7 +3822,19 @@
   "pillar": "VIRAL MOMENTS & CHAOS",
   "pillar_method": "default",
   "reject_reason": "motion 8.4, still 0.0, letterbox 0.0",
-  "analysed_at": "2026-11-26T19:17:54+00:00"
+  "analysed_at": "2026-11-26T19:17:54+00:00",
+  "seen_at": "2026-11-26T20:17:11+00:00",
+  "radar": {
+   "momentum": 4.0,
+   "topic_match": 0,
+   "originality": 8,
+   "french": 3,
+   "freshness": 0,
+   "short_enough": 10,
+   "priority": 4.1,
+   "topics": []
+  },
+  "origin": "original"
  },
  "clip_01M7RVZMT2D8HSSSVGXTN1EX1C": {
   "id": "clip_01M7RVZMT2D8HSSSVGXTN1EX1C",
@@ -2748,7 +3846,7 @@
   "url": "https://kick.com/arniev/clips/clip_01M7RVZMT2D8HSSSVGXTN1EX1C",
   "media_url": "https://clips.kick.com/clips/85/clip_01M7RVZMT2D8HSSSVGXTN1EX1C/playlist.m3u8",
   "thumbnail": "https://clips.kick.com/clips/85/clip_01M7RVZMT2D8HSSSVGXTN1EX1C/thumbnail.webp",
-  "views": 1515,
+  "views": 1516,
   "duration": 10,
   "created_at": "2026-11-19T03:01:22.778748Z",
   "vod_starts_at": 0,
@@ -2771,7 +3869,19 @@
   "pillar": "RACING & VEHICLES",
   "pillar_method": "keyword",
   "reject_reason": "motion 9.5, still 0.0, letterbox 0.0",
-  "analysed_at": "2026-11-26T19:18:00+00:00"
+  "analysed_at": "2026-11-26T19:18:00+00:00",
+  "seen_at": "2026-11-26T20:17:11+00:00",
+  "radar": {
+   "momentum": 3.9,
+   "topic_match": 0,
+   "originality": 8,
+   "french": 3,
+   "freshness": 0,
+   "short_enough": 10,
+   "priority": 4.06,
+   "topics": []
+  },
+  "origin": "original"
  },
  "clip_01M7RZSTVCJZJMW5JFN4T4JMFS": {
   "id": "clip_01M7RZSTVCJZJMW5JFN4T4JMFS",
@@ -2783,7 +3893,7 @@
   "url": "https://kick.com/triplex/clips/clip_01M7RZSTVCJZJMW5JFN4T4JMFS",
   "media_url": "https://clips.kick.com/clips/de/clip_01M7RZSTVCJZJMW5JFN4T4JMFS/playlist.m3u8",
   "thumbnail": "https://clips.kick.com/clips/de/clip_01M7RZSTVCJZJMW5JFN4T4JMFS/thumbnail.webp",
-  "views": 1471,
+  "views": 1472,
   "duration": 33,
   "created_at": "2026-11-19T04:08:46.659927Z",
   "vod_starts_at": 0,
@@ -2816,7 +3926,19 @@
    "originality": null,
    "total": 6.0
   },
-  "analysed_at": "2026-11-26T19:18:17+00:00"
+  "analysed_at": "2026-11-26T19:18:17+00:00",
+  "seen_at": "2026-11-26T20:17:11+00:00",
+  "radar": {
+   "momentum": 3.8,
+   "topic_match": 0,
+   "originality": 8,
+   "french": 10,
+   "freshness": 0,
+   "short_enough": 10,
+   "priority": 4.72,
+   "topics": []
+  },
+  "origin": "original"
  },
  "clip_01M7RN3FTFFF8BV9AQG15B24Q3": {
   "id": "clip_01M7RN3FTFFF8BV9AQG15B24Q3",
@@ -2851,7 +3973,19 @@
   "pillar": "VIRAL MOMENTS & CHAOS",
   "pillar_method": "default",
   "reject_reason": "motion 4.3, still 0.18, letterbox 0.0",
-  "analysed_at": "2026-11-26T19:18:33+00:00"
+  "analysed_at": "2026-11-26T19:18:33+00:00",
+  "seen_at": "2026-11-26T20:17:11+00:00",
+  "radar": {
+   "momentum": 3.8,
+   "topic_match": 0,
+   "originality": 8,
+   "french": 3,
+   "freshness": 0,
+   "short_enough": 10,
+   "priority": 4.02,
+   "topics": []
+  },
+  "origin": "original"
  },
  "clip_01M7RMRY5FQD3KZJKA4TZGRWQB": {
   "id": "clip_01M7RMRY5FQD3KZJKA4TZGRWQB",
@@ -2886,7 +4020,19 @@
   "pillar": "VIRAL MOMENTS & CHAOS",
   "pillar_method": "default",
   "reject_reason": "motion 11.4, still 0.01, letterbox 0.0",
-  "analysed_at": "2026-11-26T19:18:48+00:00"
+  "analysed_at": "2026-11-26T19:18:48+00:00",
+  "seen_at": "2026-11-26T20:17:11+00:00",
+  "radar": {
+   "momentum": 3.7,
+   "topic_match": 0,
+   "originality": 8,
+   "french": 3,
+   "freshness": 0,
+   "short_enough": 10,
+   "priority": 3.98,
+   "topics": []
+  },
+  "origin": "original"
  },
  "clip_01M7RJ0SJRZJ7FRNW2FKWAQFVR": {
   "id": "clip_01M7RJ0SJRZJ7FRNW2FKWAQFVR",
@@ -2931,7 +4077,19 @@
    "originality": null,
    "total": 4.87
   },
-  "analysed_at": "2026-11-26T19:19:04+00:00"
+  "analysed_at": "2026-11-26T19:19:04+00:00",
+  "seen_at": "2026-11-26T20:17:11+00:00",
+  "radar": {
+   "momentum": 3.0,
+   "topic_match": 0,
+   "originality": 8,
+   "french": 3,
+   "freshness": 0,
+   "short_enough": 10,
+   "priority": 3.7,
+   "topics": []
+  },
+  "origin": "original"
  },
  "clip_01M7RJZ8N7N4HNQQH5DWD1WKMM": {
   "id": "clip_01M7RJZ8N7N4HNQQH5DWD1WKMM",
@@ -2953,7 +4111,19 @@
   "authenticity": "unchecked",
   "rights": "credited_third_party",
   "used_in": [],
-  "duplicate_of": null
+  "duplicate_of": null,
+  "seen_at": "2026-11-26T20:17:11+00:00",
+  "radar": {
+   "momentum": 2.9,
+   "topic_match": 0,
+   "originality": 8,
+   "french": 3,
+   "freshness": 0,
+   "short_enough": 2,
+   "priority": 2.86,
+   "topics": []
+  },
+  "origin": "original"
  },
  "clip_01M7RK0461PK6RZH8H324DTDFB": {
   "id": "clip_01M7RK0461PK6RZH8H324DTDFB",
@@ -2988,7 +4158,21 @@
   "pillar": "VIRAL MOMENTS & CHAOS",
   "pillar_method": "keyword",
   "reject_reason": "motion 8.3, still 0.26, letterbox 0.0",
-  "analysed_at": "2026-11-26T19:19:11+00:00"
+  "analysed_at": "2026-11-26T19:19:11+00:00",
+  "seen_at": "2026-11-26T20:17:11+00:00",
+  "radar": {
+   "momentum": 2.8,
+   "topic_match": 5,
+   "originality": 8,
+   "french": 3,
+   "freshness": 0,
+   "short_enough": 10,
+   "priority": 4.37,
+   "topics": [
+    "funny"
+   ]
+  },
+  "origin": "original"
  },
  "clip_01M7RMHG398Y3G6PJAT27YZR4N": {
   "id": "clip_01M7RMHG398Y3G6PJAT27YZR4N",
@@ -3010,7 +4194,23 @@
   "authenticity": "unchecked",
   "rights": "credited_third_party",
   "used_in": [],
-  "duplicate_of": null
+  "duplicate_of": null,
+  "seen_at": "2026-11-26T20:17:11+00:00",
+  "radar": {
+   "momentum": 2.3,
+   "topic_match": 5,
+   "originality": 8,
+   "french": 3,
+   "freshness": 0,
+   "short_enough": 2,
+   "priority": 3.37,
+   "topics": [
+    "funny"
+   ]
+  },
+  "origin": "original",
+  "pillar": "VIRAL MOMENTS & CHAOS",
+  "pillar_method": "keyword"
  },
  "clip_01M7RJ2TDVZJA45GJDES0VDR74": {
   "id": "clip_01M7RJ2TDVZJA45GJDES0VDR74",
@@ -3032,7 +4232,19 @@
   "authenticity": "unchecked",
   "rights": "credited_third_party",
   "used_in": [],
-  "duplicate_of": null
+  "duplicate_of": null,
+  "seen_at": "2026-11-26T20:17:11+00:00",
+  "radar": {
+   "momentum": 2.3,
+   "topic_match": 0,
+   "originality": 8,
+   "french": 3,
+   "freshness": 0,
+   "short_enough": 2,
+   "priority": 2.62,
+   "topics": []
+  },
+  "origin": "original"
  },
  "clip_01M7RJ1K609210J64M1ZS4RV24": {
   "id": "clip_01M7RJ1K609210J64M1ZS4RV24",
@@ -3067,7 +4279,19 @@
   "pillar": "VIRAL MOMENTS & CHAOS",
   "pillar_method": "default",
   "reject_reason": "motion 4.0, still 0.08, letterbox 0.0",
-  "analysed_at": "2026-11-26T19:19:26+00:00"
+  "analysed_at": "2026-11-26T19:19:26+00:00",
+  "seen_at": "2026-11-26T20:17:11+00:00",
+  "radar": {
+   "momentum": 2.1,
+   "topic_match": 0,
+   "originality": 8,
+   "french": 3,
+   "freshness": 0,
+   "short_enough": 10,
+   "priority": 3.34,
+   "topics": []
+  },
+  "origin": "original"
  },
  "clip_01M7RJ0SAJHV4J7Y1GAGCTNQX8": {
   "id": "clip_01M7RJ0SAJHV4J7Y1GAGCTNQX8",
@@ -3101,7 +4325,19 @@
   "dhash": "1000000000000010000010111100111111000111100001110000011100000111",
   "pillar": "VIRAL MOMENTS & CHAOS",
   "pillar_method": "default",
-  "analysed_at": "2026-11-26T19:19:49+00:00"
+  "analysed_at": "2026-11-26T19:19:49+00:00",
+  "seen_at": "2026-11-26T20:17:11+00:00",
+  "radar": {
+   "momentum": 2.0,
+   "topic_match": 0,
+   "originality": 8,
+   "french": 3,
+   "freshness": 0,
+   "short_enough": 10,
+   "priority": 3.3,
+   "topics": []
+  },
+  "origin": "original"
  },
  "clip_01M7RJ2TTJB6GDYB1E4A2NQGD1": {
   "id": "clip_01M7RJ2TTJB6GDYB1E4A2NQGD1",
@@ -3123,7 +4359,19 @@
   "authenticity": "unchecked",
   "rights": "credited_third_party",
   "used_in": [],
-  "duplicate_of": null
+  "duplicate_of": null,
+  "seen_at": "2026-11-26T20:17:11+00:00",
+  "radar": {
+   "momentum": 1.9,
+   "topic_match": 0,
+   "originality": 8,
+   "french": 3,
+   "freshness": 0,
+   "short_enough": 2,
+   "priority": 2.46,
+   "topics": []
+  },
+  "origin": "original"
  },
  "clip_01M7RJ5P94B9N6R0VSVZVCC5CG": {
   "id": "clip_01M7RJ5P94B9N6R0VSVZVCC5CG",
@@ -3168,7 +4416,19 @@
    "originality": null,
    "total": 6.56
   },
-  "analysed_at": "2026-11-26T19:20:05+00:00"
+  "analysed_at": "2026-11-26T19:20:05+00:00",
+  "seen_at": "2026-11-26T20:17:11+00:00",
+  "radar": {
+   "momentum": 1.7,
+   "topic_match": 0,
+   "originality": 8,
+   "french": 3,
+   "freshness": 0,
+   "short_enough": 10,
+   "priority": 3.18,
+   "topics": []
+  },
+  "origin": "original"
  },
  "clip_01M7RHT9Z9QDQHS9KMR3GNJN6M": {
   "id": "clip_01M7RHT9Z9QDQHS9KMR3GNJN6M",
@@ -3203,7 +4463,19 @@
   "pillar": "VIRAL MOMENTS & CHAOS",
   "pillar_method": "default",
   "reject_reason": "motion 5.1, still 0.09, letterbox 0.0",
-  "analysed_at": "2026-11-26T19:20:22+00:00"
+  "analysed_at": "2026-11-26T19:20:22+00:00",
+  "seen_at": "2026-11-26T20:17:11+00:00",
+  "radar": {
+   "momentum": 1.5,
+   "topic_match": 0,
+   "originality": 8,
+   "french": 3,
+   "freshness": 0,
+   "short_enough": 10,
+   "priority": 3.1,
+   "topics": []
+  },
+  "origin": "original"
  },
  "clip_01M7RKQS682GPKZFG0RARSWE9W": {
   "id": "clip_01M7RKQS682GPKZFG0RARSWE9W",
@@ -3248,7 +4520,19 @@
    "originality": null,
    "total": 6.54
   },
-  "analysed_at": "2026-11-26T19:20:37+00:00"
+  "analysed_at": "2026-11-26T19:20:37+00:00",
+  "seen_at": "2026-11-26T20:17:11+00:00",
+  "radar": {
+   "momentum": 1.2,
+   "topic_match": 0,
+   "originality": 8,
+   "french": 3,
+   "freshness": 0,
+   "short_enough": 10,
+   "priority": 2.98,
+   "topics": []
+  },
+  "origin": "original"
  },
  "clip_01M7RKA3MYF0K6CP6B3AZVRY6Q": {
   "id": "clip_01M7RKA3MYF0K6CP6B3AZVRY6Q",
@@ -3283,7 +4567,19 @@
   "pillar": "VIRAL MOMENTS & CHAOS",
   "pillar_method": "default",
   "reject_reason": "motion 9.0, still 0.21, letterbox 0.0",
-  "analysed_at": "2026-11-26T19:20:50+00:00"
+  "analysed_at": "2026-11-26T19:20:50+00:00",
+  "seen_at": "2026-11-26T20:17:11+00:00",
+  "radar": {
+   "momentum": 1.2,
+   "topic_match": 0,
+   "originality": 8,
+   "french": 3,
+   "freshness": 0,
+   "short_enough": 10,
+   "priority": 2.98,
+   "topics": []
+  },
+  "origin": "original"
  },
  "clip_01M7RJ0D6A883A9FAK4GJF1SKM": {
   "id": "clip_01M7RJ0D6A883A9FAK4GJF1SKM",
@@ -3318,7 +4614,19 @@
   "pillar": "VIRAL MOMENTS & CHAOS",
   "pillar_method": "default",
   "reject_reason": "motion 10.6, still 0.1, letterbox 0.0",
-  "analysed_at": "2026-11-26T19:21:14+00:00"
+  "analysed_at": "2026-11-26T19:21:14+00:00",
+  "seen_at": "2026-11-26T20:17:11+00:00",
+  "radar": {
+   "momentum": 1.1,
+   "topic_match": 0,
+   "originality": 8,
+   "french": 3,
+   "freshness": 0,
+   "short_enough": 10,
+   "priority": 2.94,
+   "topics": []
+  },
+  "origin": "original"
  },
  "clip_01M7RN2A0EN49PWXJYFTVGHQFT": {
   "id": "clip_01M7RN2A0EN49PWXJYFTVGHQFT",
@@ -3353,7 +4661,19 @@
   "pillar": "VIRAL MOMENTS & CHAOS",
   "pillar_method": "default",
   "reject_reason": "motion 3.5, still 0.28, letterbox 0.0",
-  "analysed_at": "2026-11-26T19:21:40+00:00"
+  "analysed_at": "2026-11-26T19:21:40+00:00",
+  "seen_at": "2026-11-26T20:17:11+00:00",
+  "radar": {
+   "momentum": 1.1,
+   "topic_match": 0,
+   "originality": 8,
+   "french": 3,
+   "freshness": 0,
+   "short_enough": 10,
+   "priority": 2.94,
+   "topics": []
+  },
+  "origin": "original"
  },
  "clip_01M7RKZ7X303R2Q56MCSFHPWE0": {
   "id": "clip_01M7RKZ7X303R2Q56MCSFHPWE0",
@@ -3375,7 +4695,19 @@
   "authenticity": "unchecked",
   "rights": "credited_third_party",
   "used_in": [],
-  "duplicate_of": null
+  "duplicate_of": null,
+  "seen_at": "2026-11-26T20:17:11+00:00",
+  "radar": {
+   "momentum": 1.1,
+   "topic_match": 0,
+   "originality": 8,
+   "french": 3,
+   "freshness": 0,
+   "short_enough": 2,
+   "priority": 2.14,
+   "topics": []
+  },
+  "origin": "original"
  },
  "clip_01M8AGBNCZ7HEZ4ZM7NN0XVAPK": {
   "id": "clip_01M8AGBNCZ7HEZ4ZM7NN0XVAPK",
@@ -3387,7 +4719,7 @@
   "url": "https://kick.com/xmerghani/clips/clip_01M8AGBNCZ7HEZ4ZM7NN0XVAPK",
   "media_url": "https://clips.kick.com/clips/01/clip_01M8AGBNCZ7HEZ4ZM7NN0XVAPK/playlist.m3u8",
   "thumbnail": "https://clips.kick.com/clips/01/clip_01M8AGBNCZ7HEZ4ZM7NN0XVAPK/thumbnail.webp",
-  "views": 371,
+  "views": 427,
   "duration": 62,
   "created_at": "2026-11-25T23:24:09.917658Z",
   "vod_starts_at": 0,
@@ -3410,7 +4742,19 @@
   "pillar": "VIRAL MOMENTS & CHAOS",
   "pillar_method": "default",
   "reject_reason": "motion 8.3, still 0.13, letterbox 0.0",
-  "analysed_at": "2026-11-26T19:24:08+00:00"
+  "analysed_at": "2026-11-26T19:24:08+00:00",
+  "seen_at": "2026-11-26T20:17:11+00:00",
+  "radar": {
+   "momentum": 5.3,
+   "topic_match": 0,
+   "originality": 8,
+   "french": 3,
+   "freshness": 7.0,
+   "short_enough": 10,
+   "priority": 5.32,
+   "topics": []
+  },
+  "origin": "original"
  },
  "clip_01M89NFJWHRS8EMSFK3QQ9C2H0": {
   "id": "clip_01M89NFJWHRS8EMSFK3QQ9C2H0",
@@ -3445,7 +4789,19 @@
   "pillar": "VIRAL MOMENTS & CHAOS",
   "pillar_method": "default",
   "reject_reason": "motion 8.3, still 0.26, letterbox 0.0",
-  "analysed_at": "2026-11-26T19:24:29+00:00"
+  "analysed_at": "2026-11-26T19:24:29+00:00",
+  "seen_at": "2026-11-26T20:17:11+00:00",
+  "radar": {
+   "momentum": 4.5,
+   "topic_match": 0,
+   "originality": 8,
+   "french": 3,
+   "freshness": 5.9,
+   "short_enough": 10,
+   "priority": 4.89,
+   "topics": []
+  },
+  "origin": "original"
  },
  "clip_01M885QS8XM37CYQZ7HP8CE6PY": {
   "id": "clip_01M885QS8XM37CYQZ7HP8CE6PY",
@@ -3457,7 +4813,7 @@
   "url": "https://kick.com/blowketing/clips/clip_01M885QS8XM37CYQZ7HP8CE6PY",
   "media_url": "https://clips.kick.com/clips/8a/clip_01M885QS8XM37CYQZ7HP8CE6PY/playlist.m3u8",
   "thumbnail": "https://clips.kick.com/clips/8a/clip_01M885QS8XM37CYQZ7HP8CE6PY/thumbnail.webp",
-  "views": 81,
+  "views": 83,
   "duration": 54,
   "created_at": "2026-11-25T01:40:32.288806Z",
   "vod_starts_at": 0,
@@ -3480,7 +4836,19 @@
   "pillar": "VIRAL MOMENTS & CHAOS",
   "pillar_method": "default",
   "reject_reason": "motion 8.7, still 0.03, letterbox 0.0",
-  "analysed_at": "2026-11-26T19:24:43+00:00"
+  "analysed_at": "2026-11-26T19:24:43+00:00",
+  "seen_at": "2026-11-26T20:17:11+00:00",
+  "radar": {
+   "momentum": 1.9,
+   "topic_match": 0,
+   "originality": 8,
+   "french": 3,
+   "freshness": 3.9,
+   "short_enough": 10,
+   "priority": 3.65,
+   "topics": []
+  },
+  "origin": "original"
  },
  "clip_01M884PD2A8RE6JG9WEPZ99NHH": {
   "id": "clip_01M884PD2A8RE6JG9WEPZ99NHH",
@@ -3492,7 +4860,7 @@
   "url": "https://kick.com/rdjavi/clips/clip_01M884PD2A8RE6JG9WEPZ99NHH",
   "media_url": "https://clips.kick.com/clips/b1/clip_01M884PD2A8RE6JG9WEPZ99NHH/master.m3u8",
   "thumbnail": "https://clips.kick.com/clips/b1/clip_01M884PD2A8RE6JG9WEPZ99NHH/thumbnail.webp",
-  "views": 76,
+  "views": 80,
   "duration": 51,
   "created_at": "2026-11-25T01:23:39.245957Z",
   "vod_starts_at": 0,
@@ -3525,7 +4893,19 @@
    "originality": null,
    "total": 5.88
   },
-  "analysed_at": "2026-11-26T19:25:11+00:00"
+  "analysed_at": "2026-11-26T19:25:11+00:00",
+  "seen_at": "2026-11-26T20:17:11+00:00",
+  "radar": {
+   "momentum": 1.8,
+   "topic_match": 0,
+   "originality": 8,
+   "french": 3,
+   "freshness": 3.9,
+   "short_enough": 10,
+   "priority": 3.61,
+   "topics": []
+  },
+  "origin": "original"
  },
  "clip_01M887HDQ67NZFF4JQZFR9H78X": {
   "id": "clip_01M887HDQ67NZFF4JQZFR9H78X",
@@ -3547,7 +4927,19 @@
   "authenticity": "unchecked",
   "rights": "credited_third_party",
   "used_in": [],
-  "duplicate_of": null
+  "duplicate_of": null,
+  "seen_at": "2026-11-26T20:17:11+00:00",
+  "radar": {
+   "momentum": 1.7,
+   "topic_match": 0,
+   "originality": 8,
+   "french": 3,
+   "freshness": 4.0,
+   "short_enough": 2,
+   "priority": 2.78,
+   "topics": []
+  },
+  "origin": "original"
  },
  "clip_01M8867ASWCS3W9QTQQ6VWW8G7": {
   "id": "clip_01M8867ASWCS3W9QTQQ6VWW8G7",
@@ -3559,7 +4951,7 @@
   "url": "https://kick.com/iceposeidon/clips/clip_01M8867ASWCS3W9QTQQ6VWW8G7",
   "media_url": "https://clips.kick.com/clips/e6/clip_01M8867ASWCS3W9QTQQ6VWW8G7/master.m3u8",
   "thumbnail": "https://clips.kick.com/clips/e6/clip_01M8867ASWCS3W9QTQQ6VWW8G7/thumbnail.webp",
-  "views": 64,
+  "views": 65,
   "duration": 18,
   "created_at": "2026-11-25T01:49:42.258583Z",
   "vod_starts_at": 0,
@@ -3595,6 +4987,2448 @@
    "total": 6.69
   },
   "analysed_at": "2026-11-26T19:25:21+00:00",
-  "review_reason": "owner rejected engine-20261126-1925-1"
+  "review_reason": "owner rejected engine-20261126-1925-1",
+  "seen_at": "2026-11-26T20:17:11+00:00",
+  "radar": {
+   "momentum": 1.6,
+   "topic_match": 0,
+   "originality": 8,
+   "french": 3,
+   "freshness": 3.9,
+   "short_enough": 10,
+   "priority": 3.53,
+   "topics": []
+  },
+  "origin": "original"
+ },
+ "clip_01M881X0ARBYVM2Q1JYH7DRDN1": {
+  "id": "clip_01M881X0ARBYVM2Q1JYH7DRDN1",
+  "source": "kick",
+  "creator": "bokoen",
+  "channel_id": 106665926,
+  "livestream_id": "140042140",
+  "title": "No crashes",
+  "url": "https://kick.com/bokoen/clips/clip_01M881X0ARBYVM2Q1JYH7DRDN1",
+  "media_url": "https://clips.kick.com/clips/f9/clip_01M881X0ARBYVM2Q1JYH7DRDN1/master.m3u8",
+  "thumbnail": "https://clips.kick.com/clips/f9/clip_01M881X0ARBYVM2Q1JYH7DRDN1/thumbnail.webp",
+  "views": 61,
+  "duration": 24,
+  "created_at": "2026-11-25T00:32:52.441678Z",
+  "vod_starts_at": 0,
+  "is_mature": true,
+  "discovered_at": "2026-11-26T20:15:54+00:00",
+  "status": "discovered",
+  "authenticity": "unchecked",
+  "rights": "credited_third_party",
+  "used_in": [],
+  "duplicate_of": null,
+  "seen_at": "2026-11-26T20:17:11+00:00",
+  "radar": {
+   "momentum": 1.5,
+   "topic_match": 0,
+   "originality": 8,
+   "french": 3,
+   "freshness": 3.8,
+   "short_enough": 10,
+   "priority": 3.48,
+   "topics": []
+  },
+  "origin": "original"
+ },
+ "clip_01M8CQYG4ZWD8JM723QE235AZX": {
+  "id": "clip_01M8CQYG4ZWD8JM723QE235AZX",
+  "source": "kick",
+  "creator": "elalexioh",
+  "channel_id": 4680570,
+  "livestream_id": "140307929",
+  "title": "GTA VIEXTENSIBLE 1 SUB: 25 MINUTO | Clip",
+  "url": "https://kick.com/elalexioh/clips/clip_01M8CQYG4ZWD8JM723QE235AZX",
+  "media_url": "https://clips.kick.com/clips/2f/clip_01M8CQYG4ZWD8JM723QE235AZX/playlist.m3u8",
+  "thumbnail": "https://clips.kick.com/clips/2f/clip_01M8CQYG4ZWD8JM723QE235AZX/thumbnail.webp",
+  "views": 1,
+  "duration": 30,
+  "created_at": "2026-11-26T20:15:00.511545Z",
+  "vod_starts_at": 0,
+  "is_mature": true,
+  "discovered_at": "2026-11-26T20:15:56+00:00",
+  "status": "discovered",
+  "authenticity": "unchecked",
+  "rights": "credited_third_party",
+  "used_in": [],
+  "duplicate_of": null,
+  "seen_at": "2026-11-26T20:17:11+00:00",
+  "radar": {
+   "momentum": 0.5,
+   "topic_match": 0,
+   "originality": 8,
+   "french": 3,
+   "freshness": 10.0,
+   "short_enough": 10,
+   "priority": 3.7,
+   "topics": []
+  },
+  "origin": "original"
+ },
+ "clip_01M8CQYE51TSHPG82KEGGFG2MG": {
+  "id": "clip_01M8CQYE51TSHPG82KEGGFG2MG",
+  "source": "kick",
+  "creator": "minerva",
+  "channel_id": 110613,
+  "livestream_id": "140439329",
+  "title": "mr 2 é teu cu helmepo safado",
+  "url": "https://kick.com/minerva/clips/clip_01M8CQYE51TSHPG82KEGGFG2MG",
+  "media_url": "https://clips.kick.com/clips/02/clip_01M8CQYE51TSHPG82KEGGFG2MG/master.m3u8",
+  "thumbnail": "https://clips.kick.com/clips/02/clip_01M8CQYE51TSHPG82KEGGFG2MG/thumbnail.webp",
+  "views": 2,
+  "duration": 20,
+  "created_at": "2026-11-26T20:15:33.148187Z",
+  "vod_starts_at": 0,
+  "is_mature": true,
+  "discovered_at": "2026-11-26T20:15:56+00:00",
+  "status": "discovered",
+  "authenticity": "unchecked",
+  "rights": "credited_third_party",
+  "used_in": [],
+  "duplicate_of": null,
+  "seen_at": "2026-11-26T20:17:11+00:00",
+  "radar": {
+   "momentum": 0.9,
+   "topic_match": 0,
+   "originality": 8,
+   "french": 3,
+   "freshness": 10.0,
+   "short_enough": 10,
+   "priority": 3.86,
+   "topics": []
+  },
+  "origin": "original"
+ },
+ "clip_01M8CQY7V8RW7Y5PB9EVT3YKQ6": {
+  "id": "clip_01M8CQY7V8RW7Y5PB9EVT3YKQ6",
+  "source": "kick",
+  "creator": "merton6",
+  "channel_id": 32099784,
+  "livestream_id": "140424621",
+  "title": "VICE CITY'E AŞIK OLDUM - CHAPTER 2",
+  "url": "https://kick.com/merton6/clips/clip_01M8CQY7V8RW7Y5PB9EVT3YKQ6",
+  "media_url": "https://clips.kick.com/clips/6b/clip_01M8CQY7V8RW7Y5PB9EVT3YKQ6/playlist.m3u8",
+  "thumbnail": "https://clips.kick.com/clips/6b/clip_01M8CQY7V8RW7Y5PB9EVT3YKQ6/thumbnail.webp",
+  "views": 3,
+  "duration": 30,
+  "created_at": "2026-11-26T20:14:52.571995Z",
+  "vod_starts_at": 0,
+  "is_mature": true,
+  "discovered_at": "2026-11-26T20:15:56+00:00",
+  "status": "discovered",
+  "authenticity": "unchecked",
+  "rights": "credited_third_party",
+  "used_in": [],
+  "duplicate_of": null,
+  "seen_at": "2026-11-26T20:17:11+00:00",
+  "radar": {
+   "momentum": 1.2,
+   "topic_match": 0,
+   "originality": 8,
+   "french": 3,
+   "freshness": 10.0,
+   "short_enough": 10,
+   "priority": 3.98,
+   "topics": []
+  },
+  "origin": "original"
+ },
+ "clip_01M8CQXXN5VBAVW0HMZYK9YPXX": {
+  "id": "clip_01M8CQXXN5VBAVW0HMZYK9YPXX",
+  "source": "kick",
+  "creator": "alejodwarte",
+  "channel_id": 30501071,
+  "livestream_id": "140441006",
+  "title": "entrega meli",
+  "url": "https://kick.com/alejodwarte/clips/clip_01M8CQXXN5VBAVW0HMZYK9YPXX",
+  "media_url": "https://clips.kick.com/clips/eb/clip_01M8CQXXN5VBAVW0HMZYK9YPXX/playlist.m3u8",
+  "thumbnail": "https://clips.kick.com/clips/eb/clip_01M8CQXXN5VBAVW0HMZYK9YPXX/thumbnail.webp",
+  "views": 0,
+  "duration": 47,
+  "created_at": "2026-11-26T20:14:56.580694Z",
+  "vod_starts_at": 0,
+  "is_mature": true,
+  "discovered_at": "2026-11-26T20:15:56+00:00",
+  "status": "discovered",
+  "authenticity": "unchecked",
+  "rights": "credited_third_party",
+  "used_in": [],
+  "duplicate_of": null,
+  "seen_at": "2026-11-26T20:17:11+00:00",
+  "radar": {
+   "momentum": 0.0,
+   "topic_match": 0,
+   "originality": 8,
+   "french": 3,
+   "freshness": 10.0,
+   "short_enough": 10,
+   "priority": 3.5,
+   "topics": []
+  },
+  "origin": "original"
+ },
+ "clip_01M8CQXVR5B5EQ62RE9M4B14HE": {
+  "id": "clip_01M8CQXVR5B5EQ62RE9M4B14HE",
+  "source": "kick",
+  "creator": "alejodwarte",
+  "channel_id": 30501071,
+  "livestream_id": "140441006",
+  "title": "primer pedido",
+  "url": "https://kick.com/alejodwarte/clips/clip_01M8CQXVR5B5EQ62RE9M4B14HE",
+  "media_url": "https://clips.kick.com/clips/9a/clip_01M8CQXVR5B5EQ62RE9M4B14HE/playlist.m3u8",
+  "thumbnail": "https://clips.kick.com/clips/9a/clip_01M8CQXVR5B5EQ62RE9M4B14HE/thumbnail.webp",
+  "views": 1,
+  "duration": 79,
+  "created_at": "2026-11-26T20:15:09.543708Z",
+  "vod_starts_at": 0,
+  "is_mature": true,
+  "discovered_at": "2026-11-26T20:15:56+00:00",
+  "status": "discovered",
+  "authenticity": "unchecked",
+  "rights": "credited_third_party",
+  "used_in": [],
+  "duplicate_of": null,
+  "seen_at": "2026-11-26T20:17:11+00:00",
+  "radar": {
+   "momentum": 0.5,
+   "topic_match": 0,
+   "originality": 8,
+   "french": 3,
+   "freshness": 10.0,
+   "short_enough": 2,
+   "priority": 2.9,
+   "topics": []
+  },
+  "origin": "original"
+ },
+ "clip_01M8CQX93VSP24AYYSFYAK4HE2": {
+  "id": "clip_01M8CQX93VSP24AYYSFYAK4HE2",
+  "source": "kick",
+  "creator": "punistsweet",
+  "channel_id": 81225931,
+  "livestream_id": "140417194",
+  "title": "Clip by inStreamly",
+  "url": "https://kick.com/punistsweet/clips/clip_01M8CQX93VSP24AYYSFYAK4HE2",
+  "media_url": "https://clips.kick.com/clips/ce/clip_01M8CQX93VSP24AYYSFYAK4HE2/playlist.m3u8",
+  "thumbnail": "https://clips.kick.com/clips/ce/clip_01M8CQX93VSP24AYYSFYAK4HE2/thumbnail.webp",
+  "views": 0,
+  "duration": 32,
+  "created_at": "2026-11-26T20:14:20.755429Z",
+  "vod_starts_at": 0,
+  "is_mature": true,
+  "discovered_at": "2026-11-26T20:15:56+00:00",
+  "status": "discovered",
+  "authenticity": "unchecked",
+  "rights": "credited_third_party",
+  "used_in": [],
+  "duplicate_of": null,
+  "seen_at": "2026-11-26T20:17:11+00:00",
+  "radar": {
+   "momentum": 0.0,
+   "topic_match": 0,
+   "originality": 8,
+   "french": 3,
+   "freshness": 10.0,
+   "short_enough": 10,
+   "priority": 3.5,
+   "topics": []
+  },
+  "origin": "original"
+ },
+ "clip_01M8CQWXHPJ8EM56CQDVKHK6QQ": {
+  "id": "clip_01M8CQWXHPJ8EM56CQDVKHK6QQ",
+  "source": "kick",
+  "creator": "9pn-m",
+  "channel_id": 58508182,
+  "livestream_id": "139803623",
+  "title": "6",
+  "url": "https://kick.com/9pn-m/clips/clip_01M8CQWXHPJ8EM56CQDVKHK6QQ",
+  "media_url": "https://clips.kick.com/clips/48/clip_01M8CQWXHPJ8EM56CQDVKHK6QQ/playlist.m3u8",
+  "thumbnail": "https://clips.kick.com/clips/48/clip_01M8CQWXHPJ8EM56CQDVKHK6QQ/thumbnail.webp",
+  "views": 1,
+  "duration": 152,
+  "created_at": "2026-11-26T20:15:22.641187Z",
+  "vod_starts_at": 0,
+  "is_mature": true,
+  "discovered_at": "2026-11-26T20:15:56+00:00",
+  "status": "discovered",
+  "authenticity": "unchecked",
+  "rights": "credited_third_party",
+  "used_in": [],
+  "duplicate_of": null,
+  "seen_at": "2026-11-26T20:17:11+00:00",
+  "radar": {
+   "momentum": 0.5,
+   "topic_match": 0,
+   "originality": 8,
+   "french": 3,
+   "freshness": 10.0,
+   "short_enough": 2,
+   "priority": 2.9,
+   "topics": []
+  },
+  "origin": "original"
+ },
+ "clip_01M8CQWVDT6T8HYX3BRHNGNKXF": {
+  "id": "clip_01M8CQWVDT6T8HYX3BRHNGNKXF",
+  "source": "kick",
+  "creator": "ilyjye",
+  "channel_id": 982691,
+  "livestream_id": "140422687",
+  "title": "INTERROGATION😭😭 (GTA VI)",
+  "url": "https://kick.com/ilyjye/clips/clip_01M8CQWVDT6T8HYX3BRHNGNKXF",
+  "media_url": "https://clips.kick.com/clips/4e/clip_01M8CQWVDT6T8HYX3BRHNGNKXF/playlist.m3u8",
+  "thumbnail": "https://clips.kick.com/clips/4e/clip_01M8CQWVDT6T8HYX3BRHNGNKXF/thumbnail.webp",
+  "views": 0,
+  "duration": 101,
+  "created_at": "2026-11-26T20:15:06.826261Z",
+  "vod_starts_at": 0,
+  "is_mature": true,
+  "discovered_at": "2026-11-26T20:15:56+00:00",
+  "status": "discovered",
+  "authenticity": "unchecked",
+  "rights": "credited_third_party",
+  "used_in": [],
+  "duplicate_of": null,
+  "seen_at": "2026-11-26T20:17:11+00:00",
+  "radar": {
+   "momentum": 0.0,
+   "topic_match": 0,
+   "originality": 8,
+   "french": 3,
+   "freshness": 10.0,
+   "short_enough": 2,
+   "priority": 2.7,
+   "topics": []
+  },
+  "origin": "original"
+ },
+ "clip_01M8CQWR53NFM8T153H1QXNWSY": {
+  "id": "clip_01M8CQWR53NFM8T153H1QXNWSY",
+  "source": "kick",
+  "creator": "said-efe",
+  "channel_id": 61391561,
+  "livestream_id": "140401670",
+  "title": "ciğerimiz yandı",
+  "url": "https://kick.com/said-efe/clips/clip_01M8CQWR53NFM8T153H1QXNWSY",
+  "media_url": "https://clips.kick.com/clips/db/clip_01M8CQWR53NFM8T153H1QXNWSY/playlist.m3u8",
+  "thumbnail": "https://clips.kick.com/clips/db/clip_01M8CQWR53NFM8T153H1QXNWSY/thumbnail.webp",
+  "views": 0,
+  "duration": 89,
+  "created_at": "2026-11-26T20:14:25.073776Z",
+  "vod_starts_at": 0,
+  "is_mature": true,
+  "discovered_at": "2026-11-26T20:15:56+00:00",
+  "status": "discovered",
+  "authenticity": "unchecked",
+  "rights": "credited_third_party",
+  "used_in": [],
+  "duplicate_of": null,
+  "seen_at": "2026-11-26T20:17:11+00:00",
+  "radar": {
+   "momentum": 0.0,
+   "topic_match": 0,
+   "originality": 8,
+   "french": 3,
+   "freshness": 10.0,
+   "short_enough": 2,
+   "priority": 2.7,
+   "topics": []
+  },
+  "origin": "original"
+ },
+ "clip_01M8CQVHTTPX3ZB8GW73WGXBCB": {
+  "id": "clip_01M8CQVHTTPX3ZB8GW73WGXBCB",
+  "source": "kick",
+  "creator": "japa",
+  "channel_id": 38072695,
+  "livestream_id": "140439530",
+  "title": "PQ TU TA COM O FONE ASSIM CARA",
+  "url": "https://kick.com/japa/clips/clip_01M8CQVHTTPX3ZB8GW73WGXBCB",
+  "media_url": "https://clips.kick.com/clips/55/clip_01M8CQVHTTPX3ZB8GW73WGXBCB/master.m3u8",
+  "thumbnail": "https://clips.kick.com/clips/55/clip_01M8CQVHTTPX3ZB8GW73WGXBCB/thumbnail.webp",
+  "views": 1,
+  "duration": 30,
+  "created_at": "2026-11-26T20:13:43.970607Z",
+  "vod_starts_at": 0,
+  "is_mature": true,
+  "discovered_at": "2026-11-26T20:15:56+00:00",
+  "status": "discovered",
+  "authenticity": "unchecked",
+  "rights": "credited_third_party",
+  "used_in": [],
+  "duplicate_of": null,
+  "seen_at": "2026-11-26T20:17:11+00:00",
+  "radar": {
+   "momentum": 0.5,
+   "topic_match": 0,
+   "originality": 8,
+   "french": 3,
+   "freshness": 10.0,
+   "short_enough": 10,
+   "priority": 3.7,
+   "topics": []
+  },
+  "origin": "original"
+ },
+ "clip_01M8CQVBFE3NKSY1CDD72VCRX7": {
+  "id": "clip_01M8CQVBFE3NKSY1CDD72VCRX7",
+  "source": "kick",
+  "creator": "davyjones",
+  "channel_id": 138283795,
+  "livestream_id": "140169769",
+  "title": "pt2",
+  "url": "https://kick.com/davyjones/clips/clip_01M8CQVBFE3NKSY1CDD72VCRX7",
+  "media_url": "https://clips.kick.com/clips/d8/clip_01M8CQVBFE3NKSY1CDD72VCRX7/master.m3u8",
+  "thumbnail": "https://clips.kick.com/clips/d8/clip_01M8CQVBFE3NKSY1CDD72VCRX7/thumbnail.webp",
+  "views": 0,
+  "duration": 180,
+  "created_at": "2026-11-26T20:13:26.883166Z",
+  "vod_starts_at": 0,
+  "is_mature": true,
+  "discovered_at": "2026-11-26T20:15:56+00:00",
+  "status": "discovered",
+  "authenticity": "unchecked",
+  "rights": "credited_third_party",
+  "used_in": [],
+  "duplicate_of": null,
+  "seen_at": "2026-11-26T20:17:11+00:00",
+  "radar": {
+   "momentum": 0.0,
+   "topic_match": 0,
+   "originality": 8,
+   "french": 3,
+   "freshness": 10.0,
+   "short_enough": 2,
+   "priority": 2.7,
+   "topics": []
+  },
+  "origin": "original"
+ },
+ "clip_01M8CQTZJVHYVRAMYZVJ17574F": {
+  "id": "clip_01M8CQTZJVHYVRAMYZVJ17574F",
+  "source": "kick",
+  "creator": "alfredovlza",
+  "channel_id": 57717379,
+  "livestream_id": "140132029",
+  "title": "Alfredo haciendo misiones en GTA 6",
+  "url": "https://kick.com/alfredovlza/clips/clip_01M8CQTZJVHYVRAMYZVJ17574F",
+  "media_url": "https://clips.kick.com/clips/4a/clip_01M8CQTZJVHYVRAMYZVJ17574F/master.m3u8",
+  "thumbnail": "https://clips.kick.com/clips/4a/clip_01M8CQTZJVHYVRAMYZVJ17574F/thumbnail.webp",
+  "views": 0,
+  "duration": 180,
+  "created_at": "2026-11-26T20:13:23.809555Z",
+  "vod_starts_at": 0,
+  "is_mature": true,
+  "discovered_at": "2026-11-26T20:15:56+00:00",
+  "status": "discovered",
+  "authenticity": "unchecked",
+  "rights": "credited_third_party",
+  "used_in": [],
+  "duplicate_of": null,
+  "seen_at": "2026-11-26T20:17:11+00:00",
+  "radar": {
+   "momentum": 0.0,
+   "topic_match": 0,
+   "originality": 8,
+   "french": 3,
+   "freshness": 10.0,
+   "short_enough": 2,
+   "priority": 2.7,
+   "topics": []
+  },
+  "origin": "original"
+ },
+ "clip_01M8CQTRE5XEBPW2W4KPQZXQKD": {
+  "id": "clip_01M8CQTRE5XEBPW2W4KPQZXQKD",
+  "source": "kick",
+  "creator": "davyjones",
+  "channel_id": 138283795,
+  "livestream_id": "140393710",
+  "title": "h",
+  "url": "https://kick.com/davyjones/clips/clip_01M8CQTRE5XEBPW2W4KPQZXQKD",
+  "media_url": "https://clips.kick.com/clips/49/clip_01M8CQTRE5XEBPW2W4KPQZXQKD/master.m3u8",
+  "thumbnail": "https://clips.kick.com/clips/49/clip_01M8CQTRE5XEBPW2W4KPQZXQKD/thumbnail.webp",
+  "views": 0,
+  "duration": 52,
+  "created_at": "2026-11-26T20:13:54.067973Z",
+  "vod_starts_at": 0,
+  "is_mature": true,
+  "discovered_at": "2026-11-26T20:15:56+00:00",
+  "status": "discovered",
+  "authenticity": "unchecked",
+  "rights": "credited_third_party",
+  "used_in": [],
+  "duplicate_of": null,
+  "seen_at": "2026-11-26T20:17:11+00:00",
+  "radar": {
+   "momentum": 0.0,
+   "topic_match": 0,
+   "originality": 8,
+   "french": 3,
+   "freshness": 10.0,
+   "short_enough": 10,
+   "priority": 3.5,
+   "topics": []
+  },
+  "origin": "original"
+ },
+ "clip_01M8CQT73NPN5WFK8VZ4GK4PK5": {
+  "id": "clip_01M8CQT73NPN5WFK8VZ4GK4PK5",
+  "source": "kick",
+  "creator": "luukkzz",
+  "channel_id": 48553615,
+  "livestream_id": "140413817",
+  "title": "DIA 7CONTINUA LA AVENTURA49%1 sub | Clip",
+  "url": "https://kick.com/luukkzz/clips/clip_01M8CQT73NPN5WFK8VZ4GK4PK5",
+  "media_url": "https://clips.kick.com/clips/b5/clip_01M8CQT73NPN5WFK8VZ4GK4PK5/playlist.m3u8",
+  "thumbnail": "https://clips.kick.com/clips/b5/clip_01M8CQT73NPN5WFK8VZ4GK4PK5/thumbnail.webp",
+  "views": 1,
+  "duration": 30,
+  "created_at": "2026-11-26T20:12:40.184679Z",
+  "vod_starts_at": 0,
+  "is_mature": true,
+  "discovered_at": "2026-11-26T20:15:56+00:00",
+  "status": "discovered",
+  "authenticity": "unchecked",
+  "rights": "credited_third_party",
+  "used_in": [],
+  "duplicate_of": null,
+  "seen_at": "2026-11-26T20:17:11+00:00",
+  "radar": {
+   "momentum": 0.5,
+   "topic_match": 0,
+   "originality": 8,
+   "french": 10,
+   "freshness": 10.0,
+   "short_enough": 10,
+   "priority": 4.4,
+   "topics": []
+  },
+  "origin": "original"
+ },
+ "clip_01M8CQSNQ9XR2DKWED38RMD222": {
+  "id": "clip_01M8CQSNQ9XR2DKWED38RMD222",
+  "source": "kick",
+  "creator": "silviogamer",
+  "channel_id": 4243986,
+  "livestream_id": "140440550",
+  "title": "ww",
+  "url": "https://kick.com/silviogamer/clips/clip_01M8CQSNQ9XR2DKWED38RMD222",
+  "media_url": "https://clips.kick.com/clips/1b/clip_01M8CQSNQ9XR2DKWED38RMD222/master.m3u8",
+  "thumbnail": "https://clips.kick.com/clips/1b/clip_01M8CQSNQ9XR2DKWED38RMD222/thumbnail.webp",
+  "views": 0,
+  "duration": 27,
+  "created_at": "2026-11-26T20:12:43.194655Z",
+  "vod_starts_at": 0,
+  "is_mature": true,
+  "discovered_at": "2026-11-26T20:15:56+00:00",
+  "status": "discovered",
+  "authenticity": "unchecked",
+  "rights": "credited_third_party",
+  "used_in": [],
+  "duplicate_of": null,
+  "seen_at": "2026-11-26T20:17:11+00:00",
+  "radar": {
+   "momentum": 0.0,
+   "topic_match": 0,
+   "originality": 8,
+   "french": 3,
+   "freshness": 10.0,
+   "short_enough": 10,
+   "priority": 3.5,
+   "topics": []
+  },
+  "origin": "original"
+ },
+ "clip_01M8CQSMGXGK94EW8M0RYGH18Z": {
+  "id": "clip_01M8CQSMGXGK94EW8M0RYGH18Z",
+  "source": "kick",
+  "creator": "kasugard",
+  "channel_id": 117820410,
+  "livestream_id": "140076538",
+  "title": "A QUIEN SE PARECE?🔥",
+  "url": "https://kick.com/kasugard/clips/clip_01M8CQSMGXGK94EW8M0RYGH18Z",
+  "media_url": "https://clips.kick.com/clips/77/clip_01M8CQSMGXGK94EW8M0RYGH18Z/playlist.m3u8",
+  "thumbnail": "https://clips.kick.com/clips/77/clip_01M8CQSMGXGK94EW8M0RYGH18Z/thumbnail.webp",
+  "views": 3,
+  "duration": 25,
+  "created_at": "2026-11-26T20:13:35.162053Z",
+  "vod_starts_at": 0,
+  "is_mature": true,
+  "discovered_at": "2026-11-26T20:15:56+00:00",
+  "status": "discovered",
+  "authenticity": "unchecked",
+  "rights": "credited_third_party",
+  "used_in": [],
+  "duplicate_of": null,
+  "seen_at": "2026-11-26T20:17:11+00:00",
+  "radar": {
+   "momentum": 1.2,
+   "topic_match": 0,
+   "originality": 8,
+   "french": 3,
+   "freshness": 10.0,
+   "short_enough": 10,
+   "priority": 3.98,
+   "topics": []
+  },
+  "origin": "original"
+ },
+ "clip_01M8CQSHWEMQHGEHP6F17804K0": {
+  "id": "clip_01M8CQSHWEMQHGEHP6F17804K0",
+  "source": "kick",
+  "creator": "arjungamingislive",
+  "channel_id": 107493404,
+  "livestream_id": "140393870",
+  "title": "sath le k chla",
+  "url": "https://kick.com/arjungamingislive/clips/clip_01M8CQSHWEMQHGEHP6F17804K0",
+  "media_url": "https://clips.kick.com/clips/36/clip_01M8CQSHWEMQHGEHP6F17804K0/playlist.m3u8",
+  "thumbnail": "https://clips.kick.com/clips/36/clip_01M8CQSHWEMQHGEHP6F17804K0/thumbnail.webp",
+  "views": 0,
+  "duration": 35,
+  "created_at": "2026-11-26T20:12:51.656176Z",
+  "vod_starts_at": 0,
+  "is_mature": true,
+  "discovered_at": "2026-11-26T20:15:56+00:00",
+  "status": "discovered",
+  "authenticity": "unchecked",
+  "rights": "credited_third_party",
+  "used_in": [],
+  "duplicate_of": null,
+  "seen_at": "2026-11-26T20:17:11+00:00",
+  "radar": {
+   "momentum": 0.0,
+   "topic_match": 0,
+   "originality": 8,
+   "french": 10,
+   "freshness": 10.0,
+   "short_enough": 10,
+   "priority": 4.2,
+   "topics": []
+  },
+  "origin": "original"
+ },
+ "clip_01M8CQSC7ZB4DH08EAGJGBQMZF": {
+  "id": "clip_01M8CQSC7ZB4DH08EAGJGBQMZF",
+  "source": "kick",
+  "creator": "robertovstheworld",
+  "channel_id": 20094363,
+  "livestream_id": "140138427",
+  "title": "fearloathing",
+  "url": "https://kick.com/robertovstheworld/clips/clip_01M8CQSC7ZB4DH08EAGJGBQMZF",
+  "media_url": "https://clips.kick.com/clips/d0/clip_01M8CQSC7ZB4DH08EAGJGBQMZF/master.m3u8",
+  "thumbnail": "https://clips.kick.com/clips/d0/clip_01M8CQSC7ZB4DH08EAGJGBQMZF/thumbnail.webp",
+  "views": 5,
+  "duration": 15,
+  "created_at": "2026-11-26T20:13:22.199782Z",
+  "vod_starts_at": 0,
+  "is_mature": true,
+  "discovered_at": "2026-11-26T20:15:56+00:00",
+  "status": "discovered",
+  "authenticity": "unchecked",
+  "rights": "credited_third_party",
+  "used_in": [],
+  "duplicate_of": null,
+  "seen_at": "2026-11-26T20:17:11+00:00",
+  "radar": {
+   "momentum": 1.7,
+   "topic_match": 0,
+   "originality": 8,
+   "french": 3,
+   "freshness": 10.0,
+   "short_enough": 10,
+   "priority": 4.18,
+   "topics": []
+  },
+  "origin": "original"
+ },
+ "clip_01M8CQS4A98N2G6ZDZMF0QMQC7": {
+  "id": "clip_01M8CQS4A98N2G6ZDZMF0QMQC7",
+  "source": "kick",
+  "creator": "lilith_2ya",
+  "channel_id": 63886995,
+  "livestream_id": "140402091",
+  "title": "alixooz rrrrrrrrr",
+  "url": "https://kick.com/lilith_2ya/clips/clip_01M8CQS4A98N2G6ZDZMF0QMQC7",
+  "media_url": "https://clips.kick.com/clips/5f/clip_01M8CQS4A98N2G6ZDZMF0QMQC7/playlist.m3u8",
+  "thumbnail": "https://clips.kick.com/clips/5f/clip_01M8CQS4A98N2G6ZDZMF0QMQC7/thumbnail.webp",
+  "views": 0,
+  "duration": 20,
+  "created_at": "2026-11-26T20:13:18.434291Z",
+  "vod_starts_at": 0,
+  "is_mature": true,
+  "discovered_at": "2026-11-26T20:15:56+00:00",
+  "status": "discovered",
+  "authenticity": "unchecked",
+  "rights": "credited_third_party",
+  "used_in": [],
+  "duplicate_of": null,
+  "seen_at": "2026-11-26T20:17:11+00:00",
+  "radar": {
+   "momentum": 0.0,
+   "topic_match": 0,
+   "originality": 8,
+   "french": 3,
+   "freshness": 10.0,
+   "short_enough": 10,
+   "priority": 3.5,
+   "topics": []
+  },
+  "origin": "original"
+ },
+ "clip_01M8CQRV3CCNB2N5TDF584AES9": {
+  "id": "clip_01M8CQRV3CCNB2N5TDF584AES9",
+  "source": "kick",
+  "creator": "sonwabile",
+  "channel_id": 19099158,
+  "livestream_id": "138638906",
+  "title": "GTA6 makes soso cry",
+  "url": "https://kick.com/sonwabile/clips/clip_01M8CQRV3CCNB2N5TDF584AES9",
+  "media_url": "https://clips.kick.com/clips/f4/clip_01M8CQRV3CCNB2N5TDF584AES9/master.m3u8",
+  "thumbnail": "https://clips.kick.com/clips/f4/clip_01M8CQRV3CCNB2N5TDF584AES9/thumbnail.webp",
+  "views": 0,
+  "duration": 180,
+  "created_at": "2026-11-26T20:14:26.655936Z",
+  "vod_starts_at": 0,
+  "is_mature": false,
+  "discovered_at": "2026-11-26T20:15:56+00:00",
+  "status": "discovered",
+  "authenticity": "unchecked",
+  "rights": "credited_third_party",
+  "used_in": [],
+  "duplicate_of": null,
+  "seen_at": "2026-11-26T20:17:11+00:00",
+  "radar": {
+   "momentum": 0.0,
+   "topic_match": 0,
+   "originality": 8,
+   "french": 3,
+   "freshness": 10.0,
+   "short_enough": 2,
+   "priority": 2.7,
+   "topics": []
+  },
+  "origin": "original"
+ },
+ "clip_01M8CQRNF0DVQGBAGCJB5DY4B5": {
+  "id": "clip_01M8CQRNF0DVQGBAGCJB5DY4B5",
+  "source": "kick",
+  "creator": "1treylawson",
+  "channel_id": 82613359,
+  "livestream_id": "140372878",
+  "title": "clip",
+  "url": "https://kick.com/1treylawson/clips/clip_01M8CQRNF0DVQGBAGCJB5DY4B5",
+  "media_url": "https://clips.kick.com/clips/39/clip_01M8CQRNF0DVQGBAGCJB5DY4B5/master.m3u8",
+  "thumbnail": "https://clips.kick.com/clips/39/clip_01M8CQRNF0DVQGBAGCJB5DY4B5/thumbnail.webp",
+  "views": 0,
+  "duration": 180,
+  "created_at": "2026-11-26T20:11:56.211381Z",
+  "vod_starts_at": 0,
+  "is_mature": true,
+  "discovered_at": "2026-11-26T20:15:57+00:00",
+  "status": "discovered",
+  "authenticity": "unchecked",
+  "rights": "credited_third_party",
+  "used_in": [],
+  "duplicate_of": null,
+  "seen_at": "2026-11-26T20:17:11+00:00",
+  "radar": {
+   "momentum": 0.0,
+   "topic_match": 0,
+   "originality": 8,
+   "french": 3,
+   "freshness": 10.0,
+   "short_enough": 2,
+   "priority": 2.7,
+   "topics": []
+  },
+  "origin": "original"
+ },
+ "clip_01M8CQRKKSJE6K38B8E2B6GTKP": {
+  "id": "clip_01M8CQRKKSJE6K38B8E2B6GTKP",
+  "source": "kick",
+  "creator": "haiset",
+  "channel_id": 10415120,
+  "livestream_id": "140394343",
+  "title": "POSLEDNÍ GTA STREAM MOJE HODNOCEN | Clip",
+  "url": "https://kick.com/haiset/clips/clip_01M8CQRKKSJE6K38B8E2B6GTKP",
+  "media_url": "https://clips.kick.com/clips/a7/clip_01M8CQRKKSJE6K38B8E2B6GTKP/playlist.m3u8",
+  "thumbnail": "https://clips.kick.com/clips/a7/clip_01M8CQRKKSJE6K38B8E2B6GTKP/thumbnail.webp",
+  "views": 3,
+  "duration": 30,
+  "created_at": "2026-11-26T20:11:47.427107Z",
+  "vod_starts_at": 0,
+  "is_mature": true,
+  "discovered_at": "2026-11-26T20:15:57+00:00",
+  "status": "discovered",
+  "authenticity": "unchecked",
+  "rights": "credited_third_party",
+  "used_in": [],
+  "duplicate_of": null,
+  "seen_at": "2026-11-26T20:17:11+00:00",
+  "radar": {
+   "momentum": 1.2,
+   "topic_match": 0,
+   "originality": 8,
+   "french": 3,
+   "freshness": 10.0,
+   "short_enough": 10,
+   "priority": 3.98,
+   "topics": []
+  },
+  "origin": "original"
+ },
+ "clip_01M8CQRE9HAJFF83SHE19MFPZP": {
+  "id": "clip_01M8CQRE9HAJFF83SHE19MFPZP",
+  "source": "kick",
+  "creator": "xmerghani",
+  "channel_id": 24765393,
+  "livestream_id": "140308563",
+  "title": "aim stier mergula",
+  "url": "https://kick.com/xmerghani/clips/clip_01M8CQRE9HAJFF83SHE19MFPZP",
+  "media_url": "https://clips.kick.com/clips/18/clip_01M8CQRE9HAJFF83SHE19MFPZP/playlist.m3u8",
+  "thumbnail": "https://clips.kick.com/clips/18/clip_01M8CQRE9HAJFF83SHE19MFPZP/thumbnail.webp",
+  "views": 9,
+  "duration": 33,
+  "created_at": "2026-11-26T20:12:29.79882Z",
+  "vod_starts_at": 0,
+  "is_mature": true,
+  "discovered_at": "2026-11-26T20:15:57+00:00",
+  "status": "discovered",
+  "authenticity": "unchecked",
+  "rights": "credited_third_party",
+  "used_in": [],
+  "duplicate_of": null,
+  "seen_at": "2026-11-26T20:17:11+00:00",
+  "radar": {
+   "momentum": 2.4,
+   "topic_match": 0,
+   "originality": 8,
+   "french": 3,
+   "freshness": 10.0,
+   "short_enough": 10,
+   "priority": 4.46,
+   "topics": []
+  },
+  "origin": "original"
+ },
+ "clip_01M8CQRA9Q1MEJQZV1XY2D5ZDN": {
+  "id": "clip_01M8CQRA9Q1MEJQZV1XY2D5ZDN",
+  "source": "kick",
+  "creator": "xmerghani",
+  "channel_id": 24765393,
+  "livestream_id": "140308563",
+  "title": "jebane kamery",
+  "url": "https://kick.com/xmerghani/clips/clip_01M8CQRA9Q1MEJQZV1XY2D5ZDN",
+  "media_url": "https://clips.kick.com/clips/3d/clip_01M8CQRA9Q1MEJQZV1XY2D5ZDN/playlist.m3u8",
+  "thumbnail": "https://clips.kick.com/clips/3d/clip_01M8CQRA9Q1MEJQZV1XY2D5ZDN/thumbnail.webp",
+  "views": 1,
+  "duration": 150,
+  "created_at": "2026-11-26T20:12:30.680126Z",
+  "vod_starts_at": 0,
+  "is_mature": true,
+  "discovered_at": "2026-11-26T20:15:57+00:00",
+  "status": "discovered",
+  "authenticity": "unchecked",
+  "rights": "credited_third_party",
+  "used_in": [],
+  "duplicate_of": null,
+  "seen_at": "2026-11-26T20:17:11+00:00",
+  "radar": {
+   "momentum": 0.5,
+   "topic_match": 0,
+   "originality": 8,
+   "french": 3,
+   "freshness": 10.0,
+   "short_enough": 2,
+   "priority": 2.9,
+   "topics": []
+  },
+  "origin": "original"
+ },
+ "clip_01M8CQR29VQJ5E2J3CM8GWGR8C": {
+  "id": "clip_01M8CQR29VQJ5E2J3CM8GWGR8C",
+  "source": "kick",
+  "creator": "davyjones",
+  "channel_id": 138283795,
+  "livestream_id": "140169769",
+  "title": "gg pt1",
+  "url": "https://kick.com/davyjones/clips/clip_01M8CQR29VQJ5E2J3CM8GWGR8C",
+  "media_url": "https://clips.kick.com/clips/64/clip_01M8CQR29VQJ5E2J3CM8GWGR8C/master.m3u8",
+  "thumbnail": "https://clips.kick.com/clips/64/clip_01M8CQR29VQJ5E2J3CM8GWGR8C/thumbnail.webp",
+  "views": 0,
+  "duration": 180,
+  "created_at": "2026-11-26T20:11:42.657462Z",
+  "vod_starts_at": 0,
+  "is_mature": true,
+  "discovered_at": "2026-11-26T20:15:57+00:00",
+  "status": "discovered",
+  "authenticity": "unchecked",
+  "rights": "credited_third_party",
+  "used_in": [],
+  "duplicate_of": null,
+  "seen_at": "2026-11-26T20:17:11+00:00",
+  "radar": {
+   "momentum": 0.0,
+   "topic_match": 0,
+   "originality": 8,
+   "french": 3,
+   "freshness": 10.0,
+   "short_enough": 2,
+   "priority": 2.7,
+   "topics": []
+  },
+  "origin": "original"
+ },
+ "clip_01M8CQR1MZCQKHDYEV30YH17VY": {
+  "id": "clip_01M8CQR1MZCQKHDYEV30YH17VY",
+  "source": "kick",
+  "creator": "kasugard",
+  "channel_id": 117820410,
+  "livestream_id": "140076538",
+  "title": "FULL FANATICO AJAJAJA!",
+  "url": "https://kick.com/kasugard/clips/clip_01M8CQR1MZCQKHDYEV30YH17VY",
+  "media_url": "https://clips.kick.com/clips/a2/clip_01M8CQR1MZCQKHDYEV30YH17VY/playlist.m3u8",
+  "thumbnail": "https://clips.kick.com/clips/a2/clip_01M8CQR1MZCQKHDYEV30YH17VY/thumbnail.webp",
+  "views": 3,
+  "duration": 24,
+  "created_at": "2026-11-26T20:12:02.769628Z",
+  "vod_starts_at": 0,
+  "is_mature": true,
+  "discovered_at": "2026-11-26T20:15:57+00:00",
+  "status": "discovered",
+  "authenticity": "unchecked",
+  "rights": "credited_third_party",
+  "used_in": [],
+  "duplicate_of": null,
+  "seen_at": "2026-11-26T20:17:11+00:00",
+  "radar": {
+   "momentum": 1.2,
+   "topic_match": 5,
+   "originality": 8,
+   "french": 3,
+   "freshness": 10.0,
+   "short_enough": 10,
+   "priority": 4.73,
+   "topics": [
+    "funny"
+   ]
+  },
+  "origin": "original",
+  "pillar": "VIRAL MOMENTS & CHAOS",
+  "pillar_method": "keyword"
+ },
+ "clip_01M8CQQX4D2GHGMHE1MR43DGN4": {
+  "id": "clip_01M8CQQX4D2GHGMHE1MR43DGN4",
+  "source": "kick",
+  "creator": "syewooo",
+  "channel_id": 71390967,
+  "livestream_id": "140427686",
+  "title": "DAY 8 PLAYING GTA 6 CHAPTER 4 73% | Clip",
+  "url": "https://kick.com/syewooo/clips/clip_01M8CQQX4D2GHGMHE1MR43DGN4",
+  "media_url": "https://clips.kick.com/clips/7c/clip_01M8CQQX4D2GHGMHE1MR43DGN4/playlist.m3u8",
+  "thumbnail": "https://clips.kick.com/clips/7c/clip_01M8CQQX4D2GHGMHE1MR43DGN4/thumbnail.webp",
+  "views": 0,
+  "duration": 30,
+  "created_at": "2026-11-26T20:11:24.366733Z",
+  "vod_starts_at": 0,
+  "is_mature": true,
+  "discovered_at": "2026-11-26T20:15:57+00:00",
+  "status": "discovered",
+  "authenticity": "unchecked",
+  "rights": "credited_third_party",
+  "used_in": [],
+  "duplicate_of": null,
+  "seen_at": "2026-11-26T20:17:11+00:00",
+  "radar": {
+   "momentum": 0.0,
+   "topic_match": 0,
+   "originality": 8,
+   "french": 3,
+   "freshness": 10.0,
+   "short_enough": 10,
+   "priority": 3.5,
+   "topics": []
+  },
+  "origin": "original"
+ },
+ "clip_01M8CQQVF75XWSCJQE7SJRVD3S": {
+  "id": "clip_01M8CQQVF75XWSCJQE7SJRVD3S",
+  "source": "kick",
+  "creator": "gattouz0",
+  "channel_id": 57778588,
+  "livestream_id": "140272543",
+  "title": "gattouz",
+  "url": "https://kick.com/gattouz0/clips/clip_01M8CQQVF75XWSCJQE7SJRVD3S",
+  "media_url": "https://clips.kick.com/clips/6e/clip_01M8CQQVF75XWSCJQE7SJRVD3S/master.m3u8",
+  "thumbnail": "https://clips.kick.com/clips/6e/clip_01M8CQQVF75XWSCJQE7SJRVD3S/thumbnail.webp",
+  "views": 1,
+  "duration": 30,
+  "created_at": "2026-11-26T20:12:46.831191Z",
+  "vod_starts_at": 0,
+  "is_mature": true,
+  "discovered_at": "2026-11-26T20:15:57+00:00",
+  "status": "discovered",
+  "authenticity": "unchecked",
+  "rights": "credited_third_party",
+  "used_in": [],
+  "duplicate_of": null,
+  "seen_at": "2026-11-26T20:17:11+00:00",
+  "radar": {
+   "momentum": 0.5,
+   "topic_match": 0,
+   "originality": 8,
+   "french": 3,
+   "freshness": 10.0,
+   "short_enough": 10,
+   "priority": 3.7,
+   "topics": []
+  },
+  "origin": "original"
+ },
+ "clip_01M8CQQM3JXN2AKCPB4B8S6CD6": {
+  "id": "clip_01M8CQQM3JXN2AKCPB4B8S6CD6",
+  "source": "kick",
+  "creator": "renatogarcia",
+  "channel_id": 124585652,
+  "livestream_id": "140438298",
+  "title": "g",
+  "url": "https://kick.com/renatogarcia/clips/clip_01M8CQQM3JXN2AKCPB4B8S6CD6",
+  "media_url": "https://clips.kick.com/clips/26/clip_01M8CQQM3JXN2AKCPB4B8S6CD6/master.m3u8",
+  "thumbnail": "https://clips.kick.com/clips/26/clip_01M8CQQM3JXN2AKCPB4B8S6CD6/thumbnail.webp",
+  "views": 0,
+  "duration": 94,
+  "created_at": "2026-11-26T20:11:55.213355Z",
+  "vod_starts_at": 0,
+  "is_mature": true,
+  "discovered_at": "2026-11-26T20:15:57+00:00",
+  "status": "discovered",
+  "authenticity": "unchecked",
+  "rights": "credited_third_party",
+  "used_in": [],
+  "duplicate_of": null,
+  "seen_at": "2026-11-26T20:17:11+00:00",
+  "radar": {
+   "momentum": 0.0,
+   "topic_match": 0,
+   "originality": 8,
+   "french": 3,
+   "freshness": 10.0,
+   "short_enough": 2,
+   "priority": 2.7,
+   "topics": []
+  },
+  "origin": "original"
+ },
+ "clip_01M8CQQHY8EP3K4B2ACZYV30PE": {
+  "id": "clip_01M8CQQHY8EP3K4B2ACZYV30PE",
+  "source": "kick",
+  "creator": "francs-dj",
+  "channel_id": 57122123,
+  "livestream_id": "140251168",
+  "title": "JAYSON LEVOU UM TIRO GTA 6",
+  "url": "https://kick.com/francs-dj/clips/clip_01M8CQQHY8EP3K4B2ACZYV30PE",
+  "media_url": "https://clips.kick.com/clips/57/clip_01M8CQQHY8EP3K4B2ACZYV30PE/playlist.m3u8",
+  "thumbnail": "https://clips.kick.com/clips/57/clip_01M8CQQHY8EP3K4B2ACZYV30PE/thumbnail.webp",
+  "views": 1,
+  "duration": 180,
+  "created_at": "2026-11-26T20:12:25.650478Z",
+  "vod_starts_at": 0,
+  "is_mature": true,
+  "discovered_at": "2026-11-26T20:15:57+00:00",
+  "status": "discovered",
+  "authenticity": "unchecked",
+  "rights": "credited_third_party",
+  "used_in": [],
+  "duplicate_of": null,
+  "seen_at": "2026-11-26T20:17:11+00:00",
+  "radar": {
+   "momentum": 0.5,
+   "topic_match": 0,
+   "originality": 8,
+   "french": 3,
+   "freshness": 10.0,
+   "short_enough": 2,
+   "priority": 2.9,
+   "topics": []
+  },
+  "origin": "original"
+ },
+ "clip_01M8CQQ7N6NFPNSJFNH714ZJGJ": {
+  "id": "clip_01M8CQQ7N6NFPNSJFNH714ZJGJ",
+  "source": "kick",
+  "creator": "kasra-music",
+  "channel_id": 74582603,
+  "livestream_id": "140434821",
+  "title": "GTA VI CHAPTER 3 Persian | Clip",
+  "url": "https://kick.com/kasra-music/clips/clip_01M8CQQ7N6NFPNSJFNH714ZJGJ",
+  "media_url": "https://clips.kick.com/clips/be/clip_01M8CQQ7N6NFPNSJFNH714ZJGJ/playlist.m3u8",
+  "thumbnail": "https://clips.kick.com/clips/be/clip_01M8CQQ7N6NFPNSJFNH714ZJGJ/thumbnail.webp",
+  "views": 0,
+  "duration": 30,
+  "created_at": "2026-11-26T20:11:02.352163Z",
+  "vod_starts_at": 0,
+  "is_mature": true,
+  "discovered_at": "2026-11-26T20:15:57+00:00",
+  "status": "discovered",
+  "authenticity": "unchecked",
+  "rights": "credited_third_party",
+  "used_in": [],
+  "duplicate_of": null,
+  "seen_at": "2026-11-26T20:17:11+00:00",
+  "radar": {
+   "momentum": 0.0,
+   "topic_match": 0,
+   "originality": 8,
+   "french": 3,
+   "freshness": 10.0,
+   "short_enough": 10,
+   "priority": 3.5,
+   "topics": []
+  },
+  "origin": "original"
+ },
+ "clip_01M8CQQ57JHR7WDZ5NSGH4E1MZ": {
+  "id": "clip_01M8CQQ57JHR7WDZ5NSGH4E1MZ",
+  "source": "kick",
+  "creator": "elbuenoop7",
+  "channel_id": 136826488,
+  "livestream_id": "140348878",
+  "title": "Chale elon ",
+  "url": "https://kick.com/elbuenoop7/clips/clip_01M8CQQ57JHR7WDZ5NSGH4E1MZ",
+  "media_url": "https://clips.kick.com/clips/94/clip_01M8CQQ57JHR7WDZ5NSGH4E1MZ/playlist.m3u8",
+  "thumbnail": "https://clips.kick.com/clips/94/clip_01M8CQQ57JHR7WDZ5NSGH4E1MZ/thumbnail.webp",
+  "views": 1,
+  "duration": 30,
+  "created_at": "2026-11-26T20:11:49.043495Z",
+  "vod_starts_at": 0,
+  "is_mature": true,
+  "discovered_at": "2026-11-26T20:15:57+00:00",
+  "status": "discovered",
+  "authenticity": "unchecked",
+  "rights": "credited_third_party",
+  "used_in": [],
+  "duplicate_of": null,
+  "seen_at": "2026-11-26T20:17:11+00:00",
+  "radar": {
+   "momentum": 0.5,
+   "topic_match": 0,
+   "originality": 8,
+   "french": 3,
+   "freshness": 10.0,
+   "short_enough": 10,
+   "priority": 3.7,
+   "topics": []
+  },
+  "origin": "original"
+ },
+ "clip_01M8CQPAE4GVT953NN905C4WMT": {
+  "id": "clip_01M8CQPAE4GVT953NN905C4WMT",
+  "source": "kick",
+  "creator": "gamersturk",
+  "channel_id": 25912029,
+  "livestream_id": "140413338",
+  "title": "GTA VI DAY 8 %67 !dc insta : ergi | Clip",
+  "url": "https://kick.com/gamersturk/clips/clip_01M8CQPAE4GVT953NN905C4WMT",
+  "media_url": "https://clips.kick.com/clips/c4/clip_01M8CQPAE4GVT953NN905C4WMT/playlist.m3u8",
+  "thumbnail": "https://clips.kick.com/clips/c4/clip_01M8CQPAE4GVT953NN905C4WMT/thumbnail.webp",
+  "views": 1,
+  "duration": 30,
+  "created_at": "2026-11-26T20:10:32.546359Z",
+  "vod_starts_at": 0,
+  "is_mature": true,
+  "discovered_at": "2026-11-26T20:15:57+00:00",
+  "status": "discovered",
+  "authenticity": "unchecked",
+  "rights": "credited_third_party",
+  "used_in": [],
+  "duplicate_of": null,
+  "seen_at": "2026-11-26T20:17:11+00:00",
+  "radar": {
+   "momentum": 0.5,
+   "topic_match": 0,
+   "originality": 8,
+   "french": 3,
+   "freshness": 10.0,
+   "short_enough": 10,
+   "priority": 3.7,
+   "topics": []
+  },
+  "origin": "original"
+ },
+ "clip_01M8CQPAAXPZ778HVVW4108GZE": {
+  "id": "clip_01M8CQPAAXPZ778HVVW4108GZE",
+  "source": "kick",
+  "creator": "renatogarcia",
+  "channel_id": 124585652,
+  "livestream_id": "140438298",
+  "title": ".",
+  "url": "https://kick.com/renatogarcia/clips/clip_01M8CQPAAXPZ778HVVW4108GZE",
+  "media_url": "https://clips.kick.com/clips/6d/clip_01M8CQPAAXPZ778HVVW4108GZE/master.m3u8",
+  "thumbnail": "https://clips.kick.com/clips/6d/clip_01M8CQPAAXPZ778HVVW4108GZE/thumbnail.webp",
+  "views": 1,
+  "duration": 60,
+  "created_at": "2026-11-26T20:10:49.404225Z",
+  "vod_starts_at": 0,
+  "is_mature": true,
+  "discovered_at": "2026-11-26T20:15:57+00:00",
+  "status": "discovered",
+  "authenticity": "unchecked",
+  "rights": "credited_third_party",
+  "used_in": [],
+  "duplicate_of": null,
+  "seen_at": "2026-11-26T20:17:11+00:00",
+  "radar": {
+   "momentum": 0.5,
+   "topic_match": 0,
+   "originality": 8,
+   "french": 3,
+   "freshness": 10.0,
+   "short_enough": 10,
+   "priority": 3.7,
+   "topics": []
+  },
+  "origin": "original"
+ },
+ "clip_01M8CQNR0H2DCFV93D2NTMCTH0": {
+  "id": "clip_01M8CQNR0H2DCFV93D2NTMCTH0",
+  "source": "kick",
+  "creator": "yoda",
+  "channel_id": 64245633,
+  "livestream_id": "140383577",
+  "title": "ELA TA TAO FORTE ASSIM ?",
+  "url": "https://kick.com/yoda/clips/clip_01M8CQNR0H2DCFV93D2NTMCTH0",
+  "media_url": "https://clips.kick.com/clips/2d/clip_01M8CQNR0H2DCFV93D2NTMCTH0/master.m3u8",
+  "thumbnail": "https://clips.kick.com/clips/2d/clip_01M8CQNR0H2DCFV93D2NTMCTH0/thumbnail.webp",
+  "views": 0,
+  "duration": 45,
+  "created_at": "2026-11-26T20:11:13.363649Z",
+  "vod_starts_at": 0,
+  "is_mature": true,
+  "discovered_at": "2026-11-26T20:15:57+00:00",
+  "status": "discovered",
+  "authenticity": "unchecked",
+  "rights": "credited_third_party",
+  "used_in": [],
+  "duplicate_of": null,
+  "seen_at": "2026-11-26T20:17:11+00:00",
+  "radar": {
+   "momentum": 0.0,
+   "topic_match": 0,
+   "originality": 8,
+   "french": 3,
+   "freshness": 10.0,
+   "short_enough": 10,
+   "priority": 3.5,
+   "topics": []
+  },
+  "origin": "original"
+ },
+ "clip_01M8CQNKCZXZV7SRE87P06KA9W": {
+  "id": "clip_01M8CQNKCZXZV7SRE87P06KA9W",
+  "source": "kick",
+  "creator": "retroteddgaming",
+  "channel_id": 27924194,
+  "livestream_id": "140422082",
+  "title": "GTA 6 DAY 7! | Clip",
+  "url": "https://kick.com/retroteddgaming/clips/clip_01M8CQNKCZXZV7SRE87P06KA9W",
+  "media_url": "https://clips.kick.com/clips/ef/clip_01M8CQNKCZXZV7SRE87P06KA9W/playlist.m3u8",
+  "thumbnail": "https://clips.kick.com/clips/ef/clip_01M8CQNKCZXZV7SRE87P06KA9W/thumbnail.webp",
+  "views": 0,
+  "duration": 30,
+  "created_at": "2026-11-26T20:10:08.820548Z",
+  "vod_starts_at": 0,
+  "is_mature": true,
+  "discovered_at": "2026-11-26T20:15:57+00:00",
+  "status": "discovered",
+  "authenticity": "unchecked",
+  "rights": "credited_third_party",
+  "used_in": [],
+  "duplicate_of": null,
+  "seen_at": "2026-11-26T20:17:11+00:00",
+  "radar": {
+   "momentum": 0.0,
+   "topic_match": 0,
+   "originality": 8,
+   "french": 3,
+   "freshness": 10.0,
+   "short_enough": 10,
+   "priority": 3.5,
+   "topics": []
+  },
+  "origin": "original"
+ },
+ "clip_01M8CQNA8XE2CZ96STC2EM22ZC": {
+  "id": "clip_01M8CQNA8XE2CZ96STC2EM22ZC",
+  "source": "kick",
+  "creator": "raoufbelkacemi",
+  "channel_id": 20834754,
+  "livestream_id": "140421605",
+  "title": "2",
+  "url": "https://kick.com/raoufbelkacemi/clips/clip_01M8CQNA8XE2CZ96STC2EM22ZC",
+  "media_url": "https://clips.kick.com/clips/3c/clip_01M8CQNA8XE2CZ96STC2EM22ZC/playlist.m3u8",
+  "thumbnail": "https://clips.kick.com/clips/3c/clip_01M8CQNA8XE2CZ96STC2EM22ZC/thumbnail.webp",
+  "views": 0,
+  "duration": 180,
+  "created_at": "2026-11-26T20:10:06.884673Z",
+  "vod_starts_at": 0,
+  "is_mature": true,
+  "discovered_at": "2026-11-26T20:15:57+00:00",
+  "status": "discovered",
+  "authenticity": "unchecked",
+  "rights": "credited_third_party",
+  "used_in": [],
+  "duplicate_of": null,
+  "seen_at": "2026-11-26T20:17:11+00:00",
+  "radar": {
+   "momentum": 0.0,
+   "topic_match": 0,
+   "originality": 8,
+   "french": 3,
+   "freshness": 10.0,
+   "short_enough": 2,
+   "priority": 2.7,
+   "topics": []
+  },
+  "origin": "original"
+ },
+ "clip_01M8CQN996EE59K76X17F2VQN8": {
+  "id": "clip_01M8CQN996EE59K76X17F2VQN8",
+  "source": "kick",
+  "creator": "inframe15",
+  "channel_id": 110733,
+  "livestream_id": "140381381",
+  "title": "q palo  del pibe jason",
+  "url": "https://kick.com/inframe15/clips/clip_01M8CQN996EE59K76X17F2VQN8",
+  "media_url": "https://clips.kick.com/clips/02/clip_01M8CQN996EE59K76X17F2VQN8/master.m3u8",
+  "thumbnail": "https://clips.kick.com/clips/02/clip_01M8CQN996EE59K76X17F2VQN8/thumbnail.webp",
+  "views": 13,
+  "duration": 28,
+  "created_at": "2026-11-26T20:10:55.69005Z",
+  "vod_starts_at": 0,
+  "is_mature": true,
+  "discovered_at": "2026-11-26T20:15:57+00:00",
+  "status": "discovered",
+  "authenticity": "unchecked",
+  "rights": "credited_third_party",
+  "used_in": [],
+  "duplicate_of": null,
+  "seen_at": "2026-11-26T20:17:11+00:00",
+  "radar": {
+   "momentum": 2.9,
+   "topic_match": 0,
+   "originality": 8,
+   "french": 3,
+   "freshness": 10.0,
+   "short_enough": 10,
+   "priority": 4.66,
+   "topics": []
+  },
+  "origin": "original"
+ },
+ "clip_01M8CQN6YP3ATS4SVHMVD2K84S": {
+  "id": "clip_01M8CQN6YP3ATS4SVHMVD2K84S",
+  "source": "kick",
+  "creator": "shevas408",
+  "channel_id": 101998999,
+  "livestream_id": "140429936",
+  "title": "S̵̒̈́h̵͆e̸͑v̵a̵͊s̴♱",
+  "url": "https://kick.com/shevas408/clips/clip_01M8CQN6YP3ATS4SVHMVD2K84S",
+  "media_url": "https://clips.kick.com/clips/b6/clip_01M8CQN6YP3ATS4SVHMVD2K84S/playlist.m3u8",
+  "thumbnail": "https://clips.kick.com/clips/b6/clip_01M8CQN6YP3ATS4SVHMVD2K84S/thumbnail.webp",
+  "views": 0,
+  "duration": 15,
+  "created_at": "2026-11-26T20:10:25.272365Z",
+  "vod_starts_at": 0,
+  "is_mature": true,
+  "discovered_at": "2026-11-26T20:15:57+00:00",
+  "status": "discovered",
+  "authenticity": "unchecked",
+  "rights": "credited_third_party",
+  "used_in": [],
+  "duplicate_of": null,
+  "seen_at": "2026-11-26T20:17:11+00:00",
+  "radar": {
+   "momentum": 0.0,
+   "topic_match": 0,
+   "originality": 8,
+   "french": 3,
+   "freshness": 10.0,
+   "short_enough": 10,
+   "priority": 3.5,
+   "topics": []
+  },
+  "origin": "original"
+ },
+ "clip_01M8CQM8A4H4WCR3NE894DWGZD": {
+  "id": "clip_01M8CQM8A4H4WCR3NE894DWGZD",
+  "source": "kick",
+  "creator": "oliveirawp",
+  "channel_id": 71438516,
+  "livestream_id": "140359943",
+  "title": "18 SUBATHON JOGANDO GTA 6 DIA 8 ! | Clip",
+  "url": "https://kick.com/oliveirawp/clips/clip_01M8CQM8A4H4WCR3NE894DWGZD",
+  "media_url": "https://clips.kick.com/clips/f1/clip_01M8CQM8A4H4WCR3NE894DWGZD/playlist.m3u8",
+  "thumbnail": "https://clips.kick.com/clips/f1/clip_01M8CQM8A4H4WCR3NE894DWGZD/thumbnail.webp",
+  "views": 2,
+  "duration": 30,
+  "created_at": "2026-11-26T20:09:24.880786Z",
+  "vod_starts_at": 0,
+  "is_mature": true,
+  "discovered_at": "2026-11-26T20:15:57+00:00",
+  "status": "discovered",
+  "authenticity": "unchecked",
+  "rights": "credited_third_party",
+  "used_in": [],
+  "duplicate_of": null,
+  "seen_at": "2026-11-26T20:17:11+00:00",
+  "radar": {
+   "momentum": 0.9,
+   "topic_match": 0,
+   "originality": 8,
+   "french": 3,
+   "freshness": 10.0,
+   "short_enough": 10,
+   "priority": 3.86,
+   "topics": []
+  },
+  "origin": "original"
+ },
+ "clip_01M8CQM4RPC045A4CSXNJFQXVN": {
+  "id": "clip_01M8CQM4RPC045A4CSXNJFQXVN",
+  "source": "kick",
+  "creator": "ricecurry-7",
+  "channel_id": 136085119,
+  "livestream_id": "140424357",
+  "title": "maza aa raha hai mera juice kaha hai",
+  "url": "https://kick.com/ricecurry-7/clips/clip_01M8CQM4RPC045A4CSXNJFQXVN",
+  "media_url": "https://clips.kick.com/clips/be/clip_01M8CQM4RPC045A4CSXNJFQXVN/playlist.m3u8",
+  "thumbnail": "https://clips.kick.com/clips/be/clip_01M8CQM4RPC045A4CSXNJFQXVN/thumbnail.webp",
+  "views": 1,
+  "duration": 180,
+  "created_at": "2026-11-26T20:09:44.785593Z",
+  "vod_starts_at": 0,
+  "is_mature": true,
+  "discovered_at": "2026-11-26T20:15:58+00:00",
+  "status": "discovered",
+  "authenticity": "unchecked",
+  "rights": "credited_third_party",
+  "used_in": [],
+  "duplicate_of": null,
+  "seen_at": "2026-11-26T20:17:11+00:00",
+  "radar": {
+   "momentum": 0.5,
+   "topic_match": 0,
+   "originality": 8,
+   "french": 3,
+   "freshness": 10.0,
+   "short_enough": 2,
+   "priority": 2.9,
+   "topics": []
+  },
+  "origin": "original"
+ },
+ "clip_01M8CQKV34YVDYMB5PANNPGGGW": {
+  "id": "clip_01M8CQKV34YVDYMB5PANNPGGGW",
+  "source": "kick",
+  "creator": "7shorty",
+  "channel_id": 59632061,
+  "livestream_id": "140287794",
+  "title": ".",
+  "url": "https://kick.com/7shorty/clips/clip_01M8CQKV34YVDYMB5PANNPGGGW",
+  "media_url": "https://clips.kick.com/clips/ea/clip_01M8CQKV34YVDYMB5PANNPGGGW/master.m3u8",
+  "thumbnail": "https://clips.kick.com/clips/ea/clip_01M8CQKV34YVDYMB5PANNPGGGW/thumbnail.webp",
+  "views": 1,
+  "duration": 23,
+  "created_at": "2026-11-26T20:09:50.999855Z",
+  "vod_starts_at": 0,
+  "is_mature": true,
+  "discovered_at": "2026-11-26T20:15:58+00:00",
+  "status": "discovered",
+  "authenticity": "unchecked",
+  "rights": "credited_third_party",
+  "used_in": [],
+  "duplicate_of": null,
+  "seen_at": "2026-11-26T20:17:11+00:00",
+  "radar": {
+   "momentum": 0.5,
+   "topic_match": 0,
+   "originality": 8,
+   "french": 3,
+   "freshness": 10.0,
+   "short_enough": 10,
+   "priority": 3.7,
+   "topics": []
+  },
+  "origin": "original"
+ },
+ "clip_01M8CQKQY6ABNYWECK8YHWCZ5Y": {
+  "id": "clip_01M8CQKQY6ABNYWECK8YHWCZ5Y",
+  "source": "kick",
+  "creator": "adaoojr0",
+  "channel_id": 76186985,
+  "livestream_id": "140265510",
+  "title": "hhhhhh math and maths ",
+  "url": "https://kick.com/adaoojr0/clips/clip_01M8CQKQY6ABNYWECK8YHWCZ5Y",
+  "media_url": "https://clips.kick.com/clips/04/clip_01M8CQKQY6ABNYWECK8YHWCZ5Y/playlist.m3u8",
+  "thumbnail": "https://clips.kick.com/clips/04/clip_01M8CQKQY6ABNYWECK8YHWCZ5Y/thumbnail.webp",
+  "views": 0,
+  "duration": 180,
+  "created_at": "2026-11-26T20:09:15.073068Z",
+  "vod_starts_at": 0,
+  "is_mature": true,
+  "discovered_at": "2026-11-26T20:15:58+00:00",
+  "status": "discovered",
+  "authenticity": "unchecked",
+  "rights": "credited_third_party",
+  "used_in": [],
+  "duplicate_of": null,
+  "seen_at": "2026-11-26T20:17:11+00:00",
+  "radar": {
+   "momentum": 0.0,
+   "topic_match": 0,
+   "originality": 8,
+   "french": 3,
+   "freshness": 10.0,
+   "short_enough": 2,
+   "priority": 2.7,
+   "topics": []
+  },
+  "origin": "original"
+ },
+ "clip_01M8CQKE6A6A66MEZ7Q0VX9SR7": {
+  "id": "clip_01M8CQKE6A6A66MEZ7Q0VX9SR7",
+  "source": "kick",
+  "creator": "kaisercano",
+  "channel_id": 6449240,
+  "livestream_id": "140387770",
+  "title": "Clip by inStreamly",
+  "url": "https://kick.com/kaisercano/clips/clip_01M8CQKE6A6A66MEZ7Q0VX9SR7",
+  "media_url": "https://clips.kick.com/clips/23/clip_01M8CQKE6A6A66MEZ7Q0VX9SR7/playlist.m3u8",
+  "thumbnail": "https://clips.kick.com/clips/23/clip_01M8CQKE6A6A66MEZ7Q0VX9SR7/thumbnail.webp",
+  "views": 0,
+  "duration": 26,
+  "created_at": "2026-11-26T20:08:58.515075Z",
+  "vod_starts_at": 0,
+  "is_mature": true,
+  "discovered_at": "2026-11-26T20:15:58+00:00",
+  "status": "discovered",
+  "authenticity": "unchecked",
+  "rights": "credited_third_party",
+  "used_in": [],
+  "duplicate_of": null,
+  "seen_at": "2026-11-26T20:17:11+00:00",
+  "radar": {
+   "momentum": 0.0,
+   "topic_match": 0,
+   "originality": 8,
+   "french": 3,
+   "freshness": 10.0,
+   "short_enough": 10,
+   "priority": 3.5,
+   "topics": []
+  },
+  "origin": "original"
+ },
+ "clip_01M8CQKBE8VYWH2G5TGCSM9XV9": {
+  "id": "clip_01M8CQKBE8VYWH2G5TGCSM9XV9",
+  "source": "kick",
+  "creator": "renatogarcia",
+  "channel_id": 124585652,
+  "livestream_id": "140438298",
+  "title": "diferenca de live",
+  "url": "https://kick.com/renatogarcia/clips/clip_01M8CQKBE8VYWH2G5TGCSM9XV9",
+  "media_url": "https://clips.kick.com/clips/5a/clip_01M8CQKBE8VYWH2G5TGCSM9XV9/master.m3u8",
+  "thumbnail": "https://clips.kick.com/clips/5a/clip_01M8CQKBE8VYWH2G5TGCSM9XV9/thumbnail.webp",
+  "views": 0,
+  "duration": 61,
+  "created_at": "2026-11-26T20:09:27.892274Z",
+  "vod_starts_at": 0,
+  "is_mature": true,
+  "discovered_at": "2026-11-26T20:15:58+00:00",
+  "status": "discovered",
+  "authenticity": "unchecked",
+  "rights": "credited_third_party",
+  "used_in": [],
+  "duplicate_of": null,
+  "seen_at": "2026-11-26T20:17:11+00:00",
+  "radar": {
+   "momentum": 0.0,
+   "topic_match": 0,
+   "originality": 8,
+   "french": 3,
+   "freshness": 10.0,
+   "short_enough": 10,
+   "priority": 3.5,
+   "topics": []
+  },
+  "origin": "original"
+ },
+ "clip_01M8CQK88YNZ6AQRS028SCHCSR": {
+  "id": "clip_01M8CQK88YNZ6AQRS028SCHCSR",
+  "source": "kick",
+  "creator": "silviogamer",
+  "channel_id": 4243986,
+  "livestream_id": "140440550",
+  "title": "El patron sacando los temas",
+  "url": "https://kick.com/silviogamer/clips/clip_01M8CQK88YNZ6AQRS028SCHCSR",
+  "media_url": "https://clips.kick.com/clips/1c/clip_01M8CQK88YNZ6AQRS028SCHCSR/master.m3u8",
+  "thumbnail": "https://clips.kick.com/clips/1c/clip_01M8CQK88YNZ6AQRS028SCHCSR/thumbnail.webp",
+  "views": 0,
+  "duration": 18,
+  "created_at": "2026-11-26T20:09:25.107961Z",
+  "vod_starts_at": 0,
+  "is_mature": true,
+  "discovered_at": "2026-11-26T20:15:58+00:00",
+  "status": "discovered",
+  "authenticity": "unchecked",
+  "rights": "credited_third_party",
+  "used_in": [],
+  "duplicate_of": null,
+  "seen_at": "2026-11-26T20:17:11+00:00",
+  "radar": {
+   "momentum": 0.0,
+   "topic_match": 0,
+   "originality": 8,
+   "french": 3,
+   "freshness": 10.0,
+   "short_enough": 10,
+   "priority": 3.5,
+   "topics": []
+  },
+  "origin": "original"
+ },
+ "clip_01M8CQK7NA6XWSRN4S087GKP5V": {
+  "id": "clip_01M8CQK7NA6XWSRN4S087GKP5V",
+  "source": "kick",
+  "creator": "renatogarcia",
+  "channel_id": 124585652,
+  "livestream_id": "140438298",
+  "title": ".",
+  "url": "https://kick.com/renatogarcia/clips/clip_01M8CQK7NA6XWSRN4S087GKP5V",
+  "media_url": "https://clips.kick.com/clips/51/clip_01M8CQK7NA6XWSRN4S087GKP5V/master.m3u8",
+  "thumbnail": "https://clips.kick.com/clips/51/clip_01M8CQK7NA6XWSRN4S087GKP5V/thumbnail.webp",
+  "views": 1,
+  "duration": 63,
+  "created_at": "2026-11-26T20:09:01.79809Z",
+  "vod_starts_at": 0,
+  "is_mature": true,
+  "discovered_at": "2026-11-26T20:15:58+00:00",
+  "status": "discovered",
+  "authenticity": "unchecked",
+  "rights": "credited_third_party",
+  "used_in": [],
+  "duplicate_of": null,
+  "seen_at": "2026-11-26T20:17:11+00:00",
+  "radar": {
+   "momentum": 0.5,
+   "topic_match": 0,
+   "originality": 8,
+   "french": 3,
+   "freshness": 10.0,
+   "short_enough": 10,
+   "priority": 3.7,
+   "topics": []
+  },
+  "origin": "original"
+ },
+ "clip_01M8CQK6JG0ZKREJS4XX6HJM5J": {
+  "id": "clip_01M8CQK6JG0ZKREJS4XX6HJM5J",
+  "source": "kick",
+  "creator": "odisnos",
+  "channel_id": 22348110,
+  "livestream_id": "140427682",
+  "title": "zor",
+  "url": "https://kick.com/odisnos/clips/clip_01M8CQK6JG0ZKREJS4XX6HJM5J",
+  "media_url": "https://clips.kick.com/clips/22/clip_01M8CQK6JG0ZKREJS4XX6HJM5J/playlist.m3u8",
+  "thumbnail": "https://clips.kick.com/clips/22/clip_01M8CQK6JG0ZKREJS4XX6HJM5J/thumbnail.webp",
+  "views": 2,
+  "duration": 30,
+  "created_at": "2026-11-26T20:09:13.67518Z",
+  "vod_starts_at": 0,
+  "is_mature": true,
+  "discovered_at": "2026-11-26T20:15:58+00:00",
+  "status": "discovered",
+  "authenticity": "unchecked",
+  "rights": "credited_third_party",
+  "used_in": [],
+  "duplicate_of": null,
+  "seen_at": "2026-11-26T20:17:11+00:00",
+  "radar": {
+   "momentum": 0.9,
+   "topic_match": 0,
+   "originality": 8,
+   "french": 3,
+   "freshness": 10.0,
+   "short_enough": 10,
+   "priority": 3.86,
+   "topics": []
+  },
+  "origin": "original"
+ },
+ "clip_01M8CQJV65D40AFJ5HHYXPPG9S": {
+  "id": "clip_01M8CQJV65D40AFJ5HHYXPPG9S",
+  "source": "kick",
+  "creator": "jojelittle",
+  "channel_id": 63275723,
+  "livestream_id": "140358065",
+  "title": "English/Persian Sherafat & Zanash | Clip",
+  "url": "https://kick.com/jojelittle/clips/clip_01M8CQJV65D40AFJ5HHYXPPG9S",
+  "media_url": "https://clips.kick.com/clips/84/clip_01M8CQJV65D40AFJ5HHYXPPG9S/playlist.m3u8",
+  "thumbnail": "https://clips.kick.com/clips/84/clip_01M8CQJV65D40AFJ5HHYXPPG9S/thumbnail.webp",
+  "views": 0,
+  "duration": 30,
+  "created_at": "2026-11-26T20:08:38.520292Z",
+  "vod_starts_at": 0,
+  "is_mature": true,
+  "discovered_at": "2026-11-26T20:15:58+00:00",
+  "status": "discovered",
+  "authenticity": "unchecked",
+  "rights": "credited_third_party",
+  "used_in": [],
+  "duplicate_of": null,
+  "seen_at": "2026-11-26T20:17:11+00:00",
+  "radar": {
+   "momentum": 0.0,
+   "topic_match": 0,
+   "originality": 8,
+   "french": 3,
+   "freshness": 10.0,
+   "short_enough": 10,
+   "priority": 3.5,
+   "topics": []
+  },
+  "origin": "original"
+ },
+ "clip_01M8CQJD5EPBVMME43DNYR2H73": {
+  "id": "clip_01M8CQJD5EPBVMME43DNYR2H73",
+  "source": "kick",
+  "creator": "teripsyche",
+  "channel_id": 5388821,
+  "livestream_id": "140424298",
+  "title": "Teri měla plán :( ale kasína pry v GTA6 nejsou",
+  "url": "https://kick.com/teripsyche/clips/clip_01M8CQJD5EPBVMME43DNYR2H73",
+  "media_url": "https://clips.kick.com/clips/d8/clip_01M8CQJD5EPBVMME43DNYR2H73/playlist.m3u8",
+  "thumbnail": "https://clips.kick.com/clips/d8/clip_01M8CQJD5EPBVMME43DNYR2H73/thumbnail.webp",
+  "views": 0,
+  "duration": 19,
+  "created_at": "2026-11-26T20:09:14.050294Z",
+  "vod_starts_at": 0,
+  "is_mature": true,
+  "discovered_at": "2026-11-26T20:15:58+00:00",
+  "status": "discovered",
+  "authenticity": "unchecked",
+  "rights": "credited_third_party",
+  "used_in": [],
+  "duplicate_of": null,
+  "seen_at": "2026-11-26T20:17:11+00:00",
+  "radar": {
+   "momentum": 0.0,
+   "topic_match": 0,
+   "originality": 8,
+   "french": 3,
+   "freshness": 10.0,
+   "short_enough": 10,
+   "priority": 3.5,
+   "topics": []
+  },
+  "origin": "original"
+ },
+ "clip_01M8CQJ9FAGJEJ9B38FKANRSBM": {
+  "id": "clip_01M8CQJ9FAGJEJ9B38FKANRSBM",
+  "source": "kick",
+  "creator": "elalexioh",
+  "channel_id": 4680570,
+  "livestream_id": "140307929",
+  "title": "lol",
+  "url": "https://kick.com/elalexioh/clips/clip_01M8CQJ9FAGJEJ9B38FKANRSBM",
+  "media_url": "https://clips.kick.com/clips/ee/clip_01M8CQJ9FAGJEJ9B38FKANRSBM/playlist.m3u8",
+  "thumbnail": "https://clips.kick.com/clips/ee/clip_01M8CQJ9FAGJEJ9B38FKANRSBM/thumbnail.webp",
+  "views": 1,
+  "duration": 180,
+  "created_at": "2026-11-26T20:08:34.75293Z",
+  "vod_starts_at": 0,
+  "is_mature": true,
+  "discovered_at": "2026-11-26T20:15:58+00:00",
+  "status": "discovered",
+  "authenticity": "unchecked",
+  "rights": "credited_third_party",
+  "used_in": [],
+  "duplicate_of": null,
+  "seen_at": "2026-11-26T20:17:11+00:00",
+  "radar": {
+   "momentum": 0.5,
+   "topic_match": 5,
+   "originality": 8,
+   "french": 3,
+   "freshness": 10.0,
+   "short_enough": 2,
+   "priority": 3.65,
+   "topics": [
+    "funny"
+   ]
+  },
+  "origin": "original",
+  "pillar": "VIRAL MOMENTS & CHAOS",
+  "pillar_method": "keyword"
+ },
+ "clip_01M8CQJ6BEJC8GK1AM6FE708P5": {
+  "id": "clip_01M8CQJ6BEJC8GK1AM6FE708P5",
+  "source": "kick",
+  "creator": "buxexa",
+  "channel_id": 750835,
+  "livestream_id": "138724717",
+  "title": "véio vai torar a véia",
+  "url": "https://kick.com/buxexa/clips/clip_01M8CQJ6BEJC8GK1AM6FE708P5",
+  "media_url": "https://clips.kick.com/clips/73/clip_01M8CQJ6BEJC8GK1AM6FE708P5/playlist.m3u8",
+  "thumbnail": "https://clips.kick.com/clips/73/clip_01M8CQJ6BEJC8GK1AM6FE708P5/thumbnail.webp",
+  "views": 0,
+  "duration": 57,
+  "created_at": "2026-11-26T20:08:36.187639Z",
+  "vod_starts_at": 0,
+  "is_mature": true,
+  "discovered_at": "2026-11-26T20:15:58+00:00",
+  "status": "discovered",
+  "authenticity": "unchecked",
+  "rights": "credited_third_party",
+  "used_in": [],
+  "duplicate_of": null,
+  "seen_at": "2026-11-26T20:17:11+00:00",
+  "radar": {
+   "momentum": 0.0,
+   "topic_match": 0,
+   "originality": 8,
+   "french": 3,
+   "freshness": 10.0,
+   "short_enough": 10,
+   "priority": 3.5,
+   "topics": []
+  },
+  "origin": "original"
+ },
+ "clip_01M8CQHT1EKHZV8A24D5P3NC12": {
+  "id": "clip_01M8CQHT1EKHZV8A24D5P3NC12",
+  "source": "kick",
+  "creator": "straka",
+  "channel_id": 30387738,
+  "livestream_id": "139631471",
+  "title": "no podes manejar asi",
+  "url": "https://kick.com/straka/clips/clip_01M8CQHT1EKHZV8A24D5P3NC12",
+  "media_url": "https://clips.kick.com/clips/36/clip_01M8CQHT1EKHZV8A24D5P3NC12/master.m3u8",
+  "thumbnail": "https://clips.kick.com/clips/36/clip_01M8CQHT1EKHZV8A24D5P3NC12/thumbnail.webp",
+  "views": 2,
+  "duration": 92,
+  "created_at": "2026-11-26T20:09:31.767832Z",
+  "vod_starts_at": 0,
+  "is_mature": true,
+  "discovered_at": "2026-11-26T20:15:58+00:00",
+  "status": "discovered",
+  "authenticity": "unchecked",
+  "rights": "credited_third_party",
+  "used_in": [],
+  "duplicate_of": null,
+  "seen_at": "2026-11-26T20:17:11+00:00",
+  "radar": {
+   "momentum": 0.9,
+   "topic_match": 0,
+   "originality": 8,
+   "french": 3,
+   "freshness": 10.0,
+   "short_enough": 2,
+   "priority": 3.06,
+   "topics": []
+  },
+  "origin": "original"
+ },
+ "clip_01M8CQHMQASMC3EVHG8EQKB5JT": {
+  "id": "clip_01M8CQHMQASMC3EVHG8EQKB5JT",
+  "source": "kick",
+  "creator": "gogger",
+  "channel_id": 7825056,
+  "livestream_id": "140405614",
+  "title": "pörgő forgás",
+  "url": "https://kick.com/gogger/clips/clip_01M8CQHMQASMC3EVHG8EQKB5JT",
+  "media_url": "https://clips.kick.com/clips/7d/clip_01M8CQHMQASMC3EVHG8EQKB5JT/playlist.m3u8",
+  "thumbnail": "https://clips.kick.com/clips/7d/clip_01M8CQHMQASMC3EVHG8EQKB5JT/thumbnail.webp",
+  "views": 0,
+  "duration": 17,
+  "created_at": "2026-11-26T20:08:38.792283Z",
+  "vod_starts_at": 0,
+  "is_mature": true,
+  "discovered_at": "2026-11-26T20:15:58+00:00",
+  "status": "discovered",
+  "authenticity": "unchecked",
+  "rights": "credited_third_party",
+  "used_in": [],
+  "duplicate_of": null,
+  "seen_at": "2026-11-26T20:17:11+00:00",
+  "radar": {
+   "momentum": 0.0,
+   "topic_match": 0,
+   "originality": 8,
+   "french": 3,
+   "freshness": 10.0,
+   "short_enough": 10,
+   "priority": 3.5,
+   "topics": []
+  },
+  "origin": "original"
+ },
+ "clip_01M8CQHGPB5R7HWT7RPNN03AGP": {
+  "id": "clip_01M8CQHGPB5R7HWT7RPNN03AGP",
+  "source": "kick",
+  "creator": "kasugard",
+  "channel_id": 117820410,
+  "livestream_id": "140076538",
+  "title": "GRACIAS CHICOS!",
+  "url": "https://kick.com/kasugard/clips/clip_01M8CQHGPB5R7HWT7RPNN03AGP",
+  "media_url": "https://clips.kick.com/clips/aa/clip_01M8CQHGPB5R7HWT7RPNN03AGP/playlist.m3u8",
+  "thumbnail": "https://clips.kick.com/clips/aa/clip_01M8CQHGPB5R7HWT7RPNN03AGP/thumbnail.webp",
+  "views": 3,
+  "duration": 49,
+  "created_at": "2026-11-26T20:09:07.959124Z",
+  "vod_starts_at": 0,
+  "is_mature": true,
+  "discovered_at": "2026-11-26T20:15:58+00:00",
+  "status": "discovered",
+  "authenticity": "unchecked",
+  "rights": "credited_third_party",
+  "used_in": [],
+  "duplicate_of": null,
+  "seen_at": "2026-11-26T20:17:11+00:00",
+  "radar": {
+   "momentum": 1.2,
+   "topic_match": 0,
+   "originality": 8,
+   "french": 3,
+   "freshness": 10.0,
+   "short_enough": 10,
+   "priority": 3.98,
+   "topics": []
+  },
+  "origin": "original"
+ },
+ "clip_01M8CQHESB5V6XRDMK7V12E7P7": {
+  "id": "clip_01M8CQHESB5V6XRDMK7V12E7P7",
+  "source": "kick",
+  "creator": "sercanzurna",
+  "channel_id": 8157159,
+  "livestream_id": "140421535",
+  "title": "PİYANİST GURME SAXOFONİST SERCAN | Clip",
+  "url": "https://kick.com/sercanzurna/clips/clip_01M8CQHESB5V6XRDMK7V12E7P7",
+  "media_url": "https://clips.kick.com/clips/d6/clip_01M8CQHESB5V6XRDMK7V12E7P7/playlist.m3u8",
+  "thumbnail": "https://clips.kick.com/clips/d6/clip_01M8CQHESB5V6XRDMK7V12E7P7/thumbnail.webp",
+  "views": 2,
+  "duration": 30,
+  "created_at": "2026-11-26T20:07:53.150878Z",
+  "vod_starts_at": 0,
+  "is_mature": true,
+  "discovered_at": "2026-11-26T20:15:58+00:00",
+  "status": "discovered",
+  "authenticity": "unchecked",
+  "rights": "credited_third_party",
+  "used_in": [],
+  "duplicate_of": null,
+  "seen_at": "2026-11-26T20:17:11+00:00",
+  "radar": {
+   "momentum": 0.9,
+   "topic_match": 0,
+   "originality": 8,
+   "french": 3,
+   "freshness": 10.0,
+   "short_enough": 10,
+   "priority": 3.86,
+   "topics": []
+  },
+  "origin": "original"
+ },
+ "clip_01M8CQHEGQ0F9CV0ZEBD1E02TV": {
+  "id": "clip_01M8CQHEGQ0F9CV0ZEBD1E02TV",
+  "source": "kick",
+  "creator": "1treylawson",
+  "channel_id": 82613359,
+  "livestream_id": "140372878",
+  "title": "blue face food ",
+  "url": "https://kick.com/1treylawson/clips/clip_01M8CQHEGQ0F9CV0ZEBD1E02TV",
+  "media_url": "https://clips.kick.com/clips/a1/clip_01M8CQHEGQ0F9CV0ZEBD1E02TV/master.m3u8",
+  "thumbnail": "https://clips.kick.com/clips/a1/clip_01M8CQHEGQ0F9CV0ZEBD1E02TV/thumbnail.webp",
+  "views": 0,
+  "duration": 69,
+  "created_at": "2026-11-26T20:11:06.821482Z",
+  "vod_starts_at": 0,
+  "is_mature": true,
+  "discovered_at": "2026-11-26T20:15:58+00:00",
+  "status": "discovered",
+  "authenticity": "unchecked",
+  "rights": "credited_third_party",
+  "used_in": [],
+  "duplicate_of": null,
+  "seen_at": "2026-11-26T20:17:11+00:00",
+  "radar": {
+   "momentum": 0.0,
+   "topic_match": 0,
+   "originality": 8,
+   "french": 3,
+   "freshness": 10.0,
+   "short_enough": 2,
+   "priority": 2.7,
+   "topics": []
+  },
+  "origin": "original"
+ },
+ "clip_01M8CQH65P06TSR7ZWHJW1G2D3": {
+  "id": "clip_01M8CQH65P06TSR7ZWHJW1G2D3",
+  "source": "kick",
+  "creator": "masttv",
+  "channel_id": 4145544,
+  "livestream_id": "140210902",
+  "title": "ay",
+  "url": "https://kick.com/masttv/clips/clip_01M8CQH65P06TSR7ZWHJW1G2D3",
+  "media_url": "https://clips.kick.com/clips/36/clip_01M8CQH65P06TSR7ZWHJW1G2D3/playlist.m3u8",
+  "thumbnail": "https://clips.kick.com/clips/36/clip_01M8CQH65P06TSR7ZWHJW1G2D3/thumbnail.webp",
+  "views": 2,
+  "duration": 82,
+  "created_at": "2026-11-26T20:08:53.253162Z",
+  "vod_starts_at": 0,
+  "is_mature": true,
+  "discovered_at": "2026-11-26T20:15:58+00:00",
+  "status": "discovered",
+  "authenticity": "unchecked",
+  "rights": "credited_third_party",
+  "used_in": [],
+  "duplicate_of": null,
+  "seen_at": "2026-11-26T20:17:11+00:00",
+  "radar": {
+   "momentum": 0.9,
+   "topic_match": 0,
+   "originality": 8,
+   "french": 3,
+   "freshness": 10.0,
+   "short_enough": 2,
+   "priority": 3.06,
+   "topics": []
+  },
+  "origin": "original"
+ },
+ "clip_01M8CQH34GKXRBM7YKV5N29K2X": {
+  "id": "clip_01M8CQH34GKXRBM7YKV5N29K2X",
+  "source": "kick",
+  "creator": "raoufbelkacemi",
+  "channel_id": 20834754,
+  "livestream_id": "140421605",
+  "title": "1",
+  "url": "https://kick.com/raoufbelkacemi/clips/clip_01M8CQH34GKXRBM7YKV5N29K2X",
+  "media_url": "https://clips.kick.com/clips/26/clip_01M8CQH34GKXRBM7YKV5N29K2X/playlist.m3u8",
+  "thumbnail": "https://clips.kick.com/clips/26/clip_01M8CQH34GKXRBM7YKV5N29K2X/thumbnail.webp",
+  "views": 0,
+  "duration": 180,
+  "created_at": "2026-11-26T20:07:49.455415Z",
+  "vod_starts_at": 0,
+  "is_mature": true,
+  "discovered_at": "2026-11-26T20:15:58+00:00",
+  "status": "discovered",
+  "authenticity": "unchecked",
+  "rights": "credited_third_party",
+  "used_in": [],
+  "duplicate_of": null,
+  "seen_at": "2026-11-26T20:17:11+00:00",
+  "radar": {
+   "momentum": 0.0,
+   "topic_match": 0,
+   "originality": 8,
+   "french": 3,
+   "freshness": 10.0,
+   "short_enough": 2,
+   "priority": 2.7,
+   "topics": []
+  },
+  "origin": "original"
+ },
+ "clip_01M8CQGYXPN0RKF1KT3QF4TKWY": {
+  "id": "clip_01M8CQGYXPN0RKF1KT3QF4TKWY",
+  "source": "kick",
+  "creator": "renatogarcia",
+  "channel_id": 124585652,
+  "livestream_id": "140438298",
+  "title": "LIVE GTA 6",
+  "url": "https://kick.com/renatogarcia/clips/clip_01M8CQGYXPN0RKF1KT3QF4TKWY",
+  "media_url": "https://clips.kick.com/clips/1d/clip_01M8CQGYXPN0RKF1KT3QF4TKWY/master.m3u8",
+  "thumbnail": "https://clips.kick.com/clips/1d/clip_01M8CQGYXPN0RKF1KT3QF4TKWY/thumbnail.webp",
+  "views": 0,
+  "duration": 79,
+  "created_at": "2026-11-26T20:09:54.340234Z",
+  "vod_starts_at": 0,
+  "is_mature": true,
+  "discovered_at": "2026-11-26T20:15:58+00:00",
+  "status": "discovered",
+  "authenticity": "unchecked",
+  "rights": "credited_third_party",
+  "used_in": [],
+  "duplicate_of": null,
+  "seen_at": "2026-11-26T20:17:11+00:00",
+  "radar": {
+   "momentum": 0.0,
+   "topic_match": 0,
+   "originality": 8,
+   "french": 3,
+   "freshness": 10.0,
+   "short_enough": 2,
+   "priority": 2.7,
+   "topics": []
+  },
+  "origin": "original"
+ },
+ "clip_01M8CR2HVNQC1VEZX8FPRNTS86": {
+  "id": "clip_01M8CR2HVNQC1VEZX8FPRNTS86",
+  "source": "kick",
+  "creator": "1treylawson",
+  "channel_id": 82613359,
+  "livestream_id": "140372878",
+  "title": "clip",
+  "url": "https://kick.com/1treylawson/clips/clip_01M8CR2HVNQC1VEZX8FPRNTS86",
+  "media_url": "https://clips.kick.com/clips/b2/clip_01M8CR2HVNQC1VEZX8FPRNTS86/master.m3u8",
+  "thumbnail": "https://clips.kick.com/clips/b2/clip_01M8CR2HVNQC1VEZX8FPRNTS86/thumbnail.webp",
+  "views": 0,
+  "duration": 180,
+  "created_at": "2026-11-26T20:17:16.51871Z",
+  "vod_starts_at": 0,
+  "is_mature": true,
+  "discovered_at": "2026-11-26T20:17:14+00:00",
+  "status": "discovered",
+  "authenticity": "unchecked",
+  "rights": "credited_third_party",
+  "used_in": [],
+  "duplicate_of": null,
+  "seen_at": "2026-11-26T20:17:11+00:00",
+  "radar": {
+   "momentum": 0.0,
+   "topic_match": 0,
+   "originality": 8,
+   "french": 3,
+   "freshness": 10.0,
+   "short_enough": 2,
+   "priority": 2.7,
+   "topics": []
+  },
+  "origin": "original"
+ },
+ "clip_01M8CR1APY9CTMFHP9G416DTBR": {
+  "id": "clip_01M8CR1APY9CTMFHP9G416DTBR",
+  "source": "kick",
+  "creator": "serifas",
+  "channel_id": 36569203,
+  "livestream_id": "140414072",
+  "title": "100% BANDOM PASIEKTI GTA6! | Clip",
+  "url": "https://kick.com/serifas/clips/clip_01M8CR1APY9CTMFHP9G416DTBR",
+  "media_url": "https://clips.kick.com/clips/7d/clip_01M8CR1APY9CTMFHP9G416DTBR/playlist.m3u8",
+  "thumbnail": "https://clips.kick.com/clips/7d/clip_01M8CR1APY9CTMFHP9G416DTBR/thumbnail.webp",
+  "views": 2,
+  "duration": 30,
+  "created_at": "2026-11-26T20:16:33.172204Z",
+  "vod_starts_at": 0,
+  "is_mature": true,
+  "discovered_at": "2026-11-26T20:17:14+00:00",
+  "status": "discovered",
+  "authenticity": "unchecked",
+  "rights": "credited_third_party",
+  "used_in": [],
+  "duplicate_of": null,
+  "seen_at": "2026-11-26T20:17:11+00:00",
+  "radar": {
+   "momentum": 0.9,
+   "topic_match": 0,
+   "originality": 8,
+   "french": 3,
+   "freshness": 10.0,
+   "short_enough": 10,
+   "priority": 3.86,
+   "topics": []
+  },
+  "origin": "original"
+ },
+ "clip_01M8CR0NY6NZ2CF75DK1QYG620": {
+  "id": "clip_01M8CR0NY6NZ2CF75DK1QYG620",
+  "source": "kick",
+  "creator": "renatogarcia",
+  "channel_id": 124585652,
+  "livestream_id": "140438298",
+  "title": "kkkkkkkk",
+  "url": "https://kick.com/renatogarcia/clips/clip_01M8CR0NY6NZ2CF75DK1QYG620",
+  "media_url": "https://clips.kick.com/clips/bc/clip_01M8CR0NY6NZ2CF75DK1QYG620/master.m3u8",
+  "thumbnail": "https://clips.kick.com/clips/bc/clip_01M8CR0NY6NZ2CF75DK1QYG620/thumbnail.webp",
+  "views": 0,
+  "duration": 42,
+  "created_at": "2026-11-26T20:16:40.290929Z",
+  "vod_starts_at": 0,
+  "is_mature": true,
+  "discovered_at": "2026-11-26T20:17:14+00:00",
+  "status": "discovered",
+  "authenticity": "unchecked",
+  "rights": "credited_third_party",
+  "used_in": [],
+  "duplicate_of": null,
+  "seen_at": "2026-11-26T20:17:11+00:00",
+  "radar": {
+   "momentum": 0.0,
+   "topic_match": 5,
+   "originality": 8,
+   "french": 3,
+   "freshness": 10.0,
+   "short_enough": 10,
+   "priority": 4.25,
+   "topics": [
+    "funny"
+   ]
+  },
+  "origin": "original",
+  "pillar": "VIRAL MOMENTS & CHAOS",
+  "pillar_method": "keyword"
+ },
+ "clip_01M8CR0GNN4Z3WNDHDHPZZ5AN6": {
+  "id": "clip_01M8CR0GNN4Z3WNDHDHPZZ5AN6",
+  "source": "kick",
+  "creator": "zerek",
+  "channel_id": 6393375,
+  "livestream_id": "140399264",
+  "title": "BUSCANDO EASTER EGGS , MISIONES S | Clip",
+  "url": "https://kick.com/zerek/clips/clip_01M8CR0GNN4Z3WNDHDHPZZ5AN6",
+  "media_url": "https://clips.kick.com/clips/de/clip_01M8CR0GNN4Z3WNDHDHPZZ5AN6/master.m3u8",
+  "thumbnail": "https://clips.kick.com/clips/de/clip_01M8CR0GNN4Z3WNDHDHPZZ5AN6/thumbnail.webp",
+  "views": 1,
+  "duration": 30,
+  "created_at": "2026-11-26T20:16:06.523924Z",
+  "vod_starts_at": 0,
+  "is_mature": true,
+  "discovered_at": "2026-11-26T20:17:14+00:00",
+  "status": "discovered",
+  "authenticity": "unchecked",
+  "rights": "credited_third_party",
+  "used_in": [],
+  "duplicate_of": null,
+  "seen_at": "2026-11-26T20:17:11+00:00",
+  "radar": {
+   "momentum": 0.5,
+   "topic_match": 5,
+   "originality": 8,
+   "french": 3,
+   "freshness": 10.0,
+   "short_enough": 10,
+   "priority": 4.45,
+   "topics": [
+    "map_secrets"
+   ]
+  },
+  "origin": "original",
+  "pillar": "MAP & SECRET DISCOVERIES",
+  "pillar_method": "keyword"
+ },
+ "clip_01M8CR0ET2XJJWHKZW4EKD6WHE": {
+  "id": "clip_01M8CR0ET2XJJWHKZW4EKD6WHE",
+  "source": "kick",
+  "creator": "mericb",
+  "channel_id": 26552759,
+  "livestream_id": "140409975",
+  "title": "Only Hikaye Çok Geride Kaldık GTA | Clip",
+  "url": "https://kick.com/mericb/clips/clip_01M8CR0ET2XJJWHKZW4EKD6WHE",
+  "media_url": "https://clips.kick.com/clips/44/clip_01M8CR0ET2XJJWHKZW4EKD6WHE/playlist.m3u8",
+  "thumbnail": "https://clips.kick.com/clips/44/clip_01M8CR0ET2XJJWHKZW4EKD6WHE/thumbnail.webp",
+  "views": 0,
+  "duration": 30,
+  "created_at": "2026-11-26T20:16:04.769668Z",
+  "vod_starts_at": 0,
+  "is_mature": true,
+  "discovered_at": "2026-11-26T20:17:14+00:00",
+  "status": "discovered",
+  "authenticity": "unchecked",
+  "rights": "credited_third_party",
+  "used_in": [],
+  "duplicate_of": null,
+  "seen_at": "2026-11-26T20:17:11+00:00",
+  "radar": {
+   "momentum": 0.0,
+   "topic_match": 0,
+   "originality": 8,
+   "french": 3,
+   "freshness": 10.0,
+   "short_enough": 10,
+   "priority": 3.5,
+   "topics": []
+  },
+  "origin": "original"
+ },
+ "clip_01M8CQZW59MD35BXA87GY1QPRF": {
+  "id": "clip_01M8CQZW59MD35BXA87GY1QPRF",
+  "source": "kick",
+  "creator": "lacobraaa",
+  "channel_id": 30376205,
+  "livestream_id": "140215168",
+  "title": "Jsjsjsjsj",
+  "url": "https://kick.com/lacobraaa/clips/clip_01M8CQZW59MD35BXA87GY1QPRF",
+  "media_url": "https://clips.kick.com/clips/47/clip_01M8CQZW59MD35BXA87GY1QPRF/master.m3u8",
+  "thumbnail": "https://clips.kick.com/clips/47/clip_01M8CQZW59MD35BXA87GY1QPRF/thumbnail.webp",
+  "views": 1,
+  "duration": 55,
+  "created_at": "2026-11-26T20:16:01.658324Z",
+  "vod_starts_at": 0,
+  "is_mature": true,
+  "discovered_at": "2026-11-26T20:17:14+00:00",
+  "status": "discovered",
+  "authenticity": "unchecked",
+  "rights": "credited_third_party",
+  "used_in": [],
+  "duplicate_of": null,
+  "seen_at": "2026-11-26T20:17:11+00:00",
+  "radar": {
+   "momentum": 0.5,
+   "topic_match": 0,
+   "originality": 8,
+   "french": 3,
+   "freshness": 10.0,
+   "short_enough": 10,
+   "priority": 3.7,
+   "topics": []
+  },
+  "origin": "original"
+ },
+ "clip_01M8CQZFK0JHXKD2G4NBMQ49GW": {
+  "id": "clip_01M8CQZFK0JHXKD2G4NBMQ49GW",
+  "source": "kick",
+  "creator": "kasugard",
+  "channel_id": 117820410,
+  "livestream_id": "140076538",
+  "title": "Y QUE LLUVIA ES ESTA?",
+  "url": "https://kick.com/kasugard/clips/clip_01M8CQZFK0JHXKD2G4NBMQ49GW",
+  "media_url": "https://clips.kick.com/clips/37/clip_01M8CQZFK0JHXKD2G4NBMQ49GW/playlist.m3u8",
+  "thumbnail": "https://clips.kick.com/clips/37/clip_01M8CQZFK0JHXKD2G4NBMQ49GW/thumbnail.webp",
+  "views": 3,
+  "duration": 28,
+  "created_at": "2026-11-26T20:16:14.375819Z",
+  "vod_starts_at": 0,
+  "is_mature": true,
+  "discovered_at": "2026-11-26T20:17:14+00:00",
+  "status": "discovered",
+  "authenticity": "unchecked",
+  "rights": "credited_third_party",
+  "used_in": [],
+  "duplicate_of": null,
+  "seen_at": "2026-11-26T20:17:11+00:00",
+  "radar": {
+   "momentum": 1.2,
+   "topic_match": 0,
+   "originality": 8,
+   "french": 3,
+   "freshness": 10.0,
+   "short_enough": 10,
+   "priority": 3.98,
+   "topics": []
+  },
+  "origin": "original"
+ },
+ "clip_01M8CQZC0SKHDR2Q68CXEQYGTA": {
+  "id": "clip_01M8CQZC0SKHDR2Q68CXEQYGTA",
+  "source": "kick",
+  "creator": "teddybrioni",
+  "channel_id": 28608789,
+  "livestream_id": "140410477",
+  "title": "Test",
+  "url": "https://kick.com/teddybrioni/clips/clip_01M8CQZC0SKHDR2Q68CXEQYGTA",
+  "media_url": "https://clips.kick.com/clips/19/clip_01M8CQZC0SKHDR2Q68CXEQYGTA/playlist.m3u8",
+  "thumbnail": "https://clips.kick.com/clips/19/clip_01M8CQZC0SKHDR2Q68CXEQYGTA/thumbnail.webp",
+  "views": 1,
+  "duration": 30,
+  "created_at": "2026-11-26T20:16:13.750336Z",
+  "vod_starts_at": 0,
+  "is_mature": true,
+  "discovered_at": "2026-11-26T20:17:14+00:00",
+  "status": "discovered",
+  "authenticity": "unchecked",
+  "rights": "credited_third_party",
+  "used_in": [],
+  "duplicate_of": null,
+  "seen_at": "2026-11-26T20:17:11+00:00",
+  "radar": {
+   "momentum": 0.5,
+   "topic_match": 0,
+   "originality": 8,
+   "french": 3,
+   "freshness": 10.0,
+   "short_enough": 10,
+   "priority": 3.7,
+   "topics": []
+  },
+  "origin": "original"
+ },
+ "clip_01M8CQYHCM3N8FB5V96T2FREEF": {
+  "id": "clip_01M8CQYHCM3N8FB5V96T2FREEF",
+  "source": "kick",
+  "creator": "sandetti",
+  "channel_id": 61992150,
+  "livestream_id": "139652239",
+  "title": "muelto",
+  "url": "https://kick.com/sandetti/clips/clip_01M8CQYHCM3N8FB5V96T2FREEF",
+  "media_url": "https://clips.kick.com/clips/3e/clip_01M8CQYHCM3N8FB5V96T2FREEF/playlist.m3u8",
+  "thumbnail": "https://clips.kick.com/clips/3e/clip_01M8CQYHCM3N8FB5V96T2FREEF/thumbnail.webp",
+  "views": 0,
+  "duration": 49,
+  "created_at": "2026-11-26T20:17:08.294734Z",
+  "vod_starts_at": 0,
+  "is_mature": true,
+  "discovered_at": "2026-11-26T20:17:14+00:00",
+  "status": "discovered",
+  "authenticity": "unchecked",
+  "rights": "credited_third_party",
+  "used_in": [],
+  "duplicate_of": null,
+  "seen_at": "2026-11-26T20:17:11+00:00",
+  "radar": {
+   "momentum": 0.0,
+   "topic_match": 0,
+   "originality": 8,
+   "french": 3,
+   "freshness": 10.0,
+   "short_enough": 10,
+   "priority": 3.5,
+   "topics": []
+  },
+  "origin": "original"
+ },
+ "clip_01M8CQY42TF49ECQEAY760PKJP": {
+  "id": "clip_01M8CQY42TF49ECQEAY760PKJP",
+  "source": "kick",
+  "creator": "bistecone",
+  "channel_id": 75797498,
+  "livestream_id": "140184155",
+  "title": "live",
+  "url": "https://kick.com/bistecone/clips/clip_01M8CQY42TF49ECQEAY760PKJP",
+  "media_url": "https://clips.kick.com/clips/85/clip_01M8CQY42TF49ECQEAY760PKJP/master.m3u8",
+  "thumbnail": "https://clips.kick.com/clips/85/clip_01M8CQY42TF49ECQEAY760PKJP/thumbnail.webp",
+  "views": 1,
+  "duration": 77,
+  "created_at": "2026-11-26T20:16:24.180474Z",
+  "vod_starts_at": 0,
+  "is_mature": true,
+  "discovered_at": "2026-11-26T20:17:14+00:00",
+  "status": "discovered",
+  "authenticity": "unchecked",
+  "rights": "credited_third_party",
+  "used_in": [],
+  "duplicate_of": null,
+  "seen_at": "2026-11-26T20:17:11+00:00",
+  "radar": {
+   "momentum": 0.5,
+   "topic_match": 0,
+   "originality": 8,
+   "french": 3,
+   "freshness": 10.0,
+   "short_enough": 2,
+   "priority": 2.9,
+   "topics": []
+  },
+  "origin": "original"
  }
 }

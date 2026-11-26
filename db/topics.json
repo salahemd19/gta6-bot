@@ -1,0 +1,84 @@
+{
+ "map_secrets": {
+  "pillar": "MAP & SECRET DISCOVERIES",
+  "last_24h": 1,
+  "previous_24h": 0,
+  "news_24h": 30,
+  "examples": [
+   {
+    "title": "BUSCANDO EASTER EGGS , MISIONES S | Clip",
+    "url": "https://kick.com/zerek/clips/clip_01M8CR0GNN4Z3WNDHDHPZZ5AN6"
+   }
+  ],
+  "trend": 2.0
+ },
+ "races": {
+  "pillar": "RACING & VEHICLES",
+  "last_24h": 0,
+  "previous_24h": 0,
+  "news_24h": 2,
+  "examples": [],
+  "trend": 1.0
+ },
+ "vehicles": {
+  "pillar": "RACING & VEHICLES",
+  "last_24h": 0,
+  "previous_24h": 0,
+  "news_24h": 9,
+  "examples": [],
+  "trend": 1.0
+ },
+ "challenges": {
+  "pillar": "CHALLENGES & EXPERIMENTS",
+  "last_24h": 0,
+  "previous_24h": 0,
+  "news_24h": 3,
+  "examples": [],
+  "trend": 1.0
+ },
+ "funny": {
+  "pillar": "VIRAL MOMENTS & CHAOS",
+  "last_24h": 3,
+  "previous_24h": 4,
+  "news_24h": 0,
+  "examples": [
+   {
+    "title": "FULL FANATICO AJAJAJA!",
+    "url": "https://kick.com/kasugard/clips/clip_01M8CQR1MZCQKHDYEV30YH17VY"
+   },
+   {
+    "title": "lol",
+    "url": "https://kick.com/elalexioh/clips/clip_01M8CQJ9FAGJEJ9B38FKANRSBM"
+   },
+   {
+    "title": "kkkkkkkk",
+    "url": "https://kick.com/renatogarcia/clips/clip_01M8CR0NY6NZ2CF75DK1QYG620"
+   }
+  ],
+  "trend": 0.8
+ },
+ "reactions": {
+  "pillar": "VIRAL MOMENTS & CHAOS",
+  "last_24h": 0,
+  "previous_24h": 0,
+  "news_24h": 2,
+  "examples": [],
+  "trend": 1.0
+ },
+ "unusual": {
+  "pillar": "LEONIDA LIFE & DETAILS",
+  "last_24h": 0,
+  "previous_24h": 0,
+  "news_24h": 3,
+  "examples": [],
+  "trend": 1.0
+ },
+ "money_tips": {
+  "pillar": "CHEATS, TIPS & MONEY",
+  "last_24h": 0,
+  "previous_24h": 0,
+  "news_24h": 5,
+  "examples": [],
+  "trend": 1.0
+ }
+}
