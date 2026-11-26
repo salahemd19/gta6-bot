@@ -47,7 +47,7 @@
  },
  "funny": {
   "pillar": "VIRAL MOMENTS & CHAOS",
-  "last_24h": 9,
+  "last_24h": 13,
   "previous_24h": 5,
   "news_24h": 1,
   "examples": [
@@ -72,7 +72,7 @@
     "url": "https://kick.com/envywill/clips/clip_01M8CVZHD9AYS358PKYW60YJ6H"
    }
   ],
-  "trend": 1.67
+  "trend": 2.33
  },
  "reactions": {
   "pillar": "VIRAL MOMENTS & CHAOS",
@@ -97,15 +97,19 @@
  },
  "money_tips": {
   "pillar": "CHEATS, TIPS & MONEY",
-  "last_24h": 1,
+  "last_24h": 2,
   "previous_24h": 0,
   "news_24h": 6,
   "examples": [
    {
     "title": "chegando no heist",
     "url": "https://kick.com/beico-1/clips/clip_01M8CVZEEYX6NQWA1N7GZ89482"
+   },
+   {
+    "title": "Heist escape police chase",
+    "url": "https://kick.com/ybnnahmir/clips/clip_01M8CVZHCK9TK6TGZ7PQF6J0XH"
    }
   ],
-  "trend": 2.0
+  "trend": 3.0
  }
 }
