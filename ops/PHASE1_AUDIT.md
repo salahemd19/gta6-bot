@@ -66,3 +66,7 @@
 2. **Owned gameplay:** capture GTA 6 ourselves (the owner doesn't own the game today).
 3. **Licensed footage:** partnerships or paid licences.
 4. **Keep posting third-party clips** with credit and takedown on request. This contradicts the new directive, so it needs the owner's explicit decision.
+
+## 8. Owner decision (26 Nov 2026)
+
+The owner chose option 4: third-party clips are published **without asking creators' permission**, always with on-screen creator credit, and taken down within 24 h on request. Rights status `credited_third_party` is publishable; `refused` (a creator asked for removal) never is. Authenticity rules are unchanged (real GTA 6 only, no invented facts).

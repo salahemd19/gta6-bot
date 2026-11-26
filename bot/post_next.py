@@ -20,7 +20,9 @@ import yt
 MANIFEST = Path("queue/manifest.json")
 CAPS = {"youtube": 8, "tiktok": 12}  # daily targets (rolling 24 h); quality and rights come first
 # Rights gate: only these statuses may ever be published. Anything else (unverified, unresolved, refused) stays queued.
-PUBLISHABLE_RIGHTS = {"owned", "licensed", "permission_granted"}
+# Owner decision (26 Nov 2026): third-party clips are published without asking permission, always with on-screen
+# creator credit, and removed within 24 h if the creator asks ("credited_third_party"). "refused" is never published.
+PUBLISHABLE_RIGHTS = {"owned", "licensed", "permission_granted", "credited_third_party"}
 # Platforms the cloud may post to (repo variable CLOUD_PLATFORMS, e.g. "youtube,tiktok"), switched on once the
 # YouTube audit / TikTok app review pass. Until then the laptop task posts the approved clips.
 ENABLED = {p.strip() for p in os.environ.get("CLOUD_PLATFORMS", "").split(",") if p.strip()}
