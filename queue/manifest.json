@@ -329,5 +329,21 @@
   "youtube": "awaiting approval",
   "tiktok": "awaiting approval",
   "issue": 6
+ },
+ {
+  "id": "top5-semaine-20261126",
+  "type": "top5",
+  "source": "kick viewer clips",
+  "streamer": "tarboun,elanur,dasgasd3m,gustavocsgo,xqc",
+  "title": "LE TOP 5 GTA 6 DE LA SEMAINE 🔥 le numéro 1 est complètement fou",
+  "kick_clips": [
+   "GSCA2B",
+   "6XXY9K",
+   "G8ZKJE",
+   "S4XG4H",
+   "2TB022"
+  ],
+  "youtube": "scheduled 2026-11-26T16:30+00:00 (YouTube Studio)",
+  "tiktok": "scheduled 2026-11-26T16:30+00:00 (TikTok Studio, sound Tokyo Drift phonk -20 dB)"
  }
 ]
