@@ -227,5 +227,50 @@
   "slot": "2026-11-26T07:43:14+00:00",
   "youtube": "hold: waiting for YouTube API audit",
   "tiktok": "hold: waiting for TikTok app approval"
+ },
+ {
+  "id": "20261126-1009-eaglegaming-clip01",
+  "streamer": "eaglegaming",
+  "created": "2026-11-26T10:09:01+00:00",
+  "video_url": "https://github.com/salahemd19/gta6-bot/releases/download/clips/20261126-1009-eaglegaming-clip01.mp4",
+  "title": "ATTENDS LA FIN 😱 eaglegaming sur GTA 6",
+  "youtube_description": "Clip du live de eaglegaming sur Kick.\n\n#GTA6 #GTAVI #Shorts",
+  "tiktok_caption": "ATTENDS LA FIN 😱 eaglegaming sur GTA 6 #GTA6 #GTAVI #eaglegaming #Kick #pourtoi #fyp",
+  "youtube_privacy": "public",
+  "score": 1.599,
+  "motion": 12.4,
+  "slot": "2026-11-26T10:09:01+00:00",
+  "youtube": "hold: waiting for YouTube API audit",
+  "tiktok": "hold: waiting for TikTok app approval"
+ },
+ {
+  "id": "20261126-1009-eaglegaming-clip02",
+  "streamer": "eaglegaming",
+  "created": "2026-11-26T10:09:01+00:00",
+  "video_url": "https://github.com/salahemd19/gta6-bot/releases/download/clips/20261126-1009-eaglegaming-clip02.mp4",
+  "title": "REGARDE BIEN ÇA 😱 eaglegaming sur GTA 6",
+  "youtube_description": "Clip du live de eaglegaming sur Kick.\n\n#GTA6 #GTAVI #Shorts",
+  "tiktok_caption": "REGARDE BIEN ÇA 😱 eaglegaming sur GTA 6 #GTA6 #GTAVI #eaglegaming #Kick #pourtoi #fyp",
+  "youtube_privacy": "public",
+  "score": 1.46,
+  "motion": 20.5,
+  "slot": "2026-11-26T10:09:01+00:00",
+  "youtube": "hold: waiting for YouTube API audit",
+  "tiktok": "hold: waiting for TikTok app approval"
+ },
+ {
+  "id": "20261126-1009-razzgo-clip02",
+  "streamer": "razzgo",
+  "created": "2026-11-26T10:09:01+00:00",
+  "video_url": "https://github.com/salahemd19/gta6-bot/releases/download/clips/20261126-1009-razzgo-clip02.mp4",
+  "title": "REGARDE BIEN ÇA 😱 razzgo sur GTA 6",
+  "youtube_description": "Clip du live de razzgo sur Kick.\n\n#GTA6 #GTAVI #Shorts",
+  "tiktok_caption": "REGARDE BIEN ÇA 😱 razzgo sur GTA 6 #GTA6 #GTAVI #razzgo #Kick #pourtoi #fyp",
+  "youtube_privacy": "public",
+  "score": 1.74,
+  "motion": 16.3,
+  "slot": "2026-11-26T10:09:01+00:00",
+  "youtube": "hold: waiting for YouTube API audit",
+  "tiktok": "hold: waiting for TikTok app approval"
  }
 ]
