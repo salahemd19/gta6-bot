@@ -95,7 +95,17 @@ TRACKS = [
      "platforms": {"youtube": "NOT_APPROVED", "tiktok": "IN_APP_ONLY", "reels": "PENDING"},
      "monetization": "Not cleared outside TikTok", "attribution": "Shown automatically by TikTok",
      "conditions": "Never embed in the uploaded video file", "best_start": 0, "volume_db": -20},
+    {"id": "tt-metamorphosis-interworld", "title": "METAMORPHOSIS", "artist": "INTERWORLD", "genre": "phonk",
+     "mood": "dark, aggressive", "energy": "high", "bpm": None, "duration": 60,
+     "categories": ["chaos", "racing", "epic", "transitions"], "best_moments": "action top 5s, shootouts, chases",
+     "source": "TikTok in-app sound library (TikTok Studio editor, 26 Nov 2026)",
+     "licence_evidence": "Offered in TikTok's sound picker for this account",
+     "platforms": {"youtube": "NOT_APPROVED", "tiktok": "IN_APP_ONLY", "reels": "PENDING"},
+     "monetization": "Not cleared outside TikTok", "attribution": "Shown automatically by TikTok",
+     "conditions": "Never embed in the uploaded video file", "best_start": 11, "volume_db": -20,
+     "notes": "Best part = the drop at ~0:11 of TikTok's 60 s excerpt: trim the intro in the editor and slide the clip to 0:00"},
 ]
+
 
 if __name__ == "__main__":
     out = Path(__file__).with_name("library.json")
