@@ -638,7 +638,7 @@
   "vod_starts_at": 0,
   "is_mature": true,
   "discovered_at": "2026-11-26T19:01:21+00:00",
-  "status": "produced",
+  "status": "rejected_review",
   "authenticity": "unchecked",
   "rights": "credited_third_party",
   "used_in": [
@@ -667,7 +667,8 @@
    "originality": null,
    "total": 6.68
   },
-  "analysed_at": "2026-11-26T19:04:52+00:00"
+  "analysed_at": "2026-11-26T19:04:52+00:00",
+  "review_reason": "owner rejected engine-20261126-1925-1"
  },
  "clip_01M88B22F9J1ZX62FHA8YVY9SV": {
   "id": "clip_01M88B22F9J1ZX62FHA8YVY9SV",
@@ -742,7 +743,7 @@
   "vod_starts_at": 0,
   "is_mature": true,
   "discovered_at": "2026-11-26T19:01:21+00:00",
-  "status": "produced",
+  "status": "rejected_review",
   "authenticity": "unchecked",
   "rights": "credited_third_party",
   "used_in": [
@@ -771,7 +772,8 @@
    "originality": null,
    "total": 7.08
   },
-  "analysed_at": "2026-11-26T19:05:27+00:00"
+  "analysed_at": "2026-11-26T19:05:27+00:00",
+  "review_reason": "owner rejected engine-20261126-1925-1"
  },
  "clip_01M882V4HXK16ZF31FP6Z0MHHJ": {
   "id": "clip_01M882V4HXK16ZF31FP6Z0MHHJ",
@@ -3563,7 +3565,7 @@
   "vod_starts_at": 0,
   "is_mature": true,
   "discovered_at": "2026-11-26T19:23:32+00:00",
-  "status": "produced",
+  "status": "posted",
   "authenticity": "unchecked",
   "rights": "credited_third_party",
   "used_in": [
@@ -3592,6 +3594,7 @@
    "originality": null,
    "total": 6.69
   },
-  "analysed_at": "2026-11-26T19:25:21+00:00"
+  "analysed_at": "2026-11-26T19:25:21+00:00",
+  "review_reason": "owner rejected engine-20261126-1925-1"
  }
 }

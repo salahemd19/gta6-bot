@@ -496,8 +496,9 @@
   "rights": "credited_third_party",
   "authenticity": "needs_review",
   "slot": "2026-11-26T19:26:24+00:00",
-  "youtube": "awaiting approval",
-  "tiktok": "awaiting approval",
-  "issue": 7
+  "youtube": "rejected by owner",
+  "tiktok": "rejected by owner",
+  "issue": 7,
+  "feedback_applied": "rejected"
  }
 ]

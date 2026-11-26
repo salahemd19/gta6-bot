@@ -209,6 +209,15 @@ def analyse(db, limit):
 
 
 # ---------------------------------------------------------------- select + produce + package
+def mark_used(db):
+    """Clips already published outside the engine (db/used_scenes.json) must never be picked again."""
+    f = ROOT / "db" / "used_scenes.json"
+    used = set(json.loads(f.read_text(encoding="utf-8"))) if f.exists() else set()
+    for r in db.values():
+        if r["id"][-6:] in used and r["status"] != "posted":
+            r["status"], r["used_in"] = "posted", r["used_in"] or ["posted-before-engine"]
+
+
 def select(db, k=3):
     pool = sorted((r for r in db.values() if r["status"] == "analysed" and not r["used_in"]),
                   key=lambda r: -r["scores"]["total"])
@@ -358,6 +367,7 @@ def main():
     save_db(db)
     items = json.loads(MANIFEST.read_text(encoding="utf-8")) if MANIFEST.exists() else []
     feedback(db, items)
+    mark_used(db)
     for n in range(a.videos):
         vid_id = f"engine-{now().strftime('%Y%m%d-%H%M')}-{n + 1}"
         res = produce(db, items, vid_id)
