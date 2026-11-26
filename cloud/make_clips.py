@@ -14,6 +14,8 @@ from pathlib import Path
 
 HERE = Path(__file__).resolve().parent
 sys.path.insert(0, str(HERE))
+sys.path.insert(0, str(HERE.parent / "bot"))
+import approvals
 import chat_signal
 import kick_api as k
 
@@ -69,6 +71,7 @@ def main():
     with ThreadPoolExecutor(max_workers=len(chosen) or 1) as ex:
         ok = list(ex.map(capture, chosen))
 
+    approvals.ensure_labels()
     sh("gh", "release", "create", "clips", "--repo", REPO, "--title", "Clips", "--notes", "Clips referenced by the manifest")
     stamp = now.strftime("%Y%m%d-%H%M")
     added = 0
@@ -111,7 +114,11 @@ def main():
                 "title": title[:95], "youtube_description": f"Clip du live de {slug} sur Kick.\n\n#GTA6 #GTAVI #Shorts",
                 "tiktok_caption": caption, "youtube_privacy": "public", "score": c["score"], "motion": round(m, 1),
                 "slot": now.isoformat(timespec="seconds"),
-                "youtube": "hold: waiting for YouTube API audit", "tiktok": "hold: waiting for TikTok app approval"})
+                "youtube": "awaiting approval", "tiktok": "awaiting approval"})
+            try:
+                items[-1]["issue"] = approvals.open_issue(items[-1])
+            except Exception as e:  # noqa: BLE001
+                print("issue not created:", e)
             added += 1
     MANIFEST.write_text(json.dumps(items, indent=1, ensure_ascii=False), encoding="utf-8")
     print("clips added:", added)

@@ -13,11 +13,43 @@ from pathlib import Path
 import requests
 
 sys.path.insert(0, str(Path(__file__).parent))
+import approvals
 import tiktok
 import yt
 
 MANIFEST = Path("queue/manifest.json")
 CAPS = {"youtube": 8, "tiktok": 8}
+# Platforms the cloud may post to (repo variable CLOUD_PLATFORMS, e.g. "youtube,tiktok"), switched on once the
+# YouTube audit / TikTok app review pass. Until then the laptop task posts the approved clips.
+ENABLED = {p.strip() for p in os.environ.get("CLOUD_PLATFORMS", "").split(",") if p.strip()}
+# Hot windows, Paris time: posts only go out when the French audience is online.
+HOT = [((7, 30), (8, 30)), ((12, 15), (13, 45)), ((17, 30), (23, 0))]
+
+
+def hot_now():
+    from zoneinfo import ZoneInfo
+    t = dt.datetime.now(ZoneInfo("Europe/Paris"))
+    m = t.hour * 60 + t.minute
+    return any(a[0] * 60 + a[1] <= m < b[0] * 60 + b[1] for a, b in HOT)
+
+
+def sync_approvals(items):
+    """Apply the owner's decisions from GitHub Issues: approved -> pending (postable), rejected -> rejected."""
+    try:
+        dec = approvals.decisions()
+    except Exception as e:  # noqa: BLE001
+        print("::warning::approvals unavailable:", e)
+        return False
+    changed = False
+    for it in items:
+        d = dec.get(it.get("issue"))
+        for p in ("youtube", "tiktok"):
+            if str(it.get(p, "")).startswith("awaiting approval") and d:
+                it[p] = "pending" if d == "approved" else "rejected by owner"
+                changed = True
+        if d == "approved" and it.get("slot", "") > now().isoformat():
+            it["slot"] = now().isoformat(timespec="seconds")
+    return changed
 
 
 def now():
@@ -57,8 +89,12 @@ def fetch(it, tmp):
 def main():
     items = json.loads(MANIFEST.read_text(encoding="utf-8"))
     ts = now().isoformat(timespec="minutes")
-    changed = False
+    changed = sync_approvals(items)
+    if not hot_now():
+        print("outside the hot windows; nothing posted")
     for platform in ("youtube", "tiktok"):
+        if platform not in ENABLED or not hot_now():
+            continue
         if posted_last_24h(items, platform) >= CAPS[platform]:
             print(platform, "cap reached; skipping")
             continue
@@ -80,6 +116,8 @@ def main():
                     if new_refresh and new_refresh != os.environ.get("TIKTOK_REFRESH_TOKEN"):
                         print("::warning::TikTok rotated the refresh token; update the TIKTOK_REFRESH_TOKEN secret")
                 print("posted", it["id"], "to", platform)
+                if it.get("issue"):
+                    approvals.mark_posted(it["issue"], [it.get("youtube_url", "")] if platform == "youtube" else ["TikTok"])
             except Exception as e:  # noqa: BLE001 - one bad post must not stop the other platform
                 tries = it.get(platform + "_tries", 0) + 1
                 it[platform + "_tries"] = tries
