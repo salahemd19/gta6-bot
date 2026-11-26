@@ -20,12 +20,13 @@ import chat_signal
 import kick_api as k
 
 REPO = os.environ.get("GITHUB_REPOSITORY", "salahemd19/gta6-bot")
-STREAMS = int(os.environ.get("STREAMS", "4"))
+STREAMS = int(os.environ.get("STREAMS", "8"))
 SECONDS = int(os.environ.get("CAPTURE", "600"))
 PER_STREAM = int(os.environ.get("PER_STREAM", "3"))
 BAD = re.compile(r"\b(fuck|shit|nigg\w*|bitch|cunt|faggot|rape|putain|merde|encul\w*|connard\w*|salope\w*|fdp|nazi\w*|viol\w*|suicid\w*)\b", re.I)
 MANIFEST = Path("queue/manifest.json")
 WORK = Path("work")
+FONTS = HERE / "fonts"
 
 
 def sh(*cmd, **kw):
@@ -75,51 +76,37 @@ def main():
     sh("gh", "release", "create", "clips", "--repo", REPO, "--title", "Clips", "--notes", "Clips referenced by the manifest")
     stamp = now.strftime("%Y%m%d-%H%M")
     added = 0
-    for s, good in zip(chosen, ok):
-        if not good:
-            continue
-        slug = s["slug"]
-        d = (WORK / slug).resolve()
-        lang = (s.get("language") or "en")[:2].lower()
-        r = subprocess.run([sys.executable, str(HERE / "clipper.py"), str(d / "capture.mp4"), "--count", str(PER_STREAM),
-                            "--len", "30", "--out", str(d / "clips"), "--lang", lang, "--chat", str(d / "chat.json")],
-                           cwd=HERE)
-        meta = d / "clips" / "clips.json"
-        if r.returncode or not meta.exists():
-            print(slug, "clipping failed")
-            continue
-        used = []  # unique scenes: never two clips sharing any footage
-        for c in sorted(json.loads(meta.read_text(encoding="utf-8")), key=lambda x: -x["score"]):
-            if any(c["start"] < e and c["end"] > s0 for s0, e in used):
-                print(slug, c["file"], "rejected (overlaps another clip)")
-                continue
-            used.append((c["start"], c["end"]))
-            f = d / "clips" / c["file"]
-            m = motion(f)
-            if m < 11.0 or BAD.search(c["transcript"]):
-                print(slug, c["file"], f"rejected (motion {m:.1f} or language)")
-                continue
-            name = f"{stamp}-{slug}-{c['file']}"
-            asset = f.with_name(name)
-            f.rename(asset)
-            up = sh("gh", "release", "upload", "clips", str(asset), "--repo", REPO, "--clobber")
-            if up.returncode:
-                print("upload failed:", up.stderr[-200:])
-                continue
-            title = f"{c['hook']} 😱 {slug} sur GTA 6"
-            caption = f"{title} #GTA6 #GTAVI #{slug.replace('_', '')} #Kick #pourtoi #fyp"
+    import montage
+    streams = [{"slug": s["slug"], "video": str((WORK / s["slug"] / "capture.mp4").resolve()),
+                "chat": str((WORK / s["slug"] / "chat.json").resolve())} for s, good in zip(chosen, ok) if good]
+    n_done = sum(1 for i in items if str(i.get("id", "")).startswith("top5-"))
+    title = montage.TITLES[n_done % len(montage.TITLES)]
+    name = f"top5-{stamp}.mp4"
+    out, used = montage.build(streams, (WORK / name).resolve(), (WORK / "montage").resolve(), str(FONTS), title)
+    if out:
+        up = sh("gh", "release", "upload", "clips", str(out), "--repo", REPO, "--clobber")
+        if up.returncode:
+            print("upload failed:", up.stderr[-200:])
+        else:
+            creators = sorted({m["slug"] for m in used})
+            day = now.strftime("%d/%m")
+            ttl = f"{title}{'' if 'GTA 6' in title else ' SUR GTA 6'} 🔥 ({day})"
+            credits = " ".join(f"@{c}" for c in creators)
             items.append({
-                "id": name[:-4], "streamer": slug, "created": now.isoformat(timespec="seconds"),
+                "id": name[:-4], "type": "top5", "streamer": ",".join(creators), "created": now.isoformat(timespec="seconds"),
                 "video_url": f"https://github.com/{REPO}/releases/download/clips/{name}",
-                "title": title[:95], "youtube_description": f"Clip du live de {slug} sur Kick.\n\n#GTA6 #GTAVI #Shorts",
-                "tiktok_caption": caption, "youtube_privacy": "public", "score": c["score"], "motion": round(m, 1),
+                "title": ttl[:95],
+                "youtube_description": "Les moments les plus fous vus en live sur GTA 6. Créateurs : " + ", ".join(creators) + " (Kick).\n\n#GTA6 #GTAVI #Shorts",
+                "tiktok_caption": f"{ttl} 🎥 {credits} (Kick) #GTA6 #GTA6FR #GTAVI #pourtoi #fyp",
+                "youtube_privacy": "public", "score": round(sum(m["score"] for m in used) / len(used), 3),
+                "moments": [{k: m[k] for k in ("slug", "start", "motion", "score", "rank")} for m in used],
                 "slot": now.isoformat(timespec="seconds"),
                 "youtube": "awaiting approval", "tiktok": "awaiting approval"})
             try:
                 items[-1]["issue"] = approvals.open_issue(items[-1])
             except Exception as e:  # noqa: BLE001
                 print("issue not created:", e)
-            added += 1
+            added = 1
     MANIFEST.write_text(json.dumps(items, indent=1, ensure_ascii=False), encoding="utf-8")
     print("clips added:", added)
 
