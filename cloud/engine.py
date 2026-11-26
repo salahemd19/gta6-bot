@@ -180,7 +180,7 @@ def score(rec):
 
 
 def analyse(db, limit):
-    todo = sorted((r for r in db.values() if r["status"] == "discovered" and r["duration"] <= 65),
+    todo = sorted((r for r in db.values() if r["status"] == "discovered" and r.get("media_url") and r["duration"] <= 65),
                   key=lambda r: -(r.get("radar") or {}).get("priority", 0))[:limit]  # radar's best leads first
     hashes = {r["id"]: r["dhash"] for r in db.values() if r.get("dhash")}
     (WORK / "src").mkdir(parents=True, exist_ok=True)
