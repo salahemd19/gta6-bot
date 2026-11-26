@@ -500,5 +500,105 @@
   "tiktok": "rejected by owner",
   "issue": 7,
   "feedback_applied": "rejected"
+ },
+ {
+  "id": "engine-20261126-2205-1",
+  "type": "top3",
+  "created": "2026-11-26T22:06:29+00:00",
+  "video_url": "https://github.com/salahemd19/gta6-bot/releases/download/clips/engine-20261126-2205-1.mp4",
+  "sheet_url": "https://github.com/salahemd19/gta6-bot/releases/download/clips/engine-20261126-2205-1_sheet.jpg",
+  "title": "3 MOMENTS IRRÉELS VUS EN LIVE SUR GTA 6 🤯 le numéro 1 est irréel",
+  "youtube_description": "Les moments les plus fous vus en live sur GTA 6 🤯 Ton préféré ? Dis-le en commentaire 👇\n🎥 Créateurs (Kick) : luukkzz, iceposeidon, sizophren\nAbonne-toi pour un top GTA 6 chaque jour 🔔\n\n#GTA6 #GTAVI #GTA6FR #ViceCity #gta #Shorts",
+  "tiktok_caption": "3 MOMENTS IRRÉELS VUS EN LIVE SUR GTA 6 🤯 le numéro 1 est irréel 😱 Ton préféré ? Dis-le en commentaire 👇 🎥 luukkzz, iceposeidon, sizophren (Kick) #GTA6 #GTA6FR #GTAVI #gta #pourtoi #fyp",
+  "tags": "GTA 6, GTA VI, GTA 6 FR, top 3 GTA 6, GTA 6 moments fous, GTA 6 gameplay, Vice City",
+  "music": {
+   "youtube": [
+    "Monster Freak Party - Bare Bones Mtl",
+    "Mirror Mirror - Anno Domini Beats",
+    "Survival Mode - Blue Deer Studio"
+   ],
+   "tiktok": [
+    "Tokyo Drift - PHONKAZO",
+    "METAMORPHOSIS - INTERWORLD"
+   ]
+  },
+  "sources": [
+   {
+    "creator": "sizophren",
+    "url": "https://kick.com/sizophren/clips/clip_01M8CW0FFE7590NY5T4JVPPXC0",
+    "start": 9.0,
+    "score": 8.03
+   },
+   {
+    "creator": "luukkzz",
+    "url": "https://kick.com/luukkzz/clips/clip_01M8CQT73NPN5WFK8VZ4GK4PK5",
+    "start": 14.0,
+    "score": 6.78
+   },
+   {
+    "creator": "iceposeidon",
+    "url": "https://kick.com/iceposeidon/clips/clip_01M88FVSTNJDGZKKKEBJJGSRY2",
+    "start": 5.75,
+    "score": 6.58
+   }
+  ],
+  "streamer": "sizophren,luukkzz,iceposeidon",
+  "score": 7.13,
+  "rights": "credited_third_party",
+  "authenticity": "needs_review",
+  "slot": "2026-11-26T22:06:29+00:00",
+  "youtube": "awaiting approval",
+  "tiktok": "awaiting approval",
+  "issue": 8
+ },
+ {
+  "id": "engine-20261126-2206-2",
+  "type": "top3",
+  "created": "2026-11-26T22:07:38+00:00",
+  "video_url": "https://github.com/salahemd19/gta6-bot/releases/download/clips/engine-20261126-2206-2.mp4",
+  "sheet_url": "https://github.com/salahemd19/gta6-bot/releases/download/clips/engine-20261126-2206-2_sheet.jpg",
+  "title": "LE TOP 3 GTA 6 DU JOUR 🤯 le numéro 1 est irréel",
+  "youtube_description": "Les moments les plus fous vus en live sur GTA 6 🤯 Ton préféré ? Dis-le en commentaire 👇\n🎥 Créateurs (Kick) : arjungamingislive, bistecone, xmerghani\nAbonne-toi pour un top GTA 6 chaque jour 🔔\n\n#GTA6 #GTAVI #GTA6FR #ViceCity #gta #Shorts",
+  "tiktok_caption": "LE TOP 3 GTA 6 DU JOUR 🤯 le numéro 1 est irréel 😱 Ton préféré ? Dis-le en commentaire 👇 🎥 arjungamingislive, bistecone, xmerghani (Kick) #GTA6 #GTA6FR #GTAVI #gta #pourtoi #fyp",
+  "tags": "GTA 6, GTA VI, GTA 6 FR, top 3 GTA 6, GTA 6 moments fous, GTA 6 gameplay, Vice City",
+  "music": {
+   "youtube": [
+    "Monster Freak Party - Bare Bones Mtl",
+    "Mirror Mirror - Anno Domini Beats",
+    "Survival Mode - Blue Deer Studio"
+   ],
+   "tiktok": [
+    "Tokyo Drift - PHONKAZO",
+    "METAMORPHOSIS - INTERWORLD"
+   ]
+  },
+  "sources": [
+   {
+    "creator": "xmerghani",
+    "url": "https://kick.com/xmerghani/clips/clip_01M7RJ5P94B9N6R0VSVZVCC5CG",
+    "start": 20.5,
+    "score": 6.56
+   },
+   {
+    "creator": "arjungamingislive",
+    "url": "https://kick.com/arjungamingislive/clips/clip_01M8CQSHWEMQHGEHP6F17804K0",
+    "start": 19.0,
+    "score": 6.56
+   },
+   {
+    "creator": "bistecone",
+    "url": "https://kick.com/bistecone/clips/clip_01M7RKQS682GPKZFG0RARSWE9W",
+    "start": 12.25,
+    "score": 6.54
+   }
+  ],
+  "streamer": "xmerghani,arjungamingislive,bistecone",
+  "score": 6.55,
+  "rights": "credited_third_party",
+  "authenticity": "needs_review",
+  "slot": "2026-11-26T22:07:38+00:00",
+  "youtube": "awaiting approval",
+  "tiktok": "awaiting approval",
+  "issue": 9
  }
 ]
