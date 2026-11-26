@@ -600,5 +600,105 @@
   "youtube": "awaiting approval",
   "tiktok": "awaiting approval",
   "issue": 9
+ },
+ {
+  "id": "engine-20261126-2224-1",
+  "type": "top3",
+  "created": "2026-11-26T22:25:30+00:00",
+  "video_url": "https://github.com/salahemd19/gta6-bot/releases/download/clips/engine-20261126-2224-1.mp4",
+  "sheet_url": "https://github.com/salahemd19/gta6-bot/releases/download/clips/engine-20261126-2224-1_sheet.jpg",
+  "title": "ILS ONT FAIT ÇA SUR GTA 6 (TOP 3) 🤯 le numéro 1 est irréel",
+  "youtube_description": "Les moments les plus fous vus en live sur GTA 6 🤯 Ton préféré ? Dis-le en commentaire 👇\n🎥 Créateurs (Kick) : kasugard, pluzin, sercanzurna\nAbonne-toi pour un top GTA 6 chaque jour 🔔\n\n#GTA6 #GTAVI #GTA6FR #ViceCity #gta #Shorts",
+  "tiktok_caption": "ILS ONT FAIT ÇA SUR GTA 6 (TOP 3) 🤯 le numéro 1 est irréel 😱 Ton préféré ? Dis-le en commentaire 👇 🎥 kasugard, pluzin, sercanzurna (Kick) #GTA6 #GTA6FR #GTAVI #gta #pourtoi #fyp",
+  "tags": "GTA 6, GTA VI, GTA 6 FR, top 3 GTA 6, GTA 6 moments fous, GTA 6 gameplay, Vice City",
+  "music": {
+   "youtube": [
+    "Monster Freak Party - Bare Bones Mtl",
+    "Mirror Mirror - Anno Domini Beats",
+    "Survival Mode - Blue Deer Studio"
+   ],
+   "tiktok": [
+    "Tokyo Drift - PHONKAZO",
+    "METAMORPHOSIS - INTERWORLD"
+   ]
+  },
+  "sources": [
+   {
+    "creator": "sercanzurna",
+    "url": "https://kick.com/sercanzurna/clips/clip_01M8CQHESB5V6XRDMK7V12E7P7",
+    "start": 17.25,
+    "score": 7.79
+   },
+   {
+    "creator": "kasugard",
+    "url": "https://kick.com/kasugard/clips/clip_01M8CQZFK0JHXKD2G4NBMQ49GW",
+    "start": 11.25,
+    "score": 7.79
+   },
+   {
+    "creator": "pluzin",
+    "url": "https://kick.com/pluzin/clips/clip_01M8CVTDCD9GZ3KHMFMW5GA3ZG",
+    "start": 12.25,
+    "score": 7.48
+   }
+  ],
+  "streamer": "sercanzurna,kasugard,pluzin",
+  "score": 7.69,
+  "rights": "credited_third_party",
+  "authenticity": "needs_review",
+  "slot": "2026-11-26T22:25:30+00:00",
+  "youtube": "awaiting approval",
+  "tiktok": "awaiting approval",
+  "issue": 10
+ },
+ {
+  "id": "engine-20261126-2225-2",
+  "type": "top3",
+  "created": "2026-11-26T22:26:19+00:00",
+  "video_url": "https://github.com/salahemd19/gta6-bot/releases/download/clips/engine-20261126-2225-2.mp4",
+  "sheet_url": "https://github.com/salahemd19/gta6-bot/releases/download/clips/engine-20261126-2225-2_sheet.jpg",
+  "title": "TOP 3 MOMENTS LES PLUS FOUS SUR GTA 6 🤯 le numéro 1 est irréel",
+  "youtube_description": "Les moments les plus fous vus en live sur GTA 6 🤯 Ton préféré ? Dis-le en commentaire 👇\n🎥 Créateurs (Kick) : pedrofederer, kasugard, sizophren\nAbonne-toi pour un top GTA 6 chaque jour 🔔\n\n#GTA6 #GTAVI #GTA6FR #ViceCity #gta #Shorts",
+  "tiktok_caption": "TOP 3 MOMENTS LES PLUS FOUS SUR GTA 6 🤯 le numéro 1 est irréel 😱 Ton préféré ? Dis-le en commentaire 👇 🎥 pedrofederer, kasugard, sizophren (Kick) #GTA6 #GTA6FR #GTAVI #gta #pourtoi #fyp",
+  "tags": "GTA 6, GTA VI, GTA 6 FR, top 3 GTA 6, GTA 6 moments fous, GTA 6 gameplay, Vice City",
+  "music": {
+   "youtube": [
+    "Monster Freak Party - Bare Bones Mtl",
+    "Mirror Mirror - Anno Domini Beats",
+    "Survival Mode - Blue Deer Studio"
+   ],
+   "tiktok": [
+    "Tokyo Drift - PHONKAZO",
+    "METAMORPHOSIS - INTERWORLD"
+   ]
+  },
+  "sources": [
+   {
+    "creator": "sizophren",
+    "url": "https://kick.com/sizophren/clips/clip_01M8CW0T7Z8NX3YRKPW09JNTTA",
+    "start": 3.75,
+    "score": 7.37
+   },
+   {
+    "creator": "pedrofederer",
+    "url": "https://kick.com/pedrofederer/clips/clip_01M8CVWCX9TNEK87FCYTQAA0E6",
+    "start": 23.5,
+    "score": 7.33
+   },
+   {
+    "creator": "kasugard",
+    "url": "https://kick.com/kasugard/clips/clip_01M8CQSMGXGK94EW8M0RYGH18Z",
+    "start": 9.5,
+    "score": 7.1
+   }
+  ],
+  "streamer": "sizophren,pedrofederer,kasugard",
+  "score": 7.27,
+  "rights": "credited_third_party",
+  "authenticity": "needs_review",
+  "slot": "2026-11-26T22:26:19+00:00",
+  "youtube": "awaiting approval",
+  "tiktok": "awaiting approval",
+  "issue": 11
  }
 ]
