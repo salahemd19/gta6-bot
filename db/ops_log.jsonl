@@ -5,3 +5,5 @@
 {"at": "2026-11-26T23:11:12+00:00", "job": "analytics_report", "result": "ok", "detail": "youtube: 49 videos, 0 with 24 h; tiktok: 5 videos, 0 with 24 h"}
 {"at": "2026-11-26T23:24:40+00:00", "job": "approvals", "result": "ok", "detail": "skipped: no GitHub token here"}
 {"at": "2026-11-26T23:24:40+00:00", "job": "calendar", "result": "ok", "detail": "youtube 0/6 today | tiktok 0/8 today"}
+{"at": "2026-11-26T23:25:19+00:00", "job": "approvals", "result": "ok", "detail": "owner decisions applied"}
+{"at": "2026-11-26T23:25:19+00:00", "job": "calendar", "result": "ok", "detail": "youtube 0/6 today | tiktok 0/8 today"}

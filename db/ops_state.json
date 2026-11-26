@@ -2,8 +2,8 @@
  "jobs": {
   "approvals": {
    "failures": 0,
-   "last_ok": "2026-11-26T23:24:40+00:00",
-   "result": "skipped: no GitHub token here",
+   "last_ok": "2026-11-26T23:25:19+00:00",
+   "result": "owner decisions applied",
    "error": null
   },
   "produce": {
@@ -14,7 +14,7 @@
   },
   "calendar": {
    "failures": 0,
-   "last_ok": "2026-11-26T23:24:40+00:00",
+   "last_ok": "2026-11-26T23:25:19+00:00",
    "result": "youtube 0/6 today | tiktok 0/8 today",
    "error": null
   },
@@ -35,7 +35,7 @@
   "radar.yml": {
    "name": "Discovery radar",
    "health": "ok",
-   "age_h": 0.8,
+   "age_h": 0.9,
    "url": "https://github.com/salahemd19/gta6-bot/actions/runs/45905576536"
   },
   "engine.yml": {
@@ -47,7 +47,7 @@
   "backup.yml": {
    "name": "Database backup",
    "health": "ok",
-   "age_h": 2.0,
+   "age_h": 0.0,
    "url": "https://github.com/salahemd19/gta6-bot/actions/runs/45898021116"
   },
   "post.yml": {
