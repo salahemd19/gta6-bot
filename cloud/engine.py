@@ -25,6 +25,7 @@ ROOT = HERE.parent
 sys.path.insert(0, str(HERE))
 sys.path.insert(0, str(ROOT / "bot"))
 sys.path.insert(0, str(ROOT / "music"))
+import contentdb  # noqa: E402
 import montage  # noqa: E402
 from clipper import visual  # noqa: E402
 
@@ -56,8 +57,8 @@ def load_db():
 
 
 def save_db(db):
-    DB.parent.mkdir(exist_ok=True)
-    DB.write_text(json.dumps(db, indent=1, ensure_ascii=False), encoding="utf-8")
+    contentdb.sync(db)  # data model, lifecycle stage and history
+    contentdb.save(db)
 
 
 def now():

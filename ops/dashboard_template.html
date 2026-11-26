@@ -18,7 +18,7 @@ td.n{font-variant-numeric:tabular-nums;text-align:right;white-space:nowrap}
 <h2>Topics, last 24 h: creator content (and news)</h2><div class="chips" id="top"></div>
 <h2>Discoveries</h2>
 <div class="bar"><button id="tabD" class="on">Content</button><button id="tabC">Creators</button>
-<input id="q" placeholder="Search title or creator"><select id="type"></select><select id="source"></select><select id="topic"></select></div>
+<input id="q" placeholder="Search title or creator"><select id="type"></select><select id="source"></select><select id="topic"></select><select id="stage"></select><select id="state"></select><input id="min" type="number" min="0" max="10" step="0.5" placeholder="Min video score"></div>
 <div class="mut" id="count"></div><div class="wrap"><table id="t"></table></div>
 <script type="application/json" id="d">__DATA__</script>
 <script>
@@ -30,19 +30,21 @@ for(const[k,v]of Object.entries(D.topics).sort((a,b)=>b[1].last_24h-a[1].last_24
 function opts(id,label,vals){const s=$(id);s.append(new Option(label,''));[...new Set(vals)].filter(Boolean).sort().forEach(v=>s.append(new Option(v,v)))}
 opts('type','All types',D.rows.map(r=>r[0]));opts('source','All sources',D.rows.map(r=>r[1]));opts('topic','All topics',Object.keys(D.topics));
 const RX={map_secrets:'MAP',races:'RACING',vehicles:'RACING',challenges:'CHALLENGES',funny:'VIRAL',reactions:'VIRAL',unusual:'LEONIDA',money_tips:'CHEATS'};
+opts('stage','All stages',D.rows.map(r=>r[8]));opts('state','All states',D.rows.map(r=>r[12]));
 let tab='D';
 function row(cells,h){const tr=el('tr');cells.forEach(c=>{const td=el(h?'th':'td');if(c instanceof Node)td.append(c);else{td.textContent=c;if(typeof c==='number')td.className='n'}tr.append(td)});return tr}
 function link(u,t){if(!/^https:\/\//.test(u||''))return el('span',t);const a=el('a',t);a.href=u;a.target='_blank';a.rel='noopener';return a}
 function draw(){const q=$('q').value.toLowerCase(),t=$('t');t.textContent='';
  $('tabD').className=tab==='D'?'on':'';$('tabC').className=tab==='C'?'on':'';
- for(const i of['type','source','topic'])$(i).hidden=tab==='C';
+ for(const i of['type','source','topic','stage','state','min'])$(i).hidden=tab==='C';
  if(tab==='C'){const L=D.creators.filter(c=>(c.name||'').toLowerCase().includes(q));t.append(row(['Creator','Platform','Origin','Lang','Clips','Clip views','Peak viewers','Best score','Used'],1));
   L.slice(0,300).forEach(c=>t.append(row([c.name||'',c.platform||'',c.origin||'',c.language||'',c.clips||0,c.clip_views||0,c.peak_viewers||0,c.best_score||0,c.used||0])));$('count').textContent=L.length+' creators';return}
  const ty=$('type').value,so=$('source').value,tp=$('topic').value;
- const L=D.rows.filter(r=>(!ty||r[0]===ty)&&(!so||r[1]===so)&&(!tp||String(r[7]).includes(tp)||String(r[7]).startsWith(RX[tp]))&&(!q||(r[2]+' '+r[3]).toLowerCase().includes(q)));
- t.append(row(['Priority','Type','Source','Creator','Title','Views','Pillar / topics','Status'],1));
- L.slice(0,250).forEach(r=>t.append(row([r[5],r[0],r[1],r[2],link(r[4],r[3]||'(untitled)'),r[6],r[7],r[8]])));
+ const st=$('stage').value,sa=$('state').value,mn=+$('min').value;
+ const L=D.rows.filter(r=>(!st||r[8]===st)&&(!sa||r[12]===sa)&&(!mn||(r[11]||0)>=mn)&&(!ty||r[0]===ty)&&(!so||r[1]===so)&&(!tp||String(r[7]).includes(tp)||String(r[7]).startsWith(RX[tp]))&&(!q||(r[2]+' '+r[3]).toLowerCase().includes(q)));
+ t.append(row(['Priority','Type','Source','Creator','Title','Views','Pillar / topics','Stage','State','Score'],1));
+ L.slice(0,250).forEach(r=>t.append(row([r[5],r[0],r[1],r[2],link(r[4],r[3]||'(untitled)'),r[6],r[7],r[8]||'',r[12]||'',r[11]||''])));
  $('count').textContent=L.length+' results'+(L.length>250?' (first 250 shown)':'')}
-['q','type','source','topic'].forEach(i=>$(i).addEventListener('input',draw));
+['q','type','source','topic','stage','state','min'].forEach(i=>$(i).addEventListener('input',draw));
 $('tabD').onclick=()=>{tab='D';draw()};$('tabC').onclick=()=>{tab='C';draw()};draw();
 </script>

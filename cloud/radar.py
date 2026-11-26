@@ -24,6 +24,7 @@ import requests
 HERE = Path(__file__).resolve().parent
 ROOT = HERE.parent
 sys.path.insert(0, str(HERE))
+import contentdb  # noqa: E402
 import engine  # noqa: E402
 import kick_api  # noqa: E402
 
@@ -392,7 +393,7 @@ def dashboard(clips, creators, items, topics, runs):
     for r in clips.values():
         rows.append([r.get("type", "clip"), r["source"], r["creator"], r.get("title", ""), r.get("url"),
                      (r.get("radar") or {}).get("priority", 0), r.get("views", 0), r.get("pillar", ""),
-                     r.get("status", ""), r.get("origin", ""), r.get("created_at", "")])
+                     r.get("stage", ""), r.get("origin", ""), r.get("created_at", ""), (r.get("scores") or {}).get("total", 0), r.get("state", "")])
     for r in items.values():
         pr = min(10, round(2 * r.get("chat_spike_ratio", 0) + r.get("hype_messages", 0) / 5, 2)) if r["type"] == "live_moment" else 0
         rows.append([r["type"], r["source"], r["creator"], r.get("title", ""), r.get("url"), pr,
@@ -422,6 +423,7 @@ def main():
         STATUS[k] = {"state": "unavailable", "detail": why, "new": 0}
     engine.mark_used(clips)
     prioritise(clips)
+    contentdb.sync(clips)
     prune(items)
     build_creators(creators, clips, items)
     topics = build_topics(clips, items)

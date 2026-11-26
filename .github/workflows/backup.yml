@@ -1,0 +1,29 @@
+name: backup
+# Daily checksummed copy of the database, queue and config, kept as release assets (last 30). Git history is the
+# second copy. Each run restores its own archive to prove it can be read back.
+on:
+  schedule:
+    - cron: "15 3 * * *"
+  workflow_dispatch: {}
+permissions:
+  contents: write
+jobs:
+  backup:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: python -m unittest -q tests/test_contentdb.py
+      - run: python cloud/contentdb.py validate
+      - name: Back up, verify, upload, prune
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          f=$(python cloud/contentdb.py backup)
+          python cloud/contentdb.py restore "$f" --into "$RUNNER_TEMP/restore-check"
+          gh release view backups >/dev/null 2>&1 || gh release create backups --title Backups --notes "Daily database backups" --latest=false
+          gh release upload backups "$f" --clobber
+          gh release view backups --json assets -q '.assets[].name' | sort -r | tail -n +31 | while read -r old; do gh release delete-asset backups "$old" -y; done
