@@ -9,7 +9,7 @@
   "url": "https://kick.com/robertovstheworld/clips/clip_01M88NCD91TN0YCN9XWGXAP920",
   "media_url": "https://clips.kick.com/clips/3f/clip_01M88NCD91TN0YCN9XWGXAP920/master.m3u8",
   "thumbnail": "https://clips.kick.com/clips/3f/clip_01M88NCD91TN0YCN9XWGXAP920/thumbnail.webp",
-  "views": 4401,
+  "views": 4407,
   "duration": 180,
   "created_at": "2026-11-25T06:14:56.700341Z",
   "vod_starts_at": 0,
@@ -20,7 +20,7 @@
   "rights": "credited_third_party",
   "used_in": [],
   "duplicate_of": null,
-  "seen_at": "2026-11-26T20:17:11+00:00",
+  "seen_at": "2026-11-26T20:18:33+00:00",
   "radar": {
    "momentum": 8.3,
    "topic_match": 0,
@@ -43,7 +43,7 @@
   "url": "https://kick.com/xmerghani/clips/clip_01M89JSCHXPXSGNP3NGVYKY1YT",
   "media_url": "https://clips.kick.com/clips/89/clip_01M89JSCHXPXSGNP3NGVYKY1YT/playlist.m3u8",
   "thumbnail": "https://clips.kick.com/clips/89/clip_01M89JSCHXPXSGNP3NGVYKY1YT/thumbnail.webp",
-  "views": 3976,
+  "views": 3981,
   "duration": 11,
   "created_at": "2026-11-25T14:47:58.954929Z",
   "vod_starts_at": 0,
@@ -67,7 +67,7 @@
   "pillar_method": "keyword",
   "reject_reason": "motion 4.4, still 0.0, letterbox 0.0",
   "analysed_at": "2026-11-26T19:01:37+00:00",
-  "seen_at": "2026-11-26T20:17:11+00:00",
+  "seen_at": "2026-11-26T20:18:33+00:00",
   "radar": {
    "momentum": 8.5,
    "topic_match": 0,
@@ -90,7 +90,7 @@
   "url": "https://kick.com/asmongold/clips/clip_01M8AJRM2XDAMY4Z8WG535CBKY",
   "media_url": "https://clips.kick.com/clips/9a/clip_01M8AJRM2XDAMY4Z8WG535CBKY/master.m3u8",
   "thumbnail": "https://clips.kick.com/clips/9a/clip_01M8AJRM2XDAMY4Z8WG535CBKY/thumbnail.webp",
-  "views": 2442,
+  "views": 2444,
   "duration": 60,
   "created_at": "2026-11-26T00:06:29.702639Z",
   "vod_starts_at": 0,
@@ -114,7 +114,7 @@
   "pillar_method": "default",
   "reject_reason": "motion 9.5, still 0.65, letterbox 0.0",
   "analysed_at": "2026-11-26T19:02:17+00:00",
-  "seen_at": "2026-11-26T20:17:11+00:00",
+  "seen_at": "2026-11-26T20:18:33+00:00",
   "radar": {
    "momentum": 8.3,
    "topic_match": 0,
@@ -137,7 +137,7 @@
   "url": "https://kick.com/xmerghani/clips/clip_01M89JQASBAKKV41JNXZQP5MC4",
   "media_url": "https://clips.kick.com/clips/87/clip_01M89JQASBAKKV41JNXZQP5MC4/playlist.m3u8",
   "thumbnail": "https://clips.kick.com/clips/87/clip_01M89JQASBAKKV41JNXZQP5MC4/thumbnail.webp",
-  "views": 1669,
+  "views": 1673,
   "duration": 20,
   "created_at": "2026-11-25T14:46:13.666157Z",
   "vod_starts_at": 0,
@@ -161,7 +161,7 @@
   "pillar_method": "default",
   "reject_reason": "motion 7.0, still 0.0, letterbox 0.0",
   "analysed_at": "2026-11-26T19:02:28+00:00",
-  "seen_at": "2026-11-26T20:17:11+00:00",
+  "seen_at": "2026-11-26T20:18:33+00:00",
   "radar": {
    "momentum": 7.0,
    "topic_match": 0,
@@ -184,7 +184,7 @@
   "url": "https://kick.com/robertovstheworld/clips/clip_01M88P37Z2HZ47RKQT5B1MNXA5",
   "media_url": "https://clips.kick.com/clips/f6/clip_01M88P37Z2HZ47RKQT5B1MNXA5/master.m3u8",
   "thumbnail": "https://clips.kick.com/clips/f6/clip_01M88P37Z2HZ47RKQT5B1MNXA5/thumbnail.webp",
-  "views": 1419,
+  "views": 1420,
   "duration": 142,
   "created_at": "2026-11-25T06:27:30.867217Z",
   "vod_starts_at": 0,
@@ -195,7 +195,7 @@
   "rights": "credited_third_party",
   "used_in": [],
   "duplicate_of": null,
-  "seen_at": "2026-11-26T20:17:11+00:00",
+  "seen_at": "2026-11-26T20:18:33+00:00",
   "radar": {
    "momentum": 6.3,
    "topic_match": 0,
@@ -242,15 +242,15 @@
   "pillar_method": "default",
   "reject_reason": "motion 10.3, still 0.34, letterbox 0.0",
   "analysed_at": "2026-11-26T19:02:48+00:00",
-  "seen_at": "2026-11-26T20:17:11+00:00",
+  "seen_at": "2026-11-26T20:18:33+00:00",
   "radar": {
    "momentum": 10,
    "topic_match": 0,
    "originality": 8,
    "french": 3,
-   "freshness": 9.5,
+   "freshness": 9.4,
    "short_enough": 10,
-   "priority": 7.45,
+   "priority": 7.44,
    "topics": []
   },
   "origin": "original"
@@ -299,7 +299,7 @@
    "total": 4.66
   },
   "analysed_at": "2026-11-26T19:02:58+00:00",
-  "seen_at": "2026-11-26T20:17:11+00:00",
+  "seen_at": "2026-11-26T20:18:33+00:00",
   "radar": {
    "momentum": 5.7,
    "topic_match": 0,
@@ -346,7 +346,7 @@
   "pillar_method": "default",
   "reject_reason": "motion 10.4, still 0.02, letterbox 0.0",
   "analysed_at": "2026-11-26T19:03:22+00:00",
-  "seen_at": "2026-11-26T20:17:11+00:00",
+  "seen_at": "2026-11-26T20:18:33+00:00",
   "radar": {
    "momentum": 5.1,
    "topic_match": 0,
@@ -380,7 +380,7 @@
   "rights": "credited_third_party",
   "used_in": [],
   "duplicate_of": null,
-  "seen_at": "2026-11-26T20:17:11+00:00",
+  "seen_at": "2026-11-26T20:18:33+00:00",
   "radar": {
    "momentum": 6.1,
    "topic_match": 0,
@@ -414,7 +414,7 @@
   "rights": "credited_third_party",
   "used_in": [],
   "duplicate_of": null,
-  "seen_at": "2026-11-26T20:17:11+00:00",
+  "seen_at": "2026-11-26T20:18:33+00:00",
   "radar": {
    "momentum": 5.1,
    "topic_match": 0,
@@ -437,7 +437,7 @@
   "url": "https://kick.com/theozip/clips/clip_01M8ASQ4TPK9QZCPM0PMA4G8J1",
   "media_url": "https://clips.kick.com/clips/51/clip_01M8ASQ4TPK9QZCPM0PMA4G8J1/playlist.m3u8",
   "thumbnail": "https://clips.kick.com/clips/51/clip_01M8ASQ4TPK9QZCPM0PMA4G8J1/thumbnail.webp",
-  "views": 742,
+  "views": 743,
   "duration": 124,
   "created_at": "2026-11-26T02:07:41.243672Z",
   "vod_starts_at": 0,
@@ -448,7 +448,7 @@
   "rights": "credited_third_party",
   "used_in": [],
   "duplicate_of": null,
-  "seen_at": "2026-11-26T20:17:11+00:00",
+  "seen_at": "2026-11-26T20:18:33+00:00",
   "radar": {
    "momentum": 6.5,
    "topic_match": 0,
@@ -482,7 +482,7 @@
   "rights": "credited_third_party",
   "used_in": [],
   "duplicate_of": null,
-  "seen_at": "2026-11-26T20:17:11+00:00",
+  "seen_at": "2026-11-26T20:18:33+00:00",
   "radar": {
    "momentum": 4.8,
    "topic_match": 0,
@@ -516,7 +516,7 @@
   "rights": "credited_third_party",
   "used_in": [],
   "duplicate_of": null,
-  "seen_at": "2026-11-26T20:17:11+00:00",
+  "seen_at": "2026-11-26T20:18:33+00:00",
   "radar": {
    "momentum": 5.2,
    "topic_match": 0,
@@ -539,7 +539,7 @@
   "url": "https://kick.com/paulinholokobr/clips/clip_01M89XJX2RYZS3XSD6QCA2HHQW",
   "media_url": "https://clips.kick.com/clips/cc/clip_01M89XJX2RYZS3XSD6QCA2HHQW/master.m3u8",
   "thumbnail": "https://clips.kick.com/clips/cc/clip_01M89XJX2RYZS3XSD6QCA2HHQW/thumbnail.webp",
-  "views": 582,
+  "views": 583,
   "duration": 176,
   "created_at": "2026-11-25T17:56:46.263989Z",
   "vod_starts_at": 0,
@@ -550,7 +550,7 @@
   "rights": "credited_third_party",
   "used_in": [],
   "duplicate_of": null,
-  "seen_at": "2026-11-26T20:17:11+00:00",
+  "seen_at": "2026-11-26T20:18:33+00:00",
   "radar": {
    "momentum": 5.5,
    "topic_match": 0,
@@ -607,7 +607,7 @@
    "total": 6.58
   },
   "analysed_at": "2026-11-26T19:03:36+00:00",
-  "seen_at": "2026-11-26T20:17:11+00:00",
+  "seen_at": "2026-11-26T20:18:33+00:00",
   "radar": {
    "momentum": 4.7,
    "topic_match": 0,
@@ -630,7 +630,7 @@
   "url": "https://kick.com/neexcsgo/clips/clip_01M89TJJ0CBADEZ1Y4KTVCC981",
   "media_url": "https://clips.kick.com/clips/68/clip_01M89TJJ0CBADEZ1Y4KTVCC981/playlist.m3u8",
   "thumbnail": "https://clips.kick.com/clips/68/clip_01M89TJJ0CBADEZ1Y4KTVCC981/thumbnail.webp",
-  "views": 496,
+  "views": 498,
   "duration": 180,
   "created_at": "2026-11-25T17:03:44.637651Z",
   "vod_starts_at": 0,
@@ -641,7 +641,7 @@
   "rights": "credited_third_party",
   "used_in": [],
   "duplicate_of": null,
-  "seen_at": "2026-11-26T20:17:11+00:00",
+  "seen_at": "2026-11-26T20:18:33+00:00",
   "radar": {
    "momentum": 5.1,
    "topic_match": 0,
@@ -664,7 +664,7 @@
   "url": "https://kick.com/paulinholokobr/clips/clip_01M887MSY2TAXRDH1Z3D5PGRM7",
   "media_url": "https://clips.kick.com/clips/bb/clip_01M887MSY2TAXRDH1Z3D5PGRM7/master.m3u8",
   "thumbnail": "https://clips.kick.com/clips/bb/clip_01M887MSY2TAXRDH1Z3D5PGRM7/thumbnail.webp",
-  "views": 496,
+  "views": 501,
   "duration": 30,
   "created_at": "2026-11-25T02:14:15.160587Z",
   "vod_starts_at": 0,
@@ -699,7 +699,7 @@
   },
   "analysed_at": "2026-11-26T19:03:52+00:00",
   "review_reason": "story cutscene",
-  "seen_at": "2026-11-26T20:17:11+00:00",
+  "seen_at": "2026-11-26T20:18:33+00:00",
   "radar": {
    "momentum": 4.4,
    "topic_match": 0,
@@ -733,7 +733,7 @@
   "rights": "credited_third_party",
   "used_in": [],
   "duplicate_of": null,
-  "seen_at": "2026-11-26T20:17:11+00:00",
+  "seen_at": "2026-11-26T20:18:33+00:00",
   "radar": {
    "momentum": 4.7,
    "topic_match": 5,
@@ -760,7 +760,7 @@
   "url": "https://kick.com/mrchoco/clips/clip_01M88RB9R14ER4ZQHMT62GZ5GP",
   "media_url": "https://clips.kick.com/clips/e5/clip_01M88RB9R14ER4ZQHMT62GZ5GP/master.m3u8",
   "thumbnail": "https://clips.kick.com/clips/e5/clip_01M88RB9R14ER4ZQHMT62GZ5GP/thumbnail.webp",
-  "views": 413,
+  "views": 414,
   "duration": 57,
   "created_at": "2026-11-25T07:05:54.924988Z",
   "vod_starts_at": 0,
@@ -784,7 +784,7 @@
   "pillar_method": "default",
   "reject_reason": "motion 6.0, still 0.11, letterbox 0.0",
   "analysed_at": "2026-11-26T19:04:23+00:00",
-  "seen_at": "2026-11-26T20:17:11+00:00",
+  "seen_at": "2026-11-26T20:18:33+00:00",
   "radar": {
    "momentum": 4.3,
    "topic_match": 0,
@@ -818,7 +818,7 @@
   "rights": "credited_third_party",
   "used_in": [],
   "duplicate_of": null,
-  "seen_at": "2026-11-26T20:17:11+00:00",
+  "seen_at": "2026-11-26T20:18:33+00:00",
   "radar": {
    "momentum": 4.5,
    "topic_match": 0,
@@ -865,7 +865,7 @@
   "pillar_method": "default",
   "reject_reason": "motion 11.3, still 0.0, letterbox 0.0",
   "analysed_at": "2026-11-26T19:04:37+00:00",
-  "seen_at": "2026-11-26T20:17:11+00:00",
+  "seen_at": "2026-11-26T20:18:33+00:00",
   "radar": {
    "momentum": 3.8,
    "topic_match": 0,
@@ -925,7 +925,7 @@
   },
   "analysed_at": "2026-11-26T19:04:52+00:00",
   "review_reason": "owner rejected engine-20261126-1925-1",
-  "seen_at": "2026-11-26T20:17:11+00:00",
+  "seen_at": "2026-11-26T20:18:33+00:00",
   "radar": {
    "momentum": 4.0,
    "topic_match": 0,
@@ -972,7 +972,7 @@
   "pillar_method": "keyword",
   "reject_reason": "motion 4.6, still 0.06, letterbox 0.0",
   "analysed_at": "2026-11-26T19:05:04+00:00",
-  "seen_at": "2026-11-26T20:17:11+00:00",
+  "seen_at": "2026-11-26T20:18:33+00:00",
   "radar": {
    "momentum": 3.7,
    "topic_match": 0,
@@ -1006,7 +1006,7 @@
   "rights": "credited_third_party",
   "used_in": [],
   "duplicate_of": null,
-  "seen_at": "2026-11-26T20:17:11+00:00",
+  "seen_at": "2026-11-26T20:18:33+00:00",
   "radar": {
    "momentum": 3.1,
    "topic_match": 0,
@@ -1066,7 +1066,7 @@
   },
   "analysed_at": "2026-11-26T19:05:27+00:00",
   "review_reason": "owner rejected engine-20261126-1925-1",
-  "seen_at": "2026-11-26T20:17:11+00:00",
+  "seen_at": "2026-11-26T20:18:33+00:00",
   "radar": {
    "momentum": 3.5,
    "topic_match": 5,
@@ -1115,7 +1115,7 @@
   "pillar_method": "default",
   "reject_reason": "motion 7.6, still 0.57, letterbox 0.0",
   "analysed_at": "2026-11-26T19:05:54+00:00",
-  "seen_at": "2026-11-26T20:17:11+00:00",
+  "seen_at": "2026-11-26T20:18:33+00:00",
   "radar": {
    "momentum": 2.9,
    "topic_match": 0,
@@ -1149,7 +1149,7 @@
   "rights": "credited_third_party",
   "used_in": [],
   "duplicate_of": null,
-  "seen_at": "2026-11-26T20:17:11+00:00",
+  "seen_at": "2026-11-26T20:18:33+00:00",
   "radar": {
    "momentum": 2.8,
    "topic_match": 5,
@@ -1176,7 +1176,7 @@
   "url": "https://kick.com/dasgasd3m/clips/clip_01M88EMKTBTCC7RMMDR1WNQEB2",
   "media_url": "https://clips.kick.com/clips/24/clip_01M88EMKTBTCC7RMMDR1WNQEB2/master.m3u8",
   "thumbnail": "https://clips.kick.com/clips/24/clip_01M88EMKTBTCC7RMMDR1WNQEB2/thumbnail.webp",
-  "views": 184,
+  "views": 185,
   "duration": 49,
   "created_at": "2026-11-25T04:18:02.412188Z",
   "vod_starts_at": 0,
@@ -1211,7 +1211,7 @@
   },
   "analysed_at": "2026-11-26T19:06:43+00:00",
   "review_reason": "no action",
-  "seen_at": "2026-11-26T20:17:11+00:00",
+  "seen_at": "2026-11-26T20:18:33+00:00",
   "radar": {
    "momentum": 3.0,
    "topic_match": 0,
@@ -1234,7 +1234,7 @@
   "url": "https://kick.com/litkillah/clips/clip_01M887FANE101R3M9EVM06W4GQ",
   "media_url": "https://clips.kick.com/clips/fe/clip_01M887FANE101R3M9EVM06W4GQ/master.m3u8",
   "thumbnail": "https://clips.kick.com/clips/fe/clip_01M887FANE101R3M9EVM06W4GQ/thumbnail.webp",
-  "views": 172,
+  "views": 174,
   "duration": 13,
   "created_at": "2026-11-25T02:10:54.37394Z",
   "vod_starts_at": 0,
@@ -1269,7 +1269,7 @@
   },
   "analysed_at": "2026-11-26T19:06:57+00:00",
   "review_reason": "adult content",
-  "seen_at": "2026-11-26T20:17:11+00:00",
+  "seen_at": "2026-11-26T20:18:33+00:00",
   "radar": {
    "momentum": 2.8,
    "topic_match": 0,
@@ -1303,7 +1303,7 @@
   "rights": "credited_third_party",
   "used_in": [],
   "duplicate_of": null,
-  "seen_at": "2026-11-26T20:17:11+00:00",
+  "seen_at": "2026-11-26T20:18:33+00:00",
   "radar": {
    "momentum": 2.8,
    "topic_match": 0,
@@ -1337,7 +1337,7 @@
   "rights": "credited_third_party",
   "used_in": [],
   "duplicate_of": null,
-  "seen_at": "2026-11-26T20:17:11+00:00",
+  "seen_at": "2026-11-26T20:18:33+00:00",
   "radar": {
    "momentum": 2.6,
    "topic_match": 0,
@@ -1371,7 +1371,7 @@
   "rights": "credited_third_party",
   "used_in": [],
   "duplicate_of": null,
-  "seen_at": "2026-11-26T20:17:11+00:00",
+  "seen_at": "2026-11-26T20:18:33+00:00",
   "radar": {
    "momentum": 2.7,
    "topic_match": 0,
@@ -1405,7 +1405,7 @@
   "rights": "credited_third_party",
   "used_in": [],
   "duplicate_of": null,
-  "seen_at": "2026-11-26T20:17:11+00:00",
+  "seen_at": "2026-11-26T20:18:33+00:00",
   "radar": {
    "momentum": 2.6,
    "topic_match": 5,
@@ -1443,7 +1443,7 @@
   "rights": "credited_third_party",
   "used_in": [],
   "duplicate_of": null,
-  "seen_at": "2026-11-26T20:17:11+00:00",
+  "seen_at": "2026-11-26T20:18:33+00:00",
   "radar": {
    "momentum": 2.4,
    "topic_match": 0,
@@ -1490,7 +1490,7 @@
   "pillar_method": "default",
   "reject_reason": "motion 4.4, still 0.36, letterbox 0.0",
   "analysed_at": "2026-11-26T19:07:12+00:00",
-  "seen_at": "2026-11-26T20:17:11+00:00",
+  "seen_at": "2026-11-26T20:18:33+00:00",
   "radar": {
    "momentum": 2.3,
    "topic_match": 0,
@@ -1524,7 +1524,7 @@
   "rights": "credited_third_party",
   "used_in": [],
   "duplicate_of": null,
-  "seen_at": "2026-11-26T20:17:11+00:00",
+  "seen_at": "2026-11-26T20:18:33+00:00",
   "radar": {
    "momentum": 2.0,
    "topic_match": 0,
@@ -1582,7 +1582,7 @@
   },
   "analysed_at": "2026-11-26T19:07:28+00:00",
   "review_reason": "adult content",
-  "seen_at": "2026-11-26T20:17:11+00:00",
+  "seen_at": "2026-11-26T20:18:33+00:00",
   "radar": {
    "momentum": 2.0,
    "topic_match": 0,
@@ -1616,7 +1616,7 @@
   "rights": "credited_third_party",
   "used_in": [],
   "duplicate_of": null,
-  "seen_at": "2026-11-26T20:17:11+00:00",
+  "seen_at": "2026-11-26T20:18:33+00:00",
   "radar": {
    "momentum": 1.9,
    "topic_match": 0,
@@ -1663,7 +1663,7 @@
   "pillar_method": "default",
   "reject_reason": "motion 9.1, still 0.16, letterbox 0.0",
   "analysed_at": "2026-11-26T19:07:49+00:00",
-  "seen_at": "2026-11-26T20:17:11+00:00",
+  "seen_at": "2026-11-26T20:18:33+00:00",
   "radar": {
    "momentum": 1.5,
    "topic_match": 0,
@@ -1699,7 +1699,7 @@
    "posted-20261126"
   ],
   "duplicate_of": null,
-  "seen_at": "2026-11-26T20:17:11+00:00",
+  "seen_at": "2026-11-26T20:18:33+00:00",
   "radar": {
    "momentum": 1.4,
    "topic_match": 0,
@@ -1735,7 +1735,7 @@
    "posted-20261126"
   ],
   "duplicate_of": null,
-  "seen_at": "2026-11-26T20:17:11+00:00",
+  "seen_at": "2026-11-26T20:18:33+00:00",
   "radar": {
    "momentum": 1.4,
    "topic_match": 0,
@@ -1793,7 +1793,7 @@
   },
   "analysed_at": "2026-11-26T19:08:07+00:00",
   "review_reason": "story cutscene",
-  "seen_at": "2026-11-26T20:17:11+00:00",
+  "seen_at": "2026-11-26T20:18:33+00:00",
   "radar": {
    "momentum": 1.3,
    "topic_match": 0,
@@ -1827,7 +1827,7 @@
   "rights": "credited_third_party",
   "used_in": [],
   "duplicate_of": null,
-  "seen_at": "2026-11-26T20:17:11+00:00",
+  "seen_at": "2026-11-26T20:18:33+00:00",
   "radar": {
    "momentum": 1.3,
    "topic_match": 0,
@@ -1863,7 +1863,7 @@
    "posted-20261126"
   ],
   "duplicate_of": null,
-  "seen_at": "2026-11-26T20:17:11+00:00",
+  "seen_at": "2026-11-26T20:18:33+00:00",
   "radar": {
    "momentum": 1.2,
    "topic_match": 0,
@@ -1897,7 +1897,7 @@
   "rights": "credited_third_party",
   "used_in": [],
   "duplicate_of": null,
-  "seen_at": "2026-11-26T20:17:11+00:00",
+  "seen_at": "2026-11-26T20:18:33+00:00",
   "radar": {
    "momentum": 1.2,
    "topic_match": 0,
@@ -1944,7 +1944,7 @@
   "pillar_method": "keyword",
   "reject_reason": "motion 14.6, still 0.17, letterbox 0.0",
   "analysed_at": "2026-11-26T19:08:24+00:00",
-  "seen_at": "2026-11-26T20:17:11+00:00",
+  "seen_at": "2026-11-26T20:18:33+00:00",
   "radar": {
    "momentum": 1.2,
    "topic_match": 0,
@@ -2002,7 +2002,7 @@
   },
   "analysed_at": "2026-11-26T19:08:36+00:00",
   "review_reason": "IRL facecam",
-  "seen_at": "2026-11-26T20:17:11+00:00",
+  "seen_at": "2026-11-26T20:18:33+00:00",
   "radar": {
    "momentum": 1.2,
    "topic_match": 0,
@@ -2049,7 +2049,7 @@
   "pillar_method": "default",
   "reject_reason": "motion 9.1, still 0.19, letterbox 0.0",
   "analysed_at": "2026-11-26T19:09:24+00:00",
-  "seen_at": "2026-11-26T20:17:11+00:00",
+  "seen_at": "2026-11-26T20:18:33+00:00",
   "radar": {
    "momentum": 1.2,
    "topic_match": 0,
@@ -2107,7 +2107,7 @@
   },
   "analysed_at": "2026-11-26T19:09:47+00:00",
   "review_reason": "calm driving",
-  "seen_at": "2026-11-26T20:17:11+00:00",
+  "seen_at": "2026-11-26T20:18:33+00:00",
   "radar": {
    "momentum": 1.1,
    "topic_match": 0,
@@ -2141,7 +2141,7 @@
   "rights": "credited_third_party",
   "used_in": [],
   "duplicate_of": null,
-  "seen_at": "2026-11-26T20:17:11+00:00",
+  "seen_at": "2026-11-26T20:18:33+00:00",
   "radar": {
    "momentum": 1.1,
    "topic_match": 0,
@@ -2164,7 +2164,7 @@
   "url": "https://kick.com/adinross/clips/clip_01M7RP0WZYS0W8VVWWZ4CR5M7B",
   "media_url": "https://clips.kick.com/clips/93/clip_01M7RP0WZYS0W8VVWWZ4CR5M7B/playlist.m3u8",
   "thumbnail": "https://clips.kick.com/clips/93/clip_01M7RP0WZYS0W8VVWWZ4CR5M7B/thumbnail.webp",
-  "views": 48244,
+  "views": 48246,
   "duration": 29,
   "created_at": "2026-11-19T01:17:24.454515Z",
   "vod_starts_at": 0,
@@ -2199,7 +2199,7 @@
   },
   "analysed_at": "2026-11-26T19:10:08+00:00",
   "review_reason": "walking only",
-  "seen_at": "2026-11-26T20:17:11+00:00",
+  "seen_at": "2026-11-26T20:18:33+00:00",
   "radar": {
    "momentum": 9.7,
    "topic_match": 0,
@@ -2246,7 +2246,7 @@
   "pillar_method": "default",
   "reject_reason": "motion 3.2, still 0.92, letterbox 0.0",
   "analysed_at": "2026-11-26T19:10:40+00:00",
-  "seen_at": "2026-11-26T20:17:11+00:00",
+  "seen_at": "2026-11-26T20:18:33+00:00",
   "radar": {
    "momentum": 8.7,
    "topic_match": 0,
@@ -2269,7 +2269,7 @@
   "url": "https://kick.com/asmongold/clips/clip_01M85DCD0FCM1EJBKYJYZG88C3",
   "media_url": "https://clips.kick.com/clips/14/clip_01M85DCD0FCM1EJBKYJYZG88C3/playlist.m3u8",
   "thumbnail": "https://clips.kick.com/clips/14/clip_01M85DCD0FCM1EJBKYJYZG88C3/thumbnail.webp",
-  "views": 18377,
+  "views": 18379,
   "duration": 180,
   "created_at": "2026-11-23T23:56:24.245396Z",
   "vod_starts_at": 0,
@@ -2280,7 +2280,7 @@
   "rights": "credited_third_party",
   "used_in": [],
   "duplicate_of": null,
-  "seen_at": "2026-11-26T20:17:11+00:00",
+  "seen_at": "2026-11-26T20:18:33+00:00",
   "radar": {
    "momentum": 9.7,
    "topic_match": 0,
@@ -2338,7 +2338,7 @@
   },
   "analysed_at": "2026-11-26T19:11:01+00:00",
   "review_reason": "strip club, no action",
-  "seen_at": "2026-11-26T20:17:11+00:00",
+  "seen_at": "2026-11-26T20:18:33+00:00",
   "radar": {
    "momentum": 7.4,
    "topic_match": 0,
@@ -2372,7 +2372,7 @@
   "rights": "credited_third_party",
   "used_in": [],
   "duplicate_of": null,
-  "seen_at": "2026-11-26T20:17:11+00:00",
+  "seen_at": "2026-11-26T20:18:33+00:00",
   "radar": {
    "momentum": 7.5,
    "topic_match": 5,
@@ -2399,7 +2399,7 @@
   "url": "https://kick.com/kaneljoseph/clips/clip_01M7RYDBQ0FP5M84G7418QTA38",
   "media_url": "https://clips.kick.com/clips/06/clip_01M7RYDBQ0FP5M84G7418QTA38/playlist.m3u8",
   "thumbnail": "https://clips.kick.com/clips/06/clip_01M7RYDBQ0FP5M84G7418QTA38/thumbnail.webp",
-  "views": 10909,
+  "views": 10911,
   "duration": 30,
   "created_at": "2026-11-19T03:43:27.97576Z",
   "vod_starts_at": 0,
@@ -2434,7 +2434,7 @@
   },
   "analysed_at": "2026-11-26T19:11:27+00:00",
   "review_reason": "IRL stream, not GTA 6",
-  "seen_at": "2026-11-26T20:17:11+00:00",
+  "seen_at": "2026-11-26T20:18:33+00:00",
   "radar": {
    "momentum": 7.1,
    "topic_match": 0,
@@ -2470,7 +2470,7 @@
    "posted-20261126"
   ],
   "duplicate_of": null,
-  "seen_at": "2026-11-26T20:17:11+00:00",
+  "seen_at": "2026-11-26T20:18:33+00:00",
   "radar": {
    "momentum": 7.5,
    "topic_match": 0,
@@ -2528,7 +2528,7 @@
   },
   "analysed_at": "2026-11-26T19:11:37+00:00",
   "review_reason": "no action (bedroom)",
-  "seen_at": "2026-11-26T20:17:11+00:00",
+  "seen_at": "2026-11-26T20:18:33+00:00",
   "radar": {
    "momentum": 6.9,
    "topic_match": 0,
@@ -2564,7 +2564,7 @@
    "posted-20261126"
   ],
   "duplicate_of": null,
-  "seen_at": "2026-11-26T20:17:11+00:00",
+  "seen_at": "2026-11-26T20:18:33+00:00",
   "radar": {
    "momentum": 7.2,
    "topic_match": 0,
@@ -2611,7 +2611,7 @@
   "pillar_method": "default",
   "reject_reason": "motion 13.2, still 0.2, letterbox 0.0",
   "analysed_at": "2026-11-26T19:11:53+00:00",
-  "seen_at": "2026-11-26T20:17:11+00:00",
+  "seen_at": "2026-11-26T20:18:33+00:00",
   "radar": {
    "momentum": 7.0,
    "topic_match": 0,
@@ -2634,7 +2634,7 @@
   "url": "https://kick.com/gabepeixe/clips/clip_01M81TBH7TZRWAKNS5EHXR6M43",
   "media_url": "https://clips.kick.com/clips/a8/clip_01M81TBH7TZRWAKNS5EHXR6M43/playlist.m3u8",
   "thumbnail": "https://clips.kick.com/clips/a8/clip_01M81TBH7TZRWAKNS5EHXR6M43/thumbnail.webp",
-  "views": 8527,
+  "views": 8528,
   "duration": 180,
   "created_at": "2026-11-22T14:25:48.292834Z",
   "vod_starts_at": 0,
@@ -2645,7 +2645,7 @@
   "rights": "credited_third_party",
   "used_in": [],
   "duplicate_of": null,
-  "seen_at": "2026-11-26T20:17:11+00:00",
+  "seen_at": "2026-11-26T20:18:33+00:00",
   "radar": {
    "momentum": 7.7,
    "topic_match": 5,
@@ -2672,7 +2672,7 @@
   "url": "https://kick.com/rraenee/clips/clip_01M80K4HXZDR6858GHQ0HCT6KN",
   "media_url": "https://clips.kick.com/clips/d5/clip_01M80K4HXZDR6858GHQ0HCT6KN/playlist.m3u8",
   "thumbnail": "https://clips.kick.com/clips/d5/clip_01M80K4HXZDR6858GHQ0HCT6KN/thumbnail.webp",
-  "views": 8382,
+  "views": 8383,
   "duration": 30,
   "created_at": "2026-11-22T03:00:25.258048Z",
   "vod_starts_at": 0,
@@ -2696,7 +2696,7 @@
   "pillar_method": "default",
   "reject_reason": "motion 2.0, still 0.6, letterbox 0.0",
   "analysed_at": "2026-11-26T19:13:59+00:00",
-  "seen_at": "2026-11-26T20:17:11+00:00",
+  "seen_at": "2026-11-26T20:18:33+00:00",
   "radar": {
    "momentum": 7.5,
    "topic_match": 0,
@@ -2743,7 +2743,7 @@
   "pillar_method": "default",
   "reject_reason": "motion 7.2, still 0.04, letterbox 0.0",
   "analysed_at": "2026-11-26T19:14:05+00:00",
-  "seen_at": "2026-11-26T20:17:11+00:00",
+  "seen_at": "2026-11-26T20:18:33+00:00",
   "radar": {
    "momentum": 7.0,
    "topic_match": 0,
@@ -2790,7 +2790,7 @@
   "pillar_method": "default",
   "reject_reason": "motion 1.2, still 0.83, letterbox 0.0",
   "analysed_at": "2026-11-26T19:14:29+00:00",
-  "seen_at": "2026-11-26T20:17:11+00:00",
+  "seen_at": "2026-11-26T20:18:33+00:00",
   "radar": {
    "momentum": 6.8,
    "topic_match": 0,
@@ -2824,7 +2824,7 @@
   "rights": "credited_third_party",
   "used_in": [],
   "duplicate_of": null,
-  "seen_at": "2026-11-26T20:17:11+00:00",
+  "seen_at": "2026-11-26T20:18:33+00:00",
   "radar": {
    "momentum": 6.5,
    "topic_match": 0,
@@ -2858,7 +2858,7 @@
   "rights": "credited_third_party",
   "used_in": [],
   "duplicate_of": null,
-  "seen_at": "2026-11-26T20:17:11+00:00",
+  "seen_at": "2026-11-26T20:18:33+00:00",
   "radar": {
    "momentum": 6.5,
    "topic_match": 0,
@@ -2915,7 +2915,7 @@
    "total": 6.38
   },
   "analysed_at": "2026-11-26T19:14:45+00:00",
-  "seen_at": "2026-11-26T20:17:11+00:00",
+  "seen_at": "2026-11-26T20:18:33+00:00",
   "radar": {
    "momentum": 6.6,
    "topic_match": 0,
@@ -2938,7 +2938,7 @@
   "url": "https://kick.com/neexcsgo/clips/clip_01M82Q0FQ9VT1ZMJWDZ4ZMQCRQ",
   "media_url": "https://clips.kick.com/clips/d4/clip_01M82Q0FQ9VT1ZMJWDZ4ZMQCRQ/playlist.m3u8",
   "thumbnail": "https://clips.kick.com/clips/d4/clip_01M82Q0FQ9VT1ZMJWDZ4ZMQCRQ/thumbnail.webp",
-  "views": 7348,
+  "views": 7350,
   "duration": 180,
   "created_at": "2026-11-22T22:46:41.85548Z",
   "vod_starts_at": 0,
@@ -2949,7 +2949,7 @@
   "rights": "credited_third_party",
   "used_in": [],
   "duplicate_of": null,
-  "seen_at": "2026-11-26T20:17:11+00:00",
+  "seen_at": "2026-11-26T20:18:33+00:00",
   "radar": {
    "momentum": 7.6,
    "topic_match": 0,
@@ -2972,7 +2972,7 @@
   "url": "https://kick.com/paymoneywubby/clips/clip_01M85Z3CAACFS13G2P2ETBY19Q",
   "media_url": "https://clips.kick.com/clips/cb/clip_01M85Z3CAACFS13G2P2ETBY19Q/playlist.m3u8",
   "thumbnail": "https://clips.kick.com/clips/cb/clip_01M85Z3CAACFS13G2P2ETBY19Q/thumbnail.webp",
-  "views": 6928,
+  "views": 6931,
   "duration": 180,
   "created_at": "2026-11-24T05:05:43.350674Z",
   "vod_starts_at": 0,
@@ -2983,7 +2983,7 @@
   "rights": "credited_third_party",
   "used_in": [],
   "duplicate_of": null,
-  "seen_at": "2026-11-26T20:17:11+00:00",
+  "seen_at": "2026-11-26T20:18:33+00:00",
   "radar": {
    "momentum": 8.2,
    "topic_match": 0,
@@ -3006,7 +3006,7 @@
   "url": "https://kick.com/xmerghani/clips/clip_01M7TJSWJB1100VXAFYY87DKEG",
   "media_url": "https://clips.kick.com/clips/91/clip_01M7TJSWJB1100VXAFYY87DKEG/playlist.m3u8",
   "thumbnail": "https://clips.kick.com/clips/91/clip_01M7TJSWJB1100VXAFYY87DKEG/thumbnail.webp",
-  "views": 6209,
+  "views": 6211,
   "duration": 180,
   "created_at": "2026-11-19T18:58:54.53803Z",
   "vod_starts_at": 0,
@@ -3017,7 +3017,7 @@
   "rights": "credited_third_party",
   "used_in": [],
   "duplicate_of": null,
-  "seen_at": "2026-11-26T20:17:11+00:00",
+  "seen_at": "2026-11-26T20:18:33+00:00",
   "radar": {
    "momentum": 6.3,
    "topic_match": 0,
@@ -3074,7 +3074,7 @@
    "total": 5.18
   },
   "analysed_at": "2026-11-26T19:15:01+00:00",
-  "seen_at": "2026-11-26T20:17:11+00:00",
+  "seen_at": "2026-11-26T20:18:33+00:00",
   "radar": {
    "momentum": 6.1,
    "topic_match": 5,
@@ -3110,7 +3110,7 @@
   "rights": "credited_third_party",
   "used_in": [],
   "duplicate_of": null,
-  "seen_at": "2026-11-26T20:17:11+00:00",
+  "seen_at": "2026-11-26T20:18:33+00:00",
   "radar": {
    "momentum": 6.1,
    "topic_match": 0,
@@ -3144,7 +3144,7 @@
   "rights": "credited_third_party",
   "used_in": [],
   "duplicate_of": null,
-  "seen_at": "2026-11-26T20:17:11+00:00",
+  "seen_at": "2026-11-26T20:18:33+00:00",
   "radar": {
    "momentum": 5.5,
    "topic_match": 0,
@@ -3191,7 +3191,7 @@
   "pillar_method": "default",
   "reject_reason": "motion 3.7, still 0.09, letterbox 0.0",
   "analysed_at": "2026-11-26T19:15:16+00:00",
-  "seen_at": "2026-11-26T20:17:11+00:00",
+  "seen_at": "2026-11-26T20:18:33+00:00",
   "radar": {
    "momentum": 5.4,
    "topic_match": 0,
@@ -3227,7 +3227,7 @@
    "posted-20261126"
   ],
   "duplicate_of": null,
-  "seen_at": "2026-11-26T20:17:11+00:00",
+  "seen_at": "2026-11-26T20:18:33+00:00",
   "radar": {
    "momentum": 5.6,
    "topic_match": 0,
@@ -3261,7 +3261,7 @@
   "rights": "credited_third_party",
   "used_in": [],
   "duplicate_of": null,
-  "seen_at": "2026-11-26T20:17:11+00:00",
+  "seen_at": "2026-11-26T20:18:33+00:00",
   "radar": {
    "momentum": 5.4,
    "topic_match": 0,
@@ -3284,7 +3284,7 @@
   "url": "https://kick.com/neexcsgo/clips/clip_01M7TDMD8N4VWCN8M7H53TSH77",
   "media_url": "https://clips.kick.com/clips/55/clip_01M7TDMD8N4VWCN8M7H53TSH77/playlist.m3u8",
   "thumbnail": "https://clips.kick.com/clips/55/clip_01M7TDMD8N4VWCN8M7H53TSH77/thumbnail.webp",
-  "views": 3657,
+  "views": 3658,
   "duration": 46,
   "created_at": "2026-11-19T17:29:16.745072Z",
   "vod_starts_at": 0,
@@ -3308,7 +3308,7 @@
   "pillar_method": "default",
   "reject_reason": "motion 11.3, still 0.0, letterbox 0.0",
   "analysed_at": "2026-11-26T19:15:39+00:00",
-  "seen_at": "2026-11-26T20:17:11+00:00",
+  "seen_at": "2026-11-26T20:18:33+00:00",
   "radar": {
    "momentum": 5.4,
    "topic_match": 0,
@@ -3365,7 +3365,7 @@
    "total": 5.35
   },
   "analysed_at": "2026-11-26T19:16:08+00:00",
-  "seen_at": "2026-11-26T20:17:11+00:00",
+  "seen_at": "2026-11-26T20:18:33+00:00",
   "radar": {
    "momentum": 5.2,
    "topic_match": 0,
@@ -3399,7 +3399,7 @@
   "rights": "credited_third_party",
   "used_in": [],
   "duplicate_of": null,
-  "seen_at": "2026-11-26T20:17:11+00:00",
+  "seen_at": "2026-11-26T20:18:33+00:00",
   "radar": {
    "momentum": 4.8,
    "topic_match": 0,
@@ -3422,7 +3422,7 @@
   "url": "https://kick.com/xmerghani/clips/clip_01M7T6TF8R6CQNPAPPQFRP5WST",
   "media_url": "https://clips.kick.com/clips/46/clip_01M7T6TF8R6CQNPAPPQFRP5WST/playlist.m3u8",
   "thumbnail": "https://clips.kick.com/clips/46/clip_01M7T6TF8R6CQNPAPPQFRP5WST/thumbnail.webp",
-  "views": 2567,
+  "views": 2568,
   "duration": 180,
   "created_at": "2026-11-19T15:29:43.744755Z",
   "vod_starts_at": 0,
@@ -3433,7 +3433,7 @@
   "rights": "credited_third_party",
   "used_in": [],
   "duplicate_of": null,
-  "seen_at": "2026-11-26T20:17:11+00:00",
+  "seen_at": "2026-11-26T20:18:33+00:00",
   "radar": {
    "momentum": 4.8,
    "topic_match": 0,
@@ -3480,7 +3480,7 @@
   "pillar_method": "default",
   "reject_reason": "motion 1.8, still 0.75, letterbox 0.0",
   "analysed_at": "2026-11-26T19:16:18+00:00",
-  "seen_at": "2026-11-26T20:17:11+00:00",
+  "seen_at": "2026-11-26T20:18:33+00:00",
   "radar": {
    "momentum": 4.6,
    "topic_match": 0,
@@ -3503,7 +3503,7 @@
   "url": "https://kick.com/carryminati/clips/clip_01M7TJ7XYA21A3T3WEMM3MQV5G",
   "media_url": "https://clips.kick.com/clips/cf/clip_01M7TJ7XYA21A3T3WEMM3MQV5G/playlist.m3u8",
   "thumbnail": "https://clips.kick.com/clips/cf/clip_01M7TJ7XYA21A3T3WEMM3MQV5G/thumbnail.webp",
-  "views": 2158,
+  "views": 2159,
   "duration": 180,
   "created_at": "2026-11-19T18:49:32.869269Z",
   "vod_starts_at": 0,
@@ -3514,7 +3514,7 @@
   "rights": "credited_third_party",
   "used_in": [],
   "duplicate_of": null,
-  "seen_at": "2026-11-26T20:17:11+00:00",
+  "seen_at": "2026-11-26T20:18:33+00:00",
   "radar": {
    "momentum": 4.6,
    "topic_match": 0,
@@ -3548,7 +3548,7 @@
   "rights": "credited_third_party",
   "used_in": [],
   "duplicate_of": null,
-  "seen_at": "2026-11-26T20:17:11+00:00",
+  "seen_at": "2026-11-26T20:18:33+00:00",
   "radar": {
    "momentum": 4.4,
    "topic_match": 0,
@@ -3595,7 +3595,7 @@
   "pillar_method": "default",
   "reject_reason": "motion 4.7, still 0.39, letterbox 0.0",
   "analysed_at": "2026-11-26T19:16:32+00:00",
-  "seen_at": "2026-11-26T20:17:11+00:00",
+  "seen_at": "2026-11-26T20:18:33+00:00",
   "radar": {
    "momentum": 4.4,
    "topic_match": 0,
@@ -3642,7 +3642,7 @@
   "pillar_method": "default",
   "reject_reason": "motion 4.7, still 0.07, letterbox 0.0",
   "analysed_at": "2026-11-26T19:16:56+00:00",
-  "seen_at": "2026-11-26T20:17:11+00:00",
+  "seen_at": "2026-11-26T20:18:33+00:00",
   "radar": {
    "momentum": 4.3,
    "topic_match": 0,
@@ -3676,7 +3676,7 @@
   "rights": "credited_third_party",
   "used_in": [],
   "duplicate_of": null,
-  "seen_at": "2026-11-26T20:17:11+00:00",
+  "seen_at": "2026-11-26T20:18:33+00:00",
   "radar": {
    "momentum": 4.2,
    "topic_match": 5,
@@ -3727,7 +3727,7 @@
   "pillar_method": "default",
   "reject_reason": "motion 7.0, still 0.1, letterbox 0.0",
   "analysed_at": "2026-11-26T19:17:23+00:00",
-  "seen_at": "2026-11-26T20:17:11+00:00",
+  "seen_at": "2026-11-26T20:18:33+00:00",
   "radar": {
    "momentum": 4.2,
    "topic_match": 0,
@@ -3774,7 +3774,7 @@
   "pillar_method": "keyword",
   "reject_reason": "motion 1.5, still 0.87, letterbox 0.0",
   "analysed_at": "2026-11-26T19:17:37+00:00",
-  "seen_at": "2026-11-26T20:17:11+00:00",
+  "seen_at": "2026-11-26T20:18:33+00:00",
   "radar": {
    "momentum": 4.1,
    "topic_match": 5,
@@ -3799,7 +3799,7 @@
   "url": "https://kick.com/xmerghani/clips/clip_01M7RNX2FTBDZCHACPDZ9WHCD9",
   "media_url": "https://clips.kick.com/clips/e9/clip_01M7RNX2FTBDZCHACPDZ9WHCD9/playlist.m3u8",
   "thumbnail": "https://clips.kick.com/clips/e9/clip_01M7RNX2FTBDZCHACPDZ9WHCD9/thumbnail.webp",
-  "views": 1694,
+  "views": 1695,
   "duration": 30,
   "created_at": "2026-11-19T01:14:37.543402Z",
   "vod_starts_at": 0,
@@ -3823,7 +3823,7 @@
   "pillar_method": "default",
   "reject_reason": "motion 8.4, still 0.0, letterbox 0.0",
   "analysed_at": "2026-11-26T19:17:54+00:00",
-  "seen_at": "2026-11-26T20:17:11+00:00",
+  "seen_at": "2026-11-26T20:18:33+00:00",
   "radar": {
    "momentum": 4.0,
    "topic_match": 0,
@@ -3870,7 +3870,7 @@
   "pillar_method": "keyword",
   "reject_reason": "motion 9.5, still 0.0, letterbox 0.0",
   "analysed_at": "2026-11-26T19:18:00+00:00",
-  "seen_at": "2026-11-26T20:17:11+00:00",
+  "seen_at": "2026-11-26T20:18:33+00:00",
   "radar": {
    "momentum": 3.9,
    "topic_match": 0,
@@ -3927,7 +3927,7 @@
    "total": 6.0
   },
   "analysed_at": "2026-11-26T19:18:17+00:00",
-  "seen_at": "2026-11-26T20:17:11+00:00",
+  "seen_at": "2026-11-26T20:18:33+00:00",
   "radar": {
    "momentum": 3.8,
    "topic_match": 0,
@@ -3974,7 +3974,7 @@
   "pillar_method": "default",
   "reject_reason": "motion 4.3, still 0.18, letterbox 0.0",
   "analysed_at": "2026-11-26T19:18:33+00:00",
-  "seen_at": "2026-11-26T20:17:11+00:00",
+  "seen_at": "2026-11-26T20:18:33+00:00",
   "radar": {
    "momentum": 3.8,
    "topic_match": 0,
@@ -4021,7 +4021,7 @@
   "pillar_method": "default",
   "reject_reason": "motion 11.4, still 0.01, letterbox 0.0",
   "analysed_at": "2026-11-26T19:18:48+00:00",
-  "seen_at": "2026-11-26T20:17:11+00:00",
+  "seen_at": "2026-11-26T20:18:33+00:00",
   "radar": {
    "momentum": 3.7,
    "topic_match": 0,
@@ -4078,15 +4078,15 @@
    "total": 4.87
   },
   "analysed_at": "2026-11-26T19:19:04+00:00",
-  "seen_at": "2026-11-26T20:17:11+00:00",
+  "seen_at": "2026-11-26T20:18:33+00:00",
   "radar": {
-   "momentum": 3.0,
+   "momentum": 2.9,
    "topic_match": 0,
    "originality": 8,
    "french": 3,
    "freshness": 0,
    "short_enough": 10,
-   "priority": 3.7,
+   "priority": 3.66,
    "topics": []
   },
   "origin": "original"
@@ -4112,7 +4112,7 @@
   "rights": "credited_third_party",
   "used_in": [],
   "duplicate_of": null,
-  "seen_at": "2026-11-26T20:17:11+00:00",
+  "seen_at": "2026-11-26T20:18:33+00:00",
   "radar": {
    "momentum": 2.9,
    "topic_match": 0,
@@ -4159,7 +4159,7 @@
   "pillar_method": "keyword",
   "reject_reason": "motion 8.3, still 0.26, letterbox 0.0",
   "analysed_at": "2026-11-26T19:19:11+00:00",
-  "seen_at": "2026-11-26T20:17:11+00:00",
+  "seen_at": "2026-11-26T20:18:33+00:00",
   "radar": {
    "momentum": 2.8,
    "topic_match": 5,
@@ -4195,7 +4195,7 @@
   "rights": "credited_third_party",
   "used_in": [],
   "duplicate_of": null,
-  "seen_at": "2026-11-26T20:17:11+00:00",
+  "seen_at": "2026-11-26T20:18:33+00:00",
   "radar": {
    "momentum": 2.3,
    "topic_match": 5,
@@ -4233,7 +4233,7 @@
   "rights": "credited_third_party",
   "used_in": [],
   "duplicate_of": null,
-  "seen_at": "2026-11-26T20:17:11+00:00",
+  "seen_at": "2026-11-26T20:18:33+00:00",
   "radar": {
    "momentum": 2.3,
    "topic_match": 0,
@@ -4280,7 +4280,7 @@
   "pillar_method": "default",
   "reject_reason": "motion 4.0, still 0.08, letterbox 0.0",
   "analysed_at": "2026-11-26T19:19:26+00:00",
-  "seen_at": "2026-11-26T20:17:11+00:00",
+  "seen_at": "2026-11-26T20:18:33+00:00",
   "radar": {
    "momentum": 2.1,
    "topic_match": 0,
@@ -4326,7 +4326,7 @@
   "pillar": "VIRAL MOMENTS & CHAOS",
   "pillar_method": "default",
   "analysed_at": "2026-11-26T19:19:49+00:00",
-  "seen_at": "2026-11-26T20:17:11+00:00",
+  "seen_at": "2026-11-26T20:18:33+00:00",
   "radar": {
    "momentum": 2.0,
    "topic_match": 0,
@@ -4360,7 +4360,7 @@
   "rights": "credited_third_party",
   "used_in": [],
   "duplicate_of": null,
-  "seen_at": "2026-11-26T20:17:11+00:00",
+  "seen_at": "2026-11-26T20:18:33+00:00",
   "radar": {
    "momentum": 1.9,
    "topic_match": 0,
@@ -4417,7 +4417,7 @@
    "total": 6.56
   },
   "analysed_at": "2026-11-26T19:20:05+00:00",
-  "seen_at": "2026-11-26T20:17:11+00:00",
+  "seen_at": "2026-11-26T20:18:33+00:00",
   "radar": {
    "momentum": 1.7,
    "topic_match": 0,
@@ -4464,7 +4464,7 @@
   "pillar_method": "default",
   "reject_reason": "motion 5.1, still 0.09, letterbox 0.0",
   "analysed_at": "2026-11-26T19:20:22+00:00",
-  "seen_at": "2026-11-26T20:17:11+00:00",
+  "seen_at": "2026-11-26T20:18:33+00:00",
   "radar": {
    "momentum": 1.5,
    "topic_match": 0,
@@ -4521,7 +4521,7 @@
    "total": 6.54
   },
   "analysed_at": "2026-11-26T19:20:37+00:00",
-  "seen_at": "2026-11-26T20:17:11+00:00",
+  "seen_at": "2026-11-26T20:18:33+00:00",
   "radar": {
    "momentum": 1.2,
    "topic_match": 0,
@@ -4568,7 +4568,7 @@
   "pillar_method": "default",
   "reject_reason": "motion 9.0, still 0.21, letterbox 0.0",
   "analysed_at": "2026-11-26T19:20:50+00:00",
-  "seen_at": "2026-11-26T20:17:11+00:00",
+  "seen_at": "2026-11-26T20:18:33+00:00",
   "radar": {
    "momentum": 1.2,
    "topic_match": 0,
@@ -4615,7 +4615,7 @@
   "pillar_method": "default",
   "reject_reason": "motion 10.6, still 0.1, letterbox 0.0",
   "analysed_at": "2026-11-26T19:21:14+00:00",
-  "seen_at": "2026-11-26T20:17:11+00:00",
+  "seen_at": "2026-11-26T20:18:33+00:00",
   "radar": {
    "momentum": 1.1,
    "topic_match": 0,
@@ -4662,7 +4662,7 @@
   "pillar_method": "default",
   "reject_reason": "motion 3.5, still 0.28, letterbox 0.0",
   "analysed_at": "2026-11-26T19:21:40+00:00",
-  "seen_at": "2026-11-26T20:17:11+00:00",
+  "seen_at": "2026-11-26T20:18:33+00:00",
   "radar": {
    "momentum": 1.1,
    "topic_match": 0,
@@ -4696,7 +4696,7 @@
   "rights": "credited_third_party",
   "used_in": [],
   "duplicate_of": null,
-  "seen_at": "2026-11-26T20:17:11+00:00",
+  "seen_at": "2026-11-26T20:18:33+00:00",
   "radar": {
    "momentum": 1.1,
    "topic_match": 0,
@@ -4719,7 +4719,7 @@
   "url": "https://kick.com/xmerghani/clips/clip_01M8AGBNCZ7HEZ4ZM7NN0XVAPK",
   "media_url": "https://clips.kick.com/clips/01/clip_01M8AGBNCZ7HEZ4ZM7NN0XVAPK/playlist.m3u8",
   "thumbnail": "https://clips.kick.com/clips/01/clip_01M8AGBNCZ7HEZ4ZM7NN0XVAPK/thumbnail.webp",
-  "views": 427,
+  "views": 430,
   "duration": 62,
   "created_at": "2026-11-25T23:24:09.917658Z",
   "vod_starts_at": 0,
@@ -4743,7 +4743,7 @@
   "pillar_method": "default",
   "reject_reason": "motion 8.3, still 0.13, letterbox 0.0",
   "analysed_at": "2026-11-26T19:24:08+00:00",
-  "seen_at": "2026-11-26T20:17:11+00:00",
+  "seen_at": "2026-11-26T20:18:33+00:00",
   "radar": {
    "momentum": 5.3,
    "topic_match": 0,
@@ -4790,7 +4790,7 @@
   "pillar_method": "default",
   "reject_reason": "motion 8.3, still 0.26, letterbox 0.0",
   "analysed_at": "2026-11-26T19:24:29+00:00",
-  "seen_at": "2026-11-26T20:17:11+00:00",
+  "seen_at": "2026-11-26T20:18:33+00:00",
   "radar": {
    "momentum": 4.5,
    "topic_match": 0,
@@ -4837,7 +4837,7 @@
   "pillar_method": "default",
   "reject_reason": "motion 8.7, still 0.03, letterbox 0.0",
   "analysed_at": "2026-11-26T19:24:43+00:00",
-  "seen_at": "2026-11-26T20:17:11+00:00",
+  "seen_at": "2026-11-26T20:18:33+00:00",
   "radar": {
    "momentum": 1.9,
    "topic_match": 0,
@@ -4894,7 +4894,7 @@
    "total": 5.88
   },
   "analysed_at": "2026-11-26T19:25:11+00:00",
-  "seen_at": "2026-11-26T20:17:11+00:00",
+  "seen_at": "2026-11-26T20:18:33+00:00",
   "radar": {
    "momentum": 1.8,
    "topic_match": 0,
@@ -4928,7 +4928,7 @@
   "rights": "credited_third_party",
   "used_in": [],
   "duplicate_of": null,
-  "seen_at": "2026-11-26T20:17:11+00:00",
+  "seen_at": "2026-11-26T20:18:33+00:00",
   "radar": {
    "momentum": 1.7,
    "topic_match": 0,
@@ -4988,7 +4988,7 @@
   },
   "analysed_at": "2026-11-26T19:25:21+00:00",
   "review_reason": "owner rejected engine-20261126-1925-1",
-  "seen_at": "2026-11-26T20:17:11+00:00",
+  "seen_at": "2026-11-26T20:18:33+00:00",
   "radar": {
    "momentum": 1.6,
    "topic_match": 0,
@@ -5022,15 +5022,15 @@
   "rights": "credited_third_party",
   "used_in": [],
   "duplicate_of": null,
-  "seen_at": "2026-11-26T20:17:11+00:00",
+  "seen_at": "2026-11-26T20:18:33+00:00",
   "radar": {
    "momentum": 1.5,
    "topic_match": 0,
    "originality": 8,
    "french": 3,
-   "freshness": 3.8,
+   "freshness": 3.7,
    "short_enough": 10,
-   "priority": 3.48,
+   "priority": 3.47,
    "topics": []
   },
   "origin": "original"
@@ -5056,7 +5056,7 @@
   "rights": "credited_third_party",
   "used_in": [],
   "duplicate_of": null,
-  "seen_at": "2026-11-26T20:17:11+00:00",
+  "seen_at": "2026-11-26T20:18:33+00:00",
   "radar": {
    "momentum": 0.5,
    "topic_match": 0,
@@ -5090,7 +5090,7 @@
   "rights": "credited_third_party",
   "used_in": [],
   "duplicate_of": null,
-  "seen_at": "2026-11-26T20:17:11+00:00",
+  "seen_at": "2026-11-26T20:18:33+00:00",
   "radar": {
    "momentum": 0.9,
    "topic_match": 0,
@@ -5124,7 +5124,7 @@
   "rights": "credited_third_party",
   "used_in": [],
   "duplicate_of": null,
-  "seen_at": "2026-11-26T20:17:11+00:00",
+  "seen_at": "2026-11-26T20:18:33+00:00",
   "radar": {
    "momentum": 1.2,
    "topic_match": 0,
@@ -5158,7 +5158,7 @@
   "rights": "credited_third_party",
   "used_in": [],
   "duplicate_of": null,
-  "seen_at": "2026-11-26T20:17:11+00:00",
+  "seen_at": "2026-11-26T20:18:33+00:00",
   "radar": {
    "momentum": 0.0,
    "topic_match": 0,
@@ -5192,7 +5192,7 @@
   "rights": "credited_third_party",
   "used_in": [],
   "duplicate_of": null,
-  "seen_at": "2026-11-26T20:17:11+00:00",
+  "seen_at": "2026-11-26T20:18:33+00:00",
   "radar": {
    "momentum": 0.5,
    "topic_match": 0,
@@ -5226,7 +5226,7 @@
   "rights": "credited_third_party",
   "used_in": [],
   "duplicate_of": null,
-  "seen_at": "2026-11-26T20:17:11+00:00",
+  "seen_at": "2026-11-26T20:18:33+00:00",
   "radar": {
    "momentum": 0.0,
    "topic_match": 0,
@@ -5260,7 +5260,7 @@
   "rights": "credited_third_party",
   "used_in": [],
   "duplicate_of": null,
-  "seen_at": "2026-11-26T20:17:11+00:00",
+  "seen_at": "2026-11-26T20:18:33+00:00",
   "radar": {
    "momentum": 0.5,
    "topic_match": 0,
@@ -5294,7 +5294,7 @@
   "rights": "credited_third_party",
   "used_in": [],
   "duplicate_of": null,
-  "seen_at": "2026-11-26T20:17:11+00:00",
+  "seen_at": "2026-11-26T20:18:33+00:00",
   "radar": {
    "momentum": 0.0,
    "topic_match": 0,
@@ -5328,7 +5328,7 @@
   "rights": "credited_third_party",
   "used_in": [],
   "duplicate_of": null,
-  "seen_at": "2026-11-26T20:17:11+00:00",
+  "seen_at": "2026-11-26T20:18:33+00:00",
   "radar": {
    "momentum": 0.0,
    "topic_match": 0,
@@ -5362,7 +5362,7 @@
   "rights": "credited_third_party",
   "used_in": [],
   "duplicate_of": null,
-  "seen_at": "2026-11-26T20:17:11+00:00",
+  "seen_at": "2026-11-26T20:18:33+00:00",
   "radar": {
    "momentum": 0.5,
    "topic_match": 0,
@@ -5396,7 +5396,7 @@
   "rights": "credited_third_party",
   "used_in": [],
   "duplicate_of": null,
-  "seen_at": "2026-11-26T20:17:11+00:00",
+  "seen_at": "2026-11-26T20:18:33+00:00",
   "radar": {
    "momentum": 0.0,
    "topic_match": 0,
@@ -5430,7 +5430,7 @@
   "rights": "credited_third_party",
   "used_in": [],
   "duplicate_of": null,
-  "seen_at": "2026-11-26T20:17:11+00:00",
+  "seen_at": "2026-11-26T20:18:33+00:00",
   "radar": {
    "momentum": 0.0,
    "topic_match": 0,
@@ -5464,7 +5464,7 @@
   "rights": "credited_third_party",
   "used_in": [],
   "duplicate_of": null,
-  "seen_at": "2026-11-26T20:17:11+00:00",
+  "seen_at": "2026-11-26T20:18:33+00:00",
   "radar": {
    "momentum": 0.0,
    "topic_match": 0,
@@ -5498,7 +5498,7 @@
   "rights": "credited_third_party",
   "used_in": [],
   "duplicate_of": null,
-  "seen_at": "2026-11-26T20:17:11+00:00",
+  "seen_at": "2026-11-26T20:18:33+00:00",
   "radar": {
    "momentum": 0.5,
    "topic_match": 0,
@@ -5532,7 +5532,7 @@
   "rights": "credited_third_party",
   "used_in": [],
   "duplicate_of": null,
-  "seen_at": "2026-11-26T20:17:11+00:00",
+  "seen_at": "2026-11-26T20:18:33+00:00",
   "radar": {
    "momentum": 0.0,
    "topic_match": 0,
@@ -5566,7 +5566,7 @@
   "rights": "credited_third_party",
   "used_in": [],
   "duplicate_of": null,
-  "seen_at": "2026-11-26T20:17:11+00:00",
+  "seen_at": "2026-11-26T20:18:33+00:00",
   "radar": {
    "momentum": 1.2,
    "topic_match": 0,
@@ -5600,7 +5600,7 @@
   "rights": "credited_third_party",
   "used_in": [],
   "duplicate_of": null,
-  "seen_at": "2026-11-26T20:17:11+00:00",
+  "seen_at": "2026-11-26T20:18:33+00:00",
   "radar": {
    "momentum": 0.0,
    "topic_match": 0,
@@ -5634,7 +5634,7 @@
   "rights": "credited_third_party",
   "used_in": [],
   "duplicate_of": null,
-  "seen_at": "2026-11-26T20:17:11+00:00",
+  "seen_at": "2026-11-26T20:18:33+00:00",
   "radar": {
    "momentum": 1.7,
    "topic_match": 0,
@@ -5668,7 +5668,7 @@
   "rights": "credited_third_party",
   "used_in": [],
   "duplicate_of": null,
-  "seen_at": "2026-11-26T20:17:11+00:00",
+  "seen_at": "2026-11-26T20:18:33+00:00",
   "radar": {
    "momentum": 0.0,
    "topic_match": 0,
@@ -5702,7 +5702,7 @@
   "rights": "credited_third_party",
   "used_in": [],
   "duplicate_of": null,
-  "seen_at": "2026-11-26T20:17:11+00:00",
+  "seen_at": "2026-11-26T20:18:33+00:00",
   "radar": {
    "momentum": 0.0,
    "topic_match": 0,
@@ -5736,7 +5736,7 @@
   "rights": "credited_third_party",
   "used_in": [],
   "duplicate_of": null,
-  "seen_at": "2026-11-26T20:17:11+00:00",
+  "seen_at": "2026-11-26T20:18:33+00:00",
   "radar": {
    "momentum": 0.0,
    "topic_match": 0,
@@ -5770,7 +5770,7 @@
   "rights": "credited_third_party",
   "used_in": [],
   "duplicate_of": null,
-  "seen_at": "2026-11-26T20:17:11+00:00",
+  "seen_at": "2026-11-26T20:18:33+00:00",
   "radar": {
    "momentum": 1.2,
    "topic_match": 0,
@@ -5804,7 +5804,7 @@
   "rights": "credited_third_party",
   "used_in": [],
   "duplicate_of": null,
-  "seen_at": "2026-11-26T20:17:11+00:00",
+  "seen_at": "2026-11-26T20:18:33+00:00",
   "radar": {
    "momentum": 2.4,
    "topic_match": 0,
@@ -5838,7 +5838,7 @@
   "rights": "credited_third_party",
   "used_in": [],
   "duplicate_of": null,
-  "seen_at": "2026-11-26T20:17:11+00:00",
+  "seen_at": "2026-11-26T20:18:33+00:00",
   "radar": {
    "momentum": 0.5,
    "topic_match": 0,
@@ -5872,7 +5872,7 @@
   "rights": "credited_third_party",
   "used_in": [],
   "duplicate_of": null,
-  "seen_at": "2026-11-26T20:17:11+00:00",
+  "seen_at": "2026-11-26T20:18:33+00:00",
   "radar": {
    "momentum": 0.0,
    "topic_match": 0,
@@ -5906,7 +5906,7 @@
   "rights": "credited_third_party",
   "used_in": [],
   "duplicate_of": null,
-  "seen_at": "2026-11-26T20:17:11+00:00",
+  "seen_at": "2026-11-26T20:18:33+00:00",
   "radar": {
    "momentum": 1.2,
    "topic_match": 5,
@@ -5944,7 +5944,7 @@
   "rights": "credited_third_party",
   "used_in": [],
   "duplicate_of": null,
-  "seen_at": "2026-11-26T20:17:11+00:00",
+  "seen_at": "2026-11-26T20:18:33+00:00",
   "radar": {
    "momentum": 0.0,
    "topic_match": 0,
@@ -5978,7 +5978,7 @@
   "rights": "credited_third_party",
   "used_in": [],
   "duplicate_of": null,
-  "seen_at": "2026-11-26T20:17:11+00:00",
+  "seen_at": "2026-11-26T20:18:33+00:00",
   "radar": {
    "momentum": 0.5,
    "topic_match": 0,
@@ -6012,7 +6012,7 @@
   "rights": "credited_third_party",
   "used_in": [],
   "duplicate_of": null,
-  "seen_at": "2026-11-26T20:17:11+00:00",
+  "seen_at": "2026-11-26T20:18:33+00:00",
   "radar": {
    "momentum": 0.0,
    "topic_match": 0,
@@ -6046,7 +6046,7 @@
   "rights": "credited_third_party",
   "used_in": [],
   "duplicate_of": null,
-  "seen_at": "2026-11-26T20:17:11+00:00",
+  "seen_at": "2026-11-26T20:18:33+00:00",
   "radar": {
    "momentum": 0.5,
    "topic_match": 0,
@@ -6080,7 +6080,7 @@
   "rights": "credited_third_party",
   "used_in": [],
   "duplicate_of": null,
-  "seen_at": "2026-11-26T20:17:11+00:00",
+  "seen_at": "2026-11-26T20:18:33+00:00",
   "radar": {
    "momentum": 0.0,
    "topic_match": 0,
@@ -6114,7 +6114,7 @@
   "rights": "credited_third_party",
   "used_in": [],
   "duplicate_of": null,
-  "seen_at": "2026-11-26T20:17:11+00:00",
+  "seen_at": "2026-11-26T20:18:33+00:00",
   "radar": {
    "momentum": 0.5,
    "topic_match": 0,
@@ -6148,7 +6148,7 @@
   "rights": "credited_third_party",
   "used_in": [],
   "duplicate_of": null,
-  "seen_at": "2026-11-26T20:17:11+00:00",
+  "seen_at": "2026-11-26T20:18:33+00:00",
   "radar": {
    "momentum": 0.5,
    "topic_match": 0,
@@ -6182,7 +6182,7 @@
   "rights": "credited_third_party",
   "used_in": [],
   "duplicate_of": null,
-  "seen_at": "2026-11-26T20:17:11+00:00",
+  "seen_at": "2026-11-26T20:18:33+00:00",
   "radar": {
    "momentum": 0.5,
    "topic_match": 0,
@@ -6216,7 +6216,7 @@
   "rights": "credited_third_party",
   "used_in": [],
   "duplicate_of": null,
-  "seen_at": "2026-11-26T20:17:11+00:00",
+  "seen_at": "2026-11-26T20:18:33+00:00",
   "radar": {
    "momentum": 0.0,
    "topic_match": 0,
@@ -6250,7 +6250,7 @@
   "rights": "credited_third_party",
   "used_in": [],
   "duplicate_of": null,
-  "seen_at": "2026-11-26T20:17:11+00:00",
+  "seen_at": "2026-11-26T20:18:33+00:00",
   "radar": {
    "momentum": 0.0,
    "topic_match": 0,
@@ -6284,7 +6284,7 @@
   "rights": "credited_third_party",
   "used_in": [],
   "duplicate_of": null,
-  "seen_at": "2026-11-26T20:17:11+00:00",
+  "seen_at": "2026-11-26T20:18:33+00:00",
   "radar": {
    "momentum": 0.0,
    "topic_match": 0,
@@ -6318,7 +6318,7 @@
   "rights": "credited_third_party",
   "used_in": [],
   "duplicate_of": null,
-  "seen_at": "2026-11-26T20:17:11+00:00",
+  "seen_at": "2026-11-26T20:18:33+00:00",
   "radar": {
    "momentum": 2.9,
    "topic_match": 0,
@@ -6352,7 +6352,7 @@
   "rights": "credited_third_party",
   "used_in": [],
   "duplicate_of": null,
-  "seen_at": "2026-11-26T20:17:11+00:00",
+  "seen_at": "2026-11-26T20:18:33+00:00",
   "radar": {
    "momentum": 0.0,
    "topic_match": 0,
@@ -6386,7 +6386,7 @@
   "rights": "credited_third_party",
   "used_in": [],
   "duplicate_of": null,
-  "seen_at": "2026-11-26T20:17:11+00:00",
+  "seen_at": "2026-11-26T20:18:33+00:00",
   "radar": {
    "momentum": 0.9,
    "topic_match": 0,
@@ -6420,7 +6420,7 @@
   "rights": "credited_third_party",
   "used_in": [],
   "duplicate_of": null,
-  "seen_at": "2026-11-26T20:17:11+00:00",
+  "seen_at": "2026-11-26T20:18:33+00:00",
   "radar": {
    "momentum": 0.5,
    "topic_match": 0,
@@ -6454,7 +6454,7 @@
   "rights": "credited_third_party",
   "used_in": [],
   "duplicate_of": null,
-  "seen_at": "2026-11-26T20:17:11+00:00",
+  "seen_at": "2026-11-26T20:18:33+00:00",
   "radar": {
    "momentum": 0.5,
    "topic_match": 0,
@@ -6488,7 +6488,7 @@
   "rights": "credited_third_party",
   "used_in": [],
   "duplicate_of": null,
-  "seen_at": "2026-11-26T20:17:11+00:00",
+  "seen_at": "2026-11-26T20:18:33+00:00",
   "radar": {
    "momentum": 0.0,
    "topic_match": 0,
@@ -6522,7 +6522,7 @@
   "rights": "credited_third_party",
   "used_in": [],
   "duplicate_of": null,
-  "seen_at": "2026-11-26T20:17:11+00:00",
+  "seen_at": "2026-11-26T20:18:33+00:00",
   "radar": {
    "momentum": 0.0,
    "topic_match": 0,
@@ -6556,7 +6556,7 @@
   "rights": "credited_third_party",
   "used_in": [],
   "duplicate_of": null,
-  "seen_at": "2026-11-26T20:17:11+00:00",
+  "seen_at": "2026-11-26T20:18:33+00:00",
   "radar": {
    "momentum": 0.0,
    "topic_match": 0,
@@ -6590,7 +6590,7 @@
   "rights": "credited_third_party",
   "used_in": [],
   "duplicate_of": null,
-  "seen_at": "2026-11-26T20:17:11+00:00",
+  "seen_at": "2026-11-26T20:18:33+00:00",
   "radar": {
    "momentum": 0.0,
    "topic_match": 0,
@@ -6624,7 +6624,7 @@
   "rights": "credited_third_party",
   "used_in": [],
   "duplicate_of": null,
-  "seen_at": "2026-11-26T20:17:11+00:00",
+  "seen_at": "2026-11-26T20:18:33+00:00",
   "radar": {
    "momentum": 0.5,
    "topic_match": 0,
@@ -6658,7 +6658,7 @@
   "rights": "credited_third_party",
   "used_in": [],
   "duplicate_of": null,
-  "seen_at": "2026-11-26T20:17:11+00:00",
+  "seen_at": "2026-11-26T20:18:33+00:00",
   "radar": {
    "momentum": 0.9,
    "topic_match": 0,
@@ -6692,7 +6692,7 @@
   "rights": "credited_third_party",
   "used_in": [],
   "duplicate_of": null,
-  "seen_at": "2026-11-26T20:17:11+00:00",
+  "seen_at": "2026-11-26T20:18:33+00:00",
   "radar": {
    "momentum": 0.0,
    "topic_match": 0,
@@ -6726,7 +6726,7 @@
   "rights": "credited_third_party",
   "used_in": [],
   "duplicate_of": null,
-  "seen_at": "2026-11-26T20:17:11+00:00",
+  "seen_at": "2026-11-26T20:18:33+00:00",
   "radar": {
    "momentum": 0.0,
    "topic_match": 0,
@@ -6760,7 +6760,7 @@
   "rights": "credited_third_party",
   "used_in": [],
   "duplicate_of": null,
-  "seen_at": "2026-11-26T20:17:11+00:00",
+  "seen_at": "2026-11-26T20:18:33+00:00",
   "radar": {
    "momentum": 0.5,
    "topic_match": 5,
@@ -6798,7 +6798,7 @@
   "rights": "credited_third_party",
   "used_in": [],
   "duplicate_of": null,
-  "seen_at": "2026-11-26T20:17:11+00:00",
+  "seen_at": "2026-11-26T20:18:33+00:00",
   "radar": {
    "momentum": 0.0,
    "topic_match": 0,
@@ -6832,7 +6832,7 @@
   "rights": "credited_third_party",
   "used_in": [],
   "duplicate_of": null,
-  "seen_at": "2026-11-26T20:17:11+00:00",
+  "seen_at": "2026-11-26T20:18:33+00:00",
   "radar": {
    "momentum": 0.9,
    "topic_match": 0,
@@ -6866,7 +6866,7 @@
   "rights": "credited_third_party",
   "used_in": [],
   "duplicate_of": null,
-  "seen_at": "2026-11-26T20:17:11+00:00",
+  "seen_at": "2026-11-26T20:18:33+00:00",
   "radar": {
    "momentum": 0.0,
    "topic_match": 0,
@@ -6900,7 +6900,7 @@
   "rights": "credited_third_party",
   "used_in": [],
   "duplicate_of": null,
-  "seen_at": "2026-11-26T20:17:11+00:00",
+  "seen_at": "2026-11-26T20:18:33+00:00",
   "radar": {
    "momentum": 1.2,
    "topic_match": 0,
@@ -6934,7 +6934,7 @@
   "rights": "credited_third_party",
   "used_in": [],
   "duplicate_of": null,
-  "seen_at": "2026-11-26T20:17:11+00:00",
+  "seen_at": "2026-11-26T20:18:33+00:00",
   "radar": {
    "momentum": 0.9,
    "topic_match": 0,
@@ -6968,7 +6968,7 @@
   "rights": "credited_third_party",
   "used_in": [],
   "duplicate_of": null,
-  "seen_at": "2026-11-26T20:17:11+00:00",
+  "seen_at": "2026-11-26T20:18:33+00:00",
   "radar": {
    "momentum": 0.0,
    "topic_match": 0,
@@ -7002,7 +7002,7 @@
   "rights": "credited_third_party",
   "used_in": [],
   "duplicate_of": null,
-  "seen_at": "2026-11-26T20:17:11+00:00",
+  "seen_at": "2026-11-26T20:18:33+00:00",
   "radar": {
    "momentum": 0.9,
    "topic_match": 0,
@@ -7036,7 +7036,7 @@
   "rights": "credited_third_party",
   "used_in": [],
   "duplicate_of": null,
-  "seen_at": "2026-11-26T20:17:11+00:00",
+  "seen_at": "2026-11-26T20:18:33+00:00",
   "radar": {
    "momentum": 0.0,
    "topic_match": 0,
@@ -7070,7 +7070,7 @@
   "rights": "credited_third_party",
   "used_in": [],
   "duplicate_of": null,
-  "seen_at": "2026-11-26T20:17:11+00:00",
+  "seen_at": "2026-11-26T20:18:33+00:00",
   "radar": {
    "momentum": 0.0,
    "topic_match": 0,
@@ -7104,7 +7104,7 @@
   "rights": "credited_third_party",
   "used_in": [],
   "duplicate_of": null,
-  "seen_at": "2026-11-26T20:17:11+00:00",
+  "seen_at": "2026-11-26T20:18:33+00:00",
   "radar": {
    "momentum": 0.0,
    "topic_match": 0,
@@ -7138,7 +7138,7 @@
   "rights": "credited_third_party",
   "used_in": [],
   "duplicate_of": null,
-  "seen_at": "2026-11-26T20:17:11+00:00",
+  "seen_at": "2026-11-26T20:18:33+00:00",
   "radar": {
    "momentum": 0.9,
    "topic_match": 0,
@@ -7172,7 +7172,7 @@
   "rights": "credited_third_party",
   "used_in": [],
   "duplicate_of": null,
-  "seen_at": "2026-11-26T20:17:11+00:00",
+  "seen_at": "2026-11-26T20:18:33+00:00",
   "radar": {
    "momentum": 0.0,
    "topic_match": 5,
@@ -7210,7 +7210,7 @@
   "rights": "credited_third_party",
   "used_in": [],
   "duplicate_of": null,
-  "seen_at": "2026-11-26T20:17:11+00:00",
+  "seen_at": "2026-11-26T20:18:33+00:00",
   "radar": {
    "momentum": 0.5,
    "topic_match": 5,
@@ -7248,7 +7248,7 @@
   "rights": "credited_third_party",
   "used_in": [],
   "duplicate_of": null,
-  "seen_at": "2026-11-26T20:17:11+00:00",
+  "seen_at": "2026-11-26T20:18:33+00:00",
   "radar": {
    "momentum": 0.0,
    "topic_match": 0,
@@ -7282,7 +7282,7 @@
   "rights": "credited_third_party",
   "used_in": [],
   "duplicate_of": null,
-  "seen_at": "2026-11-26T20:17:11+00:00",
+  "seen_at": "2026-11-26T20:18:33+00:00",
   "radar": {
    "momentum": 0.5,
    "topic_match": 0,
@@ -7316,7 +7316,7 @@
   "rights": "credited_third_party",
   "used_in": [],
   "duplicate_of": null,
-  "seen_at": "2026-11-26T20:17:11+00:00",
+  "seen_at": "2026-11-26T20:18:33+00:00",
   "radar": {
    "momentum": 1.2,
    "topic_match": 0,
@@ -7350,7 +7350,7 @@
   "rights": "credited_third_party",
   "used_in": [],
   "duplicate_of": null,
-  "seen_at": "2026-11-26T20:17:11+00:00",
+  "seen_at": "2026-11-26T20:18:33+00:00",
   "radar": {
    "momentum": 0.5,
    "topic_match": 0,
@@ -7384,7 +7384,7 @@
   "rights": "credited_third_party",
   "used_in": [],
   "duplicate_of": null,
-  "seen_at": "2026-11-26T20:17:11+00:00",
+  "seen_at": "2026-11-26T20:18:33+00:00",
   "radar": {
    "momentum": 0.0,
    "topic_match": 0,
@@ -7418,7 +7418,7 @@
   "rights": "credited_third_party",
   "used_in": [],
   "duplicate_of": null,
-  "seen_at": "2026-11-26T20:17:11+00:00",
+  "seen_at": "2026-11-26T20:18:33+00:00",
   "radar": {
    "momentum": 0.5,
    "topic_match": 0,
@@ -7427,6 +7427,414 @@
    "freshness": 10.0,
    "short_enough": 2,
    "priority": 2.9,
+   "topics": []
+  },
+  "origin": "original"
+ },
+ "clip_01M8CR502VV4BSRXJN7B0J0ACA": {
+  "id": "clip_01M8CR502VV4BSRXJN7B0J0ACA",
+  "source": "kick",
+  "creator": "itsnitsi",
+  "channel_id": 106864665,
+  "livestream_id": "140388016",
+  "title": "lakadbakka moreon",
+  "url": "https://kick.com/itsnitsi/clips/clip_01M8CR502VV4BSRXJN7B0J0ACA",
+  "media_url": "https://clips.kick.com/clips/b9/clip_01M8CR502VV4BSRXJN7B0J0ACA/playlist.m3u8",
+  "thumbnail": "https://clips.kick.com/clips/b9/clip_01M8CR502VV4BSRXJN7B0J0ACA/thumbnail.webp",
+  "views": 0,
+  "duration": 60,
+  "created_at": "2026-11-26T20:18:33.565392Z",
+  "vod_starts_at": 0,
+  "is_mature": true,
+  "discovered_at": "2026-11-26T20:18:35+00:00",
+  "status": "discovered",
+  "authenticity": "unchecked",
+  "rights": "credited_third_party",
+  "used_in": [],
+  "duplicate_of": null,
+  "seen_at": "2026-11-26T20:18:33+00:00",
+  "radar": {
+   "momentum": 0.0,
+   "topic_match": 0,
+   "originality": 8,
+   "french": 3,
+   "freshness": 10.0,
+   "short_enough": 10,
+   "priority": 3.5,
+   "topics": []
+  },
+  "origin": "original"
+ },
+ "clip_01M8CR4QTGAVFG54N61XMZKQFQ": {
+  "id": "clip_01M8CR4QTGAVFG54N61XMZKQFQ",
+  "source": "kick",
+  "creator": "renatogarcia",
+  "channel_id": 124585652,
+  "livestream_id": "140438298",
+  "title": "fgghu",
+  "url": "https://kick.com/renatogarcia/clips/clip_01M8CR4QTGAVFG54N61XMZKQFQ",
+  "media_url": "https://clips.kick.com/clips/40/clip_01M8CR4QTGAVFG54N61XMZKQFQ/master.m3u8",
+  "thumbnail": "https://clips.kick.com/clips/40/clip_01M8CR4QTGAVFG54N61XMZKQFQ/thumbnail.webp",
+  "views": 0,
+  "duration": 44,
+  "created_at": "2026-11-26T20:18:30.774957Z",
+  "vod_starts_at": 0,
+  "is_mature": true,
+  "discovered_at": "2026-11-26T20:18:35+00:00",
+  "status": "discovered",
+  "authenticity": "unchecked",
+  "rights": "credited_third_party",
+  "used_in": [],
+  "duplicate_of": null,
+  "seen_at": "2026-11-26T20:18:33+00:00",
+  "radar": {
+   "momentum": 0.0,
+   "topic_match": 0,
+   "originality": 8,
+   "french": 3,
+   "freshness": 10.0,
+   "short_enough": 10,
+   "priority": 3.5,
+   "topics": []
+  },
+  "origin": "original"
+ },
+ "clip_01M8CR49XERVE0YCS9540B538P": {
+  "id": "clip_01M8CR49XERVE0YCS9540B538P",
+  "source": "kick",
+  "creator": "teripsyche",
+  "channel_id": 5388821,
+  "livestream_id": "140424298",
+  "title": "Teri si je fotí :O ",
+  "url": "https://kick.com/teripsyche/clips/clip_01M8CR49XERVE0YCS9540B538P",
+  "media_url": "https://clips.kick.com/clips/9e/clip_01M8CR49XERVE0YCS9540B538P/playlist.m3u8",
+  "thumbnail": "https://clips.kick.com/clips/9e/clip_01M8CR49XERVE0YCS9540B538P/thumbnail.webp",
+  "views": 0,
+  "duration": 18,
+  "created_at": "2026-11-26T20:18:35.773641Z",
+  "vod_starts_at": 0,
+  "is_mature": true,
+  "discovered_at": "2026-11-26T20:18:35+00:00",
+  "status": "discovered",
+  "authenticity": "unchecked",
+  "rights": "credited_third_party",
+  "used_in": [],
+  "duplicate_of": null,
+  "seen_at": "2026-11-26T20:18:33+00:00",
+  "radar": {
+   "momentum": 0.0,
+   "topic_match": 0,
+   "originality": 8,
+   "french": 3,
+   "freshness": 10.0,
+   "short_enough": 10,
+   "priority": 3.5,
+   "topics": []
+  },
+  "origin": "original"
+ },
+ "clip_01M8CR469NN4G4VR3MDT1Q7NAY": {
+  "id": "clip_01M8CR469NN4G4VR3MDT1Q7NAY",
+  "source": "kick",
+  "creator": "raoufbelkacemi",
+  "channel_id": 20834754,
+  "livestream_id": "140421605",
+  "title": "غلللا",
+  "url": "https://kick.com/raoufbelkacemi/clips/clip_01M8CR469NN4G4VR3MDT1Q7NAY",
+  "media_url": "https://clips.kick.com/clips/9a/clip_01M8CR469NN4G4VR3MDT1Q7NAY/playlist.m3u8",
+  "thumbnail": "https://clips.kick.com/clips/9a/clip_01M8CR469NN4G4VR3MDT1Q7NAY/thumbnail.webp",
+  "views": 0,
+  "duration": 76,
+  "created_at": "2026-11-26T20:18:10.38633Z",
+  "vod_starts_at": 0,
+  "is_mature": true,
+  "discovered_at": "2026-11-26T20:18:35+00:00",
+  "status": "discovered",
+  "authenticity": "unchecked",
+  "rights": "credited_third_party",
+  "used_in": [],
+  "duplicate_of": null,
+  "seen_at": "2026-11-26T20:18:33+00:00",
+  "radar": {
+   "momentum": 0.0,
+   "topic_match": 0,
+   "originality": 8,
+   "french": 3,
+   "freshness": 10.0,
+   "short_enough": 2,
+   "priority": 2.7,
+   "topics": []
+  },
+  "origin": "original"
+ },
+ "clip_01M8CR3KZ97QV7RSF6AE197CHZ": {
+  "id": "clip_01M8CR3KZ97QV7RSF6AE197CHZ",
+  "source": "kick",
+  "creator": "iaaras2",
+  "channel_id": 101795,
+  "livestream_id": "140415143",
+  "title": "Auto marca COQUETTE",
+  "url": "https://kick.com/iaaras2/clips/clip_01M8CR3KZ97QV7RSF6AE197CHZ",
+  "media_url": "https://clips.kick.com/clips/3a/clip_01M8CR3KZ97QV7RSF6AE197CHZ/playlist.m3u8",
+  "thumbnail": "https://clips.kick.com/clips/3a/clip_01M8CR3KZ97QV7RSF6AE197CHZ/thumbnail.webp",
+  "views": 0,
+  "duration": 68,
+  "created_at": "2026-11-26T20:18:08.063742Z",
+  "vod_starts_at": 0,
+  "is_mature": true,
+  "discovered_at": "2026-11-26T20:18:35+00:00",
+  "status": "discovered",
+  "authenticity": "unchecked",
+  "rights": "credited_third_party",
+  "used_in": [],
+  "duplicate_of": null,
+  "seen_at": "2026-11-26T20:18:33+00:00",
+  "radar": {
+   "momentum": 0.0,
+   "topic_match": 0,
+   "originality": 8,
+   "french": 3,
+   "freshness": 10.0,
+   "short_enough": 2,
+   "priority": 2.7,
+   "topics": []
+  },
+  "origin": "original"
+ },
+ "clip_01M8CR34A88XDY03KQ9AWJXKN6": {
+  "id": "clip_01M8CR34A88XDY03KQ9AWJXKN6",
+  "source": "kick",
+  "creator": "davyjones",
+  "channel_id": 138283795,
+  "livestream_id": "140393710",
+  "title": "Davy Jones acha ritual no GTA 6 ",
+  "url": "https://kick.com/davyjones/clips/clip_01M8CR34A88XDY03KQ9AWJXKN6",
+  "media_url": "https://clips.kick.com/clips/71/clip_01M8CR34A88XDY03KQ9AWJXKN6/master.m3u8",
+  "thumbnail": "https://clips.kick.com/clips/71/clip_01M8CR34A88XDY03KQ9AWJXKN6/thumbnail.webp",
+  "views": 0,
+  "duration": 180,
+  "created_at": "2026-11-26T20:17:46.187215Z",
+  "vod_starts_at": 0,
+  "is_mature": true,
+  "discovered_at": "2026-11-26T20:18:35+00:00",
+  "status": "discovered",
+  "authenticity": "unchecked",
+  "rights": "credited_third_party",
+  "used_in": [],
+  "duplicate_of": null,
+  "seen_at": "2026-11-26T20:18:33+00:00",
+  "radar": {
+   "momentum": 0.0,
+   "topic_match": 0,
+   "originality": 8,
+   "french": 3,
+   "freshness": 10.0,
+   "short_enough": 2,
+   "priority": 2.7,
+   "topics": []
+  },
+  "origin": "original"
+ },
+ "clip_01M8CR32XX4SF3EXQHXDMMQKZ4": {
+  "id": "clip_01M8CR32XX4SF3EXQHXDMMQKZ4",
+  "source": "kick",
+  "creator": "wassimostv",
+  "channel_id": 8602316,
+  "livestream_id": "140416154",
+  "title": "lucia is good ",
+  "url": "https://kick.com/wassimostv/clips/clip_01M8CR32XX4SF3EXQHXDMMQKZ4",
+  "media_url": "https://clips.kick.com/clips/08/clip_01M8CR32XX4SF3EXQHXDMMQKZ4/playlist.m3u8",
+  "thumbnail": "https://clips.kick.com/clips/08/clip_01M8CR32XX4SF3EXQHXDMMQKZ4/thumbnail.webp",
+  "views": 0,
+  "duration": 180,
+  "created_at": "2026-11-26T20:17:48.167074Z",
+  "vod_starts_at": 0,
+  "is_mature": true,
+  "discovered_at": "2026-11-26T20:18:35+00:00",
+  "status": "discovered",
+  "authenticity": "unchecked",
+  "rights": "credited_third_party",
+  "used_in": [],
+  "duplicate_of": null,
+  "seen_at": "2026-11-26T20:18:33+00:00",
+  "radar": {
+   "momentum": 0.0,
+   "topic_match": 0,
+   "originality": 8,
+   "french": 3,
+   "freshness": 10.0,
+   "short_enough": 2,
+   "priority": 2.7,
+   "topics": []
+  },
+  "origin": "original"
+ },
+ "clip_01M8CR2V04Q5JS4YRFQ82X0Y2N": {
+  "id": "clip_01M8CR2V04Q5JS4YRFQ82X0Y2N",
+  "source": "kick",
+  "creator": "djoo-dz",
+  "channel_id": 53974531,
+  "livestream_id": "140442732",
+  "title": "Goooool",
+  "url": "https://kick.com/djoo-dz/clips/clip_01M8CR2V04Q5JS4YRFQ82X0Y2N",
+  "media_url": "https://clips.kick.com/clips/74/clip_01M8CR2V04Q5JS4YRFQ82X0Y2N/playlist.m3u8",
+  "thumbnail": "https://clips.kick.com/clips/74/clip_01M8CR2V04Q5JS4YRFQ82X0Y2N/thumbnail.webp",
+  "views": 0,
+  "duration": 26,
+  "created_at": "2026-11-26T20:18:11.209267Z",
+  "vod_starts_at": 0,
+  "is_mature": true,
+  "discovered_at": "2026-11-26T20:18:35+00:00",
+  "status": "discovered",
+  "authenticity": "unchecked",
+  "rights": "credited_third_party",
+  "used_in": [],
+  "duplicate_of": null,
+  "seen_at": "2026-11-26T20:18:33+00:00",
+  "radar": {
+   "momentum": 0.0,
+   "topic_match": 0,
+   "originality": 8,
+   "french": 3,
+   "freshness": 10.0,
+   "short_enough": 10,
+   "priority": 3.5,
+   "topics": []
+  },
+  "origin": "original"
+ },
+ "clip_01M8CR2EG5AA8Y2PGHC57K6HGM": {
+  "id": "clip_01M8CR2EG5AA8Y2PGHC57K6HGM",
+  "source": "kick",
+  "creator": "cacauziinha",
+  "channel_id": 49109182,
+  "livestream_id": "140360807",
+  "title": "acompamento limpo",
+  "url": "https://kick.com/cacauziinha/clips/clip_01M8CR2EG5AA8Y2PGHC57K6HGM",
+  "media_url": "https://clips.kick.com/clips/c2/clip_01M8CR2EG5AA8Y2PGHC57K6HGM/playlist.m3u8",
+  "thumbnail": "https://clips.kick.com/clips/c2/clip_01M8CR2EG5AA8Y2PGHC57K6HGM/thumbnail.webp",
+  "views": 1,
+  "duration": 112,
+  "created_at": "2026-11-26T20:17:35.524044Z",
+  "vod_starts_at": 0,
+  "is_mature": true,
+  "discovered_at": "2026-11-26T20:18:35+00:00",
+  "status": "discovered",
+  "authenticity": "unchecked",
+  "rights": "credited_third_party",
+  "used_in": [],
+  "duplicate_of": null,
+  "seen_at": "2026-11-26T20:18:33+00:00",
+  "radar": {
+   "momentum": 0.5,
+   "topic_match": 0,
+   "originality": 8,
+   "french": 3,
+   "freshness": 10.0,
+   "short_enough": 2,
+   "priority": 2.9,
+   "topics": []
+  },
+  "origin": "original"
+ },
+ "clip_01M8CR1WDPMQGM1E881XYCK9NT": {
+  "id": "clip_01M8CR1WDPMQGM1E881XYCK9NT",
+  "source": "kick",
+  "creator": "renatogarcia",
+  "channel_id": 124585652,
+  "livestream_id": "140438298",
+  "title": "Renato culpou o Aruan",
+  "url": "https://kick.com/renatogarcia/clips/clip_01M8CR1WDPMQGM1E881XYCK9NT",
+  "media_url": "https://clips.kick.com/clips/c7/clip_01M8CR1WDPMQGM1E881XYCK9NT/master.m3u8",
+  "thumbnail": "https://clips.kick.com/clips/c7/clip_01M8CR1WDPMQGM1E881XYCK9NT/thumbnail.webp",
+  "views": 0,
+  "duration": 32,
+  "created_at": "2026-11-26T20:18:01.9679Z",
+  "vod_starts_at": 0,
+  "is_mature": true,
+  "discovered_at": "2026-11-26T20:18:35+00:00",
+  "status": "discovered",
+  "authenticity": "unchecked",
+  "rights": "credited_third_party",
+  "used_in": [],
+  "duplicate_of": null,
+  "seen_at": "2026-11-26T20:18:33+00:00",
+  "radar": {
+   "momentum": 0.0,
+   "topic_match": 0,
+   "originality": 8,
+   "french": 3,
+   "freshness": 10.0,
+   "short_enough": 10,
+   "priority": 3.5,
+   "topics": []
+  },
+  "origin": "original"
+ },
+ "clip_01M8CR08G7882FR1PBFXHC595X": {
+  "id": "clip_01M8CR08G7882FR1PBFXHC595X",
+  "source": "kick",
+  "creator": "mixmixdanger",
+  "channel_id": 53317451,
+  "livestream_id": "140434281",
+  "title": "баскетболист",
+  "url": "https://kick.com/mixmixdanger/clips/clip_01M8CR08G7882FR1PBFXHC595X",
+  "media_url": "https://clips.kick.com/clips/d1/clip_01M8CR08G7882FR1PBFXHC595X/playlist.m3u8",
+  "thumbnail": "https://clips.kick.com/clips/d1/clip_01M8CR08G7882FR1PBFXHC595X/thumbnail.webp",
+  "views": 0,
+  "duration": 20,
+  "created_at": "2026-11-26T20:17:16.784773Z",
+  "vod_starts_at": 0,
+  "is_mature": true,
+  "discovered_at": "2026-11-26T20:18:35+00:00",
+  "status": "discovered",
+  "authenticity": "unchecked",
+  "rights": "credited_third_party",
+  "used_in": [],
+  "duplicate_of": null,
+  "seen_at": "2026-11-26T20:18:33+00:00",
+  "radar": {
+   "momentum": 0.0,
+   "topic_match": 0,
+   "originality": 8,
+   "french": 3,
+   "freshness": 10.0,
+   "short_enough": 10,
+   "priority": 3.5,
+   "topics": []
+  },
+  "origin": "original"
+ },
+ "clip_01M8CR07B3375MCYK9NCAKQ6QK": {
+  "id": "clip_01M8CR07B3375MCYK9NCAKQ6QK",
+  "source": "kick",
+  "creator": "herny",
+  "channel_id": 4317477,
+  "livestream_id": "140439313",
+  "title": "soy un hombre fornido obvi",
+  "url": "https://kick.com/herny/clips/clip_01M8CR07B3375MCYK9NCAKQ6QK",
+  "media_url": "https://clips.kick.com/clips/1a/clip_01M8CR07B3375MCYK9NCAKQ6QK/playlist.m3u8",
+  "thumbnail": "https://clips.kick.com/clips/1a/clip_01M8CR07B3375MCYK9NCAKQ6QK/thumbnail.webp",
+  "views": 0,
+  "duration": 40,
+  "created_at": "2026-11-26T20:18:08.193649Z",
+  "vod_starts_at": 0,
+  "is_mature": true,
+  "discovered_at": "2026-11-26T20:18:35+00:00",
+  "status": "discovered",
+  "authenticity": "unchecked",
+  "rights": "credited_third_party",
+  "used_in": [],
+  "duplicate_of": null,
+  "seen_at": "2026-11-26T20:18:33+00:00",
+  "radar": {
+   "momentum": 0.0,
+   "topic_match": 0,
+   "originality": 8,
+   "french": 3,
+   "freshness": 10.0,
+   "short_enough": 10,
+   "priority": 3.5,
    "topics": []
   },
   "origin": "original"
