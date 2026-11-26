@@ -182,5 +182,50 @@
   "slot": "2026-11-26T04:23:46+00:00",
   "youtube": "hold: waiting for YouTube API audit",
   "tiktok": "hold: waiting for TikTok app approval"
+ },
+ {
+  "id": "20261126-0743-maherco-clip01",
+  "streamer": "maherco",
+  "created": "2026-11-26T07:43:14+00:00",
+  "video_url": "https://github.com/salahemd19/gta6-bot/releases/download/clips/20261126-0743-maherco-clip01.mp4",
+  "title": "ATTENDS LA FIN 😱 maherco sur GTA 6",
+  "youtube_description": "Clip du live de maherco sur Kick.\n\n#GTA6 #GTAVI #Shorts",
+  "tiktok_caption": "ATTENDS LA FIN 😱 maherco sur GTA 6 #GTA6 #GTAVI #maherco #Kick #pourtoi #fyp",
+  "youtube_privacy": "public",
+  "score": 1.671,
+  "motion": 14.0,
+  "slot": "2026-11-26T07:43:14+00:00",
+  "youtube": "hold: waiting for YouTube API audit",
+  "tiktok": "hold: waiting for TikTok app approval"
+ },
+ {
+  "id": "20261126-0743-theburntpeanut-clip02",
+  "streamer": "theburntpeanut",
+  "created": "2026-11-26T07:43:14+00:00",
+  "video_url": "https://github.com/salahemd19/gta6-bot/releases/download/clips/20261126-0743-theburntpeanut-clip02.mp4",
+  "title": "REGARDE BIEN ÇA 😱 theburntpeanut sur GTA 6",
+  "youtube_description": "Clip du live de theburntpeanut sur Kick.\n\n#GTA6 #GTAVI #Shorts",
+  "tiktok_caption": "REGARDE BIEN ÇA 😱 theburntpeanut sur GTA 6 #GTA6 #GTAVI #theburntpeanut #Kick #pourtoi #fyp",
+  "youtube_privacy": "public",
+  "score": 1.943,
+  "motion": 10.1,
+  "slot": "2026-11-26T07:43:14+00:00",
+  "youtube": "hold: waiting for YouTube API audit",
+  "tiktok": "hold: waiting for TikTok app approval"
+ },
+ {
+  "id": "20261126-0743-theburntpeanut-clip01",
+  "streamer": "theburntpeanut",
+  "created": "2026-11-26T07:43:14+00:00",
+  "video_url": "https://github.com/salahemd19/gta6-bot/releases/download/clips/20261126-0743-theburntpeanut-clip01.mp4",
+  "title": "ATTENDS LA FIN 😱 theburntpeanut sur GTA 6",
+  "youtube_description": "Clip du live de theburntpeanut sur Kick.\n\n#GTA6 #GTAVI #Shorts",
+  "tiktok_caption": "ATTENDS LA FIN 😱 theburntpeanut sur GTA 6 #GTA6 #GTAVI #theburntpeanut #Kick #pourtoi #fyp",
+  "youtube_privacy": "public",
+  "score": 1.769,
+  "motion": 13.6,
+  "slot": "2026-11-26T07:43:14+00:00",
+  "youtube": "hold: waiting for YouTube API audit",
+  "tiktok": "hold: waiting for TikTok app approval"
  }
 ]
