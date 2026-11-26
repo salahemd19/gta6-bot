@@ -100,7 +100,7 @@ def render(moments, title, out, work, fonts):
               "[b]crop=ih*3/4:ih,scale=1080:1440:flags=lanczos,unsharp=5:5:0.8,eq=saturation=1.25:contrast=1.08[fg];"
               f"[bg][fg]overlay=0:240,fade=in:st=0:d=0.15:color=white,subtitles={ass.name}:fontsdir={fonts}[v];"
               "[0:a]aresample=48000,loudnorm=I=-14:TP=-1.5:LRA=11,afade=in:d=0.05[a]")
-        r = subprocess.run(["ffmpeg", "-y", "-ss", f"{m['start']:.2f}", "-t", str(SEG), "-i", m["video"],
+        r = subprocess.run(["ffmpeg", "-y", "-ss", f"{m['start']:.2f}", "-t", str(m.get("len", SEG)), "-i", m["video"],
                             "-filter_complex", vf, "-map", "[v]", "-map", "[a]", "-c:v", "libx264", "-preset", "veryfast",
                             "-crf", "20", "-pix_fmt", "yuv420p", "-r", "30", "-c:a", "aac", "-b:a", "160k", "-ar", "48000",
                             "-ac", "2", seg.name], cwd=work, capture_output=True, text=True)
