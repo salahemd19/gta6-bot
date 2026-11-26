@@ -7,7 +7,7 @@ Steps: download -> loudness-based hype detection -> pick top N non-overlapping
 windows -> Whisper captions -> 9:16 render (blurred background, captions burned in).
 Only use streams you have permission to clip.
 """
-import argparse, subprocess, sys, wave, json
+import argparse, re, subprocess, sys, wave, json
 from pathlib import Path
 import numpy as np
 
@@ -84,6 +84,26 @@ def hype_score(words, loud, length):
     return score, {"hype_words": kw, "excl": excl, "words_per_sec": round(wps, 2), "laugh": laugh}
 
 
+def _yavg(video, s, length, vf):
+    r = subprocess.run(["ffmpeg", "-ss", str(s), "-t", str(length), "-i", str(video), "-an", "-vf",
+                        vf + ",signalstats,metadata=print", "-f", "null", "-"], capture_output=True, text=True)
+    return [float(x) for x in re.findall(r"YAVG=([\d.]+)", r.stderr)]
+
+
+def visual(video, s, length):
+    """On-screen action check. motion = mean frame change; still = share of near-frozen frames (menus, maps, phone,
+    talking head); letterbox = share of frames with black bars top+bottom while the middle is lit (story cutscene)."""
+    diff = _yavg(video, s, length, "fps=4,crop=ih*3/4:ih,scale=120:160,format=gray,tblend=all_mode=difference")
+    top = _yavg(video, s, length, "fps=2,scale=160:90,format=gray,crop=160:9:0:0")
+    bot = _yavg(video, s, length, "fps=2,scale=160:90,format=gray,crop=160:9:0:81")
+    mid = _yavg(video, s, length, "fps=2,scale=160:90,format=gray,crop=160:40:0:25")
+    motion = sum(diff) / len(diff) if diff else 0.0
+    still = sum(d < 2.0 for d in diff) / len(diff) if diff else 1.0
+    n = min(len(top), len(bot), len(mid))
+    lb = sum(top[i] < 8 and bot[i] < 8 and mid[i] > 25 for i in range(n)) / n if n else 0.0
+    return {"motion": round(motion, 1), "still": round(still, 2), "letterbox": round(lb, 2)}
+
+
 def ass_time(t):
     h, m, s = int(t // 3600), int(t % 3600 // 60), t % 60
     return f"{h}:{m:02d}:{s:05.2f}"
@@ -158,7 +178,7 @@ def main():
     print("2/4 detecting hype moments...")
     wav = work / "audio.wav"
     extract_audio(video, wav)
-    candidates = find_candidates(wav, a.count * 3, a.len)  # over-generate, then re-rank by content
+    candidates = find_candidates(wav, a.count * 5, a.len)  # over-generate, then re-rank by content
     chat = None
     if a.chat and Path(a.chat).exists():  # chat reaction: extra candidates at chat spikes + score bonus
         import chat_signal
@@ -172,6 +192,10 @@ def main():
     model = WhisperModel(a.model, compute_type="int8")
     scored = []
     for j, (s, e, loud) in enumerate(candidates):
+        vis = visual(video, s, e - s)  # cheap visual gate first: skip Whisper for cutscenes, menus, facecam talk
+        if vis["motion"] < 12 or vis["still"] > 0.18 or vis["letterbox"] > 0.4:
+            print(f"   [{s:.0f}s] visual reject {vis}")
+            continue
         cw = work / f"cand{j:02d}.wav"
         run(["ffmpeg", "-y", "-ss", str(s), "-t", str(e - s), "-i", str(wav), str(cw)])
         words = transcribe(model, cw, a.lang)
@@ -181,6 +205,8 @@ def main():
             cb = chat_signal.window_boost(chat, s, e)
             sc += cb
             feats["chat_boost"] = cb
+        sc += 0.06 * min(vis["motion"], 30) - 0.5  # on-screen action matters more than talk
+        feats.update(vis)
         scored.append((sc, s, e, words, feats))
     # QUALITY GATE: only genuinely strong moments (loud + spoken reaction) are rendered; weak ones are dropped.
     EN = {"the", "and", "you", "that", "this", "with", "for", "they", "was", "are", "have", "what", "your", "but", "not", "he", "she", "it's", "i'm", "don't", "like", "into", "just"}
@@ -205,7 +231,7 @@ def main():
     for i, (sc, s, e, words, feats) in enumerate(best, 1):
         hook = hooks[(i - 1) % len(hooks)]
         ass = out / f"clip{i:02d}.ass"
-        make_ass(words, ass, hook)
+        make_ass(words if a.lang == "fr" else [], ass, hook)  # French channel: no Spanish/English/Arabic subtitles
         mp4 = out / f"clip{i:02d}.mp4"
         render(video, s, e - s, ass, mp4, cwd=out)
         meta.append({"file": mp4.name, "start": s, "end": e, "score": round(sc, 3), "hook": hook,

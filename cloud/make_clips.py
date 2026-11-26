@@ -18,9 +18,9 @@ import chat_signal
 import kick_api as k
 
 REPO = os.environ.get("GITHUB_REPOSITORY", "salahemd19/gta6-bot")
-STREAMS = int(os.environ.get("STREAMS", "3"))
+STREAMS = int(os.environ.get("STREAMS", "4"))
 SECONDS = int(os.environ.get("CAPTURE", "600"))
-PER_STREAM = int(os.environ.get("PER_STREAM", "2"))
+PER_STREAM = int(os.environ.get("PER_STREAM", "3"))
 BAD = re.compile(r"\b(fuck|shit|nigg\w*|bitch|cunt|faggot|rape|putain|merde|encul\w*|connard\w*|salope\w*|fdp|nazi\w*|viol\w*|suicid\w*)\b", re.I)
 MANIFEST = Path("queue/manifest.json")
 WORK = Path("work")
@@ -93,7 +93,7 @@ def main():
             used.append((c["start"], c["end"]))
             f = d / "clips" / c["file"]
             m = motion(f)
-            if m < 6.0 or BAD.search(c["transcript"]):
+            if m < 11.0 or BAD.search(c["transcript"]):
                 print(slug, c["file"], f"rejected (motion {m:.1f} or language)")
                 continue
             name = f"{stamp}-{slug}-{c['file']}"
