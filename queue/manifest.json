@@ -107,5 +107,50 @@
   "slot": "2026-11-26T00:25:12+00:00",
   "youtube": "hold: waiting for YouTube API audit",
   "tiktok": "hold: waiting for TikTok app approval"
+ },
+ {
+  "id": "20261126-0140-spreen-clip01",
+  "streamer": "spreen",
+  "created": "2026-11-26T01:40:18+00:00",
+  "video_url": "https://github.com/salahemd19/gta6-bot/releases/download/clips/20261126-0140-spreen-clip01.mp4",
+  "title": "ATTENDS LA FIN 😱 spreen sur GTA 6",
+  "youtube_description": "Clip du live de spreen sur Kick.\n\n#GTA6 #GTAVI #Shorts",
+  "tiktok_caption": "ATTENDS LA FIN 😱 spreen sur GTA 6 #GTA6 #GTAVI #spreen #Kick #pourtoi #fyp",
+  "youtube_privacy": "public",
+  "score": 2.285,
+  "motion": 10.2,
+  "slot": "2026-11-26T01:40:18+00:00",
+  "youtube": "hold: waiting for YouTube API audit",
+  "tiktok": "hold: waiting for TikTok app approval"
+ },
+ {
+  "id": "20261126-0140-samulx-clip02",
+  "streamer": "samulx",
+  "created": "2026-11-26T01:40:18+00:00",
+  "video_url": "https://github.com/salahemd19/gta6-bot/releases/download/clips/20261126-0140-samulx-clip02.mp4",
+  "title": "REGARDE BIEN ÇA 😱 samulx sur GTA 6",
+  "youtube_description": "Clip du live de samulx sur Kick.\n\n#GTA6 #GTAVI #Shorts",
+  "tiktok_caption": "REGARDE BIEN ÇA 😱 samulx sur GTA 6 #GTA6 #GTAVI #samulx #Kick #pourtoi #fyp",
+  "youtube_privacy": "public",
+  "score": 1.449,
+  "motion": 7.7,
+  "slot": "2026-11-26T01:40:18+00:00",
+  "youtube": "hold: waiting for YouTube API audit",
+  "tiktok": "hold: waiting for TikTok app approval"
+ },
+ {
+  "id": "20261126-0140-samulx-clip01",
+  "streamer": "samulx",
+  "created": "2026-11-26T01:40:18+00:00",
+  "video_url": "https://github.com/salahemd19/gta6-bot/releases/download/clips/20261126-0140-samulx-clip01.mp4",
+  "title": "ATTENDS LA FIN 😱 samulx sur GTA 6",
+  "youtube_description": "Clip du live de samulx sur Kick.\n\n#GTA6 #GTAVI #Shorts",
+  "tiktok_caption": "ATTENDS LA FIN 😱 samulx sur GTA 6 #GTA6 #GTAVI #samulx #Kick #pourtoi #fyp",
+  "youtube_privacy": "public",
+  "score": 1.433,
+  "motion": 8.2,
+  "slot": "2026-11-26T01:40:18+00:00",
+  "youtube": "hold: waiting for YouTube API audit",
+  "tiktok": "hold: waiting for TikTok app approval"
  }
 ]
