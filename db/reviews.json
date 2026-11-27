@@ -619,5 +619,121 @@
   "verdict": "reject",
   "reason": "cinématique de l'histoire",
   "by": "Claude frame-sheet review 2026-11-27"
+ },
+ "VCI-2fd5702e0e": {
+  "verdict": "keep",
+  "action_fr": "Un braqueur masqué tire dans une salle de coffres de banque puis ramasse des liasses d'argent.",
+  "hooks_fr": [
+   "BRAQUAGE DE BANQUE À VICE CITY",
+   "IL VIDE LA SALLE DES COFFRES",
+   "LE BUTIN EST ÉNORME"
+  ],
+  "category": "VIRAL MOMENTS & CHAOS",
+  "strength": 4,
+  "window": [
+   2.0,
+   9.0
+  ],
+  "by": "Cloud Claude review 2026-11-27"
+ },
+ "VCI-230613b742": {
+  "verdict": "reject",
+  "reason": "pas GTA 6, vidéo réelle avec facecam",
+  "not_gta6": true,
+  "by": "Cloud Claude review 2026-11-27"
+ },
+ "VCI-2f2455aa33": {
+  "verdict": "reject",
+  "reason": "balade en scooter calme avec facecam",
+  "by": "Cloud Claude review 2026-11-27"
+ },
+ "VCI-f1b10391c6": {
+  "verdict": "reject",
+  "reason": "boutique de vêtements, rien ne se passe, facecam",
+  "by": "Cloud Claude review 2026-11-27"
+ },
+ "VCI-bb558cb451": {
+  "verdict": "keep",
+  "action_fr": "Un braqueur déclenche une explosion dans un couloir sombre puis pénètre dans une salle remplie de billets qui volent.",
+  "hooks_fr": [
+   "BRAQUAGE : ÇA EXPLOSE !",
+   "LA SALLE REMPLIE D'ARGENT",
+   "IL FAIT SAUTER LA PORTE DU COFFRE"
+  ],
+  "category": "VIRAL MOMENTS & CHAOS",
+  "strength": 5,
+  "window": [
+   1.0,
+   8.0
+  ],
+  "by": "Cloud Claude review 2026-11-27"
+ },
+ "VCI-36d49b0269": {
+  "verdict": "reject",
+  "reason": "bagarre de rue confuse, écran rouge, action peu lisible",
+  "by": "Cloud Claude review 2026-11-27"
+ },
+ "VCI-0afbd6e049": {
+  "verdict": "reject",
+  "reason": "marche calme dans un marais avec facecam",
+  "by": "Cloud Claude review 2026-11-27"
+ },
+ "VCI-95547e9bb1": {
+  "verdict": "reject",
+  "reason": "conduite de moto calme",
+  "by": "Cloud Claude review 2026-11-27"
+ },
+ "VCI-0593162901": {
+  "verdict": "keep",
+  "action_fr": "Une piétonne est percutée par un SUV et projetée en l'air dans un carrefour.",
+  "hooks_fr": [
+   "ELLE SE FAIT PROJETER PAR UN SUV",
+   "CARREFOUR DE VICE CITY : IMPACT !",
+   "LE PIÉTON VOLE EN L'AIR"
+  ],
+  "category": "VIRAL MOMENTS & CHAOS",
+  "strength": 6,
+  "window": [
+   10.0,
+   17.0
+  ],
+  "by": "Cloud Claude review 2026-11-27"
+ },
+ "VCI-3948fd26cc": {
+  "verdict": "keep",
+  "action_fr": "Une voiture sort de la route, se retourne sur le toit puis un personnage s'enfuit en courant à travers un grillage.",
+  "hooks_fr": [
+   "LA VOITURE FAIT UN TONNEAU",
+   "CRASH TOTAL EN PLEINE FORÊT",
+   "IL S'ENFUIT APRÈS LE CRASH"
+  ],
+  "category": "VIRAL MOMENTS & CHAOS",
+  "strength": 6,
+  "window": [
+   7.0,
+   14.0
+  ],
+  "by": "Cloud Claude review 2026-11-27"
+ },
+ "VCI-9ed0efaa82": {
+  "verdict": "keep",
+  "action_fr": "Une voiture de sport percute un fourgon blindé qui se renverse, billets éparpillés sur la route.",
+  "hooks_fr": [
+   "CRASH CONTRE UN FOURGON BLINDÉ",
+   "LE CAMION SE RENVERSE !",
+   "LES BILLETS VOLENT SUR LA ROUTE"
+  ],
+  "category": "VIRAL MOMENTS & CHAOS",
+  "strength": 7,
+  "window": [
+   8.0,
+   15.0
+  ],
+  "by": "Cloud Claude review 2026-11-27"
+ },
+ "VCI-adf22de683": {
+  "verdict": "reject",
+  "reason": "fusillade dans un hangar trop sombre et peu lisible, facecam",
+  "by": "Cloud Claude review 2026-11-27"
  }
 }

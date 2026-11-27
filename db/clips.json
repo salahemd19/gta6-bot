@@ -39591,7 +39591,7 @@
   "vod_starts_at": 0,
   "is_mature": true,
   "discovered_at": "2026-11-26T21:25:50+00:00",
-  "status": "analysed",
+  "status": "rejected_review",
   "authenticity": "category_only",
   "rights": "credited_third_party",
   "used_in": [],
@@ -39633,8 +39633,8 @@
   "publications": [],
   "analytics": {},
   "stage": "RIGHTS_RECORDED",
-  "state": "active",
-  "updated_at": "2026-11-27T17:56:17+00:00",
+  "state": "rejected",
+  "updated_at": "2026-11-27T21:33:27+00:00",
   "views_per_hour_recent": 0.0,
   "metrics": {
    "motion": 22.5,
@@ -39786,7 +39786,8 @@
    "needs_review": "Hooks are generic: nobody has described what happens yet. Check the footage before using."
   },
   "analysed_at": "2026-11-27T17:50:16+00:00",
-  "viral_potential": 7.91
+  "viral_potential": 7.91,
+  "manual_state": true
  },
  "clip_01M8CVTS9DZEH2251XGH6NH5YR": {
   "id": "clip_01M8CVTS9DZEH2251XGH6NH5YR",
@@ -63171,7 +63172,7 @@
   "vod_starts_at": 0,
   "is_mature": true,
   "discovered_at": "2026-11-26T23:33:22+00:00",
-  "status": "analysed",
+  "status": "rejected_review",
   "authenticity": "category_only",
   "rights": "credited_third_party",
   "used_in": [],
@@ -63213,8 +63214,8 @@
   "publications": [],
   "analytics": {},
   "stage": "RIGHTS_RECORDED",
-  "state": "active",
-  "updated_at": "2026-11-27T15:53:39+00:00",
+  "state": "rejected",
+  "updated_at": "2026-11-27T21:33:28+00:00",
   "views_per_hour_recent": 0.0,
   "metrics": {
    "motion": 28.9,
@@ -63346,7 +63347,8 @@
    "needs_review": "Hooks are generic: nobody has described what happens yet. Check the footage before using."
   },
   "analysed_at": "2026-11-27T15:49:23+00:00",
-  "viral_potential": 7.71
+  "viral_potential": 7.71,
+  "manual_state": true
  },
  "clip_01M8D30HYWPKB223J4M8JE6E05": {
   "id": "clip_01M8D30HYWPKB223J4M8JE6E05",
@@ -66568,7 +66570,7 @@
   "is_mature": true,
   "discovered_at": "2026-11-26T23:33:22+00:00",
   "status": "analysed",
-  "authenticity": "category_only",
+  "authenticity": "verified_by_review",
   "rights": "credited_third_party",
   "used_in": [],
   "duplicate_of": null,
@@ -66589,7 +66591,8 @@
   "account_url": "https://kick.com/rassellsixx97",
   "clip_url": "https://clips.kick.com/clips/42/clip_01M8D2QDY995XM8037K6TGVSHW/master.m3u8",
   "authenticity_evidence": [
-   "Listed in Kick's Grand Theft Auto VI category (not proof by itself)"
+   "Listed in Kick's Grand Theft Auto VI category (not proof by itself)",
+   "Frame sheet reviewed 2026-11-27"
   ],
   "category": "VIRAL MOMENTS & CHAOS",
   "subcategory": "",
@@ -66610,7 +66613,7 @@
   "analytics": {},
   "stage": "RIGHTS_RECORDED",
   "state": "active",
-  "updated_at": "2026-11-27T15:53:39+00:00",
+  "updated_at": "2026-11-27T21:33:31+00:00",
   "views_per_hour_recent": 0.0,
   "metrics": {
    "motion": 23.3,
@@ -66648,12 +66651,12 @@
     "french_relevance": "heuristic",
     "category": "heuristic",
     "source_quality": "measured",
-    "originality": "not_assessed",
-    "storytelling": "not_assessed"
+    "originality": "review",
+    "storytelling": "review"
    },
    "coverage": 0.86,
    "model": "v2.0",
-   "reviewed": false
+   "reviewed": true
   },
   "analysis": {
    "start": 17.5,
@@ -66727,14 +66730,14 @@
    "series": "ALERTE LEONIDA",
    "category": "VIRAL MOMENTS & CHAOS",
    "hooks": [
-    "REGARDE JUSQU'À LA FIN",
-    "LE CHAOS TOTAL À LEONIDA",
-    "IL N'AURAIT PAS DÛ FAIRE ÇA"
+    "LA VOITURE FAIT UN TONNEAU",
+    "CRASH TOTAL EN PLEINE FORÊT",
+    "IL S'ENFUIT APRÈS LE CRASH"
    ],
-   "best_hook": "REGARDE JUSQU'À LA FIN",
-   "title": "REGARDE JUSQU'À LA FIN 😱 GTA 6",
-   "description": "Un moment repéré en live sur GTA 6. Créateur : @rassellsixx97 (Kick).",
-   "caption": "REGARDE JUSQU'À LA FIN 😱 Tu aurais fait quoi ? Dis-le en commentaire 👇 🎥 @rassellsixx97 #GTA6 #GTA6FR #GTAVI #pourtoi",
+   "best_hook": "LA VOITURE FAIT UN TONNEAU",
+   "title": "LA VOITURE FAIT UN TONNEAU 😱 GTA 6",
+   "description": "Une voiture sort de la route, se retourne sur le toit puis un personnage s'enfuit en courant à travers un grillage. Créateur : @rassellsixx97 (Kick).",
+   "caption": "LA VOITURE FAIT UN TONNEAU 😱 Tu aurais fait quoi ? Dis-le en commentaire 👇 🎥 @rassellsixx97 #GTA6 #GTA6FR #GTAVI #pourtoi",
    "narration": null,
    "cta": "Tu aurais fait quoi ? Dis-le en commentaire",
    "editing": [
@@ -66747,16 +66750,17 @@
    "music_mood": "tension then comic release, music low",
    "music": {
     "youtube": [
+     "Vibe Check - Blue Deer Studio",
      "Travelling Light - Blue Deer Studio",
-     "Comin Wit It - Anno Domini Beats",
-     "Vibe Check - Blue Deer Studio"
+     "Comin Wit It - Anno Domini Beats"
     ],
     "tiktok": []
    },
-   "needs_review": "Hooks are generic: nobody has described what happens yet. Check the footage before using."
+   "needs_review": null
   },
   "analysed_at": "2026-11-27T15:53:39+00:00",
-  "viral_potential": 7.69
+  "viral_potential": 7.69,
+  "category_reviewed": true
  },
  "clip_01M8D2Q4JVBQ0EXH5EM5680M8F": {
   "id": "clip_01M8D2Q4JVBQ0EXH5EM5680M8F",
@@ -67342,7 +67346,7 @@
   "is_mature": true,
   "discovered_at": "2026-11-26T23:33:22+00:00",
   "status": "analysed",
-  "authenticity": "category_only",
+  "authenticity": "verified_by_review",
   "rights": "credited_third_party",
   "used_in": [],
   "duplicate_of": null,
@@ -67363,7 +67367,8 @@
   "account_url": "https://kick.com/kathe-exe",
   "clip_url": "https://clips.kick.com/clips/92/clip_01M8D2NSQ5EZB8RA74Z8YF7M5G/playlist.m3u8",
   "authenticity_evidence": [
-   "Listed in Kick's Grand Theft Auto VI category (not proof by itself)"
+   "Listed in Kick's Grand Theft Auto VI category (not proof by itself)",
+   "Frame sheet reviewed 2026-11-27"
   ],
   "category": "VIRAL MOMENTS & CHAOS",
   "subcategory": "",
@@ -67384,7 +67389,7 @@
   "analytics": {},
   "stage": "RIGHTS_RECORDED",
   "state": "active",
-  "updated_at": "2026-11-27T15:53:39+00:00",
+  "updated_at": "2026-11-27T21:33:28+00:00",
   "views_per_hour_recent": 0.0,
   "metrics": {
    "motion": 32.1,
@@ -67422,12 +67427,12 @@
     "french_relevance": "heuristic",
     "category": "heuristic",
     "source_quality": "measured",
-    "originality": "not_assessed",
-    "storytelling": "not_assessed"
+    "originality": "review",
+    "storytelling": "review"
    },
    "coverage": 0.86,
    "model": "v2.0",
-   "reviewed": false
+   "reviewed": true
   },
   "analysis": {
    "start": 24.0,
@@ -67546,14 +67551,14 @@
    "series": "ALERTE LEONIDA",
    "category": "VIRAL MOMENTS & CHAOS",
    "hooks": [
-    "LE CHAOS TOTAL À LEONIDA",
-    "IL N'AURAIT PAS DÛ FAIRE ÇA",
-    "ÇA DÉRAPE EN QUELQUES SECONDES"
+    "ELLE SE FAIT PROJETER PAR UN SUV",
+    "CARREFOUR DE VICE CITY : IMPACT !",
+    "LE PIÉTON VOLE EN L'AIR"
    ],
-   "best_hook": "LE CHAOS TOTAL À LEONIDA",
-   "title": "LE CHAOS TOTAL À LEONIDA 😱 GTA 6",
-   "description": "Un moment repéré en live sur GTA 6. Créateur : @kathe-exe (Kick).",
-   "caption": "LE CHAOS TOTAL À LEONIDA 😱 Tu aurais fait quoi ? Dis-le en commentaire 👇 🎥 @kathe-exe #GTA6 #GTA6FR #GTAVI #pourtoi",
+   "best_hook": "ELLE SE FAIT PROJETER PAR UN SUV",
+   "title": "ELLE SE FAIT PROJETER PAR UN SUV 😱 GTA 6",
+   "description": "Une piétonne est percutée par un SUV et projetée en l'air dans un carrefour. Créateur : @kathe-exe (Kick).",
+   "caption": "ELLE SE FAIT PROJETER PAR UN SUV 😱 Tu aurais fait quoi ? Dis-le en commentaire 👇 🎥 @kathe-exe #GTA6 #GTA6FR #GTAVI #pourtoi",
    "narration": null,
    "cta": "Tu aurais fait quoi ? Dis-le en commentaire",
    "editing": [
@@ -67566,16 +67571,17 @@
    "music_mood": "tension then comic release, music low",
    "music": {
     "youtube": [
+     "Vibe Check - Blue Deer Studio",
      "Travelling Light - Blue Deer Studio",
-     "Comin Wit It - Anno Domini Beats",
-     "Vibe Check - Blue Deer Studio"
+     "Comin Wit It - Anno Domini Beats"
     ],
     "tiktok": []
    },
-   "needs_review": "Hooks are generic: nobody has described what happens yet. Check the footage before using."
+   "needs_review": null
   },
   "analysed_at": "2026-11-27T15:11:41+00:00",
-  "viral_potential": 7.71
+  "viral_potential": 7.71,
+  "category_reviewed": true
  },
  "clip_01M8CCR98WZWZ9ASJH5RNV72WR": {
   "id": "clip_01M8CCR98WZWZ9ASJH5RNV72WR",
@@ -72740,7 +72746,7 @@
   "vod_starts_at": 0,
   "is_mature": true,
   "discovered_at": "2026-11-27T00:34:05+00:00",
-  "status": "analysed",
+  "status": "rejected_review",
   "authenticity": "category_only",
   "rights": "credited_third_party",
   "used_in": [],
@@ -72782,8 +72788,8 @@
   "publications": [],
   "analytics": {},
   "stage": "RIGHTS_RECORDED",
-  "state": "active",
-  "updated_at": "2026-11-27T15:53:39+00:00",
+  "state": "rejected",
+  "updated_at": "2026-11-27T21:33:28+00:00",
   "views_per_hour_recent": 0.0,
   "metrics": {
    "motion": 22.3,
@@ -72960,7 +72966,8 @@
    "needs_review": "Hooks are generic: nobody has described what happens yet. Check the footage before using."
   },
   "analysed_at": "2026-11-27T15:33:58+00:00",
-  "viral_potential": 7.72
+  "viral_potential": 7.72,
+  "manual_state": true
  },
  "clip_01M8D6P0JE46R253C0ECE4BPT5": {
   "id": "clip_01M8D6P0JE46R253C0ECE4BPT5",
@@ -84584,7 +84591,7 @@
   "is_mature": true,
   "discovered_at": "2026-11-27T01:22:00+00:00",
   "status": "analysed",
-  "authenticity": "category_only",
+  "authenticity": "verified_by_review",
   "rights": "credited_third_party",
   "used_in": [],
   "duplicate_of": null,
@@ -84593,7 +84600,8 @@
   "account_url": "https://kick.com/gorlaios",
   "clip_url": "https://clips.kick.com/clips/7e/clip_01M8AMSVGJ2EH2M9DCH7RM8NPQ/playlist.m3u8",
   "authenticity_evidence": [
-   "Listed in Kick's Grand Theft Auto VI category (not proof by itself)"
+   "Listed in Kick's Grand Theft Auto VI category (not proof by itself)",
+   "Frame sheet reviewed 2026-11-27"
   ],
   "category": "VIRAL MOMENTS & CHAOS",
   "subcategory": "",
@@ -84614,7 +84622,7 @@
   "analytics": {},
   "stage": "RIGHTS_RECORDED",
   "state": "active",
-  "updated_at": "2026-11-27T19:35:32+00:00",
+  "updated_at": "2026-11-27T21:33:34+00:00",
   "seen_at": "2026-11-27T20:36:25+00:00",
   "radar": {
    "momentum": 0.7,
@@ -84664,12 +84672,12 @@
     "french_relevance": "heuristic",
     "category": "heuristic",
     "source_quality": "measured",
-    "originality": "not_assessed",
-    "storytelling": "not_assessed"
+    "originality": "review",
+    "storytelling": "review"
    },
    "coverage": 0.86,
    "model": "v2.0",
-   "reviewed": false
+   "reviewed": true
   },
   "analysis": {
    "start": 8.5,
@@ -84786,14 +84794,14 @@
    "series": "ALERTE LEONIDA",
    "category": "VIRAL MOMENTS & CHAOS",
    "hooks": [
-    "LE CHAOS TOTAL À LEONIDA",
-    "IL N'AURAIT PAS DÛ FAIRE ÇA",
-    "ÇA DÉRAPE EN QUELQUES SECONDES"
+    "CRASH CONTRE UN FOURGON BLINDÉ",
+    "LE CAMION SE RENVERSE !",
+    "LES BILLETS VOLENT SUR LA ROUTE"
    ],
-   "best_hook": "LE CHAOS TOTAL À LEONIDA",
-   "title": "LE CHAOS TOTAL À LEONIDA 😱 GTA 6",
-   "description": "Un moment repéré en live sur GTA 6. Créateur : @gorlaios (Kick).",
-   "caption": "LE CHAOS TOTAL À LEONIDA 😱 Tu aurais fait quoi ? Dis-le en commentaire 👇 🎥 @gorlaios #GTA6 #GTA6FR #GTAVI #pourtoi",
+   "best_hook": "CRASH CONTRE UN FOURGON BLINDÉ",
+   "title": "CRASH CONTRE UN FOURGON BLINDÉ 😱 GTA 6",
+   "description": "Une voiture de sport percute un fourgon blindé qui se renverse, billets éparpillés sur la route. Créateur : @gorlaios (Kick).",
+   "caption": "CRASH CONTRE UN FOURGON BLINDÉ 😱 Tu aurais fait quoi ? Dis-le en commentaire 👇 🎥 @gorlaios #GTA6 #GTA6FR #GTAVI #pourtoi",
    "narration": null,
    "cta": "Tu aurais fait quoi ? Dis-le en commentaire",
    "editing": [
@@ -84806,16 +84814,17 @@
    "music_mood": "tension then comic release, music low",
    "music": {
     "youtube": [
+     "Vibe Check - Blue Deer Studio",
      "Travelling Light - Blue Deer Studio",
-     "Comin Wit It - Anno Domini Beats",
-     "Vibe Check - Blue Deer Studio"
+     "Comin Wit It - Anno Domini Beats"
     ],
     "tiktok": []
    },
-   "needs_review": "Hooks are generic: nobody has described what happens yet. Check the footage before using."
+   "needs_review": null
   },
   "analysed_at": "2026-11-27T19:10:12+00:00",
-  "viral_potential": 7.69
+  "viral_potential": 7.69,
+  "category_reviewed": true
  },
  "clip_01M8AMZR0GZVNHKQ192MAS6WPZ": {
   "id": "clip_01M8AMZR0GZVNHKQ192MAS6WPZ",
@@ -160152,7 +160161,7 @@
   "vod_starts_at": 0,
   "is_mature": true,
   "discovered_at": "2026-11-27T16:46:36+00:00",
-  "status": "analysed",
+  "status": "rejected_review",
   "authenticity": "category_only",
   "rights": "credited_third_party",
   "used_in": [],
@@ -160194,8 +160203,8 @@
   "publications": [],
   "analytics": {},
   "stage": "RIGHTS_RECORDED",
-  "state": "active",
-  "updated_at": "2026-11-27T17:56:17+00:00",
+  "state": "rejected",
+  "updated_at": "2026-11-27T21:33:35+00:00",
   "metrics": {
    "motion": 20.1,
    "still": 0.04,
@@ -160411,7 +160420,8 @@
   },
   "analysed_at": "2026-11-27T17:26:01+00:00",
   "viral_potential": 7.69,
-  "views_per_hour_recent": 0.0
+  "views_per_hour_recent": 0.0,
+  "manual_state": true
  },
  "clip_01M8EYB8FRA2YPDHV4MTS8CCJR": {
   "id": "clip_01M8EYB8FRA2YPDHV4MTS8CCJR",
@@ -176530,7 +176540,7 @@
   "vod_starts_at": 0,
   "is_mature": true,
   "discovered_at": "2026-11-27T19:39:24+00:00",
-  "status": "analysed",
+  "status": "rejected_review",
   "authenticity": "category_only",
   "rights": "credited_third_party",
   "used_in": [],
@@ -176572,8 +176582,8 @@
   "publications": [],
   "analytics": {},
   "stage": "RIGHTS_RECORDED",
-  "state": "active",
-  "updated_at": "2026-11-27T21:28:06+00:00",
+  "state": "rejected",
+  "updated_at": "2026-11-27T21:33:27+00:00",
   "views_per_hour_recent": 0.0,
   "metrics": {
    "motion": 26.7,
@@ -176757,7 +176767,8 @@
    "needs_review": "Hooks are generic: nobody has described what happens yet. Check the footage before using."
   },
   "analysed_at": "2026-11-27T21:20:41+00:00",
-  "viral_potential": 8.01
+  "viral_potential": 8.01,
+  "manual_state": true
  },
  "clip_01M8F875RD186GZFXM6N0JY4CB": {
   "id": "clip_01M8F875RD186GZFXM6N0JY4CB",
@@ -176851,7 +176862,7 @@
   "is_mature": true,
   "discovered_at": "2026-11-27T19:39:24+00:00",
   "status": "analysed",
-  "authenticity": "category_only",
+  "authenticity": "verified_by_review",
   "rights": "credited_third_party",
   "used_in": [],
   "duplicate_of": null,
@@ -176872,7 +176883,8 @@
   "account_url": "https://kick.com/madix01",
   "clip_url": "https://clips.kick.com/clips/9f/clip_01M8F871PWEF4P4F3BWGNS692S/playlist.m3u8",
   "authenticity_evidence": [
-   "Listed in Kick's Grand Theft Auto VI category (not proof by itself)"
+   "Listed in Kick's Grand Theft Auto VI category (not proof by itself)",
+   "Frame sheet reviewed 2026-11-27"
   ],
   "category": "VIRAL MOMENTS & CHAOS",
   "subcategory": "",
@@ -176893,7 +176905,7 @@
   "analytics": {},
   "stage": "RIGHTS_RECORDED",
   "state": "active",
-  "updated_at": "2026-11-27T21:28:06+00:00",
+  "updated_at": "2026-11-27T21:33:27+00:00",
   "views_per_hour_recent": 0.0,
   "metrics": {
    "motion": 15.9,
@@ -176931,12 +176943,12 @@
     "french_relevance": "heuristic",
     "category": "heuristic",
     "source_quality": "measured",
-    "originality": "not_assessed",
-    "storytelling": "not_assessed"
+    "originality": "review",
+    "storytelling": "review"
    },
    "coverage": 0.86,
    "model": "v2.0",
-   "reviewed": false
+   "reviewed": true
   },
   "analysis": {
    "start": 5.5,
@@ -177053,14 +177065,14 @@
    "series": "ALERTE LEONIDA",
    "category": "VIRAL MOMENTS & CHAOS",
    "hooks": [
-    "LE CHAOS TOTAL À LEONIDA",
-    "IL N'AURAIT PAS DÛ FAIRE ÇA",
-    "ÇA DÉRAPE EN QUELQUES SECONDES"
+    "BRAQUAGE : ÇA EXPLOSE !",
+    "LA SALLE REMPLIE D'ARGENT",
+    "IL FAIT SAUTER LA PORTE DU COFFRE"
    ],
-   "best_hook": "LE CHAOS TOTAL À LEONIDA",
-   "title": "LE CHAOS TOTAL À LEONIDA 😱 GTA 6",
-   "description": "Un moment repéré en live sur GTA 6. Créateur : @madix01 (Kick).",
-   "caption": "LE CHAOS TOTAL À LEONIDA 😱 Tu l'avais déjà vu ? Réponds en commentaire 👇 🎥 @madix01 #GTA6 #GTA6FR #GTAVI #pourtoi",
+   "best_hook": "BRAQUAGE : ÇA EXPLOSE !",
+   "title": "BRAQUAGE : ÇA EXPLOSE ! 😱 GTA 6",
+   "description": "Un braqueur déclenche une explosion dans un couloir sombre puis pénètre dans une salle remplie de billets qui volent. Créateur : @madix01 (Kick).",
+   "caption": "BRAQUAGE : ÇA EXPLOSE ! 😱 Tu l'avais déjà vu ? Réponds en commentaire 👇 🎥 @madix01 #GTA6 #GTA6FR #GTAVI #pourtoi",
    "narration": null,
    "cta": "Tu l'avais déjà vu ? Réponds en commentaire",
    "editing": [
@@ -177079,10 +177091,11 @@
     ],
     "tiktok": []
    },
-   "needs_review": "Hooks are generic: nobody has described what happens yet. Check the footage before using."
+   "needs_review": null
   },
   "analysed_at": "2026-11-27T21:12:44+00:00",
-  "viral_potential": 7.88
+  "viral_potential": 7.88,
+  "category_reviewed": true
  },
  "clip_01M8F870796B1Y7J2JBRZB5R0X": {
   "id": "clip_01M8F870796B1Y7J2JBRZB5R0X",
@@ -181388,7 +181401,7 @@
   "is_mature": true,
   "discovered_at": "2026-11-27T19:39:25+00:00",
   "status": "analysed",
-  "authenticity": "category_only",
+  "authenticity": "verified_by_review",
   "rights": "credited_third_party",
   "used_in": [],
   "duplicate_of": null,
@@ -181409,7 +181422,8 @@
   "account_url": "https://kick.com/bistecone",
   "clip_url": "https://clips.kick.com/clips/c1/clip_01M8F7XHZZPJFH9QR9RWD9PGSV/master.m3u8",
   "authenticity_evidence": [
-   "Listed in Kick's Grand Theft Auto VI category (not proof by itself)"
+   "Listed in Kick's Grand Theft Auto VI category (not proof by itself)",
+   "Frame sheet reviewed 2026-11-27"
   ],
   "category": "VIRAL MOMENTS & CHAOS",
   "subcategory": "",
@@ -181430,7 +181444,7 @@
   "analytics": {},
   "stage": "RIGHTS_RECORDED",
   "state": "active",
-  "updated_at": "2026-11-27T21:28:06+00:00",
+  "updated_at": "2026-11-27T21:33:24+00:00",
   "views_per_hour_recent": 0.0,
   "metrics": {
    "motion": 26.3,
@@ -181468,12 +181482,12 @@
     "french_relevance": "heuristic",
     "category": "heuristic",
     "source_quality": "measured",
-    "originality": "not_assessed",
-    "storytelling": "not_assessed"
+    "originality": "review",
+    "storytelling": "review"
    },
    "coverage": 0.86,
    "model": "v2.0",
-   "reviewed": false
+   "reviewed": true
   },
   "analysis": {
    "start": 13.0,
@@ -181552,14 +181566,14 @@
    "series": "ALERTE LEONIDA",
    "category": "VIRAL MOMENTS & CHAOS",
    "hooks": [
-    "IL N'AURAIT PAS DÛ FAIRE ÇA",
-    "ÇA DÉRAPE EN QUELQUES SECONDES",
-    "REGARDE JUSQU'À LA FIN"
+    "BRAQUAGE DE BANQUE À VICE CITY",
+    "IL VIDE LA SALLE DES COFFRES",
+    "LE BUTIN EST ÉNORME"
    ],
-   "best_hook": "IL N'AURAIT PAS DÛ FAIRE ÇA",
-   "title": "IL N'AURAIT PAS DÛ FAIRE ÇA 😱 GTA 6",
-   "description": "Un moment repéré en live sur GTA 6. Créateur : @bistecone (Kick).",
-   "caption": "IL N'AURAIT PAS DÛ FAIRE ÇA 😱 Abonne-toi pour la suite du dossier 👇 🎥 @bistecone #GTA6 #GTA6FR #GTAVI #pourtoi",
+   "best_hook": "BRAQUAGE DE BANQUE À VICE CITY",
+   "title": "BRAQUAGE DE BANQUE À VICE CITY 😱 GTA 6",
+   "description": "Un braqueur masqué tire dans une salle de coffres de banque puis ramasse des liasses d'argent. Créateur : @bistecone (Kick).",
+   "caption": "BRAQUAGE DE BANQUE À VICE CITY 😱 Abonne-toi pour la suite du dossier 👇 🎥 @bistecone #GTA6 #GTA6FR #GTAVI #pourtoi",
    "narration": null,
    "cta": "Abonne-toi pour la suite du dossier",
    "editing": [
@@ -181578,10 +181592,11 @@
     ],
     "tiktok": []
    },
-   "needs_review": "Hooks are generic: nobody has described what happens yet. Check the footage before using."
+   "needs_review": null
   },
   "analysed_at": "2026-11-27T21:07:59+00:00",
-  "viral_potential": 8.3
+  "viral_potential": 8.3,
+  "category_reviewed": true
  },
  "clip_01M8F7X23727RS8QN1ENQPB4NP": {
   "id": "clip_01M8F7X23727RS8QN1ENQPB4NP",
@@ -184064,8 +184079,8 @@
   "vod_starts_at": 0,
   "is_mature": true,
   "discovered_at": "2026-11-27T20:36:27+00:00",
-  "status": "analysed",
-  "authenticity": "category_only",
+  "status": "rejected_review",
+  "authenticity": "not_gta6",
   "rights": "credited_third_party",
   "used_in": [],
   "duplicate_of": null,
@@ -184106,8 +184121,8 @@
   "publications": [],
   "analytics": {},
   "stage": "RIGHTS_RECORDED",
-  "state": "active",
-  "updated_at": "2026-11-27T21:28:06+00:00",
+  "state": "rejected",
+  "updated_at": "2026-11-27T21:33:27+00:00",
   "metrics": {
    "motion": 17.7,
    "still": 0.0,
@@ -184253,7 +184268,8 @@
    "needs_review": "Hooks are generic: nobody has described what happens yet. Check the footage before using."
   },
   "analysed_at": "2026-11-27T21:14:52+00:00",
-  "viral_potential": 8.06
+  "viral_potential": 8.06,
+  "manual_state": true
  },
  "clip_01M8FBE9MB2DFTGJCD52417DRT": {
   "id": "clip_01M8FBE9MB2DFTGJCD52417DRT",
@@ -187662,7 +187678,7 @@
   "vod_starts_at": 0,
   "is_mature": true,
   "discovered_at": "2026-11-27T20:36:29+00:00",
-  "status": "analysed",
+  "status": "rejected_review",
   "authenticity": "category_only",
   "rights": "credited_third_party",
   "used_in": [],
@@ -187708,8 +187724,8 @@
   "publications": [],
   "analytics": {},
   "stage": "RIGHTS_RECORDED",
-  "state": "active",
-  "updated_at": "2026-11-27T21:28:06+00:00",
+  "state": "rejected",
+  "updated_at": "2026-11-27T21:33:28+00:00",
   "metrics": {
    "motion": 28.2,
    "still": 0.02,
@@ -187876,7 +187892,8 @@
    "needs_review": "Hooks are generic: nobody has described what happens yet. Check the footage before using."
   },
   "analysed_at": "2026-11-27T21:00:42+00:00",
-  "viral_potential": 7.86
+  "viral_potential": 7.86,
+  "manual_state": true
  },
  "clip_01M8FB6QSM201NG294JQVY5GN8": {
   "id": "clip_01M8FB6QSM201NG294JQVY5GN8",
@@ -188941,15 +188958,15 @@
   "authenticity_evidence": [
    "Listed in Kick's Grand Theft Auto VI category (not proof by itself)"
   ],
-  "category": "",
+  "category": "VIRAL MOMENTS & CHAOS",
   "subcategory": "",
   "description": "BUGANDO NO PUTEIRO A 60 fps hsushaux",
   "editorial_notes": "",
   "licence": "",
   "rights_basis": "Owner policy 26 Nov 2026: published with credit, removed on request; no permission obtained",
   "attribution": "@cueaobr (Kick)",
-  "suggested_hook": "",
-  "suggested_title": "",
+  "suggested_hook": "ILS ONT FAIT ÇA SUR GTA 6",
+  "suggested_title": "Ils ont fait ça sur gta 6 😱 (@cueaobr)",
   "production_status": "none",
   "approval": {
    "editorial": null,
@@ -188958,9 +188975,9 @@
   },
   "publications": [],
   "analytics": {},
-  "stage": "DISCOVERED",
+  "stage": "RIGHTS_RECORDED",
   "state": "active",
-  "updated_at": "2026-11-27T21:29:53+00:00",
+  "updated_at": "2026-11-27T21:33:35+00:00",
   "metrics": {
    "motion": 18.8,
    "still": 0.02,

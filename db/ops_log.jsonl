@@ -151,3 +151,4 @@
 {"at": "2026-11-27T21:12:23+00:00", "job": "post_buffer", "result": "ok", "detail": "not connected (add the secret BUFFER_API_KEY)"}
 {"at": "2026-11-27T21:12:23+00:00", "job": "verify_youtube", "result": "ok", "detail": "nothing to verify"}
 {"at": "2026-11-27T21:24:33+00:00", "job": "reviews", "result": "ok", "detail": "no new verdict"}
+{"at": "2026-11-27T21:33:35+00:00", "job": "reviews", "result": "ok", "detail": "12 verdicts recorded, 0 refused"}
