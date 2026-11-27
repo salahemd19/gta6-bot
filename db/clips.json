@@ -58011,7 +58011,7 @@
   "is_mature": true,
   "discovered_at": "2026-11-27T00:34:05+00:00",
   "status": "analysed",
-  "authenticity": "category_only",
+  "authenticity": "verified_by_review",
   "rights": "credited_third_party",
   "used_in": [],
   "duplicate_of": null,
@@ -58032,7 +58032,8 @@
   "account_url": "https://kick.com/zony",
   "clip_url": "https://clips.kick.com/clips/22/clip_01M8AM7ZJ035ERXP9PS7J7PNG9/playlist.m3u8",
   "authenticity_evidence": [
-   "Listed in Kick's Grand Theft Auto VI category (not proof by itself)"
+   "Listed in Kick's Grand Theft Auto VI category (not proof by itself)",
+   "Frame sheet reviewed 2026-11-27"
   ],
   "category": "VIRAL MOMENTS & CHAOS",
   "subcategory": "",
@@ -58053,7 +58054,7 @@
   "analytics": {},
   "stage": "RIGHTS_RECORDED",
   "state": "active",
-  "updated_at": "2026-11-27T11:16:32+00:00",
+  "updated_at": "2026-11-27T11:49:10+00:00",
   "views_per_hour_recent": 0.6,
   "metrics": {
    "motion": 29.6,
@@ -58091,12 +58092,12 @@
     "french_relevance": "heuristic",
     "category": "heuristic",
     "source_quality": "measured",
-    "originality": "not_assessed",
-    "storytelling": "not_assessed"
+    "originality": "review",
+    "storytelling": "review"
    },
    "coverage": 0.86,
    "model": "v2.0",
-   "reviewed": false
+   "reviewed": true
   },
   "analysis": {
    "start": 5.0,
@@ -58174,14 +58175,14 @@
    "series": "ALERTE LEONIDA",
    "category": "VIRAL MOMENTS & CHAOS",
    "hooks": [
-    "IL N'AURAIT PAS DÛ FAIRE ÇA",
-    "ÇA DÉRAPE EN QUELQUES SECONDES",
-    "REGARDE JUSQU'À LA FIN"
+    "SON HÉLICO PREND FEU EN PLEIN CIEL",
+    "TOUCHÉ À CETTE ALTITUDE, ÇA TOMBE",
+    "L'HÉLICO FUME ET PERD DE L'ALTITUDE"
    ],
-   "best_hook": "IL N'AURAIT PAS DÛ FAIRE ÇA",
-   "title": "IL N'AURAIT PAS DÛ FAIRE ÇA 😱 GTA 6",
-   "description": "Un moment repéré en live sur GTA 6. Créateur : @zony (Kick).",
-   "caption": "IL N'AURAIT PAS DÛ FAIRE ÇA 😱 Tu aurais fait quoi ? Dis-le en commentaire 👇 🎥 @zony #GTA6 #GTA6FR #GTAVI #pourtoi",
+   "best_hook": "SON HÉLICO PREND FEU EN PLEIN CIEL",
+   "title": "SON HÉLICO PREND FEU EN PLEIN CIEL 😱 GTA 6",
+   "description": "En plein ciel, un hélicoptère est touché près d'un appareil noir puis descend en traînant une épaisse fumée noire. Créateur : @zony (Kick).",
+   "caption": "SON HÉLICO PREND FEU EN PLEIN CIEL 😱 Tu aurais fait quoi ? Dis-le en commentaire 👇 🎥 @zony #GTA6 #GTA6FR #GTAVI #pourtoi",
    "narration": null,
    "cta": "Tu aurais fait quoi ? Dis-le en commentaire",
    "editing": [
@@ -58200,10 +58201,11 @@
     ],
     "tiktok": []
    },
-   "needs_review": "Hooks are generic: nobody has described what happens yet. Check the footage before using."
+   "needs_review": null
   },
   "analysed_at": "2026-11-27T11:02:58+00:00",
-  "viral_potential": 7.8
+  "viral_potential": 7.8,
+  "category_reviewed": true
  },
  "clip_01M8APA5PN5X0H4YTCPAVFNV29": {
   "id": "clip_01M8APA5PN5X0H4YTCPAVFNV29",
@@ -58221,7 +58223,7 @@
   "vod_starts_at": 0,
   "is_mature": true,
   "discovered_at": "2026-11-27T00:34:05+00:00",
-  "status": "analysed",
+  "status": "rejected_review",
   "authenticity": "category_only",
   "rights": "credited_third_party",
   "used_in": [],
@@ -58263,8 +58265,8 @@
   "publications": [],
   "analytics": {},
   "stage": "RIGHTS_RECORDED",
-  "state": "active",
-  "updated_at": "2026-11-27T11:16:32+00:00",
+  "state": "rejected",
+  "updated_at": "2026-11-27T11:49:10+00:00",
   "views_per_hour_recent": 1.7,
   "metrics": {
    "motion": 13.3,
@@ -58482,7 +58484,8 @@
    "needs_review": "Hooks are generic: nobody has described what happens yet. Check the footage before using."
   },
   "analysed_at": "2026-11-27T11:03:30+00:00",
-  "viral_potential": 8.06
+  "viral_potential": 8.06,
+  "manual_state": true
  },
  "clip_01M8ASRA0QYHCSQS605XA4486W": {
   "id": "clip_01M8ASRA0QYHCSQS605XA4486W",
@@ -59998,7 +60001,7 @@
   "vod_starts_at": 0,
   "is_mature": true,
   "discovered_at": "2026-11-27T00:34:05+00:00",
-  "status": "analysed",
+  "status": "rejected_review",
   "authenticity": "category_only",
   "rights": "credited_third_party",
   "used_in": [],
@@ -60040,8 +60043,8 @@
   "publications": [],
   "analytics": {},
   "stage": "RIGHTS_RECORDED",
-  "state": "active",
-  "updated_at": "2026-11-27T11:16:32+00:00",
+  "state": "rejected",
+  "updated_at": "2026-11-27T11:49:10+00:00",
   "views_per_hour_recent": 0.0,
   "metrics": {
    "motion": 28.8,
@@ -60192,7 +60195,8 @@
    "needs_review": "Hooks are generic: nobody has described what happens yet. Check the footage before using."
   },
   "analysed_at": "2026-11-27T10:59:15+00:00",
-  "viral_potential": 7.62
+  "viral_potential": 7.62,
+  "manual_state": true
  },
  "clip_01M8D6N6N8ZR91WK38PQ9SW5PC": {
   "id": "clip_01M8D6N6N8ZR91WK38PQ9SW5PC",
@@ -63804,7 +63808,7 @@
   "vod_starts_at": 0,
   "is_mature": true,
   "discovered_at": "2026-11-27T00:34:07+00:00",
-  "status": "analysed",
+  "status": "rejected_review",
   "authenticity": "category_only",
   "rights": "credited_third_party",
   "used_in": [],
@@ -63846,8 +63850,8 @@
   "publications": [],
   "analytics": {},
   "stage": "RIGHTS_RECORDED",
-  "state": "active",
-  "updated_at": "2026-11-27T11:16:32+00:00",
+  "state": "rejected",
+  "updated_at": "2026-11-27T11:49:10+00:00",
   "views_per_hour_recent": 0.0,
   "metrics": {
    "motion": 14.7,
@@ -64029,7 +64033,8 @@
    "needs_review": "Hooks are generic: nobody has described what happens yet. Check the footage before using."
   },
   "analysed_at": "2026-11-27T11:13:07+00:00",
-  "viral_potential": 7.5
+  "viral_potential": 7.5,
+  "manual_state": true
  },
  "clip_01M8D68VFR5WSARYGE81MRTZ9Q": {
   "id": "clip_01M8D68VFR5WSARYGE81MRTZ9Q",
@@ -74564,8 +74569,8 @@
   "vod_starts_at": 0,
   "is_mature": true,
   "discovered_at": "2026-11-27T01:59:34+00:00",
-  "status": "analysed",
-  "authenticity": "category_only",
+  "status": "rejected_review",
+  "authenticity": "not_gta6",
   "rights": "credited_third_party",
   "used_in": [],
   "duplicate_of": null,
@@ -74606,8 +74611,8 @@
   "publications": [],
   "analytics": {},
   "stage": "RIGHTS_RECORDED",
-  "state": "active",
-  "updated_at": "2026-11-27T11:16:32+00:00",
+  "state": "rejected",
+  "updated_at": "2026-11-27T11:49:10+00:00",
   "views_per_hour_recent": 0.0,
   "metrics": {
    "motion": 29.3,
@@ -74779,7 +74784,8 @@
    "needs_review": "Hooks are generic: nobody has described what happens yet. Check the footage before using."
   },
   "analysed_at": "2026-11-27T11:05:28+00:00",
-  "viral_potential": 8.28
+  "viral_potential": 8.28,
+  "manual_state": true
  },
  "clip_01M8DBANQFHMX6PHWCCT7FVXAD": {
   "id": "clip_01M8DBANQFHMX6PHWCCT7FVXAD",
@@ -82806,7 +82812,7 @@
   "vod_starts_at": 0,
   "is_mature": true,
   "discovered_at": "2026-11-27T04:44:35+00:00",
-  "status": "analysed",
+  "status": "rejected_review",
   "authenticity": "category_only",
   "rights": "credited_third_party",
   "used_in": [],
@@ -82848,8 +82854,8 @@
   "publications": [],
   "analytics": {},
   "stage": "RIGHTS_RECORDED",
-  "state": "active",
-  "updated_at": "2026-11-27T11:16:32+00:00",
+  "state": "rejected",
+  "updated_at": "2026-11-27T11:49:10+00:00",
   "views_per_hour_recent": 0.0,
   "metrics": {
    "motion": 17.8,
@@ -83024,7 +83030,8 @@
    "needs_review": "Hooks are generic: nobody has described what happens yet. Check the footage before using."
   },
   "analysed_at": "2026-11-27T10:53:23+00:00",
-  "viral_potential": 7.79
+  "viral_potential": 7.79,
+  "manual_state": true
  },
  "clip_01M8DMS4M702SGHEJHFST4XGEK": {
   "id": "clip_01M8DMS4M702SGHEJHFST4XGEK",
@@ -89335,7 +89342,7 @@
   "is_mature": true,
   "discovered_at": "2026-11-27T06:37:33+00:00",
   "status": "analysed",
-  "authenticity": "category_only",
+  "authenticity": "verified_by_review",
   "rights": "credited_third_party",
   "used_in": [],
   "duplicate_of": null,
@@ -89356,7 +89363,8 @@
   "account_url": "https://kick.com/missvirgo",
   "clip_url": "https://clips.kick.com/clips/f7/clip_01M8DV97HVRKY84RZH2ADP3J6P/playlist.m3u8",
   "authenticity_evidence": [
-   "Listed in Kick's Grand Theft Auto VI category (not proof by itself)"
+   "Listed in Kick's Grand Theft Auto VI category (not proof by itself)",
+   "Frame sheet reviewed 2026-11-27"
   ],
   "category": "VIRAL MOMENTS & CHAOS",
   "subcategory": "",
@@ -89377,7 +89385,7 @@
   "analytics": {},
   "stage": "RIGHTS_RECORDED",
   "state": "active",
-  "updated_at": "2026-11-27T11:16:32+00:00",
+  "updated_at": "2026-11-27T11:49:10+00:00",
   "views_per_hour_recent": 0.0,
   "metrics": {
    "motion": 25.1,
@@ -89415,12 +89423,12 @@
     "french_relevance": "heuristic",
     "category": "heuristic",
     "source_quality": "measured",
-    "originality": "not_assessed",
-    "storytelling": "not_assessed"
+    "originality": "review",
+    "storytelling": "review"
    },
    "coverage": 0.86,
    "model": "v2.0",
-   "reviewed": false
+   "reviewed": true
   },
   "analysis": {
    "start": 22.0,
@@ -89484,14 +89492,14 @@
    "series": "ALERTE LEONIDA",
    "category": "VIRAL MOMENTS & CHAOS",
    "hooks": [
-    "IL N'AURAIT PAS DÛ FAIRE ÇA",
-    "ÇA DÉRAPE EN QUELQUES SECONDES",
-    "REGARDE JUSQU'À LA FIN"
+    "IL FONCE DROIT SUR LA POLICE",
+    "FACE À FACE ARMÉ AVEC LA POLICE",
+    "SEUL CONTRE LA POLICE DE VICE-DALE"
    ],
-   "best_hook": "IL N'AURAIT PAS DÛ FAIRE ÇA",
-   "title": "IL N'AURAIT PAS DÛ FAIRE ÇA 😱 GTA 6",
-   "description": "Un moment repéré en live sur GTA 6. Créateur : @missvirgo (Kick).",
-   "caption": "IL N'AURAIT PAS DÛ FAIRE ÇA 😱 Abonne-toi pour la suite du dossier 👇 🎥 @missvirgo #GTA6 #GTA6FR #GTAVI #pourtoi",
+   "best_hook": "IL FONCE DROIT SUR LA POLICE",
+   "title": "IL FONCE DROIT SUR LA POLICE 😱 GTA 6",
+   "description": "Le personnage saute sur le capot d'une voiture de police, chute au sol et affronte un policier armé pendant que des tirs soulèvent la poussière. Créateur : @missvirgo (Kick).",
+   "caption": "IL FONCE DROIT SUR LA POLICE 😱 Abonne-toi pour la suite du dossier 👇 🎥 @missvirgo #GTA6 #GTA6FR #GTAVI #pourtoi",
    "narration": null,
    "cta": "Abonne-toi pour la suite du dossier",
    "editing": [
@@ -89504,16 +89512,19 @@
    "music_mood": "high-energy phonk or electronic, drop on the first impact",
    "music": {
     "youtube": [
-     "Survival Mode - Blue Deer Studio",
      "Ego Chall - Blue Deer Studio",
+     "The One Fight - Bare Bones Mtl",
      "Comin Wit It - Anno Domini Beats"
     ],
-    "tiktok": []
+    "tiktok": [
+     "Tokyo Drift - PHONKAZO"
+    ]
    },
-   "needs_review": "Hooks are generic: nobody has described what happens yet. Check the footage before using."
+   "needs_review": null
   },
   "analysed_at": "2026-11-27T11:16:01+00:00",
-  "viral_potential": 7.5
+  "viral_potential": 7.5,
+  "category_reviewed": true
  },
  "clip_01M8DV8AGTTEXWA7RYZ37FQ5WQ": {
   "id": "clip_01M8DV8AGTTEXWA7RYZ37FQ5WQ",
@@ -93092,7 +93103,7 @@
   "vod_starts_at": 0,
   "is_mature": true,
   "discovered_at": "2026-11-27T07:22:13+00:00",
-  "status": "analysed",
+  "status": "rejected_review",
   "authenticity": "category_only",
   "rights": "credited_third_party",
   "used_in": [],
@@ -93122,8 +93133,8 @@
   "publications": [],
   "analytics": {},
   "stage": "RIGHTS_RECORDED",
-  "state": "active",
-  "updated_at": "2026-11-27T11:16:32+00:00",
+  "state": "rejected",
+  "updated_at": "2026-11-27T11:49:10+00:00",
   "seen_at": "2026-11-27T11:31:40+00:00",
   "radar": {
    "momentum": 4.4,
@@ -93280,7 +93291,8 @@
    "needs_review": "Hooks are generic: nobody has described what happens yet. Check the footage before using."
   },
   "analysed_at": "2026-11-27T10:40:56+00:00",
-  "viral_potential": 8.24
+  "viral_potential": 8.24,
+  "manual_state": true
  },
  "clip_01M7WKCHJR7SBXJGD73836YWAN": {
   "id": "clip_01M7WKCHJR7SBXJGD73836YWAN",
@@ -96597,7 +96609,7 @@
   "vod_starts_at": 0,
   "is_mature": true,
   "discovered_at": "2026-11-27T08:05:33+00:00",
-  "status": "analysed",
+  "status": "rejected_review",
   "authenticity": "category_only",
   "rights": "credited_third_party",
   "used_in": [],
@@ -96639,8 +96651,8 @@
   "publications": [],
   "analytics": {},
   "stage": "RIGHTS_RECORDED",
-  "state": "active",
-  "updated_at": "2026-11-27T11:16:32+00:00",
+  "state": "rejected",
+  "updated_at": "2026-11-27T11:49:10+00:00",
   "views_per_hour_recent": 0.0,
   "metrics": {
    "motion": 21.7,
@@ -96787,7 +96799,8 @@
    "needs_review": "Hooks are generic: nobody has described what happens yet. Check the footage before using."
   },
   "analysed_at": "2026-11-27T11:06:02+00:00",
-  "viral_potential": 7.58
+  "viral_potential": 7.58,
+  "manual_state": true
  },
  "clip_01M8E07GFDHRXK0C2TX8DEZAJK": {
   "id": "clip_01M8E07GFDHRXK0C2TX8DEZAJK",
@@ -96867,7 +96880,7 @@
   "vod_starts_at": 0,
   "is_mature": true,
   "discovered_at": "2026-11-27T08:05:33+00:00",
-  "status": "analysed",
+  "status": "rejected_review",
   "authenticity": "category_only",
   "rights": "credited_third_party",
   "used_in": [],
@@ -96909,8 +96922,8 @@
   "publications": [],
   "analytics": {},
   "stage": "RIGHTS_RECORDED",
-  "state": "active",
-  "updated_at": "2026-11-27T11:16:32+00:00",
+  "state": "rejected",
+  "updated_at": "2026-11-27T11:49:10+00:00",
   "views_per_hour_recent": 0.0,
   "metrics": {
    "motion": 23.0,
@@ -97052,7 +97065,8 @@
    "needs_review": "Hooks are generic: nobody has described what happens yet. Check the footage before using."
   },
   "analysed_at": "2026-11-27T10:52:15+00:00",
-  "viral_potential": 8.22
+  "viral_potential": 8.22,
+  "manual_state": true
  },
  "clip_01M8E07002M5KE14Z13SVWQXAN": {
   "id": "clip_01M8E07002M5KE14Z13SVWQXAN",
@@ -97645,7 +97659,7 @@
   "vod_starts_at": 0,
   "is_mature": true,
   "discovered_at": "2026-11-27T08:05:33+00:00",
-  "status": "analysed",
+  "status": "rejected_review",
   "authenticity": "category_only",
   "rights": "credited_third_party",
   "used_in": [],
@@ -97687,8 +97701,8 @@
   "publications": [],
   "analytics": {},
   "stage": "RIGHTS_RECORDED",
-  "state": "active",
-  "updated_at": "2026-11-27T11:16:32+00:00",
+  "state": "rejected",
+  "updated_at": "2026-11-27T11:49:10+00:00",
   "views_per_hour_recent": 0.0,
   "metrics": {
    "motion": 34.7,
@@ -97896,7 +97910,8 @@
    "needs_review": "Hooks are generic: nobody has described what happens yet. Check the footage before using."
   },
   "analysed_at": "2026-11-27T11:06:49+00:00",
-  "viral_potential": 8.14
+  "viral_potential": 8.14,
+  "manual_state": true
  },
  "clip_01M8E021BENCYFQWMWDYNKR0DV": {
   "id": "clip_01M8E021BENCYFQWMWDYNKR0DV",
@@ -102443,7 +102458,7 @@
   "vod_starts_at": 0,
   "is_mature": true,
   "discovered_at": "2026-11-27T09:44:05+00:00",
-  "status": "analysed",
+  "status": "rejected_review",
   "authenticity": "category_only",
   "rights": "credited_third_party",
   "used_in": [],
@@ -102485,8 +102500,8 @@
   "publications": [],
   "analytics": {},
   "stage": "RIGHTS_RECORDED",
-  "state": "active",
-  "updated_at": "2026-11-27T11:16:32+00:00",
+  "state": "rejected",
+  "updated_at": "2026-11-27T11:49:10+00:00",
   "metrics": {
    "motion": 20.3,
    "still": 0.03,
@@ -102644,7 +102659,8 @@
   },
   "analysed_at": "2026-11-27T10:57:50+00:00",
   "viral_potential": 7.49,
-  "views_per_hour_recent": 0.0
+  "views_per_hour_recent": 0.0,
+  "manual_state": true
  },
  "clip_01M8E5HC85KDMFP3DS3G04KES4": {
   "id": "clip_01M8E5HC85KDMFP3DS3G04KES4",

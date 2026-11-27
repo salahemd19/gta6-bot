@@ -306,5 +306,88 @@
   "verdict": "reject",
   "reason": "mostly calm motorbike riding",
   "by": "Claude frame-sheet review 2026-11-27"
+ },
+ "VCI-509a6a5799": {
+  "verdict": "reject",
+  "reason": "GTA V / FiveM roleplay graphics, not GTA 6",
+  "not_gta6": true,
+  "by": "Claude frame-sheet review 2026-11-27"
+ },
+ "VCI-612c5e27b8": {
+  "verdict": "reject",
+  "reason": "Salon menu then unclear scuffle indoors, action not readable",
+  "by": "Claude frame-sheet review 2026-11-27"
+ },
+ "VCI-a35d6b5b84": {
+  "verdict": "reject",
+  "reason": "Mostly driving, dim minor collision, prominent shirtless facecam",
+  "by": "Claude frame-sheet review 2026-11-27"
+ },
+ "VCI-b4c71b7d3d": {
+  "verdict": "reject",
+  "reason": "Standing around burning vehicles, black screen and menu, no clear event",
+  "by": "Claude frame-sheet review 2026-11-27"
+ },
+ "VCI-c7fad6273a": {
+  "verdict": "reject",
+  "reason": "Dim alley scuffle with downed character, weapon wheel, weak action",
+  "by": "Claude frame-sheet review 2026-11-27"
+ },
+ "VCI-2929012f8e": {
+  "verdict": "keep",
+  "action_fr": "En plein ciel, un hélicoptère est touché près d'un appareil noir puis descend en traînant une épaisse fumée noire.",
+  "hooks_fr": [
+   "SON HÉLICO PREND FEU EN PLEIN CIEL",
+   "TOUCHÉ À CETTE ALTITUDE, ÇA TOMBE",
+   "L'HÉLICO FUME ET PERD DE L'ALTITUDE"
+  ],
+  "category": "VIRAL MOMENTS & CHAOS",
+  "strength": 8,
+  "window": [
+   2.0,
+   12.0
+  ],
+  "by": "Claude frame-sheet review 2026-11-27"
+ },
+ "VCI-b24078b6fd": {
+  "verdict": "reject",
+  "reason": "Dirt bike race with overtakes only, no crash or stunt",
+  "by": "Claude frame-sheet review 2026-11-27"
+ },
+ "VCI-6f90d95cc6": {
+  "verdict": "reject",
+  "reason": "Walking around a mini golf course, nothing happens",
+  "by": "Claude frame-sheet review 2026-11-27"
+ },
+ "VCI-cda72ae250": {
+  "verdict": "reject",
+  "reason": "Calm driving then walking",
+  "by": "Claude frame-sheet review 2026-11-27"
+ },
+ "VCI-06ccf00d43": {
+  "verdict": "reject",
+  "reason": "Story dialogue sequence and facecam",
+  "by": "Claude frame-sheet review 2026-11-27"
+ },
+ "VCI-8fdf5d4115": {
+  "verdict": "keep",
+  "action_fr": "Le personnage saute sur le capot d'une voiture de police, chute au sol et affronte un policier armé pendant que des tirs soulèvent la poussière.",
+  "hooks_fr": [
+   "IL FONCE DROIT SUR LA POLICE",
+   "FACE À FACE ARMÉ AVEC LA POLICE",
+   "SEUL CONTRE LA POLICE DE VICE-DALE"
+  ],
+  "category": "VIRAL MOMENTS & CHAOS",
+  "strength": 7,
+  "window": [
+   21.0,
+   29.5
+  ],
+  "by": "Claude frame-sheet review 2026-11-27"
+ },
+ "VCI-0bcb8b35b6": {
+  "verdict": "reject",
+  "reason": "Mostly calm scooter ride, then a downed elderly character",
+  "by": "Claude frame-sheet review 2026-11-27"
  }
 }
