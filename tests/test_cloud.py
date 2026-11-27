@@ -156,7 +156,8 @@ class ReviewExchange(unittest.TestCase):
                 V.queue = lambda count: {"folder": str(work), "sheets": [str(sheet)], "clips": [{"id": "VCI-a"}], "ready": 0}
                 self.assertIn("published 1", V.publish(1))
             self.assertEqual(len(git(d / "server.git", "log", "--format=%H", "review-queue").split()), 1)
-            self.assertIn("queue.json", git(d / "server.git", "ls-tree", "--name-only", "review-queue"))
+            self.assertEqual(git(d / "server.git", "ls-tree", "--name-only", "review-queue").splitlines(),
+                             ["queue.json", "sheet1.jpg"])
             self.assertEqual((work / "a.txt").read_text(), "a")
             self.assertIn("no verdicts", V.apply_remote())
             git(work, "checkout", "-q", "-b", "claude/review-verdicts")

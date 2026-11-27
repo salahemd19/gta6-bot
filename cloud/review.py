@@ -119,8 +119,10 @@ def git(*args, text_in=None):
     env = {**os.environ, "GIT_AUTHOR_NAME": "vci-pipeline", "GIT_COMMITTER_NAME": "vci-pipeline",
            "GIT_AUTHOR_EMAIL": "vci-pipeline@users.noreply.github.com",
            "GIT_COMMITTER_EMAIL": "vci-pipeline@users.noreply.github.com"}
-    return subprocess.run(["git", *args], cwd=ROOT, input=text_in, capture_output=True, text=True, encoding="utf-8",
-                          errors="replace", env=env)
+    # bytes in and out: text mode on Windows would turn "\n" into "\r\n" and put it inside file names
+    r = subprocess.run(["git", *args], cwd=ROOT, input=None if text_in is None else text_in.encode("utf-8"),
+                       capture_output=True, env=env)
+    return subprocess.CompletedProcess(r.args, r.returncode, r.stdout.decode("utf-8", "replace"), r.stderr.decode("utf-8", "replace"))
 
 
 def must(*args, **kw):
