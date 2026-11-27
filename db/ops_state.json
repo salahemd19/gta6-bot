@@ -2,8 +2,8 @@
  "jobs": {
   "approvals": {
    "failures": 0,
-   "last_ok": "2026-11-27T14:12:55+00:00",
-   "result": "owner decisions applied",
+   "last_ok": "2026-11-27T14:44:02+00:00",
+   "result": "no new decision",
    "error": null
   },
   "produce": {
@@ -14,14 +14,14 @@
   },
   "calendar": {
    "failures": 0,
-   "last_ok": "2026-11-27T14:12:55+00:00",
+   "last_ok": "2026-11-27T14:44:03+00:00",
    "result": "youtube 5/6 today | tiktok 5/8 today",
    "error": null
   },
   "analytics_collect": {
    "failures": 0,
-   "last_ok": "2026-11-27T13:37:10+00:00",
-   "result": "72 YouTube readings (TikTok needs a CSV import)",
+   "last_ok": "2026-11-27T14:44:04+00:00",
+   "result": "73 YouTube readings (TikTok needs a CSV import)",
    "error": null
   },
   "analytics_report": {
@@ -29,32 +29,56 @@
    "last_ok": "2026-11-27T12:03:40+00:00",
    "result": "youtube: 122 videos, 2 with 24 h; tiktok: 5 videos, 0 with 24 h",
    "error": null
+  },
+  "reviews": {
+   "failures": 0,
+   "last_ok": "2026-11-27T14:44:03+00:00",
+   "result": "no verdicts from the cloud reviewer yet",
+   "error": null
+  },
+  "post_buffer": {
+   "failures": 0,
+   "last_ok": "2026-11-27T14:44:03+00:00",
+   "result": "not connected (add the secret BUFFER_API_KEY)",
+   "error": null
+  },
+  "verify_youtube": {
+   "failures": 0,
+   "last_ok": "2026-11-27T14:44:03+00:00",
+   "result": "1 confirmed public",
+   "error": null
   }
  },
  "workflows": {
   "radar.yml": {
    "name": "Discovery radar",
    "health": "ok",
-   "age_h": 0.2,
+   "age_h": 0.7,
    "url": "https://github.com/salahemd19/gta6-bot/actions/runs/46011943056"
   },
   "engine.yml": {
    "name": "Ingest and analysis",
    "health": "ok",
-   "age_h": 0.9,
+   "age_h": 0.0,
    "url": "https://github.com/salahemd19/gta6-bot/actions/runs/46005758604"
   },
   "backup.yml": {
    "name": "Database backup",
    "health": "ok",
-   "age_h": 10.1,
+   "age_h": 10.6,
    "url": "https://github.com/salahemd19/gta6-bot/actions/runs/45938237332"
   },
   "post.yml": {
    "name": "Publisher",
    "health": "ok",
-   "age_h": 0.3,
+   "age_h": 0.9,
    "url": "https://github.com/salahemd19/gta6-bot/actions/runs/46010944639"
+  },
+  "telegram.yml": {
+   "name": "Telegram approvals",
+   "health": "ok",
+   "age_h": 0.0,
+   "url": "https://github.com/salahemd19/gta6-bot/actions/runs/46018460930"
   }
  },
  "alerts": []
