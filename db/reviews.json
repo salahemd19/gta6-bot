@@ -430,5 +430,101 @@
   "verdict": "reject",
   "reason": "calm boat boarding and map screen, no event",
   "by": "Cloud Claude review 2026-11-27"
+ },
+ "VCI-cff903db5c": {
+  "verdict": "keep",
+  "action_fr": "Une bagarre à mains nues éclate sur un trottoir, près d'une voiture verte : le personnage se retrouve face à plusieurs hommes.",
+  "hooks_fr": [
+   "SEUL CONTRE PLUSIEURS HOMMES",
+   "LA BAGARRE ÉCLATE EN PLEINE RUE",
+   "ÇA DÉGÉNÈRE SUR LE TROTTOIR"
+  ],
+  "category": "VIRAL MOMENTS & CHAOS",
+  "strength": 5,
+  "window": [
+   9.5,
+   17.0
+  ],
+  "by": "Claude frame-sheet review 2026-11-27"
+ },
+ "VCI-65335a5d90": {
+  "verdict": "keep",
+  "action_fr": "Un avion rouge descend vers un champ, percute le sol et finit à côté d'un tracteur avec le moteur endommagé.",
+  "hooks_fr": [
+   "L'AVION S'ÉCRASE EN PLEIN CHAMP",
+   "ATTERRISSAGE BRUTAL PRÈS DU TRACTEUR",
+   "MOTEUR ENDOMMAGÉ APRÈS LE CHOC"
+  ],
+  "category": "VIRAL MOMENTS & CHAOS",
+  "strength": 7,
+  "window": [
+   23.5,
+   31.0
+  ],
+  "by": "Claude frame-sheet review 2026-11-27"
+ },
+ "VCI-047971f97e": {
+  "verdict": "keep",
+  "action_fr": "Cernée par la police près d'un camion, une voiture noire se dégage et s'enfuit sur la route pendant que l'intervention continue.",
+  "hooks_fr": [
+   "LA POLICE LES COINCE DERRIÈRE LE CAMION",
+   "FUITE SOUS LE NEZ DE LA POLICE",
+   "ILS FORCENT LE PASSAGE POUR S'ENFUIR"
+  ],
+  "category": "VIRAL MOMENTS & CHAOS",
+  "strength": 8,
+  "window": [
+   18.0,
+   25.0
+  ],
+  "by": "Claude frame-sheet review 2026-11-27"
+ },
+ "VCI-c110ea4fe5": {
+  "verdict": "reject",
+  "reason": "Streamer torse nu en facecam toute la durée ; accrochage confus, en cas de doute rejet.",
+  "by": "Claude frame-sheet review 2026-11-27"
+ },
+ "VCI-d53e591691": {
+  "verdict": "reject",
+  "reason": "Pas GTA 6 : jeu de tir militaire à la première personne.",
+  "not_gta6": true,
+  "by": "Claude frame-sheet review 2026-11-27"
+ },
+ "VCI-64a113409c": {
+  "verdict": "reject",
+  "reason": "Balade calme en deux-roues, rien ne se passe.",
+  "by": "Claude frame-sheet review 2026-11-27"
+ },
+ "VCI-a1903f23a4": {
+  "verdict": "reject",
+  "reason": "Conduite calme en pick-up avec dialogues, aucune action.",
+  "by": "Claude frame-sheet review 2026-11-27"
+ },
+ "VCI-7cb0569528": {
+  "verdict": "reject",
+  "reason": "Conduite calme en petite voiture, aucune action claire.",
+  "by": "Claude frame-sheet review 2026-11-27"
+ },
+ "VCI-c537aa03e1": {
+  "verdict": "reject",
+  "reason": "Pas GTA 6 : graphismes de GTA V.",
+  "not_gta6": true,
+  "by": "Claude frame-sheet review 2026-11-27"
+ },
+ "VCI-fee2174a85": {
+  "verdict": "reject",
+  "reason": "Conduite calme en 4x4 rouge, aucun braquage visible.",
+  "by": "Claude frame-sheet review 2026-11-27"
+ },
+ "VCI-fc0dd66151": {
+  "verdict": "reject",
+  "reason": "Marche sur une plage puis bateau, rien ne se passe.",
+  "by": "Claude frame-sheet review 2026-11-27"
+ },
+ "VCI-c75d29f30c": {
+  "verdict": "reject",
+  "reason": "Pas GTA 6 : partie de Valorant et facecams.",
+  "not_gta6": true,
+  "by": "Claude frame-sheet review 2026-11-27"
  }
 }
