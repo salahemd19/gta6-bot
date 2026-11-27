@@ -1,14 +1,14 @@
 {
- "generated": "2026-11-26T23:33+00:00",
+ "generated": "2026-11-27T12:03+00:00",
  "platforms": {
   "youtube": {
-   "videos": 49,
-   "measured_24h": 0,
-   "median_24h": null,
-   "median_latest_views": 388.0,
-   "median_like_rate_pct": 1.79,
-   "views_per_follower_median": null,
-   "top_share_of_views": 0.07,
+   "videos": 122,
+   "measured_24h": 2,
+   "median_24h": 171.0,
+   "median_latest_views": 387.5,
+   "median_like_rate_pct": 1.8,
+   "views_per_follower_median": 5.7,
+   "top_share_of_views": 0.03,
    "not_collected": [
     "shares",
     "impressions",
@@ -16,18 +16,70 @@
     "retention",
     "completion",
     "rewatches",
-    "followers_gained",
-    "followers"
+    "followers_gained"
    ],
    "dimensions": {
     "category": [],
     "series": [],
     "hook": [],
-    "format": [],
+    "format": [
+     {
+      "group": "top",
+      "n": 1,
+      "median_24h": 207,
+      "vs_platform": 1.21,
+      "enough": false
+     },
+     {
+      "group": "top5",
+      "n": 1,
+      "median_24h": 135,
+      "vs_platform": 0.79,
+      "enough": false
+     }
+    ],
     "length": [],
-    "source_type": [],
-    "weekday": [],
-    "window": []
+    "source_type": [
+     {
+      "group": "single creator",
+      "n": 1,
+      "median_24h": 207,
+      "vs_platform": 1.21,
+      "enough": false
+     },
+     {
+      "group": "compilation of several creators",
+      "n": 1,
+      "median_24h": 135,
+      "vs_platform": 0.79,
+      "enough": false
+     }
+    ],
+    "weekday": [
+     {
+      "group": "Thursday",
+      "n": 2,
+      "median_24h": 171.0,
+      "vs_platform": 1.0,
+      "enough": false
+     }
+    ],
+    "window": [
+     {
+      "group": "evening",
+      "n": 1,
+      "median_24h": 207,
+      "vs_platform": 1.21,
+      "enough": false
+     },
+     {
+      "group": "afternoon",
+      "n": 1,
+      "median_24h": 135,
+      "vs_platform": 0.79,
+      "enough": false
+     }
+    ]
    }
   },
   "tiktok": {
@@ -64,7 +116,7 @@
   {
    "platform": "youtube",
    "level": "wait",
-   "text": "0 videos have a 24 h reading; 20 are needed before recommending changes."
+   "text": "2 videos have a 24 h reading; 20 are needed before recommending changes."
   },
   {
    "platform": "tiktok",
@@ -88,7 +140,18 @@
    "dimension": "window",
    "question": "Which YouTube window gets the highest median 24 h views?",
    "started": "2026-11-26",
-   "arms": [],
+   "arms": [
+    {
+     "group": "evening",
+     "n": 1,
+     "median_24h": 207
+    },
+    {
+     "group": "afternoon",
+     "n": 1,
+     "median_24h": 135
+    }
+   ],
    "status": "collecting"
   },
   {
@@ -97,7 +160,18 @@
    "dimension": "format",
    "question": "Countdown compilation or single moment?",
    "started": "2026-11-27",
-   "arms": [],
+   "arms": [
+    {
+     "group": "top",
+     "n": 1,
+     "median_24h": 207
+    },
+    {
+     "group": "top5",
+     "n": 1,
+     "median_24h": 135
+    }
+   ],
    "status": "collecting"
   },
   {
@@ -114,6 +188,54 @@
  "recent": [
   {
    "platform": "youtube",
+   "title": "FUSILLADE DE NUIT DANS L'ENTREPÔT 🔫 razzgo sur GTA 6",
+   "published_at": "2026-11-27T11:30:38Z",
+   "views": 8,
+   "views_24h": null,
+   "item": "20261126-1009-razzgo-clip02"
+  },
+  {
+   "platform": "youtube",
+   "title": "TOP 3 PIRES FAILS SUR GTA 6 😂 le numéro 1 est une catastrophe",
+   "published_at": "2026-11-26T21:30:30Z",
+   "views": 1088,
+   "views_24h": null,
+   "item": "20261126-V4"
+  },
+  {
+   "platform": "youtube",
+   "title": "TOP 3 MOMENTS LES PLUS FOUS SUR GTA 6 🤯 le numéro 1 est irréel",
+   "published_at": "2026-11-26T21:00:27Z",
+   "views": 1,
+   "views_24h": null,
+   "item": "20261126-W2"
+  },
+  {
+   "platform": "youtube",
+   "title": "TOP 3 FUSILLADES DE LA SEMAINE SUR GTA 6 🔫 le numéro 1 c'est la guerre",
+   "published_at": "2026-11-26T20:00:17Z",
+   "views": 1,
+   "views_24h": null,
+   "item": "20261126-V3"
+  },
+  {
+   "platform": "youtube",
+   "title": "TOP 5 BAGARRES LES PLUS FOLLES DE GTA 6 👊 le numéro 1 a pris cher",
+   "published_at": "2026-11-26T18:30:01Z",
+   "views": 599,
+   "views_24h": null,
+   "item": "20261126-V2"
+  },
+  {
+   "platform": "youtube",
+   "title": "TOP 5 CRASHS LES PLUS VIOLENTS DE GTA 6 💥 le numéro 1 est irréel",
+   "published_at": "2026-11-26T17:00:00Z",
+   "views": 207,
+   "views_24h": 207,
+   "item": "20261126-V1"
+  },
+  {
+   "platform": "youtube",
    "title": "LE TOP 5 GTA 6 DE LA SEMAINE 🔥 le numéro 1 est complètement fou",
    "published_at": "2026-11-26T14:13:00+00:00",
    "views": 124.0,
@@ -122,193 +244,145 @@
   },
   {
    "platform": "youtube",
+   "title": "LE TOP 5 GTA 6 DE LA SEMAINE 🔥 le numéro 1 est complètement fou",
+   "published_at": "2026-11-26T13:45:26Z",
+   "views": 135,
+   "views_24h": 135,
+   "item": "top5-semaine-20261126"
+  },
+  {
+   "platform": "youtube",
+   "title": "LEONIDA 🌅 GTA 6 en 30 secondes sur Save Your Tears",
+   "published_at": "2026-11-25T15:08:08Z",
+   "views": 556,
+   "views_24h": null,
+   "item": null
+  },
+  {
+   "platform": "youtube",
+   "title": "GTA 6 en live : ça devient fou 🔥",
+   "published_at": "2026-11-24T19:44:32Z",
+   "views": 344,
+   "views_24h": null,
+   "item": null
+  },
+  {
+   "platform": "youtube",
+   "title": "Ce moment GTA 6 chez Tobias 🔥",
+   "published_at": "2026-11-24T19:43:16Z",
+   "views": 222,
+   "views_24h": null,
+   "item": null
+  },
+  {
+   "platform": "youtube",
    "title": "Quand le live GTA 6 devient n'importe quoi 😂",
-   "published_at": null,
-   "views": 115.0,
+   "published_at": "2026-11-24T15:30:39Z",
+   "views": 115,
    "views_24h": null,
    "item": null
   },
   {
    "platform": "youtube",
    "title": "Ce live GTA 6 est complètement fou 🔥",
-   "published_at": null,
-   "views": 84.0,
+   "published_at": "2026-11-24T15:29:24Z",
+   "views": 84,
    "views_24h": null,
    "item": null
   },
   {
    "platform": "youtube",
    "title": "Il fait le tour de la map GTA 6 et ça part en live 😂",
-   "published_at": null,
-   "views": 126.0,
+   "published_at": "2026-11-24T15:27:14Z",
+   "views": 126,
    "views_24h": null,
    "item": null
   },
   {
    "platform": "youtube",
    "title": "GTA 6 Leonida : les six lieux à voir selon Rockstar",
-   "published_at": null,
-   "views": 387.0,
+   "published_at": "2026-11-21T14:11:02Z",
+   "views": 387,
    "views_24h": null,
    "item": null
   },
   {
    "platform": "youtube",
    "title": "GTA 6 Leonida: all six destinations Rockstar listed",
-   "published_at": null,
-   "views": 7.0,
+   "published_at": "2026-11-21T14:11:01Z",
+   "views": 7,
    "views_24h": null,
    "item": null
   },
   {
    "platform": "youtube",
    "title": "GTA 6 Lucia Caminos: her Liberty City roots explained",
-   "published_at": null,
-   "views": 643.0,
+   "published_at": "2026-11-21T14:09:16Z",
+   "views": 643,
    "views_24h": null,
    "item": null
   },
   {
    "platform": "youtube",
    "title": "GTA 6 Ultimate Edition vehicles quiz: can you name all five?",
-   "published_at": null,
-   "views": 220.0,
+   "published_at": "2026-11-21T14:09:06Z",
+   "views": 220,
    "views_24h": null,
    "item": null
   },
   {
    "platform": "youtube",
    "title": "GTA 6 Lucia Caminos : ses racines à Liberty City expliquées",
-   "published_at": null,
-   "views": 587.0,
+   "published_at": "2026-11-21T14:09:05Z",
+   "views": 587,
    "views_24h": null,
    "item": null
   },
   {
    "platform": "youtube",
    "title": "Quiz GTA 6 : les cinq véhicules de l'Ultimate Edition",
-   "published_at": null,
-   "views": 274.0,
+   "published_at": "2026-11-21T14:08:51Z",
+   "views": 274,
    "views_24h": null,
    "item": null
   },
   {
    "platform": "youtube",
    "title": "GTA ranked: Liberty City to Leonida, my bold number one",
-   "published_at": null,
-   "views": 23.0,
+   "published_at": "2026-11-21T13:21:14Z",
+   "views": 23,
    "views_24h": null,
    "item": null
   },
   {
    "platform": "youtube",
    "title": "GTA classés: de Liberty City à Leonida, mon numéro un osé",
-   "published_at": null,
-   "views": 139.0,
+   "published_at": "2026-11-21T13:20:41Z",
+   "views": 139,
    "views_24h": null,
    "item": null
   },
   {
    "platform": "youtube",
    "title": "GTA 6 Ultimate Edition vehicles: all five Rockstar shows",
-   "published_at": null,
-   "views": 1023.0,
+   "published_at": "2026-11-21T13:20:35Z",
+   "views": 1023,
    "views_24h": null,
    "item": null
   },
   {
    "platform": "youtube",
    "title": "GTA 6 Ultimate Edition : les cinq véhicules dévoilés",
-   "published_at": null,
-   "views": 141.0,
+   "published_at": "2026-11-21T13:20:29Z",
+   "views": 141,
    "views_24h": null,
    "item": null
   },
   {
    "platform": "youtube",
    "title": "GTA 6 Jason and Lucia: Rockstar's sunny vs dark side",
-   "published_at": null,
-   "views": 265.0,
-   "views_24h": null,
-   "item": null
-  },
-  {
-   "platform": "youtube",
-   "title": "GTA 6 Jason et Lucia : côté soleil ou côté sombre ?",
-   "published_at": null,
-   "views": 878.0,
-   "views_24h": null,
-   "item": null
-  },
-  {
-   "platform": "youtube",
-   "title": "GTA 6 story theory: was Jason and Lucia's score a setup?",
-   "published_at": null,
-   "views": 604.0,
-   "views_24h": null,
-   "item": null
-  },
-  {
-   "platform": "youtube",
-   "title": "GTA 6 Vice City : l'origine de 1997 que tu oublies",
-   "published_at": null,
-   "views": 388.0,
-   "views_24h": null,
-   "item": null
-  },
-  {
-   "platform": "youtube",
-   "title": "GTA 6 Jason and Lucia theory: who survives Leonida?",
-   "published_at": null,
-   "views": 946.0,
-   "views_24h": null,
-   "item": null
-  },
-  {
-   "platform": "youtube",
-   "title": "GTA 6 Vice City: the 1997 origin most fans forget",
-   "published_at": null,
-   "views": 797.0,
-   "views_24h": null,
-   "item": null
-  },
-  {
-   "platform": "youtube",
-   "title": "GTA 6 Vice City : 24 ans après 2002, hier et aujourd'hui",
-   "published_at": null,
-   "views": 242.0,
-   "views_24h": null,
-   "item": null
-  },
-  {
-   "platform": "youtube",
-   "title": "GTA 6 Jason et Lucia : ma théorie sur leur survie",
-   "published_at": null,
-   "views": 914.0,
-   "views_24h": null,
-   "item": null
-  },
-  {
-   "platform": "youtube",
-   "title": "GTA 6 Vice City: 24 years after 2002, then versus now",
-   "published_at": null,
-   "views": 981.0,
-   "views_24h": null,
-   "item": null
-  },
-  {
-   "platform": "youtube",
-   "title": "GTA 6 : Vice City revient après 24 ans, les faits",
-   "published_at": null,
-   "views": 904.0,
-   "views_24h": null,
-   "item": null
-  },
-  {
-   "platform": "youtube",
-   "title": "GTA 6 story explained: the dark side of Leonida",
-   "published_at": null,
-   "views": 1701.0,
+   "published_at": "2026-11-19T23:00:10Z",
+   "views": 265,
    "views_24h": null,
    "item": null
   }
