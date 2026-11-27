@@ -973,5 +973,116 @@
   "slot_tiktok": "2026-11-27T15:30+00:00",
   "feedback_applied": "approved",
   "youtube_url": "https://youtube.com/shorts/UOX2-95O-9A"
+ },
+ {
+  "id": "vci-20261127-130516",
+  "type": "top3",
+  "created": "2026-11-27T13:06:25+00:00",
+  "title": "IL FONCE DROIT SUR LA POLICE 😱 GTA 6 #Shorts",
+  "video_url": "https://github.com/salahemd19/gta6-bot/releases/download/clips/vci-20261127-130516_youtube.mp4",
+  "video_url_tiktok": "https://github.com/salahemd19/gta6-bot/releases/download/clips/vci-20261127-130516_tiktok.mp4",
+  "sheet_url": "https://github.com/salahemd19/gta6-bot/releases/download/clips/vci-20261127-130516_youtube_sheet.jpg",
+  "youtube_description": "En plein ciel, un hélicoptère est touché près d'un appareil noir puis descend en traînant une épaisse fumée noire.\nTon préféré ? Dis-le en commentaire 👇\n🎥 Créateurs (Kick) : missvirgo, ayellol, zony\nVoix : Piper, voix fr_FR-siwis (corpus SIWIS, CC BY 4.0)\n#GTA6 #GTAVI #GTA6FR #Shorts",
+  "tiktok_caption": "IL FONCE DROIT SUR LA POLICE 😱 GTA 6 Ton préféré ? Dis-le en commentaire 👇 🎥 missvirgo, ayellol, zony (Kick) #GTA6 #GTA6FR #GTAVI #pourtoi",
+  "tags": "GTA 6, GTA VI, GTA 6 FR, Vice City",
+  "music": {
+   "youtube": {
+    "mode": "add in the YouTube Studio editor",
+    "id": "ytal-ego-chall",
+    "title": "Ego Chall",
+    "artist": "Blue Deer Studio",
+    "source": "YouTube Audio Library",
+    "licence": "YouTube Audio Library (YouTube Studio > Bibliothèque audio, channel VICECITY INTEL), licence shown as 'Licence de la bibliothèque audio YouTube', seen 2026-11-26",
+    "permitted": "APPROVED",
+    "platforms": {
+     "youtube": "APPROVED",
+     "tiktok": "PENDING",
+     "reels": "PENDING"
+    },
+    "attribution": "CHECK: open the track's licence icon in Studio; if attribution is required, paste it in the description",
+    "conditions": "Use in videos only; never re-distribute the audio file. Other platforms are not covered until verified.",
+    "monetization": "YouTube: allowed under the YouTube Audio Library terms; elsewhere not verified",
+    "alternatives": [
+     "The One Fight - Bare Bones Mtl",
+     "Comin Wit It - Anno Domini Beats"
+    ]
+   },
+   "tiktok": {
+    "mode": "add in TikTok's sound picker",
+    "id": "tt-tokyo-drift-phonkazo",
+    "title": "Tokyo Drift",
+    "artist": "PHONKAZO",
+    "source": "TikTok in-app sound library (seen in TikTok Studio editor, 26 Nov 2026)",
+    "licence": "Offered in TikTok's sound picker for this account",
+    "permitted": "IN_APP_ONLY",
+    "platforms": {
+     "youtube": "NOT_APPROVED",
+     "tiktok": "IN_APP_ONLY",
+     "reels": "PENDING"
+    },
+    "attribution": "Shown automatically by TikTok",
+    "conditions": "Never embed in the uploaded video file",
+    "monetization": "Not cleared outside TikTok",
+    "alternatives": []
+   }
+  },
+  "sources": [
+   {
+    "content_id": "VCI-8fdf5d4115",
+    "creator": "missvirgo",
+    "platform": "kick",
+    "url": "https://kick.com/missvirgo/clips/clip_01M8DV97HVRKY84RZH2ADP3J6P",
+    "rights": "credited_third_party",
+    "start": 21.0,
+    "end": 27.5,
+    "at": 0.0,
+    "len": 6.5,
+    "height": 1080,
+    "dhash": "4d47448c26a78ecc",
+    "rank": 3
+   },
+   {
+    "content_id": "VCI-aecaed9e57",
+    "creator": "ayellol",
+    "platform": "kick",
+    "url": "https://kick.com/ayellol/clips/clip_01M8D33WZECKMHME21GFFD4FQM",
+    "rights": "credited_third_party",
+    "start": 21,
+    "end": 27.5,
+    "at": 6.5,
+    "len": 6.5,
+    "height": 1080,
+    "dhash": "e6eae86be3faf0f0",
+    "rank": 2
+   },
+   {
+    "content_id": "VCI-2929012f8e",
+    "creator": "zony",
+    "platform": "kick",
+    "url": "https://kick.com/zony/clips/clip_01M8AM7ZJ035ERXP9PS7J7PNG9",
+    "rights": "credited_third_party",
+    "start": 2.0,
+    "end": 8.5,
+    "at": 13.0,
+    "len": 6.5,
+    "height": 1080,
+    "dhash": "3930366cece8624d",
+    "rank": 1
+   }
+  ],
+  "streamer": "missvirgo,ayellol,zony",
+  "rights": "credited_third_party",
+  "authenticity": "verified_by_review",
+  "category": "VIRAL MOMENTS & CHAOS",
+  "series": "ALERTE LEONIDA",
+  "template": "chaos",
+  "hook": "IL FONCE DROIT SUR LA POLICE",
+  "duration_s": 19.5,
+  "score": 0,
+  "render_seconds": 142,
+  "slot": "2026-11-27T13:06:25+00:00",
+  "youtube": "awaiting approval",
+  "tiktok": "awaiting approval",
+  "issue": 15
  }
 ]

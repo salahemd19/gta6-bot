@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-27T13:03+00:00",
+ "generated": "2026-11-27T13:07+00:00",
  "level": 0,
  "timezone": "Europe/Paris",
  "platforms": {
@@ -184,7 +184,7 @@
        "utc": "2026-11-27T12:00+00:00",
        "window": "fixed",
        "id": "20261126-1033-ac7ionman-clip01",
-       "status": "scheduled",
+       "status": "posted",
        "title": "CARNAGE CHEZ LE CONCESSIONNAIRE 😱 ac7ionman sur GTA 6"
       },
       {
@@ -399,6 +399,12 @@
    "title": "TOP 3 MOMENTS LES PLUS FOUS SUR GTA 6 🤯 le numéro 1 est irréel"
   },
   {
+   "id": "vci-20261127-130516",
+   "platform": "youtube",
+   "issue": 15,
+   "title": "IL FONCE DROIT SUR LA POLICE 😱 GTA 6 #Shorts"
+  },
+  {
    "id": "engine-20261126-2224-1",
    "platform": "tiktok",
    "issue": 10,
@@ -409,6 +415,12 @@
    "platform": "tiktok",
    "issue": 11,
    "title": "TOP 3 MOMENTS LES PLUS FOUS SUR GTA 6 🤯 le numéro 1 est irréel"
+  },
+  {
+   "id": "vci-20261127-130516",
+   "platform": "tiktok",
+   "issue": 15,
+   "title": "IL FONCE DROIT SUR LA POLICE 😱 GTA 6 #Shorts"
   }
  ],
  "missed": []

@@ -50375,10 +50375,12 @@
   "vod_starts_at": 0,
   "is_mature": true,
   "discovered_at": "2026-11-26T23:33:21+00:00",
-  "status": "analysed",
+  "status": "produced",
   "authenticity": "verified_by_review",
   "rights": "credited_third_party",
-  "used_in": [],
+  "used_in": [
+   "vci-20261127-130516"
+  ],
   "duplicate_of": null,
   "seen_at": "2026-11-27T12:40:16+00:00",
   "radar": {
@@ -50409,7 +50411,7 @@
   "attribution": "@ayellol (Kick)",
   "suggested_hook": "ILS ONT FAIT ÇA SUR GTA 6",
   "suggested_title": "Ils ont fait ça sur gta 6 😱 (@ayellol)",
-  "production_status": "none",
+  "production_status": "produced",
   "approval": {
    "editorial": null,
    "production": null,
@@ -50417,9 +50419,9 @@
   },
   "publications": [],
   "analytics": {},
-  "stage": "RIGHTS_RECORDED",
+  "stage": "PRODUCED",
   "state": "active",
-  "updated_at": "2026-11-27T10:04:46+00:00",
+  "updated_at": "2026-11-27T13:07:43+00:00",
   "views_per_hour_recent": 0.0,
   "metrics": {
    "motion": 15.5,
@@ -58114,10 +58116,12 @@
   "vod_starts_at": 0,
   "is_mature": true,
   "discovered_at": "2026-11-27T00:34:05+00:00",
-  "status": "analysed",
+  "status": "produced",
   "authenticity": "verified_by_review",
   "rights": "credited_third_party",
-  "used_in": [],
+  "used_in": [
+   "vci-20261127-130516"
+  ],
   "duplicate_of": null,
   "seen_at": "2026-11-27T12:40:16+00:00",
   "radar": {
@@ -58148,7 +58152,7 @@
   "attribution": "@zony (Kick)",
   "suggested_hook": "ILS ONT FAIT ÇA SUR GTA 6",
   "suggested_title": "Ils ont fait ça sur gta 6 😱 (@zony)",
-  "production_status": "none",
+  "production_status": "produced",
   "approval": {
    "editorial": null,
    "production": null,
@@ -58156,9 +58160,9 @@
   },
   "publications": [],
   "analytics": {},
-  "stage": "RIGHTS_RECORDED",
+  "stage": "PRODUCED",
   "state": "active",
-  "updated_at": "2026-11-27T12:03:32+00:00",
+  "updated_at": "2026-11-27T13:07:43+00:00",
   "views_per_hour_recent": 0.0,
   "metrics": {
    "motion": 29.6,
@@ -90020,10 +90024,12 @@
   "vod_starts_at": 0,
   "is_mature": true,
   "discovered_at": "2026-11-27T06:37:33+00:00",
-  "status": "analysed",
+  "status": "produced",
   "authenticity": "verified_by_review",
   "rights": "credited_third_party",
-  "used_in": [],
+  "used_in": [
+   "vci-20261127-130516"
+  ],
   "duplicate_of": null,
   "seen_at": "2026-11-27T12:40:16+00:00",
   "radar": {
@@ -90054,7 +90060,7 @@
   "attribution": "@missvirgo (Kick)",
   "suggested_hook": "ILS ONT FAIT ÇA SUR GTA 6",
   "suggested_title": "Ils ont fait ça sur gta 6 😱 (@missvirgo)",
-  "production_status": "none",
+  "production_status": "produced",
   "approval": {
    "editorial": null,
    "production": null,
@@ -90062,9 +90068,9 @@
   },
   "publications": [],
   "analytics": {},
-  "stage": "RIGHTS_RECORDED",
+  "stage": "PRODUCED",
   "state": "active",
-  "updated_at": "2026-11-27T12:03:32+00:00",
+  "updated_at": "2026-11-27T13:07:43+00:00",
   "views_per_hour_recent": 0.0,
   "metrics": {
    "motion": 25.1,
