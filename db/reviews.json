@@ -425,5 +425,10 @@
   "verdict": "reject",
   "reason": "Story cutscene at a party, suggestive framing",
   "by": "Claude frame-sheet review 2026-11-27"
+ },
+ "VCI-ed352402e4": {
+  "verdict": "reject",
+  "reason": "calm boat boarding and map screen, no event",
+  "by": "Cloud Claude review 2026-11-27"
  }
 }

@@ -32,8 +32,8 @@
   },
   "reviews": {
    "failures": 0,
-   "last_ok": "2026-11-27T14:51:52+00:00",
-   "result": "the verdict branch has no verdict file",
+   "last_ok": "2026-11-27T14:53:41+00:00",
+   "result": "1 verdicts recorded, 0 refused",
    "error": null
   },
   "post_buffer": {
@@ -77,7 +77,7 @@
   "telegram.yml": {
    "name": "Telegram approvals",
    "health": "ok",
-   "age_h": 0.1,
+   "age_h": 0.2,
    "url": "https://github.com/salahemd19/gta6-bot/actions/runs/46018460930"
   }
  },

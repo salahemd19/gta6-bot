@@ -116403,7 +116403,7 @@
   "vod_starts_at": 0,
   "is_mature": true,
   "discovered_at": "2026-11-27T11:31:44+00:00",
-  "status": "analysed",
+  "status": "rejected_review",
   "authenticity": "category_only",
   "rights": "credited_third_party",
   "used_in": [],
@@ -116449,8 +116449,8 @@
   "publications": [],
   "analytics": {},
   "stage": "RIGHTS_RECORDED",
-  "state": "active",
-  "updated_at": "2026-11-27T13:49:40+00:00",
+  "state": "rejected",
+  "updated_at": "2026-11-27T14:53:41+00:00",
   "views_per_hour_recent": 0.0,
   "metrics": {
    "motion": 25.5,
@@ -116611,7 +116611,8 @@
    "needs_review": "Hooks are generic: nobody has described what happens yet. Check the footage before using."
   },
   "analysed_at": "2026-11-27T13:20:39+00:00",
-  "viral_potential": 8.19
+  "viral_potential": 8.19,
+  "manual_state": true
  },
  "clip_01M8EBTH5MDSRVBC9F0YZG1MTD": {
   "id": "clip_01M8EBTH5MDSRVBC9F0YZG1MTD",
