@@ -68,7 +68,7 @@
  },
  "challenges": {
   "pillar": "CHALLENGES & EXPERIMENTS",
-  "last_24h": 2,
+  "last_24h": 3,
   "previous_24h": 0,
   "news_24h": 5,
   "examples": [
@@ -79,13 +79,17 @@
    {
     "title": "GTA 6 SECRETO DEL LOCO CACAS",
     "url": "https://kick.com/elviejoconi/clips/clip_01M8D2XMQXMYWCANKEKNX1DFP2"
+   },
+   {
+    "title": "Defiendo a Xbox hasta la muerte",
+    "url": "https://kick.com/beelce/clips/clip_01M8E69QSPKZFBP92SVTKYDX3R"
    }
   ],
-  "trend": 3.0
+  "trend": 4.0
  },
  "funny": {
   "pillar": "VIRAL MOMENTS & CHAOS",
-  "last_24h": 51,
+  "last_24h": 52,
   "previous_24h": 5,
   "news_24h": 2,
   "examples": [
@@ -110,7 +114,7 @@
     "url": "https://kick.com/envywill/clips/clip_01M8CVZHD9AYS358PKYW60YJ6H"
    }
   ],
-  "trend": 8.67
+  "trend": 8.83
  },
  "reactions": {
   "pillar": "VIRAL MOMENTS & CHAOS",
