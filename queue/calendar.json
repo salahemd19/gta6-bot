@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-27T20:29+00:00",
+ "generated": "2026-11-27T21:02+00:00",
  "level": 0,
  "timezone": "Europe/Paris",
  "platforms": {
@@ -52,21 +52,10 @@
       {
        "local": "21:55",
        "utc": "2026-11-27T20:55+00:00",
+       "window": "fixed",
        "id": "engine-20261126-2224-1",
-       "window": "evening",
-       "status": "assigned",
-       "title": "ILS ONT FAIT ÇA SUR GTA 6 (TOP 3) 🤯 le numéro 1 est irréel",
-       "package": {
-        "video_url": "https://github.com/salahemd19/gta6-bot/releases/download/clips/engine-20261126-2224-1.mp4",
-        "title": "ILS ONT FAIT ÇA SUR GTA 6 (TOP 3) 🤯 le numéro 1 est irréel",
-        "description": "Les moments les plus fous vus en live sur GTA 6 🤯 Ton préféré ? Dis-le en commentaire 👇\n🎥 Créateurs (Kick) : kasugard, pluzin, sercanzurna\nAbonne-toi pour un top GTA 6 chaque jour 🔔\n\n#GTA6 #GTAVI #GTA6FR #ViceCity #gta #Shorts",
-        "tags": "GTA 6, GTA VI, GTA 6 FR, top 3 GTA 6, GTA 6 moments fous, GTA 6 gameplay, Vice City",
-        "music": [
-         "Monster Freak Party - Bare Bones Mtl",
-         "Mirror Mirror - Anno Domini Beats",
-         "Survival Mode - Blue Deer Studio"
-        ]
-       }
+       "status": "scheduled",
+       "title": "ILS ONT FAIT ÇA SUR GTA 6 (TOP 3) 🤯 le numéro 1 est irréel"
       }
      ]
     },
