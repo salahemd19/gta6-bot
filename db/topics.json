@@ -3,7 +3,7 @@
   "pillar": "MAP & SECRET DISCOVERIES",
   "last_24h": 5,
   "previous_24h": 0,
-  "news_24h": 34,
+  "news_24h": 32,
   "examples": [
    {
     "title": "BUSCANDO EASTER EGGS , MISIONES S | Clip",
@@ -32,7 +32,7 @@
   "pillar": "RACING & VEHICLES",
   "last_24h": 2,
   "previous_24h": 0,
-  "news_24h": 1,
+  "news_24h": 2,
   "examples": [
    {
     "title": "ultimas carreras",
@@ -49,7 +49,7 @@
   "pillar": "RACING & VEHICLES",
   "last_24h": 8,
   "previous_24h": 1,
-  "news_24h": 11,
+  "news_24h": 13,
   "examples": [
    {
     "title": "GTA 6 A TODA VELOCIDAD EN MOTO",
@@ -78,7 +78,7 @@
   "pillar": "CHALLENGES & EXPERIMENTS",
   "last_24h": 4,
   "previous_24h": 0,
-  "news_24h": 6,
+  "news_24h": 3,
   "examples": [
    {
     "title": "Ghost or Tommy cause it definitely Power 🤷🏽‍♂️ ",
@@ -101,7 +101,7 @@
  },
  "funny": {
   "pillar": "VIRAL MOMENTS & CHAOS",
-  "last_24h": 70,
+  "last_24h": 76,
   "previous_24h": 5,
   "news_24h": 1,
   "examples": [
@@ -126,13 +126,13 @@
     "url": "https://kick.com/envywill/clips/clip_01M8CVZHD9AYS358PKYW60YJ6H"
    }
   ],
-  "trend": 11.83
+  "trend": 12.83
  },
  "reactions": {
   "pillar": "VIRAL MOMENTS & CHAOS",
-  "last_24h": 10,
+  "last_24h": 11,
   "previous_24h": 0,
-  "news_24h": 6,
+  "news_24h": 4,
   "examples": [
    {
     "title": "RockStar… 13 AÑOS ROCKSTAR…🤯",
@@ -155,7 +155,7 @@
     "url": "https://kick.com/javiiriivera/clips/clip_01M8DMPN8R99SW2SHB62QGB0TV"
    }
   ],
-  "trend": 11.0
+  "trend": 12.0
  },
  "unusual": {
   "pillar": "LEONIDA LIFE & DETAILS",
@@ -188,9 +188,9 @@
  },
  "money_tips": {
   "pillar": "CHEATS, TIPS & MONEY",
-  "last_24h": 10,
+  "last_24h": 13,
   "previous_24h": 0,
-  "news_24h": 7,
+  "news_24h": 6,
   "examples": [
    {
     "title": "chegando no heist",
@@ -213,6 +213,6 @@
     "url": "https://kick.com/patgarburgar/clips/clip_01M8DH6PFPF3J0SHQ0WW5NW7A6"
    }
   ],
-  "trend": 11.0
+  "trend": 14.0
  }
 }
