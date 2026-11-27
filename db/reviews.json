@@ -389,5 +389,41 @@
   "verdict": "reject",
   "reason": "Mostly calm scooter ride, then a downed elderly character",
   "by": "Claude frame-sheet review 2026-11-27"
+ },
+ "VCI-0d5b746d41": {
+  "verdict": "reject",
+  "reason": "Story cutscene then calm driving, no action",
+  "by": "Claude frame-sheet review 2026-11-27"
+ },
+ "VCI-e9d3f32c59": {
+  "verdict": "reject",
+  "reason": "Story cutscene in a gym, no clear action",
+  "by": "Claude frame-sheet review 2026-11-27"
+ },
+ "VCI-f12fc72ba1": {
+  "verdict": "reject",
+  "reason": "Not GTA 6: Fortnite gameplay",
+  "not_gta6": true,
+  "by": "Claude frame-sheet review 2026-11-27"
+ },
+ "VCI-c4b16b77e7": {
+  "verdict": "reject",
+  "reason": "Story cutscene, characters talking indoors",
+  "by": "Claude frame-sheet review 2026-11-27"
+ },
+ "VCI-66abeba53c": {
+  "verdict": "reject",
+  "reason": "Story cutscene, facecam talking and calm walking",
+  "by": "Claude frame-sheet review 2026-11-27"
+ },
+ "VCI-8bdeb90e9e": {
+  "verdict": "reject",
+  "reason": "Strip club scene with sexual content and nudity",
+  "by": "Claude frame-sheet review 2026-11-27"
+ },
+ "VCI-8bcfb01798": {
+  "verdict": "reject",
+  "reason": "Story cutscene at a party, suggestive framing",
+  "by": "Claude frame-sheet review 2026-11-27"
  }
 }

@@ -10183,7 +10183,7 @@
   "vod_starts_at": 0,
   "is_mature": false,
   "discovered_at": "2026-11-26T19:01:22+00:00",
-  "status": "analysed",
+  "status": "rejected_review",
   "authenticity": "category_only",
   "rights": "credited_third_party",
   "used_in": [],
@@ -10269,8 +10269,8 @@
   "publications": [],
   "analytics": {},
   "stage": "RIGHTS_RECORDED",
-  "state": "active",
-  "updated_at": "2026-11-26T22:02:08+00:00",
+  "state": "rejected",
+  "updated_at": "2026-11-27T14:46:53+00:00",
   "viral_potential": 6.71,
   "views_per_hour_recent": 0.0,
   "analysis": {
@@ -10461,7 +10461,8 @@
     ]
    },
    "needs_review": "Hooks are generic: nobody has described what happens yet. Check the footage before using."
-  }
+  },
+  "manual_state": true
  },
  "clip_01M82Q0FQ9VT1ZMJWDZ4ZMQCRQ": {
   "id": "clip_01M82Q0FQ9VT1ZMJWDZ4ZMQCRQ",
@@ -13330,7 +13331,7 @@
   "vod_starts_at": 0,
   "is_mature": false,
   "discovered_at": "2026-11-26T19:01:24+00:00",
-  "status": "analysed",
+  "status": "rejected_review",
   "authenticity": "category_only",
   "rights": "credited_third_party",
   "used_in": [],
@@ -13395,10 +13396,11 @@
   "publications": [],
   "analytics": {},
   "stage": "RIGHTS_RECORDED",
-  "state": "active",
-  "updated_at": "2026-11-26T21:24:22+00:00",
+  "state": "rejected",
+  "updated_at": "2026-11-27T14:46:53+00:00",
   "viral_potential": 4.87,
-  "views_per_hour_recent": 0.0
+  "views_per_hour_recent": 0.0,
+  "manual_state": true
  },
  "clip_01M7RJZ8N7N4HNQQH5DWD1WKMM": {
   "id": "clip_01M7RJZ8N7N4HNQQH5DWD1WKMM",
@@ -67390,7 +67392,7 @@
   "vod_starts_at": 0,
   "is_mature": false,
   "discovered_at": "2026-11-27T00:34:09+00:00",
-  "status": "analysed",
+  "status": "rejected_review",
   "authenticity": "category_only",
   "rights": "credited_third_party",
   "used_in": [],
@@ -67432,8 +67434,8 @@
   "publications": [],
   "analytics": {},
   "stage": "RIGHTS_RECORDED",
-  "state": "active",
-  "updated_at": "2026-11-27T04:21:31+00:00",
+  "state": "rejected",
+  "updated_at": "2026-11-27T14:46:53+00:00",
   "views_per_hour_recent": 0.0,
   "metrics": {
    "motion": 16.6,
@@ -67570,7 +67572,8 @@
    "needs_review": "Hooks are generic: nobody has described what happens yet. Check the footage before using."
   },
   "analysed_at": "2026-11-27T04:17:48+00:00",
-  "viral_potential": 6.21
+  "viral_potential": 6.21,
+  "manual_state": true
  },
  "clip_01M7V8QEMQYX8G9XFR6QA4Z1J4": {
   "id": "clip_01M7V8QEMQYX8G9XFR6QA4Z1J4",
@@ -68357,7 +68360,7 @@
   "vod_starts_at": 0,
   "is_mature": false,
   "discovered_at": "2026-11-27T01:21:59+00:00",
-  "status": "analysed",
+  "status": "rejected_review",
   "authenticity": "category_only",
   "rights": "credited_third_party",
   "used_in": [],
@@ -68387,8 +68390,8 @@
   "publications": [],
   "analytics": {},
   "stage": "RIGHTS_RECORDED",
-  "state": "active",
-  "updated_at": "2026-11-27T04:21:31+00:00",
+  "state": "rejected",
+  "updated_at": "2026-11-27T14:46:53+00:00",
   "seen_at": "2026-11-27T14:00:16+00:00",
   "radar": {
    "momentum": 1.7,
@@ -68556,7 +68559,8 @@
    "needs_review": "Hooks are generic: nobody has described what happens yet. Check the footage before using."
   },
   "analysed_at": "2026-11-27T04:15:07+00:00",
-  "viral_potential": 7.08
+  "viral_potential": 7.08,
+  "manual_state": true
  },
  "clip_01M8AY1MEM1EDWKAZ9S124RA4F": {
   "id": "clip_01M8AY1MEM1EDWKAZ9S124RA4F",
@@ -68988,7 +68992,7 @@
   "vod_starts_at": 0,
   "is_mature": false,
   "discovered_at": "2026-11-27T01:22:00+00:00",
-  "status": "analysed",
+  "status": "rejected_review",
   "authenticity": "category_only",
   "rights": "credited_third_party",
   "used_in": [],
@@ -69018,8 +69022,8 @@
   "publications": [],
   "analytics": {},
   "stage": "RIGHTS_RECORDED",
-  "state": "active",
-  "updated_at": "2026-11-27T07:37:07+00:00",
+  "state": "rejected",
+  "updated_at": "2026-11-27T14:46:53+00:00",
   "seen_at": "2026-11-27T14:00:16+00:00",
   "radar": {
    "momentum": 1.5,
@@ -69207,7 +69211,8 @@
    "needs_review": "Hooks are generic: nobody has described what happens yet. Check the footage before using."
   },
   "analysed_at": "2026-11-27T07:24:48+00:00",
-  "viral_potential": 6.77
+  "viral_potential": 6.77,
+  "manual_state": true
  },
  "clip_01M8AP8JCXDKKKVEBZC6CQSNQW": {
   "id": "clip_01M8AP8JCXDKKKVEBZC6CQSNQW",
@@ -95905,8 +95910,8 @@
   "vod_starts_at": 0,
   "is_mature": false,
   "discovered_at": "2026-11-27T06:37:34+00:00",
-  "status": "analysed",
-  "authenticity": "category_only",
+  "status": "rejected_review",
+  "authenticity": "not_gta6",
   "rights": "credited_third_party",
   "used_in": [],
   "duplicate_of": null,
@@ -95947,8 +95952,8 @@
   "publications": [],
   "analytics": {},
   "stage": "RIGHTS_RECORDED",
-  "state": "active",
-  "updated_at": "2026-11-27T13:49:40+00:00",
+  "state": "rejected",
+  "updated_at": "2026-11-27T14:46:53+00:00",
   "views_per_hour_recent": 0.0,
   "metrics": {
    "motion": 23.7,
@@ -96083,7 +96088,8 @@
    "needs_review": "Hooks are generic: nobody has described what happens yet. Check the footage before using."
   },
   "analysed_at": "2026-11-27T13:37:35+00:00",
-  "viral_potential": 6.98
+  "viral_potential": 6.98,
+  "manual_state": true
  },
  "clip_01M8DV0FQMF94J91190CVRBC6S": {
   "id": "clip_01M8DV0FQMF94J91190CVRBC6S",
@@ -120179,7 +120185,7 @@
   "vod_starts_at": 0,
   "is_mature": false,
   "discovered_at": "2026-11-27T12:40:19+00:00",
-  "status": "analysed",
+  "status": "rejected_review",
   "authenticity": "category_only",
   "rights": "credited_third_party",
   "used_in": [],
@@ -120221,8 +120227,8 @@
   "publications": [],
   "analytics": {},
   "stage": "RIGHTS_RECORDED",
-  "state": "active",
-  "updated_at": "2026-11-27T13:49:40+00:00",
+  "state": "rejected",
+  "updated_at": "2026-11-27T14:46:53+00:00",
   "metrics": {
    "motion": 25.5,
    "still": 0.0,
@@ -120369,7 +120375,8 @@
   },
   "analysed_at": "2026-11-27T13:27:40+00:00",
   "viral_potential": 7.44,
-  "views_per_hour_recent": 0.0
+  "views_per_hour_recent": 0.0,
+  "manual_state": true
  },
  "clip_01M8EG8X8ZV5664VHATTAXYB87": {
   "id": "clip_01M8EG8X8ZV5664VHATTAXYB87",
