@@ -6,6 +6,7 @@ It checks that Google still accepts it, stores three secrets in your repository 
 Nothing secret is printed or written to any file.
 """
 import json
+import os
 import subprocess
 import sys
 import urllib.error
@@ -15,6 +16,22 @@ from pathlib import Path
 
 REPO = "salahemd19/gta6-bot"
 TOKEN = Path(__file__).resolve().parents[2] / "yt_token.json"
+
+
+def github_signed_in():
+    """The Claude app keeps GitHub's sign-in file inside its own package folder, which an ordinary window does not
+    look in. Point gh there when needed."""
+    def ok():
+        return subprocess.run(["gh", "auth", "status"], capture_output=True).returncode == 0
+    if ok():
+        return True
+    packages = Path(os.environ.get("LOCALAPPDATA", "")) / "Packages"
+    for folder in packages.glob("Claude_*/LocalCache/Roaming/GitHub CLI"):
+        os.environ["GH_CONFIG_DIR"] = str(folder)
+        if ok():
+            return True
+    os.environ.pop("GH_CONFIG_DIR", None)
+    return False
 
 
 def main():
@@ -31,8 +48,8 @@ def main():
         urllib.request.urlopen("https://oauth2.googleapis.com/token", form, timeout=30)
     except urllib.error.HTTPError as e:
         sys.exit(f"Google refused it ({e.code}). In the project folder run: python youtube_upload.py auth, then run this again.")
-    if subprocess.run(["gh", "auth", "status"], capture_output=True).returncode:
-        sys.exit("GitHub is not signed in here. Run this from the Terminal panel inside the Claude app.")
+    if not github_signed_in():
+        sys.exit("GitHub is not signed in here. In this window run: gh auth login   (then run this again)")
     for name, value in values.items():
         r = subprocess.run(["gh", "secret", "set", name, "--repo", REPO], input=value, text=True, capture_output=True)
         if r.returncode:
