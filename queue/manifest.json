@@ -862,12 +862,13 @@
   "render_seconds": 82,
   "slot": "2026-11-27T10:06:04+00:00",
   "youtube": "posted 2026-11-27T18:40+00:00",
-  "tiktok": "scheduled 2026-11-27T16:30+00:00",
+  "tiktok": "posted 2026-11-27T16:30:00+00:00",
   "issue": 13,
   "slot_youtube": "2026-11-27T18:40+00:00",
   "slot_tiktok": "2026-11-27T16:30+00:00",
   "feedback_applied": "approved",
-  "youtube_url": "https://youtube.com/shorts/uBBouXtjUak"
+  "youtube_url": "https://youtube.com/shorts/uBBouXtjUak",
+  "tiktok_url": "https://www.tiktok.com/@vicecity_intel1/video/7712808139615243542"
  },
  {
   "id": "vci-20261127-100652",
@@ -977,12 +978,13 @@
   "render_seconds": 91,
   "slot": "2026-11-27T10:07:37+00:00",
   "youtube": "posted 2026-11-27T17:30+00:00",
-  "tiktok": "scheduled 2026-11-27T15:30+00:00",
+  "tiktok": "posted 2026-11-27T15:30:00+00:00",
   "issue": 14,
   "slot_youtube": "2026-11-27T17:30+00:00",
   "slot_tiktok": "2026-11-27T15:30+00:00",
   "feedback_applied": "approved",
-  "youtube_url": "https://youtube.com/shorts/UOX2-95O-9A"
+  "youtube_url": "https://youtube.com/shorts/UOX2-95O-9A",
+  "tiktok_url": "https://www.tiktok.com/@vicecity_intel1/video/7712807490034879766"
  },
  {
   "id": "vci-20261127-130516",
@@ -1092,7 +1094,7 @@
   "render_seconds": 142,
   "slot": "2026-11-27T13:06:25+00:00",
   "youtube": "posted 2026-11-27T19:45+00:00",
-  "tiktok": "scheduled 2026-11-27T17:45+00:00",
+  "tiktok": "posted 2026-11-27T17:45:00+00:00",
   "issue": 15,
   "slot_youtube": "2026-11-27T19:45+00:00",
   "slot_tiktok": "2026-11-27T17:45+00:00",
