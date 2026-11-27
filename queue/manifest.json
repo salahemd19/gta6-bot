@@ -848,9 +848,11 @@
   "score": 0,
   "render_seconds": 82,
   "slot": "2026-11-27T10:06:04+00:00",
-  "youtube": "awaiting approval",
-  "tiktok": "awaiting approval",
-  "issue": 13
+  "youtube": "pending",
+  "tiktok": "pending",
+  "issue": 13,
+  "slot_youtube": "2026-11-27T18:40+00:00",
+  "slot_tiktok": "2026-11-27T16:30+00:00"
  },
  {
   "id": "vci-20261127-100652",
@@ -959,8 +961,10 @@
   "score": 0,
   "render_seconds": 91,
   "slot": "2026-11-27T10:07:37+00:00",
-  "youtube": "awaiting approval",
-  "tiktok": "awaiting approval",
-  "issue": 14
+  "youtube": "pending",
+  "tiktok": "pending",
+  "issue": 14,
+  "slot_youtube": "2026-11-27T17:30+00:00",
+  "slot_tiktok": "2026-11-27T15:30+00:00"
  }
 ]
