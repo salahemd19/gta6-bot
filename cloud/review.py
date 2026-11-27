@@ -47,11 +47,10 @@ def ready_count(db, revs):
 
 
 def candidates(db, revs, n):
-    """Newest first, one clip per creator per batch, analysed clips with a usable source. Streams marked mature are
-    left out: their frames would sit on a public branch."""
+    """Newest first, one clip per creator per batch, analysed clips with a usable source. (Kick's "mature" flag is not
+    used: every GTA 6 stream carries it.)"""
     pool = [r for r in db.values() if r.get("status") == "analysed" and r.get("media_url") and not r.get("used_in")
-            and r["content_id"] not in revs and r.get("state") == "active" and r.get("rights") in contentdb.PUBLISHABLE
-            and not r.get("is_mature")]
+            and r["content_id"] not in revs and r.get("state") == "active" and r.get("rights") in contentdb.PUBLISHABLE]
     recent = (dt.datetime.now(dt.timezone.utc) - dt.timedelta(days=3)).isoformat()
     pool.sort(key=lambda r: (str(r.get("discovered_at", "")) >= recent, (r.get("scores") or {}).get("total", 0)), reverse=True)
     out, creators = [], set()

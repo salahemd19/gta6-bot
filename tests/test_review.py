@@ -30,6 +30,13 @@ class Verdicts(unittest.TestCase):
         self.assertIsNotNone(R.problems("VCI-y", GOOD, None))
 
 
+class Candidates(unittest.TestCase):
+    def test_mature_flag_does_not_empty_the_queue_and_one_clip_per_creator(self):
+        db = {n: {"content_id": f"VCI-{n}", "status": "analysed", "media_url": "u", "state": "active", "rights": "licensed",
+                  "creator": "a" if n < 2 else "b", "is_mature": True} for n in range(3)}
+        self.assertEqual([r["creator"] for r in R.candidates(db, {"VCI-9": {}}, 12)], ["a", "b"])
+
+
 class Category(unittest.TestCase):
     def test_reviewed_category_survives_the_next_sync(self):
         import contentdb as c
