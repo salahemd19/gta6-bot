@@ -3081,3 +3081,5 @@
 {"at": "2026-11-27T21:28:06+00:00", "id": "VCI-e292fd5186", "by": "pipeline", "changes": {"stage": ["DISCOVERED", "ANALYSED"], "state": ["active", "rejected"]}, "note": "sync"}
 {"at": "2026-11-27T21:28:06+00:00", "id": "VCI-035d75beae", "by": "pipeline", "changes": {"stage": ["DISCOVERED", "ANALYSED"], "state": ["active", "rejected"]}, "note": "sync"}
 {"at": "2026-11-27T21:28:06+00:00", "id": "VCI-30cdf10e43", "by": "pipeline", "changes": {"stage": ["DISCOVERED", "RIGHTS_RECORDED"], "viral_potential": [null, 6.03], "suggested_hook": ["", "ILS ONT FAIT ÇA SUR GTA 6"], "suggested_title": ["", "Ils ont fait ça sur gta 6 😱 (@cueaobr)"]}, "note": "sync"}
+{"at": "2026-11-27T21:29:54+00:00", "id": "VCI-32d25ebb95", "by": "pipeline", "changes": {"created": [null, "https://kick.com/rraenee/clips/clip_01M8APD9HVSW9AQNVJ7560YY1Y"]}, "note": ""}
+{"at": "2026-11-27T21:29:54+00:00", "id": "VCI-30cdf10e43", "by": "pipeline", "changes": {"created": [null, "https://kick.com/cueaobr/clips/clip_01M8AN6MWHXXHRCNF1M3PCBN7P"]}, "note": ""}
