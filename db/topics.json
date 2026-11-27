@@ -1,9 +1,9 @@
 {
  "map_secrets": {
   "pillar": "MAP & SECRET DISCOVERIES",
-  "last_24h": 4,
+  "last_24h": 5,
   "previous_24h": 0,
-  "news_24h": 36,
+  "news_24h": 37,
   "examples": [
    {
     "title": "BUSCANDO EASTER EGGS , MISIONES S | Clip",
@@ -20,9 +20,13 @@
    {
     "title": "Easter Egg de Satan en GTA VI!",
     "url": "https://kick.com/rapturs/clips/clip_01M8DH45XT1AYYX41SR86T7NPZ"
+   },
+   {
+    "title": "GTA 6 VICE CITY EASTER EGG | !insta !yt !social",
+    "url": "https://kick.com/yyiido"
    }
   ],
-  "trend": 5.0
+  "trend": 6.0
  },
  "races": {
   "pillar": "RACING & VEHICLES",
@@ -39,9 +43,9 @@
  },
  "vehicles": {
   "pillar": "RACING & VEHICLES",
-  "last_24h": 6,
+  "last_24h": 8,
   "previous_24h": 1,
-  "news_24h": 13,
+  "news_24h": 14,
   "examples": [
    {
     "title": "GTA 6 A TODA VELOCIDAD EN MOTO",
@@ -64,11 +68,11 @@
     "url": "https://kick.com/aquino/clips/clip_01M8DVEDPABDXVJTJ63FJVAQ1X"
    }
   ],
-  "trend": 3.5
+  "trend": 4.5
  },
  "challenges": {
   "pillar": "CHALLENGES & EXPERIMENTS",
-  "last_24h": 3,
+  "last_24h": 4,
   "previous_24h": 0,
   "news_24h": 5,
   "examples": [
@@ -83,14 +87,18 @@
    {
     "title": "Defiendo a Xbox hasta la muerte",
     "url": "https://kick.com/beelce/clips/clip_01M8E69QSPKZFBP92SVTKYDX3R"
+   },
+   {
+    "title": "1v1",
+    "url": "https://kick.com/juanvibc/clips/clip_01M8EC1GJGMXDA7JY5G02RESW3"
    }
   ],
-  "trend": 4.0
+  "trend": 5.0
  },
  "funny": {
   "pillar": "VIRAL MOMENTS & CHAOS",
-  "last_24h": 52,
-  "previous_24h": 5,
+  "last_24h": 56,
+  "previous_24h": 7,
   "news_24h": 2,
   "examples": [
    {
@@ -114,11 +122,11 @@
     "url": "https://kick.com/envywill/clips/clip_01M8CVZHD9AYS358PKYW60YJ6H"
    }
   ],
-  "trend": 8.83
+  "trend": 7.12
  },
  "reactions": {
   "pillar": "VIRAL MOMENTS & CHAOS",
-  "last_24h": 8,
+  "last_24h": 9,
   "previous_24h": 0,
   "news_24h": 5,
   "examples": [
@@ -143,13 +151,13 @@
     "url": "https://kick.com/javiiriivera/clips/clip_01M8DMPN8R99SW2SHB62QGB0TV"
    }
   ],
-  "trend": 9.0
+  "trend": 10.0
  },
  "unusual": {
   "pillar": "LEONIDA LIFE & DETAILS",
-  "last_24h": 5,
+  "last_24h": 6,
   "previous_24h": 0,
-  "news_24h": 4,
+  "news_24h": 5,
   "examples": [
    {
     "title": "los NPC de GTA 6 te tienden trampas. ",
@@ -172,7 +180,7 @@
     "url": "https://kick.com/jack/clips/clip_01M8E5EPCS4CTHVPWZQYCJJ936"
    }
   ],
-  "trend": 6.0
+  "trend": 7.0
  },
  "money_tips": {
   "pillar": "CHEATS, TIPS & MONEY",
