@@ -3,7 +3,7 @@
   "pillar": "MAP & SECRET DISCOVERIES",
   "last_24h": 5,
   "previous_24h": 0,
-  "news_24h": 37,
+  "news_24h": 39,
   "examples": [
    {
     "title": "BUSCANDO EASTER EGGS , MISIONES S | Clip",
@@ -30,22 +30,26 @@
  },
  "races": {
   "pillar": "RACING & VEHICLES",
-  "last_24h": 1,
+  "last_24h": 2,
   "previous_24h": 0,
   "news_24h": 2,
   "examples": [
    {
     "title": "ultimas carreras",
     "url": "https://kick.com/gavigamer87/clips/clip_01M8DBCSNM9VY24K634R45V3N4"
+   },
+   {
+    "title": "drifto wóz ",
+    "url": "https://kick.com/zetk4official/clips/clip_01M8EG0AAP8085RNER3W0E1PGY"
    }
   ],
-  "trend": 2.0
+  "trend": 3.0
  },
  "vehicles": {
   "pillar": "RACING & VEHICLES",
   "last_24h": 8,
   "previous_24h": 1,
-  "news_24h": 14,
+  "news_24h": 15,
   "examples": [
    {
     "title": "GTA 6 A TODA VELOCIDAD EN MOTO",
@@ -97,7 +101,7 @@
  },
  "funny": {
   "pillar": "VIRAL MOMENTS & CHAOS",
-  "last_24h": 56,
+  "last_24h": 61,
   "previous_24h": 7,
   "news_24h": 2,
   "examples": [
@@ -122,13 +126,13 @@
     "url": "https://kick.com/envywill/clips/clip_01M8CVZHD9AYS358PKYW60YJ6H"
    }
   ],
-  "trend": 7.12
+  "trend": 7.75
  },
  "reactions": {
   "pillar": "VIRAL MOMENTS & CHAOS",
-  "last_24h": 9,
+  "last_24h": 10,
   "previous_24h": 0,
-  "news_24h": 5,
+  "news_24h": 4,
   "examples": [
    {
     "title": "RockStar… 13 AÑOS ROCKSTAR…🤯",
@@ -151,13 +155,13 @@
     "url": "https://kick.com/javiiriivera/clips/clip_01M8DMPN8R99SW2SHB62QGB0TV"
    }
   ],
-  "trend": 10.0
+  "trend": 11.0
  },
  "unusual": {
   "pillar": "LEONIDA LIFE & DETAILS",
   "last_24h": 6,
   "previous_24h": 0,
-  "news_24h": 5,
+  "news_24h": 7,
   "examples": [
    {
     "title": "los NPC de GTA 6 te tienden trampas. ",
@@ -186,7 +190,7 @@
   "pillar": "CHEATS, TIPS & MONEY",
   "last_24h": 10,
   "previous_24h": 0,
-  "news_24h": 7,
+  "news_24h": 6,
   "examples": [
    {
     "title": "chegando no heist",
