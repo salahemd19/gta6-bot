@@ -128,5 +128,183 @@
    "TU SURVIVRAIS À ÇA ?"
   ],
   "by": "Claude frame-sheet review 2026-11-27"
+ },
+ "VCI-61a7a598ba": {
+  "verdict": "keep",
+  "action_fr": "Braquage dans une bijouterie, puis départ en moto dans la rue.",
+  "hooks_fr": [
+   "LE BRAQUAGE DE LA BIJOUTERIE",
+   "ELLE SORT AVEC LE BUTIN",
+   "BRAQUAGE PUIS FUITE À MOTO"
+  ],
+  "category": "VIRAL MOMENTS & CHAOS",
+  "strength": 8,
+  "window": [
+   1,
+   12
+  ],
+  "by": "Claude frame-sheet review 2026-11-27"
+ },
+ "VCI-5addf314fe": {
+  "verdict": "keep",
+  "action_fr": "Un char traverse la base aérienne pendant que des hélicoptères arrivent au-dessus.",
+  "hooks_fr": [
+   "UN CHAR CONTRE LES HÉLICOS",
+   "IL VOLE UN CHAR SUR LA BASE",
+   "L'ARMÉE ARRIVE PAR LES AIRS"
+  ],
+  "category": "VIRAL MOMENTS & CHAOS",
+  "strength": 7,
+  "window": [
+   3,
+   15
+  ],
+  "by": "Claude frame-sheet review 2026-11-27"
+ },
+ "VCI-918a259beb": {
+  "verdict": "keep",
+  "action_fr": "La voiture percute un lampadaire : le personnage est éjecté et le poteau tombe.",
+  "hooks_fr": [
+   "ÉJECTÉE EN PLEIN VIRAGE",
+   "LE LAMPADAIRE N'A PAS TENU",
+   "VOILÀ CE QUI ARRIVE SANS FREINER"
+  ],
+  "category": "RACING & VEHICLES",
+  "strength": 7,
+  "window": [
+   6,
+   15
+  ],
+  "by": "Claude frame-sheet review 2026-11-27"
+ },
+ "VCI-d9d22ae25e": {
+  "verdict": "keep",
+  "action_fr": "Collision avec un 4x4 : la voiture termine dans les buissons.",
+  "hooks_fr": [
+   "LE 4X4 SORT DE NULLE PART",
+   "FINIR DANS LES BUISSONS",
+   "LA COURSE S'ARRÊTE NET"
+  ],
+  "category": "RACING & VEHICLES",
+  "strength": 6,
+  "window": [
+   19,
+   28
+  ],
+  "by": "Claude frame-sheet review 2026-11-27"
+ },
+ "VCI-aecaed9e57": {
+  "verdict": "keep",
+  "action_fr": "La vieille voiture quitte la route et s'écrase contre un poteau.",
+  "hooks_fr": [
+   "IL PERD LE CONTRÔLE",
+   "LA VOITURE EST DÉTRUITE",
+   "LE POTEAU A GAGNÉ"
+  ],
+  "category": "RACING & VEHICLES",
+  "strength": 6,
+  "window": [
+   21,
+   29
+  ],
+  "by": "Claude frame-sheet review 2026-11-27"
+ },
+ "VCI-621f1e42df": {
+  "verdict": "keep",
+  "action_fr": "Fusillade à la sortie d'une armurerie : plusieurs adversaires tombent dans la rue.",
+  "hooks_fr": [
+   "ÇA TIRE DEVANT L'ARMURERIE",
+   "PIÉGÉ DANS LA BOUTIQUE",
+   "IL SORT SOUS LES BALLES"
+  ],
+  "category": "VIRAL MOMENTS & CHAOS",
+  "strength": 9,
+  "window": [
+   17,
+   27
+  ],
+  "by": "Claude frame-sheet review 2026-11-27"
+ },
+ "VCI-cfe7a4f1eb": {
+  "verdict": "keep",
+  "action_fr": "La supercar remonte l'avenue puis percute un pick-up de plein fouet.",
+  "hooks_fr": [
+   "LA SUPERCAR EXPLOSE SON AVANT",
+   "LE PICK-UP NE L'A PAS RATÉE",
+   "TROP VITE EN PLEINE VILLE"
+  ],
+  "category": "RACING & VEHICLES",
+  "strength": 7,
+  "window": [
+   35,
+   44
+  ],
+  "by": "Claude frame-sheet review 2026-11-27"
+ },
+ "VCI-5760501d83": {
+  "verdict": "reject",
+  "reason": "calm driving, no event",
+  "by": "Claude frame-sheet review 2026-11-27"
+ },
+ "VCI-d2c18d397a": {
+  "verdict": "reject",
+  "reason": "calm driving, no event",
+  "by": "Claude frame-sheet review 2026-11-27"
+ },
+ "VCI-42d9f8877c": {
+  "verdict": "reject",
+  "reason": "adult nightclub scene, walking",
+  "by": "Claude frame-sheet review 2026-11-27"
+ },
+ "VCI-94d13c41d6": {
+  "verdict": "reject",
+  "reason": "nudity",
+  "by": "Claude frame-sheet review 2026-11-27"
+ },
+ "VCI-6746aadf52": {
+  "verdict": "reject",
+  "reason": "car showcase menu and calm driving",
+  "by": "Claude frame-sheet review 2026-11-27"
+ },
+ "VCI-ea9390f4ab": {
+  "verdict": "reject",
+  "reason": "calm driving and walking",
+  "by": "Claude frame-sheet review 2026-11-27"
+ },
+ "VCI-62846c6bf7": {
+  "verdict": "reject",
+  "reason": "walking, no visible event",
+  "by": "Claude frame-sheet review 2026-11-27"
+ },
+ "VCI-5f4a4d9fe7": {
+  "verdict": "reject",
+  "reason": "calm walking on a dock",
+  "by": "Claude frame-sheet review 2026-11-27"
+ },
+ "VCI-8e3ce111ea": {
+  "verdict": "reject",
+  "reason": "mostly walking in a vault, ending text overlay",
+  "by": "Claude frame-sheet review 2026-11-27"
+ },
+ "VCI-dab6f371b7": {
+  "verdict": "reject",
+  "reason": "walking in an airport",
+  "by": "Claude frame-sheet review 2026-11-27"
+ },
+ "VCI-393290f731": {
+  "verdict": "reject",
+  "reason": "another game, not GTA 6",
+  "not_gta6": true,
+  "by": "Claude frame-sheet review 2026-11-27"
+ },
+ "VCI-f1797d35f2": {
+  "verdict": "reject",
+  "reason": "nudity",
+  "by": "Claude frame-sheet review 2026-11-27"
+ },
+ "VCI-4afddf7297": {
+  "verdict": "reject",
+  "reason": "mostly calm motorbike riding",
+  "by": "Claude frame-sheet review 2026-11-27"
  }
 }
