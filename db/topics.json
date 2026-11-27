@@ -3,7 +3,7 @@
   "pillar": "MAP & SECRET DISCOVERIES",
   "last_24h": 4,
   "previous_24h": 0,
-  "news_24h": 36,
+  "news_24h": 35,
   "examples": [
    {
     "title": "BUSCANDO EASTER EGGS , MISIONES S | Clip",
@@ -85,8 +85,8 @@
  },
  "funny": {
   "pillar": "VIRAL MOMENTS & CHAOS",
-  "last_24h": 46,
-  "previous_24h": 4,
+  "last_24h": 49,
+  "previous_24h": 5,
   "news_24h": 1,
   "examples": [
    {
@@ -110,13 +110,13 @@
     "url": "https://kick.com/envywill/clips/clip_01M8CVZHD9AYS358PKYW60YJ6H"
    }
   ],
-  "trend": 9.4
+  "trend": 8.33
  },
  "reactions": {
   "pillar": "VIRAL MOMENTS & CHAOS",
   "last_24h": 8,
   "previous_24h": 0,
-  "news_24h": 5,
+  "news_24h": 6,
   "examples": [
    {
     "title": "RockStar… 13 AÑOS ROCKSTAR…🤯",
@@ -168,9 +168,9 @@
  },
  "money_tips": {
   "pillar": "CHEATS, TIPS & MONEY",
-  "last_24h": 7,
+  "last_24h": 8,
   "previous_24h": 0,
-  "news_24h": 7,
+  "news_24h": 8,
   "examples": [
    {
     "title": "chegando no heist",
@@ -193,6 +193,6 @@
     "url": "https://kick.com/patgarburgar/clips/clip_01M8DH6PFPF3J0SHQ0WW5NW7A6"
    }
   ],
-  "trend": 8.0
+  "trend": 9.0
  }
 }
