@@ -32,7 +32,4 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add db ops/radar_dashboard.html
-          git diff --cached --quiet && exit 0
-          git commit -m "radar: discovery update"
-          for i in 1 2 3; do git pull --rebase -X theirs && git push && break; sleep 5; done
+          python cloud/save.py "radar: discovery update" db ops/radar_dashboard.html

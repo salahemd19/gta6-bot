@@ -51,6 +51,18 @@ class Publishing(Sandbox):
             self.assertEqual(first.utcoffset(), dt.timedelta(hours=offset))
             self.assertTrue(dt.time(11, 30) <= first.time() < dt.time(13, 30))
 
+    def test_assigned_slot_stays_until_too_late_to_schedule(self):
+        P.save(P.MANIFEST, [item(1)])
+        first = P.plan(days=1, now=self.now)["platforms"]["youtube"]["days"][0]["slots"]
+        slot = next(r["utc"] for r in first if r["id"] == "v1")
+        items = P.load(P.MANIFEST, [])
+        P.save(P.MANIFEST, items + [item(2, score=99)])
+        again = P.plan(days=1, now=self.now + dt.timedelta(hours=2))["platforms"]["youtube"]["days"][0]["slots"]
+        self.assertEqual(next(r["utc"] for r in again if r["id"] == "v1"), slot)
+        late = dt.datetime.fromisoformat(slot) - dt.timedelta(minutes=10)
+        moved = P.plan(days=1, now=late)["platforms"]["youtube"]["days"][0]["slots"]
+        self.assertNotEqual(next(r["utc"] for r in moved if r["id"] == "v1"), slot)
+
     def test_daily_cap_and_gap(self):
         P.save(P.MANIFEST, [item(n) for n in range(30)])
         cal = P.plan(days=1, now=self.now)

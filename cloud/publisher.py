@@ -1,6 +1,7 @@
 """France-first publishing calendar (Phase 6). Europe/Paris, CET/CEST handled by zoneinfo.
 
   python cloud/publisher.py plan [--days 3] [--dry-run]    build both calendars and give approved items a slot
+  python cloud/publisher.py due                            work for the posting task, as JSON
   python cloud/publisher.py status                         today's calendar and what is blocked
   python cloud/publisher.py mark <id> <platform> posted|scheduled|failed [--url U] [--error TEXT] [--at ISO]
   python cloud/publisher.py hold <id> "<reason>"   |   release <id>
@@ -184,9 +185,23 @@ def plan(days=3, dry=False, now=None):
                 rows.append({"local": t.strftime("%H:%M"), "utc": t.astimezone(UTC).isoformat(timespec="minutes"),
                              "window": "fixed", "id": i["id"], "status": kind(i.get(p)), "title": i.get("title")})
             gap = dt.timedelta(minutes=conf["min_gap_minutes"][p])
+            soon = local_now + dt.timedelta(minutes=conf["lead_minutes"])
+            for i in list(ready):  # an assigned slot is kept while there is still time to schedule it
+                t = when(i.get(f"slot_{p}"))
+                if t and t >= soon and t.astimezone(local_now.tzinfo).date() == day and len(fixed) < cap and not clashes(i, placed):
+                    t = t.astimezone(local_now.tzinfo)
+                    ready.remove(i)
+                    placed.append(i)
+                    fixed.append((t, i))
+                    c = i.get("category") or i.get("type")
+                    counts[c] = counts.get(c, 0) + 1
+                    hm = t.strftime("%H:%M")
+                    rows.append({"local": hm, "utc": t.astimezone(UTC).isoformat(timespec="minutes"), "id": i["id"],
+                                 "window": next((w["name"] for w in conf["windows"][p] if w["from"] <= hm < w["to"]), "kept"),
+                                 "status": "assigned", "title": i.get("title"), "package": package(i, p)})
             free = max(0, cap - len(fixed))
             for t, window in slot_times(day, p, cap, conf):
-                if free == 0 or t <= local_now + dt.timedelta(minutes=5) or any(abs(t - f) < gap for f, _ in fixed):
+                if free == 0 or t < soon or any(abs(t - f) < gap for f, _ in fixed):
                     continue
                 free -= 1
                 row = {"local": t.strftime("%H:%M"), "utc": t.astimezone(UTC).isoformat(timespec="minutes"), "window": window,
@@ -272,9 +287,37 @@ def hold(item_id, reason):
     save(MANIFEST, items)
 
 
+def due():
+    """What the posting task has to do now: apply owner decisions, refresh the calendar, list today's work."""
+    import os
+    import subprocess
+    import sys
+    if not os.environ.get("GH_TOKEN"):
+        os.environ["GH_TOKEN"] = subprocess.run(["gh", "auth", "token"], capture_output=True, text=True).stdout.strip()
+    sys.path.insert(0, str(ROOT / "bot"))
+    import post_next
+    items = load(MANIFEST, [])
+    if post_next.sync_approvals(items):
+        save(MANIFEST, items)
+    cal, items = plan(), load(MANIFEST, [])
+    now_ = dt.datetime.now(UTC)
+    out = {"schedule": [], "verify": [], "prescreen": []}
+    for p, c in cal["platforms"].items():
+        for r in c["days"][0]["slots"]:
+            if r["status"] == "assigned":
+                out["schedule"].append({"id": r["id"], "platform": p, "paris": r["local"], "utc": r["utc"], **r["package"]})
+    for i in items:
+        for p in PLATFORMS:
+            t = when(i.get(p))
+            if kind(i.get(p)) == "scheduled" and t and dt.timedelta(minutes=10) < now_ - t < dt.timedelta(hours=36):
+                out["verify"].append({"id": i["id"], "platform": p, "slot": t.isoformat(), "title": i.get("title")})
+    out["prescreen"] = sorted({w["issue"] for w in cal["waiting_approval"] if w.get("issue")})
+    return out
+
+
 def main():
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
-    ap.add_argument("cmd", choices=["plan", "status", "mark", "hold", "release"])
+    ap.add_argument("cmd", choices=["plan", "status", "due", "mark", "hold", "release"])
     ap.add_argument("args", nargs="*")
     ap.add_argument("--days", type=int, default=3)
     ap.add_argument("--dry-run", action="store_true")
@@ -282,7 +325,9 @@ def main():
     ap.add_argument("--error")
     ap.add_argument("--at")
     a = ap.parse_args()
-    if a.cmd == "mark":
+    if a.cmd == "due":
+        print(json.dumps(due(), ensure_ascii=False, indent=1))
+    elif a.cmd == "mark":
         print(mark(*a.args[:3], url=a.url, error=a.error, at=a.at))
     elif a.cmd == "hold":
         hold(a.args[0], a.args[1])
