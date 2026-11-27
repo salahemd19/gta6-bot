@@ -964,11 +964,12 @@
   "score": 0,
   "render_seconds": 91,
   "slot": "2026-11-27T10:07:37+00:00",
-  "youtube": "pending",
+  "youtube": "scheduled 2026-11-27T17:30+00:00",
   "tiktok": "scheduled 2026-11-27T15:30+00:00",
   "issue": 14,
   "slot_youtube": "2026-11-27T17:30+00:00",
   "slot_tiktok": "2026-11-27T15:30+00:00",
-  "feedback_applied": "approved"
+  "feedback_applied": "approved",
+  "youtube_url": "https://youtube.com/shorts/UOX2-95O-9A"
  }
 ]
