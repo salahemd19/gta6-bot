@@ -3,7 +3,7 @@
   "pillar": "MAP & SECRET DISCOVERIES",
   "last_24h": 3,
   "previous_24h": 0,
-  "news_24h": 32,
+  "news_24h": 30,
   "examples": [
    {
     "title": "BUSCANDO EASTER EGGS , MISIONES S | Clip",
@@ -32,7 +32,7 @@
   "pillar": "RACING & VEHICLES",
   "last_24h": 0,
   "previous_24h": 0,
-  "news_24h": 10,
+  "news_24h": 11,
   "examples": [],
   "trend": 1.0
  },
@@ -55,7 +55,7 @@
  },
  "funny": {
   "pillar": "VIRAL MOMENTS & CHAOS",
-  "last_24h": 20,
+  "last_24h": 27,
   "previous_24h": 5,
   "news_24h": 1,
   "examples": [
@@ -80,24 +80,28 @@
     "url": "https://kick.com/envywill/clips/clip_01M8CVZHD9AYS358PKYW60YJ6H"
    }
   ],
-  "trend": 3.5
+  "trend": 4.67
  },
  "reactions": {
   "pillar": "VIRAL MOMENTS & CHAOS",
-  "last_24h": 1,
+  "last_24h": 2,
   "previous_24h": 0,
-  "news_24h": 3,
+  "news_24h": 4,
   "examples": [
    {
     "title": "RockStar… 13 AÑOS ROCKSTAR…🤯",
     "url": "https://kick.com/daguu97/clips/clip_01M8CZN7AFTBVX8D3C4NXQZ4BT"
+   },
+   {
+    "title": "Niko bellic in gta 6 😱",
+    "url": "https://kick.com/wolverinegames/clips/clip_01M8D6KXHT8GGGESD987AMNGE7"
    }
   ],
-  "trend": 2.0
+  "trend": 3.0
  },
  "unusual": {
   "pillar": "LEONIDA LIFE & DETAILS",
-  "last_24h": 2,
+  "last_24h": 3,
   "previous_24h": 0,
   "news_24h": 3,
   "examples": [
@@ -108,9 +112,13 @@
    {
     "title": "Köprüden uçan NPC",
     "url": "https://kick.com/oconnellwicky/clips/clip_01M8CZPGBC7NH4J0J8C46GV48Z"
+   },
+   {
+    "title": "tubarão pegou o npc kkkkk",
+    "url": "https://kick.com/1falange/clips/clip_01M8D6AGGWQCM8ZPK8V693F9Q2"
    }
   ],
-  "trend": 3.0
+  "trend": 4.0
  },
  "money_tips": {
   "pillar": "CHEATS, TIPS & MONEY",
