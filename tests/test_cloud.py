@@ -116,6 +116,18 @@ class Music(unittest.TestCase):
             self.assertTrue((REPO / "music" / "original" / f"{track}.mp3").stat().st_size > 200_000)
 
 
+class Sheets(unittest.TestCase):
+    def test_block_has_a_fixed_even_size(self):
+        with tempfile.TemporaryDirectory() as d:
+            clip, out = Path(d) / "c.mp4", Path(d) / "b.jpg"
+            subprocess.run(["ffmpeg", "-v", "error", "-f", "lavfi", "-i", "testsrc=size=640x480:rate=10", "-t", "8", str(clip)],
+                           check=True)
+            self.assertTrue(V.block(clip, 8.0, out))
+            size = subprocess.run(["ffprobe", "-v", "error", "-show_entries", "stream=width,height", "-of", "csv=p=0", str(out)],
+                                  capture_output=True, text=True, check=True).stdout.strip()
+            self.assertEqual(size, "1944,290")
+
+
 class ReviewExchange(unittest.TestCase):
     def test_queue_branch_is_replaced_and_verdicts_are_read_back(self):
         with tempfile.TemporaryDirectory(ignore_cleanup_errors=True) as d:

@@ -33,6 +33,7 @@ REVIEWS = ROOT / "db" / "reviews.json"
 ENOUGH = 18          # approved clips waiting for production; above this no new review is needed
 COLS, ROWS = 8, 2    # frames per clip
 PER_SHEET = 2        # clips per image
+BLOCK = (1944, 290)  # one clip: both rows plus a black band below; even sizes
 CATEGORIES = list(factory.CFG["pillars"])
 QUEUE_BRANCH = "review-queue"                 # written by the pipeline, replaced every time
 VERDICT_BRANCH = "claude/review-verdicts"     # written by the cloud reviewer
@@ -67,7 +68,7 @@ def block(f, length, path):
     """Two rows of eight frames spread over the clip."""
     step = max(0.4, length / (COLS * ROWS))
     vf = (f"fps=1/{step:.3f},scale=240:136:force_original_aspect_ratio=decrease:force_divisible_by=2,"
-          f"pad=240:136:(ow-iw)/2:(oh-ih)/2,tile={COLS}x{ROWS}:padding=3:color=magenta")
+          f"pad=240:136:(ow-iw)/2:(oh-ih)/2,tile={COLS}x{ROWS}:padding=3:color=magenta,pad={BLOCK[0]}:{BLOCK[1]}:0:0:color=black")
     r = subprocess.run(["ffmpeg", "-v", "error", "-y", "-t", f"{length:.2f}", "-i", str(f), "-vf", vf, "-frames:v", "1", str(path)])
     return r.returncode == 0 and path.exists()
 
@@ -104,8 +105,8 @@ def queue(n):
             group[0].replace(sheet)
         else:
             ins = [x for p in group for x in ("-i", str(p))]
-            subprocess.run(["ffmpeg", "-v", "error", "-y", *ins, "-filter_complex",
-                            f"[0]pad=iw:ih+14:0:0:color=black[a];[a][1]vstack", "-frames:v", "1", str(sheet)], check=True)
+            subprocess.run(["ffmpeg", "-v", "error", "-y", *ins, "-filter_complex", "vstack=inputs=2", "-frames:v", "1",
+                            str(sheet)], check=True)
         sheets.append(str(sheet))
         for i, c in enumerate(clips[k:k + PER_SHEET]):
             c["sheet"], c["position"] = sheet.name, "top" if i == 0 else "bottom"
