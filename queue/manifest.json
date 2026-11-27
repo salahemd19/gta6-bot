@@ -735,5 +735,229 @@
   "rights_note": "owner policy: publish with creator credit, remove on request",
   "slot_youtube": "2026-11-27T11:30+00:00",
   "slot_tiktok": "2026-11-27T11:00+00:00"
+ },
+ {
+  "id": "vci-20261127-100525",
+  "type": "top3",
+  "created": "2026-11-27T10:06:04+00:00",
+  "title": "LE BRAQUAGE DE LA BIJOUTERIE 😱 GTA 6 #Shorts",
+  "video_url": "https://github.com/salahemd19/gta6-bot/releases/download/clips/vci-20261127-100525_youtube.mp4",
+  "video_url_tiktok": "https://github.com/salahemd19/gta6-bot/releases/download/clips/vci-20261127-100525_tiktok.mp4",
+  "sheet_url": "https://github.com/salahemd19/gta6-bot/releases/download/clips/vci-20261127-100525_youtube_sheet.jpg",
+  "youtube_description": "Fusillade à la sortie d'une armurerie : plusieurs adversaires tombent dans la rue.\nTon préféré ? Dis-le en commentaire 👇\n🎥 Créateurs (Kick) : xmerghani, lordkebun, missvirgo\nVoix : Piper, voix fr_FR-siwis (corpus SIWIS, CC BY 4.0)\n#GTA6 #GTAVI #GTA6FR #Shorts",
+  "tiktok_caption": "LE BRAQUAGE DE LA BIJOUTERIE 😱 GTA 6 Ton préféré ? Dis-le en commentaire 👇 🎥 xmerghani, lordkebun, missvirgo (Kick) #GTA6 #GTA6FR #GTAVI #pourtoi",
+  "tags": "GTA 6, GTA VI, GTA 6 FR, Vice City",
+  "music": {
+   "youtube": {
+    "mode": "add in the YouTube Studio editor",
+    "id": "ytal-mirror-mirror",
+    "title": "Mirror Mirror",
+    "artist": "Anno Domini Beats",
+    "source": "YouTube Audio Library",
+    "licence": "YouTube Audio Library (YouTube Studio > Bibliothèque audio, channel VICECITY INTEL), licence shown as 'Licence de la bibliothèque audio YouTube', seen 2026-11-26",
+    "permitted": "APPROVED",
+    "platforms": {
+     "youtube": "APPROVED",
+     "tiktok": "PENDING",
+     "reels": "PENDING"
+    },
+    "attribution": "CHECK: open the track's licence icon in Studio; if attribution is required, paste it in the description",
+    "conditions": "Use in videos only; never re-distribute the audio file. Other platforms are not covered until verified.",
+    "monetization": "YouTube: allowed under the YouTube Audio Library terms; elsewhere not verified",
+    "alternatives": [
+     "Monster Freak Party - Bare Bones Mtl",
+     "Survival Mode - Blue Deer Studio"
+    ]
+   },
+   "tiktok": {
+    "mode": "add in TikTok's sound picker",
+    "id": "tt-tokyo-drift-phonkazo",
+    "title": "Tokyo Drift",
+    "artist": "PHONKAZO",
+    "source": "TikTok in-app sound library (seen in TikTok Studio editor, 26 Nov 2026)",
+    "licence": "Offered in TikTok's sound picker for this account",
+    "permitted": "IN_APP_ONLY",
+    "platforms": {
+     "youtube": "NOT_APPROVED",
+     "tiktok": "IN_APP_ONLY",
+     "reels": "PENDING"
+    },
+    "attribution": "Shown automatically by TikTok",
+    "conditions": "Never embed in the uploaded video file",
+    "monetization": "Not cleared outside TikTok",
+    "alternatives": [
+     "METAMORPHOSIS - INTERWORLD"
+    ]
+   }
+  },
+  "sources": [
+   {
+    "content_id": "VCI-61a7a598ba",
+    "creator": "xmerghani",
+    "platform": "kick",
+    "url": "https://kick.com/xmerghani/clips/clip_01M8CPWJ6R73TA2B81YTYK6ZZ7",
+    "rights": "credited_third_party",
+    "start": 1,
+    "end": 7.5,
+    "at": 0.0,
+    "len": 6.5,
+    "height": 1080,
+    "dhash": "b49cfc6ddcb2e3da",
+    "rank": 3
+   },
+   {
+    "content_id": "VCI-5addf314fe",
+    "creator": "lordkebun",
+    "platform": "kick",
+    "url": "https://kick.com/lordkebun/clips/clip_01M8APQD8CW4K7876BJ9DE6QQS",
+    "rights": "credited_third_party",
+    "start": 3,
+    "end": 9.5,
+    "at": 6.5,
+    "len": 6.5,
+    "height": 1080,
+    "dhash": "adccc4f0a787070d",
+    "rank": 2
+   },
+   {
+    "content_id": "VCI-621f1e42df",
+    "creator": "missvirgo",
+    "platform": "kick",
+    "url": "https://kick.com/missvirgo/clips/clip_01M8DV736BC6QHG5VQX7DYMPMW",
+    "rights": "credited_third_party",
+    "start": 17,
+    "end": 23.5,
+    "at": 13.0,
+    "len": 6.5,
+    "height": 1080,
+    "dhash": "6165a534fcbd3939",
+    "rank": 1
+   }
+  ],
+  "streamer": "xmerghani,lordkebun,missvirgo",
+  "rights": "credited_third_party",
+  "authenticity": "verified_by_review",
+  "category": "VIRAL MOMENTS & CHAOS",
+  "series": "ALERTE LEONIDA",
+  "template": "chaos",
+  "hook": "LE BRAQUAGE DE LA BIJOUTERIE",
+  "duration_s": 19.5,
+  "score": 0,
+  "render_seconds": 82,
+  "slot": "2026-11-27T10:06:04+00:00",
+  "youtube": "awaiting approval",
+  "tiktok": "awaiting approval",
+  "issue": 13
+ },
+ {
+  "id": "vci-20261127-100652",
+  "type": "top3",
+  "created": "2026-11-27T10:07:37+00:00",
+  "title": "LA SUPERCAR EXPLOSE SON AVANT 😱 GTA 6 #Shorts",
+  "video_url": "https://github.com/salahemd19/gta6-bot/releases/download/clips/vci-20261127-100652_youtube.mp4",
+  "video_url_tiktok": "https://github.com/salahemd19/gta6-bot/releases/download/clips/vci-20261127-100652_tiktok.mp4",
+  "sheet_url": "https://github.com/salahemd19/gta6-bot/releases/download/clips/vci-20261127-100652_youtube_sheet.jpg",
+  "youtube_description": "La voiture percute un lampadaire : le personnage est éjecté et le poteau tombe.\nTon préféré ? Dis-le en commentaire 👇\n🎥 Créateurs (Kick) : rraenee, neexcsgo, itsnitsi\nVoix : Piper, voix fr_FR-siwis (corpus SIWIS, CC BY 4.0)\n#GTA6 #GTAVI #GTA6FR #Shorts",
+  "tiktok_caption": "LA SUPERCAR EXPLOSE SON AVANT 😱 GTA 6 Ton préféré ? Dis-le en commentaire 👇 🎥 rraenee, neexcsgo, itsnitsi (Kick) #GTA6 #GTA6FR #GTAVI #pourtoi",
+  "tags": "GTA 6, GTA VI, GTA 6 FR, Vice City",
+  "music": {
+   "youtube": {
+    "mode": "add in the YouTube Studio editor",
+    "id": "ytal-monster-freak-party",
+    "title": "Monster Freak Party",
+    "artist": "Bare Bones Mtl",
+    "source": "YouTube Audio Library",
+    "licence": "YouTube Audio Library (YouTube Studio > Bibliothèque audio, channel VICECITY INTEL), licence shown as 'Licence de la bibliothèque audio YouTube', seen 2026-11-26",
+    "permitted": "APPROVED",
+    "platforms": {
+     "youtube": "APPROVED",
+     "tiktok": "PENDING",
+     "reels": "PENDING"
+    },
+    "attribution": "CHECK: open the track's licence icon in Studio; if attribution is required, paste it in the description",
+    "conditions": "Use in videos only; never re-distribute the audio file. Other platforms are not covered until verified.",
+    "monetization": "YouTube: allowed under the YouTube Audio Library terms; elsewhere not verified",
+    "alternatives": [
+     "Survival Mode - Blue Deer Studio",
+     "Ego Chall - Blue Deer Studio"
+    ]
+   },
+   "tiktok": {
+    "mode": "add in TikTok's sound picker",
+    "id": "tt-metamorphosis-interworld",
+    "title": "METAMORPHOSIS",
+    "artist": "INTERWORLD",
+    "source": "TikTok in-app sound library (TikTok Studio editor, 26 Nov 2026)",
+    "licence": "Offered in TikTok's sound picker for this account",
+    "permitted": "IN_APP_ONLY",
+    "platforms": {
+     "youtube": "NOT_APPROVED",
+     "tiktok": "IN_APP_ONLY",
+     "reels": "PENDING"
+    },
+    "attribution": "Shown automatically by TikTok",
+    "conditions": "Never embed in the uploaded video file",
+    "monetization": "Not cleared outside TikTok",
+    "alternatives": []
+   }
+  },
+  "sources": [
+   {
+    "content_id": "VCI-cfe7a4f1eb",
+    "creator": "rraenee",
+    "platform": "kick",
+    "url": "https://kick.com/rraenee/clips/clip_01M8DBCNWGJMDHWY0N7YDH5YDJ",
+    "rights": "credited_third_party",
+    "start": 35,
+    "end": 41.5,
+    "at": 0.0,
+    "len": 6.5,
+    "height": 1080,
+    "dhash": "c0c237b1e8c8cc08",
+    "rank": 3
+   },
+   {
+    "content_id": "VCI-d9d22ae25e",
+    "creator": "neexcsgo",
+    "platform": "kick",
+    "url": "https://kick.com/neexcsgo/clips/clip_01M8AV2W5HXRVSTXSP3QPMKAHC",
+    "rights": "credited_third_party",
+    "start": 19,
+    "end": 25.5,
+    "at": 6.5,
+    "len": 6.5,
+    "height": 1080,
+    "dhash": "60c25af9f3ecd870",
+    "rank": 2
+   },
+   {
+    "content_id": "VCI-918a259beb",
+    "creator": "itsnitsi",
+    "platform": "kick",
+    "url": "https://kick.com/itsnitsi/clips/clip_01M8D2YHTAZB19ZKCXFHQ5K8GA",
+    "rights": "credited_third_party",
+    "start": 6,
+    "end": 12.5,
+    "at": 13.0,
+    "len": 6.5,
+    "height": 1080,
+    "dhash": "c8908972200c0c3e",
+    "rank": 1
+   }
+  ],
+  "streamer": "rraenee,neexcsgo,itsnitsi",
+  "rights": "credited_third_party",
+  "authenticity": "verified_by_review",
+  "category": "VIRAL MOMENTS & CHAOS",
+  "series": "ALERTE LEONIDA",
+  "template": "chaos",
+  "hook": "LA SUPERCAR EXPLOSE SON AVANT",
+  "duration_s": 19.5,
+  "score": 0,
+  "render_seconds": 91,
+  "slot": "2026-11-27T10:07:37+00:00",
+  "youtube": "awaiting approval",
+  "tiktok": "awaiting approval",
+  "issue": 14
  }
 ]

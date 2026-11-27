@@ -8,8 +8,8 @@
   },
   "produce": {
    "failures": 0,
-   "last_ok": "2026-11-27T09:28:00+00:00",
-   "result": "waiting: no licensed music file on this machine (music/files), so nothing is produced without music",
+   "last_ok": "2026-11-27T10:08:28+00:00",
+   "result": "produced vci-20261127-100525, vci-20261127-100652",
    "error": null
   },
   "calendar": {
@@ -35,25 +35,25 @@
   "radar.yml": {
    "name": "Discovery radar",
    "health": "ok",
-   "age_h": 0.0,
-   "url": "https://github.com/salahemd19/gta6-bot/actions/runs/45962966432"
+   "age_h": 0.4,
+   "url": "https://github.com/salahemd19/gta6-bot/actions/runs/45976404942"
   },
   "engine.yml": {
    "name": "Ingest and analysis",
    "health": "ok",
-   "age_h": 2.4,
+   "age_h": 2.8,
    "url": "https://github.com/salahemd19/gta6-bot/actions/runs/45957901122"
   },
   "backup.yml": {
    "name": "Database backup",
    "health": "ok",
-   "age_h": 5.6,
+   "age_h": 6.0,
    "url": "https://github.com/salahemd19/gta6-bot/actions/runs/45938237332"
   },
   "post.yml": {
    "name": "Publisher",
    "health": "ok",
-   "age_h": 0.7,
+   "age_h": 1.1,
    "url": "https://github.com/salahemd19/gta6-bot/actions/runs/45970624598"
   }
  },

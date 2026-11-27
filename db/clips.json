@@ -51699,10 +51699,12 @@
   "vod_starts_at": 0,
   "is_mature": true,
   "discovered_at": "2026-11-26T23:33:22+00:00",
-  "status": "analysed",
+  "status": "produced",
   "authenticity": "verified_by_review",
   "rights": "credited_third_party",
-  "used_in": [],
+  "used_in": [
+   "vci-20261127-100652"
+  ],
   "duplicate_of": null,
   "seen_at": "2026-11-27T09:45:57+00:00",
   "radar": {
@@ -51733,7 +51735,7 @@
   "attribution": "@itsnitsi (Kick)",
   "suggested_hook": "ILS ONT FAIT ÇA SUR GTA 6",
   "suggested_title": "Ils ont fait ça sur gta 6 😱 (@itsnitsi)",
-  "production_status": "none",
+  "production_status": "produced",
   "approval": {
    "editorial": null,
    "production": null,
@@ -51741,9 +51743,9 @@
   },
   "publications": [],
   "analytics": {},
-  "stage": "RIGHTS_RECORDED",
+  "stage": "PRODUCED",
   "state": "active",
-  "updated_at": "2026-11-27T10:04:46+00:00",
+  "updated_at": "2026-11-27T10:08:28+00:00",
   "views_per_hour_recent": 0.0,
   "metrics": {
    "motion": 20.6,
@@ -54500,10 +54502,12 @@
   "vod_starts_at": 0,
   "is_mature": true,
   "discovered_at": "2026-11-27T00:34:03+00:00",
-  "status": "analysed",
+  "status": "produced",
   "authenticity": "verified_by_review",
   "rights": "credited_third_party",
-  "used_in": [],
+  "used_in": [
+   "vci-20261127-100525"
+  ],
   "duplicate_of": null,
   "seen_at": "2026-11-27T09:45:57+00:00",
   "radar": {
@@ -54534,7 +54538,7 @@
   "attribution": "@xmerghani (Kick)",
   "suggested_hook": "ILS ONT FAIT ÇA SUR GTA 6",
   "suggested_title": "Ils ont fait ça sur gta 6 😱 (@xmerghani)",
-  "production_status": "none",
+  "production_status": "produced",
   "approval": {
    "editorial": null,
    "production": null,
@@ -54542,9 +54546,9 @@
   },
   "publications": [],
   "analytics": {},
-  "stage": "RIGHTS_RECORDED",
+  "stage": "PRODUCED",
   "state": "active",
-  "updated_at": "2026-11-27T10:04:46+00:00",
+  "updated_at": "2026-11-27T10:06:52+00:00",
   "metrics": {
    "motion": 38.3,
    "still": 0.0,
@@ -56306,10 +56310,12 @@
   "vod_starts_at": 0,
   "is_mature": true,
   "discovered_at": "2026-11-27T00:34:05+00:00",
-  "status": "analysed",
+  "status": "produced",
   "authenticity": "verified_by_review",
   "rights": "credited_third_party",
-  "used_in": [],
+  "used_in": [
+   "vci-20261127-100525"
+  ],
   "duplicate_of": null,
   "seen_at": "2026-11-27T09:45:57+00:00",
   "radar": {
@@ -56340,7 +56346,7 @@
   "attribution": "@lordkebun (Kick)",
   "suggested_hook": "ILS ONT FAIT ÇA SUR GTA 6",
   "suggested_title": "Ils ont fait ça sur gta 6 😱 (@lordkebun)",
-  "production_status": "none",
+  "production_status": "produced",
   "approval": {
    "editorial": null,
    "production": null,
@@ -56348,9 +56354,9 @@
   },
   "publications": [],
   "analytics": {},
-  "stage": "RIGHTS_RECORDED",
+  "stage": "PRODUCED",
   "state": "active",
-  "updated_at": "2026-11-27T10:04:46+00:00",
+  "updated_at": "2026-11-27T10:06:52+00:00",
   "views_per_hour_recent": 3.7,
   "metrics": {
    "motion": 24.9,
@@ -56859,10 +56865,12 @@
   "vod_starts_at": 0,
   "is_mature": true,
   "discovered_at": "2026-11-27T00:34:05+00:00",
-  "status": "analysed",
+  "status": "produced",
   "authenticity": "verified_by_review",
   "rights": "credited_third_party",
-  "used_in": [],
+  "used_in": [
+   "vci-20261127-100652"
+  ],
   "duplicate_of": null,
   "seen_at": "2026-11-27T09:45:57+00:00",
   "radar": {
@@ -56893,7 +56901,7 @@
   "attribution": "@neexcsgo (Kick)",
   "suggested_hook": "ILS ONT FAIT ÇA SUR GTA 6",
   "suggested_title": "Ils ont fait ça sur gta 6 😱 (@neexcsgo)",
-  "production_status": "none",
+  "production_status": "produced",
   "approval": {
    "editorial": null,
    "production": null,
@@ -56901,9 +56909,9 @@
   },
   "publications": [],
   "analytics": {},
-  "stage": "RIGHTS_RECORDED",
+  "stage": "PRODUCED",
   "state": "active",
-  "updated_at": "2026-11-27T10:04:46+00:00",
+  "updated_at": "2026-11-27T10:08:28+00:00",
   "views_per_hour_recent": 0.0,
   "metrics": {
    "motion": 17.1,
@@ -70481,10 +70489,12 @@
   "vod_starts_at": 0,
   "is_mature": true,
   "discovered_at": "2026-11-27T01:59:34+00:00",
-  "status": "analysed",
+  "status": "produced",
   "authenticity": "verified_by_review",
   "rights": "credited_third_party",
-  "used_in": [],
+  "used_in": [
+   "vci-20261127-100652"
+  ],
   "duplicate_of": null,
   "seen_at": "2026-11-27T09:45:57+00:00",
   "radar": {
@@ -70515,7 +70525,7 @@
   "attribution": "@rraenee (Kick)",
   "suggested_hook": "ILS ONT FAIT ÇA SUR GTA 6",
   "suggested_title": "Ils ont fait ça sur gta 6 😱 (@rraenee)",
-  "production_status": "none",
+  "production_status": "produced",
   "approval": {
    "editorial": null,
    "production": null,
@@ -70523,9 +70533,9 @@
   },
   "publications": [],
   "analytics": {},
-  "stage": "RIGHTS_RECORDED",
+  "stage": "PRODUCED",
   "state": "active",
-  "updated_at": "2026-11-27T10:04:46+00:00",
+  "updated_at": "2026-11-27T10:08:28+00:00",
   "views_per_hour_recent": 0.0,
   "metrics": {
    "motion": 25.3,
@@ -84297,10 +84307,12 @@
   "vod_starts_at": 0,
   "is_mature": true,
   "discovered_at": "2026-11-27T06:37:33+00:00",
-  "status": "analysed",
+  "status": "produced",
   "authenticity": "verified_by_review",
   "rights": "credited_third_party",
-  "used_in": [],
+  "used_in": [
+   "vci-20261127-100525"
+  ],
   "duplicate_of": null,
   "seen_at": "2026-11-27T09:45:57+00:00",
   "radar": {
@@ -84331,7 +84343,7 @@
   "attribution": "@missvirgo (Kick)",
   "suggested_hook": "ILS ONT FAIT ÇA SUR GTA 6",
   "suggested_title": "Ils ont fait ça sur gta 6 😱 (@missvirgo)",
-  "production_status": "none",
+  "production_status": "produced",
   "approval": {
    "editorial": null,
    "production": null,
@@ -84339,9 +84351,9 @@
   },
   "publications": [],
   "analytics": {},
-  "stage": "RIGHTS_RECORDED",
+  "stage": "PRODUCED",
   "state": "active",
-  "updated_at": "2026-11-27T10:04:46+00:00",
+  "updated_at": "2026-11-27T10:06:52+00:00",
   "metrics": {
    "motion": 24.6,
    "still": 0.12,

@@ -1687,3 +1687,15 @@
 {"at": "2026-11-27T10:04:46+00:00", "id": "VCI-5addf314fe", "by": "review", "changes": {"viral_potential": [8.02, 8.03]}, "note": "sync"}
 {"at": "2026-11-27T10:04:46+00:00", "id": "VCI-d9d22ae25e", "by": "review", "changes": {"viral_potential": [7.44, 7.39]}, "note": "sync"}
 {"at": "2026-11-27T10:04:46+00:00", "id": "VCI-cfe7a4f1eb", "by": "review", "changes": {"viral_potential": [7.14, 7.1]}, "note": "sync"}
+{"at": "2026-11-27T10:06:52+00:00", "id": "VCI-61a7a598ba", "by": "factory", "changes": {"status": ["analysed", "produced"]}, "note": "produced"}
+{"at": "2026-11-27T10:06:52+00:00", "id": "VCI-5addf314fe", "by": "factory", "changes": {"status": ["analysed", "produced"]}, "note": "produced"}
+{"at": "2026-11-27T10:06:52+00:00", "id": "VCI-621f1e42df", "by": "factory", "changes": {"status": ["analysed", "produced"]}, "note": "produced"}
+{"at": "2026-11-27T10:06:52+00:00", "id": "VCI-61a7a598ba", "by": "factory", "changes": {"stage": ["RIGHTS_RECORDED", "PRODUCED"], "production_status": ["none", "produced"]}, "note": "sync"}
+{"at": "2026-11-27T10:06:52+00:00", "id": "VCI-5addf314fe", "by": "factory", "changes": {"stage": ["RIGHTS_RECORDED", "PRODUCED"], "production_status": ["none", "produced"]}, "note": "sync"}
+{"at": "2026-11-27T10:06:52+00:00", "id": "VCI-621f1e42df", "by": "factory", "changes": {"stage": ["RIGHTS_RECORDED", "PRODUCED"], "production_status": ["none", "produced"]}, "note": "sync"}
+{"at": "2026-11-27T10:08:28+00:00", "id": "VCI-918a259beb", "by": "factory", "changes": {"status": ["analysed", "produced"]}, "note": "produced"}
+{"at": "2026-11-27T10:08:28+00:00", "id": "VCI-d9d22ae25e", "by": "factory", "changes": {"status": ["analysed", "produced"]}, "note": "produced"}
+{"at": "2026-11-27T10:08:28+00:00", "id": "VCI-cfe7a4f1eb", "by": "factory", "changes": {"status": ["analysed", "produced"]}, "note": "produced"}
+{"at": "2026-11-27T10:08:28+00:00", "id": "VCI-918a259beb", "by": "factory", "changes": {"stage": ["RIGHTS_RECORDED", "PRODUCED"], "production_status": ["none", "produced"]}, "note": "sync"}
+{"at": "2026-11-27T10:08:28+00:00", "id": "VCI-d9d22ae25e", "by": "factory", "changes": {"stage": ["RIGHTS_RECORDED", "PRODUCED"], "production_status": ["none", "produced"]}, "note": "sync"}
+{"at": "2026-11-27T10:08:28+00:00", "id": "VCI-cfe7a4f1eb", "by": "factory", "changes": {"stage": ["RIGHTS_RECORDED", "PRODUCED"], "production_status": ["none", "produced"]}, "note": "sync"}
