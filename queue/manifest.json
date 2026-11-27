@@ -279,8 +279,8 @@
   "issue": 3,
   "rights": "credited_third_party",
   "rights_note": "owner policy: publish with creator credit, remove on request",
-  "slot_youtube": "2026-11-27T11:30+00:00",
-  "slot_tiktok": "2026-11-27T11:00+00:00"
+  "slot_youtube": "2026-11-27T14:05+00:00",
+  "slot_tiktok": "2026-11-27T12:00+00:00"
  },
  {
   "id": "20261126-1033-razzgo-clip01",
@@ -717,10 +717,12 @@
   "score": 1.74,
   "motion": 16.3,
   "slot": "2026-11-26T10:09:01+00:00",
-  "youtube": "hold: waiting for YouTube API audit",
-  "tiktok": "hold: waiting for TikTok app approval",
+  "youtube": "pending",
+  "tiktok": "pending",
   "issue": 2,
   "rights": "credited_third_party",
-  "rights_note": "owner policy: publish with creator credit, remove on request"
+  "rights_note": "owner policy: publish with creator credit, remove on request",
+  "slot_youtube": "2026-11-27T11:30+00:00",
+  "slot_tiktok": "2026-11-27T11:00+00:00"
  }
 ]

@@ -14,8 +14,8 @@
   },
   "calendar": {
    "failures": 0,
-   "last_ok": "2026-11-27T09:11:42+00:00",
-   "result": "youtube 1/6 today | tiktok 1/8 today",
+   "last_ok": "2026-11-27T09:12:06+00:00",
+   "result": "youtube 2/6 today | tiktok 2/8 today",
    "error": null
   },
   "analytics_collect": {
@@ -47,7 +47,7 @@
   "backup.yml": {
    "name": "Database backup",
    "health": "ok",
-   "age_h": 5.0,
+   "age_h": 5.1,
    "url": "https://github.com/salahemd19/gta6-bot/actions/runs/45938237332"
   },
   "post.yml": {

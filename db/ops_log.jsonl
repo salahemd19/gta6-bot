@@ -42,3 +42,4 @@
 {"at": "2026-11-27T07:47:19+00:00", "job": "analytics_collect", "result": "error (attempt 3/3)", "detail": "HTTPError: 401 Client Error: Unauthorized for url: https://oauth2.googleapis.com/token"}
 {"at": "2026-11-27T09:11:19+00:00", "job": "calendar", "result": "ok", "detail": "youtube 1/6 today | tiktok 1/8 today"}
 {"at": "2026-11-27T09:11:42+00:00", "job": "calendar", "result": "ok", "detail": "youtube 1/6 today | tiktok 1/8 today"}
+{"at": "2026-11-27T09:12:06+00:00", "job": "calendar", "result": "ok", "detail": "youtube 2/6 today | tiktok 2/8 today"}

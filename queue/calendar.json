@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-27T09:11+00:00",
+ "generated": "2026-11-27T09:12+00:00",
  "level": 0,
  "timezone": "Europe/Paris",
  "platforms": {
@@ -13,6 +13,21 @@
        "local": "12:30",
        "utc": "2026-11-27T11:30+00:00",
        "window": "lunch",
+       "id": "20261126-1009-razzgo-clip02",
+       "status": "assigned",
+       "title": "FUSILLADE DE NUIT DANS L'ENTREPÔT 🔫 razzgo sur GTA 6",
+       "package": {
+        "video_url": "https://github.com/salahemd19/gta6-bot/releases/download/clips/20261126-1009-razzgo-clip02-v2.mp4",
+        "title": "FUSILLADE DE NUIT DANS L'ENTREPÔT 🔫 razzgo sur GTA 6",
+        "description": "Clip du live de razzgo sur Kick.\n\n#GTA6 #GTAVI #Shorts",
+        "tags": "",
+        "music": null
+       }
+      },
+      {
+       "local": "15:05",
+       "utc": "2026-11-27T14:05+00:00",
+       "window": "afternoon",
        "id": "20261126-1033-ac7ionman-clip01",
        "status": "assigned",
        "title": "CARNAGE CHEZ LE CONCESSIONNAIRE 😱 ac7ionman sur GTA 6",
@@ -23,14 +38,6 @@
         "tags": "",
         "music": null
        }
-      },
-      {
-       "local": "15:05",
-       "utc": "2026-11-27T14:05+00:00",
-       "window": "afternoon",
-       "id": null,
-       "status": "empty",
-       "title": null
       },
       {
        "local": "18:30",
@@ -177,8 +184,8 @@
    ],
    "target": 8,
    "cap": 6,
-   "filled_today": 1,
-   "empty_next_days": 17
+   "filled_today": 2,
+   "empty_next_days": 16
   },
   "tiktok": {
    "days": [
@@ -190,6 +197,19 @@
        "local": "12:00",
        "utc": "2026-11-27T11:00+00:00",
        "window": "lunch",
+       "id": "20261126-1009-razzgo-clip02",
+       "status": "assigned",
+       "title": "FUSILLADE DE NUIT DANS L'ENTREPÔT 🔫 razzgo sur GTA 6",
+       "package": {
+        "video_url": "https://github.com/salahemd19/gta6-bot/releases/download/clips/20261126-1009-razzgo-clip02-v2.mp4",
+        "caption": "FUSILLADE DE NUIT DANS L'ENTREPÔT 🔫 razzgo sur GTA 6 🎥 @razzgo (Kick) #GTA6 #GTA6FR #GTAVI #pourtoi #fyp",
+        "music": null
+       }
+      },
+      {
+       "local": "13:00",
+       "utc": "2026-11-27T12:00+00:00",
+       "window": "lunch",
        "id": "20261126-1033-ac7ionman-clip01",
        "status": "assigned",
        "title": "CARNAGE CHEZ LE CONCESSIONNAIRE 😱 ac7ionman sur GTA 6",
@@ -198,14 +218,6 @@
         "caption": "CARNAGE CHEZ LE CONCESSIONNAIRE 😱 ac7ionman sur GTA 6 🎥 @ac7ionman (Kick) #GTA6 #GTA6FR #GTAVI #pourtoi #fyp",
         "music": null
        }
-      },
-      {
-       "local": "13:00",
-       "utc": "2026-11-27T12:00+00:00",
-       "window": "lunch",
-       "id": null,
-       "status": "empty",
-       "title": null
       },
       {
        "local": "15:05",
@@ -400,8 +412,8 @@
    ],
    "target": 12,
    "cap": 8,
-   "filled_today": 1,
-   "empty_next_days": 23
+   "filled_today": 2,
+   "empty_next_days": 22
   }
  },
  "blocked": [],
