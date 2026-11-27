@@ -728,13 +728,14 @@
   "score": 1.74,
   "motion": 16.3,
   "slot": "2026-11-26T10:09:01+00:00",
-  "youtube": "pending",
+  "youtube": "scheduled 2026-11-27T11:30+00:00",
   "tiktok": "pending",
   "issue": 2,
   "rights": "credited_third_party",
   "rights_note": "owner policy: publish with creator credit, remove on request",
   "slot_youtube": "2026-11-27T11:30+00:00",
-  "slot_tiktok": "2026-11-27T11:00+00:00"
+  "slot_tiktok": "2026-11-27T11:00+00:00",
+  "youtube_url": "https://youtube.com/shorts/80zl3VaEdys"
  },
  {
   "id": "vci-20261127-100525",
