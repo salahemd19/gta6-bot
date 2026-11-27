@@ -3,7 +3,7 @@
   "pillar": "MAP & SECRET DISCOVERIES",
   "last_24h": 4,
   "previous_24h": 0,
-  "news_24h": 33,
+  "news_24h": 36,
   "examples": [
    {
     "title": "BUSCANDO EASTER EGGS , MISIONES S | Clip",
@@ -39,9 +39,9 @@
  },
  "vehicles": {
   "pillar": "RACING & VEHICLES",
-  "last_24h": 4,
+  "last_24h": 5,
   "previous_24h": 1,
-  "news_24h": 11,
+  "news_24h": 12,
   "examples": [
    {
     "title": "GTA 6 A TODA VELOCIDAD EN MOTO",
@@ -58,9 +58,13 @@
    {
     "title": "Coches con pollas en las manos!",
     "url": "https://kick.com/rapturs/clips/clip_01M8DMVM1X0JPRQH9E9YFF39FB"
+   },
+   {
+    "title": "Ábrelo! Salto desde la avioneta",
+    "url": "https://kick.com/aquino/clips/clip_01M8DVEDPABDXVJTJ63FJVAQ1X"
    }
   ],
-  "trend": 2.5
+  "trend": 3.0
  },
  "challenges": {
   "pillar": "CHALLENGES & EXPERIMENTS",
@@ -81,7 +85,7 @@
  },
  "funny": {
   "pillar": "VIRAL MOMENTS & CHAOS",
-  "last_24h": 43,
+  "last_24h": 46,
   "previous_24h": 4,
   "news_24h": 1,
   "examples": [
@@ -106,7 +110,7 @@
     "url": "https://kick.com/envywill/clips/clip_01M8CVZHD9AYS358PKYW60YJ6H"
    }
   ],
-  "trend": 8.8
+  "trend": 9.4
  },
  "reactions": {
   "pillar": "VIRAL MOMENTS & CHAOS",
@@ -139,9 +143,9 @@
  },
  "unusual": {
   "pillar": "LEONIDA LIFE & DETAILS",
-  "last_24h": 3,
+  "last_24h": 4,
   "previous_24h": 0,
-  "news_24h": 3,
+  "news_24h": 4,
   "examples": [
    {
     "title": "los NPC de GTA 6 te tienden trampas. ",
@@ -154,15 +158,19 @@
    {
     "title": "tubarão pegou o npc kkkkk",
     "url": "https://kick.com/1falange/clips/clip_01M8D6AGGWQCM8ZPK8V693F9Q2"
+   },
+   {
+    "title": "RANDOM NPC AT PATROL PUMP",
+    "url": "https://kick.com/denofwarrior/clips/clip_01M8DTYY6WHMAKH37RAC0BQV3S"
    }
   ],
-  "trend": 4.0
+  "trend": 5.0
  },
  "money_tips": {
   "pillar": "CHEATS, TIPS & MONEY",
-  "last_24h": 6,
+  "last_24h": 7,
   "previous_24h": 0,
-  "news_24h": 6,
+  "news_24h": 7,
   "examples": [
    {
     "title": "chegando no heist",
@@ -185,6 +193,6 @@
     "url": "https://kick.com/patgarburgar/clips/clip_01M8DH6PFPF3J0SHQ0WW5NW7A6"
    }
   ],
-  "trend": 7.0
+  "trend": 8.0
  }
 }
