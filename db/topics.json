@@ -1,9 +1,9 @@
 {
  "map_secrets": {
   "pillar": "MAP & SECRET DISCOVERIES",
-  "last_24h": 5,
+  "last_24h": 6,
   "previous_24h": 0,
-  "news_24h": 38,
+  "news_24h": 39,
   "examples": [
    {
     "title": "BUSCANDO EASTER EGGS , MISIONES S | Clip",
@@ -22,15 +22,15 @@
     "url": "https://kick.com/rapturs/clips/clip_01M8DH45XT1AYYX41SR86T7NPZ"
    },
    {
-    "title": "GTA 6 VICE CITY EASTER EGG | !insta !yt !social",
-    "url": "https://kick.com/yyiido"
+    "title": "O cofrezinho tá escondido?",
+    "url": "https://kick.com/yoda/clips/clip_01M8F82HND762YWFWYGP2ZN9WR"
    }
   ],
-  "trend": 6.0
+  "trend": 7.0
  },
  "races": {
   "pillar": "RACING & VEHICLES",
-  "last_24h": 2,
+  "last_24h": 3,
   "previous_24h": 0,
   "news_24h": 2,
   "examples": [
@@ -41,15 +41,19 @@
    {
     "title": "drifto wóz ",
     "url": "https://kick.com/zetk4official/clips/clip_01M8EG0AAP8085RNER3W0E1PGY"
+   },
+   {
+    "title": "Off-Road Dirt Bike Race Checkpoint #2! 🏁🏍️",
+    "url": "https://kick.com/vortexplay-19/clips/clip_01M8F83BADBNEFN2P2KDWAHCGZ"
    }
   ],
-  "trend": 3.0
+  "trend": 4.0
  },
  "vehicles": {
   "pillar": "RACING & VEHICLES",
-  "last_24h": 10,
+  "last_24h": 14,
   "previous_24h": 1,
-  "news_24h": 14,
+  "news_24h": 13,
   "examples": [
    {
     "title": "GTA 6 A TODA VELOCIDAD EN MOTO",
@@ -72,13 +76,13 @@
     "url": "https://kick.com/aquino/clips/clip_01M8DVEDPABDXVJTJ63FJVAQ1X"
    }
   ],
-  "trend": 5.5
+  "trend": 7.5
  },
  "challenges": {
   "pillar": "CHALLENGES & EXPERIMENTS",
   "last_24h": 4,
   "previous_24h": 0,
-  "news_24h": 4,
+  "news_24h": 5,
   "examples": [
    {
     "title": "Ghost or Tommy cause it definitely Power 🤷🏽‍♂️ ",
@@ -101,8 +105,8 @@
  },
  "funny": {
   "pillar": "VIRAL MOMENTS & CHAOS",
-  "last_24h": 76,
-  "previous_24h": 5,
+  "last_24h": 77,
+  "previous_24h": 7,
   "news_24h": 1,
   "examples": [
    {
@@ -126,11 +130,11 @@
     "url": "https://kick.com/envywill/clips/clip_01M8CVZHD9AYS358PKYW60YJ6H"
    }
   ],
-  "trend": 12.83
+  "trend": 9.75
  },
  "reactions": {
   "pillar": "VIRAL MOMENTS & CHAOS",
-  "last_24h": 11,
+  "last_24h": 12,
   "previous_24h": 0,
   "news_24h": 4,
   "examples": [
@@ -155,13 +159,13 @@
     "url": "https://kick.com/javiiriivera/clips/clip_01M8DMPN8R99SW2SHB62QGB0TV"
    }
   ],
-  "trend": 12.0
+  "trend": 13.0
  },
  "unusual": {
   "pillar": "LEONIDA LIFE & DETAILS",
   "last_24h": 8,
   "previous_24h": 0,
-  "news_24h": 7,
+  "news_24h": 6,
   "examples": [
    {
     "title": "los NPC de GTA 6 te tienden trampas. ",
@@ -188,9 +192,9 @@
  },
  "money_tips": {
   "pillar": "CHEATS, TIPS & MONEY",
-  "last_24h": 13,
+  "last_24h": 14,
   "previous_24h": 0,
-  "news_24h": 8,
+  "news_24h": 9,
   "examples": [
    {
     "title": "chegando no heist",
@@ -213,6 +217,6 @@
     "url": "https://kick.com/patgarburgar/clips/clip_01M8DH6PFPF3J0SHQ0WW5NW7A6"
    }
   ],
-  "trend": 14.0
+  "trend": 15.0
  }
 }
