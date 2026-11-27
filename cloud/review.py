@@ -7,6 +7,8 @@ frame sheets and records keep or reject. Only kept footage can be produced, and 
 Verdict file: {"VCI-...": {"verdict": "reject", "reason": "...", "not_gta6": false},
                "VCI-...": {"verdict": "keep", "action_fr": "...", "hooks_fr": ["", "", ""], "category": "...",
                            "strength": 1-10, "window": [start_s, end_s]}}
+
+A countdown shows only the first 6.5 s of the window: the key moment must fall inside them.
 """
 import argparse
 import datetime as dt

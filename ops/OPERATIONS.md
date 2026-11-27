@@ -53,6 +53,11 @@ python cloud/ops.py run --job calendar
 - **Not working: YouTube analytics and API posting in the cloud.** The stored refresh token is refused (401).
 - Not yet exercised for real: factory submission to an approval issue, a calendar-assigned post, automatic recovery, the alert issue.
 
+## Later on 27 Nov
+- First videos produced by the pipeline itself: approval issues 13 and 14 (cloud, French narration; music is added when scheduling).
+- YouTube secrets: run `python tools/renew_youtube_secrets.py` from the Claude app terminal (owner only).
+- If the laptop sleeps, posting and footage review stop until it wakes.
+
 ## Remaining manual work
 0. **Renew the YouTube authorisation** and update the secret `YT_REFRESH_TOKEN` (until then, readings come from the laptop log).
 1. **Watching footage** and writing the keep/reject review. The automatic score cannot do it.
