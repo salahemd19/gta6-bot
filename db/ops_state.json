@@ -32,8 +32,8 @@
   },
   "reviews": {
    "failures": 0,
-   "last_ok": "2026-11-27T14:44:03+00:00",
-   "result": "no verdicts from the cloud reviewer yet",
+   "last_ok": "2026-11-27T14:51:52+00:00",
+   "result": "the verdict branch has no verdict file",
    "error": null
   },
   "post_buffer": {
@@ -53,31 +53,31 @@
   "radar.yml": {
    "name": "Discovery radar",
    "health": "ok",
-   "age_h": 0.7,
+   "age_h": 0.9,
    "url": "https://github.com/salahemd19/gta6-bot/actions/runs/46011943056"
   },
   "engine.yml": {
    "name": "Ingest and analysis",
    "health": "ok",
-   "age_h": 0.0,
-   "url": "https://github.com/salahemd19/gta6-bot/actions/runs/46005758604"
+   "age_h": 0.1,
+   "url": "https://github.com/salahemd19/gta6-bot/actions/runs/46019205741"
   },
   "backup.yml": {
    "name": "Database backup",
    "health": "ok",
-   "age_h": 10.6,
+   "age_h": 10.7,
    "url": "https://github.com/salahemd19/gta6-bot/actions/runs/45938237332"
   },
   "post.yml": {
    "name": "Publisher",
    "health": "ok",
-   "age_h": 0.9,
+   "age_h": 1.0,
    "url": "https://github.com/salahemd19/gta6-bot/actions/runs/46010944639"
   },
   "telegram.yml": {
    "name": "Telegram approvals",
    "health": "ok",
-   "age_h": 0.0,
+   "age_h": 0.1,
    "url": "https://github.com/salahemd19/gta6-bot/actions/runs/46018460930"
   }
  },
