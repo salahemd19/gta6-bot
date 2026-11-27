@@ -1,14 +1,10 @@
 {
  "map_secrets": {
   "pillar": "MAP & SECRET DISCOVERIES",
-  "last_24h": 6,
-  "previous_24h": 0,
-  "news_24h": 39,
+  "last_24h": 5,
+  "previous_24h": 1,
+  "news_24h": 40,
   "examples": [
-   {
-    "title": "BUSCANDO EASTER EGGS , MISIONES S | Clip",
-    "url": "https://kick.com/zerek/clips/clip_01M8CR0GNN4Z3WNDHDHPZZ5AN6"
-   },
    {
     "title": "GTA 6 Easter Egg hunting Come say | Clip",
     "url": "https://kick.com/f8taljay/clips/clip_01M8C286HFJG889Z9208RYTVDF"
@@ -24,9 +20,13 @@
    {
     "title": "O cofrezinho tá escondido?",
     "url": "https://kick.com/yoda/clips/clip_01M8F82HND762YWFWYGP2ZN9WR"
+   },
+   {
+    "title": "GTA 6 VICE CITY EASTER EGG | !insta !yt !social",
+    "url": "https://kick.com/yyiido"
    }
   ],
-  "trend": 7.0
+  "trend": 3.0
  },
  "races": {
   "pillar": "RACING & VEHICLES",
@@ -105,22 +105,10 @@
  },
  "funny": {
   "pillar": "VIRAL MOMENTS & CHAOS",
-  "last_24h": 77,
-  "previous_24h": 7,
+  "last_24h": 78,
+  "previous_24h": 10,
   "news_24h": 1,
   "examples": [
-   {
-    "title": "FULL FANATICO AJAJAJA!",
-    "url": "https://kick.com/kasugard/clips/clip_01M8CQR1MZCQKHDYEV30YH17VY"
-   },
-   {
-    "title": "lol",
-    "url": "https://kick.com/elalexioh/clips/clip_01M8CQJ9FAGJEJ9B38FKANRSBM"
-   },
-   {
-    "title": "kkkkkkkk",
-    "url": "https://kick.com/renatogarcia/clips/clip_01M8CR0NY6NZ2CF75DK1QYG620"
-   },
    {
     "title": "These crash cams are funny",
     "url": "https://kick.com/levelup-ruben/clips/clip_01M8C2Q4CWYQPMQJ4ZW2ZHPP2R"
@@ -128,15 +116,27 @@
    {
     "title": "😂",
     "url": "https://kick.com/envywill/clips/clip_01M8CVZHD9AYS358PKYW60YJ6H"
+   },
+   {
+    "title": "kkkkk",
+    "url": "https://kick.com/renatogarcia/clips/clip_01M8CVWEVF48YDARMFE1VC58DF"
+   },
+   {
+    "title": "Renato vingativo kkkkk🤣🤣🤣",
+    "url": "https://kick.com/renatogarcia/clips/clip_01M8CVS8PZ3YEK64NK6KD4KKHB"
+   },
+   {
+    "title": "jajajajajajajja",
+    "url": "https://kick.com/westcol/clips/clip_01M8CVP8BAZX8R7XR7YCWQ53N4"
    }
   ],
-  "trend": 9.75
+  "trend": 7.18
  },
  "reactions": {
   "pillar": "VIRAL MOMENTS & CHAOS",
   "last_24h": 12,
   "previous_24h": 0,
-  "news_24h": 4,
+  "news_24h": 3,
   "examples": [
    {
     "title": "RockStar… 13 AÑOS ROCKSTAR…🤯",
