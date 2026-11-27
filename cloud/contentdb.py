@@ -128,7 +128,7 @@ def ensure_model(rec):
     d("authenticity_evidence", ["Listed in Kick's Grand Theft Auto VI category (not proof by itself)"]
       if rec["platform"] == "kick" else [])
     d("category", rec.get("pillar") or "")
-    if rec.get("pillar"):
+    if rec.get("pillar") and not rec.get("category_reviewed"):  # a reviewer who watched it outranks the keyword guess
         rec["category"] = rec["pillar"]
     d("subcategory", ", ".join((rec.get("radar") or {}).get("topics", [])))
     d("description", rec.get("title", ""))

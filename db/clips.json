@@ -29664,7 +29664,7 @@
    "Listed in Kick's Grand Theft Auto VI category (not proof by itself)",
    "Frame sheet reviewed by eye, 2026-11-26"
   ],
-  "category": "MAP & SECRET DISCOVERIES",
+  "category": "RACING & VEHICLES",
   "subcategory": "",
   "description": "GTA 6 Easter Egg hunting Come say | Clip",
   "editorial_notes": "",
@@ -29835,7 +29835,8 @@
   },
   "viral_potential": 6.8,
   "error": "Command '['ffmpeg', '-v', 'error', '-y', '-i', '', '-t', '65', '-c', 'copy', '/home/runner/work/gta6-bot/gta6-bot/work/engine/src/clip_01M8C286HFJG889Z9208RYTVDF.mp4']' returned non-zero exit status 2",
-  "views_per_hour_recent": 0.0
+  "views_per_hour_recent": 0.0,
+  "category_reviewed": true
  },
  "clip_01M8C27A40MJSE6GD1Z84S27XB": {
   "source": "kick",
@@ -50264,7 +50265,7 @@
    "Listed in Kick's Grand Theft Auto VI category (not proof by itself)",
    "Frame sheet reviewed 2026-11-27"
   ],
-  "category": "VIRAL MOMENTS & CHAOS",
+  "category": "RACING & VEHICLES",
   "subcategory": "",
   "description": "A ser burro",
   "editorial_notes": "",
@@ -50447,7 +50448,8 @@
    "needs_review": null
   },
   "analysed_at": "2026-11-27T04:19:44+00:00",
-  "viral_potential": 7.38
+  "viral_potential": 7.38,
+  "category_reviewed": true
  },
  "clip_01M8D33T3N57QBW1JA5VSFXWQN": {
   "id": "clip_01M8D33T3N57QBW1JA5VSFXWQN",
@@ -51726,7 +51728,7 @@
    "Listed in Kick's Grand Theft Auto VI category (not proof by itself)",
    "Frame sheet reviewed 2026-11-27"
   ],
-  "category": "VIRAL MOMENTS & CHAOS",
+  "category": "RACING & VEHICLES",
   "subcategory": "",
   "description": "me when i see dudh",
   "editorial_notes": "",
@@ -51902,7 +51904,8 @@
    "needs_review": null
   },
   "analysed_at": "2026-11-27T04:20:17+00:00",
-  "viral_potential": 7.71
+  "viral_potential": 7.71,
+  "category_reviewed": true
  },
  "clip_01M8D2Y7AJRQ3BM09X95KKD4PY": {
   "id": "clip_01M8D2Y7AJRQ3BM09X95KKD4PY",
@@ -54711,7 +54714,8 @@
   },
   "analysed_at": "2026-11-27T01:24:44+00:00",
   "viral_potential": 8.58,
-  "views_per_hour_recent": 0.0
+  "views_per_hour_recent": 0.0,
+  "category_reviewed": true
  },
  "clip_01M8CXDMV3T5JGS7MC0RYD5CX2": {
   "id": "clip_01M8CXDMV3T5JGS7MC0RYD5CX2",
@@ -56498,7 +56502,8 @@
    "needs_review": null
   },
   "analysed_at": "2026-11-27T04:11:49+00:00",
-  "viral_potential": 8.03
+  "viral_potential": 8.03,
+  "category_reviewed": true
  },
  "clip_01M8ARDSZ4SHTA90K5QRQBSBMM": {
   "id": "clip_01M8ARDSZ4SHTA90K5QRQBSBMM",
@@ -56892,7 +56897,7 @@
    "Listed in Kick's Grand Theft Auto VI category (not proof by itself)",
    "Frame sheet reviewed 2026-11-27"
   ],
-  "category": "VIRAL MOMENTS & CHAOS",
+  "category": "RACING & VEHICLES",
   "subcategory": "",
   "description": "102 metry",
   "editorial_notes": "",
@@ -57140,7 +57145,8 @@
    "needs_review": null
   },
   "analysed_at": "2026-11-27T07:30:45+00:00",
-  "viral_potential": 7.39
+  "viral_potential": 7.39,
+  "category_reviewed": true
  },
  "clip_01M8AS4J71TBZ1CBRT3FXT6ZFQ": {
   "id": "clip_01M8AS4J71TBZ1CBRT3FXT6ZFQ",
@@ -70516,7 +70522,7 @@
    "Listed in Kick's Grand Theft Auto VI category (not proof by itself)",
    "Frame sheet reviewed 2026-11-27"
   ],
-  "category": "VIRAL MOMENTS & CHAOS",
+  "category": "RACING & VEHICLES",
   "subcategory": "",
   "description": "ps5",
   "editorial_notes": "",
@@ -70726,7 +70732,8 @@
    "needs_review": null
   },
   "analysed_at": "2026-11-27T07:36:34+00:00",
-  "viral_potential": 7.1
+  "viral_potential": 7.1,
+  "category_reviewed": true
  },
  "clip_01M8DBCFKAVVNT1Y0ECC1ZKKDV": {
   "id": "clip_01M8DBCFKAVVNT1Y0ECC1ZKKDV",
@@ -84498,7 +84505,8 @@
   },
   "analysed_at": "2026-11-27T07:34:40+00:00",
   "viral_potential": 7.33,
-  "views_per_hour_recent": 0.0
+  "views_per_hour_recent": 0.0,
+  "category_reviewed": true
  },
  "clip_01M8DV6X6D9289TM5S01FMCNYZ": {
   "id": "clip_01M8DV6X6D9289TM5S01FMCNYZ",

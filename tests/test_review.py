@@ -30,6 +30,15 @@ class Verdicts(unittest.TestCase):
         self.assertIsNotNone(R.problems("VCI-y", GOOD, None))
 
 
+class Category(unittest.TestCase):
+    def test_reviewed_category_survives_the_next_sync(self):
+        import contentdb as c
+        r = {"id": "x", "url": "https://kick.com/a/clips/x", "creator": "a", "source": "kick", "pillar": "MAP", "title": "t",
+             "category": "RACING & VEHICLES", "category_reviewed": True, "status": "analysed", "duration": 10}
+        c.ensure_model(r)
+        self.assertEqual(r["category"], "RACING & VEHICLES")
+
+
 class Order(unittest.TestCase):
     def test_strongest_closes_and_second_opens(self):
         picks = [{"id": "a", "strength": 5}, {"id": "b", "strength": 9}, {"id": "c", "strength": 7}]

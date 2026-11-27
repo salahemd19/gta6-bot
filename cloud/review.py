@@ -55,7 +55,7 @@ def candidates(db, revs, n):
 def strip(f, start, end, row):
     """One horizontal strip of frames across the suggested window."""
     step = max(0.5, (end - start) / FRAMES)
-    vf = (f"fps=1/{step:.3f},scale=240:135:force_original_aspect_ratio=decrease,pad=240:135:(ow-iw)/2:(oh-ih)/2,"
+    vf = (f"fps=1/{step:.3f},scale=240:136:force_original_aspect_ratio=decrease:force_divisible_by=2,pad=240:136:(ow-iw)/2:(oh-ih)/2,"
           f"tile={FRAMES}x1:padding=3:color=magenta")
     r = subprocess.run(["ffmpeg", "-v", "error", "-y", "-ss", f"{start:.2f}", "-t", f"{end - start:.2f}", "-i", str(f), "-vf", vf,
                         "-frames:v", "1", str(row)])
@@ -149,7 +149,7 @@ def apply(verdicts, by_whom="Claude frame-sheet review", db=None, revs=None):
             contentdb.set_fields(rec, "review", v["reason"], status="rejected_review", state="rejected", manual_state=True,
                                  authenticity="not_gta6" if v.get("not_gta6") else rec.get("authenticity"))
         else:
-            rec["category"] = v["category"]
+            rec["category"], rec["category_reviewed"] = v["category"], True
             contentdb.set_fields(rec, "review", "kept after frame review", authenticity="verified_by_review",
                                  authenticity_evidence=rec.get("authenticity_evidence", []) + [f"Frame sheet reviewed {today}"])
             f = intelligence.media_for(rec, None) if own else None
