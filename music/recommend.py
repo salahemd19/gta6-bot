@@ -36,6 +36,11 @@ def recommend(category, platform, duration, energy=None, n=3):
         if s > 0:
             picks.append((s, t))
     picks.sort(key=lambda x: -x[0])
+    if not picks:  # small library: reuse the least recently used track rather than none, never the one just used
+        pool = [t for t in lib["tracks"] if t.get("kind") != "sfx" and t["platforms"].get(platform) in USABLE[platform]
+                and category in t["categories"] and t["id"] not in recent[-1:]]
+        pool.sort(key=lambda t: max((i for i, x in enumerate(recent) if x == t["id"]), default=-1))
+        picks = [(1, t) for t in pool]
     out = []
     for s, t in picks[:n]:
         how = ("add it in TikTok Studio > Sons (in-app picker), never in the file" if t["platforms"][platform] == "IN_APP_ONLY"
