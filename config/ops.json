@@ -1,16 +1,69 @@
 {
  "workflows": [
-  {"file": "radar.yml", "name": "Discovery radar", "max_age_h": 5, "recover": true},
-  {"file": "engine.yml", "name": "Ingest and analysis", "max_age_h": 8, "recover": true},
-  {"file": "backup.yml", "name": "Database backup", "max_age_h": 30, "recover": true},
-  {"file": "post.yml", "name": "Publisher", "max_age_h": 6, "recover": true}
+  {
+   "file": "radar.yml",
+   "name": "Discovery radar",
+   "max_age_h": 5,
+   "recover": true
+  },
+  {
+   "file": "engine.yml",
+   "name": "Ingest and analysis",
+   "max_age_h": 8,
+   "recover": true
+  },
+  {
+   "file": "backup.yml",
+   "name": "Database backup",
+   "max_age_h": 30,
+   "recover": true
+  },
+  {
+   "file": "post.yml",
+   "name": "Publisher",
+   "max_age_h": 6,
+   "recover": true
+  },
+  {
+   "file": "telegram.yml",
+   "name": "Telegram approvals",
+   "max_age_h": 4,
+   "recover": true
+  }
  ],
  "jobs": {
-  "approvals": {"retries": 3, "every_h": 0},
-  "produce": {"retries": 1, "every_h": 3},
-  "calendar": {"retries": 2, "every_h": 0},
-  "analytics_collect": {"retries": 3, "every_h": 1},
-  "analytics_report": {"retries": 1, "every_h": 12}
+  "approvals": {
+   "retries": 3,
+   "every_h": 0
+  },
+  "produce": {
+   "retries": 1,
+   "every_h": 3
+  },
+  "calendar": {
+   "retries": 2,
+   "every_h": 0
+  },
+  "analytics_collect": {
+   "retries": 3,
+   "every_h": 1
+  },
+  "analytics_report": {
+   "retries": 1,
+   "every_h": 12
+  },
+  "reviews": {
+   "retries": 2,
+   "every_h": 0
+  },
+  "post_buffer": {
+   "retries": 1,
+   "every_h": 0
+  },
+  "verify_youtube": {
+   "retries": 3,
+   "every_h": 0
+  }
  },
  "alert_after_failures": 2
 }

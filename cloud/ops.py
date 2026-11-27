@@ -127,7 +127,24 @@ def job_analytics_report():
     return "; ".join(f"{p}: {c['videos']} videos, {c['measured_24h']} with 24 h" for p, c in s["platforms"].items())
 
 
-JOBS = {"approvals": job_approvals, "produce": job_produce, "calendar": job_calendar,
+def job_reviews():
+    import review
+    return review.apply_remote()
+
+
+def job_post_buffer():
+    import buffer_post
+    return buffer_post.run()
+
+
+def job_verify_youtube():
+    if not os.environ.get("YT_REFRESH_TOKEN") and not analytics.laptop_token():
+        return "skipped: no YouTube authorisation here"
+    return analytics.verify_youtube()
+
+
+JOBS = {"approvals": job_approvals, "reviews": job_reviews, "produce": job_produce, "calendar": job_calendar,
+        "post_buffer": job_post_buffer, "verify_youtube": job_verify_youtube,
         "analytics_collect": job_analytics_collect, "analytics_report": job_analytics_report}
 
 
@@ -213,6 +230,9 @@ def notify(state, current):
         elif open_:
             gh("issue", "close", str(open_[0]["number"]), "--comment", "Tout est revenu à la normale.")
         state["alerts"] = current
+        import telegram_bot
+        if telegram_bot.configured():
+            telegram_bot.send("⚠️ Alerte opérations :\n" + body if current else "✅ Tout est revenu à la normale.")
     except Exception as e:  # noqa: BLE001
         log("notify", "error", e)
 

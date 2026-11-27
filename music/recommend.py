@@ -22,12 +22,12 @@ def load():
     return lib, log
 
 
-def recommend(category, platform, duration, energy=None, n=3):
+def recommend(category, platform, duration, energy=None, n=3, baked=False):
     lib, log = load()
     recent = [e["track"] for e in log if e["platform"] == platform][-6:]
     picks = []
     for t in lib["tracks"]:
-        if t.get("kind") == "sfx" or t["platforms"].get(platform) not in USABLE[platform]:
+        if t.get("kind") == "sfx" or (t.get("kind") == "original") != baked or t["platforms"].get(platform) not in USABLE[platform]:
             continue
         s = 3 if category in t["categories"] else 0
         s += 1 if energy and t["energy"] == energy else 0
@@ -37,8 +37,8 @@ def recommend(category, platform, duration, energy=None, n=3):
             picks.append((s, t))
     picks.sort(key=lambda x: -x[0])
     if not picks:  # small library: reuse the least recently used track rather than none, never the one just used
-        pool = [t for t in lib["tracks"] if t.get("kind") != "sfx" and t["platforms"].get(platform) in USABLE[platform]
-                and category in t["categories"] and t["id"] not in recent[-1:]]
+        pool = [t for t in lib["tracks"] if t.get("kind") != "sfx" and (t.get("kind") == "original") == baked
+                and t["platforms"].get(platform) in USABLE[platform] and category in t["categories"] and t["id"] not in recent[-1:]]
         pool.sort(key=lambda t: max((i for i, x in enumerate(recent) if x == t["id"]), default=-1))
         picks = [(1, t) for t in pool]
     out = []

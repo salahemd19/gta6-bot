@@ -13,6 +13,7 @@ import csv
 import datetime as dt
 import hashlib
 import os
+import re
 import statistics
 import sys
 import unicodedata
@@ -74,6 +75,40 @@ def laptop_token():
         return c.token
     except Exception:  # noqa: BLE001
         return None
+
+
+def youtube_get(path, **params):
+    """One read from the channel's own official API, with whichever authorisation this machine has."""
+    import requests
+    import yt
+    token = yt.access_token() if os.environ.get("YT_REFRESH_TOKEN") else laptop_token()
+    if not token:
+        raise RuntimeError("no YouTube authorisation on this machine")
+    r = requests.get("https://www.googleapis.com/youtube/v3/" + path, headers={"Authorization": f"Bearer {token}"},
+                     params=params, timeout=30)
+    if r.status_code != 200:
+        raise RuntimeError(f"YouTube {path} {r.status_code}: {r.text[:160]}")
+    return r.json()
+
+
+def verify_youtube(now=None):
+    """Scheduled videos whose time has passed: mark them posted once YouTube shows them as public."""
+    now = now or dt.datetime.now(UTC)
+    due = {}
+    for i in P.load(P.MANIFEST, []):
+        t = P.when(i.get("youtube"))
+        found = re.search(r"(?:shorts/|v=|youtu\.be/)([\w-]{11})", i.get("youtube_url") or "")
+        if P.kind(i.get("youtube")) == "scheduled" and found and t and now - t > dt.timedelta(minutes=10):
+            due[found.group(1)] = (i["id"], t, i["youtube_url"])
+    if not due:
+        return "nothing to verify"
+    data = youtube_get("videos", part="status", id=",".join(list(due)[:50]))
+    public = {v["id"] for v in data["items"] if v["status"]["privacyStatus"] == "public"}
+    for video in public & set(due):
+        item_id, t, url = due[video]
+        P.mark(item_id, "youtube", "posted", url=url, at=t.isoformat(timespec="minutes"))
+    late = [item_id for video, (item_id, t, _) in due.items() if video not in public and now - t > dt.timedelta(hours=2)]
+    return f"{len(public & set(due))} confirmed public" + (f"; still not public after 2 h: {', '.join(late)}" if late else "")
 
 
 def collect_youtube(limit=100):

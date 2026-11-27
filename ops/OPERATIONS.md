@@ -11,8 +11,19 @@ radar (hourly) → engine: ingest and analysis (3 h) → **footage review** → 
 | Analytics and reports | `cloud/analytics.py`, `db/metrics.jsonl`, `ops/reports/` | hourly / twice a day |
 | Orchestrator and control centre | `cloud/ops.py`, `ops/control_center.html` | hourly |
 
+## Running without the laptop (built 27 Nov)
+| Piece | Cloud part | One-time setup by the owner | State |
+|---|---|---|---|
+| Approval on Telegram | `telegram.yml` every 10 min (GitHub may delay it) | Create a bot with @BotFather, copy its token, run `python tools/connect_telegram.py` | Tested with fakes only |
+| Footage review | `engine.yml` publishes sheets to branch `review-queue`; `operations` records verdicts from `claude/review-verdicts` | Connect GitHub at claude.ai/connect-github; then create the routine from `ops/cloud_review_prompt.md` | Routine not created |
+| Posting | `cloud/buffer_post.py` in `operations` | Buffer account, connect YouTube and TikTok, API key as secret `BUFFER_API_KEY`; then set `"poster": "buffer"` | Never run against Buffer |
+| Music in cloud posts | Original tracks `music/original/` (`music/make_beats.py`), used only when poster is `buffer` | Listen and accept them | Generated |
+| YouTube post check | job `verify_youtube` | none | Live |
+
+Videos produced before the switch have no mixed music and are still posted by the laptop task. LinkedIn cannot do approvals (messaging API is partner-only).
+
 ## Footage review (added 27 Nov)
-`cloud/review.py queue` builds frame sheets; the laptop task `gta6-footage-review` judges them every 3 hours and records verdicts with `review.py apply`. It stops while 18 approved clips are waiting. Frames only: sound is not judged. Production then runs in the cloud (`operations`, with French narration); YouTube music is added in the Studio editor at scheduling time unless the file is on the producing machine.
+`cloud/review.py queue` builds frame sheets (2 clips per image, 16 frames each); the laptop task `gta6-footage-review` judges them every 3 hours and records verdicts with `review.py apply`. It stops while 18 approved clips are waiting. Frames only: sound is not judged. Production then runs in the cloud (`operations`, with French narration); YouTube music is added in the Studio editor at scheduling time unless the file is on the producing machine.
 
 ## Production rules
 Exported only if: reviewed and kept (`db/reviews.json`), publishable rights, authenticity verified, footage never used. At least 3 clips from 3 different creators. A quality-check failure blocks submission. The YouTube export must contain a licensed music file (`music/files/<track id>.mp3`, not in the repository); TikTok sound is added in TikTok's own picker.

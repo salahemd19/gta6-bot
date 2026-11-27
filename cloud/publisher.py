@@ -302,14 +302,17 @@ def due():
     cal, items = plan(), load(MANIFEST, [])
     now_ = dt.datetime.now(UTC)
     out = {"schedule": [], "verify": [], "prescreen": []}
+    paused = load(ROOT / "config" / "overrides.json", {}).get("paused")
+    cloud = cfg().get("poster") == "buffer"
     for p, c in cal["platforms"].items():
         for r in c["days"][0]["slots"]:
-            if r["status"] == "assigned":
+            if r["status"] == "assigned" and not paused and not (
+                    cloud and (r["package"].get("music") or {}).get("mode") == "mixed into file"):
                 out["schedule"].append({"id": r["id"], "platform": p, "paris": r["local"], "utc": r["utc"], **r["package"]})
     for i in items:
         for p in PLATFORMS:
             t = when(i.get(p))
-            if kind(i.get(p)) == "scheduled" and t and dt.timedelta(minutes=10) < now_ - t < dt.timedelta(hours=36):
+            if kind(i.get(p)) == "scheduled" and not i.get(f"{p}_buffer_id") and t and dt.timedelta(minutes=10) < now_ - t < dt.timedelta(hours=36):
                 out["verify"].append({"id": i["id"], "platform": p, "slot": t.isoformat(), "title": i.get("title")})
     out["prescreen"] = sorted({w["issue"] for w in cal["waiting_approval"] if w.get("issue")})
     try:

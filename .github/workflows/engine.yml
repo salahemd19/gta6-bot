@@ -8,6 +8,9 @@ on:
       videos:
         description: "videos to produce this run"
         default: "0"
+      max_analyse:
+        description: "clips to analyse this run"
+        default: "120"
 permissions:
   contents: write
   issues: write
@@ -26,7 +29,7 @@ jobs:
       - run: sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg
       - run: mkdir -p cloud/fonts && curl -sL -o cloud/fonts/Anton-Regular.ttf https://github.com/google/fonts/raw/main/ofl/anton/Anton-Regular.ttf
       - name: Run the engine
-        run: python cloud/engine.py --max-analyse 120 --videos ${{ github.event.inputs.videos || '0' }}
+        run: python cloud/engine.py --max-analyse ${{ github.event.inputs.max_analyse || '120' }} --videos ${{ github.event.inputs.videos || '0' }}
         env:
           GH_TOKEN: ${{ github.token }}
       - run: python cloud/intelligence.py dashboard
@@ -36,3 +39,5 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           python cloud/save.py "engine: database and queue update" db queue/manifest.json music/usage_log.json ops/evaluation_dashboard.html
+      - name: Publish frame sheets for the cloud reviewer
+        run: python cloud/review.py publish --n 12

@@ -26,6 +26,7 @@ ROOT = HERE.parent
 sys.path[:0] = [str(HERE), str(ROOT / "music")]
 import contentdb  # noqa: E402
 import intelligence  # noqa: E402
+import publisher  # noqa: E402
 import recommend  # noqa: E402
 
 CFG = json.loads((ROOT / "config" / "templates.json").read_text(encoding="utf-8"))
@@ -211,13 +212,16 @@ def meta_track(t, platform):
 def music_for(tpl, platform, duration):
     """Library only, least recently used first. Mixed into the YouTube file when the audio file is on this machine;
     otherwise it is added in the platform's own editor when the video is scheduled."""
-    recs = recommend.recommend(tpl["music"], platform, duration)
+    baked = publisher.cfg().get("poster") == "buffer"  # cloud posting: music must be inside the file
+    recs = recommend.recommend(tpl["music"], platform, duration, baked=baked)
+    if baked and not recs:
+        recs = recommend.recommend("chaos", platform, duration, baked=True)
     if not recs:
         return None, {"mode": "none: no approved track"}
     r = recs[0]
     t = {t["id"]: t for t in recommend.load()[0]["tracks"]}[r["id"]]
     extra = {**meta_track(t, platform), "alternatives": [x["track"] for x in recs[1:]]}
-    f = MUSIC / f"{t['id']}.mp3"
+    f = (ROOT / "music" / "original" if t.get("kind") == "original" else MUSIC) / f"{t['id']}.mp3"
     if t["platforms"][platform] == "APPROVED" and f.exists():
         return (f, r["start_s"], r["volume_db"]), {"mode": "mixed into file", **extra}
     where = "TikTok's sound picker" if platform == "tiktok" else "the YouTube Studio editor"

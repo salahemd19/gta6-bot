@@ -19,5 +19,6 @@
  },
  "missed_after_minutes": 90,
  "lead_minutes": 25,
+ "poster": "laptop",
  "production": {"enabled": true, "min_clips": 3, "max_videos_per_run": 2}
 }

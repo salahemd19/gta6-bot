@@ -607,6 +607,97 @@
    "best_start": 11,
    "volume_db": -20,
    "notes": "Best part = the drop at ~0:11 of TikTok's 60 s excerpt: trim the intro in the editor and slide the clip to 0:00"
+  },
+  {
+   "id": "vci-drift",
+   "title": "VCI Drift",
+   "artist": "VICECITY INTEL (original)",
+   "genre": "original",
+   "mood": "dark, aggressive phonk",
+   "energy": "high",
+   "bpm": 130,
+   "duration": 29.5,
+   "categories": [
+    "racing",
+    "chaos",
+    "challenges",
+    "transitions"
+   ],
+   "best_moments": "under a countdown, from 0 s",
+   "source": "music/original/vci-drift.mp3 (synthesised by music/make_beats.py)",
+   "licence_evidence": "Original composition synthesised for VICECITY INTEL, no samples; we own it",
+   "platforms": {
+    "youtube": "APPROVED",
+    "tiktok": "APPROVED",
+    "reels": "APPROVED"
+   },
+   "monetization": "Allowed",
+   "attribution": "None",
+   "conditions": "None",
+   "best_start": 0,
+   "volume_db": -13,
+   "kind": "original"
+  },
+  {
+   "id": "vci-night-drive",
+   "title": "VCI Night Drive",
+   "artist": "VICECITY INTEL (original)",
+   "genre": "original",
+   "mood": "neon synthwave",
+   "energy": "medium",
+   "bpm": 104,
+   "duration": 36.9,
+   "categories": [
+    "leonida",
+    "secrets",
+    "night",
+    "cinematic"
+   ],
+   "best_moments": "under a countdown, from 0 s",
+   "source": "music/original/vci-night-drive.mp3 (synthesised by music/make_beats.py)",
+   "licence_evidence": "Original composition synthesised for VICECITY INTEL, no samples; we own it",
+   "platforms": {
+    "youtube": "APPROVED",
+    "tiktok": "APPROVED",
+    "reels": "APPROVED"
+   },
+   "monetization": "Allowed",
+   "attribution": "None",
+   "conditions": "None",
+   "best_start": 0,
+   "volume_db": -13,
+   "kind": "original"
+  },
+  {
+   "id": "vci-heist",
+   "title": "VCI Heist",
+   "artist": "VICECITY INTEL (original)",
+   "genre": "original",
+   "mood": "tense dark trap",
+   "energy": "high",
+   "bpm": 140,
+   "duration": 27.4,
+   "categories": [
+    "chaos",
+    "suspense",
+    "tips",
+    "epic",
+    "funny"
+   ],
+   "best_moments": "under a countdown, from 0 s",
+   "source": "music/original/vci-heist.mp3 (synthesised by music/make_beats.py)",
+   "licence_evidence": "Original composition synthesised for VICECITY INTEL, no samples; we own it",
+   "platforms": {
+    "youtube": "APPROVED",
+    "tiktok": "APPROVED",
+    "reels": "APPROVED"
+   },
+   "monetization": "Allowed",
+   "attribution": "None",
+   "conditions": "None",
+   "best_start": 0,
+   "volume_db": -13,
+   "kind": "original"
   }
  ]
 }
