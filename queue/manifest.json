@@ -1081,8 +1081,10 @@
   "score": 0,
   "render_seconds": 142,
   "slot": "2026-11-27T13:06:25+00:00",
-  "youtube": "awaiting approval",
-  "tiktok": "awaiting approval",
-  "issue": 15
+  "youtube": "pending",
+  "tiktok": "pending",
+  "issue": 15,
+  "slot_youtube": "2026-11-27T19:45+00:00",
+  "slot_tiktok": "2026-11-27T17:45+00:00"
  }
 ]

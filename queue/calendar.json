@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-27T14:01+00:00",
+ "generated": "2026-11-27T14:12+00:00",
  "level": 0,
  "timezone": "Europe/Paris",
  "platforms": {
@@ -45,9 +45,36 @@
        "local": "20:45",
        "utc": "2026-11-27T19:45+00:00",
        "window": "evening",
-       "id": null,
-       "status": "empty",
-       "title": null
+       "id": "vci-20261127-130516",
+       "status": "assigned",
+       "title": "IL FONCE DROIT SUR LA POLICE 😱 GTA 6 #Shorts",
+       "package": {
+        "video_url": "https://github.com/salahemd19/gta6-bot/releases/download/clips/vci-20261127-130516_youtube.mp4",
+        "title": "IL FONCE DROIT SUR LA POLICE 😱 GTA 6 #Shorts",
+        "description": "En plein ciel, un hélicoptère est touché près d'un appareil noir puis descend en traînant une épaisse fumée noire.\nTon préféré ? Dis-le en commentaire 👇\n🎥 Créateurs (Kick) : missvirgo, ayellol, zony\nVoix : Piper, voix fr_FR-siwis (corpus SIWIS, CC BY 4.0)\n#GTA6 #GTAVI #GTA6FR #Shorts",
+        "tags": "GTA 6, GTA VI, GTA 6 FR, Vice City",
+        "music": {
+         "mode": "add in the YouTube Studio editor",
+         "id": "ytal-ego-chall",
+         "title": "Ego Chall",
+         "artist": "Blue Deer Studio",
+         "source": "YouTube Audio Library",
+         "licence": "YouTube Audio Library (YouTube Studio > Bibliothèque audio, channel VICECITY INTEL), licence shown as 'Licence de la bibliothèque audio YouTube', seen 2026-11-26",
+         "permitted": "APPROVED",
+         "platforms": {
+          "youtube": "APPROVED",
+          "tiktok": "PENDING",
+          "reels": "PENDING"
+         },
+         "attribution": "CHECK: open the track's licence icon in Studio; if attribution is required, paste it in the description",
+         "conditions": "Use in videos only; never re-distribute the audio file. Other platforms are not covered until verified.",
+         "monetization": "YouTube: allowed under the YouTube Audio Library terms; elsewhere not verified",
+         "alternatives": [
+          "The One Fight - Bare Bones Mtl",
+          "Comin Wit It - Anno Domini Beats"
+         ]
+        }
+       }
       },
       {
        "local": "21:55",
@@ -170,8 +197,8 @@
    ],
    "target": 8,
    "cap": 6,
-   "filled_today": 4,
-   "empty_next_days": 14
+   "filled_today": 5,
+   "empty_next_days": 13
   },
   "tiktok": {
    "days": [
@@ -215,9 +242,31 @@
        "local": "18:45",
        "utc": "2026-11-27T17:45+00:00",
        "window": "evening",
-       "id": null,
-       "status": "empty",
-       "title": null
+       "id": "vci-20261127-130516",
+       "status": "assigned",
+       "title": "IL FONCE DROIT SUR LA POLICE 😱 GTA 6 #Shorts",
+       "package": {
+        "video_url": "https://github.com/salahemd19/gta6-bot/releases/download/clips/vci-20261127-130516_tiktok.mp4",
+        "caption": "IL FONCE DROIT SUR LA POLICE 😱 GTA 6 Ton préféré ? Dis-le en commentaire 👇 🎥 missvirgo, ayellol, zony (Kick) #GTA6 #GTA6FR #GTAVI #pourtoi",
+        "music": {
+         "mode": "add in TikTok's sound picker",
+         "id": "tt-tokyo-drift-phonkazo",
+         "title": "Tokyo Drift",
+         "artist": "PHONKAZO",
+         "source": "TikTok in-app sound library (seen in TikTok Studio editor, 26 Nov 2026)",
+         "licence": "Offered in TikTok's sound picker for this account",
+         "permitted": "IN_APP_ONLY",
+         "platforms": {
+          "youtube": "NOT_APPROVED",
+          "tiktok": "IN_APP_ONLY",
+          "reels": "PENDING"
+         },
+         "attribution": "Shown automatically by TikTok",
+         "conditions": "Never embed in the uploaded video file",
+         "monetization": "Not cleared outside TikTok",
+         "alternatives": []
+        }
+       }
       },
       {
        "local": "20:15",
@@ -380,8 +429,8 @@
    ],
    "target": 12,
    "cap": 8,
-   "filled_today": 4,
-   "empty_next_days": 19
+   "filled_today": 5,
+   "empty_next_days": 18
   }
  },
  "blocked": [],
@@ -399,12 +448,6 @@
    "title": "TOP 3 MOMENTS LES PLUS FOUS SUR GTA 6 🤯 le numéro 1 est irréel"
   },
   {
-   "id": "vci-20261127-130516",
-   "platform": "youtube",
-   "issue": 15,
-   "title": "IL FONCE DROIT SUR LA POLICE 😱 GTA 6 #Shorts"
-  },
-  {
    "id": "engine-20261126-2224-1",
    "platform": "tiktok",
    "issue": 10,
@@ -415,12 +458,6 @@
    "platform": "tiktok",
    "issue": 11,
    "title": "TOP 3 MOMENTS LES PLUS FOUS SUR GTA 6 🤯 le numéro 1 est irréel"
-  },
-  {
-   "id": "vci-20261127-130516",
-   "platform": "tiktok",
-   "issue": 15,
-   "title": "IL FONCE DROIT SUR LA POLICE 😱 GTA 6 #Shorts"
   }
  ],
  "missed": []
