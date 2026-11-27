@@ -2,7 +2,7 @@
  "jobs": {
   "approvals": {
    "failures": 0,
-   "last_ok": "2026-11-27T22:12:23+00:00",
+   "last_ok": "2026-11-27T23:11:57+00:00",
    "result": "no new decision",
    "error": null
   },
@@ -14,13 +14,13 @@
   },
   "calendar": {
    "failures": 0,
-   "last_ok": "2026-11-27T22:16:58+00:00",
-   "result": "youtube 6/6 today | tiktok 5/8 today",
+   "last_ok": "2026-11-27T23:11:59+00:00",
+   "result": "youtube 1/6 today | tiktok 2/8 today",
    "error": null
   },
   "analytics_collect": {
    "failures": 0,
-   "last_ok": "2026-11-27T22:16:59+00:00",
+   "last_ok": "2026-11-27T23:12:00+00:00",
    "result": "78 YouTube readings (TikTok needs a CSV import)",
    "error": null
   },
@@ -32,19 +32,19 @@
   },
   "reviews": {
    "failures": 0,
-   "last_ok": "2026-11-27T22:12:24+00:00",
+   "last_ok": "2026-11-27T23:11:59+00:00",
    "result": "no new verdict",
    "error": null
   },
   "post_buffer": {
    "failures": 0,
-   "last_ok": "2026-11-27T22:16:58+00:00",
+   "last_ok": "2026-11-27T23:11:59+00:00",
    "result": "not connected (add the secret BUFFER_API_KEY)",
    "error": null
   },
   "verify_youtube": {
    "failures": 0,
-   "last_ok": "2026-11-27T22:16:58+00:00",
+   "last_ok": "2026-11-27T23:11:59+00:00",
    "result": "nothing to verify",
    "error": null
   }
@@ -53,32 +53,32 @@
   "radar.yml": {
    "name": "Discovery radar",
    "health": "ok",
-   "age_h": 0.7,
-   "url": "https://github.com/salahemd19/gta6-bot/actions/runs/46071270891"
+   "age_h": 0.6,
+   "url": "https://github.com/salahemd19/gta6-bot/actions/runs/46077564792"
   },
   "engine.yml": {
    "name": "Ingest and analysis",
    "health": "ok",
-   "age_h": 0.9,
+   "age_h": 0.2,
    "url": "https://github.com/salahemd19/gta6-bot/actions/runs/46070182940"
   },
   "backup.yml": {
    "name": "Database backup",
    "health": "ok",
-   "age_h": 18.1,
+   "age_h": 19.1,
    "url": "https://github.com/salahemd19/gta6-bot/actions/runs/45938237332"
   },
   "post.yml": {
    "name": "Publisher",
    "health": "ok",
-   "age_h": 0.8,
-   "url": "https://github.com/salahemd19/gta6-bot/actions/runs/46070558683"
+   "age_h": 0.7,
+   "url": "https://github.com/salahemd19/gta6-bot/actions/runs/46076872712"
   },
   "telegram.yml": {
    "name": "Telegram approvals",
    "health": "ok",
-   "age_h": 0.7,
-   "url": "https://github.com/salahemd19/gta6-bot/actions/runs/46071394067"
+   "age_h": 0.6,
+   "url": "https://github.com/salahemd19/gta6-bot/actions/runs/46077444350"
   }
  },
  "alerts": []
