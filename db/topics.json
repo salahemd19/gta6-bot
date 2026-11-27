@@ -3,7 +3,7 @@
   "pillar": "MAP & SECRET DISCOVERIES",
   "last_24h": 4,
   "previous_24h": 0,
-  "news_24h": 31,
+  "news_24h": 33,
   "examples": [
    {
     "title": "BUSCANDO EASTER EGGS , MISIONES S | Clip",
@@ -39,7 +39,7 @@
  },
  "vehicles": {
   "pillar": "RACING & VEHICLES",
-  "last_24h": 3,
+  "last_24h": 4,
   "previous_24h": 1,
   "news_24h": 11,
   "examples": [
@@ -54,9 +54,13 @@
    {
     "title": "GTA 6 Helicopter Escape",
     "url": "https://kick.com/aetheogg/clips/clip_01M8DGWJXCJPBCD6Z5HMC1AJ77"
+   },
+   {
+    "title": "Coches con pollas en las manos!",
+    "url": "https://kick.com/rapturs/clips/clip_01M8DMVM1X0JPRQH9E9YFF39FB"
    }
   ],
-  "trend": 2.0
+  "trend": 2.5
  },
  "challenges": {
   "pillar": "CHALLENGES & EXPERIMENTS",
@@ -77,7 +81,7 @@
  },
  "funny": {
   "pillar": "VIRAL MOMENTS & CHAOS",
-  "last_24h": 39,
+  "last_24h": 43,
   "previous_24h": 4,
   "news_24h": 1,
   "examples": [
@@ -102,13 +106,13 @@
     "url": "https://kick.com/envywill/clips/clip_01M8CVZHD9AYS358PKYW60YJ6H"
    }
   ],
-  "trend": 8.0
+  "trend": 8.8
  },
  "reactions": {
   "pillar": "VIRAL MOMENTS & CHAOS",
-  "last_24h": 3,
+  "last_24h": 8,
   "previous_24h": 0,
-  "news_24h": 4,
+  "news_24h": 5,
   "examples": [
    {
     "title": "RockStar… 13 AÑOS ROCKSTAR…🤯",
@@ -121,9 +125,17 @@
    {
     "title": "Military grade encryption? 😱",
     "url": "https://kick.com/crystalst/clips/clip_01M8DH3Z7E4RFAJEJBN0WCVY31"
+   },
+   {
+    "title": "crazyyyyy",
+    "url": "https://kick.com/javiiriivera/clips/clip_01M8DMTH30Q7408MN4RR28JWTH"
+   },
+   {
+    "title": "crazyyyy",
+    "url": "https://kick.com/javiiriivera/clips/clip_01M8DMPN8R99SW2SHB62QGB0TV"
    }
   ],
-  "trend": 4.0
+  "trend": 9.0
  },
  "unusual": {
   "pillar": "LEONIDA LIFE & DETAILS",
@@ -148,9 +160,9 @@
  },
  "money_tips": {
   "pillar": "CHEATS, TIPS & MONEY",
-  "last_24h": 5,
+  "last_24h": 6,
   "previous_24h": 0,
-  "news_24h": 7,
+  "news_24h": 6,
   "examples": [
    {
     "title": "chegando no heist",
@@ -173,6 +185,6 @@
     "url": "https://kick.com/patgarburgar/clips/clip_01M8DH6PFPF3J0SHQ0WW5NW7A6"
    }
   ],
-  "trend": 6.0
+  "trend": 7.0
  }
 }
