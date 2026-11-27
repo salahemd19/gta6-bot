@@ -2,7 +2,7 @@
  "jobs": {
   "approvals": {
    "failures": 0,
-   "last_ok": "2026-11-27T13:05:16+00:00",
+   "last_ok": "2026-11-27T13:35:53+00:00",
    "result": "no new decision",
    "error": null
   },
@@ -14,12 +14,12 @@
   },
   "calendar": {
    "failures": 0,
-   "last_ok": "2026-11-27T13:07:43+00:00",
+   "last_ok": "2026-11-27T13:35:53+00:00",
    "result": "youtube 4/6 today | tiktok 4/8 today",
    "error": null
   },
   "analytics_collect": {
-   "failures": 13,
+   "failures": 14,
    "last_ok": "2026-11-26T23:33:29+00:00",
    "result": "failed",
    "error": "401 Client Error: Unauthorized for url: https://oauth2.googleapis.com/token"
@@ -35,25 +35,25 @@
   "radar.yml": {
    "name": "Discovery radar",
    "health": "ok",
-   "age_h": 0.5,
+   "age_h": 0.9,
    "url": "https://github.com/salahemd19/gta6-bot/actions/runs/46000532382"
   },
   "engine.yml": {
    "name": "Ingest and analysis",
    "health": "ok",
-   "age_h": 2.2,
+   "age_h": 0.3,
    "url": "https://github.com/salahemd19/gta6-bot/actions/runs/45986337547"
   },
   "backup.yml": {
    "name": "Database backup",
    "health": "ok",
-   "age_h": 9.0,
+   "age_h": 9.5,
    "url": "https://github.com/salahemd19/gta6-bot/actions/runs/45938237332"
   },
   "post.yml": {
    "name": "Publisher",
    "health": "ok",
-   "age_h": 0.6,
+   "age_h": 1.1,
    "url": "https://github.com/salahemd19/gta6-bot/actions/runs/45999523288"
   }
  },
