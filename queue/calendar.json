@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-27T07:46+00:00",
+ "generated": "2026-11-27T09:11+00:00",
  "level": 0,
  "timezone": "Europe/Paris",
  "platforms": {
@@ -13,9 +13,16 @@
        "local": "12:30",
        "utc": "2026-11-27T11:30+00:00",
        "window": "lunch",
-       "id": null,
-       "status": "empty",
-       "title": null
+       "id": "20261126-1033-ac7ionman-clip01",
+       "status": "assigned",
+       "title": "CARNAGE CHEZ LE CONCESSIONNAIRE 😱 ac7ionman sur GTA 6",
+       "package": {
+        "video_url": "https://github.com/salahemd19/gta6-bot/releases/download/clips/20261126-1033-ac7ionman-clip01-v2.mp4",
+        "title": "CARNAGE CHEZ LE CONCESSIONNAIRE 😱 ac7ionman sur GTA 6",
+        "description": "Clip du live de ac7ionman sur Kick.\n\n#GTA6 #GTAVI #Shorts",
+        "tags": "",
+        "music": null
+       }
       },
       {
        "local": "15:05",
@@ -170,8 +177,8 @@
    ],
    "target": 8,
    "cap": 6,
-   "filled_today": 0,
-   "empty_next_days": 18
+   "filled_today": 1,
+   "empty_next_days": 17
   },
   "tiktok": {
    "days": [
@@ -183,9 +190,14 @@
        "local": "12:00",
        "utc": "2026-11-27T11:00+00:00",
        "window": "lunch",
-       "id": null,
-       "status": "empty",
-       "title": null
+       "id": "20261126-1033-ac7ionman-clip01",
+       "status": "assigned",
+       "title": "CARNAGE CHEZ LE CONCESSIONNAIRE 😱 ac7ionman sur GTA 6",
+       "package": {
+        "video_url": "https://github.com/salahemd19/gta6-bot/releases/download/clips/20261126-1033-ac7ionman-clip01-v2.mp4",
+        "caption": "CARNAGE CHEZ LE CONCESSIONNAIRE 😱 ac7ionman sur GTA 6 🎥 @ac7ionman (Kick) #GTA6 #GTA6FR #GTAVI #pourtoi #fyp",
+        "music": null
+       }
       },
       {
        "local": "13:00",
@@ -388,23 +400,35 @@
    ],
    "target": 12,
    "cap": 8,
-   "filled_today": 0,
-   "empty_next_days": 24
+   "filled_today": 1,
+   "empty_next_days": 23
   }
  },
  "blocked": [],
  "waiting_approval": [
   {
-   "id": "20261126-1033-ac7ionman-clip01",
+   "id": "engine-20261126-2224-1",
    "platform": "youtube",
-   "issue": 3,
-   "title": "ATTENDS LA FIN 😱 ac7ionman sur GTA 6"
+   "issue": 10,
+   "title": "ILS ONT FAIT ÇA SUR GTA 6 (TOP 3) 🤯 le numéro 1 est irréel"
   },
   {
-   "id": "20261126-1033-ac7ionman-clip01",
+   "id": "engine-20261126-2225-2",
+   "platform": "youtube",
+   "issue": 11,
+   "title": "TOP 3 MOMENTS LES PLUS FOUS SUR GTA 6 🤯 le numéro 1 est irréel"
+  },
+  {
+   "id": "engine-20261126-2224-1",
    "platform": "tiktok",
-   "issue": 3,
-   "title": "ATTENDS LA FIN 😱 ac7ionman sur GTA 6"
+   "issue": 10,
+   "title": "ILS ONT FAIT ÇA SUR GTA 6 (TOP 3) 🤯 le numéro 1 est irréel"
+  },
+  {
+   "id": "engine-20261126-2225-2",
+   "platform": "tiktok",
+   "issue": 11,
+   "title": "TOP 3 MOMENTS LES PLUS FOUS SUR GTA 6 🤯 le numéro 1 est irréel"
   }
  ],
  "missed": []
