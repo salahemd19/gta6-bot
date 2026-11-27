@@ -108,3 +108,10 @@
 {"at": "2026-11-27T15:16:28+00:00", "job": "calendar", "result": "ok", "detail": "youtube 5/6 today | tiktok 5/8 today"}
 {"at": "2026-11-27T15:16:28+00:00", "job": "post_buffer", "result": "ok", "detail": "not connected (add the secret BUFFER_API_KEY)"}
 {"at": "2026-11-27T15:16:28+00:00", "job": "verify_youtube", "result": "ok", "detail": "nothing to verify"}
+{"at": "2026-11-27T16:22:30+00:00", "job": "approvals", "result": "ok", "detail": "no new decision"}
+{"at": "2026-11-27T16:22:30+00:00", "job": "reviews", "result": "ok", "detail": "no new verdict"}
+{"at": "2026-11-27T16:22:30+00:00", "job": "produce", "result": "ok", "detail": "waiting: 0 approved clips ready from 0 creators; 3 clips from different creators needed"}
+{"at": "2026-11-27T16:22:30+00:00", "job": "calendar", "result": "ok", "detail": "youtube 6/6 today | tiktok 7/8 today"}
+{"at": "2026-11-27T16:22:30+00:00", "job": "post_buffer", "result": "ok", "detail": "not connected (add the secret BUFFER_API_KEY)"}
+{"at": "2026-11-27T16:22:30+00:00", "job": "verify_youtube", "result": "ok", "detail": "nothing to verify"}
+{"at": "2026-11-27T16:22:32+00:00", "job": "analytics_collect", "result": "ok", "detail": "73 YouTube readings (TikTok needs a CSV import)"}
