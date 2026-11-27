@@ -29,3 +29,9 @@
 {"at": "2026-11-27T04:28:03+00:00", "job": "analytics_collect", "result": "error (attempt 1/3)", "detail": "HTTPError: 401 Client Error: Unauthorized for url: https://oauth2.googleapis.com/token"}
 {"at": "2026-11-27T04:28:13+00:00", "job": "analytics_collect", "result": "error (attempt 2/3)", "detail": "HTTPError: 401 Client Error: Unauthorized for url: https://oauth2.googleapis.com/token"}
 {"at": "2026-11-27T04:28:33+00:00", "job": "analytics_collect", "result": "error (attempt 3/3)", "detail": "HTTPError: 401 Client Error: Unauthorized for url: https://oauth2.googleapis.com/token"}
+{"at": "2026-11-27T06:19:06+00:00", "job": "approvals", "result": "ok", "detail": "no new decision"}
+{"at": "2026-11-27T06:19:06+00:00", "job": "produce", "result": "ok", "detail": "waiting: no licensed music file on this machine (music/files), so nothing is produced without music"}
+{"at": "2026-11-27T06:19:06+00:00", "job": "calendar", "result": "ok", "detail": "youtube 0/6 today | tiktok 0/8 today"}
+{"at": "2026-11-27T06:19:06+00:00", "job": "analytics_collect", "result": "error (attempt 1/3)", "detail": "HTTPError: 401 Client Error: Unauthorized for url: https://oauth2.googleapis.com/token"}
+{"at": "2026-11-27T06:19:16+00:00", "job": "analytics_collect", "result": "error (attempt 2/3)", "detail": "HTTPError: 401 Client Error: Unauthorized for url: https://oauth2.googleapis.com/token"}
+{"at": "2026-11-27T06:19:36+00:00", "job": "analytics_collect", "result": "error (attempt 3/3)", "detail": "HTTPError: 401 Client Error: Unauthorized for url: https://oauth2.googleapis.com/token"}
