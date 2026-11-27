@@ -1,7 +1,7 @@
 {
  "map_secrets": {
   "pillar": "MAP & SECRET DISCOVERIES",
-  "last_24h": 3,
+  "last_24h": 4,
   "previous_24h": 0,
   "news_24h": 31,
   "examples": [
@@ -16,9 +16,13 @@
    {
     "title": "GTA 6 SECRETO DEL LOCO CACAS",
     "url": "https://kick.com/elviejoconi/clips/clip_01M8D2XMQXMYWCANKEKNX1DFP2"
+   },
+   {
+    "title": "Easter Egg de Satan en GTA VI!",
+    "url": "https://kick.com/rapturs/clips/clip_01M8DH45XT1AYYX41SR86T7NPZ"
    }
   ],
-  "trend": 4.0
+  "trend": 5.0
  },
  "races": {
   "pillar": "RACING & VEHICLES",
@@ -35,11 +39,24 @@
  },
  "vehicles": {
   "pillar": "RACING & VEHICLES",
-  "last_24h": 0,
-  "previous_24h": 0,
+  "last_24h": 3,
+  "previous_24h": 1,
   "news_24h": 11,
-  "examples": [],
-  "trend": 1.0
+  "examples": [
+   {
+    "title": "GTA 6 A TODA VELOCIDAD EN MOTO",
+    "url": "https://kick.com/cachete420/clips/clip_01M8DH36GHWMED7ZNXJ92VXGT2"
+   },
+   {
+    "title": "How not to drive a Plane in GTA 6",
+    "url": "https://kick.com/aetheogg/clips/clip_01M8DGZYYGVX00ASRTNNXB2307"
+   },
+   {
+    "title": "GTA 6 Helicopter Escape",
+    "url": "https://kick.com/aetheogg/clips/clip_01M8DGWJXCJPBCD6Z5HMC1AJ77"
+   }
+  ],
+  "trend": 2.0
  },
  "challenges": {
   "pillar": "CHALLENGES & EXPERIMENTS",
@@ -60,8 +77,8 @@
  },
  "funny": {
   "pillar": "VIRAL MOMENTS & CHAOS",
-  "last_24h": 34,
-  "previous_24h": 6,
+  "last_24h": 39,
+  "previous_24h": 4,
   "news_24h": 1,
   "examples": [
    {
@@ -85,11 +102,11 @@
     "url": "https://kick.com/envywill/clips/clip_01M8CVZHD9AYS358PKYW60YJ6H"
    }
   ],
-  "trend": 5.0
+  "trend": 8.0
  },
  "reactions": {
   "pillar": "VIRAL MOMENTS & CHAOS",
-  "last_24h": 2,
+  "last_24h": 3,
   "previous_24h": 0,
   "news_24h": 4,
   "examples": [
@@ -100,9 +117,13 @@
    {
     "title": "Niko bellic in gta 6 😱",
     "url": "https://kick.com/wolverinegames/clips/clip_01M8D6KXHT8GGGESD987AMNGE7"
+   },
+   {
+    "title": "Military grade encryption? 😱",
+    "url": "https://kick.com/crystalst/clips/clip_01M8DH3Z7E4RFAJEJBN0WCVY31"
    }
   ],
-  "trend": 3.0
+  "trend": 4.0
  },
  "unusual": {
   "pillar": "LEONIDA LIFE & DETAILS",
@@ -127,9 +148,9 @@
  },
  "money_tips": {
   "pillar": "CHEATS, TIPS & MONEY",
-  "last_24h": 4,
+  "last_24h": 5,
   "previous_24h": 0,
-  "news_24h": 8,
+  "news_24h": 7,
   "examples": [
    {
     "title": "chegando no heist",
@@ -146,8 +167,12 @@
    {
     "title": "Free Money",
     "url": "https://kick.com/iceposeidon/clips/clip_01M8D31HE31DB9PDTTGCHH91WT"
+   },
+   {
+    "title": "[DROPS 60FPS] MONEY MOVES ONLY - | Clip",
+    "url": "https://kick.com/patgarburgar/clips/clip_01M8DH6PFPF3J0SHQ0WW5NW7A6"
    }
   ],
-  "trend": 5.0
+  "trend": 6.0
  }
 }
