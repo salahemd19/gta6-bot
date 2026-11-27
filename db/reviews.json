@@ -526,5 +526,98 @@
   "reason": "Pas GTA 6 : partie de Valorant et facecams.",
   "not_gta6": true,
   "by": "Claude frame-sheet review 2026-11-27"
+ },
+ "VCI-a36683dc86": {
+  "verdict": "reject",
+  "reason": "balade calme à vélo, écran de téléphone",
+  "by": "Claude frame-sheet review 2026-11-27"
+ },
+ "VCI-4c90740cae": {
+  "verdict": "reject",
+  "reason": "conduite sans action claire",
+  "by": "Claude frame-sheet review 2026-11-27"
+ },
+ "VCI-8060d530d2": {
+  "verdict": "reject",
+  "reason": "présentation de voiture dans un garage",
+  "by": "Claude frame-sheet review 2026-11-27"
+ },
+ "VCI-3027e736c8": {
+  "verdict": "reject",
+  "reason": "conduite calme puis marche, visite de maison",
+  "by": "Claude frame-sheet review 2026-11-27"
+ },
+ "VCI-ef3ed7bc8d": {
+  "verdict": "reject",
+  "reason": "personnage autour d'une tortue, pas d'action claire",
+  "by": "Claude frame-sheet review 2026-11-27"
+ },
+ "VCI-8b64ceaeb2": {
+  "verdict": "reject",
+  "reason": "conduite lente sans moment fort",
+  "by": "Claude frame-sheet review 2026-11-27"
+ },
+ "VCI-d35033fa92": {
+  "verdict": "reject",
+  "reason": "conduite calme, chute de moto trop mineure",
+  "by": "Claude frame-sheet review 2026-11-27"
+ },
+ "VCI-cec62eabca": {
+  "verdict": "reject",
+  "reason": "marche dans un bâtiment",
+  "by": "Claude frame-sheet review 2026-11-27"
+ },
+ "VCI-642f1b6d79": {
+  "verdict": "keep",
+  "action_fr": "Un hélicoptère finit dans les arbres avec le moteur endommagé, puis le personnage en sort.",
+  "hooks_fr": [
+   "L'HÉLICO FINIT DANS LES ARBRES",
+   "ATTERRISSAGE TRÈS COMPLIQUÉ",
+   "MOTEUR ENDOMMAGÉ EN PLEIN VOL"
+  ],
+  "category": "VIRAL MOMENTS & CHAOS",
+  "strength": 6,
+  "window": [
+   28.0,
+   36.0
+  ],
+  "by": "Claude frame-sheet review 2026-11-27"
+ },
+ "VCI-6cc5ff7e05": {
+  "verdict": "keep",
+  "action_fr": "Une décapotable noire percute un poteau sur le trottoir et le poteau s'effondre sur la voiture.",
+  "hooks_fr": [
+   "LE POTEAU TOMBE SUR LA VOITURE",
+   "UN VIRAGE COMPLÈTEMENT RATÉ",
+   "LA DÉCAPOTABLE N'A PAS SURVÉCU AU POTEAU"
+  ],
+  "category": "VIRAL MOMENTS & CHAOS",
+  "strength": 7,
+  "window": [
+   40.0,
+   48.0
+  ],
+  "by": "Claude frame-sheet review 2026-11-27"
+ },
+ "VCI-d5658b1406": {
+  "verdict": "keep",
+  "action_fr": "Un personnage armé tire au milieu de voitures arrêtées à un carrefour et l'écran vire au rouge sous les dégâts.",
+  "hooks_fr": [
+   "FUSILLADE EN PLEIN CARREFOUR",
+   "ÇA DÉGÉNÈRE AU MILIEU DES VOITURES",
+   "L'ALTERCATION TOURNE AUX COUPS DE FEU"
+  ],
+  "category": "VIRAL MOMENTS & CHAOS",
+  "strength": 6,
+  "window": [
+   19.0,
+   27.0
+  ],
+  "by": "Claude frame-sheet review 2026-11-27"
+ },
+ "VCI-a20c92fb1f": {
+  "verdict": "reject",
+  "reason": "cinématique de l'histoire",
+  "by": "Claude frame-sheet review 2026-11-27"
  }
 }

@@ -18686,7 +18686,7 @@
   "vod_starts_at": 0,
   "is_mature": true,
   "discovered_at": "2026-11-26T20:15:57+00:00",
-  "status": "analysed",
+  "status": "rejected_review",
   "authenticity": "category_only",
   "rights": "credited_third_party",
   "used_in": [],
@@ -18728,8 +18728,8 @@
   "publications": [],
   "analytics": {},
   "stage": "RIGHTS_RECORDED",
-  "state": "active",
-  "updated_at": "2026-11-27T15:53:39+00:00",
+  "state": "rejected",
+  "updated_at": "2026-11-27T21:05:53+00:00",
   "views_per_hour_recent": 0.0,
   "metrics": {
    "motion": 27.5,
@@ -18875,7 +18875,8 @@
    "needs_review": "Hooks are generic: nobody has described what happens yet. Check the footage before using."
   },
   "analysed_at": "2026-11-27T15:41:26+00:00",
-  "viral_potential": 7.84
+  "viral_potential": 7.84,
+  "manual_state": true
  },
  "clip_01M8CQQM3JXN2AKCPB4B8S6CD6": {
   "id": "clip_01M8CQQM3JXN2AKCPB4B8S6CD6",
@@ -50703,7 +50704,7 @@
   "vod_starts_at": 0,
   "is_mature": true,
   "discovered_at": "2026-11-26T21:30:39+00:00",
-  "status": "analysed",
+  "status": "rejected_review",
   "authenticity": "category_only",
   "rights": "credited_third_party",
   "used_in": [],
@@ -50745,8 +50746,8 @@
   "publications": [],
   "analytics": {},
   "stage": "RIGHTS_RECORDED",
-  "state": "active",
-  "updated_at": "2026-11-27T19:35:32+00:00",
+  "state": "rejected",
+  "updated_at": "2026-11-27T21:05:53+00:00",
   "views_per_hour_recent": 0.0,
   "metrics": {
    "motion": 22.2,
@@ -50906,7 +50907,8 @@
    "needs_review": "Hooks are generic: nobody has described what happens yet. Check the footage before using."
   },
   "analysed_at": "2026-11-27T19:15:59+00:00",
-  "viral_potential": 7.92
+  "viral_potential": 7.92,
+  "manual_state": true
  },
  "clip_01M8CW0CTV9RK2XKGXCAWV28ZX": {
   "id": "clip_01M8CW0CTV9RK2XKGXCAWV28ZX",
@@ -57706,7 +57708,7 @@
   "vod_starts_at": 0,
   "is_mature": true,
   "discovered_at": "2026-11-26T22:33:57+00:00",
-  "status": "analysed",
+  "status": "rejected_review",
   "authenticity": "category_only",
   "rights": "credited_third_party",
   "used_in": [],
@@ -57748,8 +57750,8 @@
   "publications": [],
   "analytics": {},
   "stage": "RIGHTS_RECORDED",
-  "state": "active",
-  "updated_at": "2026-11-27T15:53:39+00:00",
+  "state": "rejected",
+  "updated_at": "2026-11-27T21:05:53+00:00",
   "views_per_hour_recent": 0.0,
   "metrics": {
    "motion": 30.2,
@@ -57895,7 +57897,8 @@
    "needs_review": "Hooks are generic: nobody has described what happens yet. Check the footage before using."
   },
   "analysed_at": "2026-11-27T15:28:42+00:00",
-  "viral_potential": 7.84
+  "viral_potential": 7.84,
+  "manual_state": true
  },
  "clip_01M8CZMRWE3PKCH3W9WEHWM63T": {
   "id": "clip_01M8CZMRWE3PKCH3W9WEHWM63T",
@@ -86767,7 +86770,7 @@
   "vod_starts_at": 0,
   "is_mature": true,
   "discovered_at": "2026-11-27T01:59:32+00:00",
-  "status": "analysed",
+  "status": "rejected_review",
   "authenticity": "category_only",
   "rights": "credited_third_party",
   "used_in": [],
@@ -86809,8 +86812,8 @@
   "publications": [],
   "analytics": {},
   "stage": "RIGHTS_RECORDED",
-  "state": "active",
-  "updated_at": "2026-11-27T15:53:39+00:00",
+  "state": "rejected",
+  "updated_at": "2026-11-27T21:05:53+00:00",
   "views_per_hour_recent": 0.0,
   "metrics": {
    "motion": 27.6,
@@ -87007,7 +87010,8 @@
    "needs_review": "Hooks are generic: nobody has described what happens yet. Check the footage before using."
   },
   "analysed_at": "2026-11-27T15:12:44+00:00",
-  "viral_potential": 7.9
+  "viral_potential": 7.9,
+  "manual_state": true
  },
  "clip_01M8DBM56DXPWNCEBD0QHM1SSH": {
   "id": "clip_01M8DBM56DXPWNCEBD0QHM1SSH",
@@ -102842,7 +102846,7 @@
   "is_mature": true,
   "discovered_at": "2026-11-27T04:44:34+00:00",
   "status": "analysed",
-  "authenticity": "category_only",
+  "authenticity": "verified_by_review",
   "rights": "credited_third_party",
   "used_in": [],
   "duplicate_of": null,
@@ -102863,7 +102867,8 @@
   "account_url": "https://kick.com/splitsouldoesthings",
   "clip_url": "https://clips.kick.com/clips/91/clip_01M8DMWTHSQ5S93MAM9JD3KNWT/playlist.m3u8",
   "authenticity_evidence": [
-   "Listed in Kick's Grand Theft Auto VI category (not proof by itself)"
+   "Listed in Kick's Grand Theft Auto VI category (not proof by itself)",
+   "Frame sheet reviewed 2026-11-27"
   ],
   "category": "VIRAL MOMENTS & CHAOS",
   "subcategory": "",
@@ -102884,7 +102889,7 @@
   "analytics": {},
   "stage": "RIGHTS_RECORDED",
   "state": "active",
-  "updated_at": "2026-11-27T13:49:40+00:00",
+  "updated_at": "2026-11-27T21:05:53+00:00",
   "views_per_hour_recent": 0.0,
   "metrics": {
    "motion": 25.4,
@@ -102922,12 +102927,12 @@
     "french_relevance": "heuristic",
     "category": "heuristic",
     "source_quality": "measured",
-    "originality": "not_assessed",
-    "storytelling": "not_assessed"
+    "originality": "review",
+    "storytelling": "review"
    },
    "coverage": 0.86,
    "model": "v2.0",
-   "reviewed": false
+   "reviewed": true
   },
   "analysis": {
    "start": 32.5,
@@ -103103,14 +103108,14 @@
    "series": "ALERTE LEONIDA",
    "category": "VIRAL MOMENTS & CHAOS",
    "hooks": [
-    "ÇA DÉRAPE EN QUELQUES SECONDES",
-    "REGARDE JUSQU'À LA FIN",
-    "LE CHAOS TOTAL À LEONIDA"
+    "L'HÉLICO FINIT DANS LES ARBRES",
+    "ATTERRISSAGE TRÈS COMPLIQUÉ",
+    "MOTEUR ENDOMMAGÉ EN PLEIN VOL"
    ],
-   "best_hook": "ÇA DÉRAPE EN QUELQUES SECONDES",
-   "title": "ÇA DÉRAPE EN QUELQUES SECONDES 😱 GTA 6",
-   "description": "Un moment repéré en live sur GTA 6. Créateur : @splitsouldoesthings (Kick).",
-   "caption": "ÇA DÉRAPE EN QUELQUES SECONDES 😱 Envoie ça à ton pote qui joue à GTA 6 👇 🎥 @splitsouldoesthings #GTA6 #GTA6FR #GTAVI #pourtoi",
+   "best_hook": "L'HÉLICO FINIT DANS LES ARBRES",
+   "title": "L'HÉLICO FINIT DANS LES ARBRES 😱 GTA 6",
+   "description": "Un hélicoptère finit dans les arbres avec le moteur endommagé, puis le personnage en sort. Créateur : @splitsouldoesthings (Kick).",
+   "caption": "L'HÉLICO FINIT DANS LES ARBRES 😱 Envoie ça à ton pote qui joue à GTA 6 👇 🎥 @splitsouldoesthings #GTA6 #GTA6FR #GTAVI #pourtoi",
    "narration": null,
    "cta": "Envoie ça à ton pote qui joue à GTA 6",
    "editing": [
@@ -103123,16 +103128,17 @@
    "music_mood": "tension then comic release, music low",
    "music": {
     "youtube": [
+     "Vibe Check - Blue Deer Studio",
      "Travelling Light - Blue Deer Studio",
-     "Comin Wit It - Anno Domini Beats",
-     "Vibe Check - Blue Deer Studio"
+     "Comin Wit It - Anno Domini Beats"
     ],
     "tiktok": []
    },
-   "needs_review": "Hooks are generic: nobody has described what happens yet. Check the footage before using."
+   "needs_review": null
   },
   "analysed_at": "2026-11-27T13:41:00+00:00",
-  "viral_potential": 7.8
+  "viral_potential": 7.8,
+  "category_reviewed": true
  },
  "clip_01M8DMWHFTCHB3MJYXAHVE9VH6": {
   "id": "clip_01M8DMWHFTCHB3MJYXAHVE9VH6",
@@ -105180,7 +105186,7 @@
   "vod_starts_at": 0,
   "is_mature": true,
   "discovered_at": "2026-11-27T04:44:35+00:00",
-  "status": "analysed",
+  "status": "rejected_review",
   "authenticity": "category_only",
   "rights": "credited_third_party",
   "used_in": [],
@@ -105222,8 +105228,8 @@
   "publications": [],
   "analytics": {},
   "stage": "RIGHTS_RECORDED",
-  "state": "active",
-  "updated_at": "2026-11-27T13:49:40+00:00",
+  "state": "rejected",
+  "updated_at": "2026-11-27T21:05:53+00:00",
   "views_per_hour_recent": 0.0,
   "metrics": {
    "motion": 31.7,
@@ -105419,7 +105425,8 @@
    "needs_review": "Hooks are generic: nobody has described what happens yet. Check the footage before using."
   },
   "analysed_at": "2026-11-27T13:42:02+00:00",
-  "viral_potential": 7.91
+  "viral_potential": 7.91,
+  "manual_state": true
  },
  "clip_01M8DMQ3H4ZT1N70M9TP510C8M": {
   "id": "clip_01M8DMQ3H4ZT1N70M9TP510C8M",
@@ -114551,7 +114558,7 @@
   "is_mature": true,
   "discovered_at": "2026-11-27T06:37:34+00:00",
   "status": "analysed",
-  "authenticity": "category_only",
+  "authenticity": "verified_by_review",
   "rights": "credited_third_party",
   "used_in": [],
   "duplicate_of": null,
@@ -114572,7 +114579,8 @@
   "account_url": "https://kick.com/soyneiler",
   "clip_url": "https://clips.kick.com/clips/fb/clip_01M8DTV48YZBCMKPVB6ZXFVWEH/playlist.m3u8",
   "authenticity_evidence": [
-   "Listed in Kick's Grand Theft Auto VI category (not proof by itself)"
+   "Listed in Kick's Grand Theft Auto VI category (not proof by itself)",
+   "Frame sheet reviewed 2026-11-27"
   ],
   "category": "VIRAL MOMENTS & CHAOS",
   "subcategory": "",
@@ -114593,7 +114601,7 @@
   "analytics": {},
   "stage": "RIGHTS_RECORDED",
   "state": "active",
-  "updated_at": "2026-11-27T13:49:40+00:00",
+  "updated_at": "2026-11-27T21:05:53+00:00",
   "views_per_hour_recent": 0.0,
   "metrics": {
    "motion": 22.2,
@@ -114631,12 +114639,12 @@
     "french_relevance": "heuristic",
     "category": "heuristic",
     "source_quality": "measured",
-    "originality": "not_assessed",
-    "storytelling": "not_assessed"
+    "originality": "review",
+    "storytelling": "review"
    },
    "coverage": 0.86,
    "model": "v2.0",
-   "reviewed": false
+   "reviewed": true
   },
   "analysis": {
    "start": 7.5,
@@ -114719,14 +114727,14 @@
    "series": "ALERTE LEONIDA",
    "category": "VIRAL MOMENTS & CHAOS",
    "hooks": [
-    "IL N'AURAIT PAS DÛ FAIRE ÇA",
-    "ÇA DÉRAPE EN QUELQUES SECONDES",
-    "REGARDE JUSQU'À LA FIN"
+    "FUSILLADE EN PLEIN CARREFOUR",
+    "ÇA DÉGÉNÈRE AU MILIEU DES VOITURES",
+    "L'ALTERCATION TOURNE AUX COUPS DE FEU"
    ],
-   "best_hook": "IL N'AURAIT PAS DÛ FAIRE ÇA",
-   "title": "IL N'AURAIT PAS DÛ FAIRE ÇA 😱 GTA 6",
-   "description": "Un moment repéré en live sur GTA 6. Créateur : @soyneiler (Kick).",
-   "caption": "IL N'AURAIT PAS DÛ FAIRE ÇA 😱 Note ce moment sur 10 👇 🎥 @soyneiler #GTA6 #GTA6FR #GTAVI #pourtoi",
+   "best_hook": "FUSILLADE EN PLEIN CARREFOUR",
+   "title": "FUSILLADE EN PLEIN CARREFOUR 😱 GTA 6",
+   "description": "Un personnage armé tire au milieu de voitures arrêtées à un carrefour et l'écran vire au rouge sous les dégâts. Créateur : @soyneiler (Kick).",
+   "caption": "FUSILLADE EN PLEIN CARREFOUR 😱 Note ce moment sur 10 👇 🎥 @soyneiler #GTA6 #GTA6FR #GTAVI #pourtoi",
    "narration": null,
    "cta": "Note ce moment sur 10",
    "editing": [
@@ -114739,16 +114747,17 @@
    "music_mood": "tension then comic release, music low",
    "music": {
     "youtube": [
+     "Vibe Check - Blue Deer Studio",
      "Travelling Light - Blue Deer Studio",
-     "Comin Wit It - Anno Domini Beats",
-     "Vibe Check - Blue Deer Studio"
+     "Comin Wit It - Anno Domini Beats"
     ],
     "tiktok": []
    },
-   "needs_review": "Hooks are generic: nobody has described what happens yet. Check the footage before using."
+   "needs_review": null
   },
   "analysed_at": "2026-11-27T13:38:16+00:00",
-  "viral_potential": 7.79
+  "viral_potential": 7.79,
+  "category_reviewed": true
  },
  "clip_01M8DTT2FJP9DP4C6GV4TJMFDQ": {
   "id": "clip_01M8DTT2FJP9DP4C6GV4TJMFDQ",
@@ -143188,7 +143197,7 @@
   "vod_starts_at": 0,
   "is_mature": true,
   "discovered_at": "2026-11-27T12:40:20+00:00",
-  "status": "analysed",
+  "status": "rejected_review",
   "authenticity": "category_only",
   "rights": "credited_third_party",
   "used_in": [],
@@ -143230,8 +143239,8 @@
   "publications": [],
   "analytics": {},
   "stage": "RIGHTS_RECORDED",
-  "state": "active",
-  "updated_at": "2026-11-27T13:49:40+00:00",
+  "state": "rejected",
+  "updated_at": "2026-11-27T21:05:53+00:00",
   "metrics": {
    "motion": 31.9,
    "still": 0.01,
@@ -143396,7 +143405,8 @@
   },
   "analysed_at": "2026-11-27T13:29:50+00:00",
   "viral_potential": 7.93,
-  "views_per_hour_recent": 0.0
+  "views_per_hour_recent": 0.0,
+  "manual_state": true
  },
  "clip_01M8EFPFAN9Z7YSNJTM44D2NWY": {
   "id": "clip_01M8EFPFAN9Z7YSNJTM44D2NWY",
@@ -144296,7 +144306,7 @@
   "is_mature": true,
   "discovered_at": "2026-11-27T12:40:20+00:00",
   "status": "analysed",
-  "authenticity": "category_only",
+  "authenticity": "verified_by_review",
   "rights": "credited_third_party",
   "used_in": [],
   "duplicate_of": null,
@@ -144317,7 +144327,8 @@
   "account_url": "https://kick.com/fitddiva",
   "clip_url": "https://clips.kick.com/clips/36/clip_01M8EFJR03RM1B6Z17YGFAYV8Y/playlist.m3u8",
   "authenticity_evidence": [
-   "Listed in Kick's Grand Theft Auto VI category (not proof by itself)"
+   "Listed in Kick's Grand Theft Auto VI category (not proof by itself)",
+   "Frame sheet reviewed 2026-11-27"
   ],
   "category": "VIRAL MOMENTS & CHAOS",
   "subcategory": "",
@@ -144338,7 +144349,7 @@
   "analytics": {},
   "stage": "RIGHTS_RECORDED",
   "state": "active",
-  "updated_at": "2026-11-27T13:49:40+00:00",
+  "updated_at": "2026-11-27T21:05:53+00:00",
   "metrics": {
    "motion": 25.0,
    "still": 0.03,
@@ -144375,12 +144386,12 @@
     "french_relevance": "heuristic",
     "category": "heuristic",
     "source_quality": "measured",
-    "originality": "not_assessed",
-    "storytelling": "not_assessed"
+    "originality": "review",
+    "storytelling": "review"
    },
    "coverage": 0.86,
    "model": "v2.0",
-   "reviewed": false
+   "reviewed": true
   },
   "analysis": {
    "start": 20.5,
@@ -144484,14 +144495,14 @@
    "series": "ALERTE LEONIDA",
    "category": "VIRAL MOMENTS & CHAOS",
    "hooks": [
-    "REGARDE JUSQU'À LA FIN",
-    "LE CHAOS TOTAL À LEONIDA",
-    "IL N'AURAIT PAS DÛ FAIRE ÇA"
+    "LE POTEAU TOMBE SUR LA VOITURE",
+    "UN VIRAGE COMPLÈTEMENT RATÉ",
+    "LA DÉCAPOTABLE N'A PAS SURVÉCU AU POTEAU"
    ],
-   "best_hook": "REGARDE JUSQU'À LA FIN",
-   "title": "REGARDE JUSQU'À LA FIN 😱 GTA 6",
-   "description": "Un moment repéré en live sur GTA 6. Créateur : @fitddiva (Kick).",
-   "caption": "REGARDE JUSQU'À LA FIN 😱 Tu l'avais déjà vu ? Réponds en commentaire 👇 🎥 @fitddiva #GTA6 #GTA6FR #GTAVI #pourtoi",
+   "best_hook": "LE POTEAU TOMBE SUR LA VOITURE",
+   "title": "LE POTEAU TOMBE SUR LA VOITURE 😱 GTA 6",
+   "description": "Une décapotable noire percute un poteau sur le trottoir et le poteau s'effondre sur la voiture. Créateur : @fitddiva (Kick).",
+   "caption": "LE POTEAU TOMBE SUR LA VOITURE 😱 Tu l'avais déjà vu ? Réponds en commentaire 👇 🎥 @fitddiva #GTA6 #GTA6FR #GTAVI #pourtoi",
    "narration": null,
    "cta": "Tu l'avais déjà vu ? Réponds en commentaire",
    "editing": [
@@ -144504,17 +144515,18 @@
    "music_mood": "tension then comic release, music low",
    "music": {
     "youtube": [
+     "Vibe Check - Blue Deer Studio",
      "Travelling Light - Blue Deer Studio",
-     "Comin Wit It - Anno Domini Beats",
-     "Vibe Check - Blue Deer Studio"
+     "Comin Wit It - Anno Domini Beats"
     ],
     "tiktok": []
    },
-   "needs_review": "Hooks are generic: nobody has described what happens yet. Check the footage before using."
+   "needs_review": null
   },
   "analysed_at": "2026-11-27T13:30:48+00:00",
   "viral_potential": 7.8,
-  "views_per_hour_recent": 0.0
+  "views_per_hour_recent": 0.0,
+  "category_reviewed": true
  },
  "clip_01M8EFHXCCDQRNBV03572XQ1F7": {
   "id": "clip_01M8EFHXCCDQRNBV03572XQ1F7",
@@ -156000,7 +156012,7 @@
   "vod_starts_at": 0,
   "is_mature": true,
   "discovered_at": "2026-11-27T15:38:10+00:00",
-  "status": "analysed",
+  "status": "rejected_review",
   "authenticity": "category_only",
   "rights": "credited_third_party",
   "used_in": [],
@@ -156042,8 +156054,8 @@
   "publications": [],
   "analytics": {},
   "stage": "RIGHTS_RECORDED",
-  "state": "active",
-  "updated_at": "2026-11-27T17:56:17+00:00",
+  "state": "rejected",
+  "updated_at": "2026-11-27T21:05:53+00:00",
   "views_per_hour_recent": 0.0,
   "metrics": {
    "motion": 20.2,
@@ -156190,7 +156202,8 @@
    "needs_review": "Hooks are generic: nobody has described what happens yet. Check the footage before using."
   },
   "analysed_at": "2026-11-27T17:37:15+00:00",
-  "viral_potential": 7.73
+  "viral_potential": 7.73,
+  "manual_state": true
  },
  "clip_01M8ET2Q116P05QEZHNBCJ04PB": {
   "id": "clip_01M8ET2Q116P05QEZHNBCJ04PB",
@@ -171452,7 +171465,7 @@
   "vod_starts_at": 0,
   "is_mature": true,
   "discovered_at": "2026-11-27T18:59:33+00:00",
-  "status": "analysed",
+  "status": "rejected_review",
   "authenticity": "category_only",
   "rights": "credited_third_party",
   "used_in": [],
@@ -171482,8 +171495,8 @@
   "publications": [],
   "analytics": {},
   "stage": "RIGHTS_RECORDED",
-  "state": "active",
-  "updated_at": "2026-11-27T19:35:32+00:00",
+  "state": "rejected",
+  "updated_at": "2026-11-27T21:05:53+00:00",
   "metrics": {
    "motion": 28.4,
    "still": 0.0,
@@ -171690,7 +171703,8 @@
    "topics": []
   },
   "origin": "original",
-  "views_per_hour_recent": 0.0
+  "views_per_hour_recent": 0.0,
+  "manual_state": true
  },
  "clip_01M8AJR45MRR66DXNN46RH254D": {
   "id": "clip_01M8AJR45MRR66DXNN46RH254D",
@@ -172558,7 +172572,7 @@
   "vod_starts_at": 0,
   "is_mature": false,
   "discovered_at": "2026-11-27T18:59:33+00:00",
-  "status": "analysed",
+  "status": "rejected_review",
   "authenticity": "category_only",
   "rights": "credited_third_party",
   "used_in": [],
@@ -172588,8 +172602,8 @@
   "publications": [],
   "analytics": {},
   "stage": "RIGHTS_RECORDED",
-  "state": "active",
-  "updated_at": "2026-11-27T19:35:32+00:00",
+  "state": "rejected",
+  "updated_at": "2026-11-27T21:05:53+00:00",
   "metrics": {
    "motion": 33.7,
    "still": 0.0,
@@ -172733,7 +172747,8 @@
    ]
   },
   "origin": "original",
-  "views_per_hour_recent": 0.0
+  "views_per_hour_recent": 0.0,
+  "manual_state": true
  },
  "clip_01M8AJP1B1QM20PCS9C7C5QANR": {
   "id": "clip_01M8AJP1B1QM20PCS9C7C5QANR",
