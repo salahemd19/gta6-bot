@@ -282,7 +282,8 @@
   "slot_youtube": "2026-11-27T14:05+00:00",
   "slot_tiktok": "2026-11-27T12:00+00:00",
   "youtube_url": "https://youtube.com/shorts/KDS7LLUlRWA",
-  "tiktok_tries": 1
+  "tiktok_tries": 1,
+  "feedback_applied": "approved"
  },
  {
   "id": "20261126-1033-razzgo-clip01",
@@ -737,7 +738,8 @@
   "rights_note": "owner policy: publish with creator credit, remove on request",
   "slot_youtube": "2026-11-27T11:30+00:00",
   "slot_tiktok": "2026-11-27T14:05+00:00",
-  "youtube_url": "https://youtube.com/shorts/80zl3VaEdys"
+  "youtube_url": "https://youtube.com/shorts/80zl3VaEdys",
+  "feedback_applied": "approved"
  },
  {
   "id": "vci-20261127-100525",
@@ -852,7 +854,8 @@
   "tiktok": "scheduled 2026-11-27T16:30+00:00",
   "issue": 13,
   "slot_youtube": "2026-11-27T18:40+00:00",
-  "slot_tiktok": "2026-11-27T16:30+00:00"
+  "slot_tiktok": "2026-11-27T16:30+00:00",
+  "feedback_applied": "approved"
  },
  {
   "id": "vci-20261127-100652",
@@ -965,6 +968,7 @@
   "tiktok": "scheduled 2026-11-27T15:30+00:00",
   "issue": 14,
   "slot_youtube": "2026-11-27T17:30+00:00",
-  "slot_tiktok": "2026-11-27T15:30+00:00"
+  "slot_tiktok": "2026-11-27T15:30+00:00",
+  "feedback_applied": "approved"
  }
 ]
