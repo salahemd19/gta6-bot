@@ -275,7 +275,7 @@
   "motion": 23.9,
   "slot": "2026-11-26T10:33:06+00:00",
   "youtube": "scheduled 2026-11-27T14:05+00:00",
-  "tiktok": "scheduled 2026-11-27T12:00+00:00",
+  "tiktok": "posted 2026-11-27T12:00:00+00:00",
   "issue": 3,
   "rights": "credited_third_party",
   "rights_note": "owner policy: publish with creator credit, remove on request",
@@ -283,7 +283,8 @@
   "slot_tiktok": "2026-11-27T12:00+00:00",
   "youtube_url": "https://youtube.com/shorts/KDS7LLUlRWA",
   "tiktok_tries": 1,
-  "feedback_applied": "approved"
+  "feedback_applied": "approved",
+  "tiktok_url": "https://www.tiktok.com/@vicecity_intel1/video/7712806777653333270"
  },
  {
   "id": "20261126-1033-razzgo-clip01",
