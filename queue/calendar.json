@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-27T11:09+00:00",
+ "generated": "2026-11-27T11:26+00:00",
  "level": 0,
  "timezone": "Europe/Paris",
  "platforms": {
@@ -28,72 +28,18 @@
       {
        "local": "18:30",
        "utc": "2026-11-27T17:30+00:00",
+       "window": "fixed",
        "id": "vci-20261127-100652",
-       "window": "evening",
-       "status": "assigned",
-       "title": "LA SUPERCAR EXPLOSE SON AVANT 😱 GTA 6 #Shorts",
-       "package": {
-        "video_url": "https://github.com/salahemd19/gta6-bot/releases/download/clips/vci-20261127-100652_youtube.mp4",
-        "title": "LA SUPERCAR EXPLOSE SON AVANT 😱 GTA 6 #Shorts",
-        "description": "La voiture percute un lampadaire : le personnage est éjecté et le poteau tombe.\nTon préféré ? Dis-le en commentaire 👇\n🎥 Créateurs (Kick) : rraenee, neexcsgo, itsnitsi\nVoix : Piper, voix fr_FR-siwis (corpus SIWIS, CC BY 4.0)\n#GTA6 #GTAVI #GTA6FR #Shorts",
-        "tags": "GTA 6, GTA VI, GTA 6 FR, Vice City",
-        "music": {
-         "mode": "add in the YouTube Studio editor",
-         "id": "ytal-monster-freak-party",
-         "title": "Monster Freak Party",
-         "artist": "Bare Bones Mtl",
-         "source": "YouTube Audio Library",
-         "licence": "YouTube Audio Library (YouTube Studio > Bibliothèque audio, channel VICECITY INTEL), licence shown as 'Licence de la bibliothèque audio YouTube', seen 2026-11-26",
-         "permitted": "APPROVED",
-         "platforms": {
-          "youtube": "APPROVED",
-          "tiktok": "PENDING",
-          "reels": "PENDING"
-         },
-         "attribution": "CHECK: open the track's licence icon in Studio; if attribution is required, paste it in the description",
-         "conditions": "Use in videos only; never re-distribute the audio file. Other platforms are not covered until verified.",
-         "monetization": "YouTube: allowed under the YouTube Audio Library terms; elsewhere not verified",
-         "alternatives": [
-          "Survival Mode - Blue Deer Studio",
-          "Ego Chall - Blue Deer Studio"
-         ]
-        }
-       }
+       "status": "scheduled",
+       "title": "LA SUPERCAR EXPLOSE SON AVANT 😱 GTA 6 #Shorts"
       },
       {
        "local": "19:40",
        "utc": "2026-11-27T18:40+00:00",
+       "window": "fixed",
        "id": "vci-20261127-100525",
-       "window": "evening",
-       "status": "assigned",
-       "title": "LE BRAQUAGE DE LA BIJOUTERIE 😱 GTA 6 #Shorts",
-       "package": {
-        "video_url": "https://github.com/salahemd19/gta6-bot/releases/download/clips/vci-20261127-100525_youtube.mp4",
-        "title": "LE BRAQUAGE DE LA BIJOUTERIE 😱 GTA 6 #Shorts",
-        "description": "Fusillade à la sortie d'une armurerie : plusieurs adversaires tombent dans la rue.\nTon préféré ? Dis-le en commentaire 👇\n🎥 Créateurs (Kick) : xmerghani, lordkebun, missvirgo\nVoix : Piper, voix fr_FR-siwis (corpus SIWIS, CC BY 4.0)\n#GTA6 #GTAVI #GTA6FR #Shorts",
-        "tags": "GTA 6, GTA VI, GTA 6 FR, Vice City",
-        "music": {
-         "mode": "add in the YouTube Studio editor",
-         "id": "ytal-mirror-mirror",
-         "title": "Mirror Mirror",
-         "artist": "Anno Domini Beats",
-         "source": "YouTube Audio Library",
-         "licence": "YouTube Audio Library (YouTube Studio > Bibliothèque audio, channel VICECITY INTEL), licence shown as 'Licence de la bibliothèque audio YouTube', seen 2026-11-26",
-         "permitted": "APPROVED",
-         "platforms": {
-          "youtube": "APPROVED",
-          "tiktok": "PENDING",
-          "reels": "PENDING"
-         },
-         "attribution": "CHECK: open the track's licence icon in Studio; if attribution is required, paste it in the description",
-         "conditions": "Use in videos only; never re-distribute the audio file. Other platforms are not covered until verified.",
-         "monetization": "YouTube: allowed under the YouTube Audio Library terms; elsewhere not verified",
-         "alternatives": [
-          "Monster Freak Party - Bare Bones Mtl",
-          "Survival Mode - Blue Deer Studio"
-         ]
-        }
-       }
+       "status": "scheduled",
+       "title": "LE BRAQUAGE DE LA BIJOUTERIE 😱 GTA 6 #Shorts"
       },
       {
        "local": "20:45",
@@ -236,15 +182,10 @@
       {
        "local": "13:00",
        "utc": "2026-11-27T12:00+00:00",
+       "window": "fixed",
        "id": "20261126-1033-ac7ionman-clip01",
-       "window": "lunch",
-       "status": "assigned",
-       "title": "CARNAGE CHEZ LE CONCESSIONNAIRE 😱 ac7ionman sur GTA 6",
-       "package": {
-        "video_url": "https://github.com/salahemd19/gta6-bot/releases/download/clips/20261126-1033-ac7ionman-clip01-v2.mp4",
-        "caption": "CARNAGE CHEZ LE CONCESSIONNAIRE 😱 ac7ionman sur GTA 6 🎥 @ac7ionman (Kick) #GTA6 #GTA6FR #GTAVI #pourtoi #fyp",
-        "music": null
-       }
+       "status": "scheduled",
+       "title": "CARNAGE CHEZ LE CONCESSIONNAIRE 😱 ac7ionman sur GTA 6"
       },
       {
        "local": "15:05",
@@ -257,64 +198,18 @@
       {
        "local": "16:30",
        "utc": "2026-11-27T15:30+00:00",
+       "window": "fixed",
        "id": "vci-20261127-100652",
-       "window": "tiktok_priority",
-       "status": "assigned",
-       "title": "LA SUPERCAR EXPLOSE SON AVANT 😱 GTA 6 #Shorts",
-       "package": {
-        "video_url": "https://github.com/salahemd19/gta6-bot/releases/download/clips/vci-20261127-100652_tiktok.mp4",
-        "caption": "LA SUPERCAR EXPLOSE SON AVANT 😱 GTA 6 Ton préféré ? Dis-le en commentaire 👇 🎥 rraenee, neexcsgo, itsnitsi (Kick) #GTA6 #GTA6FR #GTAVI #pourtoi",
-        "music": {
-         "mode": "add in TikTok's sound picker",
-         "id": "tt-metamorphosis-interworld",
-         "title": "METAMORPHOSIS",
-         "artist": "INTERWORLD",
-         "source": "TikTok in-app sound library (TikTok Studio editor, 26 Nov 2026)",
-         "licence": "Offered in TikTok's sound picker for this account",
-         "permitted": "IN_APP_ONLY",
-         "platforms": {
-          "youtube": "NOT_APPROVED",
-          "tiktok": "IN_APP_ONLY",
-          "reels": "PENDING"
-         },
-         "attribution": "Shown automatically by TikTok",
-         "conditions": "Never embed in the uploaded video file",
-         "monetization": "Not cleared outside TikTok",
-         "alternatives": []
-        }
-       }
+       "status": "scheduled",
+       "title": "LA SUPERCAR EXPLOSE SON AVANT 😱 GTA 6 #Shorts"
       },
       {
        "local": "17:30",
        "utc": "2026-11-27T16:30+00:00",
+       "window": "fixed",
        "id": "vci-20261127-100525",
-       "window": "tiktok_priority",
-       "status": "assigned",
-       "title": "LE BRAQUAGE DE LA BIJOUTERIE 😱 GTA 6 #Shorts",
-       "package": {
-        "video_url": "https://github.com/salahemd19/gta6-bot/releases/download/clips/vci-20261127-100525_tiktok.mp4",
-        "caption": "LE BRAQUAGE DE LA BIJOUTERIE 😱 GTA 6 Ton préféré ? Dis-le en commentaire 👇 🎥 xmerghani, lordkebun, missvirgo (Kick) #GTA6 #GTA6FR #GTAVI #pourtoi",
-        "music": {
-         "mode": "add in TikTok's sound picker",
-         "id": "tt-tokyo-drift-phonkazo",
-         "title": "Tokyo Drift",
-         "artist": "PHONKAZO",
-         "source": "TikTok in-app sound library (seen in TikTok Studio editor, 26 Nov 2026)",
-         "licence": "Offered in TikTok's sound picker for this account",
-         "permitted": "IN_APP_ONLY",
-         "platforms": {
-          "youtube": "NOT_APPROVED",
-          "tiktok": "IN_APP_ONLY",
-          "reels": "PENDING"
-         },
-         "attribution": "Shown automatically by TikTok",
-         "conditions": "Never embed in the uploaded video file",
-         "monetization": "Not cleared outside TikTok",
-         "alternatives": [
-          "METAMORPHOSIS - INTERWORLD"
-         ]
-        }
-       }
+       "status": "scheduled",
+       "title": "LE BRAQUAGE DE LA BIJOUTERIE 😱 GTA 6 #Shorts"
       },
       {
        "local": "18:45",
