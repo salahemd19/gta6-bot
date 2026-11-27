@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-27T20:14+00:00",
+ "generated": "2026-11-27T20:29+00:00",
  "level": 0,
  "timezone": "Europe/Paris",
  "platforms": {
@@ -46,7 +46,7 @@
        "utc": "2026-11-27T19:45+00:00",
        "window": "fixed",
        "id": "vci-20261127-130516",
-       "status": "scheduled",
+       "status": "posted",
        "title": "IL FONCE DROIT SUR LA POLICE 😱 GTA 6 #Shorts"
       },
       {
@@ -240,22 +240,6 @@
        "id": "vci-20261127-130516",
        "status": "scheduled",
        "title": "IL FONCE DROIT SUR LA POLICE 😱 GTA 6 #Shorts"
-      },
-      {
-       "local": "21:45",
-       "utc": "2026-11-27T20:45+00:00",
-       "id": "engine-20261126-2225-2",
-       "window": "evening",
-       "status": "assigned",
-       "title": "TOP 3 MOMENTS LES PLUS FOUS SUR GTA 6 🤯 le numéro 1 est irréel",
-       "package": {
-        "video_url": "https://github.com/salahemd19/gta6-bot/releases/download/clips/engine-20261126-2225-2.mp4",
-        "caption": "TOP 3 MOMENTS LES PLUS FOUS SUR GTA 6 🤯 le numéro 1 est irréel 😱 Ton préféré ? Dis-le en commentaire 👇 🎥 pedrofederer, kasugard, sizophren (Kick) #GTA6 #GTA6FR #GTAVI #gta #pourtoi #fyp",
-        "music": [
-         "Tokyo Drift - PHONKAZO",
-         "METAMORPHOSIS - INTERWORLD"
-        ]
-       }
       }
      ]
     },
@@ -282,10 +266,18 @@
       {
        "local": "13:00",
        "utc": "2026-11-28T12:00+00:00",
+       "id": "engine-20261126-2225-2",
        "window": "lunch",
-       "id": null,
-       "status": "empty",
-       "title": null
+       "status": "assigned",
+       "title": "TOP 3 MOMENTS LES PLUS FOUS SUR GTA 6 🤯 le numéro 1 est irréel",
+       "package": {
+        "video_url": "https://github.com/salahemd19/gta6-bot/releases/download/clips/engine-20261126-2225-2.mp4",
+        "caption": "TOP 3 MOMENTS LES PLUS FOUS SUR GTA 6 🤯 le numéro 1 est irréel 😱 Ton préféré ? Dis-le en commentaire 👇 🎥 pedrofederer, kasugard, sizophren (Kick) #GTA6 #GTA6FR #GTAVI #gta #pourtoi #fyp",
+        "music": [
+         "Tokyo Drift - PHONKAZO",
+         "METAMORPHOSIS - INTERWORLD"
+        ]
+       }
       },
       {
        "local": "15:05",
@@ -410,8 +402,8 @@
    ],
    "target": 12,
    "cap": 8,
-   "filled_today": 6,
-   "empty_next_days": 15
+   "filled_today": 5,
+   "empty_next_days": 14
   }
  },
  "blocked": [],
