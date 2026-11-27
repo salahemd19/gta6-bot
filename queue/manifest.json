@@ -666,9 +666,12 @@
   "rights": "credited_third_party",
   "authenticity": "needs_review",
   "slot": "2026-11-26T22:25:30+00:00",
-  "youtube": "awaiting approval",
-  "tiktok": "awaiting approval",
-  "issue": 10
+  "youtube": "pending",
+  "tiktok": "pending",
+  "issue": 10,
+  "tg": 4,
+  "slot_youtube": "2026-11-27T20:55+00:00",
+  "slot_tiktok": "2026-11-27T19:15+00:00"
  },
  {
   "id": "engine-20261126-2225-2",
@@ -716,9 +719,12 @@
   "rights": "credited_third_party",
   "authenticity": "needs_review",
   "slot": "2026-11-26T22:26:19+00:00",
-  "youtube": "awaiting approval",
-  "tiktok": "awaiting approval",
-  "issue": 11
+  "youtube": "pending",
+  "tiktok": "pending",
+  "issue": 11,
+  "tg": 5,
+  "slot_youtube": "2026-11-28T11:30+00:00",
+  "slot_tiktok": "2026-11-27T20:45+00:00"
  },
  {
   "id": "20261126-1009-razzgo-clip02",

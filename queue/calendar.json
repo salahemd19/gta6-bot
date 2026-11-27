@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-27T15:16+00:00",
+ "generated": "2026-11-27T15:27+00:00",
  "level": 0,
  "timezone": "Europe/Paris",
  "platforms": {
@@ -52,10 +52,21 @@
       {
        "local": "21:55",
        "utc": "2026-11-27T20:55+00:00",
+       "id": "engine-20261126-2224-1",
        "window": "evening",
-       "id": null,
-       "status": "empty",
-       "title": null
+       "status": "assigned",
+       "title": "ILS ONT FAIT ÇA SUR GTA 6 (TOP 3) 🤯 le numéro 1 est irréel",
+       "package": {
+        "video_url": "https://github.com/salahemd19/gta6-bot/releases/download/clips/engine-20261126-2224-1.mp4",
+        "title": "ILS ONT FAIT ÇA SUR GTA 6 (TOP 3) 🤯 le numéro 1 est irréel",
+        "description": "Les moments les plus fous vus en live sur GTA 6 🤯 Ton préféré ? Dis-le en commentaire 👇\n🎥 Créateurs (Kick) : kasugard, pluzin, sercanzurna\nAbonne-toi pour un top GTA 6 chaque jour 🔔\n\n#GTA6 #GTAVI #GTA6FR #ViceCity #gta #Shorts",
+        "tags": "GTA 6, GTA VI, GTA 6 FR, top 3 GTA 6, GTA 6 moments fous, GTA 6 gameplay, Vice City",
+        "music": [
+         "Monster Freak Party - Bare Bones Mtl",
+         "Mirror Mirror - Anno Domini Beats",
+         "Survival Mode - Blue Deer Studio"
+        ]
+       }
       }
      ]
     },
@@ -67,9 +78,20 @@
        "local": "12:30",
        "utc": "2026-11-28T11:30+00:00",
        "window": "lunch",
-       "id": null,
-       "status": "empty",
-       "title": null
+       "id": "engine-20261126-2225-2",
+       "status": "assigned",
+       "title": "TOP 3 MOMENTS LES PLUS FOUS SUR GTA 6 🤯 le numéro 1 est irréel",
+       "package": {
+        "video_url": "https://github.com/salahemd19/gta6-bot/releases/download/clips/engine-20261126-2225-2.mp4",
+        "title": "TOP 3 MOMENTS LES PLUS FOUS SUR GTA 6 🤯 le numéro 1 est irréel",
+        "description": "Les moments les plus fous vus en live sur GTA 6 🤯 Ton préféré ? Dis-le en commentaire 👇\n🎥 Créateurs (Kick) : pedrofederer, kasugard, sizophren\nAbonne-toi pour un top GTA 6 chaque jour 🔔\n\n#GTA6 #GTAVI #GTA6FR #ViceCity #gta #Shorts",
+        "tags": "GTA 6, GTA VI, GTA 6 FR, top 3 GTA 6, GTA 6 moments fous, GTA 6 gameplay, Vice City",
+        "music": [
+         "Monster Freak Party - Bare Bones Mtl",
+         "Mirror Mirror - Anno Domini Beats",
+         "Survival Mode - Blue Deer Studio"
+        ]
+       }
       },
       {
        "local": "15:05",
@@ -170,8 +192,8 @@
    ],
    "target": 8,
    "cap": 6,
-   "filled_today": 5,
-   "empty_next_days": 13
+   "filled_today": 6,
+   "empty_next_days": 11
   },
   "tiktok": {
    "days": [
@@ -244,18 +266,34 @@
       {
        "local": "20:15",
        "utc": "2026-11-27T19:15+00:00",
+       "id": "engine-20261126-2224-1",
        "window": "evening",
-       "id": null,
-       "status": "empty",
-       "title": null
+       "status": "assigned",
+       "title": "ILS ONT FAIT ÇA SUR GTA 6 (TOP 3) 🤯 le numéro 1 est irréel",
+       "package": {
+        "video_url": "https://github.com/salahemd19/gta6-bot/releases/download/clips/engine-20261126-2224-1.mp4",
+        "caption": "ILS ONT FAIT ÇA SUR GTA 6 (TOP 3) 🤯 le numéro 1 est irréel 😱 Ton préféré ? Dis-le en commentaire 👇 🎥 kasugard, pluzin, sercanzurna (Kick) #GTA6 #GTA6FR #GTAVI #gta #pourtoi #fyp",
+        "music": [
+         "Tokyo Drift - PHONKAZO",
+         "METAMORPHOSIS - INTERWORLD"
+        ]
+       }
       },
       {
        "local": "21:45",
        "utc": "2026-11-27T20:45+00:00",
        "window": "evening",
-       "id": null,
-       "status": "empty",
-       "title": null
+       "id": "engine-20261126-2225-2",
+       "status": "assigned",
+       "title": "TOP 3 MOMENTS LES PLUS FOUS SUR GTA 6 🤯 le numéro 1 est irréel",
+       "package": {
+        "video_url": "https://github.com/salahemd19/gta6-bot/releases/download/clips/engine-20261126-2225-2.mp4",
+        "caption": "TOP 3 MOMENTS LES PLUS FOUS SUR GTA 6 🤯 le numéro 1 est irréel 😱 Ton préféré ? Dis-le en commentaire 👇 🎥 pedrofederer, kasugard, sizophren (Kick) #GTA6 #GTA6FR #GTAVI #gta #pourtoi #fyp",
+        "music": [
+         "Tokyo Drift - PHONKAZO",
+         "METAMORPHOSIS - INTERWORLD"
+        ]
+       }
       }
      ]
     },
@@ -402,36 +440,11 @@
    ],
    "target": 12,
    "cap": 8,
-   "filled_today": 5,
-   "empty_next_days": 18
+   "filled_today": 7,
+   "empty_next_days": 16
   }
  },
  "blocked": [],
- "waiting_approval": [
-  {
-   "id": "engine-20261126-2224-1",
-   "platform": "youtube",
-   "issue": 10,
-   "title": "ILS ONT FAIT ÇA SUR GTA 6 (TOP 3) 🤯 le numéro 1 est irréel"
-  },
-  {
-   "id": "engine-20261126-2225-2",
-   "platform": "youtube",
-   "issue": 11,
-   "title": "TOP 3 MOMENTS LES PLUS FOUS SUR GTA 6 🤯 le numéro 1 est irréel"
-  },
-  {
-   "id": "engine-20261126-2224-1",
-   "platform": "tiktok",
-   "issue": 10,
-   "title": "ILS ONT FAIT ÇA SUR GTA 6 (TOP 3) 🤯 le numéro 1 est irréel"
-  },
-  {
-   "id": "engine-20261126-2225-2",
-   "platform": "tiktok",
-   "issue": 11,
-   "title": "TOP 3 MOMENTS LES PLUS FOUS SUR GTA 6 🤯 le numéro 1 est irréel"
-  }
- ],
+ "waiting_approval": [],
  "missed": []
 }
