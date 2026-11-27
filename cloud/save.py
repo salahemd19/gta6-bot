@@ -26,6 +26,11 @@ def configure():
     git("config", "merge.vci.driver", f'"{Path(sys.executable).as_posix()}" cloud/mergedb.py %O %A %B %P', check=True)
 
 
+def target():
+    up = git("rev-parse", "--abbrev-ref", "@{upstream}")
+    return up.stdout.strip().split("/", 1)[1] if not up.returncode else "main"
+
+
 def save(message, paths, tries=6):
     configure()
     paths = [p for p in paths if (ROOT / p).exists()]
@@ -37,7 +42,7 @@ def save(message, paths, tries=6):
         pulled = git("pull", "--rebase", "--autostash")
         if pulled.returncode:
             git("rebase", "--abort")
-        elif not git("push").returncode:
+        elif not git("push", "origin", f"HEAD:{target()}").returncode:
             return "saved"
         print(f"retry {n + 1}: {(pulled.stderr or 'push refused')[-200:]}")
         time.sleep(random.uniform(3, 10))

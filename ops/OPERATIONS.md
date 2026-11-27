@@ -11,6 +11,9 @@ radar (hourly) → engine: ingest and analysis (3 h) → **footage review** → 
 | Analytics and reports | `cloud/analytics.py`, `db/metrics.jsonl`, `ops/reports/` | hourly / twice a day |
 | Orchestrator and control centre | `cloud/ops.py`, `ops/control_center.html` | hourly |
 
+## Footage review (added 27 Nov)
+`cloud/review.py queue` builds frame sheets; the laptop task `gta6-footage-review` judges them every 3 hours and records verdicts with `review.py apply`. It stops while 18 approved clips are waiting. Frames only: sound is not judged. Production then runs in the cloud (`operations`, with French narration); YouTube music is added in the Studio editor at scheduling time unless the file is on the producing machine.
+
 ## Production rules
 Exported only if: reviewed and kept (`db/reviews.json`), publishable rights, authenticity verified, footage never used. At least 3 clips from 3 different creators. A quality-check failure blocks submission. The YouTube export must contain a licensed music file (`music/files/<track id>.mp3`, not in the repository); TikTok sound is added in TikTok's own picker.
 

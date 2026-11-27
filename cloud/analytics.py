@@ -12,6 +12,7 @@ import argparse
 import csv
 import datetime as dt
 import hashlib
+import os
 import statistics
 import sys
 import unicodedata
@@ -59,11 +60,30 @@ def store(rows):
     return n
 
 
+def laptop_token():
+    """On the laptop, the channel authorisation already saved for the older uploader (never printed)."""
+    f = ROOT.parent / "yt_token.json"
+    if not f.exists():
+        return None
+    try:
+        from google.auth.transport.requests import Request
+        from google.oauth2.credentials import Credentials
+        c = Credentials.from_authorized_user_file(str(f))
+        if not c.valid:
+            c.refresh(Request())
+        return c.token
+    except Exception:  # noqa: BLE001
+        return None
+
+
 def collect_youtube(limit=100):
     """Own channel, official API. Needs a refresh token with read scope; says so if it is refused."""
     import requests
     import yt
-    h = {"Authorization": f"Bearer {yt.access_token()}"}
+    token = yt.access_token() if os.environ.get("YT_REFRESH_TOKEN") else laptop_token()
+    if not token:
+        raise RuntimeError("no YouTube authorisation on this machine")
+    h = {"Authorization": f"Bearer {token}"}
     base = "https://www.googleapis.com/youtube/v3/"
 
     def get(path, **params):

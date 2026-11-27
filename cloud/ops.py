@@ -72,7 +72,7 @@ def candidates():
             if not why and not r.get("media_url") and not (ROOT.parent / "kickclips" / f"{r['id']}.mp4").exists():
                 why = ["source file not retrievable from here"]
             out.append({"id": cid, "creator": r["creator"], "category": r.get("category"), "what": rv.get("action_fr"),
-                        "blockers": why})
+                        "blockers": why, "strength": rv.get("strength", 5)})
     return out
 
 
@@ -81,24 +81,24 @@ def job_produce():
     if not conf["enabled"]:
         return "production disabled"
     import factory
-    if not any(factory.MUSIC.glob("*.mp3")):
-        return "waiting: no licensed music file on this machine (music/files), so nothing is produced without music"
     ready = [c for c in candidates() if not c["blockers"]]
     made = []
     for _ in range(conf["max_videos_per_run"]):
         pick, creators = [], set()
-        for c in sorted(ready, key=lambda c: c["creator"] in creators):
+        for c in sorted(ready, key=lambda c: -c["strength"]):
             if len(pick) < conf["min_clips"] and c["creator"] not in creators:
                 pick.append(c)
                 creators.add(c["creator"])
         if len(pick) < conf["min_clips"]:
             break
         media = ROOT.parent / "kickclips"
-        meta = factory.produce([c["id"] for c in pick], media=str(media) if media.exists() else None)
+        ordered = factory.countdown(pick)
+        meta = factory.produce([c["id"] for c in ordered], media=str(media) if media.exists() else None)
         if not meta["publishable"]:
             raise RuntimeError(f"{meta['id']} failed quality control")
-        if meta["exports"]["youtube"]["music"]["mode"] != "mixed into file":
-            raise RuntimeError(f"{meta['id']} has no music in the YouTube export; not submitted")
+        missing = [p for p, e in meta["exports"].items() if not e["music"].get("id")]
+        if missing:
+            raise RuntimeError(f"{meta['id']} has no library music for {missing}; not submitted")
         factory.submit(meta)
         made.append(meta["id"])
         ready = [c for c in ready if c not in pick]
@@ -114,7 +114,7 @@ def job_calendar():
 
 
 def job_analytics_collect():
-    if not os.environ.get("YT_REFRESH_TOKEN"):
+    if not os.environ.get("YT_REFRESH_TOKEN") and not analytics.laptop_token():
         old = ROOT.parent / "stats.csv"  # on the laptop: readings logged by the older collector
         if old.exists():
             return f"{analytics.import_csv(old)} readings imported from the laptop log"

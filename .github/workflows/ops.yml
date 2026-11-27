@@ -15,11 +15,11 @@ permissions:
   issues: write
   actions: write
 concurrency:
-  group: content-engine
+  group: operations
 jobs:
   ops:
     runs-on: ubuntu-latest
-    timeout-minutes: 40
+    timeout-minutes: 60
     steps:
       - uses: actions/checkout@v4
         with:
@@ -27,7 +27,16 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
-      - run: pip install requests numpy tzdata
+      - run: pip install requests numpy tzdata faster-whisper piper-tts
+      - run: sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg
+      - run: mkdir -p cloud/fonts && curl -sL -o cloud/fonts/Anton-Regular.ttf https://github.com/google/fonts/raw/main/ofl/anton/Anton-Regular.ttf
+      - name: French voice
+        continue-on-error: true
+        run: |
+          python -m piper.download_voices fr_FR-siwis-medium --data-dir "$RUNNER_TEMP/voices"
+          echo "PIPER_VOICE=fr_FR-siwis-medium" >> "$GITHUB_ENV"
+          echo "PIPER_DIR=$RUNNER_TEMP/voices" >> "$GITHUB_ENV"
+          echo "PIPER_CREDIT=Piper, voix fr_FR-siwis (corpus SIWIS, CC BY 4.0)" >> "$GITHUB_ENV"
       - name: Orchestrate
         env:
           GH_TOKEN: ${{ github.token }}
@@ -41,4 +50,4 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          python cloud/save.py "ops: state, calendar and control centre" db queue ops/control_center.html ops/reports
+          python cloud/save.py "ops: state, calendar and control centre" db queue music/usage_log.json ops/control_center.html ops/reports

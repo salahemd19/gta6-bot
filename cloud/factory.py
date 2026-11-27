@@ -209,18 +209,19 @@ def meta_track(t, platform):
 
 
 def music_for(tpl, platform, duration):
-    """Library only. Returns (file to mix or None, metadata). TikTok in-app sounds are never baked into the file."""
-    recs = recommend.recommend(tpl["music"], platform, duration, n=8)
-    tracks = {t["id"]: t for t in recommend.load()[0]["tracks"]}
-    for r in recs:
-        t, f = tracks[r["id"]], MUSIC / f"{r['id']}.mp3"
-        if t["platforms"][platform] == "APPROVED" and f.exists():
-            return (f, r["start_s"], r["volume_db"]), {"mode": "mixed into file", **meta_track(t, platform)}
+    """Library only, least recently used first. Mixed into the YouTube file when the audio file is on this machine;
+    otherwise it is added in the platform's own editor when the video is scheduled."""
+    recs = recommend.recommend(tpl["music"], platform, duration)
     if not recs:
         return None, {"mode": "none: no approved track"}
-    t = tracks[recs[0]["id"]]
-    mode = "add in TikTok's sound picker" if t["platforms"][platform] == "IN_APP_ONLY" else "NOT mixed: audio file not on this machine"
-    return None, {"mode": mode, **meta_track(t, platform), "alternatives": [r["track"] for r in recs[1:3]]}
+    r = recs[0]
+    t = {t["id"]: t for t in recommend.load()[0]["tracks"]}[r["id"]]
+    extra = {**meta_track(t, platform), "alternatives": [x["track"] for x in recs[1:]]}
+    f = MUSIC / f"{t['id']}.mp3"
+    if t["platforms"][platform] == "APPROVED" and f.exists():
+        return (f, r["start_s"], r["volume_db"]), {"mode": "mixed into file", **extra}
+    where = "TikTok's sound picker" if platform == "tiktok" else "the YouTube Studio editor"
+    return None, {"mode": f"add in {where}", **extra}
 
 
 def export(work, base, total, voices, music, cuts, tpl, out):
@@ -317,7 +318,7 @@ def qc(video, meta):
     put("source_resolution", all(s["height"] >= 720 for s in meta["sources"]), str([s["height"] for s in meta["sources"]]), "warn")
     put("duplicate_footage", not meta["duplicates"], meta["duplicates"] or "none")
     m = meta["music"]
-    put("music_licence", m.get("mode", "").startswith(("none", "add in", "NOT")) or m.get("permitted") == "APPROVED", m.get("mode"))
+    put("music_licence", m.get("mode", "").startswith(("none", "add in")) or m.get("permitted") == "APPROVED", m.get("mode"))
     put("music_present", m.get("mode") == "mixed into file", m.get("mode"), "warn")
     put("attribution", not str(m.get("attribution", "")).startswith("CHECK"), m.get("attribution", "none"), "warn")
     return res
@@ -364,7 +365,7 @@ def produce(ids, name=None, tpl_name=None, media=None, test=False):
         raise SystemExit("BLOCKED, nothing exported:\n" + json.dumps(blocked, ensure_ascii=False, indent=1))
     recs = [by[c] for c in ids]
     single = len(recs) == 1
-    tpl_name = tpl_name or CFG["pillars"].get(recs[0].get("category"), "chaos")
+    tpl_name = tpl_name or CFG["pillars"].get(recs[-1].get("category"), "chaos")
     tpl = template(tpl_name)
     name = name or f"vci-{dt.datetime.now(dt.timezone.utc):%Y%m%d-%H%M%S}"
     work = OUT / name
@@ -475,13 +476,22 @@ def produce(ids, name=None, tpl_name=None, media=None, test=False):
     contentdb.write_json(work / "meta.json", meta)
     for p in [base, work / "list.txt", *parts, *work.glob("voice*.wav"), *work.glob("*.ttf")]:
         p.unlink(missing_ok=True)
-    if meta["publishable"]:
-        entry = {k: meta[k] for k in ("id", "created", "template", "format", "category", "duration_s", "hook", "sources", "status", "render_seconds")}
-        entry["qc"] = {k: e["qc"] for k, e in meta["exports"].items()}
-        entry["copy"] = copy
-        entry["music"] = {k: e["music"] for k, e in meta["exports"].items()}
-        contentdb.write_json(REG, registry() + [entry])
     return meta
+
+
+def register(meta):
+    entry = {k: meta[k] for k in ("id", "created", "template", "format", "category", "duration_s", "hook", "sources", "status",
+                                  "render_seconds")}
+    entry["qc"] = {k: e["qc"] for k, e in meta["exports"].items()}
+    entry["copy"] = {k: e["copy"] for k, e in meta["exports"].items()}
+    entry["music"] = {k: e["music"] for k, e in meta["exports"].items()}
+    contentdb.write_json(REG, registry() + [entry])
+
+
+def countdown(picks):
+    """Play order for a countdown: second strongest opens (hook), weakest in the middle, strongest closes."""
+    by = sorted(picks, key=lambda p: -p.get("strength", 5))
+    return [by[1]] + by[2:][::-1] + [by[0]] if len(by) > 1 else by
 
 
 def submit(meta):
@@ -489,6 +499,8 @@ def submit(meta):
     import approvals
     if not meta.get("publishable"):
         raise SystemExit(f"{meta['id']} is not publishable ({meta['status']}); not submitted")
+    if not os.environ.get("GH_TOKEN"):
+        os.environ["GH_TOKEN"] = run(["gh", "auth", "token"]).stdout.strip()
     repo = os.environ.get("GITHUB_REPOSITORY", "salahemd19/gta6-bot")
     work, base = OUT / meta["id"], f"https://github.com/{repo}/releases/download/clips/"
     yt, tt = meta["exports"]["youtube"], meta["exports"]["tiktok"]
@@ -520,6 +532,10 @@ def submit(meta):
             contentdb.set_fields(r, "factory", "produced", status="produced")
     contentdb.sync(db, "factory")
     contentdb.save(db)
+    register(meta)
+    for platform, e in meta["exports"].items():
+        if e["music"].get("id"):
+            recommend.use(e["music"]["id"], meta["id"], platform)
     return entry
 
 

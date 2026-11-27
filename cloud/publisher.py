@@ -312,6 +312,11 @@ def due():
             if kind(i.get(p)) == "scheduled" and t and dt.timedelta(minutes=10) < now_ - t < dt.timedelta(hours=36):
                 out["verify"].append({"id": i["id"], "platform": p, "slot": t.isoformat(), "title": i.get("title")})
     out["prescreen"] = sorted({w["issue"] for w in cal["waiting_approval"] if w.get("issue")})
+    try:
+        import analytics
+        out["youtube_readings"] = analytics.collect_youtube()  # cheap, hourly, so 1 h / 3 h / 24 h readings exist
+    except Exception as e:  # noqa: BLE001
+        out["youtube_readings"] = f"not collected: {str(e)[:120]}"
     return out
 
 
