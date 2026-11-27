@@ -2,7 +2,7 @@
  "jobs": {
   "approvals": {
    "failures": 0,
-   "last_ok": "2026-11-27T21:05:19+00:00",
+   "last_ok": "2026-11-27T21:12:22+00:00",
    "result": "no new decision",
    "error": null
   },
@@ -14,7 +14,7 @@
   },
   "calendar": {
    "failures": 0,
-   "last_ok": "2026-11-27T21:05:20+00:00",
+   "last_ok": "2026-11-27T21:12:23+00:00",
    "result": "youtube 6/6 today | tiktok 5/8 today",
    "error": null
   },
@@ -32,20 +32,20 @@
   },
   "reviews": {
    "failures": 0,
-   "last_ok": "2026-11-27T21:05:20+00:00",
+   "last_ok": "2026-11-27T21:12:23+00:00",
    "result": "no new verdict",
    "error": null
   },
   "post_buffer": {
    "failures": 0,
-   "last_ok": "2026-11-27T21:05:20+00:00",
+   "last_ok": "2026-11-27T21:12:23+00:00",
    "result": "not connected (add the secret BUFFER_API_KEY)",
    "error": null
   },
   "verify_youtube": {
    "failures": 0,
-   "last_ok": "2026-11-27T21:05:20+00:00",
-   "result": "1 confirmed public",
+   "last_ok": "2026-11-27T21:12:23+00:00",
+   "result": "nothing to verify",
    "error": null
   }
  },
@@ -53,31 +53,31 @@
   "radar.yml": {
    "name": "Discovery radar",
    "health": "ok",
-   "age_h": 0.5,
+   "age_h": 0.6,
    "url": "https://github.com/salahemd19/gta6-bot/actions/runs/46064758979"
   },
   "engine.yml": {
    "name": "Ingest and analysis",
    "health": "ok",
-   "age_h": 0.1,
+   "age_h": 0.2,
    "url": "https://github.com/salahemd19/gta6-bot/actions/runs/46053369598"
   },
   "backup.yml": {
    "name": "Database backup",
    "health": "ok",
-   "age_h": 16.9,
+   "age_h": 17.1,
    "url": "https://github.com/salahemd19/gta6-bot/actions/runs/45938237332"
   },
   "post.yml": {
    "name": "Publisher",
    "health": "ok",
-   "age_h": 0.6,
+   "age_h": 0.7,
    "url": "https://github.com/salahemd19/gta6-bot/actions/runs/46063900273"
   },
   "telegram.yml": {
    "name": "Telegram approvals",
    "health": "ok",
-   "age_h": 0.4,
+   "age_h": 0.6,
    "url": "https://github.com/salahemd19/gta6-bot/actions/runs/46065034376"
   }
  },
