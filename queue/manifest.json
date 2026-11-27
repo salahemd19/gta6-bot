@@ -850,12 +850,13 @@
   "score": 0,
   "render_seconds": 82,
   "slot": "2026-11-27T10:06:04+00:00",
-  "youtube": "pending",
+  "youtube": "scheduled 2026-11-27T18:40+00:00",
   "tiktok": "scheduled 2026-11-27T16:30+00:00",
   "issue": 13,
   "slot_youtube": "2026-11-27T18:40+00:00",
   "slot_tiktok": "2026-11-27T16:30+00:00",
-  "feedback_applied": "approved"
+  "feedback_applied": "approved",
+  "youtube_url": "https://youtube.com/shorts/uBBouXtjUak"
  },
  {
   "id": "vci-20261127-100652",
