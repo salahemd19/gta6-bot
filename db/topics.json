@@ -3,7 +3,7 @@
   "pillar": "MAP & SECRET DISCOVERIES",
   "last_24h": 4,
   "previous_24h": 0,
-  "news_24h": 35,
+  "news_24h": 36,
   "examples": [
    {
     "title": "BUSCANDO EASTER EGGS , MISIONES S | Clip",
@@ -39,9 +39,9 @@
  },
  "vehicles": {
   "pillar": "RACING & VEHICLES",
-  "last_24h": 5,
+  "last_24h": 6,
   "previous_24h": 1,
-  "news_24h": 12,
+  "news_24h": 13,
   "examples": [
    {
     "title": "GTA 6 A TODA VELOCIDAD EN MOTO",
@@ -64,7 +64,7 @@
     "url": "https://kick.com/aquino/clips/clip_01M8DVEDPABDXVJTJ63FJVAQ1X"
    }
   ],
-  "trend": 3.0
+  "trend": 3.5
  },
  "challenges": {
   "pillar": "CHALLENGES & EXPERIMENTS",
@@ -85,9 +85,9 @@
  },
  "funny": {
   "pillar": "VIRAL MOMENTS & CHAOS",
-  "last_24h": 49,
+  "last_24h": 51,
   "previous_24h": 5,
-  "news_24h": 1,
+  "news_24h": 2,
   "examples": [
    {
     "title": "FULL FANATICO AJAJAJA!",
@@ -110,13 +110,13 @@
     "url": "https://kick.com/envywill/clips/clip_01M8CVZHD9AYS358PKYW60YJ6H"
    }
   ],
-  "trend": 8.33
+  "trend": 8.67
  },
  "reactions": {
   "pillar": "VIRAL MOMENTS & CHAOS",
   "last_24h": 8,
   "previous_24h": 0,
-  "news_24h": 6,
+  "news_24h": 5,
   "examples": [
    {
     "title": "RockStar… 13 AÑOS ROCKSTAR…🤯",
@@ -143,7 +143,7 @@
  },
  "unusual": {
   "pillar": "LEONIDA LIFE & DETAILS",
-  "last_24h": 4,
+  "last_24h": 5,
   "previous_24h": 0,
   "news_24h": 4,
   "examples": [
@@ -162,15 +162,19 @@
    {
     "title": "RANDOM NPC AT PATROL PUMP",
     "url": "https://kick.com/denofwarrior/clips/clip_01M8DTYY6WHMAKH37RAC0BQV3S"
+   },
+   {
+    "title": "Screaming at NPCs like they're real",
+    "url": "https://kick.com/jack/clips/clip_01M8E5EPCS4CTHVPWZQYCJJ936"
    }
   ],
-  "trend": 5.0
+  "trend": 6.0
  },
  "money_tips": {
   "pillar": "CHEATS, TIPS & MONEY",
-  "last_24h": 8,
+  "last_24h": 10,
   "previous_24h": 0,
-  "news_24h": 8,
+  "news_24h": 7,
   "examples": [
    {
     "title": "chegando no heist",
@@ -193,6 +197,6 @@
     "url": "https://kick.com/patgarburgar/clips/clip_01M8DH6PFPF3J0SHQ0WW5NW7A6"
    }
   ],
-  "trend": 9.0
+  "trend": 11.0
  }
 }
