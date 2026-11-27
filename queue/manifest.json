@@ -671,7 +671,8 @@
   "issue": 10,
   "tg": 4,
   "slot_youtube": "2026-11-27T20:55+00:00",
-  "slot_tiktok": "2026-11-27T19:15+00:00"
+  "slot_tiktok": "2026-11-27T19:15+00:00",
+  "feedback_applied": "approved"
  },
  {
   "id": "engine-20261126-2225-2",
@@ -724,7 +725,8 @@
   "issue": 11,
   "tg": 5,
   "slot_youtube": "2026-11-28T11:30+00:00",
-  "slot_tiktok": "2026-11-27T20:45+00:00"
+  "slot_tiktok": "2026-11-27T20:45+00:00",
+  "feedback_applied": "approved"
  },
  {
   "id": "20261126-1009-razzgo-clip02",
