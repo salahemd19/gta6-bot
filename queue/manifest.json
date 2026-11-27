@@ -1211,7 +1211,8 @@
   "slot": "2026-11-27T22:13:27+00:00",
   "youtube": "awaiting approval",
   "tiktok": "awaiting approval",
-  "issue": 16
+  "issue": 16,
+  "tg": 9
  },
  {
   "id": "vci-20261127-221449",
@@ -1322,6 +1323,7 @@
   "slot": "2026-11-27T22:15:46+00:00",
   "youtube": "awaiting approval",
   "tiktok": "awaiting approval",
-  "issue": 17
+  "issue": 17,
+  "tg": 10
  }
 ]
