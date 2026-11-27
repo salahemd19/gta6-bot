@@ -2,8 +2,8 @@
  "jobs": {
   "approvals": {
    "failures": 0,
-   "last_ok": "2026-11-27T13:35:53+00:00",
-   "result": "no new decision",
+   "last_ok": "2026-11-27T14:12:55+00:00",
+   "result": "owner decisions applied",
    "error": null
   },
   "produce": {
@@ -14,8 +14,8 @@
   },
   "calendar": {
    "failures": 0,
-   "last_ok": "2026-11-27T13:35:53+00:00",
-   "result": "youtube 4/6 today | tiktok 4/8 today",
+   "last_ok": "2026-11-27T14:12:55+00:00",
+   "result": "youtube 5/6 today | tiktok 5/8 today",
    "error": null
   },
   "analytics_collect": {
@@ -35,26 +35,26 @@
   "radar.yml": {
    "name": "Discovery radar",
    "health": "ok",
-   "age_h": 1.0,
-   "url": "https://github.com/salahemd19/gta6-bot/actions/runs/46000532382"
+   "age_h": 0.2,
+   "url": "https://github.com/salahemd19/gta6-bot/actions/runs/46011943056"
   },
   "engine.yml": {
    "name": "Ingest and analysis",
    "health": "ok",
-   "age_h": 0.3,
-   "url": "https://github.com/salahemd19/gta6-bot/actions/runs/45986337547"
+   "age_h": 0.9,
+   "url": "https://github.com/salahemd19/gta6-bot/actions/runs/46005758604"
   },
   "backup.yml": {
    "name": "Database backup",
    "health": "ok",
-   "age_h": 9.5,
+   "age_h": 10.1,
    "url": "https://github.com/salahemd19/gta6-bot/actions/runs/45938237332"
   },
   "post.yml": {
    "name": "Publisher",
    "health": "ok",
-   "age_h": 1.1,
-   "url": "https://github.com/salahemd19/gta6-bot/actions/runs/45999523288"
+   "age_h": 0.3,
+   "url": "https://github.com/salahemd19/gta6-bot/actions/runs/46010944639"
   }
  },
  "alerts": []

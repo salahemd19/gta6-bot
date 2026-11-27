@@ -93,3 +93,5 @@
 {"at": "2026-11-27T13:36:03+00:00", "job": "analytics_collect", "result": "error (attempt 2/3)", "detail": "HTTPError: 401 Client Error: Unauthorized for url: https://oauth2.googleapis.com/token"}
 {"at": "2026-11-27T13:36:23+00:00", "job": "analytics_collect", "result": "error (attempt 3/3)", "detail": "HTTPError: 401 Client Error: Unauthorized for url: https://oauth2.googleapis.com/token"}
 {"at": "2026-11-27T13:37:10+00:00", "job": "analytics_collect", "result": "ok", "detail": "72 YouTube readings (TikTok needs a CSV import)"}
+{"at": "2026-11-27T14:12:55+00:00", "job": "approvals", "result": "ok", "detail": "owner decisions applied"}
+{"at": "2026-11-27T14:12:55+00:00", "job": "calendar", "result": "ok", "detail": "youtube 5/6 today | tiktok 5/8 today"}
