@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-27T15:01+00:00",
+ "generated": "2026-11-27T15:16+00:00",
  "level": 0,
  "timezone": "Europe/Paris",
  "platforms": {
@@ -44,37 +44,10 @@
       {
        "local": "20:45",
        "utc": "2026-11-27T19:45+00:00",
+       "window": "fixed",
        "id": "vci-20261127-130516",
-       "window": "evening",
-       "status": "assigned",
-       "title": "IL FONCE DROIT SUR LA POLICE 😱 GTA 6 #Shorts",
-       "package": {
-        "video_url": "https://github.com/salahemd19/gta6-bot/releases/download/clips/vci-20261127-130516_youtube.mp4",
-        "title": "IL FONCE DROIT SUR LA POLICE 😱 GTA 6 #Shorts",
-        "description": "En plein ciel, un hélicoptère est touché près d'un appareil noir puis descend en traînant une épaisse fumée noire.\nTon préféré ? Dis-le en commentaire 👇\n🎥 Créateurs (Kick) : missvirgo, ayellol, zony\nVoix : Piper, voix fr_FR-siwis (corpus SIWIS, CC BY 4.0)\n#GTA6 #GTAVI #GTA6FR #Shorts",
-        "tags": "GTA 6, GTA VI, GTA 6 FR, Vice City",
-        "music": {
-         "mode": "add in the YouTube Studio editor",
-         "id": "ytal-ego-chall",
-         "title": "Ego Chall",
-         "artist": "Blue Deer Studio",
-         "source": "YouTube Audio Library",
-         "licence": "YouTube Audio Library (YouTube Studio > Bibliothèque audio, channel VICECITY INTEL), licence shown as 'Licence de la bibliothèque audio YouTube', seen 2026-11-26",
-         "permitted": "APPROVED",
-         "platforms": {
-          "youtube": "APPROVED",
-          "tiktok": "PENDING",
-          "reels": "PENDING"
-         },
-         "attribution": "CHECK: open the track's licence icon in Studio; if attribution is required, paste it in the description",
-         "conditions": "Use in videos only; never re-distribute the audio file. Other platforms are not covered until verified.",
-         "monetization": "YouTube: allowed under the YouTube Audio Library terms; elsewhere not verified",
-         "alternatives": [
-          "The One Fight - Bare Bones Mtl",
-          "Comin Wit It - Anno Domini Beats"
-         ]
-        }
-       }
+       "status": "scheduled",
+       "title": "IL FONCE DROIT SUR LA POLICE 😱 GTA 6 #Shorts"
       },
       {
        "local": "21:55",
@@ -219,7 +192,7 @@
        "utc": "2026-11-27T14:05+00:00",
        "window": "fixed",
        "id": "20261126-1009-razzgo-clip02",
-       "status": "scheduled",
+       "status": "posted",
        "title": "FUSILLADE DE NUIT DANS L'ENTREPÔT 🔫 razzgo sur GTA 6"
       },
       {

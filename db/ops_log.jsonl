@@ -103,3 +103,8 @@
 {"at": "2026-11-27T14:44:04+00:00", "job": "analytics_collect", "result": "ok", "detail": "73 YouTube readings (TikTok needs a CSV import)"}
 {"at": "2026-11-27T14:51:52+00:00", "job": "reviews", "result": "ok", "detail": "the verdict branch has no verdict file"}
 {"at": "2026-11-27T14:53:41+00:00", "job": "reviews", "result": "ok", "detail": "1 verdicts recorded, 0 refused"}
+{"at": "2026-11-27T15:16:27+00:00", "job": "approvals", "result": "ok", "detail": "no new decision"}
+{"at": "2026-11-27T15:16:28+00:00", "job": "reviews", "result": "ok", "detail": "no new verdict"}
+{"at": "2026-11-27T15:16:28+00:00", "job": "calendar", "result": "ok", "detail": "youtube 5/6 today | tiktok 5/8 today"}
+{"at": "2026-11-27T15:16:28+00:00", "job": "post_buffer", "result": "ok", "detail": "not connected (add the secret BUFFER_API_KEY)"}
+{"at": "2026-11-27T15:16:28+00:00", "job": "verify_youtube", "result": "ok", "detail": "nothing to verify"}
