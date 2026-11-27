@@ -2,7 +2,7 @@
  "jobs": {
   "approvals": {
    "failures": 0,
-   "last_ok": "2026-11-27T21:04:41+00:00",
+   "last_ok": "2026-11-27T21:05:19+00:00",
    "result": "no new decision",
    "error": null
   },
@@ -14,7 +14,7 @@
   },
   "calendar": {
    "failures": 0,
-   "last_ok": "2026-11-27T21:04:42+00:00",
+   "last_ok": "2026-11-27T21:05:20+00:00",
    "result": "youtube 6/6 today | tiktok 5/8 today",
    "error": null
   },
@@ -32,20 +32,20 @@
   },
   "reviews": {
    "failures": 0,
-   "last_ok": "2026-11-27T21:04:42+00:00",
+   "last_ok": "2026-11-27T21:05:20+00:00",
    "result": "no new verdict",
    "error": null
   },
   "post_buffer": {
    "failures": 0,
-   "last_ok": "2026-11-27T21:04:42+00:00",
+   "last_ok": "2026-11-27T21:05:20+00:00",
    "result": "not connected (add the secret BUFFER_API_KEY)",
    "error": null
   },
   "verify_youtube": {
    "failures": 0,
-   "last_ok": "2026-11-27T21:04:42+00:00",
-   "result": "nothing to verify",
+   "last_ok": "2026-11-27T21:05:20+00:00",
+   "result": "1 confirmed public",
    "error": null
   }
  },
