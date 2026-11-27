@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-27T10:47+00:00",
+ "generated": "2026-11-27T10:54+00:00",
  "level": 0,
  "timezone": "Europe/Paris",
  "platforms": {
@@ -20,17 +20,10 @@
       {
        "local": "15:05",
        "utc": "2026-11-27T14:05+00:00",
+       "window": "fixed",
        "id": "20261126-1033-ac7ionman-clip01",
-       "window": "afternoon",
-       "status": "assigned",
-       "title": "CARNAGE CHEZ LE CONCESSIONNAIRE 😱 ac7ionman sur GTA 6",
-       "package": {
-        "video_url": "https://github.com/salahemd19/gta6-bot/releases/download/clips/20261126-1033-ac7ionman-clip01-v2.mp4",
-        "title": "CARNAGE CHEZ LE CONCESSIONNAIRE 😱 ac7ionman sur GTA 6",
-        "description": "Clip du live de ac7ionman sur Kick.\n\n#GTA6 #GTAVI #Shorts",
-        "tags": "",
-        "music": null
-       }
+       "status": "scheduled",
+       "title": "CARNAGE CHEZ LE CONCESSIONNAIRE 😱 ac7ionman sur GTA 6"
       },
       {
        "local": "18:30",
@@ -202,15 +195,10 @@
       {
        "local": "15:05",
        "utc": "2026-11-27T14:05+00:00",
-       "window": "afternoon",
+       "window": "fixed",
        "id": "20261126-1009-razzgo-clip02",
-       "status": "assigned",
-       "title": "FUSILLADE DE NUIT DANS L'ENTREPÔT 🔫 razzgo sur GTA 6",
-       "package": {
-        "video_url": "https://github.com/salahemd19/gta6-bot/releases/download/clips/20261126-1009-razzgo-clip02-v2.mp4",
-        "caption": "FUSILLADE DE NUIT DANS L'ENTREPÔT 🔫 razzgo sur GTA 6 🎥 @razzgo (Kick) #GTA6 #GTA6FR #GTAVI #pourtoi #fyp",
-        "music": null
-       }
+       "status": "scheduled",
+       "title": "FUSILLADE DE NUIT DANS L'ENTREPÔT 🔫 razzgo sur GTA 6"
       },
       {
        "local": "16:30",
