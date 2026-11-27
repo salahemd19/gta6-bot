@@ -1089,11 +1089,12 @@
   "render_seconds": 142,
   "slot": "2026-11-27T13:06:25+00:00",
   "youtube": "scheduled 2026-11-27T19:45+00:00",
-  "tiktok": "pending",
+  "tiktok": "scheduled 2026-11-27T17:45+00:00",
   "issue": 15,
   "slot_youtube": "2026-11-27T19:45+00:00",
   "slot_tiktok": "2026-11-27T17:45+00:00",
   "feedback_applied": "approved",
-  "youtube_url": "https://youtube.com/shorts/Ww7WIgBNQK4"
+  "youtube_url": "https://youtube.com/shorts/Ww7WIgBNQK4",
+  "tiktok_url": "https://www.tiktok.com/@vicecity_intel1/video/7712875039363779862"
  }
 ]
