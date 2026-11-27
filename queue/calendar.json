@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-27T22:02+00:00",
+ "generated": "2026-11-27T22:16+00:00",
  "level": 0,
  "timezone": "Europe/Paris",
  "platforms": {
@@ -396,6 +396,31 @@
   }
  },
  "blocked": [],
- "waiting_approval": [],
+ "waiting_approval": [
+  {
+   "id": "vci-20261127-221225",
+   "platform": "youtube",
+   "issue": 16,
+   "title": "L'AVION S'ÉCRASE EN PLEIN CHAMP 😱 GTA 6 #Shorts"
+  },
+  {
+   "id": "vci-20261127-221449",
+   "platform": "youtube",
+   "issue": 17,
+   "title": "L'HÉLICO FINIT DANS LES ARBRES 😱 GTA 6 #Shorts"
+  },
+  {
+   "id": "vci-20261127-221225",
+   "platform": "tiktok",
+   "issue": 16,
+   "title": "L'AVION S'ÉCRASE EN PLEIN CHAMP 😱 GTA 6 #Shorts"
+  },
+  {
+   "id": "vci-20261127-221449",
+   "platform": "tiktok",
+   "issue": 17,
+   "title": "L'HÉLICO FINIT DANS LES ARBRES 😱 GTA 6 #Shorts"
+  }
+ ],
  "missed": []
 }

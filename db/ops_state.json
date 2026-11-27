@@ -2,25 +2,25 @@
  "jobs": {
   "approvals": {
    "failures": 0,
-   "last_ok": "2026-11-27T21:12:22+00:00",
+   "last_ok": "2026-11-27T22:12:23+00:00",
    "result": "no new decision",
    "error": null
   },
   "produce": {
    "failures": 0,
-   "last_ok": "2026-11-27T19:16:28+00:00",
-   "result": "waiting: 0 approved clips ready from 0 creators; 3 clips from different creators needed",
+   "last_ok": "2026-11-27T22:16:58+00:00",
+   "result": "produced vci-20261127-221225, vci-20261127-221449",
    "error": null
   },
   "calendar": {
    "failures": 0,
-   "last_ok": "2026-11-27T21:12:23+00:00",
+   "last_ok": "2026-11-27T22:16:58+00:00",
    "result": "youtube 6/6 today | tiktok 5/8 today",
    "error": null
   },
   "analytics_collect": {
    "failures": 0,
-   "last_ok": "2026-11-27T21:04:43+00:00",
+   "last_ok": "2026-11-27T22:16:59+00:00",
    "result": "78 YouTube readings (TikTok needs a CSV import)",
    "error": null
   },
@@ -32,19 +32,19 @@
   },
   "reviews": {
    "failures": 0,
-   "last_ok": "2026-11-27T21:33:35+00:00",
-   "result": "12 verdicts recorded, 0 refused",
+   "last_ok": "2026-11-27T22:12:24+00:00",
+   "result": "no new verdict",
    "error": null
   },
   "post_buffer": {
    "failures": 0,
-   "last_ok": "2026-11-27T21:12:23+00:00",
+   "last_ok": "2026-11-27T22:16:58+00:00",
    "result": "not connected (add the secret BUFFER_API_KEY)",
    "error": null
   },
   "verify_youtube": {
    "failures": 0,
-   "last_ok": "2026-11-27T21:12:23+00:00",
+   "last_ok": "2026-11-27T22:16:58+00:00",
    "result": "nothing to verify",
    "error": null
   }
@@ -53,32 +53,32 @@
   "radar.yml": {
    "name": "Discovery radar",
    "health": "ok",
-   "age_h": 1.0,
-   "url": "https://github.com/salahemd19/gta6-bot/actions/runs/46064758979"
+   "age_h": 0.7,
+   "url": "https://github.com/salahemd19/gta6-bot/actions/runs/46071270891"
   },
   "engine.yml": {
    "name": "Ingest and analysis",
    "health": "ok",
-   "age_h": 0.1,
+   "age_h": 0.9,
    "url": "https://github.com/salahemd19/gta6-bot/actions/runs/46070182940"
   },
   "backup.yml": {
    "name": "Database backup",
    "health": "ok",
-   "age_h": 17.4,
+   "age_h": 18.1,
    "url": "https://github.com/salahemd19/gta6-bot/actions/runs/45938237332"
   },
   "post.yml": {
    "name": "Publisher",
    "health": "ok",
-   "age_h": 0.1,
+   "age_h": 0.8,
    "url": "https://github.com/salahemd19/gta6-bot/actions/runs/46070558683"
   },
   "telegram.yml": {
    "name": "Telegram approvals",
    "health": "ok",
-   "age_h": 0.9,
-   "url": "https://github.com/salahemd19/gta6-bot/actions/runs/46065034376"
+   "age_h": 0.7,
+   "url": "https://github.com/salahemd19/gta6-bot/actions/runs/46071394067"
   }
  },
  "alerts": []

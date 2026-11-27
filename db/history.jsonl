@@ -3156,3 +3156,15 @@
 {"at": "2026-11-27T21:35:38+00:00", "id": "VCI-0953374c4a", "by": "pipeline", "changes": {"created": [null, "https://kick.com/xenathewitch/clips/clip_01M8FEG1J6BV74JZ9KXENWCA69"]}, "note": ""}
 {"at": "2026-11-27T21:35:38+00:00", "id": "VCI-7625c83189", "by": "pipeline", "changes": {"created": [null, "https://kick.com/uzaktanasyali/clips/clip_01M8FEFN9HAXAJEST01DEPWQ93"]}, "note": ""}
 {"at": "2026-11-27T21:35:38+00:00", "id": "VCI-a32888c121", "by": "pipeline", "changes": {"created": [null, "https://kick.com/only1its/clips/clip_01M8FEFKPYJMRET4PB9Q7696H8"]}, "note": ""}
+{"at": "2026-11-27T22:14:49+00:00", "id": "VCI-047971f97e", "by": "factory", "changes": {"status": ["analysed", "produced"]}, "note": "produced"}
+{"at": "2026-11-27T22:14:49+00:00", "id": "VCI-6cc5ff7e05", "by": "factory", "changes": {"status": ["analysed", "produced"]}, "note": "produced"}
+{"at": "2026-11-27T22:14:49+00:00", "id": "VCI-65335a5d90", "by": "factory", "changes": {"status": ["analysed", "produced"]}, "note": "produced"}
+{"at": "2026-11-27T22:14:49+00:00", "id": "VCI-047971f97e", "by": "factory", "changes": {"stage": ["RIGHTS_RECORDED", "PRODUCED"], "production_status": ["none", "produced"]}, "note": "sync"}
+{"at": "2026-11-27T22:14:49+00:00", "id": "VCI-6cc5ff7e05", "by": "factory", "changes": {"stage": ["RIGHTS_RECORDED", "PRODUCED"], "production_status": ["none", "produced"]}, "note": "sync"}
+{"at": "2026-11-27T22:14:49+00:00", "id": "VCI-65335a5d90", "by": "factory", "changes": {"stage": ["RIGHTS_RECORDED", "PRODUCED"], "production_status": ["none", "produced"]}, "note": "sync"}
+{"at": "2026-11-27T22:16:58+00:00", "id": "VCI-9ed0efaa82", "by": "factory", "changes": {"status": ["analysed", "produced"]}, "note": "produced"}
+{"at": "2026-11-27T22:16:58+00:00", "id": "VCI-642f1b6d79", "by": "factory", "changes": {"status": ["analysed", "produced"]}, "note": "produced"}
+{"at": "2026-11-27T22:16:58+00:00", "id": "VCI-d5658b1406", "by": "factory", "changes": {"status": ["analysed", "produced"]}, "note": "produced"}
+{"at": "2026-11-27T22:16:58+00:00", "id": "VCI-9ed0efaa82", "by": "factory", "changes": {"stage": ["RIGHTS_RECORDED", "PRODUCED"], "production_status": ["none", "produced"]}, "note": "sync"}
+{"at": "2026-11-27T22:16:58+00:00", "id": "VCI-642f1b6d79", "by": "factory", "changes": {"stage": ["RIGHTS_RECORDED", "PRODUCED"], "production_status": ["none", "produced"]}, "note": "sync"}
+{"at": "2026-11-27T22:16:58+00:00", "id": "VCI-d5658b1406", "by": "factory", "changes": {"stage": ["RIGHTS_RECORDED", "PRODUCED"], "production_status": ["none", "produced"]}, "note": "sync"}

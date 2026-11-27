@@ -1101,5 +1101,227 @@
   "feedback_applied": "approved",
   "youtube_url": "https://youtube.com/shorts/Ww7WIgBNQK4",
   "tiktok_url": "https://www.tiktok.com/@vicecity_intel1/video/7712875039363779862"
+ },
+ {
+  "id": "vci-20261127-221225",
+  "type": "top3",
+  "created": "2026-11-27T22:13:27+00:00",
+  "title": "L'AVION S'ÉCRASE EN PLEIN CHAMP 😱 GTA 6 #Shorts",
+  "video_url": "https://github.com/salahemd19/gta6-bot/releases/download/clips/vci-20261127-221225_youtube.mp4",
+  "video_url_tiktok": "https://github.com/salahemd19/gta6-bot/releases/download/clips/vci-20261127-221225_tiktok.mp4",
+  "sheet_url": "https://github.com/salahemd19/gta6-bot/releases/download/clips/vci-20261127-221225_youtube_sheet.jpg",
+  "youtube_description": "Cernée par la police près d'un camion, une voiture noire se dégage et s'enfuit sur la route pendant que l'intervention continue.\nTon préféré ? Dis-le en commentaire 👇\n🎥 Créateurs (Kick) : kaneljoseph, fitddiva, yoda\nVoix : Piper, voix fr_FR-siwis (corpus SIWIS, CC BY 4.0)\n#GTA6 #GTAVI #GTA6FR #Shorts",
+  "tiktok_caption": "L'AVION S'ÉCRASE EN PLEIN CHAMP 😱 GTA 6 Ton préféré ? Dis-le en commentaire 👇 🎥 kaneljoseph, fitddiva, yoda (Kick) #GTA6 #GTA6FR #GTAVI #pourtoi",
+  "tags": "GTA 6, GTA VI, GTA 6 FR, Vice City",
+  "music": {
+   "youtube": {
+    "mode": "add in the YouTube Studio editor",
+    "id": "ytal-comin-wit-it",
+    "title": "Comin Wit It",
+    "artist": "Anno Domini Beats",
+    "source": "YouTube Audio Library",
+    "licence": "YouTube Audio Library (YouTube Studio > Bibliothèque audio, channel VICECITY INTEL), licence shown as 'Licence de la bibliothèque audio YouTube', seen 2026-11-26",
+    "permitted": "APPROVED",
+    "platforms": {
+     "youtube": "APPROVED",
+     "tiktok": "PENDING",
+     "reels": "PENDING"
+    },
+    "attribution": "CHECK: open the track's licence icon in Studio; if attribution is required, paste it in the description",
+    "conditions": "Use in videos only; never re-distribute the audio file. Other platforms are not covered until verified.",
+    "monetization": "YouTube: allowed under the YouTube Audio Library terms; elsewhere not verified",
+    "alternatives": [
+     "The One Fight - Bare Bones Mtl",
+     "Survival Mode - Blue Deer Studio"
+    ]
+   },
+   "tiktok": {
+    "mode": "add in TikTok's sound picker",
+    "id": "tt-metamorphosis-interworld",
+    "title": "METAMORPHOSIS",
+    "artist": "INTERWORLD",
+    "source": "TikTok in-app sound library (TikTok Studio editor, 26 Nov 2026)",
+    "licence": "Offered in TikTok's sound picker for this account",
+    "permitted": "IN_APP_ONLY",
+    "platforms": {
+     "youtube": "NOT_APPROVED",
+     "tiktok": "IN_APP_ONLY",
+     "reels": "PENDING"
+    },
+    "attribution": "Shown automatically by TikTok",
+    "conditions": "Never embed in the uploaded video file",
+    "monetization": "Not cleared outside TikTok",
+    "alternatives": []
+   }
+  },
+  "sources": [
+   {
+    "content_id": "VCI-65335a5d90",
+    "creator": "kaneljoseph",
+    "platform": "kick",
+    "url": "https://kick.com/kaneljoseph/clips/clip_01M8AJSCC74A808P7V1AVP8GMG",
+    "rights": "credited_third_party",
+    "start": 23.5,
+    "end": 30.0,
+    "at": 0.0,
+    "len": 6.5,
+    "height": 1080,
+    "dhash": "3a48eca4d6ce5e23",
+    "rank": 3
+   },
+   {
+    "content_id": "VCI-6cc5ff7e05",
+    "creator": "fitddiva",
+    "platform": "kick",
+    "url": "https://kick.com/fitddiva/clips/clip_01M8EFJR03RM1B6Z17YGFAYV8Y",
+    "rights": "credited_third_party",
+    "start": 40.0,
+    "end": 46.5,
+    "at": 6.5,
+    "len": 6.5,
+    "height": 1080,
+    "dhash": "2e39ceee461e9f3d",
+    "rank": 2
+   },
+   {
+    "content_id": "VCI-047971f97e",
+    "creator": "yoda",
+    "platform": "kick",
+    "url": "https://kick.com/yoda/clips/clip_01M8CQNR0H2DCFV93D2NTMCTH0",
+    "rights": "credited_third_party",
+    "start": 18.0,
+    "end": 24.5,
+    "at": 13.0,
+    "len": 6.5,
+    "height": 1080,
+    "dhash": "70c8c8c8edad2c2c",
+    "rank": 1
+   }
+  ],
+  "streamer": "kaneljoseph,fitddiva,yoda",
+  "rights": "credited_third_party",
+  "authenticity": "verified_by_review",
+  "category": "VIRAL MOMENTS & CHAOS",
+  "series": "ALERTE LEONIDA",
+  "template": "chaos",
+  "hook": "L'AVION S'ÉCRASE EN PLEIN CHAMP",
+  "duration_s": 19.5,
+  "score": 0,
+  "render_seconds": 139,
+  "slot": "2026-11-27T22:13:27+00:00",
+  "youtube": "awaiting approval",
+  "tiktok": "awaiting approval",
+  "issue": 16
+ },
+ {
+  "id": "vci-20261127-221449",
+  "type": "top3",
+  "created": "2026-11-27T22:15:46+00:00",
+  "title": "L'HÉLICO FINIT DANS LES ARBRES 😱 GTA 6 #Shorts",
+  "video_url": "https://github.com/salahemd19/gta6-bot/releases/download/clips/vci-20261127-221449_youtube.mp4",
+  "video_url_tiktok": "https://github.com/salahemd19/gta6-bot/releases/download/clips/vci-20261127-221449_tiktok.mp4",
+  "sheet_url": "https://github.com/salahemd19/gta6-bot/releases/download/clips/vci-20261127-221449_youtube_sheet.jpg",
+  "youtube_description": "Une voiture de sport percute un fourgon blindé qui se renverse, billets éparpillés sur la route.\nTon préféré ? Dis-le en commentaire 👇\n🎥 Créateurs (Kick) : splitsouldoesthings, soyneiler, gorlaios\nVoix : Piper, voix fr_FR-siwis (corpus SIWIS, CC BY 4.0)\n#GTA6 #GTAVI #GTA6FR #Shorts",
+  "tiktok_caption": "L'HÉLICO FINIT DANS LES ARBRES 😱 GTA 6 Ton préféré ? Dis-le en commentaire 👇 🎥 splitsouldoesthings, soyneiler, gorlaios (Kick) #GTA6 #GTA6FR #GTAVI #pourtoi",
+  "tags": "GTA 6, GTA VI, GTA 6 FR, Vice City",
+  "music": {
+   "youtube": {
+    "mode": "add in the YouTube Studio editor",
+    "id": "ytal-the-one-fight",
+    "title": "The One Fight",
+    "artist": "Bare Bones Mtl",
+    "source": "YouTube Audio Library",
+    "licence": "YouTube Audio Library (YouTube Studio > Bibliothèque audio, channel VICECITY INTEL), licence shown as 'Licence de la bibliothèque audio YouTube', seen 2026-11-26",
+    "permitted": "APPROVED",
+    "platforms": {
+     "youtube": "APPROVED",
+     "tiktok": "PENDING",
+     "reels": "PENDING"
+    },
+    "attribution": "CHECK: open the track's licence icon in Studio; if attribution is required, paste it in the description",
+    "conditions": "Use in videos only; never re-distribute the audio file. Other platforms are not covered until verified.",
+    "monetization": "YouTube: allowed under the YouTube Audio Library terms; elsewhere not verified",
+    "alternatives": [
+     "Survival Mode - Blue Deer Studio",
+     "Ego Chall - Blue Deer Studio"
+    ]
+   },
+   "tiktok": {
+    "mode": "add in TikTok's sound picker",
+    "id": "tt-tokyo-drift-phonkazo",
+    "title": "Tokyo Drift",
+    "artist": "PHONKAZO",
+    "source": "TikTok in-app sound library (seen in TikTok Studio editor, 26 Nov 2026)",
+    "licence": "Offered in TikTok's sound picker for this account",
+    "permitted": "IN_APP_ONLY",
+    "platforms": {
+     "youtube": "NOT_APPROVED",
+     "tiktok": "IN_APP_ONLY",
+     "reels": "PENDING"
+    },
+    "attribution": "Shown automatically by TikTok",
+    "conditions": "Never embed in the uploaded video file",
+    "monetization": "Not cleared outside TikTok",
+    "alternatives": []
+   }
+  },
+  "sources": [
+   {
+    "content_id": "VCI-642f1b6d79",
+    "creator": "splitsouldoesthings",
+    "platform": "kick",
+    "url": "https://kick.com/splitsouldoesthings/clips/clip_01M8DMWTHSQ5S93MAM9JD3KNWT",
+    "rights": "credited_third_party",
+    "start": 28.0,
+    "end": 34.5,
+    "at": 0.0,
+    "len": 6.5,
+    "height": 1080,
+    "dhash": "7060d1b2628cac1a",
+    "rank": 3
+   },
+   {
+    "content_id": "VCI-d5658b1406",
+    "creator": "soyneiler",
+    "platform": "kick",
+    "url": "https://kick.com/soyneiler/clips/clip_01M8DTV48YZBCMKPVB6ZXFVWEH",
+    "rights": "credited_third_party",
+    "start": 19.0,
+    "end": 25.5,
+    "at": 6.5,
+    "len": 6.5,
+    "height": 1080,
+    "dhash": "f494c4691397b333",
+    "rank": 2
+   },
+   {
+    "content_id": "VCI-9ed0efaa82",
+    "creator": "gorlaios",
+    "platform": "kick",
+    "url": "https://kick.com/gorlaios/clips/clip_01M8AMSVGJ2EH2M9DCH7RM8NPQ",
+    "rights": "credited_third_party",
+    "start": 8.0,
+    "end": 14.5,
+    "at": 13.0,
+    "len": 6.5,
+    "height": 720,
+    "dhash": "d8e2f1f0eccc8626",
+    "rank": 1
+   }
+  ],
+  "streamer": "splitsouldoesthings,soyneiler,gorlaios",
+  "rights": "credited_third_party",
+  "authenticity": "verified_by_review",
+  "category": "VIRAL MOMENTS & CHAOS",
+  "series": "ALERTE LEONIDA",
+  "template": "chaos",
+  "hook": "L'HÉLICO FINIT DANS LES ARBRES",
+  "duration_s": 19.5,
+  "score": 0,
+  "render_seconds": 125,
+  "slot": "2026-11-27T22:15:46+00:00",
+  "youtube": "awaiting approval",
+  "tiktok": "awaiting approval",
+  "issue": 17
  }
 ]

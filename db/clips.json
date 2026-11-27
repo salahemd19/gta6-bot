@@ -19801,10 +19801,12 @@
   "vod_starts_at": 0,
   "is_mature": true,
   "discovered_at": "2026-11-26T20:15:57+00:00",
-  "status": "analysed",
+  "status": "produced",
   "authenticity": "verified_by_review",
   "rights": "credited_third_party",
-  "used_in": [],
+  "used_in": [
+   "vci-20261127-221225"
+  ],
   "duplicate_of": null,
   "seen_at": "2026-11-27T21:35:25+00:00",
   "radar": {
@@ -19835,7 +19837,7 @@
   "attribution": "@yoda (Kick)",
   "suggested_hook": "ILS ONT FAIT ÇA SUR GTA 6",
   "suggested_title": "Ils ont fait ça sur gta 6 😱 (@yoda)",
-  "production_status": "none",
+  "production_status": "produced",
   "approval": {
    "editorial": null,
    "production": null,
@@ -19843,9 +19845,9 @@
   },
   "publications": [],
   "analytics": {},
-  "stage": "RIGHTS_RECORDED",
+  "stage": "PRODUCED",
   "state": "active",
-  "updated_at": "2026-11-27T20:33:48+00:00",
+  "updated_at": "2026-11-27T22:14:49+00:00",
   "views_per_hour_recent": 0.0,
   "metrics": {
    "motion": 28.0,
@@ -84590,10 +84592,12 @@
   "vod_starts_at": 0,
   "is_mature": true,
   "discovered_at": "2026-11-27T01:22:00+00:00",
-  "status": "analysed",
+  "status": "produced",
   "authenticity": "verified_by_review",
   "rights": "credited_third_party",
-  "used_in": [],
+  "used_in": [
+   "vci-20261127-221449"
+  ],
   "duplicate_of": null,
   "content_id": "VCI-9ed0efaa82",
   "platform": "kick",
@@ -84612,7 +84616,7 @@
   "attribution": "@gorlaios (Kick)",
   "suggested_hook": "ILS ONT FAIT ÇA SUR GTA 6",
   "suggested_title": "Ils ont fait ça sur gta 6 😱 (@gorlaios)",
-  "production_status": "none",
+  "production_status": "produced",
   "approval": {
    "editorial": null,
    "production": null,
@@ -84620,9 +84624,9 @@
   },
   "publications": [],
   "analytics": {},
-  "stage": "RIGHTS_RECORDED",
+  "stage": "PRODUCED",
   "state": "active",
-  "updated_at": "2026-11-27T21:33:34+00:00",
+  "updated_at": "2026-11-27T22:16:58+00:00",
   "seen_at": "2026-11-27T21:35:25+00:00",
   "radar": {
    "momentum": 0.7,
@@ -102854,10 +102858,12 @@
   "vod_starts_at": 0,
   "is_mature": true,
   "discovered_at": "2026-11-27T04:44:34+00:00",
-  "status": "analysed",
+  "status": "produced",
   "authenticity": "verified_by_review",
   "rights": "credited_third_party",
-  "used_in": [],
+  "used_in": [
+   "vci-20261127-221449"
+  ],
   "duplicate_of": null,
   "seen_at": "2026-11-27T21:35:25+00:00",
   "radar": {
@@ -102888,7 +102894,7 @@
   "attribution": "@splitsouldoesthings (Kick)",
   "suggested_hook": "ILS ONT FAIT ÇA SUR GTA 6",
   "suggested_title": "Ils ont fait ça sur gta 6 😱 (@splitsouldoesthings)",
-  "production_status": "none",
+  "production_status": "produced",
   "approval": {
    "editorial": null,
    "production": null,
@@ -102896,9 +102902,9 @@
   },
   "publications": [],
   "analytics": {},
-  "stage": "RIGHTS_RECORDED",
+  "stage": "PRODUCED",
   "state": "active",
-  "updated_at": "2026-11-27T21:05:53+00:00",
+  "updated_at": "2026-11-27T22:16:58+00:00",
   "views_per_hour_recent": 0.0,
   "metrics": {
    "motion": 25.4,
@@ -114566,10 +114572,12 @@
   "vod_starts_at": 0,
   "is_mature": true,
   "discovered_at": "2026-11-27T06:37:34+00:00",
-  "status": "analysed",
+  "status": "produced",
   "authenticity": "verified_by_review",
   "rights": "credited_third_party",
-  "used_in": [],
+  "used_in": [
+   "vci-20261127-221449"
+  ],
   "duplicate_of": null,
   "seen_at": "2026-11-27T21:35:25+00:00",
   "radar": {
@@ -114600,7 +114608,7 @@
   "attribution": "@soyneiler (Kick)",
   "suggested_hook": "ILS ONT FAIT ÇA SUR GTA 6",
   "suggested_title": "Ils ont fait ça sur gta 6 😱 (@soyneiler)",
-  "production_status": "none",
+  "production_status": "produced",
   "approval": {
    "editorial": null,
    "production": null,
@@ -114608,9 +114616,9 @@
   },
   "publications": [],
   "analytics": {},
-  "stage": "RIGHTS_RECORDED",
+  "stage": "PRODUCED",
   "state": "active",
-  "updated_at": "2026-11-27T21:05:53+00:00",
+  "updated_at": "2026-11-27T22:16:58+00:00",
   "views_per_hour_recent": 0.0,
   "metrics": {
    "motion": 22.2,
@@ -144314,10 +144322,12 @@
   "vod_starts_at": 0,
   "is_mature": true,
   "discovered_at": "2026-11-27T12:40:20+00:00",
-  "status": "analysed",
+  "status": "produced",
   "authenticity": "verified_by_review",
   "rights": "credited_third_party",
-  "used_in": [],
+  "used_in": [
+   "vci-20261127-221225"
+  ],
   "duplicate_of": null,
   "seen_at": "2026-11-27T21:35:25+00:00",
   "radar": {
@@ -144348,7 +144358,7 @@
   "attribution": "@fitddiva (Kick)",
   "suggested_hook": "ILS ONT FAIT ÇA SUR GTA 6",
   "suggested_title": "Ils ont fait ça sur gta 6 😱 (@fitddiva)",
-  "production_status": "none",
+  "production_status": "produced",
   "approval": {
    "editorial": null,
    "production": null,
@@ -144356,9 +144366,9 @@
   },
   "publications": [],
   "analytics": {},
-  "stage": "RIGHTS_RECORDED",
+  "stage": "PRODUCED",
   "state": "active",
-  "updated_at": "2026-11-27T21:05:53+00:00",
+  "updated_at": "2026-11-27T22:14:49+00:00",
   "metrics": {
    "motion": 25.0,
    "still": 0.03,
@@ -172238,10 +172248,12 @@
   "vod_starts_at": 0,
   "is_mature": false,
   "discovered_at": "2026-11-27T18:59:33+00:00",
-  "status": "analysed",
+  "status": "produced",
   "authenticity": "verified_by_review",
   "rights": "credited_third_party",
-  "used_in": [],
+  "used_in": [
+   "vci-20261127-221225"
+  ],
   "duplicate_of": null,
   "content_id": "VCI-65335a5d90",
   "platform": "kick",
@@ -172260,7 +172272,7 @@
   "attribution": "@kaneljoseph (Kick)",
   "suggested_hook": "ILS ONT FAIT ÇA SUR GTA 6",
   "suggested_title": "Ils ont fait ça sur gta 6 😱 (@kaneljoseph)",
-  "production_status": "none",
+  "production_status": "produced",
   "approval": {
    "editorial": null,
    "production": null,
@@ -172268,9 +172280,9 @@
   },
   "publications": [],
   "analytics": {},
-  "stage": "RIGHTS_RECORDED",
+  "stage": "PRODUCED",
   "state": "active",
-  "updated_at": "2026-11-27T20:33:48+00:00",
+  "updated_at": "2026-11-27T22:14:49+00:00",
   "metrics": {
    "motion": 28.1,
    "still": 0.0,
