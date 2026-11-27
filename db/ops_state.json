@@ -2,8 +2,8 @@
  "jobs": {
   "approvals": {
    "failures": 0,
-   "last_ok": "2026-11-27T11:03:33+00:00",
-   "result": "owner decisions applied",
+   "last_ok": "2026-11-27T11:04:44+00:00",
+   "result": "no new decision",
    "error": null
   },
   "produce": {
@@ -14,12 +14,12 @@
   },
   "calendar": {
    "failures": 0,
-   "last_ok": "2026-11-27T11:03:33+00:00",
+   "last_ok": "2026-11-27T11:04:44+00:00",
    "result": "youtube 4/6 today | tiktok 4/8 today",
    "error": null
   },
   "analytics_collect": {
-   "failures": 8,
+   "failures": 9,
    "last_ok": "2026-11-26T23:33:29+00:00",
    "result": "failed",
    "error": "401 Client Error: Unauthorized for url: https://oauth2.googleapis.com/token"
