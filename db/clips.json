@@ -65132,8 +65132,8 @@
   "vod_starts_at": 0,
   "is_mature": true,
   "discovered_at": "2026-11-26T23:33:22+00:00",
-  "status": "analysed",
-  "authenticity": "category_only",
+  "status": "rejected_review",
+  "authenticity": "not_gta6",
   "rights": "credited_third_party",
   "used_in": [],
   "duplicate_of": null,
@@ -65174,8 +65174,8 @@
   "publications": [],
   "analytics": {},
   "stage": "RIGHTS_RECORDED",
-  "state": "active",
-  "updated_at": "2026-11-27T15:53:39+00:00",
+  "state": "rejected",
+  "updated_at": "2026-11-28T01:35:03+00:00",
   "views_per_hour_recent": 0.0,
   "metrics": {
    "motion": 38.8,
@@ -65341,7 +65341,8 @@
    "needs_review": "Hooks are generic: nobody has described what happens yet. Check the footage before using."
   },
   "analysed_at": "2026-11-27T15:10:27+00:00",
-  "viral_potential": 7.64
+  "viral_potential": 7.64,
+  "manual_state": true
  },
  "clip_01M8D2TC9BN6VAEBWCD3WBP5TD": {
   "id": "clip_01M8D2TC9BN6VAEBWCD3WBP5TD",
@@ -66571,10 +66572,12 @@
   "vod_starts_at": 0,
   "is_mature": true,
   "discovered_at": "2026-11-26T23:33:22+00:00",
-  "status": "analysed",
+  "status": "produced",
   "authenticity": "verified_by_review",
   "rights": "credited_third_party",
-  "used_in": [],
+  "used_in": [
+   "vci-20261128-013508"
+  ],
   "duplicate_of": null,
   "seen_at": "2026-11-28T00:29:33+00:00",
   "radar": {
@@ -66605,7 +66608,7 @@
   "attribution": "@rassellsixx97 (Kick)",
   "suggested_hook": "ILS ONT FAIT ÇA SUR GTA 6",
   "suggested_title": "Ils ont fait ça sur gta 6 😱 (@rassellsixx97)",
-  "production_status": "none",
+  "production_status": "produced",
   "approval": {
    "editorial": null,
    "production": null,
@@ -66613,9 +66616,9 @@
   },
   "publications": [],
   "analytics": {},
-  "stage": "RIGHTS_RECORDED",
+  "stage": "PRODUCED",
   "state": "active",
-  "updated_at": "2026-11-27T21:33:31+00:00",
+  "updated_at": "2026-11-28T01:37:21+00:00",
   "views_per_hour_recent": 0.0,
   "metrics": {
    "motion": 23.3,
@@ -67347,10 +67350,12 @@
   "vod_starts_at": 0,
   "is_mature": true,
   "discovered_at": "2026-11-26T23:33:22+00:00",
-  "status": "analysed",
+  "status": "produced",
   "authenticity": "verified_by_review",
   "rights": "credited_third_party",
-  "used_in": [],
+  "used_in": [
+   "vci-20261128-013508"
+  ],
   "duplicate_of": null,
   "seen_at": "2026-11-28T00:29:33+00:00",
   "radar": {
@@ -67381,7 +67386,7 @@
   "attribution": "@kathe-exe (Kick)",
   "suggested_hook": "ILS ONT FAIT ÇA SUR GTA 6",
   "suggested_title": "Ils ont fait ça sur gta 6 😱 (@kathe-exe)",
-  "production_status": "none",
+  "production_status": "produced",
   "approval": {
    "editorial": null,
    "production": null,
@@ -67389,9 +67394,9 @@
   },
   "publications": [],
   "analytics": {},
-  "stage": "RIGHTS_RECORDED",
+  "stage": "PRODUCED",
   "state": "active",
-  "updated_at": "2026-11-27T21:33:28+00:00",
+  "updated_at": "2026-11-28T01:37:21+00:00",
   "views_per_hour_recent": 0.0,
   "metrics": {
    "motion": 32.1,
@@ -93614,7 +93619,7 @@
   "vod_starts_at": 0,
   "is_mature": true,
   "discovered_at": "2026-11-27T01:59:34+00:00",
-  "status": "analysed",
+  "status": "rejected_review",
   "authenticity": "category_only",
   "rights": "credited_third_party",
   "used_in": [],
@@ -93656,8 +93661,8 @@
   "publications": [],
   "analytics": {},
   "stage": "RIGHTS_RECORDED",
-  "state": "active",
-  "updated_at": "2026-11-27T15:53:39+00:00",
+  "state": "rejected",
+  "updated_at": "2026-11-28T01:35:08+00:00",
   "views_per_hour_recent": 0.0,
   "metrics": {
    "motion": 15.0,
@@ -93851,7 +93856,8 @@
    "needs_review": "Hooks are generic: nobody has described what happens yet. Check the footage before using."
   },
   "analysed_at": "2026-11-27T15:23:21+00:00",
-  "viral_potential": 7.62
+  "viral_potential": 7.62,
+  "manual_state": true
  },
  "clip_01M8DBA0AAYT0QB4CH4N5J3SHZ": {
   "id": "clip_01M8DBA0AAYT0QB4CH4N5J3SHZ",
@@ -98088,7 +98094,7 @@
   "vod_starts_at": 0,
   "is_mature": true,
   "discovered_at": "2026-11-27T03:39:04+00:00",
-  "status": "analysed",
+  "status": "rejected_review",
   "authenticity": "category_only",
   "rights": "credited_third_party",
   "used_in": [],
@@ -98130,8 +98136,8 @@
   "publications": [],
   "analytics": {},
   "stage": "RIGHTS_RECORDED",
-  "state": "active",
-  "updated_at": "2026-11-27T13:49:40+00:00",
+  "state": "rejected",
+  "updated_at": "2026-11-28T01:35:03+00:00",
   "views_per_hour_recent": 0.0,
   "metrics": {
    "motion": 26.6,
@@ -98306,7 +98312,8 @@
    "needs_review": "Hooks are generic: nobody has described what happens yet. Check the footage before using."
   },
   "analysed_at": "2026-11-27T13:46:29+00:00",
-  "viral_potential": 7.63
+  "viral_potential": 7.63,
+  "manual_state": true
  },
  "clip_01M8DGWK85DPQZ5ZBV4EANFKMK": {
   "id": "clip_01M8DGWK85DPQZ5ZBV4EANFKMK",
@@ -137859,7 +137866,7 @@
   "vod_starts_at": 0,
   "is_mature": true,
   "discovered_at": "2026-11-27T11:17:08+00:00",
-  "status": "analysed",
+  "status": "rejected_review",
   "authenticity": "category_only",
   "rights": "credited_third_party",
   "used_in": [],
@@ -137889,8 +137896,8 @@
   "publications": [],
   "analytics": {},
   "stage": "RIGHTS_RECORDED",
-  "state": "active",
-  "updated_at": "2026-11-27T19:35:32+00:00",
+  "state": "rejected",
+  "updated_at": "2026-11-28T01:35:08+00:00",
   "seen_at": "2026-11-28T00:29:33+00:00",
   "radar": {
    "momentum": 0.3,
@@ -138069,7 +138076,8 @@
    "needs_review": "Hooks are generic: nobody has described what happens yet. Check the footage before using."
   },
   "analysed_at": "2026-11-27T19:26:48+00:00",
-  "viral_potential": 7.62
+  "viral_potential": 7.62,
+  "manual_state": true
  },
  "clip_01M8CN27QSBG5FMZSBP42GC1JM": {
   "id": "clip_01M8CN27QSBG5FMZSBP42GC1JM",
@@ -146697,10 +146705,12 @@
   "vod_starts_at": 0,
   "is_mature": true,
   "discovered_at": "2026-11-27T14:00:19+00:00",
-  "status": "analysed",
+  "status": "produced",
   "authenticity": "verified_by_review",
   "rights": "credited_third_party",
-  "used_in": [],
+  "used_in": [
+   "vci-20261128-013722"
+  ],
   "duplicate_of": null,
   "seen_at": "2026-11-28T00:29:33+00:00",
   "radar": {
@@ -146731,7 +146741,7 @@
   "attribution": "@jrocktvv (Kick)",
   "suggested_hook": "ILS ONT FAIT ÇA SUR GTA 6",
   "suggested_title": "Ils ont fait ça sur gta 6 😱 (@jrocktvv)",
-  "production_status": "none",
+  "production_status": "produced",
   "approval": {
    "editorial": null,
    "production": null,
@@ -146739,9 +146749,9 @@
   },
   "publications": [],
   "analytics": {},
-  "stage": "RIGHTS_RECORDED",
+  "stage": "PRODUCED",
   "state": "active",
-  "updated_at": "2026-11-27T20:33:48+00:00",
+  "updated_at": "2026-11-28T01:39:03+00:00",
   "views_per_hour_recent": 0.0,
   "metrics": {
    "motion": 21.5,
@@ -153775,7 +153785,7 @@
   "vod_starts_at": 0,
   "is_mature": true,
   "discovered_at": "2026-11-27T15:38:09+00:00",
-  "status": "analysed",
+  "status": "rejected_review",
   "authenticity": "category_only",
   "rights": "credited_third_party",
   "used_in": [],
@@ -153821,8 +153831,8 @@
   "publications": [],
   "analytics": {},
   "stage": "RIGHTS_RECORDED",
-  "state": "active",
-  "updated_at": "2026-11-27T17:56:17+00:00",
+  "state": "rejected",
+  "updated_at": "2026-11-28T01:35:01+00:00",
   "views_per_hour_recent": 0.0,
   "metrics": {
    "motion": 20.4,
@@ -153968,7 +153978,8 @@
    "needs_review": "Hooks are generic: nobody has described what happens yet. Check the footage before using."
   },
   "analysed_at": "2026-11-27T17:11:36+00:00",
-  "viral_potential": 7.67
+  "viral_potential": 7.67,
+  "manual_state": true
  },
  "clip_01M8ET84GDXZP30ZMES965T6VG": {
   "id": "clip_01M8ET84GDXZP30ZMES965T6VG",
@@ -156708,7 +156719,7 @@
   "vod_starts_at": 0,
   "is_mature": true,
   "discovered_at": "2026-11-27T15:38:10+00:00",
-  "status": "analysed",
+  "status": "rejected_review",
   "authenticity": "category_only",
   "rights": "credited_third_party",
   "used_in": [],
@@ -156750,8 +156761,8 @@
   "publications": [],
   "analytics": {},
   "stage": "RIGHTS_RECORDED",
-  "state": "active",
-  "updated_at": "2026-11-27T17:56:17+00:00",
+  "state": "rejected",
+  "updated_at": "2026-11-28T01:35:01+00:00",
   "views_per_hour_recent": 0.0,
   "metrics": {
    "motion": 19.0,
@@ -156903,7 +156914,8 @@
    "needs_review": "Hooks are generic: nobody has described what happens yet. Check the footage before using."
   },
   "analysed_at": "2026-11-27T17:38:37+00:00",
-  "viral_potential": 7.67
+  "viral_potential": 7.67,
+  "manual_state": true
  },
  "clip_01M8ET21R9YKACR6QMAWWA89Q4": {
   "id": "clip_01M8ET21R9YKACR6QMAWWA89Q4",
@@ -157372,10 +157384,12 @@
   "vod_starts_at": 0,
   "is_mature": true,
   "discovered_at": "2026-11-27T15:38:11+00:00",
-  "status": "analysed",
-  "authenticity": "category_only",
+  "status": "produced",
+  "authenticity": "verified_by_review",
   "rights": "credited_third_party",
-  "used_in": [],
+  "used_in": [
+   "vci-20261128-013508"
+  ],
   "duplicate_of": null,
   "seen_at": "2026-11-28T00:29:33+00:00",
   "radar": {
@@ -157394,7 +157408,8 @@
   "account_url": "https://kick.com/czechcloud",
   "clip_url": "https://clips.kick.com/clips/80/clip_01M8ET0ZDPZ40W6V8EKYR37QGB/playlist.m3u8",
   "authenticity_evidence": [
-   "Listed in Kick's Grand Theft Auto VI category (not proof by itself)"
+   "Listed in Kick's Grand Theft Auto VI category (not proof by itself)",
+   "Frame sheet reviewed 2026-11-28"
   ],
   "category": "VIRAL MOMENTS & CHAOS",
   "subcategory": "",
@@ -157405,7 +157420,7 @@
   "attribution": "@czechcloud (Kick)",
   "suggested_hook": "ILS ONT FAIT ÇA SUR GTA 6",
   "suggested_title": "Ils ont fait ça sur gta 6 😱 (@czechcloud)",
-  "production_status": "none",
+  "production_status": "produced",
   "approval": {
    "editorial": null,
    "production": null,
@@ -157413,9 +157428,9 @@
   },
   "publications": [],
   "analytics": {},
-  "stage": "RIGHTS_RECORDED",
+  "stage": "PRODUCED",
   "state": "active",
-  "updated_at": "2026-11-27T17:56:17+00:00",
+  "updated_at": "2026-11-28T01:37:21+00:00",
   "views_per_hour_recent": 0.0,
   "metrics": {
    "motion": 22.4,
@@ -157453,12 +157468,12 @@
     "french_relevance": "heuristic",
     "category": "heuristic",
     "source_quality": "measured",
-    "originality": "not_assessed",
-    "storytelling": "not_assessed"
+    "originality": "review",
+    "storytelling": "review"
    },
    "coverage": 0.86,
    "model": "v2.0",
-   "reviewed": false
+   "reviewed": true
   },
   "analysis": {
    "start": 11.5,
@@ -157531,14 +157546,14 @@
    "series": "ALERTE LEONIDA",
    "category": "VIRAL MOMENTS & CHAOS",
    "hooks": [
-    "ÇA DÉRAPE EN QUELQUES SECONDES",
-    "REGARDE JUSQU'À LA FIN",
-    "LE CHAOS TOTAL À LEONIDA"
+    "L'AUTOROUTE EXPLOSE !",
+    "BOOM SUR L'AUTOROUTE",
+    "IL ÉVITE L'EXPLOSION DE PEU"
    ],
-   "best_hook": "ÇA DÉRAPE EN QUELQUES SECONDES",
-   "title": "ÇA DÉRAPE EN QUELQUES SECONDES 😱 GTA 6",
-   "description": "Un moment repéré en live sur GTA 6. Créateur : @czechcloud (Kick).",
-   "caption": "ÇA DÉRAPE EN QUELQUES SECONDES 😱 Abonne-toi pour la suite du dossier 👇 🎥 @czechcloud #GTA6 #GTA6FR #GTAVI #pourtoi",
+   "best_hook": "L'AUTOROUTE EXPLOSE !",
+   "title": "L'AUTOROUTE EXPLOSE ! 😱 GTA 6",
+   "description": "Une voiture orange roule sur l'autoroute, des débris volent puis une explosion éclate juste à côté d'elle. Créateur : @czechcloud (Kick).",
+   "caption": "L'AUTOROUTE EXPLOSE ! 😱 Abonne-toi pour la suite du dossier 👇 🎥 @czechcloud #GTA6 #GTA6FR #GTAVI #pourtoi",
    "narration": null,
    "cta": "Abonne-toi pour la suite du dossier",
    "editing": [
@@ -157551,16 +157566,17 @@
    "music_mood": "tension then comic release, music low",
    "music": {
     "youtube": [
+     "Vibe Check - Blue Deer Studio",
      "Travelling Light - Blue Deer Studio",
-     "Comin Wit It - Anno Domini Beats",
-     "Vibe Check - Blue Deer Studio"
+     "Monster Freak Party - Bare Bones Mtl"
     ],
     "tiktok": []
    },
-   "needs_review": "Hooks are generic: nobody has described what happens yet. Check the footage before using."
+   "needs_review": null
   },
   "analysed_at": "2026-11-27T17:38:52+00:00",
-  "viral_potential": 7.63
+  "viral_potential": 7.63,
+  "category_reviewed": true
  },
  "clip_01M8ET0FABHDJC8WEE4H7B4N10": {
   "id": "clip_01M8ET0FABHDJC8WEE4H7B4N10",
@@ -159427,10 +159443,12 @@
   "vod_starts_at": 0,
   "is_mature": true,
   "discovered_at": "2026-11-27T16:46:36+00:00",
-  "status": "analysed",
-  "authenticity": "category_only",
+  "status": "produced",
+  "authenticity": "verified_by_review",
   "rights": "credited_third_party",
-  "used_in": [],
+  "used_in": [
+   "vci-20261128-013722"
+  ],
   "duplicate_of": null,
   "seen_at": "2026-11-28T00:29:33+00:00",
   "radar": {
@@ -159453,7 +159471,8 @@
   "account_url": "https://kick.com/nickordok",
   "clip_url": "https://clips.kick.com/clips/d5/clip_01M8EYC2A1SWX7C3PYDK5BAC55/playlist.m3u8",
   "authenticity_evidence": [
-   "Listed in Kick's Grand Theft Auto VI category (not proof by itself)"
+   "Listed in Kick's Grand Theft Auto VI category (not proof by itself)",
+   "Frame sheet reviewed 2026-11-28"
   ],
   "category": "VIRAL MOMENTS & CHAOS",
   "subcategory": "funny",
@@ -159464,7 +159483,7 @@
   "attribution": "@nickordok (Kick)",
   "suggested_hook": "ILS ONT FAIT ÇA SUR GTA 6",
   "suggested_title": "Ils ont fait ça sur gta 6 😱 (@nickordok)",
-  "production_status": "none",
+  "production_status": "produced",
   "approval": {
    "editorial": null,
    "production": null,
@@ -159472,9 +159491,9 @@
   },
   "publications": [],
   "analytics": {},
-  "stage": "RIGHTS_RECORDED",
+  "stage": "PRODUCED",
   "state": "active",
-  "updated_at": "2026-11-27T17:56:17+00:00",
+  "updated_at": "2026-11-28T01:39:03+00:00",
   "metrics": {
    "motion": 19.0,
    "still": 0.0,
@@ -159509,12 +159528,12 @@
     "french_relevance": "heuristic",
     "category": "heuristic",
     "source_quality": "measured",
-    "originality": "not_assessed",
-    "storytelling": "not_assessed"
+    "originality": "review",
+    "storytelling": "review"
    },
    "coverage": 0.86,
    "model": "v2.0",
-   "reviewed": false
+   "reviewed": true
   },
   "analysis": {
    "start": 11.0,
@@ -159593,14 +159612,14 @@
    "series": "ALERTE LEONIDA",
    "category": "VIRAL MOMENTS & CHAOS",
    "hooks": [
-    "LE CHAOS TOTAL À LEONIDA",
-    "IL N'AURAIT PAS DÛ FAIRE ÇA",
-    "ÇA DÉRAPE EN QUELQUES SECONDES"
+    "IL SE FAIT PROJETER EN L'AIR",
+    "L'IMPACT EST VIOLENT",
+    "IL ATTERRIT DANS L'HERBE"
    ],
-   "best_hook": "LE CHAOS TOTAL À LEONIDA",
-   "title": "LE CHAOS TOTAL À LEONIDA 😱 GTA 6",
-   "description": "Un moment repéré en live sur GTA 6. Créateur : @nickordok (Kick).",
-   "caption": "LE CHAOS TOTAL À LEONIDA 😱 Tu aurais fait quoi ? Dis-le en commentaire 👇 🎥 @nickordok #GTA6 #GTA6FR #GTAVI #pourtoi",
+   "best_hook": "IL SE FAIT PROJETER EN L'AIR",
+   "title": "IL SE FAIT PROJETER EN L'AIR 😱 GTA 6",
+   "description": "Un piéton est percuté sur une route puis projeté en l'air et retombe dans l'herbe. Créateur : @nickordok (Kick).",
+   "caption": "IL SE FAIT PROJETER EN L'AIR 😱 Tu aurais fait quoi ? Dis-le en commentaire 👇 🎥 @nickordok #GTA6 #GTA6FR #GTAVI #pourtoi",
    "narration": null,
    "cta": "Tu aurais fait quoi ? Dis-le en commentaire",
    "editing": [
@@ -159613,17 +159632,18 @@
    "music_mood": "tension then comic release, music low",
    "music": {
     "youtube": [
+     "Vibe Check - Blue Deer Studio",
      "Travelling Light - Blue Deer Studio",
-     "Comin Wit It - Anno Domini Beats",
-     "Vibe Check - Blue Deer Studio"
+     "Monster Freak Party - Bare Bones Mtl"
     ],
     "tiktok": []
    },
-   "needs_review": "Hooks are generic: nobody has described what happens yet. Check the footage before using."
+   "needs_review": null
   },
   "analysed_at": "2026-11-27T17:13:34+00:00",
   "viral_potential": 7.65,
-  "views_per_hour_recent": 0.0
+  "views_per_hour_recent": 0.0,
+  "category_reviewed": true
  },
  "clip_01M8EYC26M1HN5T94M1GPDXVC6": {
   "id": "clip_01M8EYC26M1HN5T94M1GPDXVC6",
@@ -176873,10 +176893,12 @@
   "vod_starts_at": 0,
   "is_mature": true,
   "discovered_at": "2026-11-27T19:39:24+00:00",
-  "status": "analysed",
+  "status": "produced",
   "authenticity": "verified_by_review",
   "rights": "credited_third_party",
-  "used_in": [],
+  "used_in": [
+   "vci-20261128-013722"
+  ],
   "duplicate_of": null,
   "seen_at": "2026-11-28T00:29:33+00:00",
   "radar": {
@@ -176907,7 +176929,7 @@
   "attribution": "@madix01 (Kick)",
   "suggested_hook": "ILS ONT FAIT ÇA SUR GTA 6",
   "suggested_title": "Ils ont fait ça sur gta 6 😱 (@madix01)",
-  "production_status": "none",
+  "production_status": "produced",
   "approval": {
    "editorial": null,
    "production": null,
@@ -176915,9 +176937,9 @@
   },
   "publications": [],
   "analytics": {},
-  "stage": "RIGHTS_RECORDED",
+  "stage": "PRODUCED",
   "state": "active",
-  "updated_at": "2026-11-27T21:33:27+00:00",
+  "updated_at": "2026-11-28T01:39:03+00:00",
   "views_per_hour_recent": 0.0,
   "metrics": {
    "motion": 15.9,
@@ -182525,7 +182547,7 @@
   "vod_starts_at": 0,
   "is_mature": true,
   "discovered_at": "2026-11-27T19:39:25+00:00",
-  "status": "analysed",
+  "status": "rejected_review",
   "authenticity": "category_only",
   "rights": "credited_third_party",
   "used_in": [],
@@ -182567,8 +182589,8 @@
   "publications": [],
   "analytics": {},
   "stage": "RIGHTS_RECORDED",
-  "state": "active",
-  "updated_at": "2026-11-27T21:28:06+00:00",
+  "state": "rejected",
+  "updated_at": "2026-11-28T01:35:08+00:00",
   "views_per_hour_recent": 0.0,
   "metrics": {
    "motion": 47.3,
@@ -182715,7 +182737,8 @@
    "needs_review": "Hooks are generic: nobody has described what happens yet. Check the footage before using."
   },
   "analysed_at": "2026-11-27T21:26:57+00:00",
-  "viral_potential": 7.62
+  "viral_potential": 7.62,
+  "manual_state": true
  },
  "clip_01M8F7TG3QW5V071KG35M3BNPW": {
   "id": "clip_01M8F7TG3QW5V071KG35M3BNPW",
@@ -192125,7 +192148,7 @@
   "vod_starts_at": 0,
   "is_mature": true,
   "discovered_at": "2026-11-27T21:35:29+00:00",
-  "status": "analysed",
+  "status": "rejected_review",
   "authenticity": "category_only",
   "rights": "credited_third_party",
   "used_in": [],
@@ -192167,8 +192190,8 @@
   "publications": [],
   "analytics": {},
   "stage": "RIGHTS_RECORDED",
-  "state": "active",
-  "updated_at": "2026-11-27T23:21:07+00:00",
+  "state": "rejected",
+  "updated_at": "2026-11-28T01:35:01+00:00",
   "views_per_hour_recent": 0.0,
   "metrics": {
    "motion": 25.0,
@@ -192335,7 +192358,8 @@
    "needs_review": "Hooks are generic: nobody has described what happens yet. Check the footage before using."
   },
   "analysed_at": "2026-11-27T23:05:32+00:00",
-  "viral_potential": 7.78
+  "viral_potential": 7.78,
+  "manual_state": true
  },
  "clip_01M8FEQ87TX5XWMM9MP33SVYRQ": {
   "id": "clip_01M8FEQ87TX5XWMM9MP33SVYRQ",
@@ -194435,7 +194459,7 @@
   "vod_starts_at": 0,
   "is_mature": true,
   "discovered_at": "2026-11-27T21:35:29+00:00",
-  "status": "analysed",
+  "status": "rejected_review",
   "authenticity": "category_only",
   "rights": "credited_third_party",
   "used_in": [],
@@ -194477,8 +194501,8 @@
   "publications": [],
   "analytics": {},
   "stage": "RIGHTS_RECORDED",
-  "state": "active",
-  "updated_at": "2026-11-27T23:21:07+00:00",
+  "state": "rejected",
+  "updated_at": "2026-11-28T01:35:01+00:00",
   "views_per_hour_recent": 0.0,
   "metrics": {
    "motion": 25.2,
@@ -194610,7 +194634,8 @@
    "needs_review": "Hooks are generic: nobody has described what happens yet. Check the footage before using."
   },
   "analysed_at": "2026-11-27T23:18:29+00:00",
-  "viral_potential": 7.69
+  "viral_potential": 7.69,
+  "manual_state": true
  },
  "clip_01M8FEKS3ADVWZ2TVCHBRX5N9M": {
   "id": "clip_01M8FEKS3ADVWZ2TVCHBRX5N9M",
@@ -198261,7 +198286,7 @@
   "vod_starts_at": 0,
   "is_mature": true,
   "discovered_at": "2026-11-27T22:35:36+00:00",
-  "status": "analysed",
+  "status": "rejected_review",
   "authenticity": "category_only",
   "rights": "credited_third_party",
   "used_in": [],
@@ -198303,8 +198328,8 @@
   "publications": [],
   "analytics": {},
   "stage": "RIGHTS_RECORDED",
-  "state": "active",
-  "updated_at": "2026-11-27T23:21:07+00:00",
+  "state": "rejected",
+  "updated_at": "2026-11-28T01:35:01+00:00",
   "metrics": {
    "motion": 20.4,
    "still": 0.02,
@@ -198486,7 +198511,8 @@
   },
   "analysed_at": "2026-11-27T23:09:00+00:00",
   "viral_potential": 7.93,
-  "views_per_hour_recent": 0.0
+  "views_per_hour_recent": 0.0,
+  "manual_state": true
  },
  "clip_01M8FJ7CYHRN7YGM1GVPHHDKKF": {
   "id": "clip_01M8FJ7CYHRN7YGM1GVPHHDKKF",
@@ -214337,8 +214363,8 @@
   "publications": [],
   "analytics": {},
   "stage": "DISCOVERED",
-  "state": "active",
-  "updated_at": "2026-11-28T00:29:39+00:00"
+  "state": "expired",
+  "updated_at": "2026-11-28T01:35:08+00:00"
  },
  "clip_01M7XW9XPV65NBRWGK8FDJS8A5": {
   "id": "clip_01M7XW9XPV65NBRWGK8FDJS8A5",

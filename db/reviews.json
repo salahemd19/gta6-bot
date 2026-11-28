@@ -735,5 +735,88 @@
   "verdict": "reject",
   "reason": "fusillade dans un hangar trop sombre et peu lisible, facecam",
   "by": "Cloud Claude review 2026-11-27"
+ },
+ "VCI-f4f2af77c9": {
+  "verdict": "reject",
+  "reason": "balade calme avec un chien, facecam",
+  "by": "Cloud Claude review 2026-11-28"
+ },
+ "VCI-83937179eb": {
+  "verdict": "reject",
+  "reason": "buggy renversé brièvement puis nage calme, facecam",
+  "by": "Cloud Claude review 2026-11-28"
+ },
+ "VCI-06d476ca83": {
+  "verdict": "reject",
+  "reason": "conduite calme d'un pick-up, rien ne se passe",
+  "by": "Cloud Claude review 2026-11-28"
+ },
+ "VCI-46193948bb": {
+  "verdict": "reject",
+  "reason": "marche calme dans une supérette, rien de lisible",
+  "by": "Cloud Claude review 2026-11-28"
+ },
+ "VCI-7b78eebe08": {
+  "verdict": "reject",
+  "reason": "scène confuse dans un parking, nombreuses incrustations publicitaires, action illisible",
+  "by": "Cloud Claude review 2026-11-28"
+ },
+ "VCI-9b50e3b181": {
+  "verdict": "keep",
+  "action_fr": "Un piéton est percuté sur une route puis projeté en l'air et retombe dans l'herbe.",
+  "hooks_fr": [
+   "IL SE FAIT PROJETER EN L'AIR",
+   "L'IMPACT EST VIOLENT",
+   "IL ATTERRIT DANS L'HERBE"
+  ],
+  "category": "VIRAL MOMENTS & CHAOS",
+  "strength": 5,
+  "window": [
+   3.0,
+   10.0
+  ],
+  "by": "Cloud Claude review 2026-11-28"
+ },
+ "VCI-2df85c03bc": {
+  "verdict": "reject",
+  "reason": "pas GTA 6, vidéo réelle avec personnes filmées",
+  "not_gta6": true,
+  "by": "Cloud Claude review 2026-11-28"
+ },
+ "VCI-5a00847157": {
+  "verdict": "reject",
+  "reason": "conduite calme d'un pick-up jusqu'à un garage",
+  "by": "Cloud Claude review 2026-11-28"
+ },
+ "VCI-615457d315": {
+  "verdict": "keep",
+  "action_fr": "Une voiture orange roule sur l'autoroute, des débris volent puis une explosion éclate juste à côté d'elle.",
+  "hooks_fr": [
+   "L'AUTOROUTE EXPLOSE !",
+   "BOOM SUR L'AUTOROUTE",
+   "IL ÉVITE L'EXPLOSION DE PEU"
+  ],
+  "category": "VIRAL MOMENTS & CHAOS",
+  "strength": 6,
+  "window": [
+   5.0,
+   12.0
+  ],
+  "by": "Cloud Claude review 2026-11-28"
+ },
+ "VCI-95a73c55e9": {
+  "verdict": "reject",
+  "reason": "bagarre de rue confuse, facecam, action peu lisible",
+  "by": "Cloud Claude review 2026-11-28"
+ },
+ "VCI-19dcd39255": {
+  "verdict": "reject",
+  "reason": "vol d'avion calme, facecam",
+  "by": "Cloud Claude review 2026-11-28"
+ },
+ "VCI-41641fa9af": {
+  "verdict": "reject",
+  "reason": "marche calme dans la rue, facecam",
+  "by": "Cloud Claude review 2026-11-28"
  }
 }

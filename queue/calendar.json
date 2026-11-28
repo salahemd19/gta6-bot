@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-28T01:04+00:00",
+ "generated": "2026-11-28T01:39+00:00",
  "level": 0,
  "timezone": "Europe/Paris",
  "platforms": {
@@ -423,6 +423,18 @@
    "title": "L'HÉLICO FINIT DANS LES ARBRES 😱 GTA 6 #Shorts"
   },
   {
+   "id": "vci-20261128-013508",
+   "platform": "youtube",
+   "issue": 18,
+   "title": "LA VOITURE FAIT UN TONNEAU 😱 GTA 6 #Shorts"
+  },
+  {
+   "id": "vci-20261128-013722",
+   "platform": "youtube",
+   "issue": 19,
+   "title": "BRAQUAGE : ÇA EXPLOSE ! 😱 GTA 6 #Shorts"
+  },
+  {
    "id": "vci-20261127-221225",
    "platform": "tiktok",
    "issue": 16,
@@ -433,6 +445,18 @@
    "platform": "tiktok",
    "issue": 17,
    "title": "L'HÉLICO FINIT DANS LES ARBRES 😱 GTA 6 #Shorts"
+  },
+  {
+   "id": "vci-20261128-013508",
+   "platform": "tiktok",
+   "issue": 18,
+   "title": "LA VOITURE FAIT UN TONNEAU 😱 GTA 6 #Shorts"
+  },
+  {
+   "id": "vci-20261128-013722",
+   "platform": "tiktok",
+   "issue": 19,
+   "title": "BRAQUAGE : ÇA EXPLOSE ! 😱 GTA 6 #Shorts"
   }
  ],
  "missed": []

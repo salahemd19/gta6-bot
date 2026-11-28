@@ -545,5 +545,223 @@
     "alternatives": []
    }
   }
+ },
+ {
+  "id": "vci-20261128-013508",
+  "created": "2026-11-28T01:36:04+00:00",
+  "template": "chaos",
+  "format": "top3",
+  "category": "VIRAL MOMENTS & CHAOS",
+  "duration_s": 19.5,
+  "hook": "LA VOITURE FAIT UN TONNEAU",
+  "sources": [
+   {
+    "content_id": "VCI-3948fd26cc",
+    "creator": "rassellsixx97",
+    "platform": "kick",
+    "url": "https://kick.com/rassellsixx97/clips/clip_01M8D2QDY995XM8037K6TGVSHW",
+    "rights": "credited_third_party",
+    "start": 7.0,
+    "end": 13.5,
+    "at": 0.0,
+    "len": 6.5,
+    "height": 1080,
+    "dhash": "1919c46632232616",
+    "rank": 3
+   },
+   {
+    "content_id": "VCI-615457d315",
+    "creator": "czechcloud",
+    "platform": "kick",
+    "url": "https://kick.com/czechcloud/clips/clip_01M8ET0ZDPZ40W6V8EKYR37QGB",
+    "rights": "credited_third_party",
+    "start": 5.0,
+    "end": 11.5,
+    "at": 6.5,
+    "len": 6.5,
+    "height": 1080,
+    "dhash": "b790d4e5f4d8982b",
+    "rank": 2
+   },
+   {
+    "content_id": "VCI-0593162901",
+    "creator": "kathe-exe",
+    "platform": "kick",
+    "url": "https://kick.com/kathe-exe/clips/clip_01M8D2NSQ5EZB8RA74Z8YF7M5G",
+    "rights": "credited_third_party",
+    "start": 10.0,
+    "end": 16.5,
+    "at": 13.0,
+    "len": 6.5,
+    "height": 720,
+    "dhash": "14462634785c3327",
+    "rank": 1
+   }
+  ],
+  "status": "ready_for_approval",
+  "render_seconds": 129,
+  "qc": {
+   "youtube": "warn",
+   "tiktok": "warn"
+  },
+  "copy": {
+   "youtube": {
+    "title": "LA VOITURE FAIT UN TONNEAU 😱 GTA 6 #Shorts",
+    "description": "Une piétonne est percutée par un SUV et projetée en l'air dans un carrefour.\nTon préféré ? Dis-le en commentaire 👇\n🎥 Créateurs (Kick) : rassellsixx97, czechcloud, kathe-exe\nVoix : Piper, voix fr_FR-siwis (corpus SIWIS, CC BY 4.0)\n#GTA6 #GTAVI #GTA6FR #Shorts"
+   },
+   "tiktok": {
+    "caption": "LA VOITURE FAIT UN TONNEAU 😱 GTA 6 Ton préféré ? Dis-le en commentaire 👇 🎥 rassellsixx97, czechcloud, kathe-exe (Kick) #GTA6 #GTA6FR #GTAVI #pourtoi"
+   }
+  },
+  "music": {
+   "youtube": {
+    "mode": "add in the YouTube Studio editor",
+    "id": "ytal-survival-mode",
+    "title": "Survival Mode",
+    "artist": "Blue Deer Studio",
+    "source": "YouTube Audio Library",
+    "licence": "YouTube Audio Library (YouTube Studio > Bibliothèque audio, channel VICECITY INTEL), licence shown as 'Licence de la bibliothèque audio YouTube', seen 2026-11-26",
+    "permitted": "APPROVED",
+    "platforms": {
+     "youtube": "APPROVED",
+     "tiktok": "PENDING",
+     "reels": "PENDING"
+    },
+    "attribution": "CHECK: open the track's licence icon in Studio; if attribution is required, paste it in the description",
+    "conditions": "Use in videos only; never re-distribute the audio file. Other platforms are not covered until verified.",
+    "monetization": "YouTube: allowed under the YouTube Audio Library terms; elsewhere not verified",
+    "alternatives": [
+     "Ego Chall - Blue Deer Studio",
+     "Mirror Mirror - Anno Domini Beats"
+    ]
+   },
+   "tiktok": {
+    "mode": "add in TikTok's sound picker",
+    "id": "tt-metamorphosis-interworld",
+    "title": "METAMORPHOSIS",
+    "artist": "INTERWORLD",
+    "source": "TikTok in-app sound library (TikTok Studio editor, 26 Nov 2026)",
+    "licence": "Offered in TikTok's sound picker for this account",
+    "permitted": "IN_APP_ONLY",
+    "platforms": {
+     "youtube": "NOT_APPROVED",
+     "tiktok": "IN_APP_ONLY",
+     "reels": "PENDING"
+    },
+    "attribution": "Shown automatically by TikTok",
+    "conditions": "Never embed in the uploaded video file",
+    "monetization": "Not cleared outside TikTok",
+    "alternatives": []
+   }
+  }
+ },
+ {
+  "id": "vci-20261128-013722",
+  "created": "2026-11-28T01:38:00+00:00",
+  "template": "chaos",
+  "format": "top3",
+  "category": "VIRAL MOMENTS & CHAOS",
+  "duration_s": 19.5,
+  "hook": "BRAQUAGE : ÇA EXPLOSE !",
+  "sources": [
+   {
+    "content_id": "VCI-bb558cb451",
+    "creator": "madix01",
+    "platform": "kick",
+    "url": "https://kick.com/madix01/clips/clip_01M8F871PWEF4P4F3BWGNS692S",
+    "rights": "credited_third_party",
+    "start": 1.0,
+    "end": 7.5,
+    "at": 0.0,
+    "len": 6.5,
+    "height": 1080,
+    "dhash": "838787e6eefcf7f7",
+    "rank": 3
+   },
+   {
+    "content_id": "VCI-9b50e3b181",
+    "creator": "nickordok",
+    "platform": "kick",
+    "url": "https://kick.com/nickordok/clips/clip_01M8EYC2A1SWX7C3PYDK5BAC55",
+    "rights": "credited_third_party",
+    "start": 3.0,
+    "end": 9.5,
+    "at": 6.5,
+    "len": 6.5,
+    "height": 720,
+    "dhash": "e6dce8e1f232c8e4",
+    "rank": 2
+   },
+   {
+    "content_id": "VCI-cff903db5c",
+    "creator": "jrocktvv",
+    "platform": "kick",
+    "url": "https://kick.com/jrocktvv/clips/clip_01M8EMMWW8R0XCT41HY248FSP1",
+    "rights": "credited_third_party",
+    "start": 9.5,
+    "end": 16.0,
+    "at": 13.0,
+    "len": 6.5,
+    "height": 1080,
+    "dhash": "3949197165666d78",
+    "rank": 1
+   }
+  ],
+  "status": "ready_for_approval",
+  "render_seconds": 97,
+  "qc": {
+   "youtube": "warn",
+   "tiktok": "warn"
+  },
+  "copy": {
+   "youtube": {
+    "title": "BRAQUAGE : ÇA EXPLOSE ! 😱 GTA 6 #Shorts",
+    "description": "Une bagarre à mains nues éclate sur un trottoir, près d'une voiture verte : le personnage se retrouve face à plusieurs hommes.\nTon préféré ? Dis-le en commentaire 👇\n🎥 Créateurs (Kick) : madix01, nickordok, jrocktvv\nVoix : Piper, voix fr_FR-siwis (corpus SIWIS, CC BY 4.0)\n#GTA6 #GTAVI #GTA6FR #Shorts"
+   },
+   "tiktok": {
+    "caption": "BRAQUAGE : ÇA EXPLOSE ! 😱 GTA 6 Ton préféré ? Dis-le en commentaire 👇 🎥 madix01, nickordok, jrocktvv (Kick) #GTA6 #GTA6FR #GTAVI #pourtoi"
+   }
+  },
+  "music": {
+   "youtube": {
+    "mode": "add in the YouTube Studio editor",
+    "id": "ytal-mirror-mirror",
+    "title": "Mirror Mirror",
+    "artist": "Anno Domini Beats",
+    "source": "YouTube Audio Library",
+    "licence": "YouTube Audio Library (YouTube Studio > Bibliothèque audio, channel VICECITY INTEL), licence shown as 'Licence de la bibliothèque audio YouTube', seen 2026-11-26",
+    "permitted": "APPROVED",
+    "platforms": {
+     "youtube": "APPROVED",
+     "tiktok": "PENDING",
+     "reels": "PENDING"
+    },
+    "attribution": "CHECK: open the track's licence icon in Studio; if attribution is required, paste it in the description",
+    "conditions": "Use in videos only; never re-distribute the audio file. Other platforms are not covered until verified.",
+    "monetization": "YouTube: allowed under the YouTube Audio Library terms; elsewhere not verified",
+    "alternatives": [
+     "Ego Chall - Blue Deer Studio",
+     "Comin Wit It - Anno Domini Beats"
+    ]
+   },
+   "tiktok": {
+    "mode": "add in TikTok's sound picker",
+    "id": "tt-tokyo-drift-phonkazo",
+    "title": "Tokyo Drift",
+    "artist": "PHONKAZO",
+    "source": "TikTok in-app sound library (seen in TikTok Studio editor, 26 Nov 2026)",
+    "licence": "Offered in TikTok's sound picker for this account",
+    "permitted": "IN_APP_ONLY",
+    "platforms": {
+     "youtube": "NOT_APPROVED",
+     "tiktok": "IN_APP_ONLY",
+     "reels": "PENDING"
+    },
+    "attribution": "Shown automatically by TikTok",
+    "conditions": "Never embed in the uploaded video file",
+    "monetization": "Not cleared outside TikTok",
+    "alternatives": []
+   }
+  }
  }
 ]
