@@ -763,5 +763,114 @@
     "alternatives": []
    }
   }
+ },
+ {
+  "id": "vci-20261128-082345",
+  "created": "2026-11-28T08:24:15+00:00",
+  "template": "chaos",
+  "format": "top3",
+  "category": "VIRAL MOMENTS & CHAOS",
+  "duration_s": 19.5,
+  "hook": "UNE VOITURE PREND FEU EN PLEINE RUE",
+  "sources": [
+   {
+    "content_id": "VCI-de06442cc9",
+    "creator": "iamqueenzak",
+    "platform": "kick",
+    "url": "https://kick.com/iamqueenzak/clips/clip_01M8G30Y6PJQ5FZ8NKP8SA52MB",
+    "rights": "credited_third_party",
+    "start": 39.0,
+    "end": 45.5,
+    "at": 0.0,
+    "len": 6.5,
+    "height": 1080,
+    "dhash": "879607cbc7ddd89a",
+    "rank": 3
+   },
+   {
+    "content_id": "VCI-b99689761c",
+    "creator": "kamikaze_evil",
+    "platform": "kick",
+    "url": "https://kick.com/kamikaze_evil/clips/clip_01M8FN81G4D7K2RE0PK0WZV76G",
+    "rights": "credited_third_party",
+    "start": 4.0,
+    "end": 10.5,
+    "at": 6.5,
+    "len": 6.5,
+    "height": 1080,
+    "dhash": "8169c068460e1b03",
+    "rank": 2
+   },
+   {
+    "content_id": "VCI-4859d18646",
+    "creator": "ricodoubler",
+    "platform": "kick",
+    "url": "https://kick.com/ricodoubler/clips/clip_01M8G6W3D40WJD62AXDHQKY86A",
+    "rights": "credited_third_party",
+    "start": 5.0,
+    "end": 11.5,
+    "at": 13.0,
+    "len": 6.5,
+    "height": 720,
+    "dhash": "b39ad8f2faedbcbc",
+    "rank": 1
+   }
+  ],
+  "status": "ready_for_approval",
+  "render_seconds": 73,
+  "qc": {
+   "youtube": "warn",
+   "tiktok": "warn"
+  },
+  "copy": {
+   "youtube": {
+    "title": "UNE VOITURE PREND FEU EN PLEINE RUE 😱 GTA 6 #Shorts",
+    "description": "Fusillade depuis une voiture dans une rue de la ville, une voiture se retrouve renversée sur la chaussée.\nTon préféré ? Dis-le en commentaire 👇\n🎥 Créateurs (Kick) : iamqueenzak, kamikaze_evil, ricodoubler\nVoix : Piper, voix fr_FR-siwis (corpus SIWIS, CC BY 4.0)\n#GTA6 #GTAVI #GTA6FR #Shorts"
+   },
+   "tiktok": {
+    "caption": "UNE VOITURE PREND FEU EN PLEINE RUE 😱 GTA 6 Ton préféré ? Dis-le en commentaire 👇 🎥 iamqueenzak, kamikaze_evil, ricodoubler (Kick) #GTA6 #GTA6FR #GTAVI #pourtoi"
+   }
+  },
+  "music": {
+   "youtube": {
+    "mode": "add in the YouTube Studio editor",
+    "id": "ytal-ego-chall",
+    "title": "Ego Chall",
+    "artist": "Blue Deer Studio",
+    "source": "YouTube Audio Library",
+    "licence": "YouTube Audio Library (YouTube Studio > Bibliothèque audio, channel VICECITY INTEL), licence shown as 'Licence de la bibliothèque audio YouTube', seen 2026-11-26",
+    "permitted": "APPROVED",
+    "platforms": {
+     "youtube": "APPROVED",
+     "tiktok": "PENDING",
+     "reels": "PENDING"
+    },
+    "attribution": "CHECK: open the track's licence icon in Studio; if attribution is required, paste it in the description",
+    "conditions": "Use in videos only; never re-distribute the audio file. Other platforms are not covered until verified.",
+    "monetization": "YouTube: allowed under the YouTube Audio Library terms; elsewhere not verified",
+    "alternatives": [
+     "Comin Wit It - Anno Domini Beats",
+     "Monster Freak Party - Bare Bones Mtl"
+    ]
+   },
+   "tiktok": {
+    "mode": "add in TikTok's sound picker",
+    "id": "tt-metamorphosis-interworld",
+    "title": "METAMORPHOSIS",
+    "artist": "INTERWORLD",
+    "source": "TikTok in-app sound library (TikTok Studio editor, 26 Nov 2026)",
+    "licence": "Offered in TikTok's sound picker for this account",
+    "permitted": "IN_APP_ONLY",
+    "platforms": {
+     "youtube": "NOT_APPROVED",
+     "tiktok": "IN_APP_ONLY",
+     "reels": "PENDING"
+    },
+    "attribution": "Shown automatically by TikTok",
+    "conditions": "Never embed in the uploaded video file",
+    "monetization": "Not cleared outside TikTok",
+    "alternatives": []
+   }
+  }
  }
 ]

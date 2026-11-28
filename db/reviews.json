@@ -879,5 +879,100 @@
   "verdict": "reject",
   "reason": "conduite calme puis carte, rien ne se passe",
   "by": "Cloud Claude review 2026-11-28"
+ },
+ "VCI-6f9f04517a": {
+  "verdict": "reject",
+  "reason": "nage sous l'eau avec un lamantin, facecam, aucune action claire",
+  "by": "Cloud Claude review 2026-11-28"
+ },
+ "VCI-4c341614ba": {
+  "verdict": "reject",
+  "reason": "nudité à l'écran",
+  "by": "Cloud Claude review 2026-11-28"
+ },
+ "VCI-de06442cc9": {
+  "verdict": "keep",
+  "action_fr": "Une voiture rose prend feu dans la rue puis une grosse explosion remplit l'écran.",
+  "hooks_fr": [
+   "UNE VOITURE PREND FEU EN PLEINE RUE",
+   "ÇA EXPLOSE, ON EST JAMAIS TRANQUILLE",
+   "LA RUE PART EN FUMÉE EN QUELQUES SECONDES"
+  ],
+  "category": "VIRAL MOMENTS & CHAOS",
+  "strength": 6,
+  "window": [
+   39.0,
+   49.0
+  ],
+  "by": "Cloud Claude review 2026-11-28"
+ },
+ "VCI-a977164fb1": {
+  "verdict": "reject",
+  "reason": "voiture de police qui roule calmement, publicités en surimpression, rien ne se passe",
+  "by": "Cloud Claude review 2026-11-28"
+ },
+ "VCI-c6bdd86b2c": {
+  "verdict": "reject",
+  "reason": "contenu sexuel et nudité",
+  "by": "Cloud Claude review 2026-11-28"
+ },
+ "VCI-22b39c8f9a": {
+  "verdict": "reject",
+  "reason": "contenu sexuel et nudité",
+  "by": "Cloud Claude review 2026-11-28"
+ },
+ "VCI-4859d18646": {
+  "verdict": "keep",
+  "action_fr": "Fusillade depuis une voiture dans une rue de la ville, une voiture se retrouve renversée sur la chaussée.",
+  "hooks_fr": [
+   "FUSILLADE EN PLEINE RUE",
+   "UNE VOITURE FINIT SUR LE TOIT",
+   "LA POURSUITE TOURNE AU CHAOS"
+  ],
+  "category": "VIRAL MOMENTS & CHAOS",
+  "strength": 7,
+  "window": [
+   5.0,
+   15.0
+  ],
+  "by": "Cloud Claude review 2026-11-28"
+ },
+ "VCI-83759d169f": {
+  "verdict": "reject",
+  "reason": "facecam seulement, pas de jeu",
+  "not_gta6": true,
+  "by": "Cloud Claude review 2026-11-28"
+ },
+ "VCI-d4ecef5a21": {
+  "verdict": "reject",
+  "reason": "pas GTA 6 (jeu type GTA V / serveur RP), voiture qui se renverse",
+  "not_gta6": true,
+  "by": "Cloud Claude review 2026-11-28"
+ },
+ "VCI-b99689761c": {
+  "verdict": "keep",
+  "action_fr": "Collision entre deux voitures à un carrefour, puis un homme en chemise blanche donne des coups de pied à un homme au sol.",
+  "hooks_fr": [
+   "ACCIDENT AU CARREFOUR, ÇA DÉGÉNÈRE",
+   "IL SORT DE LA VOITURE ET FRAPPE",
+   "UN CARREFOUR, UN ACCIDENT, UNE BAGARRE"
+  ],
+  "category": "VIRAL MOMENTS & CHAOS",
+  "strength": 5,
+  "window": [
+   4.0,
+   14.0
+  ],
+  "by": "Cloud Claude review 2026-11-28"
+ },
+ "VCI-efc0e83c72": {
+  "verdict": "reject",
+  "reason": "camionnette arrêtée, personne qui marche, rien ne se passe",
+  "by": "Cloud Claude review 2026-11-28"
+ },
+ "VCI-a57a995b22": {
+  "verdict": "reject",
+  "reason": "cinématique avec nudité",
+  "by": "Cloud Claude review 2026-11-28"
  }
 }
