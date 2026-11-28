@@ -30,7 +30,7 @@
  },
  "races": {
   "pillar": "RACING & VEHICLES",
-  "last_24h": 4,
+  "last_24h": 5,
   "previous_24h": 2,
   "news_24h": 3,
   "examples": [
@@ -49,20 +49,20 @@
    {
     "title": "¡Perdí la carrera por milímetros! 😱 GTA 6",
     "url": "https://kick.com/jr-camacho/clips/clip_01M8G75DT7N3AC1J0M6WHZYSJQ"
+   },
+   {
+    "title": "off road racing ",
+    "url": "https://kick.com/zthebrokeboyz/clips/clip_01M8GAABG0HWMNS13N7A161PVS"
    }
   ],
-  "trend": 1.67
+  "trend": 2.0
  },
  "vehicles": {
   "pillar": "RACING & VEHICLES",
-  "last_24h": 15,
-  "previous_24h": 3,
-  "news_24h": 14,
+  "last_24h": 14,
+  "previous_24h": 4,
+  "news_24h": 13,
   "examples": [
-   {
-    "title": "Coches con pollas en las manos!",
-    "url": "https://kick.com/rapturs/clips/clip_01M8DMVM1X0JPRQH9E9YFF39FB"
-   },
    {
     "title": "Ábrelo! Salto desde la avioneta",
     "url": "https://kick.com/aquino/clips/clip_01M8DVEDPABDXVJTJ63FJVAQ1X"
@@ -78,9 +78,13 @@
    {
     "title": "IG BOAT",
     "url": "https://kick.com/lordkebun/clips/clip_01M8EBVTY062Y8D16G6291XH1N"
+   },
+   {
+    "title": "Este coche se mueve rico!",
+    "url": "https://kick.com/djmariio/clips/clip_01M8F3RGMC7RAXA81MB3B7KGPH"
    }
   ],
-  "trend": 4.0
+  "trend": 3.0
  },
  "challenges": {
   "pillar": "CHALLENGES & EXPERIMENTS",
@@ -105,7 +109,7 @@
  },
  "funny": {
   "pillar": "VIRAL MOMENTS & CHAOS",
-  "last_24h": 68,
+  "last_24h": 77,
   "previous_24h": 48,
   "news_24h": 1,
   "examples": [
@@ -130,18 +134,14 @@
     "url": "https://kick.com/rodrigoglez9/clips/clip_01M8E068486EDFCNTQ3HRV14KA"
    }
   ],
-  "trend": 1.41
+  "trend": 1.59
  },
  "reactions": {
   "pillar": "VIRAL MOMENTS & CHAOS",
   "last_24h": 12,
-  "previous_24h": 7,
+  "previous_24h": 8,
   "news_24h": 3,
   "examples": [
-   {
-    "title": "crazyyyyy",
-    "url": "https://kick.com/javiiriivera/clips/clip_01M8DMTH30Q7408MN4RR28JWTH"
-   },
    {
     "title": "funny reaction 😂",
     "url": "https://kick.com/sharkshe/clips/clip_01M8EBT180E4SF5K45HKP0WYEG"
@@ -157,15 +157,19 @@
    {
     "title": "SPOTTED KODAK IN THE CLUB😱🔥🔥",
     "url": "https://kick.com/tattedboxertv/clips/clip_01M8FJAB05JBVEB9AW3PK1DBAP"
+   },
+   {
+    "title": "Rage na ovladač",
+    "url": "https://kick.com/heddi/clips/clip_01M8FNA3F94B955Z70PJSMD9Y1"
    }
   ],
-  "trend": 1.62
+  "trend": 1.44
  },
  "unusual": {
   "pillar": "LEONIDA LIFE & DETAILS",
   "last_24h": 7,
   "previous_24h": 2,
-  "news_24h": 6,
+  "news_24h": 5,
   "examples": [
    {
     "title": "los NPC de GTA 6 te tienden trampas. ",
@@ -194,7 +198,7 @@
   "pillar": "CHEATS, TIPS & MONEY",
   "last_24h": 11,
   "previous_24h": 7,
-  "news_24h": 9,
+  "news_24h": 8,
   "examples": [
    {
     "title": "lusi cheat jeson ",
