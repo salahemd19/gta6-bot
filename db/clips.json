@@ -205979,7 +205979,7 @@
   "vod_starts_at": 0,
   "is_mature": true,
   "discovered_at": "2026-11-27T23:30:49+00:00",
-  "status": "analysed",
+  "status": "rejected_review",
   "authenticity": "category_only",
   "rights": "credited_third_party",
   "used_in": [],
@@ -206021,8 +206021,8 @@
   "publications": [],
   "analytics": {},
   "stage": "RIGHTS_RECORDED",
-  "state": "active",
-  "updated_at": "2026-11-28T01:57:17+00:00",
+  "state": "rejected",
+  "updated_at": "2026-11-28T04:16:50+00:00",
   "views_per_hour_recent": 0.0,
   "metrics": {
    "motion": 22.8,
@@ -206170,7 +206170,8 @@
    "needs_review": "Hooks are generic: nobody has described what happens yet. Check the footage before using."
   },
   "analysed_at": "2026-11-28T01:53:34+00:00",
-  "viral_potential": 7.97
+  "viral_potential": 7.97,
+  "manual_state": true
  },
  "clip_01M8FN9G3A8DD28DK5EV12A5J5": {
   "id": "clip_01M8FN9G3A8DD28DK5EV12A5J5",
@@ -207743,7 +207744,7 @@
   "vod_starts_at": 0,
   "is_mature": true,
   "discovered_at": "2026-11-27T23:30:49+00:00",
-  "status": "analysed",
+  "status": "rejected_review",
   "authenticity": "category_only",
   "rights": "credited_third_party",
   "used_in": [],
@@ -207785,8 +207786,8 @@
   "publications": [],
   "analytics": {},
   "stage": "RIGHTS_RECORDED",
-  "state": "active",
-  "updated_at": "2026-11-28T01:57:17+00:00",
+  "state": "rejected",
+  "updated_at": "2026-11-28T04:16:50+00:00",
   "views_per_hour_recent": 0.0,
   "metrics": {
    "motion": 29.2,
@@ -207992,7 +207993,8 @@
    "needs_review": "Hooks are generic: nobody has described what happens yet. Check the footage before using."
   },
   "analysed_at": "2026-11-28T01:28:01+00:00",
-  "viral_potential": 8.28
+  "viral_potential": 8.28,
+  "manual_state": true
  },
  "clip_01M8FN7CJC521KY2YJXJGZ2F92": {
   "id": "clip_01M8FN7CJC521KY2YJXJGZ2F92",
@@ -210828,7 +210830,7 @@
   "vod_starts_at": 0,
   "is_mature": true,
   "discovered_at": "2026-11-27T23:30:50+00:00",
-  "status": "analysed",
+  "status": "rejected_review",
   "authenticity": "category_only",
   "rights": "credited_third_party",
   "used_in": [],
@@ -210870,8 +210872,8 @@
   "publications": [],
   "analytics": {},
   "stage": "RIGHTS_RECORDED",
-  "state": "active",
-  "updated_at": "2026-11-28T01:57:17+00:00",
+  "state": "rejected",
+  "updated_at": "2026-11-28T04:16:50+00:00",
   "views_per_hour_recent": 0.0,
   "metrics": {
    "motion": 22.1,
@@ -211013,7 +211015,8 @@
    "needs_review": "Hooks are generic: nobody has described what happens yet. Check the footage before using."
   },
   "analysed_at": "2026-11-28T01:57:17+00:00",
-  "viral_potential": 7.73
+  "viral_potential": 7.73,
+  "manual_state": true
  },
  "clip_01M82PQ04J3YAC7MK6APD7D7CV": {
   "id": "clip_01M82PQ04J3YAC7MK6APD7D7CV",
@@ -211419,7 +211422,7 @@
   "vod_starts_at": 0,
   "is_mature": true,
   "discovered_at": "2026-11-27T23:30:52+00:00",
-  "status": "analysed",
+  "status": "rejected_review",
   "authenticity": "category_only",
   "rights": "credited_third_party",
   "used_in": [],
@@ -211461,8 +211464,8 @@
   "publications": [],
   "analytics": {},
   "stage": "RIGHTS_RECORDED",
-  "state": "active",
-  "updated_at": "2026-11-28T01:57:17+00:00",
+  "state": "rejected",
+  "updated_at": "2026-11-28T04:16:50+00:00",
   "views_per_hour_recent": 2.5,
   "metrics": {
    "motion": 22.2,
@@ -211718,7 +211721,8 @@
    "needs_review": "Hooks are generic: nobody has described what happens yet. Check the footage before using."
   },
   "analysed_at": "2026-11-28T01:18:00+00:00",
-  "viral_potential": 8.2
+  "viral_potential": 8.2,
+  "manual_state": true
  },
  "clip_01M8EVS22XWT4SMRTX8M48VBTB": {
   "id": "clip_01M8EVS22XWT4SMRTX8M48VBTB",
@@ -221466,8 +221470,8 @@
   "vod_starts_at": 0,
   "is_mature": true,
   "discovered_at": "2026-11-28T00:29:37+00:00",
-  "status": "analysed",
-  "authenticity": "category_only",
+  "status": "rejected_review",
+  "authenticity": "not_gta6",
   "rights": "credited_third_party",
   "used_in": [],
   "duplicate_of": null,
@@ -221508,8 +221512,8 @@
   "publications": [],
   "analytics": {},
   "stage": "RIGHTS_RECORDED",
-  "state": "active",
-  "updated_at": "2026-11-28T01:57:17+00:00",
+  "state": "rejected",
+  "updated_at": "2026-11-28T04:16:50+00:00",
   "views_per_hour_recent": 0.0,
   "metrics": {
    "motion": 23.9,
@@ -221645,7 +221649,8 @@
    "needs_review": "Hooks are generic: nobody has described what happens yet. Check the footage before using."
   },
   "analysed_at": "2026-11-28T01:39:23+00:00",
-  "viral_potential": 8.29
+  "viral_potential": 8.29,
+  "manual_state": true
  },
  "clip_01M8FRFCAHE46YE5HNKQTG3SAB": {
   "id": "clip_01M8FRFCAHE46YE5HNKQTG3SAB",
@@ -221985,7 +221990,7 @@
   "vod_starts_at": 0,
   "is_mature": true,
   "discovered_at": "2026-11-28T00:29:38+00:00",
-  "status": "analysed",
+  "status": "rejected_review",
   "authenticity": "category_only",
   "rights": "credited_third_party",
   "used_in": [],
@@ -222027,8 +222032,8 @@
   "publications": [],
   "analytics": {},
   "stage": "RIGHTS_RECORDED",
-  "state": "active",
-  "updated_at": "2026-11-28T01:57:17+00:00",
+  "state": "rejected",
+  "updated_at": "2026-11-28T04:16:50+00:00",
   "views_per_hour_recent": 8.1,
   "metrics": {
    "motion": 41.7,
@@ -222159,7 +222164,8 @@
    "needs_review": "Hooks are generic: nobody has described what happens yet. Check the footage before using."
   },
   "analysed_at": "2026-11-28T01:15:53+00:00",
-  "viral_potential": 7.83
+  "viral_potential": 7.83,
+  "manual_state": true
  },
  "clip_01M83D53PTPPM8N2WXXMAZ7WRY": {
   "id": "clip_01M83D53PTPPM8N2WXXMAZ7WRY",
@@ -223711,8 +223717,8 @@
   "publications": [],
   "analytics": {},
   "stage": "DISCOVERED",
-  "state": "active",
-  "updated_at": "2026-11-28T00:29:39+00:00",
+  "state": "expired",
+  "updated_at": "2026-11-28T04:16:50+00:00",
   "views_per_hour_recent": 3.1
  },
  "clip_01M7Z90C70S4KW4FREW798V84Q": {
@@ -226809,7 +226815,7 @@
   "vod_starts_at": 0,
   "is_mature": true,
   "discovered_at": "2026-11-28T01:56:58+00:00",
-  "status": "analysed",
+  "status": "rejected_review",
   "authenticity": "category_only",
   "rights": "credited_third_party",
   "used_in": [],
@@ -226851,8 +226857,8 @@
   "publications": [],
   "analytics": {},
   "stage": "RIGHTS_RECORDED",
-  "state": "active",
-  "updated_at": "2026-11-28T03:22:46+00:00",
+  "state": "rejected",
+  "updated_at": "2026-11-28T04:16:50+00:00",
   "metrics": {
    "motion": 30.1,
    "still": 0.0,
@@ -227050,7 +227056,8 @@
   },
   "analysed_at": "2026-11-28T03:00:30+00:00",
   "viral_potential": 7.75,
-  "views_per_hour_recent": 0.0
+  "views_per_hour_recent": 0.0,
+  "manual_state": true
  },
  "clip_01M8FXR83KAXQ95NAR5D47HZYQ": {
   "id": "clip_01M8FXR83KAXQ95NAR5D47HZYQ",
@@ -227720,7 +227727,7 @@
   "vod_starts_at": 0,
   "is_mature": true,
   "discovered_at": "2026-11-28T01:56:58+00:00",
-  "status": "analysed",
+  "status": "rejected_review",
   "authenticity": "category_only",
   "rights": "credited_third_party",
   "used_in": [],
@@ -227762,8 +227769,8 @@
   "publications": [],
   "analytics": {},
   "stage": "RIGHTS_RECORDED",
-  "state": "active",
-  "updated_at": "2026-11-28T03:22:46+00:00",
+  "state": "rejected",
+  "updated_at": "2026-11-28T04:16:50+00:00",
   "metrics": {
    "motion": 24.7,
    "still": 0.0,
@@ -228009,7 +228016,8 @@
   },
   "analysed_at": "2026-11-28T03:08:31+00:00",
   "viral_potential": 7.9,
-  "views_per_hour_recent": 0.0
+  "views_per_hour_recent": 0.0,
+  "manual_state": true
  },
  "clip_01M8FXPQT6P0VJEEEF32Y2ENAP": {
   "id": "clip_01M8FXPQT6P0VJEEEF32Y2ENAP",
@@ -231512,7 +231520,7 @@
   "vod_starts_at": 0,
   "is_mature": true,
   "discovered_at": "2026-11-28T01:56:59+00:00",
-  "status": "analysed",
+  "status": "rejected_review",
   "authenticity": "category_only",
   "rights": "credited_third_party",
   "used_in": [],
@@ -231554,8 +231562,8 @@
   "publications": [],
   "analytics": {},
   "stage": "RIGHTS_RECORDED",
-  "state": "active",
-  "updated_at": "2026-11-28T03:22:46+00:00",
+  "state": "rejected",
+  "updated_at": "2026-11-28T04:16:50+00:00",
   "metrics": {
    "motion": 23.1,
    "still": 0.06,
@@ -231752,7 +231760,8 @@
   },
   "analysed_at": "2026-11-28T03:05:33+00:00",
   "viral_potential": 8.0,
-  "views_per_hour_recent": 0.0
+  "views_per_hour_recent": 0.0,
+  "manual_state": true
  },
  "clip_01M8FXFHJYGXY96FS9F67WQ25D": {
   "id": "clip_01M8FXFHJYGXY96FS9F67WQ25D",
@@ -232828,7 +232837,7 @@
   "vod_starts_at": 0,
   "is_mature": true,
   "discovered_at": "2026-11-28T01:56:59+00:00",
-  "status": "analysed",
+  "status": "rejected_review",
   "authenticity": "category_only",
   "rights": "credited_third_party",
   "used_in": [],
@@ -232870,8 +232879,8 @@
   "publications": [],
   "analytics": {},
   "stage": "RIGHTS_RECORDED",
-  "state": "active",
-  "updated_at": "2026-11-28T03:22:46+00:00",
+  "state": "rejected",
+  "updated_at": "2026-11-28T04:16:50+00:00",
   "metrics": {
    "motion": 33.4,
    "still": 0.0,
@@ -233023,7 +233032,8 @@
   },
   "analysed_at": "2026-11-28T03:15:03+00:00",
   "viral_potential": 8.07,
-  "views_per_hour_recent": 0.0
+  "views_per_hour_recent": 0.0,
+  "manual_state": true
  },
  "clip_01M7XQFGWN0AX1GZWRPKT1W1YM": {
   "id": "clip_01M7XQFGWN0AX1GZWRPKT1W1YM",
@@ -235656,7 +235666,7 @@
   "vod_starts_at": 0,
   "is_mature": true,
   "discovered_at": "2026-11-28T02:55:07+00:00",
-  "status": "analysed",
+  "status": "rejected_review",
   "authenticity": "category_only",
   "rights": "credited_third_party",
   "used_in": [],
@@ -235686,8 +235696,8 @@
   "publications": [],
   "analytics": {},
   "stage": "RIGHTS_RECORDED",
-  "state": "active",
-  "updated_at": "2026-11-28T03:22:46+00:00",
+  "state": "rejected",
+  "updated_at": "2026-11-28T04:16:50+00:00",
   "metrics": {
    "motion": 21.1,
    "still": 0.02,
@@ -235867,7 +235877,8 @@
    "priority": 3.31,
    "topics": []
   },
-  "origin": "original"
+  "origin": "original",
+  "manual_state": true
  },
  "clip_01M8D4Y6XFPTDMQ7N5AVSQY1V2": {
   "id": "clip_01M8D4Y6XFPTDMQ7N5AVSQY1V2",
@@ -235885,7 +235896,7 @@
   "vod_starts_at": 0,
   "is_mature": true,
   "discovered_at": "2026-11-28T02:55:07+00:00",
-  "status": "analysed",
+  "status": "rejected_review",
   "authenticity": "category_only",
   "rights": "credited_third_party",
   "used_in": [],
@@ -235915,8 +235926,8 @@
   "publications": [],
   "analytics": {},
   "stage": "RIGHTS_RECORDED",
-  "state": "active",
-  "updated_at": "2026-11-28T03:22:46+00:00",
+  "state": "rejected",
+  "updated_at": "2026-11-28T04:16:50+00:00",
   "metrics": {
    "motion": 25.2,
    "still": 0.0,
@@ -236115,7 +236126,8 @@
    "priority": 3.31,
    "topics": []
   },
-  "origin": "original"
+  "origin": "original",
+  "manual_state": true
  },
  "clip_01M8D4WPD6VH6Y5PTGY1J6SJDP": {
   "id": "clip_01M8D4WPD6VH6Y5PTGY1J6SJDP",

@@ -818,5 +818,66 @@
   "verdict": "reject",
   "reason": "marche calme dans la rue, facecam",
   "by": "Cloud Claude review 2026-11-28"
+ },
+ "VCI-461f13c02b": {
+  "verdict": "reject",
+  "reason": "facecam, aucune action de jeu",
+  "not_gta6": true,
+  "by": "Cloud Claude review 2026-11-28"
+ },
+ "VCI-a640e52525": {
+  "verdict": "reject",
+  "reason": "nudité à l'écran",
+  "by": "Cloud Claude review 2026-11-28"
+ },
+ "VCI-98dca96226": {
+  "verdict": "reject",
+  "reason": "scène de dialogue/cinématique, contenu sexuel, facecam",
+  "by": "Cloud Claude review 2026-11-28"
+ },
+ "VCI-89cfd4c13d": {
+  "verdict": "reject",
+  "reason": "marche calme dans un parking puis conduite, rien ne se passe",
+  "by": "Cloud Claude review 2026-11-28"
+ },
+ "VCI-71413aab7b": {
+  "verdict": "reject",
+  "reason": "conversation dans un salon, pas d'action claire",
+  "by": "Cloud Claude review 2026-11-28"
+ },
+ "VCI-cca9ec02ae": {
+  "verdict": "reject",
+  "reason": "poursuite confuse entrecoupée de cartes, action illisible",
+  "by": "Cloud Claude review 2026-11-28"
+ },
+ "VCI-338b711c0b": {
+  "verdict": "reject",
+  "reason": "conduite calme, facecam",
+  "by": "Cloud Claude review 2026-11-28"
+ },
+ "VCI-f9a0092d41": {
+  "verdict": "reject",
+  "reason": "marche calme dans la rue, facecam",
+  "by": "Cloud Claude review 2026-11-28"
+ },
+ "VCI-ee95213bf2": {
+  "verdict": "reject",
+  "reason": "conduite calme d'une décapotable rose",
+  "by": "Cloud Claude review 2026-11-28"
+ },
+ "VCI-1ea55dd3db": {
+  "verdict": "reject",
+  "reason": "facecam et personnes à l'écran, pas de jeu",
+  "by": "Cloud Claude review 2026-11-28"
+ },
+ "VCI-daa4a662b9": {
+  "verdict": "reject",
+  "reason": "course à pied près d'une ambulance, action peu lisible, facecam",
+  "by": "Cloud Claude review 2026-11-28"
+ },
+ "VCI-1f17a49652": {
+  "verdict": "reject",
+  "reason": "conduite calme puis carte, rien ne se passe",
+  "by": "Cloud Claude review 2026-11-28"
  }
 }
