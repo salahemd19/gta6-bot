@@ -1948,5 +1948,70 @@
     "new": 0
    }
   }
+ },
+ {
+  "at": "2026-11-28T04:40:04+00:00",
+  "seconds": 13,
+  "new_clips": 67,
+  "clips": 2147,
+  "items": 871,
+  "creators": 880,
+  "sources": {
+   "kick_clips": {
+    "state": "ok",
+    "detail": "",
+    "new": 67
+   },
+   "kick_live": {
+    "state": "ok",
+    "detail": "25 live GTA 6 streams",
+    "new": 8
+   },
+   "kick_chat": {
+    "state": "ok",
+    "new": 2,
+    "detail": "3 of 3 chats read"
+   },
+   "Google News FR": {
+    "state": "ok",
+    "detail": "",
+    "new": 2
+   },
+   "Google News secrets EN": {
+    "state": "ok",
+    "detail": "",
+    "new": 5
+   },
+   "jeuxvideo.com": {
+    "state": "ok",
+    "detail": "",
+    "new": 0
+   },
+   "Google Trends FR": {
+    "state": "ok",
+    "detail": "",
+    "new": 0
+   },
+   "youtube_channel_feeds": {
+    "state": "ok",
+    "detail": "",
+    "new": 0
+   },
+   "twitch": {
+    "state": "not_connected",
+    "detail": "add secret(s): TWITCH_CLIENT_ID, TWITCH_CLIENT_SECRET",
+    "new": 0
+   },
+   "youtube_search": {
+    "state": "not_connected",
+    "detail": "add secret(s): YT_API_KEY",
+    "new": 0
+   },
+   "reddit": {
+    "state": "not_connected",
+    "detail": "add secret(s): REDDIT_CLIENT_ID, REDDIT_CLIENT_SECRET",
+    "new": 0
+   }
+  }
  }
 ]

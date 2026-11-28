@@ -2,16 +2,12 @@
  "map_secrets": {
   "pillar": "MAP & SECRET DISCOVERIES",
   "last_24h": 7,
-  "previous_24h": 2,
-  "news_24h": 40,
+  "previous_24h": 3,
+  "news_24h": 41,
   "examples": [
    {
     "title": "GTA 6 Easter Egg hunting Come say | Clip",
     "url": "https://kick.com/f8taljay/clips/clip_01M8C286HFJG889Z9208RYTVDF"
-   },
-   {
-    "title": "Easter Egg de Satan en GTA VI!",
-    "url": "https://kick.com/rapturs/clips/clip_01M8DH45XT1AYYX41SR86T7NPZ"
    },
    {
     "title": "O cofrezinho tá escondido?",
@@ -24,13 +20,17 @@
    {
     "title": "EASTER EGGY / Reálný život / Heis | Clip",
     "url": "https://kick.com/mmarek-7/clips/clip_01M8FRRYQWK0Y3M7F941Q9TZCN"
+   },
+   {
+    "title": "easter egg da lucia suicid*",
+    "url": "https://kick.com/cavalexx/clips/clip_01M8G6XVPYFJ3YKRE6AEDMNGK1"
    }
   ],
-  "trend": 2.67
+  "trend": 2.0
  },
  "races": {
   "pillar": "RACING & VEHICLES",
-  "last_24h": 3,
+  "last_24h": 4,
   "previous_24h": 2,
   "news_24h": 3,
   "examples": [
@@ -45,20 +45,20 @@
    {
     "title": "carrera",
     "url": "https://kick.com/heernialarcon/clips/clip_01M8G317CXHHRGS1VEPS837FKC"
+   },
+   {
+    "title": "¡Perdí la carrera por milímetros! 😱 GTA 6",
+    "url": "https://kick.com/jr-camacho/clips/clip_01M8G75DT7N3AC1J0M6WHZYSJQ"
    }
   ],
-  "trend": 1.33
+  "trend": 1.67
  },
  "vehicles": {
   "pillar": "RACING & VEHICLES",
-  "last_24h": 16,
-  "previous_24h": 2,
+  "last_24h": 15,
+  "previous_24h": 3,
   "news_24h": 14,
   "examples": [
-   {
-    "title": "GTA 6 A TODA VELOCIDAD EN MOTO",
-    "url": "https://kick.com/cachete420/clips/clip_01M8DH36GHWMED7ZNXJ92VXGT2"
-   },
    {
     "title": "Coches con pollas en las manos!",
     "url": "https://kick.com/rapturs/clips/clip_01M8DMVM1X0JPRQH9E9YFF39FB"
@@ -74,15 +74,19 @@
    {
     "title": "Dirt Bike Escape Plan",
     "url": "https://kick.com/bennymack/clips/clip_01M8ECA6R2SY0Y4QABFSMK256Z"
+   },
+   {
+    "title": "IG BOAT",
+    "url": "https://kick.com/lordkebun/clips/clip_01M8EBVTY062Y8D16G6291XH1N"
    }
   ],
-  "trend": 5.67
+  "trend": 4.0
  },
  "challenges": {
   "pillar": "CHALLENGES & EXPERIMENTS",
   "last_24h": 3,
   "previous_24h": 1,
-  "news_24h": 7,
+  "news_24h": 6,
   "examples": [
    {
     "title": "Ghost or Tommy cause it definitely Power 🤷🏽‍♂️ ",
@@ -102,7 +106,7 @@
  "funny": {
   "pillar": "VIRAL MOMENTS & CHAOS",
   "last_24h": 68,
-  "previous_24h": 43,
+  "previous_24h": 48,
   "news_24h": 1,
   "examples": [
    {
@@ -110,58 +114,58 @@
     "url": "https://kick.com/levelup-ruben/clips/clip_01M8C2Q4CWYQPMQJ4ZW2ZHPP2R"
    },
    {
-    "title": "kkk",
-    "url": "https://kick.com/astrinhoqy/clips/clip_01M8DH6CC795YAYW6DA4GJ3E8S"
+    "title": "kkkk tomou",
+    "url": "https://kick.com/jotajogadas/clips/clip_01M8DV7BWV7DPXFBBAES65KVEF"
    },
    {
-    "title": "8kkkmjj",
-    "url": "https://kick.com/astrinhoqy/clips/clip_01M8DMTE6KTWYSYZQ6N9SBAW2Q"
+    "title": "we outside 3 babe so funny 😁 ",
+    "url": "https://kick.com/one-tenboss101/clips/clip_01M8DV0FQMF94J91190CVRBC6S"
    },
    {
-    "title": "KKKKKKKKK",
-    "url": "https://kick.com/japa/clips/clip_01M8DMMYCPW5GB55HC7QCQ7K8A"
+    "title": "WTF Rockstar",
+    "url": "https://kick.com/foureyedhuman/clips/clip_01M8DTVTWY47VQMNPXJDH0EKH2"
    },
    {
-    "title": "wtf lucia’s just fighting alone😱🥹",
-    "url": "https://kick.com/blueprincegaming/clips/clip_01M8DMMJRM2CDCXEYCTEJA4FJS"
+    "title": "lol",
+    "url": "https://kick.com/rodrigoglez9/clips/clip_01M8E068486EDFCNTQ3HRV14KA"
    }
   ],
-  "trend": 1.57
+  "trend": 1.41
  },
  "reactions": {
   "pillar": "VIRAL MOMENTS & CHAOS",
-  "last_24h": 15,
-  "previous_24h": 3,
+  "last_24h": 12,
+  "previous_24h": 7,
   "news_24h": 3,
   "examples": [
-   {
-    "title": "Military grade encryption? 😱",
-    "url": "https://kick.com/crystalst/clips/clip_01M8DH3Z7E4RFAJEJBN0WCVY31"
-   },
    {
     "title": "crazyyyyy",
     "url": "https://kick.com/javiiriivera/clips/clip_01M8DMTH30Q7408MN4RR28JWTH"
    },
    {
-    "title": "crazyyyy",
-    "url": "https://kick.com/javiiriivera/clips/clip_01M8DMPN8R99SW2SHB62QGB0TV"
-   },
-   {
-    "title": "wtf lucia’s just fighting alone😱🥹",
-    "url": "https://kick.com/blueprincegaming/clips/clip_01M8DMMJRM2CDCXEYCTEJA4FJS"
-   },
-   {
     "title": "funny reaction 😂",
     "url": "https://kick.com/sharkshe/clips/clip_01M8EBT180E4SF5K45HKP0WYEG"
+   },
+   {
+    "title": "collectible card price reaction\\",
+    "url": "https://kick.com/itsnitsi/clips/clip_01M8EY2NJS52NH9NV4HC24W13E"
+   },
+   {
+    "title": "Road rage in GTA 6",
+    "url": "https://kick.com/lordkebun/clips/clip_01M8FEMRGS6NQ67KNC2VY6ZQAW"
+   },
+   {
+    "title": "SPOTTED KODAK IN THE CLUB😱🔥🔥",
+    "url": "https://kick.com/tattedboxertv/clips/clip_01M8FJAB05JBVEB9AW3PK1DBAP"
    }
   ],
-  "trend": 4.0
+  "trend": 1.62
  },
  "unusual": {
   "pillar": "LEONIDA LIFE & DETAILS",
   "last_24h": 7,
   "previous_24h": 2,
-  "news_24h": 7,
+  "news_24h": 6,
   "examples": [
    {
     "title": "los NPC de GTA 6 te tienden trampas. ",
@@ -188,18 +192,10 @@
  },
  "money_tips": {
   "pillar": "CHEATS, TIPS & MONEY",
-  "last_24h": 12,
-  "previous_24h": 5,
+  "last_24h": 11,
+  "previous_24h": 7,
   "news_24h": 9,
   "examples": [
-   {
-    "title": "[DROPS 60FPS] MONEY MOVES ONLY - | Clip",
-    "url": "https://kick.com/patgarburgar/clips/clip_01M8DH6PFPF3J0SHQ0WW5NW7A6"
-   },
-   {
-    "title": "[DROPS 60FPS] MONEY MOVES ONLY - | Clip",
-    "url": "https://kick.com/patgarburgar/clips/clip_01M8DMGD7B14FQF3M0Z21G8K8D"
-   },
    {
     "title": "lusi cheat jeson ",
     "url": "https://kick.com/aadiigamer/clips/clip_01M8DVDF2D9VC3H6YXH08WX49B"
@@ -211,8 +207,16 @@
    {
     "title": "GTA 6 Heist Mission Revealed",
     "url": "https://kick.com/jack/clips/clip_01M8E5QTG12TWN4W1P2Y8YDYAC"
+   },
+   {
+    "title": "Gunshot in the heist",
+    "url": "https://kick.com/iceposeidon/clips/clip_01M8E5QKMHM37Y7WF8K1Y08YY5"
+   },
+   {
+    "title": "No tiene dinero, lo sabía",
+    "url": "https://kick.com/nexxuz/clips/clip_01M8EYB8FRA2YPDHV4MTS8CCJR"
    }
   ],
-  "trend": 2.17
+  "trend": 1.5
  }
 }
