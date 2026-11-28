@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-28T10:08+00:00",
+ "generated": "2026-11-28T11:04+00:00",
  "level": 0,
  "timezone": "Europe/Paris",
  "platforms": {
@@ -180,22 +180,6 @@
      "cap": 8,
      "slots": [
       {
-       "local": "12:00",
-       "utc": "2026-11-28T11:00+00:00",
-       "id": "engine-20261126-2224-1",
-       "window": "lunch",
-       "status": "assigned",
-       "title": "ILS ONT FAIT ÇA SUR GTA 6 (TOP 3) 🤯 le numéro 1 est irréel",
-       "package": {
-        "video_url": "https://github.com/salahemd19/gta6-bot/releases/download/clips/engine-20261126-2224-1.mp4",
-        "caption": "ILS ONT FAIT ÇA SUR GTA 6 (TOP 3) 🤯 le numéro 1 est irréel 😱 Ton préféré ? Dis-le en commentaire 👇 🎥 kasugard, pluzin, sercanzurna (Kick) #GTA6 #GTA6FR #GTAVI #gta #pourtoi #fyp",
-        "music": [
-         "Tokyo Drift - PHONKAZO",
-         "METAMORPHOSIS - INTERWORLD"
-        ]
-       }
-      },
-      {
        "local": "13:00",
        "utc": "2026-11-28T12:00+00:00",
        "id": "engine-20261126-2225-2",
@@ -215,9 +199,17 @@
        "local": "15:05",
        "utc": "2026-11-28T14:05+00:00",
        "window": "afternoon",
-       "id": null,
-       "status": "empty",
-       "title": null
+       "id": "engine-20261126-2224-1",
+       "status": "assigned",
+       "title": "ILS ONT FAIT ÇA SUR GTA 6 (TOP 3) 🤯 le numéro 1 est irréel",
+       "package": {
+        "video_url": "https://github.com/salahemd19/gta6-bot/releases/download/clips/engine-20261126-2224-1.mp4",
+        "caption": "ILS ONT FAIT ÇA SUR GTA 6 (TOP 3) 🤯 le numéro 1 est irréel 😱 Ton préféré ? Dis-le en commentaire 👇 🎥 kasugard, pluzin, sercanzurna (Kick) #GTA6 #GTA6FR #GTAVI #gta #pourtoi #fyp",
+        "music": [
+         "Tokyo Drift - PHONKAZO",
+         "METAMORPHOSIS - INTERWORLD"
+        ]
+       }
       },
       {
        "local": "16:30",
@@ -405,7 +397,7 @@
    "target": 12,
    "cap": 8,
    "filled_today": 2,
-   "empty_next_days": 22
+   "empty_next_days": 21
   }
  },
  "blocked": [],
