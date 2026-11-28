@@ -1,9 +1,9 @@
 {
  "map_secrets": {
   "pillar": "MAP & SECRET DISCOVERIES",
-  "last_24h": 4,
+  "last_24h": 7,
   "previous_24h": 2,
-  "news_24h": 40,
+  "news_24h": 39,
   "examples": [
    {
     "title": "GTA 6 Easter Egg hunting Come say | Clip",
@@ -18,11 +18,15 @@
     "url": "https://kick.com/yoda/clips/clip_01M8F82HND762YWFWYGP2ZN9WR"
    },
    {
-    "title": "GTA 6 VICE CITY EASTER EGG | !insta !yt !social",
-    "url": "https://kick.com/yyiido"
+    "title": "EASTER EGGY / Reálný život / Heis | Clip",
+    "url": "https://kick.com/mmarek-7/clips/clip_01M8FRV97HR8ABQ9VTN25H6C65"
+   },
+   {
+    "title": "EASTER EGGY / Reálný život / Heis | Clip",
+    "url": "https://kick.com/mmarek-7/clips/clip_01M8FRRYQWK0Y3M7F941Q9TZCN"
    }
   ],
-  "trend": 1.67
+  "trend": 2.67
  },
  "races": {
   "pillar": "RACING & VEHICLES",
@@ -49,7 +53,7 @@
   "pillar": "RACING & VEHICLES",
   "last_24h": 17,
   "previous_24h": 1,
-  "news_24h": 13,
+  "news_24h": 14,
   "examples": [
    {
     "title": "GTA 6 A TODA VELOCIDAD EN MOTO",
@@ -97,8 +101,8 @@
  },
  "funny": {
   "pillar": "VIRAL MOMENTS & CHAOS",
-  "last_24h": 70,
-  "previous_24h": 27,
+  "last_24h": 74,
+  "previous_24h": 24,
   "news_24h": 1,
   "examples": [
    {
@@ -122,7 +126,7 @@
     "url": "https://kick.com/medeirosgoat/clips/clip_01M8D6JESWNP37Y7EGGBD0XHPB"
    }
   ],
-  "trend": 2.54
+  "trend": 3.0
  },
  "reactions": {
   "pillar": "VIRAL MOMENTS & CHAOS",
@@ -155,17 +159,13 @@
  },
  "unusual": {
   "pillar": "LEONIDA LIFE & DETAILS",
-  "last_24h": 8,
-  "previous_24h": 1,
+  "last_24h": 7,
+  "previous_24h": 2,
   "news_24h": 7,
   "examples": [
    {
     "title": "los NPC de GTA 6 te tienden trampas. ",
     "url": "https://kick.com/rdjohanx/clips/clip_01M8C2APVZW9E7ABRK4PD819X3"
-   },
-   {
-    "title": "tubarão pegou o npc kkkkk",
-    "url": "https://kick.com/1falange/clips/clip_01M8D6AGGWQCM8ZPK8V693F9Q2"
    },
    {
     "title": "RANDOM NPC AT PATROL PUMP",
@@ -178,13 +178,17 @@
    {
     "title": "Tony Captain Bumpcor? GTA 6 Absurd NPC Chaos",
     "url": "https://kick.com/mattlafff/clips/clip_01M8EBRD1DQ2TK4YZH2TR5HMGD"
+   },
+   {
+    "title": "Los NPCs están locos!",
+    "url": "https://kick.com/axozer/clips/clip_01M8EMM5GJJ43A8PJ0X1WREPME"
    }
   ],
-  "trend": 4.5
+  "trend": 2.67
  },
  "money_tips": {
   "pillar": "CHEATS, TIPS & MONEY",
-  "last_24h": 10,
+  "last_24h": 11,
   "previous_24h": 4,
   "news_24h": 9,
   "examples": [
@@ -209,6 +213,6 @@
     "url": "https://kick.com/jack/clips/clip_01M8E5QTG12TWN4W1P2Y8YDYAC"
    }
   ],
-  "trend": 2.2
+  "trend": 2.4
  }
 }
