@@ -1,7 +1,7 @@
 {
  "map_secrets": {
   "pillar": "MAP & SECRET DISCOVERIES",
-  "last_24h": 10,
+  "last_24h": 11,
   "previous_24h": 4,
   "news_24h": 46,
   "examples": [
@@ -26,13 +26,13 @@
     "url": "https://kick.com/cavalexx/clips/clip_01M8G6XVPYFJ3YKRE6AEDMNGK1"
    }
   ],
-  "trend": 2.2
+  "trend": 2.4
  },
  "races": {
   "pillar": "RACING & VEHICLES",
   "last_24h": 5,
   "previous_24h": 2,
-  "news_24h": 3,
+  "news_24h": 2,
   "examples": [
    {
     "title": "drifto wóz ",
@@ -59,14 +59,10 @@
  },
  "vehicles": {
   "pillar": "RACING & VEHICLES",
-  "last_24h": 16,
-  "previous_24h": 5,
-  "news_24h": 13,
+  "last_24h": 15,
+  "previous_24h": 6,
+  "news_24h": 10,
   "examples": [
-   {
-    "title": "El coche de GTA VI es peor que",
-    "url": "https://kick.com/beelce/clips/clip_01M8E60SG3E1FSQ0YW8RNY3RT8"
-   },
    {
     "title": "Dirt Bike Escape Plan",
     "url": "https://kick.com/bennymack/clips/clip_01M8ECA6R2SY0Y4QABFSMK256Z"
@@ -82,23 +78,23 @@
    {
     "title": "conducción con el mejor coche ",
     "url": "https://kick.com/djmariio/clips/clip_01M8F3QENK05YCAYQ9BFE0TQKM"
+   },
+   {
+    "title": "Off-Road Dirt Bike Race Checkpoint #2! 🏁🏍️",
+    "url": "https://kick.com/vortexplay-19/clips/clip_01M8F83BADBNEFN2P2KDWAHCGZ"
    }
   ],
-  "trend": 2.83
+  "trend": 2.29
  },
  "challenges": {
   "pillar": "CHALLENGES & EXPERIMENTS",
-  "last_24h": 9,
-  "previous_24h": 1,
-  "news_24h": 8,
+  "last_24h": 8,
+  "previous_24h": 2,
+  "news_24h": 7,
   "examples": [
    {
     "title": "Ghost or Tommy cause it definitely Power 🤷🏽‍♂️ ",
     "url": "https://kick.com/jackyburner/clips/clip_01M8C2KXQREE5ADG2SGXXKYZK1"
-   },
-   {
-    "title": "Defiendo a Xbox hasta la muerte",
-    "url": "https://kick.com/beelce/clips/clip_01M8E69QSPKZFBP92SVTKYDX3R"
    },
    {
     "title": "1v1",
@@ -111,27 +107,23 @@
    {
     "title": "Bro's Dominican ID Got Me Vip",
     "url": "https://kick.com/capp/clips/clip_01M8GE3E2DXK2R70S3VTHKM86Z"
+   },
+   {
+    "title": "we Thank you so Much Black challenge ",
+    "url": "https://kick.com/80s-elormm/clips/clip_01M8GMABB52YB8HGQT8GBE29R2"
    }
   ],
-  "trend": 5.0
+  "trend": 3.0
  },
  "funny": {
   "pillar": "VIRAL MOMENTS & CHAOS",
-  "last_24h": 84,
-  "previous_24h": 58,
+  "last_24h": 82,
+  "previous_24h": 61,
   "news_24h": 0,
   "examples": [
    {
     "title": "These crash cams are funny",
     "url": "https://kick.com/levelup-ruben/clips/clip_01M8C2Q4CWYQPMQJ4ZW2ZHPP2R"
-   },
-   {
-    "title": "what the fuck even happen #gta #fail ",
-    "url": "https://kick.com/hashgeodes/clips/clip_01M8E6136S6SHFJRM8BTX64F4Q"
-   },
-   {
-    "title": "hahahhahahahha",
-    "url": "https://kick.com/tolunayoren/clips/clip_01M8E6572G7P5HXNW2VXRDPQGV"
    },
    {
     "title": "stolen granma's scooty 😂",
@@ -140,14 +132,22 @@
    {
     "title": "funny reaction 😂",
     "url": "https://kick.com/sharkshe/clips/clip_01M8EBT180E4SF5K45HKP0WYEG"
+   },
+   {
+    "title": "Funny moment",
+    "url": "https://kick.com/bennymack/clips/clip_01M8EBQX1NRSS9W74WNHXJC2ZG"
+   },
+   {
+    "title": "COBRA GOSTA DE MATO ALTO KKKKK",
+    "url": "https://kick.com/japa/clips/clip_01M8EBFDCYCBBG8XEYES1FB3FS"
    }
   ],
-  "trend": 1.44
+  "trend": 1.34
  },
  "reactions": {
   "pillar": "VIRAL MOMENTS & CHAOS",
-  "last_24h": 14,
-  "previous_24h": 8,
+  "last_24h": 13,
+  "previous_24h": 9,
   "news_24h": 2,
   "examples": [
    {
@@ -171,7 +171,7 @@
     "url": "https://kick.com/heddi/clips/clip_01M8FNA3F94B955Z70PJSMD9Y1"
    }
   ],
-  "trend": 1.67
+  "trend": 1.4
  },
  "unusual": {
   "pillar": "LEONIDA LIFE & DETAILS",
@@ -204,18 +204,10 @@
  },
  "money_tips": {
   "pillar": "CHEATS, TIPS & MONEY",
-  "last_24h": 13,
-  "previous_24h": 9,
+  "last_24h": 12,
+  "previous_24h": 11,
   "news_24h": 9,
   "examples": [
-   {
-    "title": "GTA 6 Heist Mission Revealed",
-    "url": "https://kick.com/jack/clips/clip_01M8E5QTG12TWN4W1P2Y8YDYAC"
-   },
-   {
-    "title": "Gunshot in the heist",
-    "url": "https://kick.com/iceposeidon/clips/clip_01M8E5QKMHM37Y7WF8K1Y08YY5"
-   },
    {
     "title": "No tiene dinero, lo sabía",
     "url": "https://kick.com/nexxuz/clips/clip_01M8EYB8FRA2YPDHV4MTS8CCJR"
@@ -227,8 +219,16 @@
    {
     "title": "no money ",
     "url": "https://kick.com/pipiolin01/clips/clip_01M8EY14Q493KR35XJVT68F2JP"
+   },
+   {
+    "title": "money glitch p1",
+    "url": "https://kick.com/masees6/clips/clip_01M8F7Z51W55AQB7NN30SH7038"
+   },
+   {
+    "title": "Las mujeres cuando le dan dinero",
+    "url": "https://kick.com/nelmarimvp/clips/clip_01M8G3BYZQ65W2GZAC0QX4E5QS"
    }
   ],
-  "trend": 1.4
+  "trend": 1.08
  }
 }
