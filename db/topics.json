@@ -1,9 +1,9 @@
 {
  "map_secrets": {
   "pillar": "MAP & SECRET DISCOVERIES",
-  "last_24h": 7,
+  "last_24h": 8,
   "previous_24h": 3,
-  "news_24h": 41,
+  "news_24h": 43,
   "examples": [
    {
     "title": "GTA 6 Easter Egg hunting Come say | Clip",
@@ -26,7 +26,7 @@
     "url": "https://kick.com/cavalexx/clips/clip_01M8G6XVPYFJ3YKRE6AEDMNGK1"
    }
   ],
-  "trend": 2.0
+  "trend": 2.25
  },
  "races": {
   "pillar": "RACING & VEHICLES",
@@ -59,14 +59,10 @@
  },
  "vehicles": {
   "pillar": "RACING & VEHICLES",
-  "last_24h": 14,
-  "previous_24h": 4,
+  "last_24h": 15,
+  "previous_24h": 5,
   "news_24h": 13,
   "examples": [
-   {
-    "title": "Ábrelo! Salto desde la avioneta",
-    "url": "https://kick.com/aquino/clips/clip_01M8DVEDPABDXVJTJ63FJVAQ1X"
-   },
    {
     "title": "El coche de GTA VI es peor que",
     "url": "https://kick.com/beelce/clips/clip_01M8E60SG3E1FSQ0YW8RNY3RT8"
@@ -82,13 +78,17 @@
    {
     "title": "Este coche se mueve rico!",
     "url": "https://kick.com/djmariio/clips/clip_01M8F3RGMC7RAXA81MB3B7KGPH"
+   },
+   {
+    "title": "conducción con el mejor coche ",
+    "url": "https://kick.com/djmariio/clips/clip_01M8F3QENK05YCAYQ9BFE0TQKM"
    }
   ],
-  "trend": 3.0
+  "trend": 2.67
  },
  "challenges": {
   "pillar": "CHALLENGES & EXPERIMENTS",
-  "last_24h": 3,
+  "last_24h": 5,
   "previous_24h": 1,
   "news_24h": 6,
   "examples": [
@@ -103,14 +103,22 @@
    {
     "title": "1v1",
     "url": "https://kick.com/juanvibc/clips/clip_01M8EC1GJGMXDA7JY5G02RESW3"
+   },
+   {
+    "title": "¡GTA 6 MISIONES / SECRETOS & MÁS! | Clip",
+    "url": "https://kick.com/pittiwow/clips/clip_01M8GE40H51SV9G274G49G71XA"
+   },
+   {
+    "title": "Bro's Dominican ID Got Me Vip",
+    "url": "https://kick.com/capp/clips/clip_01M8GE3E2DXK2R70S3VTHKM86Z"
    }
   ],
-  "trend": 2.0
+  "trend": 3.0
  },
  "funny": {
   "pillar": "VIRAL MOMENTS & CHAOS",
-  "last_24h": 77,
-  "previous_24h": 48,
+  "last_24h": 79,
+  "previous_24h": 51,
   "news_24h": 1,
   "examples": [
    {
@@ -118,27 +126,27 @@
     "url": "https://kick.com/levelup-ruben/clips/clip_01M8C2Q4CWYQPMQJ4ZW2ZHPP2R"
    },
    {
-    "title": "kkkk tomou",
-    "url": "https://kick.com/jotajogadas/clips/clip_01M8DV7BWV7DPXFBBAES65KVEF"
-   },
-   {
-    "title": "we outside 3 babe so funny 😁 ",
-    "url": "https://kick.com/one-tenboss101/clips/clip_01M8DV0FQMF94J91190CVRBC6S"
-   },
-   {
-    "title": "WTF Rockstar",
-    "url": "https://kick.com/foureyedhuman/clips/clip_01M8DTVTWY47VQMNPXJDH0EKH2"
-   },
-   {
     "title": "lol",
     "url": "https://kick.com/rodrigoglez9/clips/clip_01M8E068486EDFCNTQ3HRV14KA"
+   },
+   {
+    "title": "Funny moment",
+    "url": "https://kick.com/rapturs/clips/clip_01M8E0085AD3YXNC8M5KNAHDV9"
+   },
+   {
+    "title": "wtf",
+    "url": "https://kick.com/uriahdumass/clips/clip_01M8E0063SMMH3GF753T2FF5BF"
+   },
+   {
+    "title": "Car fits me? 😂",
+    "url": "https://kick.com/crystalst/clips/clip_01M8E001EQXMXY33G455KAT28K"
    }
   ],
-  "trend": 1.59
+  "trend": 1.54
  },
  "reactions": {
   "pillar": "VIRAL MOMENTS & CHAOS",
-  "last_24h": 12,
+  "last_24h": 13,
   "previous_24h": 8,
   "news_24h": 3,
   "examples": [
@@ -163,21 +171,17 @@
     "url": "https://kick.com/heddi/clips/clip_01M8FNA3F94B955Z70PJSMD9Y1"
    }
   ],
-  "trend": 1.44
+  "trend": 1.56
  },
  "unusual": {
   "pillar": "LEONIDA LIFE & DETAILS",
-  "last_24h": 7,
-  "previous_24h": 2,
+  "last_24h": 6,
+  "previous_24h": 3,
   "news_24h": 5,
   "examples": [
    {
     "title": "los NPC de GTA 6 te tienden trampas. ",
     "url": "https://kick.com/rdjohanx/clips/clip_01M8C2APVZW9E7ABRK4PD819X3"
-   },
-   {
-    "title": "RANDOM NPC AT PATROL PUMP",
-    "url": "https://kick.com/denofwarrior/clips/clip_01M8DTYY6WHMAKH37RAC0BQV3S"
    },
    {
     "title": "Screaming at NPCs like they're real",
@@ -190,20 +194,20 @@
    {
     "title": "Los NPCs están locos!",
     "url": "https://kick.com/axozer/clips/clip_01M8EMM5GJJ43A8PJ0X1WREPME"
+   },
+   {
+    "title": "Let us dismember NPCs!",
+    "url": "https://kick.com/iceposeidon/clips/clip_01M8ETAB8HF37FVGPEXX1KYD8S"
    }
   ],
-  "trend": 2.67
+  "trend": 1.75
  },
  "money_tips": {
   "pillar": "CHEATS, TIPS & MONEY",
   "last_24h": 11,
-  "previous_24h": 7,
+  "previous_24h": 8,
   "news_24h": 8,
   "examples": [
-   {
-    "title": "lusi cheat jeson ",
-    "url": "https://kick.com/aadiigamer/clips/clip_01M8DVDF2D9VC3H6YXH08WX49B"
-   },
    {
     "title": "Secuestro en GTA VI! ¡Dinero o muerte!",
     "url": "https://kick.com/agustinunaplay8/clips/clip_01M8E09VV8XZDR807GZGGFD2AE"
@@ -219,8 +223,12 @@
    {
     "title": "No tiene dinero, lo sabía",
     "url": "https://kick.com/nexxuz/clips/clip_01M8EYB8FRA2YPDHV4MTS8CCJR"
+   },
+   {
+    "title": "Lucia es tóxica y loca por el dinero",
+    "url": "https://kick.com/goes_x/clips/clip_01M8EY2A9A6GJ3GMHEZFV6XJ9E"
    }
   ],
-  "trend": 1.5
+  "trend": 1.33
  }
 }
