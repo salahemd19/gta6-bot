@@ -974,5 +974,120 @@
   "verdict": "reject",
   "reason": "cinématique avec nudité",
   "by": "Cloud Claude review 2026-11-28"
+ },
+ "VCI-1362322080": {
+  "verdict": "reject",
+  "reason": "cinématique d'histoire dans un avion, facecam",
+  "by": "Cloud Claude review 2026-11-28"
+ },
+ "VCI-bb22c81a43": {
+  "verdict": "reject",
+  "reason": "salle de sport sur la plage, rien ne se passe, facecam",
+  "by": "Cloud Claude review 2026-11-28"
+ },
+ "VCI-9efd46f51d": {
+  "verdict": "reject",
+  "reason": "marche calme, aucune action",
+  "by": "Cloud Claude review 2026-11-28"
+ },
+ "VCI-38d93f4b31": {
+  "verdict": "reject",
+  "reason": "conduite calme sur piste, facecam, rien de marquant",
+  "by": "Cloud Claude review 2026-11-28"
+ },
+ "VCI-e140df43e2": {
+  "verdict": "reject",
+  "reason": "infiltration dans un entrepôt, sombre, facecam, pas d'action claire",
+  "by": "Cloud Claude review 2026-11-28"
+ },
+ "VCI-22c7402c6c": {
+  "verdict": "reject",
+  "reason": "balade en bateau calme, aucune action",
+  "by": "Cloud Claude review 2026-11-28"
+ },
+ "VCI-e8a47ffa3a": {
+  "verdict": "reject",
+  "reason": "conduite sur autoroute, rien de clair ne se passe",
+  "by": "Cloud Claude review 2026-11-28"
+ },
+ "VCI-59326611c3": {
+  "verdict": "keep",
+  "action_fr": "Une voiture rose décapotable percute une voiture sombre dans la rue.",
+  "hooks_fr": [
+   "LA VOITURE ROSE PERCUTE UNE AUTRE",
+   "UN SEUL FAUX MOUVEMENT ET ÇA CRASHE",
+   "LE CHOC EST VIOLENT EN PLEINE VILLE"
+  ],
+  "category": "RACING & VEHICLES",
+  "strength": 5,
+  "window": [
+   18.0,
+   28.0
+  ],
+  "by": "Cloud Claude review 2026-11-28"
+ },
+ "VCI-42789cd57c": {
+  "verdict": "keep",
+  "action_fr": "Un motard arrive vers un camion plateau et se retrouve au sol près du camion.",
+  "hooks_fr": [
+   "LA MOTO FONCE DANS LE CAMION",
+   "IL FINIT AU SOL EN UN INSTANT",
+   "CE CRASH NE PARDONNE PAS"
+  ],
+  "category": "RACING & VEHICLES",
+  "strength": 5,
+  "window": [
+   8.0,
+   16.0
+  ],
+  "by": "Cloud Claude review 2026-11-28"
+ },
+ "VCI-b444df7945": {
+  "verdict": "keep",
+  "action_fr": "Un motard roule sur l'autoroute et croise des voitures dont une se retrouve renversée.",
+  "hooks_fr": [
+   "LA MOTO SLALOME ENTRE LES VOITURES",
+   "UNE VOITURE FINIT SUR LE CÔTÉ",
+   "LE CHAOS SUR L'AUTOROUTE"
+  ],
+  "category": "VIRAL MOMENTS & CHAOS",
+  "strength": 5,
+  "window": [
+   4.0,
+   13.0
+  ],
+  "by": "Cloud Claude review 2026-11-28"
+ },
+ "VCI-4eac7b5c93": {
+  "verdict": "keep",
+  "action_fr": "Un pick-up camouflage entre en collision avec une voiture blanche à un carrefour.",
+  "hooks_fr": [
+   "COLLISION AU CARREFOUR",
+   "LE PICK-UP CAMO PERCUTE UNE VOITURE",
+   "ÇA CHOQUE EN PLEIN VIRAGE"
+  ],
+  "category": "RACING & VEHICLES",
+  "strength": 5,
+  "window": [
+   9.0,
+   18.0
+  ],
+  "by": "Cloud Claude review 2026-11-28"
+ },
+ "VCI-9594adf612": {
+  "verdict": "keep",
+  "action_fr": "Un 4x4 turquoise percute un mur sur le bord de la rue.",
+  "hooks_fr": [
+   "IL TAPE LE MUR DE PLEIN FOUET",
+   "LE 4X4 FINIT CONTRE LE MUR",
+   "UNE ERREUR ET C'EST LE CRASH"
+  ],
+  "category": "RACING & VEHICLES",
+  "strength": 5,
+  "window": [
+   11.5,
+   20.5
+  ],
+  "by": "Cloud Claude review 2026-11-28"
  }
 }

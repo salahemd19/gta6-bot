@@ -193716,7 +193716,7 @@
   "is_mature": true,
   "discovered_at": "2026-11-27T21:35:29+00:00",
   "status": "analysed",
-  "authenticity": "category_only",
+  "authenticity": "verified_by_review",
   "rights": "credited_third_party",
   "used_in": [],
   "duplicate_of": null,
@@ -193737,9 +193737,10 @@
   "account_url": "https://kick.com/zaptomark",
   "clip_url": "https://clips.kick.com/clips/5c/clip_01M8FEM5AV5D29S4GR6YXFRJQG/playlist.m3u8",
   "authenticity_evidence": [
-   "Listed in Kick's Grand Theft Auto VI category (not proof by itself)"
+   "Listed in Kick's Grand Theft Auto VI category (not proof by itself)",
+   "Frame sheet reviewed 2026-11-28"
   ],
-  "category": "VIRAL MOMENTS & CHAOS",
+  "category": "RACING & VEHICLES",
   "subcategory": "",
   "description": "Yanımda kocam var döver seni :D",
   "editorial_notes": "",
@@ -193758,7 +193759,7 @@
   "analytics": {},
   "stage": "RIGHTS_RECORDED",
   "state": "active",
-  "updated_at": "2026-11-27T23:21:07+00:00",
+  "updated_at": "2026-11-28T10:08:16+00:00",
   "views_per_hour_recent": 0.0,
   "metrics": {
    "motion": 22.1,
@@ -193780,11 +193781,11 @@
    "share_potential": 6.0,
    "clarity": 10.0,
    "french_relevance": 4.0,
-   "category": 8.0,
+   "category": 7.0,
    "source_quality": 10.0,
    "originality": null,
    "storytelling": null,
-   "total": 7.62,
+   "total": 7.58,
    "method": {
     "first_second": "measured",
     "hook_potential": "heuristic",
@@ -193796,12 +193797,12 @@
     "french_relevance": "heuristic",
     "category": "heuristic",
     "source_quality": "measured",
-    "originality": "not_assessed",
-    "storytelling": "not_assessed"
+    "originality": "review",
+    "storytelling": "review"
    },
    "coverage": 0.86,
    "model": "v2.0",
-   "reviewed": false
+   "reviewed": true
   },
   "analysis": {
    "start": 18.5,
@@ -193912,17 +193913,17 @@
   },
   "brief": {
    "treatment": "REACTION",
-   "series": "ALERTE LEONIDA",
-   "category": "VIRAL MOMENTS & CHAOS",
+   "series": "LE BANC D'ESSAI",
+   "category": "RACING & VEHICLES",
    "hooks": [
-    "LE CHAOS TOTAL À LEONIDA",
-    "IL N'AURAIT PAS DÛ FAIRE ÇA",
-    "ÇA DÉRAPE EN QUELQUES SECONDES"
+    "COLLISION AU CARREFOUR",
+    "LE PICK-UP CAMO PERCUTE UNE VOITURE",
+    "ÇA CHOQUE EN PLEIN VIRAGE"
    ],
-   "best_hook": "LE CHAOS TOTAL À LEONIDA",
-   "title": "LE CHAOS TOTAL À LEONIDA 😱 GTA 6",
-   "description": "Un moment repéré en live sur GTA 6. Créateur : @zaptomark (Kick).",
-   "caption": "LE CHAOS TOTAL À LEONIDA 😱 Envoie ça à ton pote qui joue à GTA 6 👇 🎥 @zaptomark #GTA6 #GTA6FR #GTAVI #pourtoi",
+   "best_hook": "COLLISION AU CARREFOUR",
+   "title": "COLLISION AU CARREFOUR 😱 GTA 6",
+   "description": "Un pick-up camouflage entre en collision avec une voiture blanche à un carrefour. Créateur : @zaptomark (Kick).",
+   "caption": "COLLISION AU CARREFOUR 😱 Envoie ça à ton pote qui joue à GTA 6 👇 🎥 @zaptomark #GTA6 #GTA6FR #GTAVI #pourtoi",
    "narration": null,
    "cta": "Envoie ça à ton pote qui joue à GTA 6",
    "editing": [
@@ -193937,14 +193938,15 @@
     "youtube": [
      "Vibe Check - Blue Deer Studio",
      "Travelling Light - Blue Deer Studio",
-     "Monster Freak Party - Bare Bones Mtl"
+     "Comin Wit It - Anno Domini Beats"
     ],
     "tiktok": []
    },
-   "needs_review": "Hooks are generic: nobody has described what happens yet. Check the footage before using."
+   "needs_review": null
   },
   "analysed_at": "2026-11-27T23:17:12+00:00",
-  "viral_potential": 7.62
+  "viral_potential": 7.58,
+  "category_reviewed": true
  },
  "clip_01M8FEM2ZRGY97AXE0QCSWVBYB": {
   "id": "clip_01M8FEM2ZRGY97AXE0QCSWVBYB",
@@ -197572,7 +197574,7 @@
   "is_mature": true,
   "discovered_at": "2026-11-27T22:35:36+00:00",
   "status": "analysed",
-  "authenticity": "category_only",
+  "authenticity": "verified_by_review",
   "rights": "credited_third_party",
   "used_in": [],
   "duplicate_of": null,
@@ -197593,9 +197595,10 @@
   "account_url": "https://kick.com/bigemluv",
   "clip_url": "https://clips.kick.com/clips/c2/clip_01M8FJABWYDH7BW7K26K0BSX9Q/playlist.m3u8",
   "authenticity_evidence": [
-   "Listed in Kick's Grand Theft Auto VI category (not proof by itself)"
+   "Listed in Kick's Grand Theft Auto VI category (not proof by itself)",
+   "Frame sheet reviewed 2026-11-28"
   ],
-  "category": "VIRAL MOMENTS & CHAOS",
+  "category": "RACING & VEHICLES",
   "subcategory": "",
   "description": "LOONEY TUNE WALL…..SMOOTH MOVE ",
   "editorial_notes": "",
@@ -197614,7 +197617,7 @@
   "analytics": {},
   "stage": "RIGHTS_RECORDED",
   "state": "active",
-  "updated_at": "2026-11-27T23:21:07+00:00",
+  "updated_at": "2026-11-28T10:08:16+00:00",
   "metrics": {
    "motion": 28.8,
    "still": 0.0,
@@ -197635,11 +197638,11 @@
    "share_potential": 5.7,
    "clarity": 10.0,
    "french_relevance": 6.5,
-   "category": 8.0,
+   "category": 7.0,
    "source_quality": 10.0,
    "originality": null,
    "storytelling": null,
-   "total": 7.62,
+   "total": 7.58,
    "method": {
     "first_second": "measured",
     "hook_potential": "heuristic",
@@ -197651,12 +197654,12 @@
     "french_relevance": "heuristic",
     "category": "heuristic",
     "source_quality": "measured",
-    "originality": "not_assessed",
-    "storytelling": "not_assessed"
+    "originality": "review",
+    "storytelling": "review"
    },
    "coverage": 0.86,
    "model": "v2.0",
-   "reviewed": false
+   "reviewed": true
   },
   "analysis": {
    "start": 13.0,
@@ -197706,17 +197709,17 @@
   },
   "brief": {
    "treatment": "ACTION_CUT",
-   "series": "ALERTE LEONIDA",
-   "category": "VIRAL MOMENTS & CHAOS",
+   "series": "LE BANC D'ESSAI",
+   "category": "RACING & VEHICLES",
    "hooks": [
-    "IL N'AURAIT PAS DÛ FAIRE ÇA",
-    "ÇA DÉRAPE EN QUELQUES SECONDES",
-    "REGARDE JUSQU'À LA FIN"
+    "IL TAPE LE MUR DE PLEIN FOUET",
+    "LE 4X4 FINIT CONTRE LE MUR",
+    "UNE ERREUR ET C'EST LE CRASH"
    ],
-   "best_hook": "IL N'AURAIT PAS DÛ FAIRE ÇA",
-   "title": "IL N'AURAIT PAS DÛ FAIRE ÇA 😱 GTA 6",
-   "description": "Un moment repéré en live sur GTA 6. Créateur : @bigemluv (Kick).",
-   "caption": "IL N'AURAIT PAS DÛ FAIRE ÇA 😱 Tu l'avais déjà vu ? Réponds en commentaire 👇 🎥 @bigemluv #GTA6 #GTA6FR #GTAVI #pourtoi",
+   "best_hook": "IL TAPE LE MUR DE PLEIN FOUET",
+   "title": "IL TAPE LE MUR DE PLEIN FOUET 😱 GTA 6",
+   "description": "Un 4x4 turquoise percute un mur sur le bord de la rue. Créateur : @bigemluv (Kick).",
+   "caption": "IL TAPE LE MUR DE PLEIN FOUET 😱 Tu l'avais déjà vu ? Réponds en commentaire 👇 🎥 @bigemluv #GTA6 #GTA6FR #GTAVI #pourtoi",
    "narration": null,
    "cta": "Tu l'avais déjà vu ? Réponds en commentaire",
    "editing": [
@@ -197730,18 +197733,19 @@
    "music": {
     "youtube": [
      "Survival Mode - Blue Deer Studio",
-     "Ego Chall - Blue Deer Studio",
-     "Mirror Mirror - Anno Domini Beats"
+     "Comin Wit It - Anno Domini Beats",
+     "Monster Freak Party - Bare Bones Mtl"
     ],
     "tiktok": [
-     "METAMORPHOSIS - INTERWORLD"
+     "Tokyo Drift - PHONKAZO"
     ]
    },
-   "needs_review": "Hooks are generic: nobody has described what happens yet. Check the footage before using."
+   "needs_review": null
   },
   "analysed_at": "2026-11-27T23:07:49+00:00",
-  "viral_potential": 7.62,
-  "views_per_hour_recent": 0.0
+  "viral_potential": 7.58,
+  "views_per_hour_recent": 0.0,
+  "category_reviewed": true
  },
  "clip_01M8FJAB05JBVEB9AW3PK1DBAP": {
   "id": "clip_01M8FJAB05JBVEB9AW3PK1DBAP",
@@ -229334,7 +229338,7 @@
   "is_mature": true,
   "discovered_at": "2026-11-28T01:56:58+00:00",
   "status": "analysed",
-  "authenticity": "category_only",
+  "authenticity": "verified_by_review",
   "rights": "credited_third_party",
   "used_in": [],
   "duplicate_of": null,
@@ -229355,7 +229359,8 @@
   "account_url": "https://kick.com/bruninhogamer1",
   "clip_url": "https://clips.kick.com/clips/d1/clip_01M8FXK7A5PXBTZCFJWGW9CQSD/playlist.m3u8",
   "authenticity_evidence": [
-   "Listed in Kick's Grand Theft Auto VI category (not proof by itself)"
+   "Listed in Kick's Grand Theft Auto VI category (not proof by itself)",
+   "Frame sheet reviewed 2026-11-28"
   ],
   "category": "VIRAL MOMENTS & CHAOS",
   "subcategory": "",
@@ -229376,7 +229381,7 @@
   "analytics": {},
   "stage": "RIGHTS_RECORDED",
   "state": "active",
-  "updated_at": "2026-11-28T03:22:46+00:00",
+  "updated_at": "2026-11-28T10:08:01+00:00",
   "metrics": {
    "motion": 20.1,
    "still": 0.0,
@@ -229413,12 +229418,12 @@
     "french_relevance": "heuristic",
     "category": "heuristic",
     "source_quality": "measured",
-    "originality": "not_assessed",
-    "storytelling": "not_assessed"
+    "originality": "review",
+    "storytelling": "review"
    },
    "coverage": 0.86,
    "model": "v2.0",
-   "reviewed": false
+   "reviewed": true
   },
   "analysis": {
    "start": 11.5,
@@ -229500,14 +229505,14 @@
    "series": "ALERTE LEONIDA",
    "category": "VIRAL MOMENTS & CHAOS",
    "hooks": [
-    "IL N'AURAIT PAS DÛ FAIRE ÇA",
-    "ÇA DÉRAPE EN QUELQUES SECONDES",
-    "REGARDE JUSQU'À LA FIN"
+    "LA MOTO SLALOME ENTRE LES VOITURES",
+    "UNE VOITURE FINIT SUR LE CÔTÉ",
+    "LE CHAOS SUR L'AUTOROUTE"
    ],
-   "best_hook": "IL N'AURAIT PAS DÛ FAIRE ÇA",
-   "title": "IL N'AURAIT PAS DÛ FAIRE ÇA 😱 GTA 6",
-   "description": "Un moment repéré en live sur GTA 6. Créateur : @bruninhogamer1 (Kick).",
-   "caption": "IL N'AURAIT PAS DÛ FAIRE ÇA 😱 Note ce moment sur 10 👇 🎥 @bruninhogamer1 #GTA6 #GTA6FR #GTAVI #pourtoi",
+   "best_hook": "LA MOTO SLALOME ENTRE LES VOITURES",
+   "title": "LA MOTO SLALOME ENTRE LES VOITURES 😱 GTA 6",
+   "description": "Un motard roule sur l'autoroute et croise des voitures dont une se retrouve renversée. Créateur : @bruninhogamer1 (Kick).",
+   "caption": "LA MOTO SLALOME ENTRE LES VOITURES 😱 Note ce moment sur 10 👇 🎥 @bruninhogamer1 #GTA6 #GTA6FR #GTAVI #pourtoi",
    "narration": null,
    "cta": "Note ce moment sur 10",
    "editing": [
@@ -229526,11 +229531,12 @@
     ],
     "tiktok": []
    },
-   "needs_review": "Hooks are generic: nobody has described what happens yet. Check the footage before using."
+   "needs_review": null
   },
   "analysed_at": "2026-11-28T03:02:50+00:00",
   "viral_potential": 7.66,
-  "views_per_hour_recent": 0.0
+  "views_per_hour_recent": 0.0,
+  "category_reviewed": true
  },
  "clip_01M8FXK2265QNVX7XCJBXE71SQ": {
   "id": "clip_01M8FXK2265QNVX7XCJBXE71SQ",
@@ -231293,7 +231299,7 @@
   "vod_starts_at": 0,
   "is_mature": true,
   "discovered_at": "2026-11-28T01:56:59+00:00",
-  "status": "analysed",
+  "status": "rejected_review",
   "authenticity": "category_only",
   "rights": "credited_third_party",
   "used_in": [],
@@ -231335,8 +231341,8 @@
   "publications": [],
   "analytics": {},
   "stage": "RIGHTS_RECORDED",
-  "state": "active",
-  "updated_at": "2026-11-28T03:22:46+00:00",
+  "state": "rejected",
+  "updated_at": "2026-11-28T10:07:53+00:00",
   "metrics": {
    "motion": 24.6,
    "still": 0.0,
@@ -231511,7 +231517,8 @@
   },
   "analysed_at": "2026-11-28T02:58:08+00:00",
   "viral_potential": 7.68,
-  "views_per_hour_recent": 0.0
+  "views_per_hour_recent": 0.0,
+  "manual_state": true
  },
  "clip_01M8FXFJESYJ9V5GBNDKF5XM9Y": {
   "id": "clip_01M8FXFJESYJ9V5GBNDKF5XM9Y",
@@ -252839,7 +252846,7 @@
   "vod_starts_at": 0,
   "is_mature": true,
   "discovered_at": "2026-11-28T05:39:21+00:00",
-  "status": "analysed",
+  "status": "rejected_review",
   "authenticity": "category_only",
   "rights": "credited_third_party",
   "used_in": [],
@@ -252881,8 +252888,8 @@
   "publications": [],
   "analytics": {},
   "stage": "RIGHTS_RECORDED",
-  "state": "active",
-  "updated_at": "2026-11-28T07:39:00+00:00",
+  "state": "rejected",
+  "updated_at": "2026-11-28T10:07:53+00:00",
   "views_per_hour_recent": 0.0,
   "metrics": {
    "motion": 28.2,
@@ -253056,7 +253063,8 @@
    "needs_review": "Hooks are generic: nobody has described what happens yet. Check the footage before using."
   },
   "analysed_at": "2026-11-28T07:34:57+00:00",
-  "viral_potential": 8.12
+  "viral_potential": 8.12,
+  "manual_state": true
  },
  "clip_01M8GAJ02YJYN37HP7R28RAS1F": {
   "id": "clip_01M8GAJ02YJYN37HP7R28RAS1F",
@@ -253724,7 +253732,7 @@
   "vod_starts_at": 0,
   "is_mature": true,
   "discovered_at": "2026-11-28T05:39:21+00:00",
-  "status": "analysed",
+  "status": "rejected_review",
   "authenticity": "category_only",
   "rights": "credited_third_party",
   "used_in": [],
@@ -253766,8 +253774,8 @@
   "publications": [],
   "analytics": {},
   "stage": "RIGHTS_RECORDED",
-  "state": "active",
-  "updated_at": "2026-11-28T07:39:00+00:00",
+  "state": "rejected",
+  "updated_at": "2026-11-28T10:07:53+00:00",
   "views_per_hour_recent": 0.0,
   "metrics": {
    "motion": 21.2,
@@ -253911,7 +253919,8 @@
    "needs_review": "Hooks are generic: nobody has described what happens yet. Check the footage before using."
   },
   "analysed_at": "2026-11-28T07:36:00+00:00",
-  "viral_potential": 7.63
+  "viral_potential": 7.63,
+  "manual_state": true
  },
  "clip_01M8GAEYNC6NJ0VEG7QXD6SNFX": {
   "id": "clip_01M8GAEYNC6NJ0VEG7QXD6SNFX",
@@ -258665,7 +258674,7 @@
   "is_mature": true,
   "discovered_at": "2026-11-28T05:39:22+00:00",
   "status": "analysed",
-  "authenticity": "category_only",
+  "authenticity": "verified_by_review",
   "rights": "credited_third_party",
   "used_in": [],
   "duplicate_of": null,
@@ -258686,9 +258695,10 @@
   "account_url": "https://kick.com/elexetube",
   "clip_url": "https://clips.kick.com/clips/5d/clip_01M8GA2QWBDH0PA4K7DXP6634M/playlist.m3u8",
   "authenticity_evidence": [
-   "Listed in Kick's Grand Theft Auto VI category (not proof by itself)"
+   "Listed in Kick's Grand Theft Auto VI category (not proof by itself)",
+   "Frame sheet reviewed 2026-11-28"
   ],
-  "category": "VIRAL MOMENTS & CHAOS",
+  "category": "RACING & VEHICLES",
   "subcategory": "",
   "description": "cada vez maneja peor",
   "editorial_notes": "",
@@ -258707,7 +258717,7 @@
   "analytics": {},
   "stage": "RIGHTS_RECORDED",
   "state": "active",
-  "updated_at": "2026-11-28T07:39:00+00:00",
+  "updated_at": "2026-11-28T10:08:16+00:00",
   "views_per_hour_recent": 0.0,
   "metrics": {
    "motion": 21.9,
@@ -258729,11 +258739,11 @@
    "share_potential": 5.9,
    "clarity": 10.0,
    "french_relevance": 4.0,
-   "category": 8.0,
+   "category": 7.0,
    "source_quality": 10.0,
    "originality": null,
    "storytelling": null,
-   "total": 7.67,
+   "total": 7.62,
    "method": {
     "first_second": "measured",
     "hook_potential": "heuristic",
@@ -258745,12 +258755,12 @@
     "french_relevance": "heuristic",
     "category": "heuristic",
     "source_quality": "measured",
-    "originality": "not_assessed",
-    "storytelling": "not_assessed"
+    "originality": "review",
+    "storytelling": "review"
    },
    "coverage": 0.86,
    "model": "v2.0",
-   "reviewed": false
+   "reviewed": true
   },
   "analysis": {
    "start": 6.5,
@@ -258861,17 +258871,17 @@
   },
   "brief": {
    "treatment": "REACTION",
-   "series": "ALERTE LEONIDA",
-   "category": "VIRAL MOMENTS & CHAOS",
+   "series": "LE BANC D'ESSAI",
+   "category": "RACING & VEHICLES",
    "hooks": [
-    "ÇA DÉRAPE EN QUELQUES SECONDES",
-    "REGARDE JUSQU'À LA FIN",
-    "LE CHAOS TOTAL À LEONIDA"
+    "LA MOTO FONCE DANS LE CAMION",
+    "IL FINIT AU SOL EN UN INSTANT",
+    "CE CRASH NE PARDONNE PAS"
    ],
-   "best_hook": "ÇA DÉRAPE EN QUELQUES SECONDES",
-   "title": "ÇA DÉRAPE EN QUELQUES SECONDES 😱 GTA 6",
-   "description": "Un moment repéré en live sur GTA 6. Créateur : @elexetube (Kick).",
-   "caption": "ÇA DÉRAPE EN QUELQUES SECONDES 😱 Note ce moment sur 10 👇 🎥 @elexetube #GTA6 #GTA6FR #GTAVI #pourtoi",
+   "best_hook": "LA MOTO FONCE DANS LE CAMION",
+   "title": "LA MOTO FONCE DANS LE CAMION 😱 GTA 6",
+   "description": "Un motard arrive vers un camion plateau et se retrouve au sol près du camion. Créateur : @elexetube (Kick).",
+   "caption": "LA MOTO FONCE DANS LE CAMION 😱 Note ce moment sur 10 👇 🎥 @elexetube #GTA6 #GTA6FR #GTAVI #pourtoi",
    "narration": null,
    "cta": "Note ce moment sur 10",
    "editing": [
@@ -258890,10 +258900,11 @@
     ],
     "tiktok": []
    },
-   "needs_review": "Hooks are generic: nobody has described what happens yet. Check the footage before using."
+   "needs_review": null
   },
   "analysed_at": "2026-11-28T07:39:00+00:00",
-  "viral_potential": 7.67
+  "viral_potential": 7.62,
+  "category_reviewed": true
  },
  "clip_01M8GA292NVQC4GGKJACJK8K7E": {
   "id": "clip_01M8GA292NVQC4GGKJACJK8K7E",
@@ -259902,7 +259913,7 @@
   "vod_starts_at": 0,
   "is_mature": false,
   "discovered_at": "2026-11-28T06:40:40+00:00",
-  "status": "analysed",
+  "status": "rejected_review",
   "authenticity": "category_only",
   "rights": "credited_third_party",
   "used_in": [],
@@ -259944,8 +259955,8 @@
   "publications": [],
   "analytics": {},
   "stage": "RIGHTS_RECORDED",
-  "state": "active",
-  "updated_at": "2026-11-28T07:39:00+00:00",
+  "state": "rejected",
+  "updated_at": "2026-11-28T10:07:53+00:00",
   "metrics": {
    "motion": 37.3,
    "still": 0.0,
@@ -260193,7 +260204,8 @@
   },
   "analysed_at": "2026-11-28T07:22:11+00:00",
   "viral_potential": 8.0,
-  "views_per_hour_recent": 0.0
+  "views_per_hour_recent": 0.0,
+  "manual_state": true
  },
  "clip_01M8GE1W1C8DZJ5A470QG4CD3W": {
   "id": "clip_01M8GE1W1C8DZJ5A470QG4CD3W",
@@ -266084,7 +266096,7 @@
   "vod_starts_at": 0,
   "is_mature": true,
   "discovered_at": "2026-11-28T08:33:17+00:00",
-  "status": "analysed",
+  "status": "rejected_review",
   "authenticity": "category_only",
   "rights": "credited_third_party",
   "used_in": [],
@@ -266126,8 +266138,8 @@
   "publications": [],
   "analytics": {},
   "stage": "RIGHTS_RECORDED",
-  "state": "active",
-  "updated_at": "2026-11-28T09:08:40+00:00",
+  "state": "rejected",
+  "updated_at": "2026-11-28T10:07:53+00:00",
   "metrics": {
    "motion": 23.9,
    "still": 0.0,
@@ -266312,7 +266324,8 @@
   },
   "analysed_at": "2026-11-28T09:05:32+00:00",
   "viral_potential": 8.32,
-  "views_per_hour_recent": 0.0
+  "views_per_hour_recent": 0.0,
+  "manual_state": true
  },
  "clip_01M8D58DBR13MT4M1QR3VMRGQ7": {
   "id": "clip_01M8D58DBR13MT4M1QR3VMRGQ7",
@@ -271773,7 +271786,7 @@
   "vod_starts_at": 0,
   "is_mature": true,
   "discovered_at": "2026-11-28T08:33:19+00:00",
-  "status": "analysed",
+  "status": "rejected_review",
   "authenticity": "category_only",
   "rights": "credited_third_party",
   "used_in": [],
@@ -271815,8 +271828,8 @@
   "publications": [],
   "analytics": {},
   "stage": "RIGHTS_RECORDED",
-  "state": "active",
-  "updated_at": "2026-11-28T09:08:40+00:00",
+  "state": "rejected",
+  "updated_at": "2026-11-28T10:07:53+00:00",
   "metrics": {
    "motion": 23.3,
    "still": 0.0,
@@ -271959,7 +271972,8 @@
   },
   "analysed_at": "2026-11-28T09:00:01+00:00",
   "viral_potential": 7.8,
-  "views_per_hour_recent": 0.0
+  "views_per_hour_recent": 0.0,
+  "manual_state": true
  },
  "clip_01M8GKRPDB2YDV4D1E1WCKW66A": {
   "id": "clip_01M8GKRPDB2YDV4D1E1WCKW66A",
@@ -272575,7 +272589,7 @@
   "vod_starts_at": 0,
   "is_mature": true,
   "discovered_at": "2026-11-28T08:54:55+00:00",
-  "status": "analysed",
+  "status": "rejected_review",
   "authenticity": "category_only",
   "rights": "credited_third_party",
   "used_in": [],
@@ -272605,8 +272619,8 @@
   "publications": [],
   "analytics": {},
   "stage": "RIGHTS_RECORDED",
-  "state": "active",
-  "updated_at": "2026-11-28T09:08:40+00:00",
+  "state": "rejected",
+  "updated_at": "2026-11-28T10:07:53+00:00",
   "metrics": {
    "motion": 36.7,
    "still": 0.0,
@@ -272794,7 +272808,8 @@
    "priority": 3.06,
    "topics": []
   },
-  "origin": "original"
+  "origin": "original",
+  "manual_state": true
  },
  "clip_01M8D4YJ839ASHBASXW7DD7B1X": {
   "id": "clip_01M8D4YJ839ASHBASXW7DD7B1X",
@@ -273123,7 +273138,7 @@
   "is_mature": true,
   "discovered_at": "2026-11-28T08:54:55+00:00",
   "status": "analysed",
-  "authenticity": "category_only",
+  "authenticity": "verified_by_review",
   "rights": "credited_third_party",
   "used_in": [],
   "duplicate_of": null,
@@ -273132,9 +273147,10 @@
   "account_url": "https://kick.com/2koldsnipz",
   "clip_url": "https://clips.kick.com/clips/b3/clip_01M8D4VVE7H9VTKM7F9BZ9FPX3/playlist.m3u8",
   "authenticity_evidence": [
-   "Listed in Kick's Grand Theft Auto VI category (not proof by itself)"
+   "Listed in Kick's Grand Theft Auto VI category (not proof by itself)",
+   "Frame sheet reviewed 2026-11-28"
   ],
-  "category": "VIRAL MOMENTS & CHAOS",
+  "category": "RACING & VEHICLES",
   "subcategory": "",
   "description": "Bro doesn't get paid enough to be doing this!!!!",
   "editorial_notes": "",
@@ -273153,7 +273169,7 @@
   "analytics": {},
   "stage": "RIGHTS_RECORDED",
   "state": "active",
-  "updated_at": "2026-11-28T09:08:40+00:00",
+  "updated_at": "2026-11-28T10:08:16+00:00",
   "metrics": {
    "motion": 22.2,
    "still": 0.0,
@@ -273174,11 +273190,11 @@
    "share_potential": 6.1,
    "clarity": 10.0,
    "french_relevance": 5.0,
-   "category": 8.0,
+   "category": 7.0,
    "source_quality": 6.9,
    "originality": null,
    "storytelling": null,
-   "total": 7.69,
+   "total": 7.65,
    "method": {
     "first_second": "measured",
     "hook_potential": "heuristic",
@@ -273190,12 +273206,12 @@
     "french_relevance": "heuristic",
     "category": "heuristic",
     "source_quality": "measured",
-    "originality": "not_assessed",
-    "storytelling": "not_assessed"
+    "originality": "review",
+    "storytelling": "review"
    },
    "coverage": 0.86,
    "model": "v2.0",
-   "reviewed": false
+   "reviewed": true
   },
   "analysis": {
    "start": 5.0,
@@ -273276,17 +273292,17 @@
   },
   "brief": {
    "treatment": "REACTION",
-   "series": "ALERTE LEONIDA",
-   "category": "VIRAL MOMENTS & CHAOS",
+   "series": "LE BANC D'ESSAI",
+   "category": "RACING & VEHICLES",
    "hooks": [
-    "IL N'AURAIT PAS DÛ FAIRE ÇA",
-    "ÇA DÉRAPE EN QUELQUES SECONDES",
-    "REGARDE JUSQU'À LA FIN"
+    "LA VOITURE ROSE PERCUTE UNE AUTRE",
+    "UN SEUL FAUX MOUVEMENT ET ÇA CRASHE",
+    "LE CHOC EST VIOLENT EN PLEINE VILLE"
    ],
-   "best_hook": "IL N'AURAIT PAS DÛ FAIRE ÇA",
-   "title": "IL N'AURAIT PAS DÛ FAIRE ÇA 😱 GTA 6",
-   "description": "Un moment repéré en live sur GTA 6. Créateur : @2koldsnipz (Kick).",
-   "caption": "IL N'AURAIT PAS DÛ FAIRE ÇA 😱 Tu aurais fait quoi ? Dis-le en commentaire 👇 🎥 @2koldsnipz #GTA6 #GTA6FR #GTAVI #pourtoi",
+   "best_hook": "LA VOITURE ROSE PERCUTE UNE AUTRE",
+   "title": "LA VOITURE ROSE PERCUTE UNE AUTRE 😱 GTA 6",
+   "description": "Une voiture rose décapotable percute une voiture sombre dans la rue. Créateur : @2koldsnipz (Kick).",
+   "caption": "LA VOITURE ROSE PERCUTE UNE AUTRE 😱 Tu aurais fait quoi ? Dis-le en commentaire 👇 🎥 @2koldsnipz #GTA6 #GTA6FR #GTAVI #pourtoi",
    "narration": null,
    "cta": "Tu aurais fait quoi ? Dis-le en commentaire",
    "editing": [
@@ -273305,10 +273321,10 @@
     ],
     "tiktok": []
    },
-   "needs_review": "Hooks are generic: nobody has described what happens yet. Check the footage before using."
+   "needs_review": null
   },
   "analysed_at": "2026-11-28T09:08:40+00:00",
-  "viral_potential": 7.69,
+  "viral_potential": 7.65,
   "seen_at": "2026-11-28T09:31:24+00:00",
   "radar": {
    "momentum": 0.1,
@@ -273320,7 +273336,8 @@
    "priority": 3.06,
    "topics": []
   },
-  "origin": "original"
+  "origin": "original",
+  "category_reviewed": true
  },
  "clip_01M8D4RS6S834XN2Z9FNV17JDK": {
   "id": "clip_01M8D4RS6S834XN2Z9FNV17JDK",
