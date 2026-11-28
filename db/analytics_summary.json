@@ -1,13 +1,13 @@
 {
- "generated": "2026-11-27T12:03+00:00",
+ "generated": "2026-11-28T00:04+00:00",
  "platforms": {
   "youtube": {
-   "videos": 122,
-   "measured_24h": 2,
-   "median_24h": 171.0,
-   "median_latest_views": 387.5,
-   "median_like_rate_pct": 1.8,
-   "views_per_follower_median": 5.7,
+   "videos": 127,
+   "measured_24h": 6,
+   "median_24h": 174.0,
+   "median_latest_views": 387,
+   "median_like_rate_pct": 1.79,
+   "views_per_follower_median": 5.8,
    "top_share_of_views": 0.03,
    "not_collected": [
     "shares",
@@ -25,16 +25,16 @@
     "format": [
      {
       "group": "top",
-      "n": 1,
-      "median_24h": 207,
-      "vs_platform": 1.21,
+      "n": 4,
+      "median_24h": 407.5,
+      "vs_platform": 2.34,
       "enough": false
      },
      {
       "group": "top5",
       "n": 1,
-      "median_24h": 135,
-      "vs_platform": 0.79,
+      "median_24h": 141,
+      "vs_platform": 0.81,
       "enough": false
      }
     ],
@@ -42,41 +42,48 @@
     "source_type": [
      {
       "group": "single creator",
-      "n": 1,
+      "n": 5,
       "median_24h": 207,
-      "vs_platform": 1.21,
-      "enough": false
+      "vs_platform": 1.19,
+      "enough": true
      },
      {
       "group": "compilation of several creators",
       "n": 1,
-      "median_24h": 135,
-      "vs_platform": 0.79,
+      "median_24h": 141,
+      "vs_platform": 0.81,
       "enough": false
      }
     ],
     "weekday": [
      {
       "group": "Thursday",
-      "n": 2,
-      "median_24h": 171.0,
+      "n": 6,
+      "median_24h": 174.0,
       "vs_platform": 1.0,
-      "enough": false
+      "enough": true
      }
     ],
     "window": [
      {
-      "group": "evening",
+      "group": "outside windows",
       "n": 1,
-      "median_24h": 207,
-      "vs_platform": 1.21,
+      "median_24h": 1212,
+      "vs_platform": 6.97,
       "enough": false
      },
      {
       "group": "afternoon",
       "n": 1,
-      "median_24h": 135,
-      "vs_platform": 0.79,
+      "median_24h": 141,
+      "vs_platform": 0.81,
+      "enough": false
+     },
+     {
+      "group": "evening",
+      "n": 4,
+      "median_24h": 104.5,
+      "vs_platform": 0.6,
       "enough": false
      }
     ]
@@ -116,7 +123,7 @@
   {
    "platform": "youtube",
    "level": "wait",
-   "text": "2 videos have a 24 h reading; 20 are needed before recommending changes."
+   "text": "6 videos have a 24 h reading; 20 are needed before recommending changes."
   },
   {
    "platform": "tiktok",
@@ -142,14 +149,19 @@
    "started": "2026-11-26",
    "arms": [
     {
-     "group": "evening",
+     "group": "outside windows",
      "n": 1,
-     "median_24h": 207
+     "median_24h": 1212
     },
     {
      "group": "afternoon",
      "n": 1,
-     "median_24h": 135
+     "median_24h": 141
+    },
+    {
+     "group": "evening",
+     "n": 4,
+     "median_24h": 104.5
     }
    ],
    "status": "collecting"
@@ -163,13 +175,13 @@
    "arms": [
     {
      "group": "top",
-     "n": 1,
-     "median_24h": 207
+     "n": 4,
+     "median_24h": 407.5
     },
     {
      "group": "top5",
      "n": 1,
-     "median_24h": 135
+     "median_24h": 141
     }
    ],
    "status": "collecting"
@@ -188,9 +200,49 @@
  "recent": [
   {
    "platform": "youtube",
+   "title": "ILS ONT FAIT ÇA SUR GTA 6 (TOP 3) 🤯 le numéro 1 est irréel",
+   "published_at": "2026-11-27T20:55:24Z",
+   "views": 271,
+   "views_24h": null,
+   "item": "engine-20261126-2224-1"
+  },
+  {
+   "platform": "youtube",
+   "title": "IL FONCE DROIT SUR LA POLICE 😱 GTA 6 #Shorts",
+   "published_at": "2026-11-27T19:45:18Z",
+   "views": 280,
+   "views_24h": null,
+   "item": "vci-20261127-130516"
+  },
+  {
+   "platform": "youtube",
+   "title": "LE BRAQUAGE DE LA BIJOUTERIE 😱 GTA 6 #Shorts",
+   "published_at": "2026-11-27T18:40:01Z",
+   "views": 815,
+   "views_24h": null,
+   "item": "vci-20261127-100525"
+  },
+  {
+   "platform": "youtube",
+   "title": "LA SUPERCAR EXPLOSE SON AVANT 😱 GTA 6 #Shorts",
+   "published_at": "2026-11-27T17:30:21Z",
+   "views": 443,
+   "views_24h": null,
+   "item": "vci-20261127-100652"
+  },
+  {
+   "platform": "youtube",
+   "title": "CARNAGE CHEZ LE CONCESSIONNAIRE 😱 ac7ionman sur GTA 6",
+   "published_at": "2026-11-27T14:05:07Z",
+   "views": 36,
+   "views_24h": null,
+   "item": "20261126-1033-ac7ionman-clip01"
+  },
+  {
+   "platform": "youtube",
    "title": "FUSILLADE DE NUIT DANS L'ENTREPÔT 🔫 razzgo sur GTA 6",
    "published_at": "2026-11-27T11:30:38Z",
-   "views": 8,
+   "views": 36,
    "views_24h": null,
    "item": "20261126-1009-razzgo-clip02"
   },
@@ -198,32 +250,32 @@
    "platform": "youtube",
    "title": "TOP 3 PIRES FAILS SUR GTA 6 😂 le numéro 1 est une catastrophe",
    "published_at": "2026-11-26T21:30:30Z",
-   "views": 1088,
-   "views_24h": null,
+   "views": 1296,
+   "views_24h": 1212,
    "item": "20261126-V4"
   },
   {
    "platform": "youtube",
    "title": "TOP 3 MOMENTS LES PLUS FOUS SUR GTA 6 🤯 le numéro 1 est irréel",
    "published_at": "2026-11-26T21:00:27Z",
-   "views": 1,
-   "views_24h": null,
+   "views": 3,
+   "views_24h": 1,
    "item": "20261126-W2"
   },
   {
    "platform": "youtube",
    "title": "TOP 3 FUSILLADES DE LA SEMAINE SUR GTA 6 🔫 le numéro 1 c'est la guerre",
    "published_at": "2026-11-26T20:00:17Z",
-   "views": 1,
-   "views_24h": null,
+   "views": 2,
+   "views_24h": 2,
    "item": "20261126-V3"
   },
   {
    "platform": "youtube",
    "title": "TOP 5 BAGARRES LES PLUS FOLLES DE GTA 6 👊 le numéro 1 a pris cher",
    "published_at": "2026-11-26T18:30:01Z",
-   "views": 599,
-   "views_24h": null,
+   "views": 613,
+   "views_24h": 608,
    "item": "20261126-V2"
   },
   {
@@ -246,15 +298,15 @@
    "platform": "youtube",
    "title": "LE TOP 5 GTA 6 DE LA SEMAINE 🔥 le numéro 1 est complètement fou",
    "published_at": "2026-11-26T13:45:26Z",
-   "views": 135,
-   "views_24h": 135,
+   "views": 142,
+   "views_24h": 141,
    "item": "top5-semaine-20261126"
   },
   {
    "platform": "youtube",
    "title": "LEONIDA 🌅 GTA 6 en 30 secondes sur Save Your Tears",
    "published_at": "2026-11-25T15:08:08Z",
-   "views": 556,
+   "views": 562,
    "views_24h": null,
    "item": null
   },
@@ -270,7 +322,7 @@
    "platform": "youtube",
    "title": "Ce moment GTA 6 chez Tobias 🔥",
    "published_at": "2026-11-24T19:43:16Z",
-   "views": 222,
+   "views": 221,
    "views_24h": null,
    "item": null
   },
@@ -343,46 +395,6 @@
    "title": "Quiz GTA 6 : les cinq véhicules de l'Ultimate Edition",
    "published_at": "2026-11-21T14:08:51Z",
    "views": 274,
-   "views_24h": null,
-   "item": null
-  },
-  {
-   "platform": "youtube",
-   "title": "GTA ranked: Liberty City to Leonida, my bold number one",
-   "published_at": "2026-11-21T13:21:14Z",
-   "views": 23,
-   "views_24h": null,
-   "item": null
-  },
-  {
-   "platform": "youtube",
-   "title": "GTA classés: de Liberty City à Leonida, mon numéro un osé",
-   "published_at": "2026-11-21T13:20:41Z",
-   "views": 139,
-   "views_24h": null,
-   "item": null
-  },
-  {
-   "platform": "youtube",
-   "title": "GTA 6 Ultimate Edition vehicles: all five Rockstar shows",
-   "published_at": "2026-11-21T13:20:35Z",
-   "views": 1023,
-   "views_24h": null,
-   "item": null
-  },
-  {
-   "platform": "youtube",
-   "title": "GTA 6 Ultimate Edition : les cinq véhicules dévoilés",
-   "published_at": "2026-11-21T13:20:29Z",
-   "views": 141,
-   "views_24h": null,
-   "item": null
-  },
-  {
-   "platform": "youtube",
-   "title": "GTA 6 Jason and Lucia: Rockstar's sunny vs dark side",
-   "published_at": "2026-11-19T23:00:10Z",
-   "views": 265,
    "views_24h": null,
    "item": null
   }

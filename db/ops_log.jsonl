@@ -165,3 +165,10 @@
 {"at": "2026-11-27T23:11:59+00:00", "job": "post_buffer", "result": "ok", "detail": "not connected (add the secret BUFFER_API_KEY)"}
 {"at": "2026-11-27T23:11:59+00:00", "job": "verify_youtube", "result": "ok", "detail": "nothing to verify"}
 {"at": "2026-11-27T23:12:00+00:00", "job": "analytics_collect", "result": "ok", "detail": "78 YouTube readings (TikTok needs a CSV import)"}
+{"at": "2026-11-28T00:04:36+00:00", "job": "approvals", "result": "ok", "detail": "no new decision"}
+{"at": "2026-11-28T00:04:38+00:00", "job": "reviews", "result": "ok", "detail": "no new verdict"}
+{"at": "2026-11-28T00:04:38+00:00", "job": "calendar", "result": "ok", "detail": "youtube 1/6 today | tiktok 2/8 today"}
+{"at": "2026-11-28T00:04:38+00:00", "job": "post_buffer", "result": "ok", "detail": "not connected (add the secret BUFFER_API_KEY)"}
+{"at": "2026-11-28T00:04:38+00:00", "job": "verify_youtube", "result": "ok", "detail": "nothing to verify"}
+{"at": "2026-11-28T00:04:39+00:00", "job": "analytics_collect", "result": "ok", "detail": "78 YouTube readings (TikTok needs a CSV import)"}
+{"at": "2026-11-28T00:04:39+00:00", "job": "analytics_report", "result": "ok", "detail": "youtube: 127 videos, 6 with 24 h; tiktok: 5 videos, 0 with 24 h"}
