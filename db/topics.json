@@ -3,7 +3,7 @@
   "pillar": "MAP & SECRET DISCOVERIES",
   "last_24h": 7,
   "previous_24h": 2,
-  "news_24h": 39,
+  "news_24h": 41,
   "examples": [
    {
     "title": "GTA 6 Easter Egg hunting Come say | Clip",
@@ -51,8 +51,8 @@
  },
  "vehicles": {
   "pillar": "RACING & VEHICLES",
-  "last_24h": 17,
-  "previous_24h": 1,
+  "last_24h": 18,
+  "previous_24h": 0,
   "news_24h": 14,
   "examples": [
    {
@@ -76,7 +76,7 @@
     "url": "https://kick.com/aquino/clips/clip_01M8DVEDPABDXVJTJ63FJVAQ1X"
    }
   ],
-  "trend": 9.0
+  "trend": 19.0
  },
  "challenges": {
   "pillar": "CHALLENGES & EXPERIMENTS",
@@ -101,8 +101,8 @@
  },
  "funny": {
   "pillar": "VIRAL MOMENTS & CHAOS",
-  "last_24h": 74,
-  "previous_24h": 24,
+  "last_24h": 68,
+  "previous_24h": 36,
   "news_24h": 1,
   "examples": [
    {
@@ -110,34 +110,30 @@
     "url": "https://kick.com/levelup-ruben/clips/clip_01M8C2Q4CWYQPMQJ4ZW2ZHPP2R"
    },
    {
-    "title": "WE GOT SCARED LOL (GTA VI)",
-    "url": "https://kick.com/ilyjye/clips/clip_01M8D6P2HP8H1BCB6VJRQYNV56"
-   },
-   {
-    "title": "kkkkkkkkkkkkkkkkkkkkk",
-    "url": "https://kick.com/gabepeixe/clips/clip_01M8D6P0C3FMGX1KXYN3C06AY5"
-   },
-   {
-    "title": "O homem sem pinto kkkkkkkkkkkkkkkk",
-    "url": "https://kick.com/gabepeixe/clips/clip_01M8D6MAT0V695XGX3QJ27JR79"
+    "title": "Injetável kkkkkkkk",
+    "url": "https://kick.com/paulinholokobr/clips/clip_01M8DBKRV2HRKQNQ3C8ZAHWRGA"
    },
    {
     "title": "kkk",
-    "url": "https://kick.com/medeirosgoat/clips/clip_01M8D6JESWNP37Y7EGGBD0XHPB"
+    "url": "https://kick.com/astrinhoqy/clips/clip_01M8DH6CC795YAYW6DA4GJ3E8S"
+   },
+   {
+    "title": "Jajajajaj",
+    "url": "https://kick.com/rufus5z/clips/clip_01M8DGV5CDHBZJWJCQWK8Z96NY"
+   },
+   {
+    "title": "kkkk",
+    "url": "https://kick.com/astrinhoqy/clips/clip_01M8DGTA5JNVVZVCCP3S2QKQ07"
    }
   ],
-  "trend": 3.0
+  "trend": 1.86
  },
  "reactions": {
   "pillar": "VIRAL MOMENTS & CHAOS",
   "last_24h": 14,
-  "previous_24h": 1,
+  "previous_24h": 2,
   "news_24h": 3,
   "examples": [
-   {
-    "title": "Niko bellic in gta 6 😱",
-    "url": "https://kick.com/wolverinegames/clips/clip_01M8D6KXHT8GGGESD987AMNGE7"
-   },
    {
     "title": "Military grade encryption? 😱",
     "url": "https://kick.com/crystalst/clips/clip_01M8DH3Z7E4RFAJEJBN0WCVY31"
@@ -153,9 +149,13 @@
    {
     "title": "wtf lucia’s just fighting alone😱🥹",
     "url": "https://kick.com/blueprincegaming/clips/clip_01M8DMMJRM2CDCXEYCTEJA4FJS"
+   },
+   {
+    "title": "funny reaction 😂",
+    "url": "https://kick.com/sharkshe/clips/clip_01M8EBT180E4SF5K45HKP0WYEG"
    }
   ],
-  "trend": 7.5
+  "trend": 5.0
  },
  "unusual": {
   "pillar": "LEONIDA LIFE & DETAILS",
@@ -188,8 +188,8 @@
  },
  "money_tips": {
   "pillar": "CHEATS, TIPS & MONEY",
-  "last_24h": 11,
-  "previous_24h": 4,
+  "last_24h": 10,
+  "previous_24h": 5,
   "news_24h": 9,
   "examples": [
    {
@@ -213,6 +213,6 @@
     "url": "https://kick.com/jack/clips/clip_01M8E5QTG12TWN4W1P2Y8YDYAC"
    }
   ],
-  "trend": 2.4
+  "trend": 1.83
  }
 }
